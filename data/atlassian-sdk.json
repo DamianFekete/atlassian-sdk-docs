@@ -1,0 +1,137 @@
+{
+  "index": {
+    "services": {
+      "headings": [
+        {
+          "title": "Atlassian Plugin SDK",
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Getting Started with Atlassian Plugin SDK",
+              "url": "/atlassian-sdk/getting-started/"
+            }
+          ]
+        }
+      ]
+    },
+    "apis": {
+      "headings": [
+        {
+          "title": "Atlassian Plugin SDK",
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Sample API page",
+              "url": "/atlassian-sdk/apis/sample/"
+            }
+          ]
+        }
+      ]
+    },
+    "products": {
+      "headings": [
+        {
+          "title": "Atlassian Plugin SDK",
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Sample Product",
+              "url": "/atlassian-sdk/products/sample/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "title": "Atlassian Plugin SDK",
+    "name": "atlassian-sdk",
+    "url": "/atlassian-sdk/",
+    "categories": [
+      {
+        "title": "Guides",
+        "name": "devguide",
+        "url": "/atlassian-sdk/",
+        "indexLinkTitle": "Latest updates",
+        "subcategories": [
+          {
+            "title": "Introduction and basics",
+            "name": "intro",
+            "expandAlways": true,
+            "items": [
+              {
+                "title": "Getting started",
+                "url": "/atlassian-sdk/concepts/getting-started"
+              },
+              {
+                "title": "Architecture overview",
+                "url": "/atlassian-sdk/concepts/architecture"
+              },
+              {
+                "title": "Frameworks and tools",
+                "url": "/atlassian-sdk/concepts/tools"
+              }
+            ]
+          },
+          {
+            "title": "Learning",
+            "name": "intro",
+            "expandAlways": true,
+            "items": [
+              {
+                "title": "Patterns and examples",
+                "url": "/atlassian-sdk/learning/patterns"
+              },
+              {
+                "title": "Tutorials and guides",
+                "url": "/atlassian-sdk/learning/tutorials"
+              }
+            ]
+          },
+          {
+            "title": "Security",
+            "name": "intro",
+            "expandAlways": true,
+            "items": [
+              {
+                "title": "Security overview",
+                "url": "/atlassian-sdk/security/overview"
+              },
+              {
+                "title": "Authentication",
+                "url": "/atlassian-sdk/security/authentication"
+              },
+              {
+                "title": "Authorization",
+                "url": "/atlassian-sdk/security/authorization"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Reference",
+        "name": "reference",
+        "url": "/atlassian-sdk/apis/",
+        "subcategories": [
+          {
+            "title": "Atlassian Plugin SDK REST APIS",
+            "name": "rest",
+            "expandAlways": true,
+            "items": [
+              {
+                "title": "Sample API",
+                "url": "/atlassian-sdk/apis/sample/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Get help",
+        "name": "help",
+        "url": "http://www.google.com"
+      }
+    ]
+  }
+}

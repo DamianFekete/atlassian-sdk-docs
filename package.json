@@ -1,0 +1,24 @@
+{
+  "name": "@atlassian/docs-atlassian-sdk",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@atlassian/doc-scripts": "0.1.5"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "doc-scripts start",
+    "test": "doc-scripts test",
+    "preview": "doc-scripts preview",
+    "spellcheck": "doc-scripts spellcheck"
+  },
+  "docs": [
+    {
+      "//0": "Defines the root folder where your content is stored",
+      "contentDir": "/content/atlassian-sdk",
+      "//1": "Defines at which URL each folder should be placed on DAC",
+      "publishPath": "/atlassian-sdk",
+      "//2": "The srcPath defines where in the git repository these docs live and is used for the 'improve this page' links",
+      "srcPath": "/"
+    }
+  ]
+}
