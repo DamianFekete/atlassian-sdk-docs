@@ -1,0 +1,3 @@
+redirects:
+   - oldUrl: /old/path
+     newUrl: /new/path
