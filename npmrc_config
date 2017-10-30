@@ -1,0 +1,2 @@
+@atlassian:registry=https://npm-private-proxy.atlassian.io/ # note how the URL here is different!  It's the proxy one!
+//npm-private-proxy.atlassian.io/:_authToken=${NPM_TOKEN}

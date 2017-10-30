@@ -11,5 +11,6 @@ pipelines:
         caches:
           - node
         script: # Modify the commands below to build your repository.
+          - sed "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" npmrc_config > ~/.npmrc
           - npm install
           - npm test
