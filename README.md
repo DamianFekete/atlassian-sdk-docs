@@ -8,7 +8,7 @@ published to the Atlassian NPM repository.
 Inside this directory you will find the content and navigation structure for your docs. These will
 be published at:
 
-https://developer.atlassian.com/atlassian-sdk
+https://developer.atlassian.com/server/framework/atlassian-sdk
 
 ```
 README.md
