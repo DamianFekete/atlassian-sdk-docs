@@ -1,12 +1,12 @@
 ---
-title: Patterns and examples
-platform: atlassian-sdk
+title: Frameworks and tools
+platform: server/framework
 product: atlassian-sdk
 category: devguide
-subcategory: learning
+subcategory: concepts
 date: "2017-10-30"
 ---
-# Patterns and examples
+# Frameworks and tools
 
 Intentionally left empty. This is just an example.
 

@@ -1,6 +1,6 @@
 ---
 title: Index page for Atlassian Plugin SDK APIs
-platform: atlassian-sdk
+platform: server/framework
 product: atlassian-sdk
 category: reference
 subcategory: index

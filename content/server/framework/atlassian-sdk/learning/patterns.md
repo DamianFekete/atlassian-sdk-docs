@@ -1,12 +1,12 @@
 ---
-title: Getting started
-platform: atlassian-sdk
+title: Patterns and examples
+platform: server/framework
 product: atlassian-sdk
 category: devguide
-subcategory: concepts
+subcategory: learning
 date: "2017-10-30"
 ---
-# Getting started
+# Patterns and examples
 
 Intentionally left empty. This is just an example.
 

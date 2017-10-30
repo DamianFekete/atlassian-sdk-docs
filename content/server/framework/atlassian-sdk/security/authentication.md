@@ -1,6 +1,6 @@
 ---
 title: Authentication
-platform: atlassian-sdk
+platform: server/framework
 product: atlassian-sdk
 category: devguide
 subcategory: security

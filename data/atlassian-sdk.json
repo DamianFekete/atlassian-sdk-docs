@@ -8,7 +8,7 @@
           "items": [
             {
               "title": "Getting Started with Atlassian Plugin SDK",
-              "url": "/atlassian-sdk/getting-started/"
+              "url": "/server/framework/atlassian-sdk/getting-started/"
             }
           ]
         }
@@ -22,7 +22,7 @@
           "items": [
             {
               "title": "Sample API page",
-              "url": "/atlassian-sdk/apis/sample/"
+              "url": "/server/framework/atlassian-sdk/apis/sample/"
             }
           ]
         }
@@ -36,7 +36,7 @@
           "items": [
             {
               "title": "Sample Product",
-              "url": "/atlassian-sdk/products/sample/"
+              "url": "/server/framework/atlassian-sdk/products/sample/"
             }
           ]
         }
@@ -46,12 +46,12 @@
   "navigation": {
     "title": "Atlassian Plugin SDK",
     "name": "atlassian-sdk",
-    "url": "/atlassian-sdk/",
+    "url": "/server/framework/atlassian-sdk/",
     "categories": [
       {
         "title": "Guides",
         "name": "devguide",
-        "url": "/atlassian-sdk/",
+        "url": "/server/framework/atlassian-sdk/",
         "indexLinkTitle": "Latest updates",
         "subcategories": [
           {
@@ -61,15 +61,15 @@
             "items": [
               {
                 "title": "Getting started",
-                "url": "/atlassian-sdk/concepts/getting-started"
+                "url": "/server/framework/atlassian-sdk/concepts/getting-started"
               },
               {
                 "title": "Architecture overview",
-                "url": "/atlassian-sdk/concepts/architecture"
+                "url": "/server/framework/atlassian-sdk/concepts/architecture"
               },
               {
                 "title": "Frameworks and tools",
-                "url": "/atlassian-sdk/concepts/tools"
+                "url": "/server/framework/atlassian-sdk/concepts/tools"
               }
             ]
           },
@@ -80,11 +80,11 @@
             "items": [
               {
                 "title": "Patterns and examples",
-                "url": "/atlassian-sdk/learning/patterns"
+                "url": "/server/framework/atlassian-sdk/learning/patterns"
               },
               {
                 "title": "Tutorials and guides",
-                "url": "/atlassian-sdk/learning/tutorials"
+                "url": "/server/framework/atlassian-sdk/learning/tutorials"
               }
             ]
           },
@@ -95,15 +95,15 @@
             "items": [
               {
                 "title": "Security overview",
-                "url": "/atlassian-sdk/security/overview"
+                "url": "/server/framework/atlassian-sdk/security/overview"
               },
               {
                 "title": "Authentication",
-                "url": "/atlassian-sdk/security/authentication"
+                "url": "/server/framework/atlassian-sdk/security/authentication"
               },
               {
                 "title": "Authorization",
-                "url": "/atlassian-sdk/security/authorization"
+                "url": "/server/framework/atlassian-sdk/security/authorization"
               }
             ]
           }
@@ -112,7 +112,7 @@
       {
         "title": "Reference",
         "name": "reference",
-        "url": "/atlassian-sdk/apis/",
+        "url": "/server/framework/atlassian-sdk/apis/",
         "subcategories": [
           {
             "title": "Atlassian Plugin SDK REST APIS",
@@ -121,7 +121,7 @@
             "items": [
               {
                 "title": "Sample API",
-                "url": "/atlassian-sdk/apis/sample/"
+                "url": "/server/framework/atlassian-sdk/apis/sample/"
               }
             ]
           }

@@ -14,7 +14,7 @@
   "docs": [
     {
       "//0": "Defines the root folder where your content is stored",
-      "contentDir": "/content/atlassian-sdk",
+      "contentDir": "/content/server/framework/atlassian-sdk",
       "//1": "Defines at which URL each folder should be placed on DAC",
       "publishPath": "/server/framework/atlassian-sdk",
       "//2": "The srcPath defines where in the git repository these docs live and is used for the 'improve this page' links",

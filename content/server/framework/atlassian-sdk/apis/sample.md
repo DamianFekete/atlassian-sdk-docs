@@ -1,6 +1,6 @@
 ---
 title: Getting started
-platform: atlassian-sdk
+platform: server/framework
 product: atlassian-sdk
 category: reference
 subcategory: intro

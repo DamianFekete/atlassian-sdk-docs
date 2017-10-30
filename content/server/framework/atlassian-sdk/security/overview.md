@@ -1,12 +1,12 @@
 ---
-title: Tutorials and guides
-platform: atlassian-sdk
+title: Security overview
+platform: server/framework
 product: atlassian-sdk
 category: devguide
-subcategory: learning
+subcategory: security
 date: "2017-10-30"
 ---
-# Tutorials and guides
+# Security overview
 
 Intentionally left empty. This is just an example.
 
