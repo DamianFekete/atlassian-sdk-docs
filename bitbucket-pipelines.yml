@@ -7,10 +7,26 @@ image: node:6.9.4
 
 pipelines:
   default:
-    - step:
+    - step: &testStep
+        name: Test
         caches:
           - node
-        script: # Modify the commands below to build your repository.
+        script:
           - sed "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" npmrc_config > ~/.npmrc
           - npm install
-          - npm test
+  branches:
+    master:
+      - step: *testStep
+      - step:
+          name: Deploy
+          script:
+            - echo "${SSH_PUBLIC_KEY}" >> ~/.ssh/authorized_keys
+            - git config --global push.default simple
+            - git config --global user.email "${EMAIL}"
+            - git config --global user.name "${NAME}"
+            - sed "s/\${NPM_TOKEN}/${NPM_TOKEN}/g" npmrc_config > ~/.npmrc
+            - echo "${NPM_TOKEN}" | wc -c
+            - npm install
+            - npm version minor -m "%s [skip ci]"
+            - npm publish
+            - git push && git push --tags
