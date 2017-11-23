@@ -5,6 +5,10 @@
     "@atlassian/doc-scripts": "latest"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/atlassian-developers/atlassian-sdk-docs.git"
+  },
   "scripts": {
     "start": "doc-scripts start",
     "test": "doc-scripts test",
