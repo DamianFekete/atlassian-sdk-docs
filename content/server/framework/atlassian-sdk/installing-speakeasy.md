@@ -24,22 +24,21 @@ In order to start building and testing Speakeasy Extensions, you'll first need t
 
 Run through the following steps to get the Speakeasy framework installed into an Atlassian application:
 
-1.  Download and install the most recent <a href="/pages/createpage.action?spaceKey=SPEAK&amp;title=Atlassian+Plugin+SDK+Documentation" class="createlink">Plugin SDK</a> (v3.3).  
-      
-2.  Start JIRA or Confluence using <a href="/pages/createpage.action?spaceKey=SPEAK&amp;title=atlas-run-standalone" class="createlink">atlas-run-standalone</a>:  
-      
-    ``` javascript
+1.  Download and install the most recent <a href="/pages/createpage.action?spaceKey=SPEAK&amp;title=Atlassian+Plugin+SDK+Documentation" class="createlink">Plugin SDK</a> (v3.3).
+2.  Start JIRA or Confluence using <a href="/pages/createpage.action?spaceKey=SPEAK&amp;title=atlas-run-standalone" class="createlink">atlas-run-standalone</a>:
+
+    ``` bash
     atlas-run-standalone --product jira
     ```
 
-    or  
-      
-    ``` javascript
+    or
+
+    ``` bash
     atlas-run-standalone --product confluence
     ```
 
-    and login with username "admin", password "admin".  
-      
+    and login with username "admin", password "admin".
+
 3.  Navigate to **Administration &gt; Plugins &gt; Available**, find Speakeasy, and click "Install".
 
 ## Configuration
@@ -47,8 +46,7 @@ Run through the following steps to get the Speakeasy framework installed into an
 The default Speakeasy configuration restricts who can develop and enable Extensions. You'll need to change these to suit your instance.
 
 1.  Navigate to **Administration Dropdown (top right) &gt; Extensions** and click "Edit". If you do not see **Extensions**, refresh the page.
-2.  Because you're developing on an instance with no sensitive data, untick the box titled 'Restrict to non-Administrators' and click "Save."  
-      
+2.  Because you're developing on an instance with no sensitive data, untick the box titled 'Restrict to non-Administrators' and click "Save."
 
 #### Extension Security For Production Servers
 
@@ -61,6 +59,7 @@ A more sensible configuration might be to allow developers to to develop Extensi
 ## Next Steps...
 
 It's time to [start building a Speakeasy extension](https://developer.atlassian.com/display/SPEAK/Speakeasy+Extension+Development+Guide)!
+
 
 
 

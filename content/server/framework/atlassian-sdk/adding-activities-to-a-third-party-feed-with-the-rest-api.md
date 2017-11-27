@@ -76,7 +76,7 @@ Here's a brief explanation of the meaning of the fields in the document:
 
 You can post this document with any http client. For simplicity, here's how you might do it using `curl`, a widely available command line tool (assume that the above document was saved as "sample.json", and that admin / admin is a valid username / password):
 
-``` javascript
+``` bash
 curl -u admin:admin --data-binary @sample.json -H "Content-Type:application/vnd.atl.streams.thirdparty+json" http://localhost:3990/jira/rest/activities/1.0/
 ```
 
@@ -145,6 +145,7 @@ We recommend adhering to the following guidelines in order to make your activity
 -   The title of your entry should follow the pattern "Actor verbed object". For example : "Chris Okasaki committed changeset" or "Simon Jones posted a blog entry".
 -   Linked entities (issue keys, usernames, etc.) should be mentioned in the title and content. We automatically add hyperlinks to issue keys and full names (not usernames) for users.
 -   Use a 16x16 color image for the activity icon - do not omit the icon,
+
 
 
 

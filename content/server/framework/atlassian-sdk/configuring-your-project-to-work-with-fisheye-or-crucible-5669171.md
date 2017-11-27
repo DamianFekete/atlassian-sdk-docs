@@ -14,7 +14,7 @@ subcategory:
 
 Configuring your project to work with FishEye/Crucible is as simple as configuring the `maven-fecru-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
-``` javascript
+``` xml
 <plugin>
   <groupId>com.atlassian.maven.plugins</groupId>
   <artifactId>maven-fecru-plugin</artifactId>
@@ -29,6 +29,7 @@ Configuring your project to work with FishEye/Crucible is as simple as configuri
 where `amps.version` is the version of the Atlassian Plugin SDK you are using (greater than or equal to 3.4), and `ao.version` the version of the Active Objects plugin you're using (greater than or equal to 0.5.10). `fecru.version` is the version of FishEye/Crucible you are targeting (greater than or equal to 2.7.0-20110906235809).
 
 FishEye/Crucible version 2.7.0 bundles ActiveObjects and is fully supported
+
 
 
 

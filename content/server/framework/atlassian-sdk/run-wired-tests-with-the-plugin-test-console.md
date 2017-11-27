@@ -38,11 +38,18 @@ Finally, since your tests are running in the product, you can test your plugins 
 
 The Atlassian Wired Test Framework includes some enhancements that causes difference in how you use JUnit annotation inside of Atlassian Wired Tests. The following table lists these differences.
 
-| Standard JUnit Test                                                                | Atlassian Wired Test                                                                                                                      |
-|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Requires a single zero-argument, public constructor.                               | Can use constructor for dependency injection.                                                                                             |
-| Tests are stateless and every method is run on its own instance of the test class. | Tests are stateful. All methods run on the same test class instance. You must be careful to clean up any data at the end of your methods! |
-| `@BeforeClass` and `@AfterClass` must annotate a `public static void` method.      | `@BeforeClass` and `@AfterClass `must ***not*** annotate a static method. These methods ***should*** annotate a `public void` method.     |
+ 
+
+-   **Standard JUnit Test**: Requires a single zero-argument, public constructor.
+-   **Atlassian Wired Test**: Can use constructor for dependency injection.  
+      
+-   **Standard JUnit Test**: Tests are stateless and every method is run on its own instance of the test class.
+-   **Atlassian Wired Test**: Tests are stateful. All methods run on the same test class instance. You must be careful to clean up any data at the end of your methods!  
+      
+-   **Standard JUnit Test**: `@BeforeClass` and `@AfterClass` must annotate a `public static void` method.
+-   **Atlassian Wired Test**: `@BeforeClass` and `@AfterClass `must ***not*** annotate a static method. These methods ***should*** annotate a `public void` method.
+
+ 
 
 The `@Before` and `@After` annotations remain the same both in standard and wired tests; they annotate `public void` methods.
 
@@ -54,7 +61,7 @@ If you have followed along through this tutorial, you should already have the co
 2.  Open the `pom.xml` file.
 3.  Make sure you have the following wired test dependencies:
 
-    ``` javascript
+    ``` xml
     <dependencies>
     ....
 
@@ -83,7 +90,7 @@ If you have followed along through this tutorial, you should already have the co
 
 4.  Make sure that your JUnit dependency is set to 4.10 or higher:
 
-    ``` javascript
+    ``` xml
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -94,7 +101,7 @@ If you have followed along through this tutorial, you should already have the co
 
 5.  Make your project `<properties>` include the following values:
 
-    ``` javascript
+    ``` xml
     <amps.version>4.1</amps.version>
     <plugin.testrunner.version>1.1</plugin.testrunner.version>
     ```
@@ -113,7 +120,7 @@ If you are following along with this tutorial, the `atlassian-plugin.xml` descri
 2.  `Open the atlassian-plugin.xml` file.  
     It should look similar to the following:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}-tests" name="${project.name}" plugins-version="2">
        <plugin-info>
             <description>${project.description}</description>
@@ -131,7 +138,7 @@ If you are following along with this tutorial, the `atlassian-plugin.xml` descri
 3.  Note that your test project `key` is different from your project's `key`.  
     The test `key` has a  `-tests` identifier at the end of the plugin key as follows:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}-tests" name="${project.name}" plugins-version="2">
      ...
     ```
@@ -154,14 +161,18 @@ Now, you are ready to run the host application and view your tests in the Plugin
 2.  Change directory to the `PLUGIN_HOME` directory.
 3.  Start the application with the `atlas-debug` command.
 
-        atlas-debug
+    ``` bash
+    atlas-debug
+    ```
 
     When the command succeeds, it displays the URL for the host application:
 
-        ...
-        [INFO] jira started successfully in 106s at http://localhost:2990/jira
-        [INFO] Type Ctrl-D to shutdown gracefully
-        [INFO] Type Ctrl-C to exit
+    ``` bash
+    ...
+    [INFO] jira started successfully in 106s at http://localhost:2990/jira
+    [INFO] Type Ctrl-D to shutdown gracefully
+    [INFO] Type Ctrl-C to exit
+    ```
 
 4.  Copy and paste the URL into your browser's address field.
 5.  The browser displays the host application, in the case of this tutorial, JIRA. 
@@ -182,7 +193,7 @@ Like any other Atlassian plugin, you can use the FastDev feature with your test 
 3.  Add the `@Ignore` annotation to the `testMyName()` method.
 4.  Add the Ignore import to the test file:
 
-    ``` javascript
+    ``` bash
     import org.junit.Ignore;
     ```
 
@@ -200,6 +211,7 @@ Like any other Atlassian plugin, you can use the FastDev feature with your test 
 This page taught you how to code using the Atlassian Wired Test Framework.  Tests that use this framework are plugins that use Spring dependency injection to run inside an Atlassian host application.  When you use the framework, you have access to the Plugin Test Console.  This console allows you to run test and view their results right in the application.  When your underlying test code changes, the system recognizes the change and launches FastDev to rebuild your tests.
 
 At this point, all you really need is some test data. In the next section, you learn [how to seed your host application with test data](/server/framework/atlassian-sdk/create-test-data-and-a-test-fixture).
+
 
 
 

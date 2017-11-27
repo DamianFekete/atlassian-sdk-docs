@@ -61,7 +61,9 @@ The rest of this page shows you what you need to do to make a new provider for A
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you are done, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    $ git clone https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample
+``` bash
+$ git clone https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample
+```
 
 Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample" class="uri external-link">https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample</a>.
 
@@ -119,7 +121,7 @@ Optionally, you can add these implementations as needed:
 
 It looks something like this, with the nested elements being optional based on whether you are using them or not:
 
-``` javascript
+``` xml
     <activity-streams-provider key="external-provider" name="External Provider" i18n-name-key="streams.external.provider.name"
                        class="com.atlassian.streams.ExternalStreamsActivityProvider">
         <filter-provider class="com.atlassian.streams.ExternalFilterOptionProvider" />
@@ -133,7 +135,7 @@ It looks something like this, with the nested elements being optional based on w
 
 In your StreamsActivityProvider.getActivityFeed implementation, you will need to create the entries for the items you want to appear in the stream. The sample plugin does this in ExternalStreamsActivityProvider:
 
-``` javascript
+``` java
     /**
      * Transforms a single {@link AuditLogEntry} to a {@link StreamsEntry}.
      * @param auditLogEntry the log entry
@@ -191,7 +193,7 @@ In your StreamsActivityProvider.getActivityFeed implementation, you will need to
 
 Here are some examples of the renderer implementation that show where method results end up in the gadget.
 
-``` javascript
+``` java
 new StreamsEntry.Renderer()
 {
     public StreamsEntry.Html renderTitleAsHtml(StreamsEntry entry)
@@ -213,7 +215,7 @@ new StreamsEntry.Renderer()
 
 ![](/server/framework/atlassian-sdk/images/stream-placeholders2-crop.png)
 
-``` javascript
+``` java
 new StreamsEntry.Renderer()
 {
     public StreamsEntry.Html renderTitleAsHtml(StreamsEntry entry)
@@ -247,6 +249,7 @@ The sample plugin adds entries from the UPM (Universal Plugin Manager) audit log
 Additionally, if you specify filters in your implementation of `StreamsFilterOptionProvider`, you can have your own provider-specific Activity Streams filters. The sample plugin includes filters for various kinds of plugin activity.
 
 ![](/server/framework/atlassian-sdk/images/activity-filters.png)
+
 
 
 

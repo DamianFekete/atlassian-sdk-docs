@@ -29,106 +29,91 @@ The root element for the Servlet plugin module is **`servlet`**. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>class</p></td>
-<td><p>Yes</p></td>
-<td><p>The servlet Java class. Must be a subclass of <code>javax.servlet.http.HttpServlet</code>. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
-<td><p> </p></td>
+<td><p>The servlet Java class. Must be a subclass of <code>javax.servlet.http.HttpServlet</code>.</p>
+<p>See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p>state</p></td>
-<td><p> </p></td>
-<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
-<td><p>enabled</p></td>
+<td><p>state</p>
+<p> </p></td>
+<td><p>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</p>
+<p><strong>Default:</strong> enabled.</p></td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
-<td><p> </p></td>
 <td>The localisation key for the human-readable name of the plugin module.</td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
-<td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
 I.e. the identifier of the servlet.</td>
-<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>name</p></td>
-<td><p> </p></td>
-<td><p>The human-readable name of the plugin module. I.e. the human-readable name of the servlet.</p></td>
-<td><p>The plugin key.</p></td>
+<td><p>The human-readable name of the plugin module. </p>
+<p>I.e. the human-readable name of the servlet.</p>
+<p><strong>Default:</strong> the plugin key.</p></td>
 </tr>
 <tr class="even">
 <td><p>system</p></td>
-<td><p> </p></td>
-<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
-<td><p>false</p></td>
+<td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
+<p><strong>Default:</strong> false.</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*class and key attributes are default.**
+
+ 
 
 #### Elements
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>description</p></td>
-<td><p> </p></td>
-<td><p>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. I.e. the description of the servlet.</p></td>
-<td><p> </p></td>
+<td><p>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. </p>
+<p>I.e. the description of the servlet.</p></td>
 </tr>
 <tr class="even">
-<td><p>init-param</p></td>
-<td><p> </p></td>
-<td><p>Initialisation parameters for the servlet, specified using <code>param-name</code> and <code>param-value</code> sub-elements, just as in <code>web.xml</code>. This element and its child elements may be repeated.</p></td>
-<td><p>N/A</p></td>
+<td><p>init-param</p>
+<p> </p></td>
+<td><p>Initialisation parameters for the servlet, specified using <code>param-name</code> and <code>param-value</code> sub-elements,</p>
+<p>just as in <code>web.xml</code>. This element and its child elements may be repeated.</p></td>
 </tr>
 <tr class="odd">
 <td><p>resource</p></td>
-<td><p> </p></td>
 <td>A resource for this plugin module. This element may be repeated. A 'resource' is a non-Java file that a plugin may need in order to operate. Refer to <a href="https://developer.atlassian.com/display/DOCS/Adding+Resources+to+your+Project">Adding Resources to your Project</a> for details on defining a resource.</td>
-<td><p>N/A</p></td>
 </tr>
 <tr class="even">
 <td><p>url-pattern</p></td>
-<td><p>Yes</p></td>
 <td><p>The pattern of the URL to match. This element may be repeated.</p>
+<p></p>
 <p>The URL pattern format is used in Atlassian plugin types to map them to URLs. On the whole, the pattern rules are consistent with those defined in the Servlet 2.3 API. The following wildcards are supported:</p>
 <ul>
 <li>* matches zero or many characters, including directory slashes</li>
@@ -139,16 +124,28 @@ I.e. the identifier of the servlet.</td>
 <li><code>/mydir/*</code> matches <code>/mydir/myfile.xml</code></li>
 <li><code>/*/admin/*.??ml</code> matches <code>/mydir/otherdir/admin/myfile.html</code></li>
 </ul></td>
-<td><p>N/A</p></td>
+</tr>
+<tr class="odd">
+<td><p>name</p></td>
+<td><p>The human-readable name of the plugin module.</p>
+<p>I.e. the human-readable name of the servlet.</p>
+<p><strong>Default:</strong> the plugin key.</p></td>
+</tr>
+<tr class="even">
+<td><p>system</p></td>
+<td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
+<p><strong>Default:</strong> false.</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*url-pattern element is required.**
 
 ## Example
 
 Here is an example `atlassian-plugin.xml` file containing a single servlet:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World Servlet" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>A basic Servlet module test - says "Hello World!</description>
@@ -183,6 +180,7 @@ Some information to be aware of when developing or configuring a Servlet plugin 
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

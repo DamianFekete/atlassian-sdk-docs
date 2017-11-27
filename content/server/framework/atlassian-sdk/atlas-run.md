@@ -37,111 +37,86 @@ Interpreted parameters:
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Full Parameter</p></th>
-<th><p>Shortened</p></th>
-<th><p>Accepts a Value?</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>--version</p></td>
-<td><p>-v</p></td>
-<td><p>Yes</p></td>
 <td><p>Version of the application to run. Default is <code>RELEASE</code>. Examples:</p>
 <ul>
 <li><code>3.1</code></li>
-<li><code>3.1-m7</code></li>
-</ul></td>
+<li><code>3.1-m7</code><code></code></li>
+</ul>
+<p><code>Shortened: -v</code></p></td>
 </tr>
 <tr class="even">
 <td><p>--container</p></td>
-<td><p>-c</p></td>
-<td><p>Yes</p></td>
-<td><p>Container to run in. Default is <code>tomcat7x</code>. Other available values are <code>tomcat5x</code>, <code>resin3x</code> and <code>jboss42x</code>.</p></td>
+<td><p>Container to run in. Default is <code>tomcat7x</code>. Other available values are <code>tomcat5x</code>, <code>resin3x</code> and <code>jboss42x</code>.</p>
+<p><strong>Shortened: -c</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>--http-port</p></td>
-<td><p>-p</p></td>
-<td><p>Yes</p></td>
-<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html#ports">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p></td>
+<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html#ports">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p>
+<p><strong>Shortened: -p</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>--context-path</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
 <p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Host name of the application server. The default is <code>localhost</code>.</p></td>
 </tr>
 <tr class="even">
 <td><p>--jvmargs</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Additional JVM arguments if required.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--log4j</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Log4j properties file.</p></td>
 </tr>
 <tr class="even">
 <td><p>--test-version</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Version to use for test resources. Default is <code>LATEST</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--sal-version</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Version of SAL (<a href="https://developer.atlassian.com/display/SAL">Shared Access Layer</a>) to use.</p></td>
 </tr>
 <tr class="even">
 <td><p>--rest-version</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module">Atlassian REST module</a> to use.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--plugins</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>A list of plugin artifacts, separated by commas, in the form <code>GROUP_ID:ARTIFACT_ID:VERSION</code>. Version is optional. Default is <code>LATEST</code>. These plugins will be installed into your local version of your plugin's host application.</p></td>
 </tr>
 <tr class="even">
 <td><p>--lib-plugins</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>A list of lib artifacts, separated by commas, in the form <code>GROUP_ID:ARTIFACT_ID:VERSION</code>. Version is optional. Default is <code>LATEST</code>. Use this to add additional JARs into your <code>/lib</code> folder.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--bundled-plugins</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>A list of bundled plugin artifacts, separated by commas, in the form <code>GROUP_ID:ARTIFACT_ID:VERSION</code>. Version is optional. Default is <code>LATEST</code>. These plugins will be loaded as bundled plugins in your local version of your plugin's host application.</p></td>
 </tr>
 <tr class="even">
 <td><p>--product</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>The application to launch with the plugin. You might use this if your plugin is written for one application (as specified in the POM) but you want to install the plugin into another application.</p></td>
 </tr>
 </tbody>
 </table>
+
+**All above accepts a value.**
+
+ 
 
 {{% note %}}
 
@@ -233,6 +208,7 @@ Say you want to run that RefApp plugin in multiple applications simultaneously. 
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
 
 
 

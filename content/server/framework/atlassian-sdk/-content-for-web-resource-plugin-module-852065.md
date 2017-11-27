@@ -24,141 +24,116 @@ The root element for the Web Resource plugin module is `web-resource`. It allows
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>class</p></td>
-<td><p> </p></td>
-<td><p>The class which implements this plugin module. The class you need to provide depends on the module type. For example, Confluence theme, layout and colour-scheme modules can use classes already provided in Confluence. So you can write a theme-plugin without any Java code. But for macro and listener modules you need to write your own implementing class and include it in your plugin. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
-<td><p> </p></td>
+<td>The class which implements this plugin module. The class you need to provide depends on the module type. For example, Confluence theme, layout and colour-scheme modules can use classes already provided in Confluence. So you can write a theme-plugin without any Java code. But for macro and listener modules you need to write your own implementing class and include it in your plugin. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</td>
 </tr>
 <tr class="even">
-<td><p>state</p></td>
-<td><p> </p></td>
-<td><p>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</p></td>
-<td><p>enabled</p></td>
+<td><p>state</p>
+<p>(<strong>default:</strong> enabled)</p></td>
+<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
-<td><p> </p></td>
-<td><p>The localisation key for the human-readable name of the plugin module.</p></td>
-<td><p> </p></td>
+<td>The localisation key for the human-readable name of the plugin module.</td>
 </tr>
 <tr class="even">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
 That is, the identifier of the web resource.</td>
-<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
-<td><p>name</p></td>
-<td><p> </p></td>
-<td><p>The human-readable name of the plugin module. That is, the human-readable name of the web resource.</p></td>
-<td><p>The plugin key</p></td>
+<td><p>name</p>
+<p>(<strong>default:</strong> the plugin key)</p></td>
+<td><p>The human-readable name of the plugin module. That is, the human-readable name of the web resource.</p></td>
 </tr>
 <tr class="even">
-<td><p>system</p></td>
-<td><p> </p></td>
+<td><p>location</p></td>
+<td><p>The <a href="https://developer.atlassian.com/display/JIRADEV/Web+Fragments#WebFragments-Locations">location</a> into which this web item should be placed.</p></td>
+</tr>
+<tr class="odd">
+<td><p>system</p>
+<p>(<strong>default:</strong> false)</p></td>
 <td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
-<td>false</td>
 </tr>
 </tbody>
 </table>
+
+**\*key attribute is required**
 
 #### Elements
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>description</p></td>
-<td><p> </p></td>
-<td>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. That is, the description of the resource.</td>
-<td><p> </p></td>
+<td>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. That is, the description of the resource.</td>
 </tr>
 <tr class="even">
-<td><p>resource</p></td>
-<td><p>Yes</p></td>
-<td>A resource for this plugin module. This element may be repeated. A 'resource' is a non-Java file that a plugin may need in order to operate. Refer to <a href="https://developer.atlassian.com/display/DOCS/Adding+Resources+to+your+Project">Adding Resources to your Project</a> for details on defining a resource.Currently, supported file types are .css and .js.<br />
-For web resources, the <code>type</code> attribute must be 'download'.</td>
-<td><p>N/A</p></td>
+<td><p>resource</p>
+<p> </p></td>
+<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
 </tr>
 <tr class="odd">
 <td><p>dependency</p></td>
-<td><p> </p></td>
-<td><p>Dependencies for the web resource module. A web resource can depend on other web resource(s) to be available. Dependencies are defined in the format 'pluginKey:webResourceKey' e.g. <code>&lt;dependency&gt;com.atlassian.auiplugin:ajs&lt;/dependency&gt;</code><br />
-Note: This element is only available in <a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.2+Release+Notes">Plugin Framework 2.2</a> and later.</p></td>
-<td><p>N/A</p></td>
+<td>Dependencies for the web resource module. A web resource can depend on other web resource(s) to be available. Dependencies are defined in the format 'pluginKey:webResourceKey' e.g. <code>&lt;dependency&gt;com.atlassian.auiplugin:ajs&lt;/dependency&gt;</code><br />
+Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852077">Plugin Framework 2.2</a> and later.</td>
 </tr>
 <tr class="even">
 <td><p>context</p></td>
-<td><p> </p></td>
-<td><p>Use this element to include web resources like CSS and JavaScript on all screens of a specific type in the application. See below.<br />
-Note: This element is only available in <a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Plugin Framework 2.5</a> and later.</p></td>
-<td><p> </p></td>
+<td>Use this element to include web resources like CSS and JavaScript on all screens of a specific type in the application. See below.<br />
+Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Plugin Framework 2.5</a> and later.</td>
 </tr>
 <tr class="odd">
 <td><p>transformation</p></td>
-<td><p> </p></td>
 <td><p>Use this element to make a particular transformer available to the web resource in the plugin. Example:</p>
-<div class="panel pdl code" style="border-width: 1px;">
-<div class="panelContent pdl codeContent">
-<pre class="sourceCode javascript" id="cb1" data-syntaxhighlighter-params="brush: jscript; gutter: false; theme: Confluence" data-theme="Confluence"><code class="sourceCode javascript"><div class="sourceLine" id="cb1-1" data-line-number="1"><span class="op">&lt;</span>transformation extension<span class="op">=</span><span class="st">&quot;txt&quot;</span><span class="op">&gt;</span></div>
-<div class="sourceLine" id="cb1-2" data-line-number="2">  <span class="op">&lt;</span>transformer key<span class="op">=</span><span class="st">&quot;template&quot;</span> /&gt;</div>
-<div class="sourceLine" id="cb1-3" data-line-number="3">&lt;/transformation<span class="op">&gt;</span></div></code></pre>
-</div>
-</div>
+<p> </p>
+<pre><code>&lt;transformation extension=&quot;txt&quot;&gt;
+  &lt;transformer key=&quot;template&quot; /&gt;
+&lt;/transformation&gt;</code></pre>
+<p> </p>
 <p>For a complete description, please refer to the page on <a href="/server/framework/atlassian-sdk/web-resource-transformer-plugin-module">Web Resource Transformer Plugin Modules</a>.<br />
-Note: This element is only available in <a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Plugin Framework 2.5</a> and later.</p></td>
-<td><p> </p></td>
+Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Plugin Framework 2.5</a> and later.</p></td>
 </tr>
 <tr class="even">
 <td><p>condition</p></td>
-<td><p> </p></td>
 <td><p>Use this element to define when this web resource should display or not.  See <a href="/server/framework/atlassian-sdk/web-item-plugin-module-852014.html#conditionand-conditions-elements">Web Item Conditions</a> for more information.<br />
 Note: This element is only available in Plugin Framework 2.7 or later.</p></td>
-<td><p> </p></td>
 </tr>
 </tbody>
 </table>
+
+**\*resource element is required**
 
 ## Example
 
 Here is an example `atlassian-plugin.xml` file containing a single web resource:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World Resource" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>A basic web resource module test</description>
@@ -177,7 +152,7 @@ Here is an example `atlassian-plugin.xml` file containing a single web resource:
 
 In your plugin, you need to refer to a `PageBuilderService` and call the `requireResource()` method. A reference to a `PageBuilderService` can be injected into your constructor:
 
-``` javascript
+``` java
 public MyServlet extends HttpServlet
 {
     private PageBuilderService pageBuilderService;
@@ -198,7 +173,7 @@ public MyServlet extends HttpServlet
 
 ## Web Resource Contexts
 
-In [version 2.5](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes) and later of the Plugin Framework, you can automatically include web resources like CSS and JavaScript on all screens of a specific type in the application. These are called 'web resource contexts'. The currently available contexts are:
+In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later of the Plugin Framework, you can automatically include web resources like CSS and JavaScript on all screens of a specific type in the application. These are called 'web resource contexts'. The currently available contexts are:
 
 <table>
 <colgroup>
@@ -216,7 +191,7 @@ In [version 2.5](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framewo
 <td><p>atl.general</p></td>
 <td><p>Everywhere except administration screens.</p>
 {{% note %}}
-<div class="confluence-information-macro-note confluence-information-macro">
+<div class="confluence-information-macro confluence-information-macro-note">
 <div class="confluence-information-macro-body">
 <p>An issue prevents this context from working in the JIRA login page in JIRA 5.x and later. See <a href="https://jira.atlassian.com/browse/JRA-27960" class="uri external-link">https://jira.atlassian.com/browse/JRA-27960</a> for more information and a work-around.</p>
 </div>
@@ -242,7 +217,7 @@ The above contexts are applicable to all Atlassian applications. In addition to 
 
 **Example:** To configure your web resource to be included in every page (both administration and non-administration pages), add `<context>` child elements to your `<web-resource>` element in your `atlassian-plugin.xml`:
 
-``` javascript
+``` xml
 <web-resource name="Resources" key="resources">
        <resource name="foo.js" type="download" location="resources/foo.js"/>
        <context>atl.general</context>
@@ -271,14 +246,14 @@ The default mode for serving web resources in Plugin Framework 2.2 is batched mo
 
 URLs for batched resources are in the following format:
 
-``` javascript
+``` bash
 SERVER_ROOT/s/BUILD_NUM/PLUGIN_VERSION/SYSTEM_COUNTER/_/download/batch/js/PLUGIN_KEY:MODULE_KEY/BATCHNAME.js
 SERVER_ROOT/s/BUILD_NUM/PLUGIN_VERSION/SYSTEM_COUNTER/_/download/batch/css/PLUGIN_KEY:MODULE_KEY/BATCHNAME.css
 ```
 
 For the above scriptaculous example, the following code will be inserted in the header of the page:
 
-``` javascript
+``` xml
 <script type="text/javascript"
   src="http://jira.example.com/s/170/1.0/1/_/download/batch/js/jira.extra.impresence:scriptaculous/jira.extra.impresence:scriptaculous.js"></script>
 ```
@@ -297,7 +272,7 @@ The plugin framework attempts to help by rewriting URLs in stylesheets to be rel
 
 ## Transforming Web Resources
 
-!!! Transformers are only available in [Plugin Framework 2.5](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes) and later.
+!!! Transformers are only available in [Plugin Framework 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later.
 
 The plugin framework provides web resource transformers that you can use to manipulate static web resources before they are batched and delivered to the browser.
 
@@ -311,6 +286,11 @@ For a complete description and example, please refer to the page on Web Resource
 ## Notes
 
 -   Since the resources are returned with headers that tell the browser to cache the content indefinitely, during development, you may need to hold down the "shift" key while reloading the page to force the browser to re-request the files.
+
+Use this element to make a particular transformer available to the web resource in the plugin. Example:
+
+  
+
 
 
 

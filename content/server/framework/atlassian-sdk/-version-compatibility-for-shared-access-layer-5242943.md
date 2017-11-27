@@ -53,7 +53,10 @@ Confluence 6.1</td>
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link">JIRA 7.4 platform</a></td>
+<td><p><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.6.x+platform+release+notes" class="external-link">JIRA 7.6 platform<br />
+</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.5.x+platform+release+notes" class="external-link">JIRA 7.5 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
+</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.4.x+platform+release+notes" class="external-link">JIRA 7.4 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
+</a></p></td>
 <td><p><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.5+release+notes" class="external-link">Bitbucket Server 5.5</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.4+release+notes" class="external-link"><br />
 Bitbucket Server 5.4</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.3+release+notes" class="external-link"><br />
 Bitbucket Server 5.</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.2+release+notes" class="external-link">3<br />
@@ -68,7 +71,7 @@ Bitbucket Server 5.2<br />
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="https://confluence.atlassian.com/display/AdminJIRAServer073" class="external-link">JIRA 7.3 platform</a></td>
+<td><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.3.x+platform+release+notes" class="external-link">JIRA 7.3 platform</a></td>
 <td> </td>
 </tr>
 <tr class="odd">
@@ -290,6 +293,7 @@ FishEye 3.2</a></td>
 </table>
 
 INFO: There is also a detailed list of [services available per application](/server/framework/atlassian-sdk/sal-services).
+
 
 
 

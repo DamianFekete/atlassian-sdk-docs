@@ -24,7 +24,7 @@ In most cases, and this is advised to do so, your interfaces will extends `net.j
 
 `Entity` is defined as follow:
 
-``` javascript
+``` java
 public interface Entity extends RawEntity<Integer>
 {
     @AutoIncrement
@@ -42,7 +42,7 @@ Annotations here are self explanatory, but for good measure:
 
 Here is a simple example of an entity that extends this class. This code is an extract from the <a href="https://bitbucket.org/activeobjects/ao-dogfood-blog/src/9958325ad566/src/main/java/net/java/ao/blog/db/Blog.java" class="external-link">dogfood blog</a>:
 
-``` javascript
+``` java
 public interface Blog extends Entity
 {
     public String getName();
@@ -56,7 +56,7 @@ Active Objects will take care of naming the table and column names according to 
 
 Once an entity is defined, creating and persisting an object represented by that entity is very simple, given an `EntityManager`:
 
-``` javascript
+``` java
 private Blog createBlog() throws SQLException
 {
     final Blog blog = entityManager.create(Blog.class); 
@@ -72,7 +72,7 @@ This code can be found in the <a href="https://bitbucket.org/activeobjects/ao-do
 
 The previous way of creating an entity works only as long as there are no "not null"-constraints on fields other than the primary key. Consider the case of someone adding a field to the sample entity:
 
-``` javascript
+``` xml
 public interface Blog extends Entity
 {
     public String getName();
@@ -86,7 +86,7 @@ public interface Blog extends Entity
 
 Now, calling `entityManager.create(Blog.class);` will not work, since the `author` field needs to be provided. The `create` call accepts parameters as well, so the code would look like this:
 
-``` javascript
+``` java
 private Blog createBlog() throws SQLException
 {     
     return entityManager.create(
@@ -98,6 +98,7 @@ private Blog createBlog() throws SQLException
 ```
 
 The column names are used here, so they must conform to the [Column names](/server/framework/atlassian-sdk/column-names) convention.
+
 
 
 

@@ -165,15 +165,13 @@ By default, REST APIs must support multiple content types.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Representation</p></th>
 <th><p>Requested via...</p></th>
-<th><p>Notes</p></th>
 </tr>
 </thead>
 <tbody>
@@ -184,7 +182,6 @@ By default, REST APIs must support multiple content types.
 <li><code>application/json</code> in the HTTP Accept header</li>
 <li><code>.json</code> extension</li>
 </ul></td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>XML</p></td>
@@ -193,7 +190,6 @@ By default, REST APIs must support multiple content types.
 <li><code>application/xml</code> in the HTTP Accept header</li>
 <li><code>.xml</code> extension</li>
 </ul></td>
-<td><p> </p></td>
 </tr>
 </tbody>
 </table>
@@ -248,7 +244,7 @@ Links should follow some simple rules:
 
 The following plugin entity has a `<link>` tag with a `rel` attribute identifying the entity's own ID via a URI pointing to itself:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin"/>
@@ -307,7 +303,7 @@ Collections of entities should define the following attributes:
 
 In the response below, the `<modules>` entity has a `size` attribute indicating that there are 2 plugin modules in the collection:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin"/>
@@ -334,7 +330,7 @@ Use this URI to access the plugin resource without specifying title expansion:
 
 The response will contain:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin"/>
@@ -349,7 +345,7 @@ Use the following URI to expand the `info` element in our plugin resource:
 
 Now the response will contain:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin">
@@ -367,7 +363,7 @@ Use this URI to expand the module collection in our plugin resource:
 
 The response will contain:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin"/>
@@ -391,7 +387,7 @@ Use the following URI to expand the modules inside the collection within our plu
 
 The response will contain:
 
-``` javascript
+``` xml
 <plugin key="a-plugin-key" enabled="true" expand="modules,info">
   <link rel="self" href="http://host:port/context/rest/upm/1/plugin/a-plugin-key" />
   <info name="A plugin"/>
@@ -477,7 +473,7 @@ To protect against <a href="https://en.wikipedia.org/wiki/Cross-site_request_for
 2.  For rest api classes or methods that **will** **not** be used in normal browser 'form' posts
     1.  annotate them with **@Consumes({MediaType.APPLICATION\_XML, MediaType.APPLICATION\_JSON})**
 
-        ``` javascript
+        ``` java
         Class example:
         @Path("/a")
         @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
@@ -504,7 +500,7 @@ To protect against <a href="https://en.wikipedia.org/wiki/Cross-site_request_for
     1.  As of atlassian-rest 2.8.0-m9 the [com.atlassian.plugins.rest.common.security.RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html)  annotation can be used to perform xsrf token validation on rest form submissions. This xsrf token   
         validation implementation uses the [SAL](https://developer.atlassian.com/display/DOCS/Shared+Access+Layer) provided [XsrfTokenValidator](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenValidator.html) and  [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interfaces. A plugin which uses this annotation to provide xsrf token validation on a rest method will need to ensure that in all corresponding forms there is a hidden xsrf token parameter with a xsrf token value obtained from the [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interface. For example, the exampleXsrfTokenProtectedMethod method annotated with the [RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html) annotation in the following class
 
-        ``` javascript
+        ``` java
         @Path("/exampleXsrfTokenProtectedMethod")
         @Consumes({MediaType.TEXT_PLAIN})
         public class RestHelloWorldService {
@@ -518,7 +514,7 @@ To protect against <a href="https://en.wikipedia.org/wiki/Cross-site_request_for
 
         would have a corresponding form similar to the following
 
-        ``` javascript
+        ``` xml
         <form name="do-something" action="/rest/examplePlugin/latest/exampleXsrfTokenProtectedMethod" method="post" enctype="text/plain">
                  <input type="hidden" name="atl_token" value="xsrfTokenValueHere">
                  <input type="text" name="something">
@@ -529,7 +525,7 @@ To protect against <a href="https://en.wikipedia.org/wiki/Cross-site_request_for
 
 In version 3.0.0 and later of atlassian-rest XSRF protection is enabled by default. It is possible to opt-out of XSRF protection for a rest method by using the com.atlassian.annotations.security.XsrfProtectionExcluded annotation as provided by Atlassian annotations (versions &gt;= 0.12). Please avoid using the XsrfProtectionExcluded annotation as much as possible. For completeness, here is an example of using the XsrfProtectionExcluded annotation.
 
-``` javascript
+``` java
 package com.random.plugin.code.rest;
 
 import com.atlassian.annotations.security.XsrfProtectionExcluded;
@@ -765,7 +761,7 @@ The client's <em>cached</em> representation is still valid.</p></td>
 
 The link element is used for hyperlinking entities and as entity IDs:
 
-``` javascript
+``` xml
 <link title="This is my resource" rel="edit" href="http://host:port/context/rest/api/1/myresource" />
 ```
 
@@ -775,7 +771,7 @@ See the sections on [linking](#above) and [entity IDs](#below) above.
 
 Any request which produces a status code with no body will have a body formatted like this:
 
-``` javascript
+``` xml
 <status>
   <plugin key="a-plugin-key" version="1.0" />
   <status-code>201</status-code>
@@ -829,6 +825,7 @@ Any request which produces a status code with no body will have a body formatted
 [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Basics of Exposing REST APIs via Plugins](/server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins-4915229.html)
+
 
 
 

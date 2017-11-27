@@ -46,7 +46,7 @@ When you compile a plugin project, the SDK can automatically generate the OSGi m
 
 You add OSGi manifest instructions to your plugin using the Maven plugin configuration settings in the project POM:
 
-``` javascript
+``` xml
 <project>
   <build>
     <plugins>
@@ -79,15 +79,19 @@ See [Using the AMPS Maven Plugin Directly](https://developer.atlassian.com/disp
 
 You specify bundling instructions in the format:
 
-    package-name(wildcard);version="<major>.<minor>.<maintenance>"
+``` bash
+package-name(wildcard);version="<major>.<minor>.<maintenance>"
+```
 
 Use commas to separate multiple instructions.
 
 Here's a real-world example:
 
-    com.atlassian.confluence.events.event.space;version="[3.4,4.0)"
-    com.atlassian.confluence.search.lucene.*;version="[3.4,4.0)"
-    com.atlassian.confluence.json*;version="[3.4,4.0)"
+``` bash
+com.atlassian.confluence.events.event.space;version="[3.4,4.0)"
+com.atlassian.confluence.search.lucene.*;version="[3.4,4.0)"
+com.atlassian.confluence.json*;version="[3.4,4.0)"
+```
 
 **Specifying package names**
 
@@ -141,7 +145,7 @@ To use a package from the system bundle in your plugin, do the following:
 
 -   Add the library to your `pom.xml` under the `<dependencies>` block.
 
-``` javascript
+``` xml
 <project>
   ...
   <dependencies>
@@ -172,7 +176,7 @@ If you don't specify a scope in your dependency declaration, the scope defaults 
 
 Similarly, if you were writing a <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Servlet+Modules" class="createlink">servlet plugin</a>, you'd need to tell the SDK where to find the servlet API classes to compile against, but you wouldn't want to actually include the servlet APIs in your plugin. To do that, you'd add this to your `pom.xml`:
 
-``` javascript
+``` xml
 <project>
   ...
   <dependencies>
@@ -193,7 +197,7 @@ Having taken care of the compile time side, we turn our focus to runtime. We nee
 
 Assume your plugin requires classes from Confluence's JSON support, space events, and Lucene mechanisms. To import these Confluence packages at runtime, use the following:
 
-``` javascript
+``` xml
 <configuration>
   ...
   <instructions>
@@ -212,7 +216,7 @@ For packages that are compiled with your plugin, you can choose to export the bu
 
 To use third-party code in your plugin, you need to add a `<dependency>` just like above, but with an important change:
 
-``` javascript
+``` xml
 <project>
   ...
   <dependencies>
@@ -263,6 +267,7 @@ For more general information and strategies for declaring dependencies, componen
 [Going from Plugin to OSGi Bundle](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Going+from+Plugin+to+OSGi+Bundle)  
 <a href="http://prezi.com/ybc6itroyt40/big-modular-plugins/" class="external-link">Big Modular Plugins (AtlasCamp 2010 presentation video)<br />
 </a>[Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser)
+
 
 
 

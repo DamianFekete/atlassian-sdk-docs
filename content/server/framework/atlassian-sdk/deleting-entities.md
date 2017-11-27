@@ -18,7 +18,7 @@ title: Deleting entities
 
 When using Active Objects, deleting an entity requires that you have a reference to that entity. Of course we will be using the `EntityManager`. The actual method is `net.java.ao.EntityManager#delete(RawEntity<?>...)`:
 
-``` javascript
+``` java
 private void deleteBlog(Blog blog) throws SQLException
 {
     entityManager.delete(blog);
@@ -26,6 +26,7 @@ private void deleteBlog(Blog blog) throws SQLException
 ```
 
 Note that the delete method take a vararg argument so it is possible to delete several entities at once.
+
 
 
 

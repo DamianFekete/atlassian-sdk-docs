@@ -22,7 +22,7 @@ Finding entities in Active Objects is done through the `EntityManager` `find` me
 
 The simplest one will return all entities of a given type. This is as simple as:
 
-``` javascript
+``` java
   entityManager.find(Post.class);
 ```
 
@@ -32,7 +32,7 @@ Here all the posts are going to be returned. Note that by default Active Object 
 
 Adding a criteria is as simple as writing a SQL where clause. Here is what we would write to get the posts published between two dates:
 
-``` javascript
+``` java
   entityManager.find(Post.class, Query.select().where("published > ? AND published < ?", date1, date2));
 ```
 
@@ -40,7 +40,7 @@ Note how we made used of the `?` placeholder just as when using JDBC's prepared 
 
 We've made used of the `Query` object here, but `EntityManager` provides a shortcut that allows us to write that same query like this:
 
-``` javascript
+``` java
   entityManager.find(Post.class, "published > ? AND published < ?", date1, date2);
 ```
 
@@ -48,7 +48,7 @@ We've made used of the `Query` object here, but `EntityManager` provides a short
 
 Adding a wildcard is also much like a SQL Query, here is what we would write to get a (contrived) field that is *like* the argument:
 
-``` javascript
+``` java
   entityManager.find(Post.class, Query.select().where("SOME_FIELD LIKE ?", "%" + arg));
 ```
 
@@ -69,7 +69,7 @@ The case is especially important when working with databases such as Postgres - 
 
 The order of returned element is not guaranteed by default in SQL, so here is how to apply the order clause when using Active Objects:
 
-``` javascript
+``` java
   entityManager.find(Post.class, Query.select().order("published DESC"));
 ```
 
@@ -77,11 +77,12 @@ The order of returned element is not guaranteed by default in SQL, so here is ho
 
 There is also the possibility to limit the number of entities returned:
 
-``` javascript
+``` java
   entityManager.find(Post.class, Query.select().limit(10).offset(9));
 ```
 
 This query also starts selecting the elements from the 9th in the given order (which is not specified here). It is a good idea to specify a given order when using `offset` and `limit` for paging.
+
 
 
 

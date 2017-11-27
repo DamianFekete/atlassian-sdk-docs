@@ -23,7 +23,7 @@ title: Web Panel Renderer plugin module
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Atlassian Plugin Framework 2.5</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Atlassian Plugin Framework 2.5</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
@@ -44,64 +44,54 @@ The root element for the Web Panel Renderer plugin module is `web-panel-renderer
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>class</p></td>
-<td><p>Yes</p></td>
-<td><p>The class which implements <a href="https://studio.atlassian.com/source/browse/PLUG/trunk/atlassian-plugins-webfragment/src/main/java/com/atlassian/plugin/web/renderer/WebPanelRenderer.java?r=56664" class="external-link">com.atlassian.plugin.web.renderer.WebPanelRenderer</a>. This class is responsible for turning a web panel's content into proper HTML. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
-<td><p> </p></td>
+<td><p>The class which implements <a href="https://studio.atlassian.com/source/browse/PLUG/trunk/atlassian-plugins-webfragment/src/main/java/com/atlassian/plugin/web/renderer/WebPanelRenderer.java?r=56664" class="external-link">com.atlassian.plugin.web.renderer.WebPanelRenderer</a>.</p>
+<p>This class is responsible for turning a web panel's content into proper HTML.</p>
+<p>See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p>state</p></td>
-<td><p> </p></td>
-<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
-<td><p>enabled</p></td>
+<td><p>state</p>
+<p> </p></td>
+<td><p>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</p>
+<p><strong>Default:</strong> enabled.</p></td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
-<td><p> </p></td>
 <td>The localisation key for the human-readable name of the plugin module.</td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
-<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>name</p></td>
-<td><p> </p></td>
-<td><p>The human-readable name of the plugin module. Used only in the plugin's administrative user interface.</p></td>
-<td><p> </p></td>
+<td><p>The human-readable name of the plugin module.</p>
+<p>Used only in the plugin's administrative user interface.</p></td>
 </tr>
 <tr class="even">
 <td><p>system</p></td>
-<td><p> </p></td>
-<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
-<td><p>false</p></td>
+<td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
+<p><strong>Default:</strong> false.</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*class and key attributes are required.**
 
 ## Writing a Custom Renderer
 
@@ -111,13 +101,15 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
 1.  Using the [Atlassian Plugin SDK](https://developer.atlassian.com/display/DOCS/Working+with+the+SDK), create a new plugin for the Reference Application and make sure the generated `pom.xml` file uses version 2.5.0 or higher:
 
-        $ atlas-create-refapp-plugin
+    ``` bash
+    $ atlas-create-refapp-plugin
+    ```
 
 2.  Add the FreeMarker library to the Maven dependencies:
 
     **pom.xml**
 
-    ``` javascript
+    ``` xml
     ...
             <dependency>
                 <groupId>freemarker</groupId>
@@ -129,7 +121,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
 3.  Create your renderer class:
 
-    ``` javascript
+    ``` java
     package refapptest.freemarker;
 
     import com.atlassian.plugin.Plugin;
@@ -190,7 +182,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
     **atlassian-plugin.xml**
 
-    ``` javascript
+    ``` xml
     ...
         <web-panel-renderer key="freemarkerWebPanelRenderer" class="refapptest.freemarker.FreeMarkerWebPanelRenderer"/>
     ...
@@ -200,7 +192,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
     **atlassian-plugin.xml**
 
-    ``` javascript
+    ``` xml
     ...
         <web-panel key="aFreeMarkerPanel" location="atl.admin.body">
             <resource name="view" type="freemarker" location="templates/mytemplate.ftl"/>
@@ -212,7 +204,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
     **src/main/resources/templates/mytemplate.ftl**
 
-    ``` javascript
+    ``` xml
     <#assign color = "DarkRed">
     <div style="color: ${color};">
         <p>
@@ -229,7 +221,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
     ```
 
 7.  Start up the Reference Application using the command: `$ atlas-mvn refapp:run`)
-8.  Go to: `http://localhost:5990/refapp/admin`
+8.  Go to: <a href="http://localhost:5990/refapp/admin" class="uri external-link">http://localhost:5990/refapp/admin</a>
 
 ## Known Limitations
 
@@ -248,10 +240,13 @@ To access the full source code for this plugin, you can:
 -   <a href="http://svn.atlassian.com/fisheye/browse/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">browse it online</a>.
 -   <a href="https://svn.atlassian.com/svn/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">check it out from Subversion</a>.
 
+  
+
 ##### RELATED TOPICS
 
 [Web Panel Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Plugin+Module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

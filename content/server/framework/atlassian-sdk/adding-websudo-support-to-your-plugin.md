@@ -24,7 +24,7 @@ title: Adding WebSudo support to your plugin
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.2+Release+Notes">SAL 2.2</a> and later; <a href="/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes">REST 2.2</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242917">SAL 2.2</a> and later; <a href="/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes">REST 2.2</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
@@ -130,6 +130,7 @@ public class ATestResource
 ```
 
 This prevents websudo protection from being enforced for the `ATestResource` REST resource.
+
 
 
 

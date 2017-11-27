@@ -23,12 +23,12 @@ title: Module Type plugin module
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.1+Release+Notes">Atlassian Plugin Framework 2.1</a> and later.<br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852134">Atlassian Plugin Framework 2.1</a> and later.<br />
 <em>Note</em>: The Module Type plugin module described below is available only for OSGi-based plugins using version 2.1 or later of the Plugin Framework.</p></td>
 </tr>
 <tr class="even">
 <td><p>Changed:</p></td>
-<td><p>In <a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Atlassian Plugin Framework 2.5</a> and later, the preferred constructor for AbstractModuleDescriptor takes a ModuleFactory parameter.</p></td>
+<td><p>In <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Atlassian Plugin Framework 2.5</a> and later, the preferred constructor for AbstractModuleDescriptor takes a ModuleFactory parameter.</p></td>
 </tr>
 </tbody>
 </table>
@@ -49,98 +49,64 @@ The root element for the Module Type plugin module is `module-type`. It allows t
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>class</p></td>
-<td><p> </p></td>
-<td><p>The ModuleDescriptor class to instantiate when a new plugin module of this type is found. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
-<td><p> </p></td>
+<td><p>The ModuleDescriptor class to instantiate when a new plugin module of this type is found.</p>
+<p>See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p>state</p></td>
-<td><p> </p></td>
-<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
-<td><p>enabled</p></td>
+<td><p>state</p>
+<p> </p></td>
+<td><p>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</p>
+<p><strong>Default:</strong> enabled.</p></td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
-<td><p> </p></td>
 <td>The localisation key for the human-readable name of the plugin module.</td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
 <td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
-I.e. the identifier of the module type. This value will be used as the XML element name to match.</td>
-<td><p>N/A</p></td>
+ 
+<p>I.e. the identifier of the module type. This value will be used as the XML element name to match.</p></td>
 </tr>
 <tr class="odd">
 <td><p>name</p></td>
-<td><p> </p></td>
-<td>The human-readable name of the plugin module.</td>
-<td><p> </p></td>
+<td><p>The human-readable name of the plugin module.</p></td>
 </tr>
 <tr class="even">
 <td><p>system</p></td>
-<td><p> </p></td>
-<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
-<td><p>false</p></td>
+<td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
+<p><strong>Default:</strong> false.</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*key attribute is required.**
 
 #### Elements
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>description</p></td>
-<td><p> </p></td>
-<td>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.</td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+-   description - The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.
 
 ## Example
 
 Here is an example `atlassian-plugin.xml` file containing a plugin module type:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>A dictionary module type test</description>
@@ -154,7 +120,7 @@ Here is an example `atlassian-plugin.xml` file containing a plugin module type:
 
 Our dictionary module descriptor allows plugins to provide dictionaries that get definitions of technical terms and phrases in various languages. We have a `Dictionary` interface that looks like this:
 
-``` javascript
+``` java
 public interface Dictionary
 {
     String getDefinition(String text);
@@ -195,7 +161,7 @@ public class DictionaryModuleDescriptor extends AbstractModuleDescriptor<Diction
 
 This will add the new module type 'dictionary' to the plugin framework, allowing other plugins to use the new module type. Here is a plugin that uses the new 'dictionary' module type:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>An english dictionary</description>
@@ -209,7 +175,7 @@ This will add the new module type 'dictionary' to the plugin framework, allowing
 
 Accessing modules of your dynamic module type can be done using `com.atlassian.plugin.PluginAccessor`.
 
-``` javascript
+``` java
 // To get all the enabled modules of this module descriptor
 List<DictionaryModuleDescriptor> dictionaryModuleDescriptors =
         pluginAccessor.getEnabledModuleDescriptorsByClass(DictionaryModuleDescriptor.class);
@@ -230,7 +196,7 @@ Some information to be aware of when developing or configuring a Module Type plu
 
 -   Not all dynamic module types will need to use the `class` attribute on the modules that implement them. For example, if the above dictionary example just used a resource file to translate terms, and not an interface that plugins had to implement, plugins using the dictionary module type might look like this:
 
-    ``` javascript
+    ``` xml
     <dictionary key="myEnglishDictionary" lang="english" resource="example/plugin/english/myDictionary.properties" />
     ```
 
@@ -256,6 +222,7 @@ Some information to be aware of when developing or configuring a Module Type plu
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

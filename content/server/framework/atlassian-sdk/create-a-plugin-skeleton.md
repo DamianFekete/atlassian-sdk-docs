@@ -34,15 +34,21 @@ Here, you'll create the foundation for your plugin project in the form of a plug
 
 1.  Create a directory called `atlastutorial`. 
 
-        $ mkdir atlastutorial
+    ``` bash
+    $ mkdir atlastutorial
+    ```
 
 2.  Change to your new `atlastutorial` directory. 
 
-        $ cd atlastutorial
+    ``` bash
+    $ cd atlastutorial
+    ```
 
 3.  Generate a skeleton for your add-on. 
 
-        $ atlas-create-refapp-plugin
+    ``` bash
+    $ atlas-create-refapp-plugin
+    ```
 
 4.  Create the following when prompted.
 
@@ -59,31 +65,39 @@ Here, you'll create the foundation for your plugin project in the form of a plug
 
     The code generation runs to completion. You'll see a message similar to the following: 
 
-        [INFO]
-        -------------------------------------------------------------------- 
-        [INFO] BUILD SUCCESSFUL 
-        [INFO] 
-        -------------------------------------------------------------------- 
-        [INFO] Total time: 36 seconds [INFO] Finished at: Mon Jun 17 11:22:49 PDT 2013 
-        [INFO]
-         --------------------------------------------------------------------
+    ``` bash
+    [INFO]
+    -------------------------------------------------------------------- 
+    [INFO] BUILD SUCCESSFUL 
+    [INFO] 
+    -------------------------------------------------------------------- 
+    [INFO] Total time: 36 seconds [INFO] Finished at: Mon Jun 17 11:22:49 PDT 2013 
+    [INFO]
+     --------------------------------------------------------------------
+    ```
 
 6.  Change to the newly created `adminUI` project root.
 
-        $ cd adminUI/
+    ``` bash
+    $ cd adminUI/
+    ```
 
       
 
 7.  Remove the test directories.
 
-        $ rm -rf src/test/java/
-        $ rm -rf src/test/resources/
+    ``` bash
+    $ rm -rf src/test/java/
+    $ rm -rf src/test/resources/
+    ```
 
     These directories are automatically created from `atlas-create-refapp-plugin`, but testing isn't part of this tutorial. Removing them simplifies your work in future steps.
 
 8.  Remove Java classes from the `src/main/java` directory: 
 
-        $ rm ./src/main/java/com/atlassian/plugins/tutorial/refapp/*.java
+    ``` bash
+    $ rm ./src/main/java/com/atlassian/plugins/tutorial/refapp/*.java
+    ```
 
     You'll create a single Java class encapsulating your plugin logic in later steps.
 
@@ -93,18 +107,24 @@ When you generated the skeleton for your plugin, you specified a RefApp plugin s
 
 1.  Change directory to your project root. 
 
-        $ cd adminUI
+    ``` bash
+    $ cd adminUI
+    ```
 
 2.  Enter the following command to start up RefApp:
 
-        $ atlas-run
+    ``` bash
+    $ atlas-run
+    ```
 
 3.  Locate the RefApp URL.  
     After a few moments your terminal will display a message with the URL of the application. RefApp usually launches on port 5990. 
 
-        [INFO] [talledLocalContainer] Tomcat 6.x started on port [5990] 
-        [INFO] refapp started successfully in 46s at http://localhost:5990/refapp 
-        [INFO] Type Ctrl-D to shutdown gracefully [INFO] Type Ctrl-C to exit
+    ``` bash
+    [INFO] [talledLocalContainer] Tomcat 6.x started on port [5990] 
+    [INFO] refapp started successfully in 46s at http://localhost:5990/refapp 
+    [INFO] Type Ctrl-D to shutdown gracefully [INFO] Type Ctrl-C to exit
+    ```
 
 4.  Copy the URL and paste it into your browser.   
       
@@ -130,17 +150,23 @@ Start from a new tab in your terminal:
 
 1.  Change directory to your project root. 
 
-        $ cd adminUI
+    ``` bash
+    $ cd adminUI
+    ```
 
 2.  Make your project available to Eclipse. 
 
-        $ atlas-mvn eclipse:eclipse
+    ``` bash
+    $ atlas-mvn eclipse:eclipse
+    ```
 
 3.  Start Eclipse.  
     You can open a new tab in your terminal and run the following commands to open Eclipse. 
 
-        $ cd ~/eclipse 
-        $ ./eclipse
+    ``` bash
+    $ cd ~/eclipse 
+    $ ./eclipse
+    ```
 
 4.  Click **File &gt; Import**.  
       
@@ -164,6 +190,7 @@ Start from a new tab in your terminal:
 ## Next Steps
 
 Now that your plugin skeleton is built and imported into Eclipse, [you'll construct a servlet](https://developer.atlassian.com/display/DOCS/Convert+component+to+servlet+module).
+
 
 
 

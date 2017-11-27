@@ -46,6 +46,7 @@ If you are already defining your beans in XML, it may be more natural to also ma
 
 1.  Copy the atlassian-plugins-spring jar into your application. It contains a `META-INF/spring.handlers` file, which defines the XML namespace to use.
 2.  Add the XML namespace to all applicable Spring XML configuration files. For example:
+
     ``` xml
     <beans xmlns="http://www.springframework.org/schema/beans"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -59,17 +60,20 @@ If you are already defining your beans in XML, it may be more natural to also ma
     ```
 
 3.  Use the new namespace in your XML, marking the desired beans as available to plugins with the "available" attribute. For example:
+
     ``` xml
     <bean name="foo2" class="com.example.MyServiceImpl" plugin:available="true"/> 
     ```
 
     You can also customise the interfaces under which the bean is exposed via the "interface" sub-element:
+
     ``` xml
     <bean name="fooCustomInterfaces" class="com.example.MyServiceImpl" plugin:available="true">
        <plugin:interface>com.example.MyService</plugin:interface>
        <plugin:interface>com.example.SomeCapability</plugin:interface>
     </bean>
     ```
+
 
 
 

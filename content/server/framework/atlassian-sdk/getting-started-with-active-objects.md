@@ -157,7 +157,7 @@ First, we need to define the AO module, in the <a href="https://bitbucket.org/se
 Now we can create that first entity, `com.atlassian.tutorial.ao.todo.Todo` as referenced in the module descriptor. All new entities must be declared in the module descriptor.  
 In the Active Objects world, an entity is defined by an interface. Our `Todo` entity looks like this:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import net.java.ao.Entity;
@@ -191,7 +191,7 @@ Let's add a servlet that actually does something. First we need to define it in 
 
 And we refactor the servlet class so that it looks like this:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -333,7 +333,7 @@ Here again the code is even simpler, as there is no need for any HTML.
 
 `TransactionalCallback` needs to be imported using:
 
-``` javascript
+``` java
 import com.atlassian.sal.api.transaction.TransactionCallback;
 ```
 
@@ -531,7 +531,7 @@ Now that we've written a bit of code, it's time to do some testing. Active Objec
 
 First thing we need to do is add the needed dependencies to the `pom.xml`:
 
-``` javascript
+``` xml
 <dependency>
   <groupId>com.atlassian.activeobjects</groupId>
   <artifactId>activeobjects-test</artifactId>
@@ -554,7 +554,7 @@ For more information, see <a href="https://studio.atlassian.com/browse/AO-334" c
 
 {{% /note %}}
 
-``` javascript
+``` xml
 <dependency>
   <groupId>hsqldb</groupId>
   <artifactId>hsqldb</artifactId>
@@ -577,7 +577,7 @@ Now let's write those tests. We're going to test the `com.atlassian.tutorial.ao.
 
 We create in the test source directory a class named `com.atlassian.tutorial.ao.todo.TodoServiceImplTest` and it should look like this:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import org.junit.After;
@@ -610,7 +610,7 @@ public class TodoServiceImplTest
 
 To make sure everything is configured correctly, run the test now using `atlas-unit-test`, it should pass. Awesome, let's tell this test about Active Objects and setup our `TodoServiceImpl` instance:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.activeobjects.test.TestActiveObjects;
@@ -662,7 +662,7 @@ Here are a few things to note and understand:
 
 Let's run the test again. It passes! Great, let's move on to actually writing some tests.
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -746,7 +746,7 @@ The rest of the test should be self explanatory. As always run the tests, which 
 
 In this test all the *migration* and data is treated within each test. What if we wanted to seed the database with some data to simplify our tests? Well, let's do this:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -861,7 +861,7 @@ The strategy for converting table names and column names is explained in the [Ac
 
 In order to see what SQL queries are being issued, let's add some better logging. We'll be using `log4j` to replace the `slf4j-simple` logger. In `pom.xml`, remove the dependency on `slf4j-simple` and replace with the following:
 
-``` javascript
+``` xml
 <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>slf4j-log4j12</artifactId>
@@ -880,7 +880,7 @@ Now we simply need to configure `log4j` for the test we wrote. Let's add a `log4
 
 We want it to look like this:
 
-``` javascript
+``` java
 log4j.rootLogger = INFO, console
 
 log4j.appender.console = org.apache.log4j.ConsoleAppender
@@ -930,6 +930,7 @@ You'll notice that there are other stages to the source code. This is because [
 -   <a href="http://java.net/projects/activeobjects" class="external-link">Active Objects on java.net</a>
 -   [Active Objects Plugin Module](/server/framework/atlassian-sdk/active-objects-plugin-module)
 -   [Active Objects FAQ](/server/framework/atlassian-sdk/active-objects-faq)
+
 
 
 

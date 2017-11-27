@@ -16,7 +16,7 @@ Every plugin requires an `atlassian-plugin.xml` file. This is a single file also
 
 The following is a basic descriptor file:
 
-``` javascript
+``` xml
 <!-- Every plugin must have a key, which identifies the plugin uniquely to the system -->
 <!-- and a name, which is used to display the plugin in menus. -->
 <atlassian-plugin key="com.atlassian.confluence.plugins.example" name="The Customizer" plugins-version="2">
@@ -59,7 +59,7 @@ The following sections describe the basic elements in the descriptor XML file.
 
 The root element for your plugin descriptor. For example, the plugin descriptor file should have this structure:
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.confluence.plugins.example" name="The Customizer" plugins-version="2">
     <!-- ... -->
 </atlassian-plugin>
@@ -164,7 +164,7 @@ These nested elements are described in more detail below.
 
 Describes your plugin. Its parent element is `<plugin-info>`.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -179,7 +179,7 @@ The current version of your plugin. Its parent element is `<plugin-info>`. The U
 
 Following are some sample version numbers in ascending order: 0.99, 1.0, 1.0.1-alpha, 1.0.1-beta, 1.0.1-beta2, 1.0.1, 1.0.1.0, 1.1, 1.2, 1.10, 2.0.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -225,7 +225,7 @@ Its parent element is `<plugin-info>`.
 </tbody>
 </table>
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -261,7 +261,7 @@ The plugin vendor. Provides a link in the plugin administration screens. Its par
 </tbody>
 </table>
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -299,7 +299,7 @@ Arbitrary parameters for a plugin. Its parent element is `<plugin-info>`. These 
 
 A common example of a `param` element the URL for your plugin's configuration screen. Below is an example.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -312,7 +312,7 @@ A common example of a `param` element the URL for your plugin's configuration sc
 
 This element allows you to declare plugin dependencies and shorten your export package lists by specifying OSGi bundle instructions directly in the plugin XML. The element's parent element is `<plugin-info>`.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -340,7 +340,7 @@ The Atlassian Plugin Framework uses the <a href="http://www.aqute.biz/Code/Bnd" 
 
 In the rest of the descriptor XML file, contains any modules that make up your plugin. You can add these modules through the `atlas-`\* commands or manually. The following illustrates the addition of a `web-item` module:
 
-``` javascript
+``` xml
 <web-item name="Radio Paradise" i18n-name-key="radio-paradise.name" key="radio-paradise" section="client-sites-link/my-section" weight="1000">
     <description key="radio-paradise.description">The Radio Paradise Plugin</description>
     <label key="radio-paradise.label"></label>
@@ -349,6 +349,7 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
 
 
 

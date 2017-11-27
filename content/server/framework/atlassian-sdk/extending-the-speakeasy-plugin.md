@@ -21,58 +21,71 @@ If you so desire to improve the Speakeasy plugin itself, here are some steps to 
 Take the following steps to install the Speakeasy plugin:
 
 1.  Clone (or fork) the <a href="https://github.com/mrdon/speakeasy-plugin" class="external-link">github speakeasy-plugin</a> project via:
-    ``` javascript
+
+    ``` bash
     git clone https://github.com/mrdon/speakeasy-plugin.git
     ```
 
 2.  Start the plugin in the desired product:
     -   Refapp:
-        ``` javascript
+
+        ``` bash
         mvn refapp:debug
         ```
 
     -   Confluence:
-        ``` javascript
+
+        ``` bash
         mvn refapp:debug -Dproduct=confluence
         ```
 
     -   JIRA:
-        ``` javascript
+
+        ``` bash
         mvn refapp:debug -Dproduct=jira
         ```
+
 3.  Open pom.xml in IDEA
 4.  Start the cli for rapid deployments:
     -   Refapp:
-        ``` javascript
+
+        ``` bash
         mvn refapp:cli
         ```
 
     -   Confluence:
-        ``` javascript
+
+        ``` bash
         mvn refapp:cli -Dproduct=confluence
         ```
 
     -   JIRA:
-        ``` javascript
+
+        ``` bash
         mvn refapp:cli -Dproduct=jira
         ```
+
 5.  Visit the user profile page of Speakeasy:
     -   Refapp:
-        ``` javascript
+
+        ``` bash
         firefox http://localhost:5990/refapp/plugins/servlet/speakeasy/user
         ```
 
     -   Confluence:
-        ``` javascript
+
+        ``` bash
         firefox http://localhost:1990/confluence/plugins/servlet/speakeasy/user
         ```
 
     -   JIRA:
-        ``` javascript
+
+        ``` bash
         firefox http://localhost:2990/jira/plugins/servlet/speakeasy/user
         ```
 
 To try out extensions, you can create a new one or work on the testing plugin found in src/test/resources. It is deployed via the tpi cli command (stands for 'test plugin install')
+
 
 
 

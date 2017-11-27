@@ -85,7 +85,11 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Write a simple Confluence Blueprint plugin](/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
+    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+
+-   Page:
+
+    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
@@ -97,7 +101,7 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Extending Autoconvert](/display/CONFDEV/Extending+Autoconvert)
+    [Write a simple Confluence Blueprint plugin](/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
 
 -   Page:
 
@@ -105,13 +109,13 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Extending Autoconvert](/display/CONFDEV/Extending+Autoconvert)
+
+#### Intermediate
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
-
-#### Intermediate
+    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
 
@@ -123,19 +127,11 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
+    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+
+-   Page:
+
     [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
-
--   Page:
-
-    [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
-
--   Page:
-
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -143,7 +139,11 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+    [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
+
+-   Page:
+
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -165,11 +165,11 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Defining a Pluggable Service in a Confluence Plugin](/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
+    [Adding a field to CQL](/display/CONFDEV/Adding+a+field+to+CQL)
 
 -   Page:
 
-    [Adding a field to CQL](/display/CONFDEV/Adding+a+field+to+CQL)
+    [Defining a Pluggable Service in a Confluence Plugin](/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
 
 -   Page:
 
@@ -218,15 +218,15 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+
+-   Page:
+
     [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
 
 -   Page:
 
     [Using Logging From Your FishEye Plugin](/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
-
--   Page:
-
-    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
 
 #### Intermediate
 
@@ -236,25 +236,21 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
-
--   Page:
-
     [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
 
 -   Page:
 
     [FishEye Twitter Integration Plugin Tutorial](/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
 
+-   Page:
+
+    [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
+
 #### Advanced
 
 -   Page:
 
-    [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
-
--   Page:
-
-    [Storing Plugin Settings for FishEye](/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 -   Page:
 
@@ -262,11 +258,15 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [Storing Plugin Settings for FishEye](/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
+
+-   Page:
+
+    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 ### Related Tutorials
 
@@ -326,11 +326,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
@@ -358,6 +358,7 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
+
 
 
 

@@ -37,59 +37,46 @@ Interpreted Parameters:
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Full Parameter</p></th>
-<th><p>Shortened</p></th>
-<th><p>Accepts a Value?</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>--http-port</p></td>
-<td><p>-p</p></td>
-<td><p>Yes</p></td>
-<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html#ports">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p></td>
+<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html#ports">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p>
+<p><strong>Shortened: -p</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>--context-path</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
 <p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Host name of the application server. The default is <code>localhost</code>.</p></td>
 </tr>
 <tr class="even">
 <td><p>--username</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Username for the administrator account on the plugin's host application. Default is <code>admin</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--password</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Password for the above administrator account on the plugin's host application. Default is <code>admin</code>.</p></td>
 </tr>
 <tr class="even">
 <td><p>--plugin-key</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Unique key identifying the plugin. This is the full key specified in your <code>atlassian-plugin.xml</code>, including the group and artifact IDs. For example, <code>&quot;com.atlassian.confluence.plugins.example&quot;</code>.</p></td>
 </tr>
 </tbody>
 </table>
+
+**All above accepts a value.**
 
 ## Getting Help
 
@@ -115,6 +102,7 @@ Go to the plugin's project directory (where you created the plugin) and run the 
 ``` javascript
 atlas-install-plugin --username myadmin --password secret --plugin-key com.atlassian.confluence.plugins.example
 ```
+
 
 
 

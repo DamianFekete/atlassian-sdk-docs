@@ -51,12 +51,13 @@ While developing a cross-product plugin, you may find yourself needing different
 
 For example, let's say we have a plugin that works in both JIRA and Confluence, but we want application-specific implementations to be used as components. We can declare the following in our `application-plugin.xml`:
 
-``` javascript
+``` xml
 <component key="jiraPluginComponent" class="com.example.JiraPluginComponent" 
            interface="com.example.PluginComponent" application="jira" />
 <component key="confluencePluginComponent" class="com.example.ConfluencePluginComponent"  
            interface="com.example.PluginComponent" application="confluence" />
 ```
+
 
 
 

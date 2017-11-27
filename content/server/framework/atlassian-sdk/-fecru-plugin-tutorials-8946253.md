@@ -49,15 +49,15 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+
+-   Page:
+
     [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
 
 -   Page:
 
     [Using Logging From Your FishEye Plugin](/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
-
--   Page:
-
-    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
 
 #### Intermediate
 
@@ -67,25 +67,21 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
-
--   Page:
-
     [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
 
 -   Page:
 
     [FishEye Twitter Integration Plugin Tutorial](/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
 
+-   Page:
+
+    [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
+
 #### Advanced
 
 -   Page:
 
-    [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
-
--   Page:
-
-    [Storing Plugin Settings for FishEye](/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 -   Page:
 
@@ -93,15 +89,20 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [Storing Plugin Settings for FishEye](/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
+
+-   Page:
+
+    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 ### Related Tutorials
 
 You may also be interested in the [integration tutorials](https://developer.atlassian.com/display/FECRUDEV/Integration+Tutorials).
+
 
 
 

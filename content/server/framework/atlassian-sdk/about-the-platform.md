@@ -38,8 +38,8 @@ The matrix below shows the versions of each component in the Atlassian Plugin De
 <tbody>
 <tr class="odd">
 <td><p>Platform 2.8</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.6+Release+Notes">Plugin Framework 2.6</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.2+Release+Notes">SAL 2.2</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852043">Plugin Framework 2.6</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242917">SAL 2.2</a><br />
 <a href="https://developer.atlassian.com/display/DOCS/REST+Plugin+2.2+Release+Notes">REST 2.2</a><br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.2+Release+Notes">AUI 3.2</a><br />
 ATR 1.2<br />
@@ -52,8 +52,8 @@ Streams (N/A)</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://developer.atlassian.com/display/DOCS/Plugin+Development+Platform+2.9+Release+Notes">Platform 2.9</a></p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.7+Release+Notes">Plugin Framework 2.7</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.4+Release+Notes">SAL 2.4</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=851978">Plugin Framework 2.7</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242924">SAL 2.4</a><br />
 REST 2.4<br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes">AUI 3.4</a><br />
 ATR 1.2<br />
@@ -66,8 +66,8 @@ Streams (N/A)</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://developer.atlassian.com/display/DOCS/Plugin+Development+Platform+2.10+Release+Notes">Platform 2.10</a></p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.7+Release+Notes">Plugin Framework 2.7</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.5+Release+Notes">SAL 2.5</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=851978">Plugin Framework 2.7</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242922">SAL 2.5</a><br />
 REST 2.4<br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes">AUI 3.4</a><br />
 ATR 1.2<br />
@@ -442,7 +442,10 @@ Confluence 6.1</td>
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link">JIRA 7.4 platform</a></td>
+<td><p><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.6.x+platform+release+notes" class="external-link">JIRA 7.6 platform<br />
+</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.5.x+platform+release+notes" class="external-link">JIRA 7.5 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
+</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.4.x+platform+release+notes" class="external-link">JIRA 7.4 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
+</a></p></td>
 <td><p><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.5+release+notes" class="external-link">Bitbucket Server 5.5</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.4+release+notes" class="external-link"><br />
 Bitbucket Server 5.4</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.3+release+notes" class="external-link"><br />
 Bitbucket Server 5.</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.2+release+notes" class="external-link">3<br />
@@ -457,7 +460,7 @@ Bitbucket Server 5.2<br />
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="https://confluence.atlassian.com/display/AdminJIRAServer073" class="external-link">JIRA 7.3 platform</a></td>
+<td><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.3.x+platform+release+notes" class="external-link">JIRA 7.3 platform</a></td>
 <td> </td>
 </tr>
 <tr class="odd">
@@ -812,6 +815,7 @@ The matrix below shows the applications which include and support the REST API p
 -   [Plugin Development Platform 2.11 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-11-release-notes)
 -   [Plugin Development Platform 2.12 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-12-release-notes)
 -   [Plugin Development Platform 2.13 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-13-release-notes)
+
 
 
 

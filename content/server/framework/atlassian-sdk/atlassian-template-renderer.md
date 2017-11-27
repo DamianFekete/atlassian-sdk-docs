@@ -24,7 +24,7 @@ The following sections describe how to use the ATR.
 
 In your atlassian-plugin.xml file, specify the `component-import` module as follows:
 
-``` javascript
+``` xml
     <component-import key="velocity-renderer" interface="com.atlassian.templaterenderer.TemplateRenderer" />
 ```
 
@@ -36,12 +36,13 @@ When you need to render a template, call the `renderer.render(String templateNam
 
 Let's say you want one of the other components injected into **each** of the template contexts for you to use. You could make sure to have that component injected anywhere you do some rendering and then creating a context map with the component in it. But there's an easier way. Specify the component as a [`template-context-item`](/server/framework/atlassian-sdk/template-context-item-plugin-module).
 
-``` javascript
+``` xml
 <template-context-item key="rendererHelperContextItem" component-ref="rendererHelper"
     context-key="helper" name="Renderer Helper Context Item"/>
 ```
 
 Using this technique, the ATR plugin makes the SAL [I18nResolver](/server/framework/atlassian-sdk/sal-services#%7B%7B%7B%7D-i18n-resolver%7B%7D%7D%7D) and the plugins <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.2.0/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a> automatically available to all templates in this way with the `i18n` and `webResourceManager` context keys.
+
 
 
 

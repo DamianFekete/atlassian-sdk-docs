@@ -54,7 +54,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 1.  Open the `/src/main/resources/atlassian-plugin.xml` file from your** **`myPlugin `directory in your favourite text editor.  
 2.  The **atlassian-plugin.xml** file will look something like this: 
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
         <plugin-info>
             <description>${project.description}</description>
@@ -78,7 +78,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 
 3.  Next, in **command prompt **make sure you're in the `myPlugin` folder and then run the following command:
 
-    ``` javascript
+    ``` bash
     atlas-create-jira-plugin-module
     ```
 
@@ -100,7 +100,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 
 7.  Type **25** to select the `Web Item` plugin module and then answer the configuration questions as follows:
 
-    ``` javascript
+    ``` bash
     Enter Plugin Module Name My Web Item: : myItem
     Enter Section (e.g. system.admin/globalsettings): system.top.navigation.bar
     Enter Link URL (e.g. /secure/CreateIssue!default.jspa): deleteMe
@@ -114,7 +114,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 
 1.  Open the **atlassian-plugin.xml** file and you'll notice it has changed a little:
 
-    ``` javascript
+    ``` xml
     <?xml version="1.0" encoding="UTF-8"?>
 
 
@@ -175,6 +175,7 @@ Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/a
  
 
 Still need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
 
 
 

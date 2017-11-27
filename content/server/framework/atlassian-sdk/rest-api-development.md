@@ -36,7 +36,7 @@ To create REST APIs in plugins you create for an Atlassian application, learn ab
 [Confluence REST APIs](https://developer.atlassian.com/confdev/confluence-rest-api)  
 [Crowd REST APIs](https://developer.atlassian.com/display/CROWDDEV/Overview+of+the+Crowd+REST+APIs)  
 [FishEye/Crucible REST APIs](https://developer.atlassian.com/display/FECRUDEV/REST+API+Guide)  
-[Jira REST APIs](https://developer.atlassian.com/display/JIRADEV/JIRA+REST+APIs)
+[Jira REST APIs](https://developer.atlassian.com/display/JIRADEV/About+the+JIRA+REST+APIs)
 
 ## API Development
 
@@ -61,6 +61,7 @@ Use the REST module type to create plugin points in Atlassian applications, by e
 <a href="https://studio.atlassian.com/browse/REST" class="external-link">Feature requests and bug reports</a>
 
 <a href="http://blogs.atlassian.com/developer/" class="external-link">Atlassian developer blog</a>
+
 
 
 

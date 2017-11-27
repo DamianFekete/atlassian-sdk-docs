@@ -22,7 +22,7 @@ In the DogFood blog there is such a relationship between posts (of type `Post`) 
 
 **Post.java**
 
-``` javascript
+``` java
 public interface Post extends Entity
 {
     ...
@@ -34,7 +34,7 @@ public interface Post extends Entity
 
 **Comment.java**
 
-``` javascript
+``` java
 public interface Comment extends Entity
 {
     ...
@@ -48,7 +48,7 @@ Adding a `Comment` to a `Post` requires writing this type of code:
 
 **Adding a comment**
 
-``` javascript
+``` java
 public Comment addComment(Post post, String author, String comment) throws SQLException
 {
     final Comment c = entityManager.create(Comment.class);
@@ -71,6 +71,7 @@ The <a href="https://developer.atlassian.com/display/DOCS/OneToOne+Relationship"
 If you do not set these attributes, Active Objects will revert to inferring the method by type. However, in a future upgrade, specifying these attributes will be required.
 
 *Note, the Active Objects plugin was upgraded to 0.22.1 in JIRA 6.1.*
+
 
 
 

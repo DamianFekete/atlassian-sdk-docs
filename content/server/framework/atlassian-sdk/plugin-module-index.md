@@ -383,7 +383,7 @@ Defines downloadable resources (files) for a plugin, such as CSS or JavaScript f
 
 **Example**
 
-``` javascript
+``` xml
 <!-- web resource example -->
 <web-resource
     key="myWebResources">
@@ -1674,6 +1674,7 @@ Defines new components to be added to the [Confluence Velocity context](https://
   context-key="myVelocityHelper"
   class="com.example.myplugin.helpers.MyVelocityHelper" />
 ```
+
 
 
 

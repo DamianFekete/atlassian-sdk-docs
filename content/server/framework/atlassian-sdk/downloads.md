@@ -92,19 +92,19 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
 
 1.  First, set up the Atlassian repositories:
 
-    ``` javascript
+    ``` bash
     sudo sh -c 'echo "deb http://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/sources.list'
     ```
 
 2.  Add the public key:
 
-    ``` javascript
+    ``` bash
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B07804338C015B73
     ```
 
 3.  sudo apt-key fingerprint should include
 
-    ``` javascript
+    ``` bash
     pub   2048R/8C015B73 2012-08-20
           Key fingerprint = 9465 19BB 719D 2C48 5D99  EC27 B078 0433 8C01 5B73
     uid                  Atlassian Package Signer <devrel@atlassian.com>
@@ -112,7 +112,7 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
 
 4.  And lastly, run the install:
 
-    ``` javascript
+    ``` bash
     sudo apt-get update
     sudo apt-get install atlassian-plugin-sdk
     ```
@@ -123,14 +123,14 @@ To install on systems that use the Yum package manager:
 
 1.  Download the repo files to your /etc/yum.repos.d/ folder:
 
-    ``` javascript
+    ``` bash
     cd /etc/yum.repos.d/
     sudo wget https://sdkrepo.atlassian.com/atlassian-sdk-stable.repo
     ```
 
 2.  Install the SDK:
 
-    ``` javascript
+    ``` bash
     sudo yum clean all
     sudo yum updateinfo metadata
     sudo yum install atlassian-plugin-sdk
@@ -146,19 +146,19 @@ To install the Atlassian Plugin SDK in Brew:
 
 1.  Add the Atlassian "<a href="https://github.com/atlassian/homebrew-tap" class="external-link">Tap</a>" to your Brew:
 
-    ``` javascript
+    ``` bash
     brew tap atlassian/tap
     ```
 
 2.  Next, install the SDK via the `atlassian/tap`:
 
-    ``` javascript
+    ``` bash
     brew install atlassian/tap/atlassian-plugin-sdk
     ```
 
 This installs the SDK. Later, if you want to upgrade the SDK to a new version, use:
 
-``` javascript
+``` bash
 brew update
 brew upgrade atlassian/tap/atlassian-plugin-sdk
 ```
@@ -176,7 +176,7 @@ If you need to install an earlier version of the SDK for any reason, you can do 
 
 1.  Remove an existing install, if necessary, using the method appropriate for your operating system. For example, for Debian / Ubuntu Linux, enter the command:
 
-    ``` javascript
+    ``` bash
     sudo apt-get --purge remove atlassian-plugin-sdk
     ```
 
@@ -192,21 +192,22 @@ The Atlassian Marketplace contains only relatively recent version of the Atlassi
 {{% /note %}}
 3.  Once you have the package for the version you want, install it using the method appropriate for your OS. For example, for Debian / Ubuntu Linux, use:
 
-    ``` javascript
+    ``` bash
     sudo dpkg -i package_name
     ```
 
     Where package\_name is the name of the file you downloaded. For example:
 
-    ``` javascript
+    ``` bash
     sudo dpkg -i atlassian-plugin-sdk_4.1.5_all.deb
     ```
 
 4.  The PATH isn't set automatically, so add the `bin` directory to your PATH manually, say in `etc/environment`:
 
-    ``` javascript
+    ``` bash
     /usr/share/atlassian-plugin-sdk-4.1.5/bin
     ```
+
 
 
 

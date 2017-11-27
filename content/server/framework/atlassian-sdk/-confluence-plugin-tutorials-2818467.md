@@ -16,7 +16,11 @@ subcategory:
 
 -   Page:
 
-    [Write a simple Confluence Blueprint plugin](/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
+    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+
+-   Page:
+
+    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
@@ -28,7 +32,7 @@ subcategory:
 
 -   Page:
 
-    [Extending Autoconvert](/display/CONFDEV/Extending+Autoconvert)
+    [Write a simple Confluence Blueprint plugin](/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
 
 -   Page:
 
@@ -36,13 +40,13 @@ subcategory:
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Extending Autoconvert](/display/CONFDEV/Extending+Autoconvert)
+
+#### Intermediate
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
-
-#### Intermediate
+    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
 
@@ -54,19 +58,11 @@ subcategory:
 
 -   Page:
 
+    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+
+-   Page:
+
     [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
-
--   Page:
-
-    [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
-
--   Page:
-
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -74,7 +70,11 @@ subcategory:
 
 -   Page:
 
-    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+    [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
+
+-   Page:
+
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -96,11 +96,11 @@ subcategory:
 
 -   Page:
 
-    [Defining a Pluggable Service in a Confluence Plugin](/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
+    [Adding a field to CQL](/display/CONFDEV/Adding+a+field+to+CQL)
 
 -   Page:
 
-    [Adding a field to CQL](/display/CONFDEV/Adding+a+field+to+CQL)
+    [Defining a Pluggable Service in a Confluence Plugin](/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
 
 -   Page:
 
@@ -109,6 +109,7 @@ subcategory:
 -   Page:
 
     [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+
 
 
 

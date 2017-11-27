@@ -45,7 +45,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-install-idea-plugin -?
 atlas-install-idea-plugin -help
 ```
@@ -56,12 +56,15 @@ atlas-install-idea-plugin -help
 
 To be completed
 
+ 
+
 {{% /note %}}
 
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818719" class="createlink">Atlassian Plugin SDK Documentation</a>  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818719" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
 
 
 

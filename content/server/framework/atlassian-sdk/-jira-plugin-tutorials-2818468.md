@@ -31,6 +31,18 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [Tutorial - Adding menu items to JIRA](/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
+
+-   Page:
+
+    [Tutorial - Adding content to the JIRA View Issue page](/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
+
+-   Page:
+
+    [Tutorial - Writing a plugin gadget that shows days left in a version](/display/JIRADEV/Tutorial+-+Writing+a+plugin+gadget+that+shows+days+left+in+a+version)
+
+-   Page:
+
     [Tutorial - Writing a JQL standalone gadget](/display/JIRADEV/Tutorial+-+Writing+a+JQL+standalone+gadget)
 
 -   Page:
@@ -49,19 +61,11 @@ Tutorials classified by the level of skill assumed:
 
     [Writing a JQL standalone gadget](/display/JIRASERVER/Writing+a+JQL+standalone+gadget)
 
--   Page:
-
-    [Tutorial - Adding content to the JIRA View Issue page](/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
-
--   Page:
-
-    [Tutorial - Writing a plugin gadget that shows days left in a version](/display/JIRADEV/Tutorial+-+Writing+a+plugin+gadget+that+shows+days+left+in+a+version)
-
--   Page:
-
-    [Tutorial - Adding menu items to JIRA](/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
-
 #### Intermediate
+
+-   Page:
+
+    [Tutorial - Application links in JIRA](/display/JIRADEV/Tutorial+-+Application+links+in+JIRA)
 
 -   Page:
 
@@ -69,7 +73,19 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [Tutorial - Smarter integration testing with TestKit](/display/JIRADEV/Tutorial+-+Smarter+integration+testing+with+TestKit)
+
+-   Page:
+
     [Tutorial - Writing integration tests for your JIRA plugin](/display/JIRADEV/Tutorial+-+Writing+integration+tests+for+your+JIRA+plugin)
+
+-   Page:
+
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+
+-   Page:
+
+    [Tutorial - Adding a JQL function to JIRA](/display/JIRADEV/Tutorial+-+Adding+a+JQL+function+to+JIRA)
 
 -   Page:
 
@@ -85,18 +101,6 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
-
--   Page:
-
-    [Tutorial - Adding a JQL function to JIRA](/display/JIRADEV/Tutorial+-+Adding+a+JQL+function+to+JIRA)
-
--   Page:
-
-    [Tutorial - Application links in JIRA](/display/JIRADEV/Tutorial+-+Application+links+in+JIRA)
-
--   Page:
-
     [Writing integration tests for your JIRA add-on](/display/JIRASERVER/Writing+integration+tests+for+your+JIRA+add-on)
 
 -   Page:
@@ -107,11 +111,15 @@ Tutorials classified by the level of skill assumed:
 
     [Adding a JQL function to JIRA](/display/JIRASERVER/Adding+a+JQL+function+to+JIRA)
 
+#### Advanced
+
 -   Page:
 
-    [Tutorial - Smarter integration testing with TestKit](/display/JIRADEV/Tutorial+-+Smarter+integration+testing+with+TestKit)
+    [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
 
-#### Advanced
+-   Page:
+
+    [Tutorial - Custom message (mail) handler for JIRA](/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
 
 -   Page:
 
@@ -120,10 +128,6 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
-
--   Page:
-
-    [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
 
 -   Page:
 
@@ -141,13 +145,10 @@ Tutorials classified by the level of skill assumed:
 
     [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
--   Page:
-
-    [Tutorial - Custom message (mail) handler for JIRA](/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
-
 ### External Tutorials for JIRA
 
 <a href="https://studio.plugins.atlassian.com/wiki/display/WSMPL/Webwork+Sample+Plugin" class="external-link">WebWork Sample Plugin</a> - from Matt Doar, describing how JIRA uses <a href="http://www.opensymphony.com/webwork/" class="external-link">WebWork</a>
+
 
 
 

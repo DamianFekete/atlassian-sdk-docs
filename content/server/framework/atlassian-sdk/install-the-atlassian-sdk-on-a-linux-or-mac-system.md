@@ -78,7 +78,7 @@ For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On L
 3.  Save and close the file.
 4.  Enter the following at the command line to pick up your changes:
 
-    ``` javascript
+    ``` bash
     host:~ test$ source ~/.bash_profile
     ```
 
@@ -180,7 +180,7 @@ The instructions below use `dnf` to install the SDK. If you are on an older ver
 
 All you should have to do to download the latest version of the SDK is:
 
-``` javascript
+``` bash
 sudo dnf install atlassian-plugin-sdk
 ```
 
@@ -190,7 +190,7 @@ If this does not work, try downloading and installing manually:
 
 2.  Then, open a Terminal window and start the installation:
 
-    ``` javascript
+    ``` bash
     sudo dnf localinstall <PATH_TO_DOWNLOADED_FILE>
     ```
 
@@ -262,6 +262,7 @@ You now have a local development environment configured for the Atlassian SDK an
 ## Additional Resources
 
 Need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
 
 
 

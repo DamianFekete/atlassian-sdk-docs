@@ -28,8 +28,8 @@ The matrix below shows the versions of each component in the Atlassian Plugin De
 <tbody>
 <tr class="odd">
 <td><p>Platform 2.8</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.6+Release+Notes">Plugin Framework 2.6</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.2+Release+Notes">SAL 2.2</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852043">Plugin Framework 2.6</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242917">SAL 2.2</a><br />
 <a href="/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes">REST 2.2</a><br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.2+Release+Notes">AUI 3.2</a><br />
 ATR 1.2<br />
@@ -42,8 +42,8 @@ Streams (N/A)</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="/server/framework/atlassian-sdk/plugin-development-platform-2-9-release-notes">Platform 2.9</a></p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.7+Release+Notes">Plugin Framework 2.7</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.4+Release+Notes">SAL 2.4</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=851978">Plugin Framework 2.7</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242924">SAL 2.4</a><br />
 REST 2.4<br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes">AUI 3.4</a><br />
 ATR 1.2<br />
@@ -56,8 +56,8 @@ Streams (N/A)</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="/server/framework/atlassian-sdk/plugin-development-platform-2-10-release-notes">Platform 2.10</a></p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.7+Release+Notes">Plugin Framework 2.7</a><br />
-<a href="https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.5+Release+Notes">SAL 2.5</a><br />
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=851978">Plugin Framework 2.7</a><br />
+<a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242922">SAL 2.5</a><br />
 REST 2.4<br />
 <a href="https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes">AUI 3.4</a><br />
 ATR 1.2<br />
@@ -123,6 +123,7 @@ Streams 5.0</p></td>
 -   Event = Atlassian Event
 -   Streams = [Activity Streams](https://developer.atlassian.com/display/STREAMS)
 -   (N/A) = (This component was not part of the platform at this time.)
+
 
 
 

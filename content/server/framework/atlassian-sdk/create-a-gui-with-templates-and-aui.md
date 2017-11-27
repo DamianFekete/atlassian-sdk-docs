@@ -35,7 +35,7 @@ Here, you'll update the dependencies to reflect the `TemplateRenderer` module yo
 3.  Find the `com.atlassian.sal` group.
 4.  Add the `templateRenderer` in a dependency group above the `com.atlassian.sal` group.
 
-    ``` javascript
+    ``` xml
            <dependency>
                 <groupId>com.atlassian.templaterenderer</groupId>
                 <artifactId>atlassian-template-renderer-api</artifactId>
@@ -53,7 +53,7 @@ Atlassian applications use both .soy (Soy) and .vm (Velocity) templates for rend
 
 2.  Create an** admin.vm** Velocity template, and fill in the contents with:
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>My Admin</title>
@@ -84,7 +84,7 @@ Up until this point, your servlet has been displaying HTML from your `MyPluginS
 
     `MyPluginServlet` should look as follows: 
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.refapp;
 
     import javax.servlet.*;
@@ -165,7 +165,7 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
 
     Insert `<meta name="decorator" content="atl.admin">`. This tag should be inside the `<head>` section.
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>My Admin</title>
@@ -199,7 +199,7 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
 
     Replace your admin.vm contents with the following:
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>MyServlet Admin</title>
@@ -228,6 +228,7 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
 ## Next steps
 
 Your add-on looks great! Now you'll [add a `POST` method so it can store and retrieve user data](https://developer.atlassian.com/display/DOCS/Store+and+retrieve+plugin+data).
+
 
 
 

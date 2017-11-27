@@ -52,7 +52,7 @@ The sample code shown here assumes that Activity Streams 5.0 is already bundled 
 
 First we need to set up our development environment and create our plugin project and source directories. Assuming you have the Atlassian Plugin SDK installed, execute the following:
 
-``` javascript
+``` bash
 $ atlas-create-jira-plugin
 ```
 
@@ -203,6 +203,7 @@ We create a new `Activity` by using the `Activity.Builder` helper class. `Activi
 <img src="/server/framework/atlassian-sdk/images/deleted-issue-filters.jpg" width="300" height="259" />
 
 <img src="/server/framework/atlassian-sdk/images/deleted-issue-activity.jpg" width="300" height="205" />
+
 
 
 

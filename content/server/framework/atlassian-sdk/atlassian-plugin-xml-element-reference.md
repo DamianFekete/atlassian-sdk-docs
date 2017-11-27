@@ -27,7 +27,7 @@ The `atlassian-plugin` element
 
 This is the root element for your plugin descriptor. The plugin descriptor file should have this structure:
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.confluence.plugins.example" name="Example Plugin" plugins-version="2">
     <!-- ... -->
 </atlassian-plugin>
@@ -128,7 +128,7 @@ These nested elements are described in more detail below.
 
 Describes your plugin. Its parent element is `<plugin-info>`.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -143,7 +143,7 @@ The current version of your plugin. Its parent element is `<plugin-info>`. The U
 
 Following are some sample version numbers in ascending order: 0.99, 1.0, 1.0.1-alpha, 1.0.1-beta, 1.0.1-beta2, 1.0.1, 1.0.1.0, 1.1, 1.2, 1.10, 2.0.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -259,6 +259,7 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
 
 
 

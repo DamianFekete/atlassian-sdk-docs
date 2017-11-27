@@ -96,7 +96,8 @@ Note that this does not affect projects that have the above `dependencyManagemen
 ##### RELATED TOPICS
 
 [Atlassian Platform Common Components](/server/framework/atlassian-sdk/atlassian-platform-common-components)  
-[Plugin Framework 2.6 Migration Guide](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.6+Migration+Guide)
+[Plugin Framework 2.6 Migration Guide](https://developer.atlassian.com/pages/viewpage.action?pageId=852068)
+
 
 
 

@@ -36,7 +36,7 @@ For conditions and terms of use, please see the license and copyright statements
 
 ## Resources
 
-[Plugin Framework Release Notes](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+Release+Notes)
+[Plugin Framework Release Notes](https://developer.atlassian.com/pages/viewpage.action?pageId=852040)
 
 <a href="http://docs.atlassian.com/" class="external-link">Javadoc</a>
 
@@ -63,6 +63,7 @@ For conditions and terms of use, please see the license and copyright statements
 #### [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring)
 
 #### [Using the Built-In Plugin Modules](/server/framework/atlassian-sdk/using-the-built-in-plugin-modules)
+
 
 
 

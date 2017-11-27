@@ -74,13 +74,13 @@ To add schemas to your existing plugins, you need to add the validation syntax y
 -   Open your `atlassian-plugin.xml` file in your editor
 -   Locate the root element, which should look like:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="your.plugin.key" name="Plugin Name" plugins-version="2">
     ```
 
 -   Add the following attributes inside the root element:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="your.plugin.key" name="Plugin Name" plugins-version="2"
         xmlns="http://www.atlassian.com/schema/plugins"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -118,6 +118,7 @@ Schemas enforce an order on elements that doesn't always correspond to `atlassia
 # Reporting problems
 
 We've made every reasonable effort to ensure that the schemas work properly. If you do find something you can't explain and that should work properly, please email developer-relations@atlassian.com.
+
 
 
 

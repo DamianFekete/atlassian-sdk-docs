@@ -46,7 +46,7 @@ Activity Streams generates feeds of activity items from Atlassian application ev
 
 Let's start with the simplest possible request for an activity stream:
 
-``` javascript
+``` bash
 curl https://studio.atlassian.com/activity
 ```
 
@@ -56,7 +56,7 @@ This fetches a feed of the ten most recent activities from any of the enabled JI
 
 If you look closely at the feed returned by the above request, you will notice that it only contains entries that are visible to anonymous users. If you want to view restricted content, you will need to authenticate via basic authentication:
 
-``` javascript
+``` bash
 curl username:password https://studio.atlassian.com/activity?os_authType=basic
 ```
 
@@ -407,6 +407,7 @@ Issue description here &lt;/div>
 </activity:object>
 </entry>
 ```
+
 
 
 

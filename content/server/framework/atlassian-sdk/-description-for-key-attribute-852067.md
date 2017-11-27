@@ -14,9 +14,14 @@ subcategory:
 
 The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
 
+ 
+
     <component-import key="appProps" interface="com.atlassian.sal.api.ApplicationProperties"/>
 
+ 
+
 In the example, `appProps` is the key for this particular module declaration, for `component-import`, in this case.
+
 
 
 

@@ -28,7 +28,7 @@ SAL is a component library of the Atlassian development platform. SAL supplies c
 
 The `atlas-create-refapp-plugin` command has already generated `com.atlassian.sal` as a dependency. In `pom.xml`, look for the following dependency:
 
-``` javascript
+``` xml
 <dependency>
     <groupId>com.atlassian.sal</groupId>
     <artifactId>sal-api</artifactId>
@@ -43,7 +43,7 @@ Now that you've added additional APIs to your project you'll update the `import
 1.  Open `MyPluginServlet.java` in Eclipse.
 2.  Replace your class with the following: 
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.refapp;
     import org.slf4j.Logger;
     import org.slf4j.LoggerFactory;
@@ -128,6 +128,7 @@ In order to load the changes in JIRA and verify that your `UserManager` and `
 ## Next Steps
 
 You've added SAL services to your plugin and verified that your dependencies are correctly configured. Now, [create a GUI using Atlassian User Interface (AUI) resources and templates](https://developer.atlassian.com/display/DOCS/Create+a+GUI+with+templates+and+AUI).
+
 
 
 

@@ -34,9 +34,10 @@ This may not actually hurt your application, probably because after trying the c
 
 To fix this, you will need to manually import the packages these classes are in. If using the Maven Bundle Plugin, add this line to the `<Instructions>`:
 
-``` javascript
+``` xml
 <Import-Package>org.apache.velocity.runtime,org.apache.velocity.runtime.directive,org.apache.velocity.runtime.resource,org.apache.velocity.util.introspection,*</Import-Package>
 ```
+
 
 
 

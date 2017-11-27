@@ -34,6 +34,7 @@ Some descriptors require additional configuration:
 #### ServletModuleDescriptor
 
 1.  Define the delegating servlet in `web.xml` that will delegate to plugin-provided servlets:
+
     ``` xml
     <servlet>
         <servlet-name>plugins</servlet-name>
@@ -42,6 +43,7 @@ Some descriptors require additional configuration:
     ```
 
 2.  Define the servlet mapping in `web.xml`. While you can choose any mapping, it is recommended to go with `/plugins/servlet`:
+
     ``` xml
     <servlet-mapping>
         <servlet-name>plugins</servlet-name>
@@ -53,6 +55,7 @@ Some descriptors require additional configuration:
 
 1.  Define four delegating filters in `web.xml` that will delegate to the plugin-provided filters:
     1.  after-encoding - This filter should as high up the chain as possible with only any request encoding filters ahead of it:
+
         ``` xml
         <filter>
             <filter-name>filter-plugin-dispatcher-after-encoding</filter-name>
@@ -65,6 +68,7 @@ Some descriptors require additional configuration:
         ```
 
     2.  after-encoding - This filter should as high up the chain as possible with only any request encoding filters ahead of it:
+
         ``` xml
         <filter>
             <filter-name>filter-plugin-dispatcher-after-encoding</filter-name>
@@ -77,6 +81,7 @@ Some descriptors require additional configuration:
         ```
 
     3.  before-login - This filter should right before any authentication filters:
+
         ``` xml
         <filter>
             <filter-name>filter-plugin-dispatcher-before-login</filter-name>
@@ -89,6 +94,7 @@ Some descriptors require additional configuration:
         ```
 
     4.  before-decoration - This filter should go before any decorating filters like Sitemesh:
+
         ``` xml
         <filter>
             <filter-name>filter-plugin-dispatcher-before-decoration</filter-name>
@@ -101,6 +107,7 @@ Some descriptors require additional configuration:
         ```
 
     5.  before-dispatch - This filter should go before the servlet or filter that dispatches to your web framework:
+
         ``` xml
         <filter>
             <filter-name>filter-plugin-dispatcher-before-dispatch</filter-name>
@@ -111,7 +118,9 @@ Some descriptors require additional configuration:
             </init-param>
         </filter>
         ```
+
 2.  Define the servlet filter mappings in `web.xml`.
+
     ``` xml
     <filter-mapping>
             <filter-name>my-request-encoder</filter-name>
@@ -157,6 +166,7 @@ Some descriptors require additional configuration:
             <url-pattern>/*</url-pattern>    
         </filter-mapping>
     ```
+
 
 
 

@@ -35,7 +35,7 @@ The following are problems that may occur with Speakeasy and their solution:
 <td><p>Have the user visit<br />
 </p>
 <div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<div class="preformattedContent panelContent">
 <pre><code>http://THE_SERVER_URL/plugins/servlet/speakeasy/unsubscribe</code></pre>
 </div>
 </div>
@@ -56,6 +56,7 @@ to be removed from all Speakeasy extension access lists</p></td>
 </tr>
 </tbody>
 </table>
+
 
 
 

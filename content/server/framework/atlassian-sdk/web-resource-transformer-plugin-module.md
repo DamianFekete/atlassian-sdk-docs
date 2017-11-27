@@ -23,7 +23,7 @@ title: Web Resource Transformer plugin module
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Atlassian Plugin Framework 2.5</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Atlassian Plugin Framework 2.5</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
@@ -49,214 +49,105 @@ Below is a description of the attributes and child elements for each of the abov
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>class</p></td>
-<td><p>Yes</p></td>
-<td><p>The class which implements <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.6.4/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/transformer/WebResourceTransformer.html" class="external-link">com.atlassian.plugin.webresource.transformer.WebResourceTransformer</a>. This class is responsible for doing the resource transformation before it is served to the client. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</p></td>
-<td><p> </p></td>
+<td>The class which implements <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.6.4/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/transformer/WebResourceTransformer.html" class="external-link">com.atlassian.plugin.webresource.transformer.WebResourceTransformer</a>. This class is responsible for doing the resource transformation before it is served to the client. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</td>
 </tr>
 <tr class="even">
 <td><p>state</p></td>
-<td><p> </p></td>
-<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
-<td><p>enabled</p></td>
+<td><p>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</p>
+<p><strong>Default:</strong> enabled</p></td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
-<td><p> </p></td>
 <td>The localisation key for the human-readable name of the plugin module.</td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
 <td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
-<br />
-<br />
-The value of this attribute must match the <code>key</code> attribute of the <code>transformer</code> element in the <code>web-resource</code>.</td>
-<td><p>N/A</p></td>
+<p>The value of this attribute must match the <code>key</code> attribute of the <code>transformer</code> element in the <code>web-resource</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>name</p></td>
-<td><p> </p></td>
-<td>The human-readable name of the plugin module.</td>
-<td><p> </p></td>
+<td><p>The human-readable name of the plugin module.</p></td>
 </tr>
 <tr class="even">
 <td><p>system</p></td>
-<td><p> </p></td>
-<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
-<td><p>false</p></td>
+<td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
+<p><strong>Default:</strong> false</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*class and key attributes are required**
 
 #### Child Elements of `web-resource-transformer`
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>description</p></td>
-<td><p> </p></td>
-<td>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.</td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+|             |                                                                                                                                                             |
+|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name        | description                                                                                                                                                 |
+| Description | The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. |
 
-#### Attributes of `transformation`
+####  Attributes of `transformation`
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>extension</p></td>
-<td><p>Yes</p></td>
-<td><p>All the transformers in the transformation block apply to resources with this extension.</p></td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+|             |                                   |
+|:------------|:----------------------------------|
+| Name\*      | extension                         |
+| Description | Defines a transformation process. |
+
+**\*extension attribute is required**
 
 #### Child Elements of `transformation`
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>transformer</p></td>
-<td><p>Yes</p></td>
-<td><p>Defines a transformation process.</p></td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+|             |                                   |
+|:------------|:----------------------------------|
+| Name\*      | transformer                       |
+| Description | Defines a transformation process. |
+
+**\*transformer element is required**
 
 #### Attributes of `transformer`
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>key</p></td>
-<td><p>Yes</p></td>
-<td><p>The value of this attribute must match the <code>key</code> attribute of the <code>web-resource-transformer</code> element.</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><em>(others)</em></p></td>
-<td><p> </p></td>
-<td><p>You can add your own attributes as required, to pass information to your implementation of the transformer.</p></td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+|             |                                                                                                       |
+|:------------|:------------------------------------------------------------------------------------------------------|
+| Name\*      | key                                                                                                   |
+| Description | The value of this attribute must match the `key` attribute of the `web-resource-transformer` element. |
 
-#### Child Elements of `transformer`
+**\*key attribute is required**
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>(others)</em></p></td>
-<td><p> </p></td>
-<td><p>You can add your own child elements as required, to pass information to your implementation of the transformer.</p></td>
-<td><p> </p></td>
-</tr>
-</tbody>
-</table>
+ 
 
-## Example
+|             |                                                                                                             |
+|:------------|:------------------------------------------------------------------------------------------------------------|
+| Name        | *(others)*                                                                                                  |
+| Description | You can add your own attributes as required, to pass information to your implementation of the transformer. |
+
+####  Child Elements of `transformer`
+
+|             |                                                                                                                 |
+|:------------|:----------------------------------------------------------------------------------------------------------------|
+| Name        | *(others)*                                                                                                      |
+| Description | You can add your own child elements as required, to pass information to your implementation of the transformer. |
+
+##  Example
 
 Here is an example `atlassian-plugin.xml` file containing a web resource and a transformer that turns a static template file into a JavaScript variable. You could use this transformer for common components that need to use client-side templates.
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World Resource" key="example.plugin.helloworld" plugins-version="2">
 <plugin-info>
   <description>A web resource module with a transformer</description>
@@ -276,8 +167,10 @@ Here is an example `atlassian-plugin.xml` file containing a web resource and a t
 
 The template `testTemplate.txt` file looks like this:
 
-    Hello world "bob"
-    and 'friends'
+``` text
+Hello world "bob"
+and 'friends'
+```
 
 The JavaScript resulting from the transformation is:
 
@@ -297,6 +190,7 @@ Some information to be aware of when developing or configuring a Web Resource Tr
 
 [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 
