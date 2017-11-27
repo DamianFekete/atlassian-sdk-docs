@@ -71,7 +71,7 @@ You can find a list of all the **atlas-** commands in the [Command reference](
 1.  Open a terminal window and navigate to the directory where you'd like to create your plugin.
 2.  Run the command `atlas-create-confluence-plugin` and fill in the plugin details as follows:
 
-    ``` javascript
+    ``` bash
     Define value for groupId: : com.atlassian.tutorial
     Define value for artifactId: : myConfluenceMacro
     Define value for version:  1.0.0-SNAPSHOT: : 
@@ -86,7 +86,7 @@ You can find a list of all the **atlas-** commands in the [Command reference](
 
 3.  The plugin skeleton will be created automatically and you'll receive a confirmation message as follows:
 
-    ``` javascript
+    ``` bash
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
@@ -111,7 +111,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 1.  Open the **atlassian-plugin.xml **file in your favourite editor.
 2.  Locate the end of the &lt;web-resource&gt;...&lt;/web-resource&gt; section in the file and enter the following:
 
-    ``` javascript
+    ``` xml
     <xhtml-macro name="helloworld" class="com.atlassian.tutorial.macro.helloworld" key='helloworld-macro'>
         <description key="helloworld.macro.desc"/>
         <category name="formatting"/>
@@ -123,7 +123,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 
 3.  Open the file **/src/main/resources/myConfluenceMacro.properties** and add the following line at the bottom of the file:
 
-    ``` javascript
+    ``` bash
     helloworld.macro.desc="Hello World"
     ```
 
@@ -134,7 +134,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 
      
 
-    ``` javascript
+    ``` bash
     cd /src/main/java/com/atlassian/tutorial
     mkdir macro
     cd macro
@@ -144,7 +144,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 
 7.  Enter the following code into **helloworld.java**:
 
-    ``` javascript
+    ``` java
     package com.atlassian.tutorial.macro;
 
     import com.atlassian.confluence.content.render.xhtml.ConversionContext;
@@ -170,7 +170,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 8.  In your terminal window, change directory back to the top directory for your plugin (eg `cd <home>/AtlassianTutorial/myConfluenceMacro`)
 9.  Run the command `atlas-mvn package` to re-package your add-on and reinstall it using QuickReload. You should see a confirmation message:
 
-    ``` javascript
+    ``` bash
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
     [INFO] Total time: 4.656 s
@@ -181,7 +181,7 @@ In this tutorial, you will create the plugin elements manually rather than using
 
 10. Monitor the window where confluence was run originally and confirm that QuickReload finished loading. You should see a confirmation message:
 
-    ``` javascript
+    ``` bash
     [INFO] [talledLocalContainer] 2016-10-10 18:33:16,082 INFO [QuickReload - Plugin Installer] [atlassian.plugin.manager.DefaultPluginManager] updatePlugin Updating plugin 'com.atlassian.tutorial.myConfluenceMacro-tests' from version '1.0.0-SNAPSHOT' to version '1.0.0-SNAPSHOT'
     [INFO] [talledLocalContainer] 2016-10-10 18:33:16,083 INFO [QuickReload - Plugin Installer] [atlassian.plugin.manager.DefaultPluginManager] broadcastPluginDisabling Disabling com.atlassian.tutorial.myConfluenceMacro-tests
     [INFO] [talledLocalContainer] 2016-10-10 18:33:17,512 INFO [QuickReload - Plugin Installer] [plugins.quickreload.install.PluginInstallerMechanic] installPluginImmediately 
@@ -208,7 +208,9 @@ Note: It can take the Confluence macro browser a little bit of time to realise t
 {{% /note %}}
 
     <img src="/server/framework/atlassian-sdk/images/confluence-macro-browser-showing-helloworld-macro.png" title="Macro Browser" alt="Confluence macro browser showing helloworld macro" width="500" height="305" />  
-    <img src="/server/framework/atlassian-sdk/images/helloworld-macro-on-page-in-edit-view.png" title="Helloworld Macro - Edit Mode" alt="Helloworld macro showing on confluence page in edit mode" width="500" height="268" /><img src="/server/framework/atlassian-sdk/images/helloworld-macro-showing-message-after-saving-page.png" title="Helloworld Macro - Confluence Page" alt="Helloworld Macro shown on Confluence page that has been saved" width="880" height="250" />
+    <img src="/server/framework/atlassian-sdk/images/helloworld-macro-on-page-in-edit-view.png" title="Helloworld Macro - Edit Mode" alt="Helloworld macro showing on confluence page in edit mode" width="500" height="268" />
+
+    <img src="/server/framework/atlassian-sdk/images/helloworld-macro-showing-message-after-saving-page.png" title="Helloworld Macro - Confluence Page" alt="Helloworld Macro shown on Confluence page that has been saved" width="880" height="250" />
 
 ## Customize the Hello World macro
 
@@ -218,7 +220,7 @@ Now, you will allow the user to specify their name using a parameter to learn ab
 2.  Locate the `<parameters/>` element within the` <xhtml-macro>` element you created in the first part of this tutorial.  
 3.  Replace the `<parameters/>` element with the following:
 
-    ``` javascript
+    ``` xml
     <parameters>
         <parameter name="Name" type="string" />
     </parameters>
@@ -230,7 +232,7 @@ Now, you will allow the user to specify their name using a parameter to learn ab
 5.  Open **helloworld.java **(it'll be in the /src/main/java/com/atlassian/tutorial/macro directory)
 6.  Modify the **execute **function as follows:
 
-    ``` javascript
+    ``` java
     public String execute(Map<String, String> map, String s, ConversionContext conversionContext) throws MacroExecutionException {
         if (map.get("Name") != null) {
             return ("<h1>Hello " + map.get("Name") + "!</h1>");
@@ -243,7 +245,7 @@ Now, you will allow the user to specify their name using a parameter to learn ab
 7.  Save your changes to **helloworld.java**
 8.  In your terminal window, make sure you're in the top directory for your project (eg &lt;home&gt;/AtlassianTutorial/myConfluenceMacro) and run the command:
 
-    ``` javascript
+    ``` bash
     atlas-mvn package
     ```
 
@@ -260,7 +262,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 1.  Open the **atlassian-plugin.xml **file in your favourite editor.
 2.  Notice that the &lt;`web-resource> `parameter already exists:
 
-    ``` javascript
+    ``` xml
     <web-resource key="myConfluenceMacro-resources" name="myConfluenceMacro Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
         
@@ -276,7 +278,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 3.  Below your `<parameter name="Name" type="string" />`, add a new `<parameter name="Color" type="enum">` as follows:
 
-    ``` javascript
+    ``` xml
     <parameter name="Color" type="enum">
         <value name="red"/>
         <value name="green"/>
@@ -290,7 +292,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 5.  Next, open the **src/main/resources/css/myConfluenceMacro.css** file
 6.  Add the following css to the file:
 
-    ``` javascript
+    ``` css
     .blue h1 {
         color: blue;
     }
@@ -310,7 +312,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 8.  Now, open the **src/main/java/com/atlassian/tutorial/macro/helloworld.java** file. 
 9.  Modify the **execute **function to create &lt;div&gt; elements as follows:
 
-    ``` javascript
+    ``` java
     public String execute(Map<String, String> map, String s, ConversionContext conversionContext) throws MacroExecutionException {
         String output = "<div class =\"helloworld\">";
         output = output + "<div class = \"" + map.get("Color") + "\">";
@@ -328,7 +330,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 10. Next, under the existing imports in your java file, add the following new lines:
 
-    ``` javascript
+    ``` java
     import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
     import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
     import com.atlassian.webresource.api.assembler.PageBuilderService;
@@ -339,7 +341,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 11. Above the `public class helloworld implements Macro` definition, add the following Spring annotations:
 
-    ``` javascript
+    ``` java
     @Scanned
     ```
 
@@ -347,7 +349,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 12. Now, within the `helloworld` class definition, add a `PageBuilderService` variable, as well as a constructor for your `helloworld` class as follows:
 
-    ``` javascript
+    ``` java
     public class helloworld implements Macro {
 
         private PageBuilderService pageBuilderService;
@@ -362,7 +364,7 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 13. Finally, add the following line to your execute function:
 
-    ``` javascript
+    ``` java
     pageBuilderService.assembler().resources().requireWebResource("com.atlassian.tutorial.myConfluenceMacro:myConfluenceMacro-resources");
     ```
 
@@ -395,6 +397,7 @@ Or, check out the questions on <a href="http://answers.atlassian.com/" class="e
 -   You can find documentation for Spring Scanner at <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner" class="uri external-link">https://bitbucket.org/atlassian/atlassian-spring-scanner</a>
 -   Learn more about the [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
 -   [L](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module/including-information-in-your-macro-for-the-macro-browser)earn more about the [Macro Module](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module)
+
 
 
 

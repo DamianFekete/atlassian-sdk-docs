@@ -246,9 +246,9 @@ Apr 30, 2015
 
 Jul 03, 2015
 
-Marty Henderson
+Martin Henderson
 
-Marty Henderson
+Martin Henderson
 
 <img src="https://ecosystem.atlassian.net/images/icons/priorities/minor.svg" alt="Minor" class="icon" />
 
@@ -283,6 +283,7 @@ Fixed
 <a href="https://developer.atlassian.com/plugins/servlet/applinks/oauth/login-dance/authorize?applicationLinkID=61b6191d-d412-3043-a96c-75b7bceaed1f" class="static-oauth-init">Authenticate</a> to retrieve your issues
 
 [10 issues](https://ecosystem.atlassian.net/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+AO+and+fixVersion+%3D+%221.0.0%22+order+by+priority+desc++&src=confmacro "View all matching issues in JIRA.")
+
 
 
 

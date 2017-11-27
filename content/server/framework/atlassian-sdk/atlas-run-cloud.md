@@ -45,24 +45,18 @@ Interpreted parameters:
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Full Parameter</p></th>
-<th><p>Shortened</p></th>
-<th><p>Accepts a Value?</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>--application</p></td>
-<td><p> </p></td>
-<td><p>Yes</p></td>
 <td><p>Application to run. Application will be run with current Cloud configuration. Valid values:</p>
 <ul>
 <li><code>jira-software</code></li>
@@ -70,12 +64,13 @@ Interpreted parameters:
 </tr>
 <tr class="even">
 <td>--maven-plugin-version</td>
-<td>-u</td>
-<td>Yes</td>
-<td><p>Maven AMPS plugin version to use. The default value depends on the version of the Atlassian plugin SDK. View the help text for <code>atlas-run-cloud</code> (see below) for details.</p></td>
+<td><p>Maven AMPS plugin version to use. The default value depends on the version of the Atlassian plugin SDK. View the help text for <code>atlas-run-cloud</code> (see below) for details.</p>
+<p><strong>Shortened: -u</strong></p></td>
 </tr>
 </tbody>
 </table>
+
+**All above accepts a value.**
 
 ## Getting Help
 
@@ -109,6 +104,7 @@ This will do the following:
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
 
 
 

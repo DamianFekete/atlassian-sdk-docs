@@ -92,7 +92,7 @@ Apr 27, 2017
 
 Sebastian Pawlak
 
-Samuel Le Berrigaud
+Samuel Berrigaud
 
 <img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="icon" />
 
@@ -105,6 +105,7 @@ Fixed
 <a href="https://developer.atlassian.com/plugins/servlet/applinks/oauth/login-dance/authorize?applicationLinkID=61b6191d-d412-3043-a96c-75b7bceaed1f" class="static-oauth-init">Authenticate</a> to retrieve your issues
 
 [1 issue](https://ecosystem.atlassian.net/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+AO+AND+fixVersion+%3D+%221.2.0%22+++++&src=confmacro "View all matching issues in JIRA.")
+
 
 
 

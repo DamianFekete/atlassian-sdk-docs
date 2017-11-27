@@ -34,9 +34,12 @@ Experienced programmers or readers with previous knowledge of Atlassian plugin d
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you are done, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/testtutorial.git
+``` bash
+git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/testtutorial.git
+```
 
 Alternatively, you can download the latest source here: <a href="https://bitbucket.org/atlassian_tutorial/testtutorial/downloads" class="uri external-link">https://bitbucket.org/atlassian_tutorial/testtutorial/downloads</a>.
+
 
 
 

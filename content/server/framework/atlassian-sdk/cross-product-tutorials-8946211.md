@@ -54,11 +54,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
@@ -90,6 +90,7 @@ Tutorials classified by the level of skill assumed:
 ### Other Tutorials
 
 Looking for specific tutorials for Confluence, JIRA and other Atlassian products? Please refer to the [complete list of Atlassian tutorials](/server/framework/atlassian-sdk/tutorials).
+
 
 
 

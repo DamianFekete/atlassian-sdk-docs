@@ -14,23 +14,24 @@ subcategory:
 
 Param elements represent a map of key/value pairs, where each entry corresponds to the param elements attribute: `name` and `value` respectively.
 
-``` javascript
+``` xml
 <param name="key" value="value" />
 ```
 
 The value can be retrieved from within the Velocity view with the following code, where $item is a `WebItemModuleDescriptor`:
 
-``` javascript
+``` xml
 $item.webParams.get("key") <!-- retrieve the value -->
 $item.webParams.getRenderedParam("key", $user, $helper) <!-- retrieve the Velocity rendered value -->
 ```
 
 If the `value` attribute is not specified, the value will be set to the body of the element. I.e. the following two param elements are equivalent:
 
-``` javascript
+``` xml
 <param name="isPopupLink" value="true" />
 <param name="isPopupLink">true</param>
 ```
+
 
 
 

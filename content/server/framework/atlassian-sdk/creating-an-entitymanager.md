@@ -20,7 +20,7 @@ The `EntityManager` is the corner stone of Active Objects.
 
 The simplest way to create and configure an entity manager is by using the `net.java.ao.builder.EntityManagerBuilder`:
 
-``` javascript
+``` java
 EntityManager entityManager = EntityManagerBuilder
                 .url(jdbcProperties.url) // the JDBC url for database connection
                 .username(jdbcProperties.username) 
@@ -41,6 +41,7 @@ When in an Atlassian plugin
 There is no need for you to create your own entity manager, this is handled by the Active Objects plugin.
 
 {{% /tip %}}
+
 
 
 

@@ -33,7 +33,7 @@ In [Configuring the Plugin Descriptor](https://developer.atlassian.com/display/D
 
 To add a configuration link for your plugin as a whole, place a single `param` element with the name `configure.url` within the `plugin-info` element at the top of the plugin descriptor:
 
-``` javascript
+``` xml
 <plugin-info>
     <description>A macro which displays Google maps within a Confluence page.</description>
     <vendor name="Atlassian Software Systems Pty Ltd" url="http://www.atlassian.com/"/>
@@ -51,6 +51,7 @@ This `param` element causes a button with the Configure label to appear in the d
     -   A new XWork action that you have defined via an XWork plugin module.
     -   Or a servlet defined via a [Servlet](https://developer.atlassian.com/display/DOCS/Servlet+Plugin+Module) plugin module.
 -   Not all applications support configuration links, so you may need to create a web item link in the administration menu to link to your configuration page.
+
 
 
 

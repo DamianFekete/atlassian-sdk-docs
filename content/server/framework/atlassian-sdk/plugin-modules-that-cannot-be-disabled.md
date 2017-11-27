@@ -24,14 +24,15 @@ title: Plugin modules that cannot be disabled
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Atlassian Plugin Framework 2.5</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Atlassian Plugin Framework 2.5</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
 
  
 
-Plugin modules marked with the `@CannotDisable` annotation cannot be disabled dynamically unless the entire plugin is disabled. The `@CannotDisable` annotation is inherited, so any custom `ModuleDescriptor` that subclasses `ModuleDescriptor` types annotated with `@CannotDisable` also cannot be disabled. In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes) and later, [component](/server/framework/atlassian-sdk/component-plugin-module) and [component import](/server/framework/atlassian-sdk/component-import-plugin-module) modules and their subclasses cannot be disabled.
+Plugin modules marked with the `@CannotDisable` annotation cannot be disabled dynamically unless the entire plugin is disabled. The `@CannotDisable` annotation is inherited, so any custom `ModuleDescriptor` that subclasses `ModuleDescriptor` types annotated with `@CannotDisable` also cannot be disabled. In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later, [component](/server/framework/atlassian-sdk/component-plugin-module) and [component import](/server/framework/atlassian-sdk/component-import-plugin-module) modules and their subclasses cannot be disabled.
+
 
 
 

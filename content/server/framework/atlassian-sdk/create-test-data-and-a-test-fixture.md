@@ -81,7 +81,7 @@ In this step, you check your `pom.xml` and verify the data version you want to u
 4.  Make sure you have a `<productDataVersion>` defined.  
     If you have followed along with this tutorial, you should seem something like the following:
 
-    ``` javascript
+    ``` xml
        <build>
           <plugins>
              <plugin>
@@ -132,7 +132,9 @@ Now, you are ready to create some in-product test data for your tests.  If you 
 1.  Navigate to your `PLUGIN_HOME`.
 2.  Start the application passing it the parameter to skip running any tests.
 
-        atlas-run -DskipTests=true
+    ``` bash
+    atlas-run -DskipTests=true
+    ```
 
 3.  Start your browser and log into JIRA.
 4.  Create a project and add one or two issues to it.
@@ -140,14 +142,18 @@ Now, you are ready to create some in-product test data for your tests.  If you 
 6.  Make sure your current directory is your `PLUGIN_HOME`.
 7.  Create a zip of the application home directory in your target.
 
-        atlas-create-home-zip
+    ``` bash
+    atlas-create-home-zip
+    ```
 
     This command creates a `PLUGIN_HOME/target/application/generated-test-resources.zip` file.  Since the target directory is often cleaned or removed, you want to copy this file to another location.
 
 8.  Again, make sure your current directory is your `PLUGIN_HOME`.
 9.  Copy the test resources to your `PLUGIN_HOME/src/test/resources` directory.
 
-        cp target/jira/generated-test-resources.zip PLUGIN_HOME/src/test/resources
+    ``` bash
+    cp target/jira/generated-test-resources.zip PLUGIN_HOME/src/test/resources
+    ```
 
     This directory is not cleared out when you run the `atlas-clean` command.
 
@@ -159,7 +165,9 @@ The ZIP archive you created in the previous step is now part of your plugin test
 2.  Make sure your current directory is your `PLUGIN_HOME`.
 3.  Go ahead and remove the target directory by entering the following command:
 
-        atlas-clean
+    ``` bash
+    atlas-clean
+    ```
 
     Cleaning the target directory from your project is not something you have to do often.  You do it at this point because you want to make sure that your project picks up the test data from your resources rather than anything left behind in the `target` directory.
 
@@ -169,16 +177,20 @@ The ZIP archive you created in the previous step is now part of your plugin test
 7.  Add a `<productDataPath>`specification and point it to your test data ZIP archive.  
     When you are done your configuration will look similar to the following:
 
-        <configuration>
-            <productVersion>${jira.version}</productVersion>
-            <productDataVersion>${jira.version}</productDataVersion>                                                               
-            <productDataPath>${basedir}/src/test/resources/generated-test-resources.zip</productDataPath>
-        ...
+    ``` xml
+    <configuration>
+        <productVersion>${jira.version}</productVersion>
+        <productDataVersion>${jira.version}</productDataVersion>                                                               
+        <productDataPath>${basedir}/src/test/resources/generated-test-resources.zip</productDataPath>
+    ...
+    ```
 
 8.  Save and close the file.
 9.  Return to the command line and start the application in debug mode.
 
-        atlas-debug
+    ``` bash
+    atlas-debug
+    ```
 
     You could also use  `atlas-run -DskipTests=true` it is entirely your choice. 
 
@@ -189,11 +201,14 @@ The ZIP archive you created in the previous step is now part of your plugin test
 
 You've completed the Writing and Running Plugin Test tutorial.  If you want to check your work, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/testtutorial.git
+``` bash
+git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/testtutorial.git
+```
 
 Alternatively, you can download the latest source here: <a href="https://bitbucket.org/atlassian_tutorial/testtutorial/downloads" class="uri external-link">https://bitbucket.org/atlassian_tutorial/testtutorial/downloads</a>.
 
 The information in this tutorial was foundation information.  Meaning, you can use what you learned here regardless of which host application your plugin is for.  Documentation for each host application (available from this site) contains additional and more specific information about testing in those applications.
+
 
 
 

@@ -12,9 +12,9 @@ subcategory:
 ---
 # Documentation : \_Label Elements
 
-Label elements may contain optional parameters, as shown below:  
+Label elements may contain optional parameters, as shown below:
 
-``` javascript
+``` xml
 <label key="common.concepts.create.new.issue">
     <param name="param0">$helper.project.name</param>
 </label>
@@ -23,6 +23,7 @@ Label elements may contain optional parameters, as shown below:
 -   The parameters allow you to insert values into the label using Java's <a href="http://java.sun.com/j2se/1.4.2/docs/api/java/text/MessageFormat.html" class="external-link">MessageFormat</a> syntax.
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
+
 
 
 

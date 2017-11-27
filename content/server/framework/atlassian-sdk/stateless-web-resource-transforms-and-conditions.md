@@ -111,13 +111,13 @@ The transform lookup algorithm for a key `my-key` is as follows:
 -   If not found, look for a transform2 with `alias-key = my-key`
 -   If not found, look for a transforms1 with `key = my-key`
 
-``` javascript
+``` xml
 <!-- in the plugin declaring the transform -->
 <web-resource-transformer key="jsI18n" name="JavaScript I18n Transformer" class="com.atlassian.aui.javascript.JsI18nTransformer" />
 <url-reading-web-resource-transformer key="jsI18n-2" alias-key="jsI18n" name="JavaScript I18n Transformer" class="com.atlassian.aui.javascript.UrlReadingJsI18nTransformer" />
 ```
 
-``` javascript
+``` xml
 <!-- in a plugin using the transform -->
 <web-resource key="my-resource">
   <transformation extension="js">
@@ -132,7 +132,7 @@ In an old product, the `<url-reading-web-resource-transformer>` will be ignore
 
 Add a `class2` attribute to your `<condition>` declaration:
 
-``` javascript
+``` xml
 <web-resource key="my-resource">
   <condition
     class="com.atlassian.jira.plugin.webfragment.conditions.BooleanSystemPropertyCondition"
@@ -147,6 +147,7 @@ In an old product, `class2` will be ignored.
 In a new product, for a `web-resource` only (ie not a `web-item` / `web-panel` etc), the contract is to look for `class2` if it exists, otherwise use `class`.
 
 Note that `class` can be either a condition1 or a condition2 - in particular if you're implementing something for condition2 only, `class` can be a condition2.
+
 
 
 

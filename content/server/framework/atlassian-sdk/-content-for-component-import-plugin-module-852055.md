@@ -24,80 +24,51 @@ The root element for the Component Import plugin module is `component-import`. I
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
+<th><p>Name*</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>interface</p></td>
-<td><p>Yes</p></td>
-<td><p>The Java interface of the component to import. This attribute is only required if the <code>interface</code> elements are not used.</p></td>
-<td><p>N/A</p></td>
+<td><p>The Java interface of the component to import.</p>
+<p>This attribute is only required if the <code>interface</code> elements are not used.</p></td>
 </tr>
 <tr class="even">
-<td><p>key</p></td>
-<td><p>Yes</p></td>
+<td>key</td>
 <td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="panelContent preformattedContent">
+<p> </p>
 <pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-</div>
-</div>
+<p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
-That is, the identifier of the component to import.</td>
-<td><p>N/A</p></td>
+ 
+<p>That is, the identifier of the component to import.</p></td>
 </tr>
 <tr class="odd">
-<td><p>filter</p></td>
-<td><p> </p></td>
-<td><p>The LDAP filter to use to match public components (OSGi services). The format of the filter must be a valid LDAP filter. (Plugin Framework 2.3 and later.)</p></td>
-<td><p> </p></td>
+<td><p>filter</p>
+<p> </p></td>
+<td><p>The LDAP filter to use to match public components (OSGi services).</p>
+<p>The format of the filter must be a valid LDAP filter. (Plugin Framework 2.3 and later.)</p></td>
 </tr>
 </tbody>
 </table>
+
+**\*interface and key attributes are required.**
 
 #### Elements
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-<th><p>Default</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>interface</p></td>
-<td><p>Yes</p></td>
-<td><p>The Java interface under which the component to retrieve is registered. This element can appear zero or more times, but is required if the <code>interface</code> attribute is not used.</p></td>
-<td><p>N/A</p></td>
-</tr>
-</tbody>
-</table>
+-   interface - the Java interface under which the component to retrieve is registered. This element can appear zero or more times, but is required if the `interface` attribute is not used. **Required.**
 
 ## Example
 
 Here is an example `atlassian-plugin.xml` file containing a single component import:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>A basic component import module test</description>
@@ -113,7 +84,7 @@ Here is an example `atlassian-plugin.xml` file containing a single component imp
 
 It consumes a component made available via a different plugin:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World Provider" key="example.plugin.helloworld.provider" plugins-version="2">
     <plugin-info>
         <description>A basic component module test</description>
@@ -129,7 +100,7 @@ It consumes a component made available via a different plugin:
 
 Here is an example of matching via an LDAP filter. Since a component import is really just matching an OSGi service, you can optionally specify an LDAP filter to match the specific service. Here is an example that matches a dictionary service that provides a `language` attribute that equals `English`:
 
-``` javascript
+``` xml
 <component-import key="dictionaryService" interface="com.myapp.DictionaryService"
                   filter="(language=English)" />
 ```
@@ -142,6 +113,7 @@ Some information to be aware of when developing or configuring a Component Impor
 -   The imported component will have its bean name set to the component import key, which may be important if using 'by name' dependency injection.
 -   If you wish to have more control over how imported services are discovered and made available to your plugin, you can create your own Spring configuration file containing Spring Dynamic Modules elements, stored in `META-INF/spring` in your plugin jar. This is recommended if you are needing to import multiple services that implement an interface, for example.
 -   You can use component imports to customise the bean name of host components, particularly useful if you plan to use 'by name' dependency injection.
+
 
 
 

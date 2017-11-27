@@ -32,7 +32,7 @@ This is one of the most common HTTP requests. In this step, you'll add a line of
 
 2.  Add a `POST` method in the `<form>` tag.
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>MyServlet Admin</title>
@@ -65,7 +65,7 @@ In this step you'll update the dependencies in your `pom.xml` and `MyPluginSe
 1.  Open `MyPluginServlet.java`.
 2.  Replace the contents of the class with the following.
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.refapp;
 
     import java.util.HashMap;
@@ -194,6 +194,7 @@ You've created a plugin complete with a GUI that accepts and stores data - no mi
 [Developing plugins for Confluence](https://developer.atlassian.com/display/CONFDEV/Confluence+Plugin+Guide)
 
 [Developing for the Marketplace](https://developer.atlassian.com/display/MARKET/Developing+for+the+Marketplace)
+
 
 
 

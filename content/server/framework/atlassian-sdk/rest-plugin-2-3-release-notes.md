@@ -19,15 +19,9 @@ title: REST plugin 2.3 release notes
 
 With pleasure, Atlassian presents the **Atlassian REST Plugin 2.3**.
 
-This is a maintenance release. Its primary purpose is compatibility with [SAL 2.3](https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.3+Release+Notes).
+This is a maintenance release. Its primary purpose is compatibility with [SAL 2.3](https://developer.atlassian.com/pages/viewpage.action?pageId=5242931).
 
 ### Complete List of Fixes in this Release
-
-{{% note %}}
-
-This table displays contents from an external source. The contents will be displayed as HTML. If you trust the security of this source, you can display the original formatting and avoid this warning by creating an Application Link to this JIRA instance.
-
-{{% /note %}}
 
 |                                                                           |                                                                                                            |                                                                                                          |          |
 |:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|:---------|
@@ -36,6 +30,7 @@ This table displays contents from an external source. The contents will be displ
 | [REST-154](https://ecosystem.atlassian.net/browse/REST-154?src=confmacro) | [Classloader order in ProxyUtils incorrect](https://ecosystem.atlassian.net/browse/REST-154?src=confmacro) | <img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="icon" /> | Resolved |
 
 [2 issues](https://studio.atlassian.com/secure/IssueNavigator.jspa?reset=true&jqlQuery=project%20=%20REST%20AND%20fixVersion%20=%20%222.3.0%22%20AND%20status%20=%20Resolved%20ORDER%20BY%20priority%20DESC&tempMax=1000&src=confmacro "View all matching issues in JIRA.")
+
 
 
 

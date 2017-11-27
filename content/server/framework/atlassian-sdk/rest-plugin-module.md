@@ -39,7 +39,7 @@ REST APIs provide access to resources via URI paths. To use a REST API, your plu
 
 A REST resource is exposed at a URL such as this:
 
-``` javascript
+``` xml
 http://myhost.com:port/myapp/rest/api-name/api-version/resource-name
 ```
 
@@ -50,7 +50,7 @@ Here's how the parts of the URL are composed and used:
 3.  `/rest` - The application's <a href="http://wiki.metawerx.net/wiki/Web.xml" class="external-link">web.xml</a> deployment descriptor file maps the URLs to the relevant servlets. So in this case, it maps /rest to our REST servlet, which points to our [REST plugin module type](https://developer.atlassian.com/display/REST/REST+Plugin+Module).
 4.  `/api-name/api-version` - Now the REST plugin module takes over. The relevant part of the URL (`api-name` and `api-version`) are defined as the `path` and `version` in the `atlassian-plugin.xml` file. For example:
 
-    ``` javascript
+    ``` xml
     <rest key="helloWorldRest" path="/helloworld" version="1.0">
         <description>Provides hello world services.</description>
     </rest>
@@ -64,7 +64,7 @@ Here's how the parts of the URL are composed and used:
 
 For example a Java `User` object with JAXB annotations may look something like this:
 
-``` javascript
+``` xml
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement
@@ -92,7 +92,7 @@ public class User
 
 The XML response content for user John Smith would be:
 
-``` javascript
+``` xml
 <user>
     <firstName>John</firstName>
     <lastName>Smith</lastName>
@@ -120,7 +120,7 @@ Jersey also handles JSON based on the same JAXB objects as in the example above.
 
 A trivial REST service class with a single URL returning an instance of `User` would look like this:
 
-``` javascript
+``` java
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 
@@ -144,37 +144,33 @@ The root element for the REST plugin module is `rest`. It allows the following a
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>key</p></td>
-<td><p>Yes</p></td>
-<td><p>The identifier of the plugin module, i.e. the identifier of the REST module. This key must be unique within the plugin where it is defined. Sometimes you will need to uniquely identify a module. Do this with the <strong>complete module key</strong>. A module with key <code>fred</code> in a plugin with key <code>com.example.modules</code> will have a complete key of <code>com.example.modules:fred</code>.</p></td>
-<td><p>N/A</p></td>
+<td><p>The identifier of the plugin module, i.e. the identifier of the REST module. This key must be unique within the plugin where it is defined. Sometimes you will need to uniquely identify a module. Do this with the <strong>complete module key</strong>. A module with key <code>fred</code> in a plugin with key <code>com.example.modules</code> will have a complete key of <code>com.example.modules:fred</code>.</p>
+<p><strong>Requred: Yes</strong></p>
+<p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>path</p></td>
-<td><p>Yes</p></td>
-<td><p>The path to the REST API exposed by this module. For example, if set to <code>/foo</code>, the REST API will be available at <code>http://localhost:8080/context/rest/foo/1.0</code>, where <code>1.0</code> is the version of the REST API.</p></td>
-<td><p>N/A</p></td>
+<td><p>The path to the REST API exposed by this module. For example, if set to <code>/foo</code>, the REST API will be available at <a href="http://localhost:8080/context/rest/foo/1.0" class="uri external-link">http://localhost:8080/context/rest/foo/1.0</a>, where 1.0 is the version of the REST API.</p>
+<p><strong>Requred: Yes</strong></p>
+<p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>version</p></td>
-<td><p>Yes</p></td>
-<td><p>This is the version of the REST API. This is not the same thing as the plugin version. Different versions of the same API can be provided by different plugins. Version numbers follow the same pattern as OSGi versions, i.e. <code>major.minor.micro.qualifier</code> where <code>major</code>, <code>minor</code> and <code>micro</code> are integers. If version is <code>none</code>, then the REST API will not contain a version number in its URL.</p></td>
-<td><p>N/A</p></td>
+<td><p>This is the version of the REST API. This is not the same thing as the plugin version. Different versions of the same API can be provided by different plugins. Version numbers follow the same pattern as OSGi versions, i.e. <code>major.minor.micro.qualifier</code> where <code>major</code>, <code>minor</code> and <code>micro</code> are integers. If version is <code>none</code>, then the REST API will not contain a version number in its URL.</p>
+<p><strong>Requred: Yes</strong></p>
+<p><strong>Default: N/A</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -183,39 +179,35 @@ The root element for the REST plugin module is `rest`. It allows the following a
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required</p></th>
 <th><p>Description</p></th>
-<th><p>Default</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>description</p></td>
-<td><p> </p></td>
-<td><p>The description of the plugin module, i.e. the description of the REST module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.</p></td>
-<td><p>N/A</p></td>
+<td><p>The description of the plugin module, i.e. the description of the REST module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.</p>
+<p><strong>Requred: -</strong></p>
+<p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>package</p></td>
-<td><p> </p></td>
-<td><p>The package from which to start scanning for resources and providers. Can be specified multiple times. Defaults to scanning the whole plugin. <strong>Since 2.0</strong></p></td>
-<td><p>N/A</p></td>
+<td><p>The package from which to start scanning for resources and providers. Can be specified multiple times. Defaults to scanning the whole plugin. <strong>Since 2.0</strong></p>
+<p><strong>Requred: -</strong></p>
+<p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>dispatcher</p></td>
-<td><p> </p></td>
 <td><p>Determines when the filter is triggered. You can include multiple <code>dispatcher</code> elements.<br />
 If this element is present, its content must be one of the following: <code>REQUEST</code>, <code>INCLUDE</code>, <code>FORWARD</code>, <code>ERROR</code>.<br />
-Note: This element is only available in <a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Plugin Framework 2.5</a> and later. In earlier versions of the framework, the filter will be fired on all conditions.</p></td>
-<td><p>Filter will be triggered on <code>REQUEST</code> only.</p></td>
+Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Plugin Framework 2.5</a> and later. In earlier versions of the framework, the filter will be fired on all conditions.</p>
+<p><strong>Requred: -</strong></p>
+<p><strong>Default: Filter will be triggered on <code>REQUEST</code> only.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +216,7 @@ Note: This element is only available in <a href="https://developer.atlassian.com
 
 Here is an example `atlassian-plugin.xml` file containing a single public component:
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
     <plugin-info>
         <description>A basic REST module test</description>
@@ -266,7 +258,7 @@ See [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atla
 
 Your REST resources will be available at this URL:
 
-``` javascript
+``` xml
 http://host:port/context/rest/helloworld/1.0
 ```
 
@@ -277,7 +269,7 @@ http://host:port/context/rest/helloworld/1.0
 
 If `1.0` is the latest version of the *helloworld* API installed, this version will also be available at this URL:
 
-``` javascript
+``` xml
 http://host:port/context/rest/helloworld/latest
 ```
 
@@ -287,14 +279,14 @@ The REST plugin module scans your plugin for classes annotated with the `@Provid
 
 For those not familiar with the JAX-RS specification, the @Path annotation can be declared at a package, class, or method level.  Furthermore, their effects are cumulative.  For example, if you define this at the package level:
 
-``` javascript
+``` java
 @Path("/admin")
 package myPackage;
 ```
 
 then this at the class level:
 
-``` javascript
+``` java
 package myPackage;
 
 @Path("/myGroup")
@@ -303,14 +295,14 @@ public class MyGroup {...};
 
 then this at the method level:
 
-``` javascript
+``` java
 @Path("/myResource")
 public void getResource() {...};
 ```
 
 The final URL would be for the helloWorld plugin above:
 
-``` javascript
+``` xml
 http://host:port/context/rest/helloworld/1.0/admin/myGroup/myResource
 ```
 
@@ -327,7 +319,7 @@ The REST plugin module allows you to use an extension to the resource name in th
 
 For example, let's assume I want to request JSON data for the resource at this address:
 
-``` javascript
+``` xml
 http://host:port/context/rest/helloworld/latest/myresource
 ```
 
@@ -336,7 +328,7 @@ I have two options:
 -   **Option 1:** Use the HTTP Accept header set to `application/json`.
 -   **Option 2:**Simply request the resource via this URL:
 
-    ``` javascript
+    ``` xml
     http://host:port/context/rest/helloworld/latest/myresource.json
     ```
 
@@ -368,6 +360,7 @@ To get the same behaviour for JSON you need to either annotate each field with `
 [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)  
 [Guidelines for Atlassian REST API Design](https://developer.atlassian.com/display/REST/Guidelines+for+Atlassian+REST+API+Design)  
 [Atlassian Plugin Framework Documentation](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
+
 
 
 

@@ -47,7 +47,7 @@ So far our TODO plugin doesn't care about who the user is and even whether the u
 
 We check whether the user is authenticated in the servlet:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
@@ -134,7 +134,7 @@ public final class TodoServlet extends HttpServlet
 
 We now need to record which user the TODO item belongs to. A simple way to do this is to add a `username` field to the `Todo` class:
 
-``` javascript
+``` java
 @Preload
 public interface Todo extends Entity
 {
@@ -154,7 +154,7 @@ public interface Todo extends Entity
 
 And then we also need to update the `TodoService` implementation to properly handle this username:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -218,7 +218,7 @@ That's it. Active Objects will take care of adding the missing column for us. Le
 
 Since **stage 4** we already have a `log4j.properties` file, in the `src/test/resources` directory. Let's configure the `maven-refapp-plugin` to also use it.
 
-``` javascript
+``` xml
 ...
   <plugin>
     <groupId>com.atlassian.maven.plugins</groupId>
@@ -237,7 +237,7 @@ Since **stage 4** we already have a `log4j.properties` file, in the `src/test/re
 
 Now that we've changed the data model, the tests we wrote in Stage 4 are no longer up-to-date. You can either choose to update them or skip compiling/running the tests via adding the following to your `pom.xml`
 
-``` javascript
+``` xml
 <properties>
 ...
 <maven.test.skip>true</maven.test.skip>
@@ -266,7 +266,7 @@ So we have one issue, we lost the TODO items we created. Fear not, the data is s
 
 For this we're going to need our first `ActiveObjectsUpgradeTask`. Here is how it looks:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo.upgrade.v1; // (1)
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -303,7 +303,7 @@ public final class TodoUpgradeTask001 implements ActiveObjectsUpgradeTask
 
 The last step is to reference this upgrade task in the Active Objects module descriptor:
 
-``` javascript
+``` xml
 <ao key="ao-module">
   <description>The module configuring the Active Objects service used by this plugin</description>
   <entity>com.atlassian.tutorial.ao.todo.Todo</entity>
@@ -321,7 +321,11 @@ We've now completed **stage 5** of this tutorial. Let's check that everything is
 -   as `admin (pwd:admin)`, you should retrieve all the TODO items you previously entered,
 -   as `fred (pwd:fred)`, you shouldn't have any TODO item there yet
 
-<img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/warning.png" alt="(warning)" class="confluence-external-resource" /> If you're having issues, you might want to compare with my version of the code.
+{{% note %}}
+
+If you're having issues, you might want to compare with my version of the code.
+
+{{% /note %}}
 
 You now have an Active Objects plugin capable of handling older version of its model.
 
@@ -339,7 +343,7 @@ So what we want to do is:
 
 Let's first have a look at the model we want get to:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import net.java.ao.Entity;
@@ -351,7 +355,7 @@ public interface User extends Entity
 }
 ```
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo;
 
 import net.java.ao.Entity;
@@ -379,7 +383,7 @@ public interface Todo extends Entity
 
 In order to get there we're going to need an `ActiveObjectsUpgradeTask`, but also an intermediate model where both the `userName` field and the `User` field are present on the `Todo` class. Let's see what it looks like:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo.upgrade.v2; // (1)
 
 import net.java.ao.Entity;
@@ -393,7 +397,7 @@ public interface User extends Entity
 
 1.  See how we've created this model in a specific upgrade package
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo.upgrade.v2; // (1)
 
 import net.java.ao.Entity;
@@ -426,7 +430,7 @@ public interface Todo extends Entity
 
 And then we have the corresponding upgrade task:
 
-``` javascript
+``` java
 package com.atlassian.tutorial.ao.todo.upgrade.v2; // (1)
 
 import com.atlassian.activeobjects.external.ActiveObjects;
@@ -481,7 +485,7 @@ public final class TodoUpgradeTask002 implements ActiveObjectsUpgradeTask
 
 Then we simply need to declare the upgrade task in the Active Objects module descriptor:
 
-``` javascript
+``` xml
 <ao key="ao-module">
   <description>The module configuring the Active Objects service used by this plugin</description>
   <entity>com.atlassian.tutorial.ao.todo.Todo</entity>
@@ -526,9 +530,13 @@ This complete **stage 6** of this tutorial. Let's check that everything is worki
 [INFO] [talledLocalContainer] DEBUG -                                              net.java.ao.sql - ALTER TABLE AO_3F7D93_TODO ALTER COLUMN USER_ID INTEGER NOT NULL
 [INFO] [talledLocalContainer] DEBUG -                                              net.java.ao.sql - ALTER TABLE AO_3F7D93_TODO ADD CONSTRAINT fk_ao_3f7d93_todo_user_id FOREIGN KEY (USER_ID) REFERENCES AO_3F7D93_USER(ID)
 
--   <img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/warning.png" alt="(warning)" class="confluence-external-resource" /> If you're having issues, you might want to compare with my version of the code.
+-   {{% note %}}
+If you're having issues, you might want to compare with my version of the code.
+
+{{% /note %}}
 
 {{% /tip %}}
+
 
 
 

@@ -22,7 +22,7 @@ title: Creating plugin module instances
 
 When specifying an implementation of a plugin module, you can specify the class name that the plugin framework should resolve, instantiate, and inject for you. Instances are created per usage (prototype-scope) and Spring injection will happen via <a href="http://static.springsource.org/spring/docs/2.5.6/reference/beans.html#beans-factory-autowire" class="external-link">autodetection autowire mode</a>, which tries constructor injection, falling back to setter injection by type.
 
-In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes) and later, the instantiation of a plugin module has been improved to give you full control how your module classes will be created via a new optional prefix-based, pluggable PrefixModuleFactory interface. Out of the box, the framework ships with support for the `"bean:"` prefix that allows you to refer to a Spring bean by ID instead of specifying a classname in the module descriptor. This gives you complete control over the creation, scope, and injection of your plugin modules.
+In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later, the instantiation of a plugin module has been improved to give you full control how your module classes will be created via a new optional prefix-based, pluggable PrefixModuleFactory interface. Out of the box, the framework ships with support for the `"bean:"` prefix that allows you to refer to a Spring bean by ID instead of specifying a classname in the module descriptor. This gives you complete control over the creation, scope, and injection of your plugin modules.
 
 <table>
 <colgroup>
@@ -32,7 +32,7 @@ In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/display/ARCH
 <tbody>
 <tr class="odd">
 <td><p>Everything from here down is available in</p></td>
-<td><p><a href="https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.5+Release+Notes">Atlassian Plugin Framework 2.5</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Atlassian Plugin Framework 2.5</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
@@ -167,6 +167,7 @@ The prefix is now able to be used by plugin modules that expect objects like the
 
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

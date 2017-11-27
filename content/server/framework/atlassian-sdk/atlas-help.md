@@ -26,30 +26,7 @@ This page describes the shell script `atlas-help`, part of the [Atlassian Plugin
 
 ## Parameters
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Full Parameter</p></th>
-<th><p>Shortened</p></th>
-<th><p>Accepts a Value?</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>--verbose</p></td>
-<td><p> </p></td>
-<td><p>No</p></td>
-<td><p>Lists all the shell scripts and the full help text for each command.</p></td>
-</tr>
-</tbody>
-</table>
+**--verbose** - lists all the shell scripts and the full help text for each command. Accepts a Value: no.
 
 ## Examples and More about Getting Help
 
@@ -100,6 +77,7 @@ See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlas
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818350" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
 
 
 

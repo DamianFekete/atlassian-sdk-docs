@@ -122,7 +122,7 @@ The Active Objects plugin offers a simpler solution, using the `net.java.ao.sche
 
 **Renamed entity**
 
-``` javascript
+``` java
 @Table("MyEntity")
 public interface RenamedEntity extends Entity
 {
@@ -138,7 +138,7 @@ This behaves the same as for entity/table names. So the same precautions should 
 
 **RenamedField**
 
-``` javascript
+``` java
 public interface MyEntity extends Entity
 {
    @Mutator("Field")
@@ -160,6 +160,7 @@ See <a href="https://ecosystem.atlassian.net/browse/AO-273" class="external-link
 ## Best practices
 
 See [Best practices for developing with Active Objects](/server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects).
+
 
 
 

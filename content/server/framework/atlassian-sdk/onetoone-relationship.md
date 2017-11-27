@@ -22,7 +22,7 @@ In the DogFood blog there is such a relationship defined between the `Blog` and 
 
 **Blog.java**
 
-``` javascript
+``` java
 public interface Blog extends Entity
 {
     ...
@@ -36,7 +36,7 @@ And here is how this is defined in the `BlogConfiguration`:
 
 **BlogConfiguration.java**
 
-``` javascript
+``` java
 public interface BlogConfiguration extends Entity
 {
     void setBlog(Blog blog);
@@ -47,7 +47,7 @@ public interface BlogConfiguration extends Entity
 
 Then setting the relation ship is as simple as:
 
-``` javascript
+``` java
 final BlogConfiguration configuration = entityManager.create(BlogConfiguration.class);
 ...
 configuration.setBlog(blog); // setting the blog here
@@ -65,6 +65,7 @@ The <a href="https://developer.atlassian.com/display/DOCS/OneToOne+Relationship"
 If you do not set these attributes, Active Objects will revert to inferring the method by type. However, in a future upgrade, specifying these attributes will be required.
 
 *Note, the Active Objects plugin was upgraded to 0.22.1 in JIRA 6.1.*
+
 
 
 

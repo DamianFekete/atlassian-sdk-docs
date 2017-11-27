@@ -32,7 +32,7 @@ Summary of the steps required to convert your plugin:
 
 1.  Add the `plugins-version="2"` attribute in `atlassian-plugin.xml`:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin name="plugin name" key="plugin key" enabled="true" plugins-version="2">
     ```
 
@@ -52,7 +52,7 @@ As described in the [documentation](/server/framework/atlassian-sdk/atlassian-pl
 
 So the first step of migration is to make your plugin a *Version 2* plugin by setting `plugins-version="2"` attribute in `atlassian-plugin.xml`:
 
-``` javascript
+``` xml
 <atlassian-plugin name="plugin name" key="plugin key" enabled="true" plugins-version="2">
 ```
 
@@ -100,7 +100,7 @@ In some cases, the host application exposes more than one bean under the same in
 
 The most common example is in Confluence:
 
-``` javascript
+``` java
 // Confluence has two beans that implement PluginController, so we add a qualifier to specify which one we want
 public void setPluginController(@Qualifier("pluginController") PluginController pluginController)
 {
@@ -112,7 +112,7 @@ this.pluginController = pluginController;
 
 In order to make a component in your plugin available to other plugins you can simply add the `public="true"` attribute to the component in your plugin descriptor file. You will need to specify one or more interfaces under which this bean will be exposed.
 
-``` javascript
+``` xml
 <component key="pluginScheduler" class="com.atlassian.sal.core.scheduling.TimerPluginScheduler" public="true" > 
 <interface>com.atlassian.sal.api.scheduling.PluginScheduler</interface> 
 </component>
@@ -122,7 +122,7 @@ In order to make a component in your plugin available to other plugins you can s
 
 Components that are exposed by other plugins are treated a little differently to beans that are exposed by the host application. Your plugin needs to specifically import components which come from other plugins. To do this, include a `<component-import>` tag inside your `atlassian-plugin.xml` file.
 
-``` javascript
+``` xml
 <component-import key="loc" interface="com.atlassian.sal.api.license.LicenseHandler" />
 ```
 
@@ -132,7 +132,7 @@ You will also need to ensure that the component [class is imported](#class-is-im
 
 The new plugin framework provides the ability to create plugin components using complete Spring configuration files. If you provide Spring Dynamic Modules (Spring DM) configuration files in `META-INF/spring/`, these will be loaded into your plugin OSGi bundle by the Spring DM loader. Using this option for configuration provides you with a lot of flexibility about how your plugin components are created and managed.
 
-``` javascript
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
   xmlns:osgi="http://www.springframework.org/schema/osgi"
@@ -165,6 +165,7 @@ To include a Spring configuration file, ensure it is included in the `META-INF/s
 [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)  
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)  
 [Confluence Developer Documentation: Converting a Plugin to Plugin Framework 2](https://developer.atlassian.com/display/CONFDEV/Converting+a+Plugin+to+Plugin+Framework+2)
+
 
 
 

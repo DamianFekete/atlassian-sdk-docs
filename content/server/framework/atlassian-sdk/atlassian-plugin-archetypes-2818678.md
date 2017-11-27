@@ -30,7 +30,7 @@ Atlassian has created Maven 2 archetypes for five of our pluggable products.
 
 ## Instructions
 
-You can use a plugin archetype by running one of the Maven commands below. Maven will download all of the required dependencies, set up a project skeleton, and prepare you to run [unit and functional tests](https://developer.atlassian.com/display/DOCS/Writing+Tests+for+your+Plugin). To set up your project template, run the command below, substituting your package name and plugin name where appropriate.
+You can use a plugin archetype by running one of the Maven commands below. Maven will download all of the required dependencies, set up a project skeleton, and prepare you to run [unit and functional tests](https://developer.atlassian.com/pages/viewpage.action?pageId=2818653). To set up your project template, run the command below, substituting your package name and plugin name where appropriate.
 
 We recommend creating all of your archetypes at the top level of a new, empty directory. Be sure **not** to create a plugin archetype from a directory with an existing pom.xml, as it will try to add the plugin as a sub-module of the project in the current directory (which will fail unless the project has the packaging type "pom").
 
@@ -166,6 +166,7 @@ For example, if Joe Developer from Acme Corp were writing his first Confluence m
 This would download some 50 small files from the net, create a folder named "awesome-macro" into his "plugin-project" folder, and set up all he needs to work on the plugin.
 
 Please return to [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project) for the next steps.
+
 
 
 

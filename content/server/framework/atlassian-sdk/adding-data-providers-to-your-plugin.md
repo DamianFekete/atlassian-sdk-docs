@@ -71,10 +71,8 @@ As a plugin author (for example, if you are enhancing a page by adding yourself 
 
 Data providers have two required attributes:
 
-| Attribute | Description                                                                                                                           |
-|-----------|---------------------------------------------------------------------------------------------------------------------------------------|
-| key       | The key that client-side code will use to retrieve your JSON data. See [Consuming a data provider](#consuming-a-data-provider) below. |
-| class     | The class implementation that provides data. This class must implement the `WebResourceDataProvider` interface, detailed below.       |
+-   **key** - The key that client-side code will use to retrieve your JSON data. See [Consuming a data provider](#consuming-a-data-provider) below.
+-   **class** - The class implementation that provides data. This class must implement the `WebResourceDataProvider` interface, detailed below.
 
 `WebResourceDataProvider` (`com.atlassian.webresource.api.data.WebResourceDataProvider`) is the interface for all data providers. It contains a single method:
 
@@ -125,7 +123,7 @@ The Jsonable interface is **designed to be streamy**. For larger objects, using 
 
 You can provide your own lightweight `Jsonable` in your `WebResourceDataProvider`. The following code converts a <a href="https://code.google.com/p/google-gson/" class="external-link">GSON</a> object to the `Jsonable` interface:
 
-``` javascript
+``` java
 public class GsonDemoDataProvider implements WebResourceDataProvider {
     @Override
     public Jsonable get() {
@@ -174,6 +172,7 @@ There are two important things to note about using data on the client:
 
 -   `WRM.data.claim` can \*only be called once for a single data key\*. The clientside web-resource manager (WRM) releases the data object for garbage collection after the first time it's claimed. If you want to access the data multiple times from your JS code, it's up to you to store it in your own variable. This behaviour was chosen to support use cases involving large data blobs. For example, a data provider may return a collection of JIRA issues to render client-side. This web-resource manager should not hold onto this collection internally after it's first claimed.
 -   Within a single `<web-resource>`, `<data>` elements will always be rendered onto the page before `<resource>` elements such as JavaScript files. This makes it safe to call "`WRM.data.claim`" on a `<data>` element from a JavaScript resource in the same `<web-resource>`.
+
 
 
 

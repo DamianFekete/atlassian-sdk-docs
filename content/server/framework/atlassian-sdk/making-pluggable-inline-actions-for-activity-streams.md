@@ -163,7 +163,7 @@ This part is easy. Activity Streams 4.0 defines a new plugin module descriptor t
 
 Have your JavaScript all ready to go? In order to register it as an Activity Streams action handler, all you need to do is define it as a resource within a `<streams-action-handlers>` module.
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
 
     ...
@@ -207,7 +207,7 @@ streams.bamboo.action.trigger.title=Run
 
 Now register your `i18n.properties` file with your plugin.
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
 
     ...
@@ -221,7 +221,7 @@ Now register your `i18n.properties` file with your plugin.
 
 To make the internationalized properties available to your JavaScript, you'll want to use Activity Streams' support to transform the properties into a format accessible from your JavaScript. Again in your `atlassian-plugin.xml`, let's add to your existing `streams-action-handlers`. The new resource name and location (in this case, `streams.bamboo.action.i18n.js` and `/js/inline-actions/streams.bamboo.i18n.js` should have the filename in the form of `<i18n-prefix-pattern>.i18n.js`. For this example, all of this inline action's internationalization properties will begin with `streams.bamboo.action`.
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
 
     ...
@@ -540,7 +540,7 @@ After completing all of the above steps and enhancements, we have a fully functi
 
 And our final `atlassian-plugin.xml` is:
 
-``` javascript
+``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
     <plugin-info>
         <description>Bamboo Streams Inline Actions Plugin</description>
@@ -561,6 +561,7 @@ And our final `atlassian-plugin.xml` is:
 
 </atlassian-plugin>
 ```
+
 
 
 

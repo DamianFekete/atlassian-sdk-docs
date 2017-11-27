@@ -76,7 +76,7 @@ If you're doing your development behind a corporate firewall, you may need to co
 5.  Edit the `proxy` element and add the values provided by your system administrator.  
     When you are done, the element looks similar to the following:
 
-    ``` javascript
+    ``` xml
       <proxies>
         <proxy>
           <id>myproxy</id>
@@ -142,28 +142,36 @@ If you haven't already done so, open a command window and do the following:
 
 2.  Create a directory called `atlastutorial`.
 
-        mkdir atlastutorial
+    ``` bash
+    mkdir atlastutorial
+    ```
 
 3.  Change directory to your newly created directory.
 
-        cd atlastutorial
+    ``` bash
+    cd atlastutorial
+    ```
 
 4.  Start latest version of JIRA on default port of 2990, by entering the following:
 
-        atlas-run-standalone --product jira
+    ``` bash
+    atlas-run-standalone --product jira
+    ```
 
     After the command completes successfully you see a message similar to the following:
 
-        [INFO] Starting jira on the tomcat6x container on ports 2990 (http) and 52641 (rmi)
-        [INFO] using codehaus cargo v1.2.3
-        [INFO] [cargo:start]
-        [INFO] [2.ContainerStartMojo] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.2.3 for container tomcat6x
-        [INFO] [stalledLocalDeployer] Deploying [/Users/manthony/atlastutorial/amps-standalone/target/jira/jira.war] to [/Users/manthony/atlastutorial/amps-standalone/target/container/tomcat6x/cargo-jira-home/webapps]...
-        [INFO] [talledLocalContainer] Tomcat 6.x starting...
-        [INFO] [talledLocalContainer] Tomcat 6.x started on port [2990]
-        [INFO] jira started successfully in 249s at http://localhost:2990/jira
-        [INFO] Type Ctrl-D to shutdown gracefully
-        [INFO] Type Ctrl-C to exit
+    ``` bash
+    [INFO] Starting jira on the tomcat6x container on ports 2990 (http) and 52641 (rmi)
+    [INFO] using codehaus cargo v1.2.3
+    [INFO] [cargo:start]
+    [INFO] [2.ContainerStartMojo] Resolved container artifact org.codehaus.cargo:cargo-core-container-tomcat:jar:1.2.3 for container tomcat6x
+    [INFO] [stalledLocalDeployer] Deploying [/Users/manthony/atlastutorial/amps-standalone/target/jira/jira.war] to [/Users/manthony/atlastutorial/amps-standalone/target/container/tomcat6x/cargo-jira-home/webapps]...
+    [INFO] [talledLocalContainer] Tomcat 6.x starting...
+    [INFO] [talledLocalContainer] Tomcat 6.x started on port [2990]
+    [INFO] jira started successfully in 249s at http://localhost:2990/jira
+    [INFO] Type Ctrl-D to shutdown gracefully
+    [INFO] Type Ctrl-C to exit
+    ```
 
     The output message tells you the URL where JIRA was started.
 
@@ -208,7 +216,9 @@ When you run a standalone instance, you can make changes in the instance. The sy
 9.  Make sure you are in the `atlastutorial` directory.
 10. Restart JIRA standalone.
 
-        atlas-run-standalone --product jira
+    ``` bash
+    atlas-run-standalone --product jira
+    ```
 
 11. Log back in and locate your project.  
     The standalone instance has retained the data you created between restarts. This can be very useful when testing. You'll learn more about this later.
@@ -220,6 +230,7 @@ You can use the `atlas-run-standalone` command to run a particular version of a 
 ## Next steps
 
 At this point, you have some basic understanding of the SDK. Enough to go ahead in the [next tutorial section to create your own plugin project](/server/framework/atlassian-sdk/create-a-helloworld-plugin-project).
+
 
 
 

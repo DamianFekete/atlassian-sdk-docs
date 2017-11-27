@@ -39,52 +39,44 @@ Interpreted parameters:
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Full Parameter</p></th>
-<th><p>Shortened</p></th>
-<th><p>Accepts a Value?</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>--artifact-id</p></td>
-<td><p>-a</p></td>
-<td><p>Yes</p></td>
-<td><p>Name of the project. This is an identifier for your plugin. It corresponds to the Maven artifactId. If you do not enter this value, the script will prompt you for it.</p></td>
+<td><p>Name of the project. This is an identifier for your plugin. It corresponds to the Maven artifactId. If you do not enter this value, the script will prompt you for it.</p>
+<p><strong>Shortened: -a</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>--group-id</p></td>
-<td><p>-g</p></td>
-<td><p>Yes</p></td>
-<td><p>Identifier for the logical group of artifacts associated with the project. Will be used as the default value for <code>package</code>. Corresponds to the Maven groupId. If you do not enter this value, the script will prompt you for it.</p></td>
+<td><p>Identifier for the logical group of artifacts associated with the project. Will be used as the default value for <code>package</code>. Corresponds to the Maven groupId. If you do not enter this value, the script will prompt you for it.</p>
+<p><strong>Shortened: -g</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>--version</p></td>
-<td><p>-v</p></td>
-<td><p>Yes</p></td>
-<td><p>Version of your plugin. Default is <code>1.0-SNAPSHOT</code>. If you do not enter this value, the script will prompt you for it.</p></td>
+<td><p>Version of your plugin. Default is <code>1.0-SNAPSHOT</code>. If you do not enter this value, the script will prompt you for it.</p>
+<p><strong>Shortened: -v</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>--package</p></td>
-<td><p>-p</p></td>
-<td><p>Yes</p></td>
-<td><p>Name of the Java package that will contain the plugin source code. Default is the value given for <code>group-id</code>.</p></td>
+<td><p>Name of the Java package that will contain the plugin source code. Default is the value given for <code>group-id</code>.</p>
+<p><strong>Shortened: -p</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>--non-interactive</p></td>
-<td><p> </p></td>
-<td><p>No</p></td>
 <td><p>If this parameter is present, interactive mode is turned off, so that the script will not prompt the user for input. In this case, the script will fail if you do not provide the <code>artifact-id</code> and <code>group-id</code>.</p></td>
 </tr>
 </tbody>
 </table>
+
+***--non-interactive* doesn't accept a value.**
 
 ## Getting Help
 
@@ -116,6 +108,7 @@ Let's assume you want to create a new Bamboo plugin by supplying all the necessa
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
 
 
 

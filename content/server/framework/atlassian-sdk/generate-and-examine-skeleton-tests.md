@@ -75,7 +75,9 @@ Do the following to generate the plugin skeleton and its tests resources:
 1.  Open a terminal and navigate to your Eclipse workspace directory.
 2.  Enter the following command to create a JIRA plugin skeleton:
 
-        atlas-create-jira-plugin
+    ``` bash
+    atlas-create-jira-plugin
+    ```
 
     When prompted, enter the following information to identify your plugin:
 
@@ -112,7 +114,9 @@ Do the following to generate the plugin skeleton and its tests resources:
 4.  Change to the `testTutorial` directory created by the previous step.
 5.  Run the command:
 
-        atlas-mvn eclipse:eclipse
+    ``` bash
+    atlas-mvn eclipse:eclipse
+    ```
 
     You should repeat this command after you add a dependency to your `pom.xml` file. It ensures that Eclipse populates your project dependencies correctly. 
 
@@ -191,7 +195,7 @@ The scope of this dependency limits the availability of JUnit only to the projec
 
 Look for the wired test runner dependencies further down the page.  These look like the following:
 
-``` javascript
+``` xml
  <!-- WIRED TEST RUNNER DEPENDENCIES -->
   <dependency>
      <groupId>com.atlassian.plugins</groupId>
@@ -239,6 +243,7 @@ The `jira-tests` artifact contains the JIRA Unit tests.  The `jira-func-tests`,
 ## Next Step
 
 So far, you've learned about the generated structure created for you when you run an `atlas-create-application-plugin` command.  This structure includes test directories, files, and dependencies. This is code that Atlassian generates for all plugin developers automatically.  In the next section, you [write a simple unit test, execute the test in your plugin, and review the results](/server/framework/atlassian-sdk/create-and-run-unit-tests) of the test.
+
 
 
 

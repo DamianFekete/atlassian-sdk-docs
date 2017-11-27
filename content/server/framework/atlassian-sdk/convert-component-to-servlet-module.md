@@ -32,16 +32,20 @@ In this part of the tutorial you'll create a Java class called `MyPluginServlet
 
 1.  Create an empty class file called `MyPluginServlet.java` under `src/main/java/com/atlassian/plugins/tutorial/refapp`:
 
-        $ touch src/main/java/com/atlassian/plugins/tutorial/refapp/MyPluginServlet.java
+    ``` bash
+    $ touch src/main/java/com/atlassian/plugins/tutorial/refapp/MyPluginServlet.java
+    ```
 
 2.  Open the empty file.  
     You can open the file from the command line, or from your file directory tool like Finder or My Computer. The following command pertains to Textwrangler users with the CLI tools installed.
 
-        $ edit src/main/java/com/atlassian/plugins/tutorial/refapp/MyPluginServlet.java
+    ``` bash
+    $ edit src/main/java/com/atlassian/plugins/tutorial/refapp/MyPluginServlet.java
+    ```
 
 3.  Add the following code to `MyPluginServlet.java`:
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.refapp;
 
     import org.slf4j.Logger;
@@ -81,7 +85,7 @@ Now that you've written your Java class, you need to define it in the `atlassia
 
     Replace
 
-    ``` javascript
+    ``` xml
     <component key="myPluginComponent" class="com.atlassian.plugins.tutorial.refapp.MyPluginComponent" public="true">
         <interface>com.atlassian.plugins.tutorial.refapp.MyPluginServlet</interface>
     </component>
@@ -89,7 +93,7 @@ Now that you've written your Java class, you need to define it in the `atlassia
 
     with 
 
-    ``` javascript
+    ``` xml
     <servlet name="adminUI" class="com.atlassian.plugins.tutorial.refapp.MyPluginServlet" key="test">
       <url-pattern>/test</url-pattern>
     </servlet>
@@ -97,7 +101,7 @@ Now that you've written your Java class, you need to define it in the `atlassia
 
     `atlassian-plugin.xml` should appear as following:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
         <plugin-info>
             <description>${project.description}</description>
@@ -134,7 +138,9 @@ Now that you've written your Java class, you need to define it in the `atlassia
       
 3.  From your project root in terminal (`atlastutorial/adminUI`) run the following command if you made your changes from Eclipse:
 
-        $ atlas-mvn eclipse:eclipse
+    ``` bash
+    $ atlas-mvn eclipse:eclipse
+    ```
 
 4.  In Eclipse or your IDE, click **File &gt; Refresh**.
 
@@ -144,19 +150,25 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
 
 1.  Change directory to your project root. 
 
-        $ cd adminUI
+    ``` bash
+    $ cd adminUI
+    ```
 
 2.  Enter the following command to start up RefApp: 
 
-        $ atlas-run
+    ``` bash
+    $ atlas-run
+    ```
 
 3.  Locate the RefApp URL.  
     After a few moments your terminal will display a message with the URL of the application. RefApp usually launches on port 5990. 
 
-        [INFO] [talledLocalContainer] Tomcat 6.x started on port [5990]
-        [INFO] refapp started successfully in 46s at http://localhost:5990/refapp
-        [INFO] Type Ctrl-D to shutdown gracefully
-        [INFO] Type Ctrl-C to exit
+    ``` bash
+    [INFO] [talledLocalContainer] Tomcat 6.x started on port [5990]
+    [INFO] refapp started successfully in 46s at http://localhost:5990/refapp
+    [INFO] Type Ctrl-D to shutdown gracefully
+    [INFO] Type Ctrl-C to exit
+    ```
 
 4.  Copy the URL and paste it into your browser.   
     The URL will resemble **<a href="http://localhost:5990/refapp/plugins/servlet" class="external-link">http://localhost:5990/refapp</a>.**  
@@ -168,12 +180,18 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
       
 7.  Navigate to the `servlet` at **<a href="http://localhost:5990/refapp/plugins/servlet/test" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/test</a>.**  
     The servlet loads. Your screen should display the following message:  
-    ![](/server/framework/atlassian-sdk/images/2.6.jpeg)  
-    ![(info)](/server/framework/atlassian-sdk/images/icons/emoticons/information.png) If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
+    ![](/server/framework/atlassian-sdk/images/2.6.jpeg)
+
+    {{% note %}}
+
+If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
+
+{{% /note %}}
 
 ## Next Steps
 
 Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
+
 
 
 

@@ -14,12 +14,13 @@ subcategory:
 
 If you are using the Atlassian Plugin SDK in  a UNIX, Linux, or OSX environment you can ensure that your Maven output comes in true colour. Just add an environment variable with the name `MAVEN_COLOR` and value `true`.
 
-``` javascript
+``` bash
 export MAVEN_COLOR=true
 ```
 
 Your Maven output will look something like this:  
 ![](/server/framework/atlassian-sdk/images/mavencolourisedoutput.png)
+
 
 
 

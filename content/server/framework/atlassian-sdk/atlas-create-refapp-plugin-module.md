@@ -46,7 +46,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-create-refapp-plugin-module -?
 atlas-create-refapp-plugin-module -help
 ```
@@ -68,6 +68,7 @@ Let's assume you want to add a new plugin module to your existing RefApp plugin.
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
 
 
 

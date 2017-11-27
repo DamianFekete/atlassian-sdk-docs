@@ -18,9 +18,10 @@ title: Supporting WebSudo in your plugin
 
 Support for ﻿Secure Administrator Sessions, called 'WebSudo', was added in Confluence 3.3 (see <a href="#documentation" class="unresolved">documentation</a>) and JIRA 4.3 (see <a href="#documentation" class="unresolved">documentation</a>). When an administrator who is logged into Confluence or JIRA attempts to access an administration function, they are prompted to log in again.
 
-All the Atlassian applications will support WebSudo sessions at some point. As of [SAL 2.2](https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.2+Release+Notes) and <a href="/pages/createpage.action?spaceKey=REST&amp;title=REST+Plugin+2.2+Release+notes" class="createlink">REST 2.2</a> it is possible to enforce WebSudo from within a plugin if the host application supports it.
+All the Atlassian applications will support WebSudo sessions at some point. As of [SAL 2.2](https://developer.atlassian.com/pages/viewpage.action?pageId=5242917) and <a href="/pages/createpage.action?spaceKey=REST&amp;title=REST+Plugin+2.2+Release+notes" class="createlink">REST 2.2</a> it is possible to enforce WebSudo from within a plugin if the host application supports it.
 
 [More...](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin)
+
 
 
 

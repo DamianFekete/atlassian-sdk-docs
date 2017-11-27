@@ -33,7 +33,7 @@ Watch for deprecation warnings during compilation or in your IDE. It's a good id
 
 #### Run the test suite
 
-Be sure you run the full test-suite over your newly-compiled plugin. (You do have a [test suite](https://developer.atlassian.com/display/DOCS/Writing+Tests+for+your+Plugin), don't you?)
+Be sure you run the full test-suite over your newly-compiled plugin. (You do have a [test suite](https://developer.atlassian.com/pages/viewpage.action?pageId=2818653), don't you?)
 
 #### Test your plugin's functionality manually.
 
@@ -50,6 +50,7 @@ This is critical. You **must** perform a full backup of your data (database, att
 #### Perform the real upgrade
 
 Perform the real upgrade with your real data and install your new plugin. Test everything again before you bring your system back online.
+
 
 
 

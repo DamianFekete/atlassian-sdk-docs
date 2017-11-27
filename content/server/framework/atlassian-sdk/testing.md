@@ -22,7 +22,7 @@ The first thing to do is add a dependency to your project. When using <a href="h
 
 **Testing dependencies**
 
-``` javascript
+``` xml
 <dependency>
   <groupId>junit</groupId>
   <artifactId>junit</artifactId>
@@ -41,7 +41,7 @@ Tests of Active Objects entities look like the following, taken from the <a href
 
 **Testing Active Objects**
 
-``` javascript
+``` java
 @RunWith(ActiveObjectsJUnitRunner.class) // (1)
 @Data(AoBlogServiceTest.AoBlogServiceTestDatabaseUpdater.class) // (2)
 @Jdbc(DerbyEmbedded.class) // (3)
@@ -89,7 +89,7 @@ When in an Atlassian plugin
 
 Add another dependency to your test dependencies:
 
-``` javascript
+``` xml
 <dependency>
 <groupId>com.atlassian.activeobjects</groupId>
 <artifactId>activeobjects-test</artifactId>
@@ -102,7 +102,7 @@ This way it is possible to wrap the injected `EntityManager` in a `com.atlassian
 
 Another important point is to set proper name converters, as the Active Objects plugin is opinionated about this and tests should be run in the production condition. Configure your name converter this way:
 
-``` javascript
+``` java
 @NameConverters(table = com.atlassian.activeobjects.test.TestActiveObjectsTableNameConverter
 field = com.atlassian.activeobjects.test.TestActiveObjectsFieldNameConverter)
 ```
@@ -110,6 +110,7 @@ field = com.atlassian.activeobjects.test.TestActiveObjectsFieldNameConverter)
 **Note:** this is available from version 0.14.1 of the Active Objects plugin. It is possible to use version 0.14.1 of the test library even if the application is running an earlier version of the plugin.
 
 {{% /tip %}}
+
 
 
 

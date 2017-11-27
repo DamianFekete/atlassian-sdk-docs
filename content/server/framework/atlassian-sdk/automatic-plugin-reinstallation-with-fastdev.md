@@ -115,7 +115,7 @@ You can specify additional files to ignore either by directory, extension, or fi
 </tbody>
 </table>
 
-``` javascript
+``` xml
 <systemPropertyVariables>
     ...
     <fastdev.no.reload.directories>images</fastdev.no.reload.directories>
@@ -128,7 +128,7 @@ You can specify additional files to ignore either by directory, extension, or fi
 
 By default, FastDev assumes that Maven can be accessed on the command line as `mvn`. If this is not the case, or if you want FastDev to use a different command, you can configure this option in the POM:
 
-``` javascript
+``` xml
 <systemPropertyVariables>
     ...
     <fastdev.mvn.command>mvn2</fastdev.mvn.command>
@@ -139,7 +139,7 @@ By default, FastDev assumes that Maven can be accessed on the command line as `m
 
 More complex plugins may have more than one plugin module. FastDev can handle reloads for multi-module maven projects that contain multiple plugins, but you need to tell FastDev about any additional plugin root directories:
 
-``` javascript
+``` xml
 <systemPropertyVariables>
     ...
     <plugin.root.directories>${basedir}/../myplugin-bundle</plugin.root.directories>
@@ -152,7 +152,7 @@ Note that FastDev is currently not very smart about dependency management, so if
 
 By default, FastDev will reinstall plugins using `admin` credentials. If the `admin` user is not permitted to manage plugins in the application instance or has a non-default password, you will need to specify these credentials in the POM:
 
-``` javascript
+``` xml
 <systemPropertyVariables>
     ...
     <fastdev.install.username>sysadmin</fastdev.install.username>
@@ -172,7 +172,7 @@ These credential properties are supported starting with FastDev 1.9 (bundled wit
 
 To disable FastDev, set the following property in the `maven-amps-plugin` configuration in your plugin's `pom.xml`:
 
-``` javascript
+``` xml
 <plugins>
     ...
     <plugin>
@@ -190,7 +190,7 @@ To disable FastDev, set the following property in the `maven-amps-plugin` config
 
 If you need to use a different FastDev release than the one bundled with the Atlassian Plugin SDK release you are using, you can set the following property in the `maven-amps-plugin` configuration in your plugin's `pom.xml`:
 
-``` javascript
+``` xml
 <plugins>
     ...
     <plugin>
@@ -209,6 +209,7 @@ If you need to use a different FastDev release than the one bundled with the Atl
 -   The dynamic deployment method via FastDev or CLI will work *most* of the time, but not all plugins are eligible for dynamic installation. Specifically, some versions of some applications mark some module types as requiring a restart. If a plugin uses one of the module types that require a restart, the plugin will be installed but not activated until the application is restarted. And occasionally the host application fails to detect new changes. If you suspect this may be happening, just hit `ctrl-c` in the first window and type `atlas-run` again to completely restart the host app with your latest changes included. See the list of [plugin modules that cannot be dynamically reloaded](/server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi).
 -   [If you change pom.xml, you may need to restart the atlas-cli](/server/framework/atlassian-sdk/2818364.html).
 -   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
+
 
 
 

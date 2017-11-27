@@ -28,19 +28,20 @@ We can't promise that our products CSS and Javascript isn't going to change from
 
 In the CSS realm, there is an <a href="http://www.w3.org/TR/css3-namespace/" class="external-link">official namespace proposal</a>, but that's not what I'm talking about as the current browser crop doesn't support these enhancements yet. All I'm really talking about is intelligently naming your selectors so that you don't bleed styles between your plugin and the product itself. For example, rather than having an element like:
 
-``` javascript
+``` xml
 <table class="table">...</table>
 ```
 
 you might try
 
-``` javascript
+``` xml
 <table class="MyPluginName_table">...</table>
 ```
 
 That will ensure that your CSS rules don't get applied to anyone else's plugins, and you don't inadvertently pick up a style from Confluence's table class that may change in the future.
 
 On the Javascript side, you run an even greater risk of conflicting with the product or with another plugin. For that reason, you should namespace your javascript as outlined in <a href="http://icant.co.uk/articles/seven-rules-of-unobtrusive-javascript/#r6" class="external-link">this tutorial</a>. Our products don't actually follow this rule yet, so it's doubly important for plugins to do so.
+
 
 
 

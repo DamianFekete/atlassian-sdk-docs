@@ -46,7 +46,7 @@ A Maven `pom.xml` file is essential to your project. Maven uses the `pom.xml`
 
     Here's an example: 
 
-    ``` javascript
+    ``` xml
         <organization>
             <name>Awesomeness Inc</name>
             <url>http://www.awesomebreedsmoarawesome.com/</url>
@@ -57,7 +57,9 @@ A Maven `pom.xml` file is essential to your project. Maven uses the `pom.xml`
       
 6.  If you made your changes in Eclipse, update your project with the changes.
 
-        $ atlas-mvn eclipse:eclipse
+    ``` bash
+    $ atlas-mvn eclipse:eclipse
+    ```
 
 7.  Click **File &gt; Refresh** in Eclipse.
 
@@ -69,21 +71,27 @@ When you generated the plugin skeleton, you specified a RefApp plugin with your 
       
 2.  Clear the target from your project root.
 
-        $ atlas-clean
+    ``` bash
+    $ atlas-clean
+    ```
 
 3.  Start JIRA 6.1.
 
-        $ atlas-run --product jira --version 6.1
+    ``` bash
+    $ atlas-run --product jira --version 6.1
+    ```
 
 4.  Locate the URL to access JIRA locally.  
     Your terminal outputs `[INFO]` messages to display the URL.   
     JIRA usually runs on port 2990, with a URL like **<a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a> **
 
-        [INFO] [talledLocalContainer] INFO: Server startup in 100371 ms
-        [INFO] [talledLocalContainer] Tomcat 7.x started on port [2990]
-        [INFO] jira started successfully in 144s at http://localhost:2990/jira
-        [INFO] Type Ctrl-D to shutdown gracefully
-        [INFO] Type Ctrl-C to exit
+    ``` bash
+    [INFO] [talledLocalContainer] INFO: Server startup in 100371 ms
+    [INFO] [talledLocalContainer] Tomcat 7.x started on port [2990]
+    [INFO] jira started successfully in 144s at http://localhost:2990/jira
+    [INFO] Type Ctrl-D to shutdown gracefully
+    [INFO] Type Ctrl-C to exit
+    ```
 
 5.  Copy the URL and access it from your browser.  
     We recommend Google Chrome or Mozilla Firefox for this tutorial.  
@@ -115,10 +123,18 @@ Atlassian includes several developer tools in its applications so you can develo
       
     <img src="/server/framework/atlassian-sdk/images/3.6.jpeg" width="700" />
 2.  Confirm the toolbar expands in the lower portion of your screen.  
-    <img src="/server/framework/atlassian-sdk/images/3.11.jpeg" width="700" />  
-    ![(info)](/server/framework/atlassian-sdk/images/icons/emoticons/information.png) If you don't see the toolbar, try using Google Chrome or Mozilla Firefox to access your local JIRA instance.  
+    <img src="/server/framework/atlassian-sdk/images/3.11.jpeg" width="700" />
+
+    {{% note %}}
+
+If you don't see the toolbar, try using Google Chrome or Mozilla Firefox to access your local JIRA instance.
+
+{{% /note %}}
+
+      
     Now you can learn what resources you have available, and why you might use them in your add-on development.   
       
+
 3.  Type **SAL** (short for Shared Access Layer) into the search field.  
     The search field is located on the right side of the developer tool bar. Instant results appear the search box.  
     The SAL is an API for aiding cross-application plugin development. When developing for multiple Atlassian applications, SAL handles services like job scheduling or internationalization lookups.  
@@ -146,6 +162,7 @@ Atlassian includes several developer tools in its applications so you can develo
 Next steps
 
 You've built the foundation and learned core concepts to develop your plugin in the Atlassian system, and become acquainted with the Developer Toolbox. Now you'll [add component modules](https://developer.atlassian.com/display/DOCS/Control+access+with+SAL).
+
 
 
 

@@ -39,7 +39,7 @@ Add-ons that integrate with functionality provided by applications, such as JIRA
 
 Atlassian AMPS 5.1.7 and above supports a new element: `applications.`` `This element defines a list of additional applications that should be installed on another tested product. For example, the following configuration will install JIRA Software and JIRA Service Desk on top of JIRA Core:
 
-``` javascript
+``` xml
 <plugin>
     <groupId>com.atlassian.maven.plugins</groupId>
     <artifactId>maven-jira-plugin</artifactId>
@@ -71,7 +71,7 @@ There are three important characteristics of the `applications` element that mak
 
 -   The `<applications>` element can be applied on both the global configuration level and the per product element. For example, you could configure it like this:
 
-    ``` javascript
+    ``` xml
     <plugin>
         <groupId>com.atlassian.maven.plugins</groupId>
         <artifactId>maven-amps-plugin</artifactId>
@@ -100,7 +100,7 @@ There are three important characteristics of the `applications` element that mak
 
 -   Application keys are defined per product Id. This means that, for example,* *`jira-software` is defined for product `jira` and will be ignored by `confluence`*.* As a result, the following example config will work the same as the previous one:
 
-    ``` javascript
+    ``` xml
     <plugin>
         <groupId>com.atlassian.maven.plugins</groupId>
         <artifactId>maven-amps-plugin</artifactId>
@@ -131,7 +131,7 @@ There are three important characteristics of the `applications` element that mak
     *Note, this only applies to the configuration level, not the product level. At the product level, you must repeat the entire `<products>` element.   
     *
 
-    ``` javascript
+    ``` xml
     <plugins>
         <plugin>
             <groupId>com.atlassian.maven.plugins</groupId>
@@ -172,6 +172,7 @@ There are three important characteristics of the `applications` element that mak
         </profile>
     </profiles>
     ```
+
 
 
 

@@ -33,7 +33,7 @@ Resource definitions can be either a part of the plugin, or part of a particular
 
 Here is a sample resource definition:
 
-``` javascript
+``` xml
 <!-- A resource has a type, a name and a location. The resource definition maps -->
 <!-- some arbitrary resource name to where that resource would be located in    -->
 <!-- the server's classpath -->
@@ -55,46 +55,42 @@ A resource has a name, a type and a location. The resource definition maps an ar
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Element</p></th>
-<th><p>Attribute</p></th>
+<th><p>Element &amp; Attribute</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>&lt;resource&gt;</p></td>
-<td><p> </p></td>
 <td><p>This block defines the resource. For example: <code>&lt;resource type=&quot;velocity&quot; name=&quot;template&quot; location=&quot;com/example/plugin/template.vm&quot;/&gt;</code></p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;resource&gt;</p></td>
-<td><p>name</p></td>
+<td><p>&lt;resource&gt;</p>
+<p>name</p></td>
 <td><p>The name of the resource defines how the plugin module can locate a particular resource. Must be specified if 'namePattern' is not. If your location parameter points to a directory rather than a single resource, you should specify the name with a trailing '/'. For example: <code>&lt;resource type=&quot;download&quot; name=&quot;myimages/&quot; location=&quot;com/example/plugin/myimages&quot;/&gt;</code><br />
 <br />
-Note that for css/javascript resources, they must have the appropriate file extension in the name i.e. <code>.css, .js</code><br />
-</p></td>
+Note that for css/javascript resources, they must have the appropriate file extension in the name i.e. <code>.css, .js</code></p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;resource&gt;</p></td>
-<td><p>namePattern</p></td>
+<td><p>&lt;resource&gt;</p>
+<p>namePattern</p></td>
 <td><p>The pattern to use when loading a directory resource.</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;resource&gt;</p></td>
-<td><p>type</p></td>
+<td><p>&lt;resource&gt;</p>
+<p>type</p></td>
 <td><p>The type of a resource tells the module how that resource can be used. The values allowed are different for each application.<br />
 A module can look for resources of a certain type or name. For example, a <code>layout</code> plugin requires that its help file is a file of type <code>velocity</code> and name <code>help</code>.<br />
 Refer to the examples of resource types below.</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;resource&gt;</p></td>
-<td><p>location</p></td>
+<td><p>&lt;resource&gt;</p>
+<p>location</p></td>
 <td><p>The location of a resource tells the plugin where the resource can be found in the jar file. (Resources are loaded by Java's classpath resource loader.)</p>
 <ul>
 <li>The full path to the file (without a leading slash) is required.</li>
@@ -102,13 +98,13 @@ Refer to the examples of resource types below.</p></td>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>&lt;property&gt;</p></td>
-<td><p>key/value</p></td>
+<td><p>&lt;property&gt;</p>
+<p>key/value</p></td>
 <td><p>Resources may contain arbitrary key/value pairs. For example: <code>&lt;property key=&quot;content-type&quot; value=&quot;text/css&quot;/&gt;</code></p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;param&gt;</p></td>
-<td><p>name/value</p></td>
+<td><p>&lt;param&gt;</p>
+<p>name/value</p></td>
 <td><p>Resources may contain arbitrary name/value pairs. For example: <code>&lt;param name=&quot;content-type&quot; value=&quot;image/gif&quot;/&gt;</code>. Refer to the list of values for the param element below</p></td>
 </tr>
 </tbody>
@@ -118,7 +114,7 @@ Refer to the examples of resource types below.</p></td>
 
 The simplest kind of resource, supported with all plugin module types, is of type `download`, which makes a resource available for download from the application at a particular URL.
 
-``` javascript
+``` xml
 <resource type="download" name="aimon.gif" location="templates/extra/impresence/aimon.gif">
    <param name="content-type" value="image/gif"/>
 </resource>
@@ -128,7 +124,7 @@ The simplest kind of resource, supported with all plugin module types, is of typ
 
 Stylesheets for your plugin may often refer to images also in your plugin. In which case you would have to make both the stylesheet and image(s) downloadable.
 
-``` javascript
+``` xml
 <resource type="download" name="my-images/" location="com/example/plugin/myimages"/>
 <resource type="download" name="my-style.css" location="com/example/plugin/my-style.css"/>
 ```
@@ -139,7 +135,7 @@ To refer to your plugin images in a stylesheet, use a relative path based on the
 
 **my-style.css**
 
-``` javascript
+``` css
  .my-class {
    background-image: url(my-images/mypicture.gif);
 }
@@ -147,7 +143,7 @@ To refer to your plugin images in a stylesheet, use a relative path based on the
 
 To reference images already available in an application, you will need to go up three parent directories like so:
 
-``` javascript
+``` css
 .my-class {
    background-image: url(../../../images/icons/confluence-logo.gif);
 }
@@ -157,26 +153,20 @@ To reference images already available in an application, you will need to go up 
 
 These are the common name/value pairs supported by the `<param>` element.
 
-Name
+**Name &** **Value:** content-type \| image/gif
 
-Value (Example)
+**Description:** Specify a MIME content type. 
 
-Description
+------------------------------------------------------------------------
 
-content-type
+**Name & Value:** media \| print
 
-image/gif
-
-Specify a MIME content type.
-
-media
-
-print
+**Description: ** 
 
 Declare the media type for CSS resources. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
-For example, requesting this resource will insert a `<link>` in the HTML header, with a media value of 'print':
+For example, requesting this resource will insert a `<link>` in the HTML header, with a media value of 'print': 
 
-``` javascript
+``` xml
 <web-resource key="mechanical-parts" name="Mechanical Parts"
     i18n-name-key="com.example.confluence.plugin.special.mechanical.parts.name">
     <resource type="download" name="sprockets.css" location="styles/sprockets.css">
@@ -185,14 +175,16 @@ For example, requesting this resource will insert a `<link>` in the HTML header,
 </web-resource>
 ```
 
-ieonly
+ 
 
-true
+**Name & Value: **ieonly \| true 
+
+**Description: ** 
 
 Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
-For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by Internet Explorer. This is useful for IE-specific styling to work around browser bugs.
+For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by Internet Explorer. This is useful for IE-specific styling to work around browser bugs. 
 
-``` javascript
+``` xml
 <web-resource key="mechanical-parts" name="Mechanical Parts"
     i18n-name-key="com.example.confluence.plugin.special.mechanical.parts.name">
     <resource type="download" name="sprockets-ie.css" location="styles/sprockets.css">
@@ -201,27 +193,27 @@ For example, the web resource declaration below says that the resource should be
 </web-resource>
 ```
 
-  
-The HTML output when this resource is included will be something like this:
+The HTML output when this resource is included will be something like this: 
 
-``` javascript
+``` xml
 <!--[if IE]>
 <link type="text/css" rel="stylesheet" media="all"
     href="/s/1418/13/1.0/_/download/resources/plugin.example:mechanical-parts/sprocket-ie.css" />
 <![endif]-->
 ```
 
-  
-The `ieonly` parameter also works for JavaScript resources.
+The `ieonly` parameter also works for JavaScript resources. 
 
-conditionalComment
+------------------------------------------------------------------------
 
-lt IE 9
+**Name & Value: **conditionalComment \| lt IE 9 
+
+**Description:**  
 
 Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>, and should be used when targeting specific versions of Internet Explorer. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
-For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by versions of Internet Explorer less than 9. This is useful for IE version-specific styling to work around browser bugs.
+For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by versions of Internet Explorer less than 9. This is useful for IE version-specific styling to work around browser bugs. 
 
-``` javascript
+``` xml
 <web-resource key="mechanical-parts" name="Mechanical Parts"
     i18n-name-key="com.example.confluence.plugin.special.mechanical.parts.name">
     <resource type="download" name="sprockets-lt-ie9.css" location="styles/sprockets-lt-ie9.css">
@@ -230,24 +222,23 @@ For example, the web resource declaration below says that the resource should be
 </web-resource>
 ```
 
-  
-The HTML output when this resource is included will be something like this:
+The HTML output when this resource is included will be something like this: 
 
-``` javascript
+``` xml
 <!--[if lt IE 9]>
 <link type="text/css" rel="stylesheet" media="all"
     href="/s/1418/13/1.0/_/download/resources/plugin.example:mechanical-parts/sprocket-lt-ie9.css" />
 <![endif]-->
 ```
 
-  
-The `conditionalComment` parameter also works for JavaScript resources.
+The `conditionalComment` parameter also works for JavaScript resources. 
 
-title
+------------------------------------------------------------------------
 
-(Your title)
+**Name &** **Value (Example):** title \| (Your title) 
 
-The value given here will form the title attribute of the CSS `<link>` tag.
+**Description:** The value given here will form the title attribute of the CSS `<link>` tag.
+
 
 
 

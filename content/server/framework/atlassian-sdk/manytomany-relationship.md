@@ -22,7 +22,7 @@ Let's have a look at an example of such relation ship in the <a href="https://bi
 
 **Post.java**
 
-``` javascript
+``` java
 public interface Post extends Entity
 {
     ...
@@ -34,7 +34,7 @@ public interface Post extends Entity
 
 **Label.java**
 
-``` javascript
+``` java
 public interface Label extends Entity
 {
     ...
@@ -47,7 +47,7 @@ Note how posts and labels both reference each other, but no *setter* exists. Als
 
 **PostToLabel**
 
-``` javascript
+``` java
 public interface PostToLabel extends Entity
 {
     public void setPost(Post post);
@@ -62,7 +62,7 @@ There is no annotation here. However this class clearly defines a relationship b
 
 Actually associating a post to a label and persisting this association is as simple as:
 
-``` javascript
+``` java
 private void associatePostToLabel(Post post, Label label) throws SQLException
 {
     final PostToLabel postToLabel = entityManager.create(PostToLabel.class);
@@ -83,6 +83,7 @@ The <a href="https://developer.atlassian.com/display/DOCS/OneToOne+Relationship"
 If you do not set these attributes, Active Objects will revert to inferring the method by type. However, in a future upgrade, specifying these attributes will be required.
 
 *Note, the Active Objects plugin was upgraded to 0.22.1 in JIRA 6.1.*
+
 
 
 

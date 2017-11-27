@@ -12,22 +12,11 @@ subcategory:
 ---
 # Documentation : \_Context-Provider Element
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Available:</p></td>
-<td><p>Atlassian Plugins 2.5, Confluence 2.5, Bamboo 3.0, JIRA 4.2 and later</p></td>
-</tr>
-</tbody>
-</table>
+|            |                                                                       |
+|------------|-----------------------------------------------------------------------|
+| Available: | Atlassian Plugins 2.5, Confluence 2.5, Bamboo 3.0, JIRA 4.2 and later |
 
-The context-provider element adds to the Velocity context available to the [web section](/server/framework/atlassian-sdk/web-section-plugin-module) and [web item](/server/framework/atlassian-sdk/web-item-plugin-module) modules. You can add what you need to the context, to build more flexible section and item elements. Currently only one context-provider can be specified per module. Additional context-providers are ignored.
-
-The `context-provider` element must contain a class attribute with the fully-qualified name of a Java class. The referenced class:
+The `context-provider` element must contain a class attribute with the fully-qualified name of a Java class. The referenced class:The context-provider element adds to the Velocity context available to the [web section](/server/framework/atlassian-sdk/web-section-plugin-module) and [web item](/server/framework/atlassian-sdk/web-item-plugin-module) modules. You can add what you need to the context, to build more flexible section and item elements. Currently only one context-provider can be specified per module. Additional context-providers are ignored.
 
 -   must implement `com.atlassian.plugin.web.ContextProvider`, and
 -   will be auto-wired by Spring before any additions to the Velocity context.
@@ -36,7 +25,7 @@ For example, the following context-provider will add `historyWindowHeight` and `
 
 In the following example, `HeightContextProvider` extends `AbstractJiraContextProvider`, which is only available in JIRA and happens to implement `ContextProvider`. The `AbstractJiraContextProvider` conveniently extracts the `User` and `JiraHelper` from the context map, which you would otherwise have to do manually.
 
-``` javascript
+``` java
 public class HeightContextProvider extends AbstractJiraContextProvider
 {
     private final ApplicationProperties applicationProperties;
@@ -68,19 +57,20 @@ public class HeightContextProvider extends AbstractJiraContextProvider
 
 The above `HeightContextProvider` can be used by nesting the following element in a web item module.
 
-``` javascript
+``` xml
 <context-provider class="com.atlassian.jira.plugin.web.contextproviders.HeightContextProvider" />
 ```
 
 The newly added context entries `historyWindowHeight` and `filtersWindowHeight` can be used in the XML module descriptors just like normal velocity context variables, by prefixing them with the dollar symbol ($):
 
-``` javascript
+``` xml
 <!-- pass the value of historyWindowHeight as a parameter called windowHeight (see param element above for its usage) -->
 <param name="windowHeight">$historyWindowHeight</param>
 
 <!-- set the link's label to print the value of filtersWindowHeight -->
 <label>filter window height is: $filtersWindowHeight</label>
 ```
+
 
 
 

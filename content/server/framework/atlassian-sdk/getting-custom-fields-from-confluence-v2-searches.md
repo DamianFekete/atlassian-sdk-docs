@@ -62,7 +62,12 @@ public class LuceneV2Result {
 }
 ```
 
-![(warning)](/server/framework/atlassian-sdk/images/icons/emoticons/warning.png) It should be noted that this implementation is highly likely to break in future releases if Atlassian change the internal implementation of this class. Hopefully by that time there will be a way to access custom extractor fields directly.
+{{% note %}}
+
+It should be noted that this implementation is highly likely to break in future releases if Atlassian change the internal implementation of this class. Hopefully by that time there will be a way to access custom extractor fields directly.
+
+{{% /note %}}
+
 
 
 

@@ -68,7 +68,8 @@ atlas-unit-test --fail-never
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
-[Plugin Testing Resources and Discussion](https://developer.atlassian.com/display/DOCS/Plugin+Testing+Resources+and+Discussion)
+[Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
+
 
 
 

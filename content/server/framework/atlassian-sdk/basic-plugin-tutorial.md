@@ -135,35 +135,14 @@ In this step, you'll use the two `atlas-` commands to generate stub code for y
 
 #### What the Plugin Generator Creates
 
-Generated
-
-Description
-
-    pom.xml
-
-A Maven project object model (POM) file.
-
-    src/main/resources/atlassian-plugin.xml/atlassian-plugin.xml
-
-An Atlassian plugin descriptor file.
-
-`src/main/java/com/atlassian/plugins/tutorial/refapp/` **Directory Containing Source Files**
-
-    MyPlugin.java
-
-A file to hold the plugin source code. 
-
-`/src/test/java/com/atlassian/plugins/tutorial/refapp/adminui/` **Directory Containing Test Files**
-
-    MyPluginTest.java
-
- A test file.
-
-`src/test/java/it/` **Directory Containing Test Files**
-
-    MyPluginTest.java
-
- A test file.
+-   **pom.xml** - a Maven project object model (POM) file
+-   **src/main/rec/atlassian-plugin.xml** - an Atlassian plugin descriptor file
+-   **src/main/java/com/atlassian/plugins/tutorial/refapp/** - **Directory Containing Source Files**
+    -   **MyPlugin.java** - a file to hold the plugin source code
+-   **src/test/java/com/atlassian/plugins/tutorial/refapp/adminui** - **Directory Containing Test Files**
+    -   **MyPluginTest.java** - a test file  
+-   **src/test/java/it** - **Directory Containing Test Files**
+    -   **MyPluginTest.java** - a test file
 
 ## Step 2. Review and Tweak (Optional) the Generated Stub Code
 
@@ -176,7 +155,7 @@ Now you need to edit your POM (Project Object Model definition file) to add some
 1.  Edit the `pom.xml` file in the root folder of your plugin.
 2.  Add your company or organisation name and your website to the `<organization>`element:
 
-    ``` javascript
+    ``` xml
      <organization> 
         <name>Example Company</name> 
         <url>http://www.example.com/</url> 
@@ -185,7 +164,7 @@ Now you need to edit your POM (Project Object Model definition file) to add some
 
 3.  Update the `<description>`element:
 
-    ``` javascript
+    ``` xml
      <description>This plugin has an admin UI that can be used in any Atlassian product.</description> 
     ```
 
@@ -206,7 +185,7 @@ When you generated the stub files, a default JIRA version was included in your 
 
 Your stub code contains a plugin descriptor file `atlassian-plugin.xml`. This is an XML file that identifies the plugin to the host application (JIRA) and defines the required plugin functionality. In your IDE, open the descriptor file which is located in your project under `src/main/resources` and you should see something like this:
 
-``` javascript
+``` xml
 <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.artifactId}" plugins-version="2">
     <plugin-info>
         <description>${project.description}</description>
@@ -265,39 +244,15 @@ Remember to run `atlas-mvn eclipse:eclipse` and refresh step each time you edit 
 
 Each module generator does generates a different structure and modifications.  This generator did the following:
 
-Generated
-
-Description
-
-    pom.xml
-
-Added the servlet depedencies.
-
-    src/main/resources/atlassian-plugin.xml/atlassian-plugin.xml
-
-Added servlet resources.
-
-`src/main/java/com/atlassian/plugins/tutorial/refapp/` **Directory**
-
-    adminUI.properties
-
-A file for internationalization strings.
-
-    servlet/MyServlet.java
-
-A file containing servlet code.
-
-`/src/test/java/com/atlassian/plugins/tutorial/refapp/adminui/` **Directory**
-
-    servlet/MyServletTest.java
-
-A test file.
-
-`src/test/java/it/` **Directory**
-
-    com/atlassian/plugins/tutorial/refapp/adminui/servlet/MyServletFuncTest.java
-
-A test file.
+-   **pom.xml** - added the servlet depedencies
+-   **src/main/rec/atlassian-plugin.xml** - added servlet resources
+-   **src/main/java/com/atlassian/plugins/tutorial/refapp/** - **Directory**
+    -   **adminUI.properties** - a file for internationalization strings
+    -   **servlet/MyServlet.java** - a file containing servlet code  
+-   **src/test/java/com/atlassian/plugins/tutorial/refapp/adminui** - **Directory**
+    -   ****servlet/MyServletTest**.java** - a test file
+-   **src/test/java/it** - **Directory**
+    -   ****com/atlassian/plugins/tutorial/refapp/adminui/servlet/**MyServletFuncTest.java** - a test file
 
 This module generation added the following dependencies to the project `pom.xml` file:
 
@@ -460,7 +415,7 @@ By default, the servlet module is not pre-configured to use Velocity templates (
 2.  Find the `<dependencies>` section.
 3.  Insert the following inside the `<dependencies>`section:
 
-    ``` javascript
+    ``` xml
     <dependency>
       <groupId>com.atlassian.templaterenderer</groupId>
       <artifactId>atlassian-template-renderer-api</artifactId>
@@ -502,7 +457,7 @@ Because this project creates an admin page, the servlet should check that the us
 
 1.  Add the following additional `import` listings to your class:
 
-    ``` javascript
+    ``` bash
     import java.net.URI;
     import com.atlassian.sal.api.auth.LoginUriProvider;
     import com.atlassian.sal.api.user.UserManager;
@@ -571,7 +526,7 @@ Because this project creates an admin page, the servlet should check that the us
 2.  Edit the file.
 3.  Add the following code to the file:
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>My Admin</title>
@@ -611,7 +566,7 @@ You use the Atlassian template renderer API to render the form.   In Eclipse, 
 
 2.  Update the `MyServlet` class with the following code:
 
-    ``` javascript
+    ``` java
     public class MyServlet extends HttpServlet{
         private static final Logger log = LoggerFactory.getLogger(MyServlet.class);
         
@@ -696,7 +651,7 @@ The Velocity context created by the TemplateRenderer automatically gives your pl
 2.  Include the resource manager in the `<head>` element.  
     When you are done your template looks like the following:
 
-    ``` javascript
+    ``` xml
     <head>
         <title>MyServlet Admin</title>
         <meta name="decorator" content="atl.admin">
@@ -706,7 +661,7 @@ The Velocity context created by the TemplateRenderer automatically gives your pl
 
 3.  Add some class attributes to the existing form and its components:
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>MyServlet Admin</title>
@@ -748,7 +703,7 @@ The adminUI.properties file has some values defined already, for example the `my
 2.  Add new properties that represent the labels in your forms.  
     The file should like this when you are done:
 
-    ``` javascript
+    ``` bash
     my-servlet.name=My Servlet
     my-servlet.description=The My Servlet Plugin
     adminUI.admin.label=My Servlet Admin 
@@ -760,7 +715,7 @@ The adminUI.properties file has some values defined already, for example the `my
 3.  Replace the  the hard-coded text values in the `admin.vm` template with lookups for the internationalized text.  
     The file contents should look like the following:
 
-    ``` javascript
+    ``` xml
     <html>
       <head>
         <title>$i18n.getText("adminUI.admin.label")</title>
@@ -957,7 +912,7 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
 The generated added a number lines to your `atlassian-plugin.xml` file:
 
-``` javascript
+``` xml
 <template-context-item name="Application Properties Context Item" i18n-name-key="application-properties-context-item.name" key="application-properties-context-item" context-key="applicationProperties" global="false" component-ref="applicationProperties">
     <description key="application-properties-context-item.description">The Application Properties Context Item Plugin</description>
   </template-context-item>
@@ -1067,7 +1022,7 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
 The generated added a number lines to your atlassian-plugin.xml file:
 
-``` javascript
+``` xml
  <component-import key="pluginSettingsFactory" interface="com.atlassian.sal.api.pluginsettings.PluginSettingsFactory" />
 <component-import key="transactionTemplate" interface="com.atlassian.sal.api.transaction.TransactionTemplate" />
   <rest name="Config Resource" i18n-name-key="config-resource.name" key="config-resource" path="/configresource" version="1.0">
@@ -1085,7 +1040,7 @@ The REST code builds a configuration resource your plugin will use to store conf
 2.  Replace the existing content with the following code:  
      
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.refapp.adminui.rest;
 
     import javax.servlet.http.HttpServletRequest;
@@ -1130,7 +1085,7 @@ The REST code builds a configuration resource your plugin will use to store conf
 3.  Add an inner class the encapsulates the configuration data:  
      
 
-    ``` javascript
+    ``` java
     @XmlRootElement
     @XmlAccessorType(XmlAccessType.FIELD)
     public static final class Config
@@ -1162,7 +1117,7 @@ The REST code builds a configuration resource your plugin will use to store conf
 
     This inner class encapsulates a few properties, a `String` and an `int`. The `@XmlRootElement` and `@XmlElement` annotations are JAXB annotations. The `@XmlRootElement` annotation declares that instances of this type can be serialized to XML, and with a little magic in the REST module, to JSON as well. The `@XmlElement` annotations declare that the attributes should be treated as XML elements or JSON object properties.  If we were to serialize an instance of this class to XML, it would look like this:
 
-    ``` javascript
+    ``` xml
     <config>
       <name>Charlie</name>
       <age>5</age>
@@ -1180,7 +1135,7 @@ The REST code builds a configuration resource your plugin will use to store conf
 
 4.  Add a GET method, which returns a `Response` with an instance of the `Config` type we've just created as the entity.
 
-    ``` javascript
+    ``` java
     @GET
         @Produces(MediaType.APPLICATION_JSON)
         public Response get(@Context HttpServletRequest request)
@@ -1223,7 +1178,7 @@ Because this is **global** application configuration data, it is important that 
 
 5.  Add a `PUT` method.  ``
 
-    ``` javascript
+    ``` java
         @PUT
         @Consumes(MediaType.APPLICATION_JSON)
         public Response put(final Config config, @Context HttpServletRequest request)
@@ -1260,7 +1215,7 @@ Because this is **global** application configuration data, it is important that 
 
 To ensure that reads and writes don't clash and give us inconsistent data, we need to protect ourselves any time we access `PluginSettings` data. The `TransactionTemplate` frees us from needing to know the application-specific transaction creation and usage semantics. If we didn't use the `TransactionTemplate`, we'd need code something like this:
 
-``` javascript
+``` java
 Transaction tx = // go out and find or create transaction in application specific way
 tx.start();
 try
@@ -1330,7 +1285,7 @@ We'll start out by making a GET request and setting the values of the input fiel
 
 4.  After the call to `populateForm()` in `admin.js` add:
 
-    ``` javascript
+    ``` java
          AJS.$("#admin").submit(function(e) {
               e.preventDefault();
               updateConfig();
@@ -1350,13 +1305,13 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 1.  Edit the `admin.vm` template.
 2.  Replace the existing `$webResourceManager.requireResource` call with the following:
 
-    ``` javascript
+    ``` java
     $webResourceManager.requireResource("com.atlassian.plugins.tutorial.refapp.adminUI:resources")
     ```
 
 3.  Add a new `<meta>` tag to the `<head>` element.
 
-    ``` javascript
+    ``` xml
     <meta name="application-base-url" content="$applicationProperties.getBaseUrl()">
     ```
 
@@ -1364,7 +1319,7 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 
       Expand source
 
-    ``` javascript
+    ``` xml
      <html>
       <head>
         <title>$i18n.getText("adminUI.admin.label")</title>
@@ -1403,6 +1358,7 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 5.  Navigate to your servlet location:  
     <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>   
     You should see something similar to the following:
+
 
 
 

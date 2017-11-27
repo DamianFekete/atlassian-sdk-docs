@@ -21,7 +21,7 @@ Condition elements must contain a class attribute with the fully-qualified name 
 
 Condition elements can take optional parameters. These parameters will be passed in to the condition's `init()` method as a map of string key/value pairs after autowiring, but before any condition checks are performed. For example:
 
-``` javascript
+``` xml
 <condition class="com.atlassian.jira.plugin.webfragment.conditions.JiraGlobalPermissionCondition">
     <param name="permission">admin</param>
 </condition>
@@ -34,7 +34,7 @@ Conditions elements are composed of a collection of condition/conditions element
 
 For example: The following condition is true if the current user is a system administrator OR a project administrator:
 
-``` javascript
+``` xml
 <conditions type="OR">
     <condition class="com.atlassian.jira.plugin.webfragment.conditions.JiraGlobalPermissionCondition">
         <param name="permission">admin</param>
@@ -46,6 +46,7 @@ For example: The following condition is true if the current user is a system adm
 ```
 
 NOTE: In versions before JIRA 3.7, the second class is called `com.atlassian.jira.plugin.web.conditions.UserHasProjectsCondition`
+
 
 
 

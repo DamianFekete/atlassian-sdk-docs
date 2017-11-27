@@ -260,28 +260,32 @@ However, you may have situations where you want to run your integration tests us
 2.  Make sure you are in at the top level `PLUGIN_HOME` directory for you plugin.
 3.  Enter the `atlas-integration-test` command:
 
-        atlas-integration-test
+    ``` bash
+    atlas-integration-test
+    ```
 
     Notice in command's output, the system runs the unit tests, starts the host application, and then runs your integration tests.  The command output should succeed with test output similar to the following:
 
-        -------------------------------------------------------
-         T E S T S
-        -------------------------------------------------------
-        Running it.com.example.plugins.tutorial.jira.testTutorial.MyComponentWiredTest
-        SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-        SLF4J: Defaulting to no-operation (NOP) logger implementation
-        SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-        [INFO] [talledLocalContainer] Nov 15, 2012 11:32:50 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
-        [INFO] [talledLocalContainer] INFO: Initiating Jersey application, version 'Jersey: 1.8-atlassian-6 03/12/2012 02:59 PM'
-        [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
-        [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.sun.jersey.server.wadl.generators.WadlGeneratorApplicationDoc
-        [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
-        [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.sun.jersey.server.wadl.generators.WadlGeneratorGrammarsSupport
-        [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
-        [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.atlassian.plugins.rest.doclet.generators.resourcedoc.AtlassianWadlGeneratorResourceDocSupport
-        Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.185 sec
-        Results :
-        Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+    ``` bash
+    -------------------------------------------------------
+     T E S T S
+    -------------------------------------------------------
+    Running it.com.example.plugins.tutorial.jira.testTutorial.MyComponentWiredTest
+    SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+    SLF4J: Defaulting to no-operation (NOP) logger implementation
+    SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+    [INFO] [talledLocalContainer] Nov 15, 2012 11:32:50 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+    [INFO] [talledLocalContainer] INFO: Initiating Jersey application, version 'Jersey: 1.8-atlassian-6 03/12/2012 02:59 PM'
+    [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
+    [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.sun.jersey.server.wadl.generators.WadlGeneratorApplicationDoc
+    [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
+    [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.sun.jersey.server.wadl.generators.WadlGeneratorGrammarsSupport
+    [INFO] [talledLocalContainer] Nov 15, 2012 11:32:51 AM com.sun.jersey.api.wadl.config.WadlGeneratorLoader loadWadlGenerator
+    [INFO] [talledLocalContainer] INFO: Loading wadlGenerator com.atlassian.plugins.rest.doclet.generators.resourcedoc.AtlassianWadlGeneratorResourceDocSupport
+    Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.185 sec
+    Results :
+    Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+    ```
 
     When you next run your plugin with `atlas-run`, the command also runs both your unit and integration tests.  If the build were to fail on unit or integration tests, the application does not start.
 
@@ -373,7 +377,9 @@ While still in Eclipse and do the following to define a `<testGroup>` for your i
 4.  Save and close the file.
 5.  Re-run `atlas-integration-tests` but only for the traditional tests.``
 
-        atlas-integration-test -DtestGroups=traditional-integration
+    ``` bash
+    atlas-integration-test -DtestGroups=traditional-integration
+    ```
 
     Surefire creates the `PLUGIN_HOME/target/group-traditional-integration` directory
 
@@ -381,8 +387,10 @@ While still in Eclipse and do the following to define a `<testGroup>` for your i
 7.  List the directory contents.  
     You should see something simliar to the following:
 
-        TEST-it.com.example.plugins.tutorial.jira.testTutorial.MyComponentTrdTest.xml      
-        it.com.example.plugins.tutorial.jira.testTutorial.MyComponentTrdTest.txt
+    ``` bash
+    TEST-it.com.example.plugins.tutorial.jira.testTutorial.MyComponentTrdTest.xml       
+    it.com.example.plugins.tutorial.jira.testTutorial.MyComponentTrdTest.txt
+    ```
 
     Take some time and browse the contents of each file.
 
@@ -392,6 +400,7 @@ While still in Eclipse and do the following to define a `<testGroup>` for your i
 ## Next Steps
 
 In this page and the previous, you learned how to build, configure, and run tests.  All the testing is run from the command line, this can make the development process time consuming and awkward. In the next section, you learn how [to use wired test together with the test console](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console) to test your code and speed up development.
+
 
 
 

@@ -29,7 +29,9 @@ You use a `web-item` module to define the menu itself and another one for a menu
 
 If you want to check your work when you are done, you can find the `helloworld` source code on Atlassian bitbucket. bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    git clone https://bitbucket.org/atlassian_tutorial/helloworld.git
+``` bash
+git clone https://bitbucket.org/atlassian_tutorial/helloworld.git
+```
 
 If you aren't sure how to use Git, see the bitbucket <a href="http://confluence.atlassian.com/display/BITBUCKET/bitbucket+101" class="external-link">getting started guide</a>. Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/helloworld/overview" class="uri external-link">https://bitbucket.org/atlassian_tutorial/helloworld/overview</a>.
 
@@ -42,20 +44,24 @@ The `helloworld` project you created has everything you need for a Maven project
     This is the directory where the `pom.xml` file is. If you have followed this tutorial exactly up to this point, the directory is `atlastutorial/helloworld`.
 3.  Enter the following command:
 
-        atlas-mvn eclipse:eclipse
+    ``` bash
+    atlas-mvn eclipse:eclipse
+    ```
 
     The command will print some informational messages and then return something like the following:
 
-        [INFO] Wrote settings to C:\atlastutorial\helloworld\.settings\org.eclipse.jdt.core.prefs
-        [INFO] Wrote Eclipse project for "helloworld" to C:\atlastutorial\helloworld.
-        [INFO]
-        [INFO] ------------------------------------------------------------------------
-        [INFO] BUILD SUCCESSFUL
-        [INFO] ------------------------------------------------------------------------
-        [INFO] Total time: 37 seconds
-        [INFO] Finished at: Sun May 20 17:24:27 PDT 2012
-        [INFO] Final Memory: 52M/125M
-        [INFO] ------------------------------------------------------------------------
+    ``` bash
+    [INFO] Wrote settings to C:\atlastutorial\helloworld\.settings\org.eclipse.jdt.core.prefs
+    [INFO] Wrote Eclipse project for "helloworld" to C:\atlastutorial\helloworld.
+    [INFO]
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESSFUL
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time: 37 seconds
+    [INFO] Finished at: Sun May 20 17:24:27 PDT 2012
+    [INFO] Final Memory: 52M/125M
+    [INFO] ------------------------------------------------------------------------
+    ```
 
     This means you are ready for the next step.
 
@@ -74,7 +80,7 @@ Now, import your project into the Eclipse IDE. Start Eclipse and do the followin
 6.  Navigate to your `atlassian-plugin.xml` file and open it.  
     At this point, your file will look similar to the following:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
         <plugin-info>
             <description>${project.description}</description>
@@ -131,14 +137,16 @@ In this step, you add a new menu called **Client Sites** to your project using t
 
     The system displays information about what kinds of changes the additional module generates.
 
-        Enter Plugin Module Name [My Web Section]: mySection
-        Enter Location (e.g. system.admin/mynewsection): client-sites-link
-        Show Advanced Setup? (Y/y/N/n) [N]: n
-        [INFO] Adding the following items to the project:
-        [INFO]   [dependency: org.mockito:mockito-all]
-        [INFO]   [module: web-section]
-        [INFO]   i18n strings: 3
-        Add Another Plugin Module? (Y/y/N/n) [N]: 
+    ``` xml
+    Enter Plugin Module Name [My Web Section]: mySection
+    Enter Location (e.g. system.admin/mynewsection): client-sites-link
+    Show Advanced Setup? (Y/y/N/n) [N]: n
+    [INFO] Adding the following items to the project:
+    [INFO]   [dependency: org.mockito:mockito-all]
+    [INFO]   [module: web-section]
+    [INFO]   i18n strings: 3
+    Add Another Plugin Module? (Y/y/N/n) [N]: 
+    ```
 
 6.  Press Y to add another Plugin Module.  
     A web section simply provides a container for web items. You must add a web-item representing the menu.
@@ -183,21 +191,25 @@ In this step, you add a new menu called **Client Sites** to your project using t
 
     The system displays something similar to the following:
 
-        [INFO] Adding the following items to the project:
-        [INFO]   [dependency: org.mockito:mockito-all]
-        [INFO]   [module: web-item]
-        [INFO]   i18n strings: 3
+    ``` bash
+    [INFO] Adding the following items to the project:
+    [INFO]   [dependency: org.mockito:mockito-all]
+    [INFO]   [module: web-item]
+    [INFO]   i18n strings: 3
+    ```
 
 8.  Answer `N` when prompted to add another module.  
     The system completes its operation and provides you with the following informational messages:
 
-        [INFO] ------------------------------------------------------------------------
-        [INFO] BUILD SUCCESSFUL
-        [INFO] ------------------------------------------------------------------------
-        [INFO] Total time: 15 minutes 15 seconds
-        [INFO] Finished at: Mon May 14 14:29:58 PDT 2012
-        [INFO] Final Memory: 41M/117M
-        [INFO] ------------------------------------------------------------------------
+    ``` bash
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESSFUL
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time: 15 minutes 15 seconds
+    [INFO] Finished at: Mon May 14 14:29:58 PDT 2012
+    [INFO] Final Memory: 41M/117M
+    [INFO] ------------------------------------------------------------------------
+    ```
 
 ## Step 5: Tweak the module description
 
@@ -208,7 +220,7 @@ At this point, you have used the SDK to generate a new module. The generation to
 2.  Open the `atlassian-plugin.xml` in the **Source** view and look for the web-section and web-item entries.  
     These entries were added for you when you added the modules.  You should see something similar to the following:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
       
       ... code not shown ...
@@ -240,14 +252,14 @@ At this point, you have used the SDK to generate a new module. The generation to
 5.  Remove the URL from the `<link>` element but leave the link item.  
     When you are done the `<link>` element should look like this:
 
-    ``` javascript
+    ``` xml
     <link linkId="client-sites-link"></link>
     ```
 
 6.  Save the `atlassian-plugin.xml` file.  
     Your `atlassian-plugin.xml` descriptor file should look like this:
 
-    ``` javascript
+    ``` xml
      <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
       
       ... code not shown ...
@@ -269,15 +281,19 @@ In this step, you view the menu you just created in JIRA. At this point the menu
 1.  Open a command prompt in the root of your project.
 2.  Enter the following to build your plugin JAR:
 
-        atlas-run
+    ``` bash
+    atlas-run
+    ```
 
     The command builds your JAR and the JIRA container in the target directory. When it completes successfully, the command echoes back something similar to the following:
 
-        [WARNING] [talledLocalContainer] INFO: Server startup in 695 ms
-        [INFO] [talledLocalContainer] Tomcat 6.x started on port [2990]
-        [INFO] jira started successfully in 46s at http://manthony-PC:2990/jira
-        [INFO] Type Ctrl-D to shutdown gracefully
-        [INFO] Type Ctrl-C to exit
+    ``` bash
+    [WARNING] [talledLocalContainer] INFO: Server startup in 695 ms
+    [INFO] [talledLocalContainer] Tomcat 6.x started on port [2990]
+    [INFO] jira started successfully in 46s at http://manthony-PC:2990/jira
+    [INFO] Type Ctrl-D to shutdown gracefully
+    [INFO] Type Ctrl-C to exit
+    ```
 
 3.  Go to a browser and open JIRA.  
     You should see your new "Client Sites" menu immediately.
@@ -286,7 +302,9 @@ In this step, you view the menu you just created in JIRA. At this point the menu
 5.  Leave JIRA up and running and start another command prompt.
 6.  Go to the root of your project and add another `web-item` module:
 
-        atlas-create-jira-plugin-module
+    ``` bash
+    atlas-create-jira-plugin-module
+    ```
 
 7.  Enter `25: Web Item` when prompted.
 8.  Complete the module as follows:
@@ -320,7 +338,7 @@ In this step, you view the menu you just created in JIRA. At this point the menu
 10. Go back to Eclipse and refresh the `atlassian-plugin.xml` file.  
     At this point, your file should look like the following:
 
-    ``` javascript
+    ``` xml
     <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
       
       ... code not shown ...
@@ -349,7 +367,9 @@ At this point, you left code running and made some changes to your code. Rather 
 2.  Navigate to the FASTDEV page for your project. The URL for this page has a format of `http://HOSTNAME:PORT/jira/plugins/servlet/fastdev`.  
     For example, you would enter something similar to the following:
 
-        http://manthony-pc:2990/jira/plugins/servlet/fastdev
+    ``` bash
+    http://manthony-pc:2990/jira/plugins/servlet/fastdev
+    ```
 
     The FASTDEV dialog appears.
 
@@ -368,6 +388,7 @@ Where you go now depends upon your interests, but there are many more tutorials 
 
 -   [JIRA tutorials](https://developer.atlassian.com/display/JIRADEV/JIRA+platform)
 -   [Confluence Tutorials](https://developer.atlassian.com/display/CONFDEV/Tutorials)
+
 
 
 

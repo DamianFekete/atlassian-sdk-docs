@@ -41,7 +41,7 @@ Highlights of Atlassian Plugin Framework 2.6:
 -   ChainingClassLoader and ContextClassLoaderSwitchingUtil
 -   Faster, more stable plugin transformation
 
-See the [Plugin Framework 2.6 Release Notes](https://developer.atlassian.com/display/ARCHIVES/Plugin+Framework+2.6+Release+Notes).
+See the [Plugin Framework 2.6 Release Notes](https://developer.atlassian.com/pages/viewpage.action?pageId=852043).
 
 ## Shared Access Layer (SAL) 2.2
 
@@ -53,7 +53,7 @@ Highlights of SAL 2.2:
 -   Cross-application API for accessing user profiles
 -   Support of special characters in PluginSettings
 
-See the [Shared Access Layer 2.2 Release Notes](https://developer.atlassian.com/display/ARCHIVES/Shared+Access+Layer+2.2+Release+Notes).
+See the [Shared Access Layer 2.2 Release Notes](https://developer.atlassian.com/pages/viewpage.action?pageId=5242917).
 
 ## Atlassian User Interface (AUI) 3.2
 
@@ -81,6 +81,7 @@ Highlights of the REST plugin module 2.2:
 -   Faster startup time
 
 See the [REST Plugin 2.2 Release Notes](/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes).
+
 
 
 

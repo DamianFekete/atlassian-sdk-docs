@@ -126,7 +126,7 @@ public class HiMomRunnable implements Runnable
 
 #### atlassian-plugin.xml
 
-``` xml
+``` java
 <atlassian-plugin key="himom-plugin" name="Hi Mom" plugins-version="2">
     <plugin-info>
         <version>1.0.0</version>
@@ -137,6 +137,7 @@ public class HiMomRunnable implements Runnable
 ```
 
 To deploy this plugin, we can drop it into the "plugins" directory we configured in step 2 and the plugin framework should find it within 2 seconds and install the plugin automatically.
+
 
 
 

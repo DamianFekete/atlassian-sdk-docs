@@ -154,7 +154,7 @@ If you need to make several changes and don't want to interrupt your users, you 
 4.  With your text editor, start working on your extension
 5.  When ready to test, run:
 
-    ``` javascript
+    ``` bash
     zip -r ../my-extension.zip *
     ```
 
@@ -183,7 +183,9 @@ New in 0.10, you can interact with your extension via git as Speakeasy acts as a
 
 During development on a remote server, `git push` can be a useful technique for rapidly deploying locally-developed changes:
 
-    git commit -a -m "Local changes" && git push
+``` bash
+git commit -a -m "Local changes" && git push
+```
 
 ## Advanced Topics
 
@@ -340,7 +342,7 @@ If your extension is a "jar" extension, so in other words, a normal OSGi plugin 
 2.  Unzip the SDK Project into a new directory
 3.  In a terminal window, run:
 
-    ``` javascript
+    ``` bash
     mvn confluence:run
     ```
 
@@ -348,7 +350,7 @@ If your extension is a "jar" extension, so in other words, a normal OSGi plugin 
 
 4.  In another terminal window, run:
 
-    ``` javascript
+    ``` bash
     mvn confluence:cli
     ```
 
@@ -365,7 +367,9 @@ If your extension is a "zip" extension, you can still use the Plugin SDK to deve
 2.  Unzip the artifact into a new directory
 3.  Run <a href="http://confluence.atlassian.com/display/DEVNET/atlas-run-standalone" class="external-link">atlas-run-standalone</a> to start the Atlassian product. In this example, we start Confluence 3.5.3:
 
-        atlas-run-standalone --product confluence --version 3.5.2 --jvmargs "-Dplugin.resource.directories=. -Xmx512m -XX:MaxPermSize=128m" --plugins com.atlassian.labs:speakeasy-plugin:0.10.2
+    ``` bash
+    atlas-run-standalone --product confluence --version 3.5.2 --jvmargs "-Dplugin.resource.directories=. -Xmx512m -XX:MaxPermSize=128m" --plugins com.atlassian.labs:speakeasy-plugin:0.10.2
+    ```
 
 4.  Upload or push your extension to your local Confluence running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> and start developing. JS and CSS changes that don't require a plugin reinstallation can be seen immediately via a reload (thanks to that 'plugin.resource.directories' system prop)
 
@@ -384,6 +388,7 @@ The custom module types are necessary to ensure the plugin can be enabled on a p
 Keep in mind the idea is the application should work 100% correctly if your extension is not enabled. This means you shouldn't do things like create psuedo Confluence macros that show useful information for your extension users but blank screens or gibberish for all others.
 
 {{% /note %}}
+
 
 
 

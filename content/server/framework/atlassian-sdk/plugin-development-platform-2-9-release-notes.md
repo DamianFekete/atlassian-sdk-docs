@@ -20,85 +20,20 @@ title: Plugin Development Platform 2.9 release notes
 **  
 **
 
-**Release Components:**
+**Release Components:** 
 
-**  
-**
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Plugin/Library</p></th>
-<th><p>Version</p></th>
-<th><p>Updated</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="https://studio.atlassian.com/svn/PLUG/branches/atlassian-plugins-2.7.x" class="external-link">Plugin Framework</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10240&amp;version=11993" class="external-link">2.7</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://studio.atlassian.com/svn/SAL/branches/sal-2.4.x/" class="external-link">SAL</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10108&amp;version=12077" class="external-link">2.4</a>, see also <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10108&amp;version=12003" class="external-link">2.3</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://studio.atlassian.com/svn/REST/branches/rest-2.4.x/" class="external-link">REST</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10292&amp;version=12218" class="external-link">2.4</a>, see also <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10292&amp;version=12023" class="external-link">2.3</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://studio.atlassian.com/svn/AJS/branches/auiplugin-3.3.x" class="external-link">AUI</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10270&amp;version=11858" class="external-link">3.3</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://studio.atlassian.com/svn/ATR/branches/atlassian-template-renderer-1.2.x" class="external-link">Template Renderer</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10301&amp;version=11243" class="external-link">1.2</a></p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://studio.atlassian.com/svn/UPM/branches/atlassian-universal-plugin-manager-1.2.x" class="external-link">UPM</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10360&amp;version=11968" class="external-link">1.2</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://studio.atlassian.com/svn/EVENT/branches/atlassian-event-2.0.x/" class="external-link">EVENT</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10693&amp;version=12064" class="external-link">2.0</a></p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://studio.atlassian.com/svn/OAUTH/branches/atlassian-oauth-1.2.x/" class="external-link">OAUTH</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10330&amp;version=12125" class="external-link">1.2</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.3.x/" class="external-link">Trusted Apps</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=11823" class="external-link">2.3</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://studio.atlassian.com/svn/APL/trunk" class="external-link">APL</a></p></td>
-<td><p><a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12161" class="external-link">3.2</a></p></td>
-<td><p>Yes</p></td>
-</tr>
-</tbody>
-</table>
-
-**  
-**
+-   <a href="https://studio.atlassian.com/svn/PLUG/branches/atlassian-plugins-2.7.x" class="external-link">Plugin Framework</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10240&amp;version=11993" class="external-link">2.7</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/SAL/branches/sal-2.5.x/" class="external-link">SAL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10108&amp;version=12077" class="external-link">2.4</a>, see also <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10108&amp;version=12003" class="external-link">2.3</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/REST/branches/rest-2.4.x/" class="external-link">REST</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10292&amp;version=12218" class="external-link">2.4</a>, see also <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10292&amp;version=12023" class="external-link">2.3</a>(updated)
+-   <a href="https://studio.atlassian.com/svn/AJS/branches/auiplugin-3.4.x" class="external-link">AUI</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10270&amp;version=11858" class="external-link">3.3</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/ATR/branches/atlassian-template-renderer-1.2.x" class="external-link">Template Renderer</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10301&amp;version=11243" class="external-link">1.2</a>
+-   <a href="https://studio.atlassian.com/svn/UPM/branches/atlassian-universal-plugin-manager-1.3.x" class="external-link">UPM</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10360&amp;version=11968" class="external-link">1.2</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/EVENT/branches/atlassian-event-2.1.x/" class="external-link">EVENT</a> - verision <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10693&amp;version=12064" class="external-link">2.0</a>
+-   <a href="https://studio.atlassian.com/svn/OAUTH/branches/atlassian-oauth-1.2.x/" class="external-link">OAUTH</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10330&amp;version=12125" class="external-link">1.2</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.4.x/" class="external-link">Trusted Apps</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=11823" class="external-link">2.3</a> (updated)
+-   <a href="https://studio.atlassian.com/svn/APL/branches/applinks-3.4.x" class="external-link">APL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12161" class="external-link">3.2</a> (updated)
 
 **Highlights of this Release:**
-
-**  
-**
 
  
 
@@ -164,6 +99,7 @@ This release includes a number of improvements and bug fixes. Here are a few wor
 -   CSS Web resources can now specify CSS conditionals for better supporting later IE browsers
 -   <a href="http://docs.atlassian.com/aui/3.3.0/sandbox/sandbox.html" class="external-link">AUI Sandbox</a> now deployed with every release to let the developer experiment with AUI components
 -   REST now supports file uploads via `@MultipartFormParam`
+
 
 
 

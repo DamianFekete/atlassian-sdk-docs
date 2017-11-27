@@ -14,7 +14,7 @@ subcategory:
 
 Configuring your project to work with JIRA is as simple as configuring the `maven-bamboo-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
-``` javascript
+``` xml
 <plugin>
   <groupId>com.atlassian.maven.plugins</groupId>
   <artifactId>maven-bamboo-plugin</artifactId>
@@ -39,6 +39,7 @@ Configuring your project to work with JIRA is as simple as configuring the `mave
 ```
 
 where `amps.version` is the version of the Atlassian Plugin SDK you're using, and `ao.version` the version of the Active Objects plugin you're using. `bamboo.version` is the version of Confluence you want to use.
+
 
 
 
