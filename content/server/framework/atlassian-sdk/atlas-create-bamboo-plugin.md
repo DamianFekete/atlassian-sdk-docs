@@ -282,3 +282,27 @@ Let's assume you want to create a new Bamboo plugin by supplying all the necessa
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

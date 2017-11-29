@@ -1,0 +1,42 @@
+---
+title: Dynamic Module Types 852034
+aliases:
+    - /server/framework/atlassian-sdk/dynamic-module-types-852034.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852034
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852034
+confluence_id: 852034
+platform:
+product:
+category:
+subcategory:
+---
+# Dynamic Module Types
+
+This page is in DRAFT and is visible to **Atlassian staff** only.  
+  
+Tell the developers what they need to know about dynamic module types -- how the Plugin Framework handles them, and how this affects the decisions a plugin developer will need to make.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

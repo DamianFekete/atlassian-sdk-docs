@@ -245,3 +245,27 @@ In general, our sample POM uses standard Maven object model syntax, as described
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

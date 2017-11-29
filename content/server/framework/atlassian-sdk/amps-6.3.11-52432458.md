@@ -1,0 +1,44 @@
+---
+title: Amps 6.3.11 52432458
+aliases:
+    - /server/framework/atlassian-sdk/amps-6.3.11-52432458.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=52432458
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=52432458
+confluence_id: 52432458
+platform:
+product:
+category:
+subcategory:
+---
+# AMPS 6.3.11
+
+### Release Date: 22nd November 2017
+
+Bug Fixes:
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1411?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />AMPS-1411</a> - AMPS chooses version of Tomcat 8.5.x incompatible with Jira Server Resolved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

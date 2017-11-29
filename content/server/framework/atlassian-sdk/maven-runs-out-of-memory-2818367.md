@@ -1,0 +1,44 @@
+---
+title: Maven Runs Out Of Memory 2818367
+aliases:
+    - /server/framework/atlassian-sdk/maven-runs-out-of-memory-2818367.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818367
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818367
+confluence_id: 2818367
+platform:
+product:
+category:
+subcategory:
+---
+# Maven runs out of memory
+
+You may need to allocate more memory to Maven in order to complete your build. You can do so by setting an environment variable called `MAVEN_OPTS`. For example:
+
+``` bash
+export MAVEN_OPTS=-Xmx512m
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

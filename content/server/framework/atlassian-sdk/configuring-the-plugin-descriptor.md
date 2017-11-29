@@ -288,3 +288,27 @@ The plugin descriptor file already contains variables for common values, such as
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

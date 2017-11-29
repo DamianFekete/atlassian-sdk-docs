@@ -273,3 +273,27 @@ Let's assume you want to create a new JIRA plugin by supplying all the necessary
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -257,3 +257,27 @@ A non-static plugin is called a [dynamic plugin](/server/framework/atlassian-sdk
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

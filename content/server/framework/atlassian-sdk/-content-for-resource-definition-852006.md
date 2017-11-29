@@ -124,7 +124,7 @@ Stylesheets for your plugin may often refer to images also in your plugin. In wh
 <resource type="download" name="my-style.css" location="com/example/plugin/my-style.css"/>
 ```
 
-Note: If you have multiple stylesheets and javascript resources defined, you should put the resource defintions in a [Web Resource Module.](/server/framework/atlassian-sdk/web-resource-plugin-module)
+Note: If you have multiple stylesheets and javascript resources defined, you should put the resource defintions in a [Web Resource Module.](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html)
 
 To refer to your plugin images in a stylesheet, use a relative path based on the resource name defined for the image (which is 'my-images' in this case).
 
@@ -158,7 +158,7 @@ These are the common name/value pairs supported by the `<param>` element.
 
 **Description: ** 
 
-Declare the media type for CSS resources. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module).  
+Declare the media type for CSS resources. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html).  
 For example, requesting this resource will insert a `<link>` in the HTML header, with a media value of 'print': 
 
 ``` xml
@@ -176,7 +176,7 @@ For example, requesting this resource will insert a `<link>` in the HTML header,
 
 **Description: ** 
 
-Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module).  
+Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html).  
 For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by Internet Explorer. This is useful for IE-specific styling to work around browser bugs. 
 
 ``` xml
@@ -205,7 +205,7 @@ The `ieonly` parameter also works for JavaScript resources. 
 
 **Description:**  
 
-Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>, and should be used when targeting specific versions of Internet Explorer. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module).  
+Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>, and should be used when targeting specific versions of Internet Explorer. This is supported by [Web Resource plugin modules](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html).  
 For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by versions of Internet Explorer less than 9. This is useful for IE version-specific styling to work around browser bugs. 
 
 ``` xml
@@ -235,286 +235,6 @@ The `conditionalComment` parameter also works for JavaScript resources. 
 **Description:** The value given here will form the title attribute of the CSS `<link>` tag.
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

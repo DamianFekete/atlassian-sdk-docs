@@ -1,0 +1,52 @@
+---
+title: Plugin Framework Faq 852039
+aliases:
+    - /server/framework/atlassian-sdk/plugin-framework-faq-852039.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852039
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852039
+confluence_id: 852039
+platform:
+product:
+category:
+subcategory:
+---
+# Plugin Framework FAQ
+
+-   [Access components statically](/server/framework/atlassian-sdk/access-components-statically-852012.html)
+-   [Accessing Classes from Another Plugin](/server/framework/atlassian-sdk/accessing-classes-from-another-plugin-852151.html)
+-   [Differences between Spring and Pico](/server/framework/atlassian-sdk/differences-between-spring-and-pico-852131.html)
+-   [Differences between Version 1 Plugins and Version 2 Plugins](/server/framework/atlassian-sdk/differences-between-version-1-plugins-and-version-2-plugins-852009.html)
+-   [Marking Packages as Optional Imports](/server/framework/atlassian-sdk/marking-packages-as-optional-imports-852102.html)
+-   [My public component just disappeared!](/server/framework/atlassian-sdk/852130.html)
+-   [Plugin Modules that Cannot be Disabled](/server/framework/atlassian-sdk/plugin-modules-that-cannot-be-disabled-852018.html)
+-   [Plugin Modules that Require a Restart](/server/framework/atlassian-sdk/plugin-modules-that-require-a-restart-852017.html)
+-   [Running on WebSphere 6.1](/server/framework/atlassian-sdk/running-on-websphere-6.1-852007.html)
+-   [Using JDOM in OSGi](/server/framework/atlassian-sdk/using-jdom-in-osgi-851991.html)
+-   [What happened to studio.plugins.atlassian.com?](/server/framework/atlassian-sdk/16974434.html)
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

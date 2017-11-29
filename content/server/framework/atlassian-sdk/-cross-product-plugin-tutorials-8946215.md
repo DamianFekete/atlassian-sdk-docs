@@ -23,10 +23,10 @@ Tutorials listed by task:
 <!-- -->
 
 -   Activity Streams:
-    -   [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
-    -   [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
-    -   [Making your own Activity Streams Provider](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider)
--   [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
+    -   [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api-5669691.html)
+    -   [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams-852073.html)
+    -   [Making your own Activity Streams Provider](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider-852024.html)
+-   [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects-5669135.html)
 
 ### Cross-Product Tutorials Classified by Skill Level
 
@@ -46,19 +46,19 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Making your own Activity Streams Provider](/display/DOCS/Making+your+own+Activity+Streams+Provider)
-
--   Page:
-
     [Getting Started with Active Objects](/display/DOCS/Getting+Started+with+Active+Objects)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Making your own Activity Streams Provider](/display/DOCS/Making+your+own+Activity+Streams+Provider)
+
+-   Page:
+
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
@@ -72,11 +72,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 ### External Tutorials
 
@@ -86,286 +86,6 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

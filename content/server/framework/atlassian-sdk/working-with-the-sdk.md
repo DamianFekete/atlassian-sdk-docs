@@ -311,3 +311,27 @@ The SDK supports both [static](/server/framework/atlassian-sdk/static-plugin) 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

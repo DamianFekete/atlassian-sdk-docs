@@ -1,0 +1,44 @@
+---
+title: Maven Warning Pom for X is Invalid 2818357
+aliases:
+    - /server/framework/atlassian-sdk/maven-warning-pom-for-x-is-invalid-2818357.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818357
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818357
+confluence_id: 2818357
+platform:
+product:
+category:
+subcategory:
+---
+# Maven warning POM for X is invalid
+
+You may see a Maven warning "\[WARN\] POM for 'X' is invalid.... Reason: Not a v4.0.0 POM"
+
+The warning just means that this particular library has not been upgraded to have a Maven 2 POM yet. It will still work fine in your build, and you can safely ignore these errors. As we get all our dependencies moved over to Maven 2, and these errors will become less and less frequent.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

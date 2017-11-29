@@ -281,3 +281,27 @@ Let's assume you want to create a new Confluence plugin by supplying all the nec
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

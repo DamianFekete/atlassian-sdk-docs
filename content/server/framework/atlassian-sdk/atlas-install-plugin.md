@@ -261,3 +261,27 @@ atlas-install-plugin --username myadmin --password secret --plugin-key com.atlas
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

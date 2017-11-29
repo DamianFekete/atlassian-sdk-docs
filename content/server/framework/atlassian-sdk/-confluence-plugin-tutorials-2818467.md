@@ -16,11 +16,11 @@ subcategory:
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
+    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
 
 -   Page:
 
@@ -46,15 +46,11 @@ subcategory:
 
 -   Page:
 
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
     [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
 
@@ -66,15 +62,23 @@ subcategory:
 
 -   Page:
 
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
+    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
+
+-   Page:
+
+    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
+
+-   Page:
+
     [Extending the Highlight Actions Panel](/display/CONFDEV/Extending+the+Highlight+Actions+Panel)
 
 -   Page:
 
     [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -84,15 +88,15 @@ subcategory:
 
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
--   Page:
-
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
 #### Advanced
 
 -   Page:
 
     [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+
+-   Page:
+
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
@@ -105,290 +109,6 @@ subcategory:
 -   Page:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
-
--   Page:
-
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -108,3 +108,27 @@ This technique contains several patterns that are generally very bad, but accept
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

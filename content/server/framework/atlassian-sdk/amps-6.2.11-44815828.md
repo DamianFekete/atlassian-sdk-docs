@@ -1,0 +1,46 @@
+---
+title: Amps 6.2.11 44815828
+aliases:
+    - /server/framework/atlassian-sdk/amps-6.2.11-44815828.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=44815828
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=44815828
+confluence_id: 44815828
+platform:
+product:
+category:
+subcategory:
+---
+# AMPS 6.2.11
+
+### Release Date: 19th December 2016
+
+### Bug Fixes: 
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1260?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />AMPS-1260</a> - Turn on all the testing of fecru again before public release of amps 6.x (and turn on generation of fecru plugin again) Resolved
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1367?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />AMPS-1367</a> - AMPS pulls the most recent JIRA version in maven regardless of whether it is the latest release Resolved  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

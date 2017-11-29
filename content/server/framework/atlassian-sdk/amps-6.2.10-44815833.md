@@ -1,0 +1,50 @@
+---
+title: Amps 6.2.10 44815833
+aliases:
+    - /server/framework/atlassian-sdk/amps-6.2.10-44815833.html
+dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=44815833
+dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=44815833
+confluence_id: 44815833
+platform:
+product:
+category:
+subcategory:
+---
+# AMPS 6.2.10
+
+### Release Date: 30th November 2016
+
+### Enhancement / Features
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1363?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15310&amp;avatarType=issuetype" class="icon" />AMPS-1363</a> - Add support for Oracle 12c in non-CDB mode Resolved
+
+### Bug Fixes: 
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1356?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />AMPS-1356</a> - errors with confluence 5.10.x Resolved
+
+<a href="https://ecosystem.atlassian.net/browse/AMPS-1369?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />AMPS-1369</a> - SEVERE: Unable to process Jar entry \[javassist/util/proxy/SecurityActions$4.class\] from Jar \[jar:file:/Users/rfranco/workspaces/forums/target/container/tomcat8x/cargo-confluence-home/webapps/confluence/WEB-INF/lib/javassist-3.20.0-GA.jar!/\] Resolved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

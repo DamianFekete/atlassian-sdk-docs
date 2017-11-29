@@ -68,3 +68,27 @@ or `ComponentManager.getInstance().getMyObject()`, or even `ComponentManager.get
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
