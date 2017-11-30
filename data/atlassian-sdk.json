@@ -1325,7 +1325,7 @@
       },
       {
         "name": "help",
-        "url": "http://www.google.com",
+        "url": "/server/framework/atlassian-sdk/get-help",
         "title": "Get help"
       }
     ],
