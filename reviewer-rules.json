@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "type": "SUPERVISOR",
+      "reviewers": [
+        "beckytodd"
+      ]
+    }
+  ]
+}
