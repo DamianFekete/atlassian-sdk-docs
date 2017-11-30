@@ -22,7 +22,7 @@ This page describes the shell script `atlas-mvn`, part of the [Atlassian Plugin 
 
 Do not use your local Maven
 
-When running Maven commands against your project, make sure that you use the version of Maven bundled with the Atlassian Plugin SDK. This is important if you have a local version of Maven installed, as well as the Atlassian Plugin SDK. The simplest way is to use the [`atlas-mvn`](https://developer.atlassian.com/display/DOCS/atlas-mvn) wrapper command instead of `mvn`. Another way is to [put the bundled Maven on your path](https://developer.atlassian.com/display/DOCS/Verifying+Your+Maven+Settings).
+When running Maven commands against your project, make sure that you use the version of Maven bundled with the Atlassian Plugin SDK. This is important if you have a local version of Maven installed, as well as the Atlassian Plugin SDK. The simplest way is to use the [atlas-mvn](https://developer.atlassian.com/display/DOCS/atlas-mvn) wrapper command instead of `mvn`. Another way is to [put the bundled Maven on your path](https://developer.atlassian.com/display/DOCS/Verifying+Your+Maven+Settings).
 
 {{% /tip %}}
 
@@ -30,7 +30,7 @@ When running Maven commands against your project, make sure that you use the ver
 
 ## Basic Usage
 
-`atlas-mvn [options]` - Allows you to execute any Maven command using the version of Maven bundled with your Atlassian Plugin SDK. (Runs `mvn`.) Passes all parameters straight through to Maven.
+ `atlas-mvn [options]` - Allows you to execute any Maven command using the version of Maven bundled with your Atlassian Plugin SDK. (Runs `mvn`.) Passes all parameters straight through to Maven.
 
 ## Parameters
 
@@ -48,7 +48,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-mvn -?
 atlas-mvn -help
 ```
@@ -57,357 +57,19 @@ atlas-mvn -help
 
 Run the following command to compile the Java JUnit test classes:
 
-``` javascript
+``` bash
 atlas-mvn test-compile 
 ```
 
 Run the following command to get help on the Maven `test-compile` goal:
 
-``` javascript
+``` bash
 atlas-mvn test-compile --help
 ```
 
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

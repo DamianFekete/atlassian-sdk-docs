@@ -46,10 +46,6 @@ subcategory:
 
 -   Page:
 
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
@@ -67,6 +63,10 @@ subcategory:
 -   Page:
 
     [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
@@ -109,6 +109,67 @@ subcategory:
 -   Page:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

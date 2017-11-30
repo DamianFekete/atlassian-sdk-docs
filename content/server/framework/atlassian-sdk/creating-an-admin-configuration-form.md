@@ -67,7 +67,9 @@ To complete this tutorial, you need to know the following: 
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you have finished, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    git clone git@bitbucket.org:serverecosystem/xproduct-admin-ui-plugin.git
+``` bash
+git clone git@bitbucket.org:serverecosystem/xproduct-admin-ui-plugin.git
+```
 
 Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/serverecosystem/xproduct-admin-ui-plugin" class="uri external-link">https://bitbucket.org/serverecosystem/xproduct-admin-ui-plugin</a>.
 
@@ -86,7 +88,9 @@ In this step, you use an `atlas-` command to generate stub code for your plugin.
 1.  Open a terminal and navigate to the directory where you want to create your tutorial project directory.
 2.  Enter the following command:
 
-        atlas-create-refapp-plugin
+    ``` bash
+    atlas-create-refapp-plugin
+    ```
 
 3.  When prompted, enter the following information to identify your plugin:
 
@@ -136,7 +140,7 @@ Add some metadata about your plugin and your company or organisation.
 1.  Edit the `pom.xml` file in the root folder of your plugin.
 2.  Add your company or organisation name and your website to the `organization` element:
 
-    ``` javascript
+    ``` xml
     <organization>
       <name>Example Company</name>
       <url>http://www.example.com/</url>
@@ -145,7 +149,7 @@ Add some metadata about your plugin and your company or organisation.
 
 3.  Update the `description` element:
 
-    ``` javascript
+    ``` xml
     <description>Provides a custom field to store money amounts.</description>
     ```
 
@@ -166,7 +170,7 @@ As mentioned in the overview, the host application for the plugin you are creati
 
 Your stub code contains a plugin descriptor file `atlassian-plugin.xml`. This is an XML file that identifies the plugin to the host application (HOSTAPP) and defines the required plugin functionality. In a text editor or IDE (integrated development environment, such as Eclipse or IDEA) open the descriptor file located in your project under `src/main/resources`. It should look like this:
 
-``` javascript
+``` xml
 <atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
     <plugin-info>
         <description>${project.description}</description>
@@ -203,7 +207,7 @@ Although you haven't modified the generated code yet, try starting the RefApp ap
 
 This triggers the RefApp startup process. When finished, you should see output similar to:
 
-``` javascript
+``` text
 ...
 [INFO] [talledLocalContainer] Tomcat 6.x started on port [5990]
 [INFO] refapp started successfully in 42s at http://atlas-laptop:5990/refapp
@@ -230,7 +234,7 @@ Let's add a servlet to the project.
 2.  Make a new directory at that location, named `xproductadminui`.
 3.  In the new directory, create a new file named `AdminServlet.java` with the following contents:
 
-    ``` javascript
+    ``` java
     package com.atlassian.plugins.tutorial.xproductadminui;
 
     import java.io.IOException;
@@ -257,7 +261,7 @@ Optionally, run the application again (using the `atlas-run` command from the pr
 
 Our web application first checks whether the user is logged in. If not, it redirects the user to the login page. We use the SAL User Manager feature to make sure that the current user is an administrator. This dependency has already been added to pom.xml, look for the following:
 
-``` javascript
+``` xml
 <dependency>
   <groupId>com.atlassian.sal</groupId>
   <artifactId>sal-api</artifactId>
@@ -272,7 +276,7 @@ With SAL added as a build dependency, we can import SAL and use it in our servle
 2.  Open `AdminServlet.java` for editing. 
 3.  Add the following import statements alongside the existing statements:
 
-    ``` javascript
+    ``` java
     import java.net.URI;
     import com.atlassian.sal.api.auth.LoginUriProvider;
     import com.atlassian.sal.api.user.UserManager;
@@ -280,7 +284,7 @@ With SAL added as a build dependency, we can import SAL and use it in our servle
 
 4.  Replace the entire `AdminServlet` class declaration with the following:
 
-    ``` javascript
+    ``` java
     public class AdminServlet extends HttpServlet
     {
       private final UserManager userManager;
@@ -309,7 +313,7 @@ In our `doGet` method, we check whether the user is logged in (that is, username
 
 Add the following two methods, `redirectToLogin` and `getUri` methods to the `AdminServlet` class immediately after `doGet`:
 
-``` javascript
+``` java
 private void redirectToLogin(HttpServletRequest request, HttpServletResponse response) throws IOException
 {
   response.sendRedirect(loginUriProvider.getLoginUri(getUri(request)).toASCIIString());
@@ -335,7 +339,7 @@ Now let's get to rendering! As mentioned in the [Overview](#overview), we can u
 
 Find the `dependencies` section in the `pom.xml` file and add the following `dependency`
 
-``` javascript
+``` xml
 <dependency>
   <groupId>com.atlassian.templaterenderer</groupId>
   <artifactId>atlassian-template-renderer-api</artifactId>
@@ -345,11 +349,14 @@ Find the `dependencies` section in the `pom.xml` file and add the following `dep
 
 In `AdminServlet.java`, add the following import statement to the existing ones:
 
-    import com.atlassian.templaterenderer.TemplateRenderer;
+``` java
+import com.atlassian.templaterenderer.TemplateRenderer;
+```
 
+  
 We need to instantiate the renderer object in the constructor and call it in the `doGet` method. Add the `renderer` variable declaration to the existing ones and replace the entire `AdminServlet` constructor and `doGet` method with the following:
 
-``` javascript
+``` java
 private final TemplateRenderer renderer;
 
 public AdminServlet(UserManager userManager, LoginUriProvider loginUriProvider, TemplateRenderer renderer)
@@ -382,7 +389,7 @@ Before we go any further, let's tell the plugin system about our servlet.
 
 Open `atlassian-plugin.xml` for editing and add the following servlet declaration statements. You can add it anywhere within the `atlassian-plugin` element, such as after the existing servlet declaration.
 
-``` javascript
+``` xml
 <servlet key="admin-servlet" class="com.atlassian.plugins.tutorial.xproductadminui.AdminServlet">
   <url-pattern>/xproduct/admin</url-pattern>
 </servlet>
@@ -394,7 +401,7 @@ In order to get Spring scanner to import components for us, we need to annotate 
 
 First we need to add the following annotation imports to `AdminServlet.java`:
 
-``` javascript
+``` java
 import javax.inject.Inject;
 import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
 import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
@@ -402,14 +409,14 @@ import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
 
 Add a @Scanned annotation to the class definition to tell the scanner to scan our class:
 
-``` javascript
+``` java
 @Scanned
 public class AdminServlet extends HttpServlet
 ```
 
 Add `@ComponentImport` annotations to the members of the `AdminServlet` class, the result should look like:
 
-``` javascript
+``` java
 @ComponentImport
 private final UserManager userManager;
 @ComponentImport
@@ -420,7 +427,7 @@ private final TemplateRenderer renderer;
 
 Finally add an `@Inject` annotation to the constructor:
 
-``` javascript
+``` java
 @Inject
 public AdminServlet(UserManager userManager, LoginUriProvider loginUriProvider, TemplateRenderer renderer)
 ```
@@ -431,7 +438,7 @@ A Velocity template determines the HTML presentation produced by our application
 
 Create a Velocity template file named `admin.vm` in the `src/main/resources` directory. To start, we keep it simple. Add this to the file:
 
-``` javascript
+``` xml
 <html>
   <head>
     <title>XProduct Admin</title>
@@ -456,7 +463,7 @@ Create a Velocity template file named `admin.vm` in the `src/main/resources`�
 
 With that done, let's test the login redirect logic we've added. Start the RefApp by running the `atlas-run` command again and go to:
 
-`http://localhost:5990/refapp/plugins/servlet/xproduct/admin`
+<a href="http://localhost:5990/refapp/plugins/servlet/xproduct/admin" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/xproduct/admin</a>
 
 A login prompt should appear. Log in using the credentials admin/admin. Once logged in, you should see the HTML in `admin.vm` rendered on the webpage.
 
@@ -468,7 +475,7 @@ The template we have from the previous step is a start, but it's also, well, ugl
 
 To style the page, open `admin.vm` for editing again and add this `meta` tag. Add it to the `head` element, after the existing `title` element.
 
-``` javascript
+``` xml
 <meta name="decorator" content="atl.admin">
 ```
 
@@ -481,7 +488,7 @@ Now we're getting somewhere. But the form itself still doesn't look so good. AUI
 
 First we need to include AUI in our header. Add the following line after the meta tag in the `admin.vm` file.
 
-``` javascript
+``` java
 $webResourceManager.requireResource("com.atlassian.auiplugin:ajs")
 ```
 
@@ -491,7 +498,7 @@ But where did the `WebResourceManager` come from? It was automatically added to 
 
 Next, we improve the appearance of the form by adding class attributes.
 
-``` javascript
+``` xml
 <form id="admin" class="aui">
   <div class="field-group">
     <label for="name">Name:</label>
@@ -513,13 +520,13 @@ The changes were small. We added `class="aui"` to the `form` element, `class="te
 
 We can also add internationalization support to our user interface pretty easily. Notice that the following line in `atlassian-plugin.xml` specifies the i18n resource:
 
-``` javascript
+``` xml
 <resource type="i18n" name="i18n" location="xproduct-admin-ui-plugin"/>
 ```
 
 In the file `src/main/resources/xproduct-admin-ui-plugin.properties`, add this text:
 
-``` javascript
+``` java
 xproduct.admin.label=XProduct Admin
 xproduct.admin.name.label=Name:
 xproduct.admin.time.label=Time:
@@ -530,7 +537,7 @@ These properties define the labels that will appear in our UI. For example, the 
 
 Next, replace the hard-coded text values in the `admin.vm` template with lookups for internationalized text.
 
-``` javascript
+``` xml
 <html>
   <head>
     <title>$i18n.getText("xproduct.admin.label")</title>
@@ -555,7 +562,7 @@ Next, replace the hard-coded text values in the `admin.vm` template with lookups
 </html>
 ```
 
-`$i18n` is an instance of SAL's <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/message/I18nResolver.html" class="external-link"><code>I18nResolver</code></a>, which comes automatically with `TemplateRenderer`, just like the `WebResourceManager`. We use it to resolve our message keys to actual text. Feel free to experiment with the labels in the properties file.
+`$i18n` is an instance of SAL's <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/message/I18nResolver.html" class="external-link">I18nResolver</a>, which comes automatically with `TemplateRenderer`, just like the `WebResourceManager`. We use it to resolve our message keys to actual text. Feel free to experiment with the labels in the properties file.
 
 If we refresh the page right now, the i18n changes will not be reflected correctly. To load the changes we've made, we need to reload the plug-in. Instead of taking down the refapp instance and restarting it, we can take advantage of QuickReload: run `atlas-mvn package` in the project root to reload the plug-in, and you should see that i18n is working as intended.
 
@@ -573,13 +580,13 @@ The recommended way to add JavaScript to pages is to create a `web-resource` mod
 
 This has already been done for you, notice the line in `atlassian-plugin.xml`:
 
-``` javascript
+``` xml
 <resource type="download" name="xproduct-admin-ui-plugin.js" location="/js/xproduct-admin-ui-plugin.js"/>
 ```
 
 Now edit the `admin.vm` template. Replace the existing `$webResourceManager.requireResource` call with:
 
-``` javascript
+``` java
 $webResourceManager.requireResource("com.atlassian.plugins.tutorial.xproduct-admin-ui-plugin:resources")
 ```
 
@@ -625,7 +632,7 @@ The JavaScript we've added makes a request to a configuration resource for popul
 
 Open the `pom.xml` file and add these `dependency` elements to the `dependencies` section:
 
-``` javascript
+``` xml
 <dependency>
   <groupId>javax.xml.bind</groupId>
   <artifactId>jaxb-api</artifactId>
@@ -646,7 +653,7 @@ Create a new file named `ConfigResource.java` in the directory:
 
 Add the following:
 
-``` javascript
+``` java
 package com.atlassian.plugins.tutorial.xproductadminui;
 
 import javax.servlet.http.HttpServletRequest;
@@ -702,7 +709,7 @@ To populate the application web form, we issue a GET request to the resource tha
 
 First, add an inner class that encapsulates our configuration data.
 
-``` javascript
+``` java
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public static final class Config
@@ -736,7 +743,7 @@ Here we've created a class that will encapsulate a few properties, a `String` an
 
 If we were to serialize an instance of this class to XML, it would look like this:
 
-``` javascript
+``` xml
 <config>
   <name>Charlie</name>
   <time>5</time>
@@ -754,7 +761,7 @@ And in JSON, like this:
 
 Now let's implement the GET method, which returns a `Response` with an instance of the `Config` type we've just created as the entity.
 
-``` javascript
+``` java
 @GET
 @Produces(MediaType.APPLICATION_JSON)
 public Response get(@Context HttpServletRequest request)
@@ -786,7 +793,7 @@ public Response get(@Context HttpServletRequest request)
 
 This method first performs our now familiar user check.
 
-We then construct a `Response` with an entity that is returned from a call to a funky <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionTemplate.html#execute%28com.atlassian.sal.api.transaction.TransactionCallback%29" class="external-link"><code>transactionTemplate.execute</code></a> method, providing it with an instance of <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionCallback.html" class="external-link"><code>TransactionCallback</code></a>. If you've used Spring's <a href="http://static.springsource.org/spring/docs/1.2.9/api/org/springframework/transaction/support/TransactionTemplate.html" class="external-link"><code>TransactionTemplate</code></a>, this should look familiar to you. For everyone spoiled by AOP, the summary is that we are accessing data that is coming from a database--well, it's not in Fisheye or Crucible, but work with me here!
+We then construct a Response with an entity that is returned from a call to a funky <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionTemplate.html#execute%28com.atlassian.sal.api.transaction.TransactionCallback%29" class="external-link">transactionTemplate.execute</a> method, providing it with an instance of <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionCallback.html" class="external-link">TransactionCallback</a>. If you've used Spring's <a href="http://static.springsource.org/spring/docs/1.2.9/api/org/springframework/transaction/support/TransactionTemplate.html" class="external-link">TransactionTemplate</a>, this should look familiar to you. For everyone spoiled by AOP, the summary is that we are accessing data that is coming from a database--well, it's not in Fisheye or Crucible, but work with me here!
 
 To ensure that reads and writes don't clash and give us inconsistent data, we need to protect ourselves any time we access `PluginSettings` data. The `TransactionTemplate` frees us from needing to know the application-specific transaction creation and usage semantics. If we didn't use the `TransactionTemplate`, we'd need code something like this:
 
@@ -855,7 +862,7 @@ Now, whenever the form is submitted, instead of the usual, default action of POS
 
 To handle the `PUT` requests from the client, add this method to the `ConfigResource.java` file you created earlier: ``
 
-``` javascript
+``` java
 @PUT
 @Consumes(MediaType.APPLICATION_JSON)
 public Response put(final Config config, @Context HttpServletRequest request)
@@ -892,7 +899,7 @@ Finally, we need to add a few items to the `atlassian-plugin.xml` file. We need 
 
 Add the following lines to `atlassian-plugin.xml`:
 
-``` javascript
+``` xml
 <rest key="rest" path="/xproduct-admin" version="1.0">
   <description>Provides REST resources for the admin UI.</description>
 </rest>
@@ -906,7 +913,7 @@ Fortunately, the `application` attribute will come to our rescue (mostly)!
 
 To add a link in the 'Global Settings' menu in JIRA's administration area, add the following `web-item` element.
 
-``` javascript
+``` xml
 <web-item key="jira-menu-item" name="XProduct Admin" section="system.admin/globalsettings" weight="10" application="jira">
   <description>Link to xproduct-admin page.</description> 
   <label key="xproduct.admin.label" /> 
@@ -916,7 +923,7 @@ To add a link in the 'Global Settings' menu in JIRA's administration area, add t
 
 To add a link in the 'Plugins' menu in Bamboo's administration area, add the following `web-item` element.
 
-``` javascript
+``` xml
 <web-item key="bamboo-menu-item" name="XProduct Admin" section="system.admin/plugins" weight="10" application="bamboo"> 
   <description>Link to xproduct-admin page.</description> 
   <label key="XProduct Admin" /> 
@@ -928,7 +935,7 @@ Looking carefully, you'll notice that the `label` `key` attribute isn't reall
 
 To add a link in the 'Configuration' menu in Confluence's administration area, add the following `web-item` element.
 
-``` javascript
+``` xml
 <web-item key="conf-menu-item" name="XProduct Admin" section="system.admin/configuration" weight="10"> 
   <description>Link to xproduct-admin page.</description> 
   <label key="xproduct.admin.label" /> 
@@ -940,7 +947,7 @@ Astute readers will notice the suspicious lack of the `application` tag on that 
 
 To add a link in the 'General menu' in the RefApp's administration area.
 
-``` javascript
+``` xml
 <web-item key="refapp-menu-item" name="XProduct Admin" section="system.admin/general" weight="10" application="refapp"> 
   <description>Link to xproduct-admin page.</description> 
   <label key="xproduct.admin.label" /> 
@@ -960,19 +967,19 @@ The startup commands are:
 
 -   For JIRA
 
-    ``` javascript
+    ``` bash
     atlas-run --product jira --version 6.4.14
     ```
 
 -   For Confluence
 
-    ``` javascript
+    ``` bash
     atlas-run --product confluence --version 5.10.8
     ```
 
 -   For Bamboo
 
-    ``` javascript
+    ``` bash
     atlas-run --product bamboo --version 5.14.1
     ```
 
@@ -990,349 +997,11 @@ Have a chocolate!
 
 [About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)
 
-<a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/user/UserManager.html" class="external-link">SAL <code>UserManager</code></a>
+<a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/user/UserManager.html" class="external-link">SAL UserManager</a>
 
-<a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.1.5/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link"><code>WebResourceManager</code></a>
+<a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.1.5/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a>
 
 <a href="/pages/createpage.action?spaceKey=AUI&amp;title=Forms" class="createlink">AUI class attributes</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

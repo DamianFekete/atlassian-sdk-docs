@@ -16,8 +16,69 @@ If you find that you cannot log in to your test Confluence instance using the ad
 
 ##### RELATED TOPICS
 
-[Atlassian Plugin SDK FAQ](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq-2818649.html)  
+[Atlassian Plugin SDK FAQ](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq)  
 [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

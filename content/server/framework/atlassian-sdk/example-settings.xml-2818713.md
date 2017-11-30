@@ -16,7 +16,7 @@ subcategory:
 
 Try the new Plugin SDK
 
-We've released a new Plugin SDK which handles almost all of this Maven tweaking for you. The SDK includes an embedded Maven installation and correct `settings.xml` that will be kept up to date as necessary. We believe it makes the plugin development process much easier. If you are using the SDK, you won't need this file. For more information, see [Developing with the Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk-23299291.html).
+We've released a new Plugin SDK which handles almost all of this Maven tweaking for you. The SDK includes an embedded Maven installation and correct `settings.xml` that will be kept up to date as necessary. We believe it makes the plugin development process much easier. If you are using the SDK, you won't need this file. For more information, see [Developing with the Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk).
 
 {{% /warning %}}
 
@@ -27,6 +27,67 @@ If your network requires the use of an HTTP or HTTPS proxy, you'll need to <a hr
 An error occurred: svn.atlassian.com. The error has been recorded.
 
 Download <a href="https://svn.atlassian.com/svn/public/atlassian/maven2settings/settings.xml.devnet" class="external-link">here</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -22,7 +22,7 @@ This page describes the shell script `atlas-run`, part of the [Atlassian Plugin 
 
 ## Basic Usage
 
-`atlas-run [options]` - Runs the application with your plugin installed. (Runs `mvn amps:run`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product`.
+ `atlas-run [options]` - Runs the application with your plugin installed. (Runs `mvn amps:run`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product`.
 
 ## Parameters
 
@@ -136,7 +136,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-run -?
 atlas-run -help
 ```
@@ -147,7 +147,9 @@ atlas-run -help
 
 Say you want to install and run your plugin in your host Atlassian application. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-run
+``` bash
+atlas-run
+```
 
 Note that the above shell script will work for any host application, including Confluence, JIRA, etc. The script will determine the application, based on your plugin's specifications.
 
@@ -155,13 +157,17 @@ Note that the above shell script will work for any host application, including C
 
 Say you want to run your plugin with Confluence 2.10.3. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-clean
-    atlas-run --version 2.10.3
+``` bash
+atlas-clean
+atlas-run --version 2.10.3
+```
 
 Say you want to run your plugin with JIRA 4.0 snapshot. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-clean
-    atlas-run --version 4.0-SNAPSHOT
+``` bash
+atlas-clean
+atlas-run --version 4.0-SNAPSHOT
+```
 
 *Note:* Running `atlas-clean` will clear the previous version of the host application from your build output directory. You only need to do this if the previous application version was different from the one you need now.
 
@@ -169,25 +175,33 @@ Say you want to run your plugin with JIRA 4.0 snapshot. Go to the plugin's proje
 
 By default, the host application will run with a context path named after the name of the product. For example, JIRA runs with a context path of `/jira` and Confluence runs with a context path of `/confluence`. You can specify a custom context path like this:
 
-    atlas-clean
-    atlas-run --context-path /anotherpath
+``` bash
+atlas-clean
+atlas-run --context-path /anotherpath
+```
 
 To run the application in the **root** web application context (for example, you want to access JIRA at the URL `http://localhost:2990` with no context path), then specify a value of ROOT like this:
 
-    atlas-clean
-    atlas-run --context-path ROOT
+``` bash
+atlas-clean
+atlas-run --context-path ROOT
+```
 
 ###### Specifying an Application Server (Container)
 
 Say you want to run your plugin with Confluence 2.10.3 and JBoss 4.2.x. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-run --version 2.10.3 --container jboss42x
+``` bash
+atlas-run --version 2.10.3 --container jboss42x
+```
 
 ###### Specifying a Version of SAL
 
 Say you want to run that plugin but with Confluence 2.10.3 and SAL 2.0.5:
 
-    atlas-run --version 2.10.3 --sal-version 2.0.5
+``` bash
+atlas-run --version 2.10.3 --sal-version 2.0.5
+```
 
 ###### Running your Plugin in Multiple Applications
 
@@ -195,357 +209,25 @@ Say you want to run that RefApp plugin in multiple applications simultaneously. 
 
 -   Type the following to run the plugin in the RefApp:
 
-        atlas-run
+    ``` bash
+    atlas-run
+    ```
 
 -   Type the following to run the plugin in Confluence:
 
-        atlas-run --product confluence --version 3.0-m9
+    ``` bash
+    atlas-run --product confluence --version 3.0-m9
+    ```
 
 -   Type the following to run the plugin in JIRA:
 
-        atlas-run --product jira --version 4.0-SNAPSHOT
+    ``` bash
+    atlas-run --product jira --version 4.0-SNAPSHOT
+    ```
 
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

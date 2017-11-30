@@ -75,27 +75,25 @@ Given a list of `foo` entities, the following URI scheme provides access to the 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>URI</p></th>
-<th><p>Method</p></th>
 <th><p>Notes</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><code>/foo</code></p></td>
-<td><p>GET</p></td>
-<td><p>This returns a list of the <code>foo</code> items. By default items in the list are a minimal representation of a <code>foo</code> entity. Note that we use the <strong>singular</strong> for the directory name.</p></td>
+<td><p>This returns a list of the <code>foo</code> items. By default items in the list are a minimal representation of a <code>foo</code> entity. Note that we use the <strong>singular</strong> for the directory name.</p>
+<p><strong>Method:</strong> GET.</p></td>
 </tr>
 <tr class="even">
 <td><p><code>/foo/{key</code>}</p></td>
-<td><p>GET</p></td>
-<td><p>This returns the full content of the <code>foo</code> identified by the given <code>key</code>.</p></td>
+<td><p>This returns the full content of the <code>foo</code> identified by the given <code>key</code>.</p>
+<p><strong>Method:</strong> GET.</p></td>
 </tr>
 </tbody>
 </table>
@@ -108,13 +106,13 @@ For our example, let's take a plugin resource within the 'upm' REST API.
 
 Use this URI to access a list of plugins:
 
-``` javascript
+``` xml
 http://host:port/context/rest/upm/1/plugin
 ```
 
 Use this URI to access the plugin resource with a key of `a-plugin-key`:
 
-``` javascript
+``` xml
 http://host:port/context/rest/upm/1/plugin/a-plugin-key
 ```
 
@@ -326,7 +324,7 @@ Expandable entities should be declared by parent entities in the form of an `exp
 For our example, let's take a plugin resource within the 'upm' REST API.
 
 Use this URI to access the plugin resource without specifying title expansion:  
-`http://host:port/context/rest/upm/1/plugin/a-plugin-key`
+<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key</a>
 
 The response will contain:
 
@@ -341,7 +339,7 @@ The response will contain:
 ###### Example 2. Expanding the `info` Element
 
 Use the following URI to expand the `info` element in our plugin resource:  
-`http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info`.
+<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info</a>.
 
 Now the response will contain:
 
@@ -359,7 +357,7 @@ Now the response will contain:
 ###### Example 3. Expanding the Collection of Modules
 
 Use this URI to expand the module collection in our plugin resource:  
-`http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules`
+<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules</a>
 
 The response will contain:
 
@@ -383,7 +381,7 @@ Note that the above URI does not expand each individual module.
 ###### Example 4: Using the Dot Notation to Expand Entities within another Entity
 
 Use the following URI to expand the modules inside the collection within our plugin resource:  
-`http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module`
+<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module</a>
 
 The response will contain:
 
@@ -418,7 +416,7 @@ You can also set indices to expand a given set of items in the collection. The i
 
 APIs must be subject to version control. The version number of an API appears in its URI. For example, use this URI structure to request version 1 of the 'upm' API:
 
-``` javascript
+``` xml
 http://host:port/context/rest/upm/1/...
 ```
 
@@ -429,8 +427,9 @@ When an API has multiple versions, we recommend:
 
 For example, if versions 1 and 2 of the 'upm' API are available, the following two URIs would point to the same resources:
 
--   `http://host:port/context/rest/upm/latest/`
--   `http://host:port/context/rest/upm/2/`
+-   <a href="http://hostport" class="external-link">http://host:port/context/rest/upm/latest/</a>
+
+-   <a href="http://hostport" class="external-link">http://host:port/context/rest/upm/2/</a>
 
 ### When to Change the Version
 
@@ -652,105 +651,120 @@ This list shows the common HTTP response codes and some brief guidelines on how 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Code</p></th>
-<th><p>Name</p></th>
 <th><p>Description</p></th>
-<th><p>Notes</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>200</p></td>
-<td><p>OK</p></td>
-<td><p>Request was processed as expected.</p></td>
-<td><ul>
+<td><p>Request was processed as expected.</p>
+<p><strong>Name:</strong> OK.</p>
+<p><strong>Notes:</strong></p>
+<ul>
 <li>GET request returns a representation of the requested entity,</li>
 <li>The body of other requests will be a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>201</p></td>
-<td><p>Created</p></td>
-<td><p>Request created an entity.</p></td>
-<td><ul>
+<td><p>Request created an entity.</p>
+<p><strong>Name:</strong> Created.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>This cannot happen on GET or DELETE requests.</li>
 <li>This will happen on POST and may happen on PUT requests.</li>
 <li>The response should set the <code>Location</code> header to the URI for the created resource.</li>
 <li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 <tr class="odd">
 <td><p>202</p></td>
-<td><p>Accepted</p></td>
 <td><p>The request has been acknowledged but cannot be processed <em>in real time</em>.<br />
-For example, the request may have scheduled a job on the server.</p></td>
-<td><ul>
+For example, the request may have scheduled a job on the server.</p>
+<p><strong>Name:</strong> Accepted.</p>
+<p><strong>Notes:</strong></p>
+<ul>
 <li>The response should set the <code>Location</code> header with the URI to the resource representing the pending action.</li>
 <li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>204</p></td>
-<td><p>No Content</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p><strong>Name:</strong> No content.</p></td>
 </tr>
 <tr class="odd">
 <td><p>301</p></td>
-<td><p>Moved Permanently</p></td>
-<td><p>The requested resource has been moved to another location (URI).</p></td>
-<td><ul>
+<td><p>The requested resource has been moved to another location (URI).</p>
+<p><strong>Name:</strong> Moved Permanently.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>The response should set the <code>Location</code> header to the URI of the new location of the resource.</li>
 <li>The body of the response is a Status entity as described in the Status_ section of this document <a href="#below">below</a>.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 <tr class="even">
 <td><p>304</p></td>
-<td><p>Not Modified</p></td>
 <td><p>The requested resource has not been modified.<br />
-The client's <em>cached</em> representation is still valid.</p></td>
-<td><ul>
+The client's <em>cached</em> representation is still valid.</p>
+<p><strong>Name:</strong> Not Modified.</p>
+<p><strong>Notes:</strong></p>
+<ul>
 <li>No body is allowed for these responses.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>401</p></td>
-<td><p>Unauthorized</p></td>
-<td><p>Client is not authenticated or does not have sufficient permission to perform this request.</p></td>
-<td><ul>
+<td><p>Client is not authenticated or does not have sufficient permission to perform this request.</p>
+<p><strong>Name:</strong> Unauthorized.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 <tr class="even">
 <td><p>404</p></td>
-<td><p>Not found</p></td>
-<td><p>No resource was found at this location (URI).</p></td>
-<td><ul>
+<td><p>No resource was found at this location (URI).</p>
+<p><strong>Name:</strong> Not found.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 <tr class="odd">
 <td><p>412</p></td>
-<td><p>Precondition Failed</p></td>
-<td><p>The client specified some preconditions that are not valid.</p></td>
-<td><ul>
+<td><p>The client specified some preconditions that are not valid.</p>
+<p><strong>Name:</strong> Precondition Failed.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 <tr class="even">
 <td><p>5xx</p></td>
-<td><p>Server-Side Error</p></td>
-<td><p>Any server-side error.</p></td>
-<td><ul>
+<td><p>Any server-side error.</p>
+<p><strong>Name:</strong> Server-Side Error.</p>
+<p><strong>Notes:</strong></p>
+<div>
+<ul>
 <li>These codes should not be set programmatically and are reserved for unexpected errors.</li>
-</ul></td>
+</ul>
+</div></td>
 </tr>
 </tbody>
 </table>
@@ -825,344 +839,6 @@ Any request which produces a status code with no body will have a body formatted
 [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Basics of Exposing REST APIs via Plugins](/server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins-4915229.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

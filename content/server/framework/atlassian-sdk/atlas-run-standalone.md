@@ -22,7 +22,7 @@ This page describes the shell script `atlas-run-standalone`, part of the [Atla
 
 ## Basic Usage
 
-`atlas-run-standalone [options]` - Runs an Atlassian application standalone, without a plugin project (that is, not requiring `atlas-create-<product>-plugin`). Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product`.
+ `atlas-run-standalone [options]` - Runs an Atlassian application standalone, without a plugin project (that is, not requiring `atlas-create-<product>-plugin`). Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product`.
 
 ## Parameters
 
@@ -81,8 +81,8 @@ Interpreted parameters:
 <tr class="even">
 <td><p>--context-path</p>
 <p> </p></td>
-<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
-<p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
+<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> then you should enter <code>/confluence</code>.</p>
+<p>To run your application in the root web application context (eg. <a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>), then you should enter <code>ROOT</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p>
@@ -151,7 +151,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-run-standalone -?
 atlas-run-standalone -help
 ```
@@ -162,7 +162,9 @@ atlas-run-standalone -help
 
 Say you want to quickly spin up an instance of JIRA, without having previously created a JIRA plugin project using `atlas-create-jira-plugin`. At the command line, type:
 
-    atlas-run-standalone --product jira
+``` bash
+atlas-run-standalone --product jira
+```
 
 This will create a directory called `amps-standalone` in your current working directory, which will contain a JIRA home directory, database and server logs.
 
@@ -170,7 +172,9 @@ This will create a directory called `amps-standalone` in your current working 
 
 Say you want to start up Confluence version 3.2.2 specifically, rather than the latest version. At the command line, type:
 
-    atlas-run-standalone --product confluence --version 3.2.2
+``` bash
+atlas-run-standalone --product confluence --version 3.2.2
+```
 
 ## Default Ports for Each Application
 
@@ -247,344 +251,6 @@ Currently if you want to run multiple products, or multiple versions of each pro
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

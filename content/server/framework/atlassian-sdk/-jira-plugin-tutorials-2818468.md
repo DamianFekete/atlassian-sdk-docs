@@ -31,10 +31,6 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Adding menu items to JIRA](/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
-
--   Page:
-
     [Tutorial - Adding content to the JIRA View Issue page](/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
 
 -   Page:
@@ -44,6 +40,10 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Tutorial - Writing a JQL standalone gadget](/display/JIRADEV/Tutorial+-+Writing+a+JQL+standalone+gadget)
+
+-   Page:
+
+    [Tutorial - Adding menu items to JIRA](/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
 
 -   Page:
 
@@ -123,15 +123,15 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
-
--   Page:
-
     [Tutorial - Custom message (mail) handler for JIRA](/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
 
 -   Page:
 
     [Tutorial - Writing gadgets for JIRA](/display/JIRADEV/Tutorial+-+Writing+gadgets+for+JIRA)
+
+-   Page:
+
+    [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
 
 -   Page:
 
@@ -148,6 +148,67 @@ Tutorials classified by the level of skill assumed:
 ### External Tutorials for JIRA
 
 <a href="https://studio.plugins.atlassian.com/wiki/display/WSMPL/Webwork+Sample+Plugin" class="external-link">WebWork Sample Plugin</a> - from Matt Doar, describing how JIRA uses <a href="http://www.opensymphony.com/webwork/" class="external-link">WebWork</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

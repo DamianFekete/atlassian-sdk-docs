@@ -303,6 +303,8 @@ redirects:
 - {new: /server/framework/atlassian-sdk/errors-when-creating-an-archetype, old: /docs/faq/atlassian-plugin-sdk-faq/errors-when-creating-an-archetype}
 - {new: /server/framework/atlassian-sdk/how-can-i-change-the-version-of-java-my-plugin-uses,
     old: /docs/faq/atlassian-plugin-sdk-faq/how-can-i-change-the-version-of-java-my-plugin-uses}
+- {new: '/server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta',
+    old: /docs/faq/atlassian-plugin-sdk-faq/maven-cannot-find-java-mail-java-activation-or-jta}
 - {new: /server/framework/atlassian-sdk/maven-is-unable-to-download-the-artifact-from-any-repository,
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-is-unable-to-download-the-artifact-from-any-repository}
 - {new: /server/framework/atlassian-sdk/maven-parsing-error-unrecognised-html-tag,

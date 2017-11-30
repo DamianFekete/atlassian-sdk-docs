@@ -36,9 +36,7 @@ Note that this mechanism is now incorporated in the user interface of Atlassian 
 
 ## Basic Usage
 
-`atlas-cli [options]` - Starts up a command line interface to your plugin running in the host application. After you change the plugin code, enter `pi` at the CLI prompt to install the updated plugin in the Atlassian application. (Runs `mvn amps:cli`.) Interpreted parameters: `http-port, context-path, server, cli-port`.
-
-Available CLI commands:
+`atlas-cli [options]` - Starts up a command line interface to your plugin running in the host application. After you change the plugin code, enter `pi` at the CLI prompt to install the updated plugin in the Atlassian application. (Runs `mvn amps:cli`.) Interpreted parameters: `http-port, context-path, server, cli-port`.Available CLI commands:
 
 -   `pi` -- Plugin install. Installs your updated plugin into the application.
 -   `quit`, `exit` or `bye` -- Exits from the CLI.
@@ -73,8 +71,8 @@ Interpreted Parameters:
 </tr>
 <tr class="even">
 <td><p>--context-path</p></td>
-<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
-<p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
+<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> then you should enter <code>/confluence</code>.</p>
+<p>To run your application in the root web application context (eg. <a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>), then you should enter <code>ROOT</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
@@ -101,7 +99,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-cli -?
 atlas-cli -help
 ```
@@ -110,6 +108,8 @@ atlas-cli -help
 
 Once you have done the initial `atlas-create-APPLICATION-plugin` and `atlas-run`, you can keep the application running in one command window and use the CLI (command line interface) to dynamically re-install your plugin after each change.
 
+{{% note %}}
+
 1.  Make your changes in your IDE.
 2.  Open a command window and go to the plugin's root folder (where the `pom.xml` is located).
 3.  Run `atlas-cli` to start the CLI.
@@ -117,347 +117,11 @@ Once you have done the initial `atlas-create-APPLICATION-plugin` and `atlas-run`
 5.  Run `pi` (plugin install) to compile, package and install the plugin.
 6.  Go back to your browser. The updated plugin will have been installed into the application, and you can test your changes. (You may need to refresh the browser page first.)
 
+{{% /note %}}
+
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

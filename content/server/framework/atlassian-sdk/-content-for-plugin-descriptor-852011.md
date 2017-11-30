@@ -334,7 +334,7 @@ As seen in the above example, the `bundle-instructions` element allows child ele
 
 Speeding up Plugin Loading
 
-[How to Speed Up Plugin Startup](/server/framework/atlassian-sdk/how-to-speed-up-plugin-startup-8947254.html) contains information on using bundle instructions for speeding plugin start up.
+[How to Speed Up Plugin Startup](/server/framework/atlassian-sdk/how-to-speed-up-plugin-startup) contains information on using bundle instructions for speeding plugin start up.
 
 {{% /note %}}
 
@@ -353,6 +353,67 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

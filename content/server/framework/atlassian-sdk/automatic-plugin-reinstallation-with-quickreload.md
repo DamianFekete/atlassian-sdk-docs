@@ -54,7 +54,7 @@ Once you've updated your pom as shown above you can start your application.
 
 Whenever you make a change, all you need to do is rebuild your .jar file using the following `command` in a separate terminal window and it will be automatically reloaded into your application.
 
-``` javascript
+``` bash
 $ atlas-mvn package
 ```
 
@@ -124,7 +124,7 @@ There is no more need to specify -Dplugin.resource.directories as it will be don
 
 Finally you can specify the directories to track on the command line via
 
-``` javascript
+``` bash
 -Dquickreload.tracked=dir1,dir2,dir3
 ```
 
@@ -134,13 +134,13 @@ This allows you to have two or more plugins being developed at the same time wit
 
 You can put properties before a line entry via a : character. Multiple properties can be specified via the ; character
 
-``` javascript
+``` bash
 prop1=123;prop2=xyz;prop3 : /some/path
 ```
 
  
 
-    The current properties are :
+The current properties are :
 
 -   resource - marks the path as a resource entry and it will be placed into the -Dplugin.resource.directories system directory
 
@@ -156,7 +156,7 @@ Press 'B' when QuickReload is running and you can toggle between speed of web ba
 
 The quick reload plugin includes some very obvious entries in the log, to make it quick and easy to pick out from the wall of log text:  
 
-``` javascript
+``` bash
     [INFO] [talledLocalContainer] 2014-05-08 18:10:14,332 http-bio-2990-exec-26 INFO anonymous 1090x6739x1 - 0:0:0:0:0:0:0:1 /rest/quickreload/1/install [labs.plugins.quickreload.PluginInstaller]
     [INFO] [talledLocalContainer]                       |
     [INFO] [talledLocalContainer]                       |
@@ -275,344 +275,6 @@ Currently you can
 If you see this "java.lang.UnsatisfiedLinkError: Native Library" error it means that the quick reload plugin was re-loaded while running but it could not be. It's ironic I know that a reloading plugin can't be cleanly re-loaded but it's more to do with the underlying native file watching library than quick re-load itself.
 
 Java does not like to unload native libraries and the underlying name.pachler.nio.file does not expect to be reloaded. Trust me, you won't see this much. It's seen more in developing this plugin itself or you are running FastDev at the same time as QuickReload
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

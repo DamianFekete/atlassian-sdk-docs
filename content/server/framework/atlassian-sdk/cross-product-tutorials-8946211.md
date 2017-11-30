@@ -36,13 +36,17 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
+    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
 
 -   Page:
 
-    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
+    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
 
 #### Intermediate
+
+-   Page:
+
+    [Making your own Activity Streams Provider](/display/DOCS/Making+your+own+Activity+Streams+Provider)
 
 -   Page:
 
@@ -51,10 +55,6 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
--   Page:
-
-    [Making your own Activity Streams Provider](/display/DOCS/Making+your+own+Activity+Streams+Provider)
 
 -   Page:
 
@@ -90,6 +90,67 @@ Tutorials classified by the level of skill assumed:
 ### Other Tutorials
 
 Looking for specific tutorials for Confluence, JIRA and other Atlassian products? Please refer to the [complete list of Atlassian tutorials](/server/framework/atlassian-sdk/tutorials).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

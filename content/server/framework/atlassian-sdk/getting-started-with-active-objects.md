@@ -45,11 +45,15 @@ We encourage you to work through this tutorial, and consult the source code when
 
 The source repository can be found <a href="https://bitbucket.org/serverecosystem/ao-tutorial" class="external-link">here</a>. To clone the repository, issue the following command:
 
-    git clone git@bitbucket.org:serverecosystem/ao-tutorial.git
+``` bash
+git clone git@bitbucket.org:serverecosystem/ao-tutorial.git
+```
 
 There are tags corresponding to each stage of the tutorial, e.g. if you wanted to see the progress at the end of stage 3, do:
 
-    git checkout stage3
+``` bash
+git checkout stage3
+```
 
 ## Step 1. Creating the plugin
 
@@ -65,7 +69,7 @@ We're going to use the following values for this guide:
 -   artifactId: **ao-tutorial**
 -   version: **1.0.0-SNAPSHOT**
 -   package: **com.atlassian.tutorial.ao.todo  
-**
+    **
 
 Note: You may need to use a different folder to the downloaded source to avoid conflict.
 
@@ -126,14 +130,16 @@ We've now completed **stage 1** of this guide. Here is how to make sure that eve
 
 -   Launch `atlas-run` from the command line, and you should see the following message:
 
-[INFO] refapp started successfully and available at http://localhost:5990/refapp
-[INFO] Type CTRL-C to exit
+    ``` text
+    [INFO] refapp started successfully and available at http://localhost:5990/refapp
+    [INFO] Type CTRL-C to exit
+    ```
 
-Don't use `CTRL-C` to kill this instance! We will use `atlas-mvn package` to recompile our plugin and QuickReload will reload it for us, alleviating the need to restart refapp every time we make a change.
+    Don't use `CTRL-C` to kill this instance! We will use `atlas-mvn package` to recompile our plugin and QuickReload will reload it for us, alleviating the need to restart refapp every time we make a change.
 
 -   Go to the following URL <a href="http://localhost:5990/refapp/plugins/servlet/upm" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/upm</a> (if asked to log in, use admin/admin) and check that all the expected plugins are installed and enabled:
--   ActiveObjects Plugin - OSGi Bundle
--   Your plugin, which should appear under *groupId*.*artifactId*
+    -   ActiveObjects Plugin - OSGi Bundle
+    -   Your plugin, which should appear under *groupId*.*artifactId*
 
 NOTE: If you're having issues, you might want to compare with <a href="https://bitbucket.org/atlassian_tutorial/ao-tutorial/src/85345ac3660e/ao-tutorial-stage1/" class="external-link">my version of the code</a>.
 
@@ -143,7 +149,7 @@ We're now ready to proceed…
 
 ## Step 4. Add the Plugin
 
-First, we need to define the AO module, in the <a href="https://bitbucket.org/serverecosystem/ao-tutorial/src/2d7dad21286ea2f626ad932fc986baf7980fb21c/src/main/resources/atlassian-plugin.xml?at=stage2&amp;fileviewer=file-view-default" class="external-link">plugin descriptor (<code>atlassian-plugin.xml</code>)</a>.
+First, we need to define the AO module, in the <a href="https://bitbucket.org/serverecosystem/ao-tutorial/src/2d7dad21286ea2f626ad932fc986baf7980fb21c/src/main/resources/atlassian-plugin.xml?at=stage2&amp;fileviewer=file-view-default" class="external-link">plugin descriptor (atlassian-plugin.xml)</a>.
 
 ``` xml
 <ao key="ao-module">
@@ -234,7 +240,7 @@ public final class TodoServlet extends HttpServlet
 }
 ```
 
-As we've added the component definition in our module, we can constructor inject the servlet with the ActiveObjects service. Note that the `checkNotNull` method here is statically imported from the <a href="http://code.google.com/p/google-collections/" class="external-link">google collections'</a> <a href="http://google-collections.googlecode.com/svn/trunk/javadoc/com/google/common/base/Preconditions.html" class="external-link"><code>Preconditions</code> class</a>.
+As we've added the component definition in our module, we can constructor inject the servlet with the ActiveObjects service. Note that the `checkNotNull` method here is statically imported from the <a href="http://code.google.com/p/google-collections/" class="external-link">google collections'</a> <a href="http://google-collections.googlecode.com/svn/trunk/javadoc/com/google/common/base/Preconditions.html" class="external-link">Preconditions class</a>.
 
 {{% note %}}
 
@@ -346,8 +352,8 @@ Stage 2
 We've now completed **stage 2** of this guide.
 
 -   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
--   List Todo items,
--   and Create new Todo items.
+    -   List Todo items,
+    -   and Create new Todo items.
 
 NOTE: If you're having issues, you might want to compare with <a href="https://bitbucket.org/atlassian_tutorial/ao-tutorial/src/85345ac3660e/ao-tutorial-stage2/" class="external-link">my version of the code</a>.
 
@@ -378,7 +384,7 @@ public void someMethod(final ActiveObjects ao)
 }
 ```
 
-Doing by hand is going to be painful. So there is a declarative alternative, using the <a href="https://studio.atlassian.com/source/browse/AO/trunk/activeobjects-core/src/main/java/com/atlassian/activeobjects/tx/Transactional.java?r=HEAD" class="external-link"><code>@Transactional</code> annotation</a>.
+Doing by hand is going to be painful. So there is a declarative alternative, using the <a href="https://studio.atlassian.com/source/browse/AO/trunk/activeobjects-core/src/main/java/com/atlassian/activeobjects/tx/Transactional.java?r=HEAD" class="external-link">@Transactional annotation</a>.
 
 ## Step 9.  Introduce the Todo service
 
@@ -516,8 +522,8 @@ Stage 3
 We've now completed **stage 3** of this guide.
 
 -   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
--   List Todo items,
--   and Create new Todo items.
+    -   List Todo items,
+    -   and Create new Todo items.
 
 NOTE: If you're having issues, you might want to compare with <a href="https://bitbucket.org/atlassian_tutorial/ao-tutorial/src/85345ac3660e/ao-tutorial-stage3/" class="external-link">my version of the code</a>.
 
@@ -843,13 +849,13 @@ Here it is. We've introduce the `@Data` annotation of the Active Objects test fr
 
 For now we haven't worried about the database used for testing at all. This was all taken care of by the Active Objects testing framework. Indeed by default it will use an in-memory <a href="http://hsqldb.org/" class="external-link">HSQL DB</a>. But we will want to test against other databases.
 
-This is what the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c865152/activeobjects-test/src/main/java/net/java/ao/test/jdbc/Jdbc.java?at=master" class="external-link"><code>@Jdbc</code></a> annotation is used for. Annotate your test class with this, it requires a single class parameter that implements <a href="http://java.net/projects/activeobjects/sources/svn/content/trunk/activeobjects-test/src/main/java/net/java/ao/test/jdbc/JdbcConfiguration.java?rev=1194" class="external-link"><code>JdbcConfiguration</code></a>.
+This is what the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c865152/activeobjects-test/src/main/java/net/java/ao/test/jdbc/Jdbc.java?at=master" class="external-link">@Jdbc</a> annotation is used for. Annotate your test class with this, it requires a single class parameter that implements <a href="http://java.net/projects/activeobjects/sources/svn/content/trunk/activeobjects-test/src/main/java/net/java/ao/test/jdbc/JdbcConfiguration.java?rev=1194" class="external-link">JdbcConfiguration</a>.
 
-You can now test against any database of your choice with some simple configuration. I suggest you have a look in the `net.java.ao.test.jdbc` package as it contains multiple implementations of this interface that might be useful. Note the `DynamicJdbcConfiguration` which will let you change the database simply by setting a system property.
+You can now test against any database of your choice with some simple configuration. I suggest you have a look in the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c865152/activeobjects-test/src/main/java/net/java/ao/test/jdbc/?at=master" class="external-link">net.java.ao.test.jdbc</a> package as it contains multiple implementations of this interface that might be useful. Note the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c8651525335fadcf0b2403616edfbc681a0/activeobjects-test/src/main/java/net/java/ao/test/jdbc/DynamicJdbcConfiguration.java?at=master" class="external-link">DynamicJdbcConfiguration</a> which will let you change the database simply by setting a system property.
 
 ### **Name converters**
 
-Active Objects defines a way to configure the strategy for naming database identifiers given an `Entity` class (e.g. tables and column names) using the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c8651525335fadcf0b2403616edfbc681a0/activeobjects-test/src/main/java/net/java/ao/test/converters/NameConverters.java?at=master" class="external-link"><code>@NameConverters</code></a>annotation. The default configuration for testing is equivalent to that used when deployed in an Atlassian product except that the table name hash is always `000000`.
+Active Objects defines a way to configure the strategy for naming database identifiers given an `Entity` class (e.g. tables and column names) using the <a href="https://bitbucket.org/activeobjects/ao/src/11cc3c8651525335fadcf0b2403616edfbc681a0/activeobjects-test/src/main/java/net/java/ao/test/converters/NameConverters.java?at=master" class="external-link">@NameConverters</a>annotation. The default configuration for testing is equivalent to that used when deployed in an Atlassian product except that the table name hash is always `000000`.
 
 {{% note %}}
 
@@ -896,18 +902,20 @@ log4j.additivity.net.java.ao.sql = false
 
 Now when running the tests, you should see the executed SQL statements:
 
-    DEBUG -                                              net.java.ao.sql - CREATE TABLE PUBLIC.AO_000000_TODO (
-        COMPLETE BOOLEAN,
-        DESCRIPTION VARCHAR(255),
-        ID INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1) NOT NULL,
-        PRIMARY KEY(ID)
-    )
-    DEBUG -                                              net.java.ao.sql - INSERT INTO AO_000000_TODO (ID) VALUES (NULL)
-    DEBUG -                                              net.java.ao.sql - UPDATE PUBLIC.AO_000000_TODO SET DESCRIPTION = ? WHERE ID = ?
-    DEBUG -                                              net.java.ao.sql - SELECT * FROM PUBLIC.AO_000000_TODO
-    DEBUG -                                              net.java.ao.sql - INSERT INTO AO_000000_TODO (ID) VALUES (NULL)
-    DEBUG -                                              net.java.ao.sql - UPDATE PUBLIC.AO_000000_TODO SET DESCRIPTION = ?,COMPLETE = ? WHERE ID = ?
-    DEBUG -                                              net.java.ao.sql - SELECT * FROM PUBLIC.AO_000000_TODO
+``` text
+DEBUG -                                              net.java.ao.sql - CREATE TABLE PUBLIC.AO_000000_TODO (
+    COMPLETE BOOLEAN,
+    DESCRIPTION VARCHAR(255),
+    ID INTEGER GENERATED BY DEFAULT AS IDENTITY (START WITH 1) NOT NULL,
+    PRIMARY KEY(ID)
+)
+DEBUG -                                              net.java.ao.sql - INSERT INTO AO_000000_TODO (ID) VALUES (NULL)
+DEBUG -                                              net.java.ao.sql - UPDATE PUBLIC.AO_000000_TODO SET DESCRIPTION = ? WHERE ID = ?
+DEBUG -                                              net.java.ao.sql - SELECT * FROM PUBLIC.AO_000000_TODO
+DEBUG -                                              net.java.ao.sql - INSERT INTO AO_000000_TODO (ID) VALUES (NULL)
+DEBUG -                                              net.java.ao.sql - UPDATE PUBLIC.AO_000000_TODO SET DESCRIPTION = ?,COMPLETE = ? WHERE ID = ?
+DEBUG -                                              net.java.ao.sql - SELECT * FROM PUBLIC.AO_000000_TODO
+```
 
 {{% tip %}}
 
@@ -930,344 +938,6 @@ You'll notice that there are other stages to the source code. This is because [
 -   <a href="http://java.net/projects/activeobjects" class="external-link">Active Objects on java.net</a>
 -   [Active Objects Plugin Module](/server/framework/atlassian-sdk/active-objects-plugin-module)
 -   [Active Objects FAQ](/server/framework/atlassian-sdk/active-objects-faq)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

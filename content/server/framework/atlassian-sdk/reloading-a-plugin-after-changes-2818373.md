@@ -62,9 +62,9 @@ As an alternative to FastDev, you can keep the application running in one comman
 
 ## Troubleshooting Reloading
 
--   The dynamic deployment method via FastDev or CLI will work *most* of the time, but not all plugins are eligible for dynamic installation. Specifically, some versions of some applications mark some module types as requiring a restart. If a plugin uses one of the module types that require a restart, the plugin will be installed but not activated until the application is restarted. And occasionally the host application fails to detect new changes. If you suspect this may be happening, just hit `ctrl-c` in the first window and type `atlas-run` again to completely restart the host app with your latest changes included. See the list of [plugin modules that cannot be dynamically reloaded](/server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi-2818391.html).
+-   The dynamic deployment method via FastDev or CLI will work *most* of the time, but not all plugins are eligible for dynamic installation. Specifically, some versions of some applications mark some module types as requiring a restart. If a plugin uses one of the module types that require a restart, the plugin will be installed but not activated until the application is restarted. And occasionally the host application fails to detect new changes. If you suspect this may be happening, just hit `ctrl-c` in the first window and type `atlas-run` again to completely restart the host app with your latest changes included. See the list of [plugin modules that cannot be dynamically reloaded](/server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi).
 -   [If you change pom.xml, you may need to restart the atlas-cli](/server/framework/atlassian-sdk/2818364.html).
--   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq-2818649.html).
+-   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
 
 ## Other Handy Commands
 
@@ -81,6 +81,67 @@ You can use `atlas-debug` instead of `atlas-run`. This sets up the host applicat
 ## Writing Tests for your Plugin
 
 Atlassian plugins depend on Maven 2 to run their test suites. This is advantageous because all plugins are always tested the same way, and because Bamboo, our continuous integration server, can do likewise. Find out how to [make it happen](/server/framework/atlassian-sdk/writing-and-running-plugin-tests).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

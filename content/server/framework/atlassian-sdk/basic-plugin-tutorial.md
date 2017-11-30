@@ -70,7 +70,9 @@ To create our REST resources, which our JavaScript will communicate with, we'll 
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you are done, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    git clone https://bitbucket.org/atlassian_tutorial/REPO_NAME
+``` bash
+git clone https://bitbucket.org/atlassian_tutorial/REPO_NAME
+```
 
 Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/REPO_NAME" class="uri external-link">https://bitbucket.org/atlassian_tutorial/REPO_NAME</a>. You can check out the source code <a href="http://svn.atlassian.com/svn/public/contrib/tutorials/xproduct-admin-ui-plugin" class="external-link">here</a>.
 
@@ -89,7 +91,9 @@ In this step, you'll use the two `atlas-` commands to generate stub code for y
 1.  Open a terminal and navigate to your Eclipse workspace directory.
 2.  Enter the following command to create a XXX plugin skeleton:
 
-        atlas-create-refapp-plugin
+    ``` bash
+    atlas-create-refapp-plugin
+    ```
 
     When prompted, enter the following information to identify your plugin:
 
@@ -122,7 +126,9 @@ In this step, you'll use the two `atlas-` commands to generate stub code for y
 4.  Change to the adminUI directory created by the previous step.
 5.  Run the command:
 
-        atlas-mvn eclipse:eclipse
+    ``` bash
+    atlas-mvn eclipse:eclipse
+    ```
 
 6.  Start Eclipse.
 7.  Select **File-&gt;Import**.   
@@ -228,7 +234,9 @@ For this tutorial, you will need a [Servlet plugin module](https://developer.atl
     The generation runs and the command exits. 
 8.  At the root of your project directory, run the command:
 
-        atlas-mvn eclipse:eclipse
+    ``` bash
+    atlas-mvn eclipse:eclipse
+    ```
 
     This command updates the `.classpath`and other key Eclipse resources. 
 
@@ -299,13 +307,17 @@ Follow these steps to build and install your plugin, so that you can test your c
 2.  Open a terminal window and navigate to the plugin root folder (where the `pom.xml` file is).
 3.  Run the following command:
 
-        atlas-run
+    ``` bash
+    atlas-run
+    ```
 
     This command builds your plugin code, starts a refapp instance, and installs your plugin in it. This may take several seconds. When the process has finished, you will see many status lines on your screen concluding with something like the following:
 
-        [INFO] HOSTAPP started successfully in 71s at http://localhost:XXXX/HOSTAPP
-        [INFO] Type CTRL-D to shutdown gracefully
-        [INFO] Type CTRL-C to exit
+    ``` bash
+    [INFO] HOSTAPP started successfully in 71s at http://localhost:XXXX/HOSTAPP
+    [INFO] Type CTRL-D to shutdown gracefully
+    [INFO] Type CTRL-C to exit
+    ```
 
 4.  Open your browser and navigate to the local refapp instance started by `atlas-run`.  
     For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for refapp. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/-plugin-sdk-supported-applications-and-default-ports-2818466.html) for other applications.
@@ -434,7 +446,9 @@ By default, the servlet module is not pre-configured to use Velocity templates (
 5.  Return to your terminal.
 6.  At the root of your project directory, run the command:
 
-        atlas-mvn eclipse:eclipse
+    ``` bash
+    atlas-mvn eclipse:eclipse
+    ```
 
     This command updates the `.classpath`and other key Eclipse resources. 
 
@@ -1170,11 +1184,11 @@ The REST code builds a configuration resource your plugin will use to store conf
 
     {{% note %}}
 
-Namespace your keys!
+    Namespace your keys!
 
-Because this is **global** application configuration data, it is important that you do some kind of namespacing with your keys. Whether you use your plugin key, a class name or something else entirely is up to you. Just make sure it is unique enough that conflicts with other configuration data won't occur.
+    Because this is **global** application configuration data, it is important that you do some kind of namespacing with your keys. Whether you use your plugin key, a class name or something else entirely is up to you. Just make sure it is unique enough that conflicts with other configuration data won't occur.
 
-{{% /note %}}
+    {{% /note %}}
 
 5.  Add a `PUT` method.  ``
 
@@ -1317,8 +1331,6 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 
     At this point the `admin.vm` file should look like the following:
 
-      Expand source
-
     ``` xml
      <html>
       <head>
@@ -1358,345 +1370,6 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 5.  Navigate to your servlet location:  
     <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>   
     You should see something similar to the following:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

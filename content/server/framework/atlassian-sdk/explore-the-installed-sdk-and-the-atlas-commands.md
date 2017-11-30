@@ -66,9 +66,11 @@ Maven relies on the ability to navigate to external repositories URLs and obtain
 If you're doing your development behind a corporate firewall, you may need to connect to the Internet through an HTTP proxy. If you know you do not have a firewall, skip this procedure. If you know your company requires you to use an HTTP proxy, you need to configure proxy settings in the `ATLAS_HOME/apache-maven/conf/settings.xml` file. Do the following:
 
 1.  Ask your system administrator to provide you with the following information:  
-    -   The proxy address `protocol://host:port`, for example `https://our.company:8080`.
+    -   The proxy address protocol://host:port, for example <a href="https://our.company:8080" class="uri external-link">https://our.company:8080</a>.
+
     -   a username/password required for access
     -   a list of hosts that don't require a proxy
+
 2.  Edit the `ATLAS_HOME/apache-maven/conf/settings.xml` file in your favorite editor.
 3.  Locate the `<proxies>` section.  
     <img src="/server/framework/atlassian-sdk/images/proxies.png" width="700" />
@@ -93,11 +95,11 @@ If you're doing your development behind a corporate firewall, you may need to co
 
 6.  Close and save the file.
 
-**Have an Existing settings.xml File in Your .m2 Directory?**
+{{% note %}}
+
+Have an Existing settings.xml File in Your .m2 Directory?
 
 If you have an existing local `settings.xml` file, you may encounter problems resolving dependencies required by the SDK commands. To prevent these problems, add the following `<pluginRepository>` block to your local `settings.xml` profile:
-
-  Expand source
 
 ``` xml
 <pluginRepository>
@@ -112,6 +114,8 @@ If you have an existing local `settings.xml` file, you may encounter problems re
       </snapshots>
  </pluginRepository>
 ```
+
+{{% /note %}}
 
 ## Step 3: Try an atlas command
 
@@ -175,8 +179,10 @@ If you haven't already done so, open a command window and do the following:
 
     The output message tells you the URL where JIRA was started.
 
-5.  Open a browser and enter the JIRA URL.  
-    You should see the URL for your installation displayed in the run output. For example, you might see `http://myhost.local:2990/jira` or `http://localhost:2990/jira`<a href="http://localhost:2990/jira" class="external-link"> depending on your environment. On successful launch, the browser displays the JIRA login page.</a>
+5.  Open a browser and enter the JIRA URL.
+
+    You should see the URL for your installation displayed in the run output. For example, you might see <a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a><a href="http://localhost:2990/jira" class="external-link"> depending on your environment. On successful launch, the browser displays the JIRA login page.</a>
+
 6.  Enter `admin` for both the username and password.  
     Your browser displays the JIRA dashboard:  
     <img src="/server/framework/atlassian-sdk/images/jira-dash.png" width="700" />  
@@ -210,8 +216,10 @@ When you run a standalone instance, you can make changes in the instance. The sy
     Your standalone JIRA now has a TEST project. Test what happens to the project when you restart this standalone instance.
 5.  Return to the command line where you started JIRA.
 6.  Gracefully shutdown JIRA by pressing CTRL-Z (Windows) or CTRL-D (Linux).
-7.  Browse to the default JIRA URL (`http://myhost.local:2990/jira or http://localhost:2990/jira)` with your browser.  
-    Your browser should inform you that it could not get a connection to the server.
+7.  Browse to the default JIRA URL (<a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a>) with your browser.
+
+         Your browser should inform you that it could not get a connection to the server.
+
 8.  Return to the command line (DOS prompt for Windows users).
 9.  Make sure you are in the `atlastutorial` directory.
 10. Restart JIRA standalone.
@@ -223,351 +231,17 @@ When you run a standalone instance, you can make changes in the instance. The sy
 11. Log back in and locate your project.  
     The standalone instance has retained the data you created between restarts. This can be very useful when testing. You'll learn more about this later.
 
-**Extra Exploration**
+{{% note %}}
+
+Extra Exploration
 
 You can use the `atlas-run-standalone` command to run a particular version of a product. This is useful if, for instance, you want to test your code on an earlier version of JIRA or Confluence. Review the [command's reference page](/server/framework/atlassian-sdk/atlas-run-standalone) and try running an earlier version of JIRA.
+
+{{% /note %}}
 
 ## Next steps
 
 At this point, you have some basic understanding of the SDK. Enough to go ahead in the [next tutorial section to create your own plugin project](/server/framework/atlassian-sdk/create-a-helloworld-plugin-project).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

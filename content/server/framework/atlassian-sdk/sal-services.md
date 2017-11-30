@@ -27,7 +27,7 @@ Exposes key application settings such as the base URL, application name, build i
 
 Example -- Obtaining base url of the application:
 
-``` javascript
+``` java
 public class DefaultStudioInfo
 {
 private final ApplicationProperties applicationProperties;
@@ -120,7 +120,7 @@ Provides a factory for making HTTP requests with optional authentication.
 
 Example -- Running remote search:
 
-``` javascript
+``` java
 public class RemoteSearcher
 {
 private final String url;
@@ -179,7 +179,7 @@ Provides access to settings globally or per project/space/repository.
 
 Example -- Saving and retrieving custom settings per project:
 
-``` javascript
+``` java
 public class CustomProjectSettings
 {
 private final PluginSettingsFactory pluginSettingsFactory;
@@ -298,6 +298,8 @@ The matrix below shows the services available to each version of the Atlassian a
 -   YES shows that the SAL service is available to the relevant version of the application.
 -   NO means that the service is not available to the relevant version of the application.
 
+![](/server/framework/atlassian-sdk/images/package2.gif) **com.atlassian.sal.api**
+
 <table style="width:100%;">
 <colgroup>
 <col style="width: 11%" />
@@ -334,17 +336,6 @@ Crucible<br />
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
 <td><p><strong>ApplicationProperties</strong></p></td>
 <td><p>YES</p></td>
 <td><p>YES</p></td>
@@ -355,18 +346,50 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.auth</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+**  
+**
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.auth**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td><p><strong>AuthenticationController</strong></p></td>
 <td><p>NO</p></td>
 <td><p>NO</p></td>
@@ -377,7 +400,7 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>NO</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>AuthenticationListener</strong></p></td>
 <td><p>NO</p></td>
 <td><p>NO</p></td>
@@ -389,7 +412,7 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>NO</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Authenticator </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -400,7 +423,7 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>LoginUriProvider</strong></p></td>
 <td><p>NO</p></td>
 <td><p>NO</p></td>
@@ -411,17 +434,48 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>NO</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.component</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.component**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p><strong>ComponentLocator</strong></p></td>
 <td><p>YES</p></td>
@@ -433,17 +487,48 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.executor</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.executor**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p><strong>ThreadLocalDelegateExecutorFactory</strong></p></td>
 <td><p>YES</p></td>
@@ -455,17 +540,48 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.license</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.license**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p><strong>LicenseHandler</strong></p></td>
 <td><p>YES</p></td>
@@ -477,17 +593,48 @@ Crucible<br />
 <td><p>NO</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.lifecycle</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.lifecycle**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>LifecycleAware</p></td>
 <td><p> </p></td>
@@ -510,18 +657,49 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.message</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif)com.atlassian.sal.api.message**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td><p><strong>I18nResolver</strong></p></td>
 <td><p>YES</p></td>
 <td><p>?</p></td>
@@ -532,7 +710,7 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>LocaleResolver</strong></p></td>
 <td><p>YES</p></td>
 <td><p>?</p></td>
@@ -543,7 +721,7 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Message</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -554,7 +732,7 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>MessageCollection</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -563,19 +741,50 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**<a href="http://com.atlassian.sal.api.net/" class="external-link"><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net</a>**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>Request</p></td>
 <td><p> </p></td>
@@ -629,19 +838,50 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net.auth</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**<a href="http://com.atlassian.sal.api.net/" class="external-link"><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net</a>.auth**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>Authenticator</p></td>
 <td><p> </p></td>
@@ -651,19 +891,50 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.pluginsettings</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.pluginsettings**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>PluginSettings</p></td>
 <td><p> </p></td>
@@ -686,18 +957,49 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.project</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.project**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td><p><strong>ProjectManager</strong></p></td>
 <td><p>YES</p></td>
 <td><p>YES</p></td>
@@ -708,18 +1010,50 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.scheduling</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+**  
+**
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.scheduling**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td><p>PluginJob</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -730,7 +1064,7 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>PluginScheduler</strong></p></td>
 <td><p>YES</p></td>
 <td><p>YES</p></td>
@@ -741,17 +1075,48 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.search</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>ResourceType</p></td>
 <td><p> </p></td>
@@ -794,20 +1159,51 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.parameter**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.search.parameter</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
 <td><p>SearchParameter</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -816,20 +1212,51 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.query**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.search.query</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
 <td><p>SearchQuery</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -840,7 +1267,7 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>SearchQueryParser</strong></p></td>
 <td><p>YES</p></td>
 <td><p>YES</p></td>
@@ -851,17 +1278,48 @@ Crucible<br />
 <td><p>NO</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.transaction</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.transaction**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p>TransactionCallback</p></td>
 <td><p> </p></td>
@@ -884,18 +1342,49 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.upgrade</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.upgrade**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
-<tr class="even">
+</thead>
+<tbody>
+<tr class="odd">
 <td><p><strong>PluginUpgradeManager</strong></p></td>
 <td><p>YES</p></td>
 <td><p>YES</p></td>
@@ -906,7 +1395,7 @@ Crucible<br />
 <td><p>YES</p></td>
 <td><p>YES</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>PluginUpgradeTask</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -915,19 +1404,50 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
-<tr class="even">
-<td><p><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.user</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+</tbody>
+</table>
+
+ 
+
+![](/server/framework/atlassian-sdk/images/package2.gif)**com.atlassian.sal.api.user**
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>SAL Service</p></th>
+<th><p>JIRA<br />
+3.13</p></th>
+<th><p>(JIRA<br />
+4.0)</p></th>
+<th><p>Confluence<br />
+3.0</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+1.6.5</p></th>
+<th><p>FishEye/<br />
+Crucible<br />
+2.0</p></th>
+<th><p>Crowd<br />
+2.0</p></th>
+<th><p>Bamboo<br />
+2.3</p></th>
+<th><p>RefImpl</p></th>
 </tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><p><strong>UserManager</strong></p></td>
 <td><p>YES</p></td>
@@ -948,7 +1468,7 @@ Crucible<br />
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p> </p></td>
+<td> </td>
 </tr>
 </tbody>
 </table>
@@ -957,344 +1477,6 @@ Crucible<br />
 
 <a href="http://docs.atlassian.com/sal-api/" class="external-link">Javadoc</a>  
 [About SAL Development](/server/framework/atlassian-sdk/about-sal-development)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

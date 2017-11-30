@@ -49,11 +49,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
 
 -   Page:
 
-    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
+    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
 
 -   Page:
 
@@ -63,25 +63,25 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Crucible Gadget Tutorial](/display/FECRUDEV/Crucible+Gadget+Tutorial)
-
--   Page:
-
-    [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
-
--   Page:
-
     [FishEye Twitter Integration Plugin Tutorial](/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
 
 -   Page:
 
     [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
 
+-   Page:
+
+    [Crucible Gadget Tutorial](/display/FECRUDEV/Crucible+Gadget+Tutorial)
+
+-   Page:
+
+    [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
+
 #### Advanced
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 -   Page:
 
@@ -97,11 +97,72 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 ### Related Tutorials
 
 You may also be interested in the [integration tutorials](https://developer.atlassian.com/display/FECRUDEV/Integration+Tutorials).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

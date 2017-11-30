@@ -24,13 +24,13 @@ Make sure you are not in the Maven command line interface (CLI) when you enter t
 
 Enter the following shell script to see an overview of all the scripts with a brief outline of their functionality:
 
-``` javascript
+``` bash
 atlas-help
 ```
 
 Enter the following to see all possible help content:
 
-``` javascript
+``` bash
 atlas-help --verbose
 ```
 
@@ -46,7 +46,7 @@ Each shell script provides help text if the first argument of the script is one 
 
 Examples:
 
-``` javascript
+``` bash
 atlas-clean help
 atlas-cli -?
 ```
@@ -54,6 +54,67 @@ atlas-cli -?
 ###### Reading the Reference Guide
 
 See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818463" class="createlink">guide to all scripts</a>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

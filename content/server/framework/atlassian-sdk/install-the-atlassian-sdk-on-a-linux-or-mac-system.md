@@ -24,13 +24,7 @@ Windows users should see [Install the Atlassian SDK on a Windows system](https:
 
 {{% /note %}}
 
- 
-
 , you install the SDK on your Linux or Mac system. You also configure your operating system to recognize the SDK commands in your environment.
-
- 
-
- 
 
 ## Step 1: Configure your environment
 
@@ -69,11 +63,11 @@ To set your `PATH` and `JAVA_HOME` variables:
 
     {{% note %}}
 
-The path in Line 1 will be the path for the JDK on **your system**.
+    The path in Line 1 will be the path for the JDK on **your system**.
 
-For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On Linux it may be `/usr/local/jdk` or similar.
+    For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On Linux it may be `/usr/local/jdk` or similar.
 
-{{% /note %}}
+    {{% /note %}}
 
 3.  Save and close the file.
 4.  Enter the following at the command line to pick up your changes:
@@ -84,7 +78,7 @@ For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On L
 
 5.  Verify you are now seeing the correct result when you enter the command `javac -version` in **terminal**
 
-    ``` text
+    ``` bash
     host:~ test$ javac -version
     javac 1.8.0_91 
     ```
@@ -107,12 +101,6 @@ By downloading and/or using this SDK you agree to the <span class="underline">[
 
 Select the installation instructions that best suit you:
 
--   [Mac OSX](#mac-osx)
--   [Homebrew](#homebrew)
--   [Debian, Ubuntu Linux](#debian,-ubuntu-linux)
--   [Red Hat Enterprise Linux, CentOS, Fedora (RPM)](#red-hat-enterprise-linux,-centos,-fedora-(rpm))
--   [.tgz File](#.tgz-file)
-
 ### Mac OSX
 
 PKG File
@@ -126,13 +114,13 @@ PKG File
 
 1.  Open a Terminal window and add the Atlassian "Tap" to your Brew using the command:
 
-    ``` text
+    ``` bash
     brew tap atlassian/tap
     ```
 
 2.  Then install the SDK via the atlassian/tap using the command:
 
-    ``` text
+    ``` bash
     brew install atlassian/tap/atlassian-plugin-sdk
     ```
 
@@ -146,19 +134,19 @@ To set up the Atlassian repositories,
 
 1.  Open a **terminal** window and enter the following:
 
-    ``` text
+    ``` bash
     sudo sh -c 'echo "deb https://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/sources.list'
     ```
 
 2.  After the prompt returns, add the public key:
 
-    ``` text
+    ``` bash
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C015B73
     ```
 
 3.  Once you have set up the Atlassian repositories, enter the following to install the SDK:
 
-    ``` text
+    ``` bash
     sudo apt-get install apt-transport-https
     sudo apt-get update
     sudo apt-get install atlassian-plugin-sdk
@@ -206,13 +194,13 @@ To install the latest version of SDK, do the following:
 2.  Locate the downloaded SDK file. 
 3.  Extract the file to your local directory.
 
-    ``` text
+    ``` bash
     sudo tar -xvzf atlassian-plugin-sdk-4.0.tar.gz -C /opt
     ```
 
 4.  Rename the extracted folder to  `atlassian-plugin-sdk` .
 
-    ``` text
+    ``` bash
     sudo mv /opt/atlassian-plugin-sdk-4.0 /opt/atlassian-plugin-sdk 
     ```
 
@@ -257,349 +245,15 @@ Look for `Maven home `and note that you are running the version of Maven that is
 
 You now have a local development environment configured for the Atlassian SDK and you're ready to build your first plugin!
 
+{{% note %}}
+
 **[Create a Plugin](https://developer.atlassian.com/display/DOCS/Create+a+HelloWorld+Plugin+Project)**
+
+{{% /note %}}
 
 ## Additional Resources
 
 Need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

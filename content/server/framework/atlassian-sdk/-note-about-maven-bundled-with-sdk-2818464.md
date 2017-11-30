@@ -12,7 +12,68 @@ subcategory:
 ---
 # Documentation : \_Note about Maven Bundled with SDK
 
-When running Maven commands against your project, make sure that you use the version of Maven bundled with the Atlassian Plugin SDK. This is important if you have a local version of Maven installed, as well as the Atlassian Plugin SDK. The simplest way is to use the [`atlas-mvn`](/server/framework/atlassian-sdk/atlas-mvn) wrapper command instead of `mvn`. Another way is to [put the bundled Maven on your path](/server/framework/atlassian-sdk/verifying-your-maven-settings-2818643.html).
+When running Maven commands against your project, make sure that you use the version of Maven bundled with the Atlassian Plugin SDK. This is important if you have a local version of Maven installed, as well as the Atlassian Plugin SDK. The simplest way is to use the [atlas-mvn](/server/framework/atlassian-sdk/atlas-mvn) wrapper command instead of `mvn`. Another way is to [put the bundled Maven on your path](/server/framework/atlassian-sdk/verifying-your-maven-settings-2818643.html).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

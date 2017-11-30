@@ -50,8 +50,6 @@ Declares that a class in the plugin is available for dependency injection within
 
 -   `interface`: The interface for the component to inject.
 
- 
-
 **Example 1**
 
 ``` xml
@@ -91,10 +89,6 @@ Requests that some implementation of a specific interface, exported either by an
 
 -   `interface`: The interface for the component to inject (identical to the `interface` attribute).
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -118,10 +112,6 @@ Deploys the specified class as a <a href="http://download.oracle.com/javaee/6/ap
 
 -   `class`: The class to use as a servlet context listener.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -133,10 +123,6 @@ Deploys the specified class as a <a href="http://download.oracle.com/javaee/6/ap
 </servlet-context-listener>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Servlet Context Parameter](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Context+Parameter+Plugin+Module)
@@ -147,10 +133,6 @@ Sets the specified name and value as a parameter in the <a href="http://download
 
 -   `param-name`: The name of the parameter.
 -   `param-value`: The value of the parameter.
-
- 
-
- 
 
 **Example**
 
@@ -178,10 +160,6 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
 
 -   `url-pattern`: The URL pattern this servlet filter should be applied to.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -193,10 +171,6 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
   <url-pattern>/myapp</url-pattern>
 </servlet-filter>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -212,10 +186,6 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
 
 -   `url-pattern`: The URL pattern this servlet should be deployed to.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -227,10 +197,6 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
   <url-pattern>/myapp</url-pattern>
 </servlet>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -249,10 +215,6 @@ Defines a new link in an application menu.
 -   `label`: Points to an internationalized resource property that contains the display text of the link.
 -   `link`: Defines where the link should point.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -265,10 +227,6 @@ Defines a new link in an application menu.
   <link>http://atlassian.com</link>
 </web-item>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -285,10 +243,6 @@ Defines a new section in an application menu.
 
 -   `label`: Points to an internationalized resource property that contains the user-visible name of this section.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -301,10 +255,6 @@ Defines a new section in an application menu.
   <label key="example1.web.section.name"/>
 </web-section>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -320,10 +270,6 @@ Defines a web panel - a set of HTML content that can be inserted verbatim into a
 
 -   `resource`: The HTML [resource](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Adding+Resources+to+your+Project) to use for the panel's contents.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -336,10 +282,6 @@ Defines a web panel - a set of HTML content that can be inserted verbatim into a
 </web-panel>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Web Panel Renderer](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Renderer+Plugin+Module)
@@ -350,10 +292,6 @@ Defines a custom rendering engine for a `<web-panel>`.
 
 -   `class`: The class that implements the web panel renderer.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -362,10 +300,6 @@ Defines a custom rendering engine for a `<web-panel>`.
     key="myWebPanelRenderer"
     class="com.myapp.FreemarkerWebPanelRenderer"/>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -376,10 +310,6 @@ Defines downloadable resources (files) for a plugin, such as CSS or JavaScript f
 **Frequently used elements:**
 
 -   `resource`: Specifies the [resources](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Adding+Resources+to+your+Project) that should be made available for download.
-
- 
-
- 
 
 **Example**
 
@@ -392,10 +322,6 @@ Defines downloadable resources (files) for a plugin, such as CSS or JavaScript f
 </web-resources>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Web Resource Transformer](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module) 
@@ -406,10 +332,6 @@ Defines transformers which allow changing web resources before being served to t
 
 -   `class`: The class to create and use as a transformer.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -418,10 +340,6 @@ Defines transformers which allow changing web resources before being served to t
   key="template"
   class="com.atlassian.labs.template.TemplateTransformer" />
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -436,10 +354,6 @@ Exposes data and services as REST resources.
 -   `path`: Path to the API defined by these resources.
 -   `version`: Version of the REST API being exposed at this path.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -452,10 +366,6 @@ Exposes data and services as REST resources.
 </rest>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Gadget](https://developer.atlassian.com/display/GADGETS)
@@ -466,10 +376,6 @@ Defines an <a href="http://confluence.atlassian.com/display/GADGETS" class="exte
 
 -   `location`: Path to the gadget XML specification in this plugin.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -478,10 +384,6 @@ Defines an <a href="http://confluence.atlassian.com/display/GADGETS" class="exte
   key="myGadget"
   location="gadgets/public/myGadget.xml"/>
 ```
-
- 
-
- 
 
 ## Product-specific modules
 
@@ -512,10 +414,6 @@ Adds custom SOAP services to JIRA in addition to the [builtin SOAP services](htt
 -   `service-path`: The path (under /rpc/soap) the service will be published at.
 -   `published-interface`: The interface implemented by the service class and exposed to the end user.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -529,10 +427,6 @@ Adds custom SOAP services to JIRA in addition to the [builtin SOAP services](htt
     </published-interface>
 </rpc-soap>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -556,10 +450,6 @@ Adds custom XML-RPC services to JIRA in addition to the [builtin XML-RPC service
 
 -   `service-path`: The path (under /rpc/xmlrpc) the service will be published at.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -570,10 +460,6 @@ Adds custom XML-RPC services to JIRA in addition to the [builtin XML-RPC service
     <service-path>custom-xmlrpc</service-path>
 </rpc-xmlrpc>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -594,10 +480,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Projec
 -   `resource` (velocity): The template which renders the HTML for the project tab.
 -   `resource` (i18n): The .properties file containing i18n values for user-visible text.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -615,10 +497,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Projec
 </project-tabpanel>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Component tab panel](https://developer.atlassian.com/display/JIRADEV/Component+Tab+Panel+Plugin+Module)
@@ -635,10 +513,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Compon
 -   `order`: The order in which the label should appear in the menu.
 -   `resource` (velocity): The template which renders the HTML for the component tab.
 -   `resource` (i18n): The .properties file containing i18n values for user-visible text.
-
- 
-
- 
 
 **Example**
 
@@ -662,10 +536,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Compon
 </component-tabpanel>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Version tab panel](https://developer.atlassian.com/display/JIRADEV/Version+Tab+Panel+Plugin+Module)
@@ -682,10 +552,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Versio
 -   `order`: The order in which the label should appear in the menu.
 -   `resource` (velocity): The template which renders the HTML for the version tab.
 -   `resource` (i18n): The .properties file containing i18n values for user-visible text.
-
- 
-
- 
 
 **Example**
 
@@ -705,10 +571,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Versio
 </version-tabpanel>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Issue tab panel](https://developer.atlassian.com/display/JIRADEV/Issue+Tab+Panel+Plugin+Module)
@@ -724,10 +586,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">View Issue</a
 -   `label`: The user-visible name of the label on the page.
 -   `resource`: The template which renders the HTML for the issue tab.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -742,10 +600,6 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">View Issue</a
      location="templates/plugins/environmentmanor/issuetabpanels/environment.vm"/>
 </issue-tabpanel>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -763,10 +617,6 @@ Allows display of search results in the <a href="#browse-projects" class="unreso
 -   `resource` (header): The header to render for this view.
 -   `resource` (singleissue): What to render for each individual issue in this view.
 -   `resource` (footer): The footer to render for this view.
-
- 
-
- 
 
 **Example**
 
@@ -786,10 +636,6 @@ Allows display of search results in the <a href="#browse-projects" class="unreso
 </search-request-view>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 ### Custom workflow operations
@@ -807,10 +653,6 @@ Checks whether a user can perform a <a href="#browse-projects" class="unresolved
 -   `condition-class`: The class implementing the condition's logic.
 -   `resource`: Renders the view for the condition.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -826,10 +668,6 @@ Checks whether a user can perform a <a href="#browse-projects" class="unresolved
 </workflow-condition>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Workflow validators](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Validators)
@@ -844,10 +682,6 @@ Checks that the data supplied to a workflow transition is valid.
 
 -   `validator-class`: The class implementing the validator's logic.
 -   `resource`: Renders the view for the condition.
-
- 
-
- 
 
 **Example**
 
@@ -868,10 +702,6 @@ Checks that the data supplied to a workflow transition is valid.
 </workflow-validator>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Workflow functions](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Functions)
@@ -886,10 +716,6 @@ Performs actions after a workflow transition has executed.
 
 -   `function-class`: The class implementing the function's logic.
 -   `resource`: Renders the view for the condition.
-
- 
-
- 
 
 **Example**
 
@@ -912,10 +738,6 @@ Performs actions after a workflow transition has executed.
 </workflow-function>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 ### Custom fields
@@ -933,10 +755,6 @@ Defines a <a href="#browse-projects" class="unresolved">custom field</a> and its
 -   `resource` (view): Template for rendering this custom field on the View Issue page.
 -   `resource` (edit-userpicker): Template for rendering this custom field on the Create/Edit Issue page.
 -   `resource` (xml): Template for rendering this custom field in XML.
-
- 
-
- 
 
 **Example**
 
@@ -956,10 +774,6 @@ class="com.atlassian.jira.issue.customfields.impl.UserCFType">
 </customfield-type>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Custom field searchers](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module)
@@ -974,10 +788,6 @@ Defines a search method for indexing a custom field.
 
 -   `valid-customfield-type`: Defines the custom field this searcher applies to.
 -   `resource`: Renders this searcher on the issue navigator search form.
-
- 
-
- 
 
 **Example**
 
@@ -994,10 +804,6 @@ class="com.atlassian.jira.issue.customfields.searchers.UserPickerSearcher">
      package="com.atlassian.jira.plugin.system.customfieldtypes" key="userpicker" />
 </customfield-searcher>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1017,10 +823,6 @@ Defines a <a href="#browse-projects" class="unresolved">report</a> in JIRA.
 -   `resource` (view): Renders the HTML version of the report.
 -   `resource` (i18n): Provides the i18n values for the keys in the report displays.
 -   `properties`: Properties this report requires to run correctly.
-
- 
-
- 
 
 **Example**
 
@@ -1049,10 +851,6 @@ Defines a <a href="#browse-projects" class="unresolved">report</a> in JIRA.
 </report>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Custom actions](https://developer.atlassian.com/display/JIRADEV/Webwork+plugin+module)
@@ -1061,11 +859,7 @@ Defines custom WebWork actions (functionality that can be triggered by visiting 
 
 **Frequently used elements:**
 
--   `actions`: Defines the WebWork actions this module will provide.
-
- 
-
- 
+-   `actions`: Defines the WebWork actions this module will provide
 
 **Example**
 
@@ -1085,10 +879,6 @@ Defines custom WebWork actions (functionality that can be triggered by visiting 
 </webwork1>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [JQL functions](https://developer.atlassian.com/display/JIRADEV/JQL+Function+Plugin+Module)
@@ -1100,10 +890,6 @@ Defines new functions for use in the <a href="#browse-projects" class="unresolve
 -   `class`: The class implementing the JQL function logic.
 
 **Frequently used elements:**
-
- 
-
- 
 
 **Example**
 
@@ -1121,10 +907,6 @@ Defines new functions for use in the <a href="#browse-projects" class="unresolve
     </description>
 </jql-function>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1145,10 +927,6 @@ Adds custom SOAP services to Confluence in addition to the [builtin SOAP service
 -   `service-path`: The path (under /rpc/soap) the service will be published at.
 -   `published-interface`: The interface implemented by the service class and exposed to the end user.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1164,10 +942,6 @@ Adds custom SOAP services to Confluence in addition to the [builtin SOAP service
 </rpc-soap>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [XML-RPC](https://developer.atlassian.com/display/CONFDEV/RPC+Module)
@@ -1182,10 +956,6 @@ Adds custom XML-RPC services to Confluence in addition to the [builtin XML-RPC s
 
 -   `service-path`: The path (under /rpc/xmlrpc) the service will be published at.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1196,10 +966,6 @@ Adds custom XML-RPC services to Confluence in addition to the [builtin XML-RPC s
     <service-path>custom-xmlrpc</service-path>
 </rpc-xmlrpc>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1213,10 +979,6 @@ Defines simple <a href="#browse-projects" class="unresolved">user macros</a> as 
 
 -   `template`: The body of the user macro (in HTML). Can access the Velocity context.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1228,10 +990,6 @@ Defines simple <a href="#browse-projects" class="unresolved">user macros</a> as 
     <template><![CDATA[Hello, $body!]]></template>
 </user-macro>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1245,10 +1003,6 @@ Defines a <a href="#browse-projects" class="unresolved">macro</a> -- a piece of 
 
 **Frequently used elements:**
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1261,10 +1015,6 @@ Defines a <a href="#browse-projects" class="unresolved">macro</a> -- a piece of 
 </macro>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Code formatting](https://developer.atlassian.com/display/CONFDEV/Code+Formatting+Module)
@@ -1274,10 +1024,6 @@ Adds support for new languages to the <a href="#browse-projects" class="unresolv
 **Frequently used attributes:**
 
 -   `class`: Class implementing the new code formatter.
-
- 
-
- 
 
 **Example**
 
@@ -1291,10 +1037,6 @@ Adds support for new languages to the <a href="#browse-projects" class="unresolv
 </codeformatter>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 ### System tasks
@@ -1306,8 +1048,6 @@ Adds repeatable tasks to Confluence which can be scheduled by <a href="#browse-p
 **Frequently used attributes:**
 
 -   `class`: Class implementing the job.
-
- 
 
 **Example**
 
@@ -1329,10 +1069,6 @@ Adds tasks to be run on Confluence startup and shutdown.
 
 -   `class`: Implements the lifecycle module for startup or shutdown.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1346,10 +1082,6 @@ Adds tasks to be run on Confluence startup and shutdown.
 </lifecycle>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Triggers](https://developer.atlassian.com/display/CONFDEV/Trigger+Module)
@@ -1360,10 +1092,6 @@ Schedules [DEVNET:jobs](#devnet:jobs) to run.
 
 -   `job`: The key of the job module to schedule.
 -   `schedule`: When to run the job. Can be expressed as a cron job or by repeat intervals.
-
- 
-
- 
 
 **Example**
 
@@ -1378,10 +1106,6 @@ Schedules [DEVNET:jobs](#devnet:jobs) to run.
      repeat-count="5" />
 </trigger>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1399,10 +1123,6 @@ Allows the user to add Sitemesh Velocity <a href="#browse-projects" class="unres
 
 -   `pattern`: The URL pattern for which pages should have this decorator applied.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1415,10 +1135,6 @@ Allows the user to add Sitemesh Velocity <a href="#browse-projects" class="unres
     <pattern>/plugins/sampleplugin/*</pattern>
 </decorator>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1434,10 +1150,6 @@ Defines new languages for the Confluence UI.
 **Frequently used elements:**
 
 -   `resource` (download): Defines a flag image to show for this resource.
-
- 
-
- 
 
 **Example**
 
@@ -1459,10 +1171,6 @@ Defines new languages for the Confluence UI.
 </language>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Theme](https://developer.atlassian.com/display/CONFDEV/Theme+Module)
@@ -1477,10 +1185,6 @@ Defines a new theme (of stylesheets and images) for Confluence.
 
 -   `resource` (download): CSS stylesheets implementing the theme (and images)
 -   `resource` (icon): Theme icon image used in the Choose Theme menu.
-
- 
-
- 
 
 **Example**
 
@@ -1506,10 +1210,6 @@ Defines a new theme (of stylesheets and images) for Confluence.
 </theme>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Keyboard shortcuts](https://developer.atlassian.com/display/CONFDEV/Keyboard+Shortcut+Module)
@@ -1523,10 +1223,6 @@ Defines a <a href="#browse-projects" class="unresolved">keyboard shortcut</a> wi
 -   `shortcut`: The keyboard shortcut keystroke sequence.
 -   `operation`: The target of the keyboard shortcut.
 -   `context`: Which pages this shortcut will be active on.
-
- 
-
- 
 
 **Example**
 
@@ -1544,10 +1240,6 @@ Defines a <a href="#browse-projects" class="unresolved">keyboard shortcut</a> wi
 </keyboard-shortcut>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 ### Custom actions
@@ -1558,10 +1250,6 @@ Defines new XWork/WebWork actions, adding URL-addressable functionality to Confl
 
 **Frequently used elements:**  
 The body of the `<xwork>` element contains XWork action markup. An example is below.
-
- 
-
- 
 
 **Example**
 
@@ -1599,10 +1287,6 @@ Defines an extractor for adding information to the Confluence search index.
 -   `class`: The class implementing the extractor.
 -   `priority`: The order in which the extractor is run; lower-priority extractors run first.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1616,10 +1300,6 @@ Defines an extractor for adding information to the Confluence search index.
 </extractor>
 ```
 
- 
-
- 
-
 ------------------------------------------------------------------------
 
 #### [Path converters](https://developer.atlassian.com/display/CONFDEV/Path+Converter+Module)
@@ -1631,10 +1311,6 @@ Defines path converters which provide custom path mapping in a plugin.
 -   `class`: The class implementing the path converter.
 -   `weight`: The order in which this path converter is executed relative to any other converters.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1644,10 +1320,6 @@ Defines path converters which provide custom path mapping in a plugin.
   key="example-converter"
   class="com.mycompany.confluence.plugin.ExamplePathConverter"/>
 ```
-
- 
-
- 
 
 ------------------------------------------------------------------------
 
@@ -1660,10 +1332,6 @@ Defines new components to be added to the [Confluence Velocity context](https://
 -   `class`: The class representing the component to be added.
 -   `context-key`: The Velocity variable that will be created to reference this component.
 
- 
-
- 
-
 **Example**
 
 ``` xml
@@ -1674,344 +1342,6 @@ Defines new components to be added to the [Confluence Velocity context](https://
   context-key="myVelocityHelper"
   class="com.example.myplugin.helpers.MyVelocityHelper" />
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

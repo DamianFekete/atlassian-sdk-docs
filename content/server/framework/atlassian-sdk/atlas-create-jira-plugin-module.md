@@ -24,7 +24,9 @@ NOTE: There is a specific version of this shell script for each Atlassian applic
 
 ## Basic Usage
 
-`atlas-create-jira-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a JIRA plugin module that you can adapt to suit your own plugin's needs. (Runs `mvn jira:create-plugin-module`.) Passes all parameters straight through to Maven.The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
+ `atlas-create-jira-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a JIRA plugin module that you can adapt to suit your own plugin's needs. (Runs `mvn jira:create-plugin-module`.) Passes all parameters straight through to Maven.  
+
+The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
 
 ## Parameters
 
@@ -42,7 +44,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-create-jira-plugin-module -?
 atlas-create-jira-plugin-module -help
 ```
@@ -55,15 +57,19 @@ Let's assume you want to add a new plugin module to your existing JIRA plugin.
 2.  Go to the root directory for your plugin (where the `pom.xml` is located).
 3.  Run this command:
 
-        atlas-create-jira-plugin-module
+    ``` bash
+    atlas-create-jira-plugin-module
+    ```
 
 4.  Follow the prompts to specify the type of plugin module that you want, and further information required to create the basic module. For example, let's assume you want to create a web item.
     -   The script shows a list of module types. Select the number (for example, **24**) that corresponds to the web item module type.
     -   Enter a plugin module name. The default is 'My Web Item'. I entered 'Sarah Option'.
     -   Specify the [section](https://developer.atlassian.com/display/JIRADEV/Web+fragments). I entered '`system.top.navigation.bar`'.
-    -   Enter a link URL. I entered '`http://ffeathers.wordpress.com`'.
+    -   Enter a link URL. I entered '<a href="http://ffeathers.wordpress.com" class="uri external-link">http://ffeathers.wordpress.com</a>'.
+
     -   Decide whether you want to do any advanced setup. I entered 'N'.
     -   Decide whether you want to add another plugin module. I entered 'N'.
+
 5.  The script added the required module to my `atlassian-plugin.xml`:
 
     ``` xml
@@ -89,344 +95,6 @@ Let's assume you want to add a new plugin module to your existing JIRA plugin.
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

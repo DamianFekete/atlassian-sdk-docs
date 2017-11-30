@@ -14,12 +14,73 @@ subcategory:
 
  
 
--   [Introduction to the Atlassian Plugin SDK](/server/framework/atlassian-sdk/introduction-to-the-atlassian-plugin-sdk-18252495.html)
+-   [Introduction to the Atlassian Plugin SDK](/server/framework/atlassian-sdk/introduction-to-the-atlassian-plugin-sdk)
 -   [Confluence Build Information](/server/framework/atlassian-sdk/confluence-build-information-18252503.html)
--   [Developing with the Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk-23299291.html)
--   [Getting Started with the REST APIs](/server/framework/atlassian-sdk/getting-started-with-the-rest-apis-18252730.html)
+-   [Developing with the Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk)
+-   [Getting Started with the REST APIs](/server/framework/atlassian-sdk/getting-started-with-the-rest-apis)
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

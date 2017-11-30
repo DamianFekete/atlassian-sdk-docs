@@ -15,10 +15,7 @@ title: Configuring the plugin descriptor
 ---
 # Configuring the plugin descriptor
 
-This page describes the plugin descriptor, the XML file that describes the plugin to the Atlassian application. **   
-**
-
- 
+This page describes the plugin descriptor, the XML file that describes the plugin to the Atlassian application. **  **
 
 ## About the Plugin Descriptor
 
@@ -38,7 +35,7 @@ When you compile the plugin, the SDK copies the file to the root directory in th
 
 The following is the plugin descriptor file that the SDK generates for a JIRA plugin.
 
-``` javascript
+``` xml
 <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
     <plugin-info>
         <description>${project.description}</description>
@@ -52,7 +49,7 @@ The descriptor doesn't tell us much, yet. Most of the element and attribute valu
 
 Once we add a module to the plugin, such as a custom field to the JIRA plugin project, the plugin descriptor starts to take shape.
 
-``` javascript
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
   <plugin-info>
@@ -89,7 +86,7 @@ Resources are non-Java files used by the plugin. For example, a resource may be:
 
 The SDK adds the resource definitions to your plugin descriptor. The declarations take the following form:
 
-``` javascript
+``` xml
 <resource type="velocity" name="template" location="com/example/plugin/template.vm"/>
 <resource type="i18n" name="i18n" location="resources/exampleplugin" />
 <resource type="download" name="style.css" location="com/example/plugin/style.css">
@@ -113,7 +110,7 @@ Plugins can specify internal links within the application to configure themselve
 
 For the entire plugin, place a single `param` element with the name `configure.url` within the `plugin-info` element at the top of the plugin descriptor:
 
-``` javascript
+``` xml
 <plugin-info>
     <description>A macro which displays Google maps within a Confluence page.</description>
     <vendor name="Atlassian" url="http://www.atlassian.com/"/>
@@ -124,7 +121,7 @@ For the entire plugin, place a single `param` element with the name `configure.u
 
 You can specify a configuration page for an individual module by placing the same `param` element with the name `configure.url` within the `descriptor` element for that module:
 
-``` javascript
+``` xml
 <macro name="gmap" class="com.atlassian.confluence.ext.gmaps.GmapsMacro" key="gmap">
     <description>The individual map macro.</description>
     <param name="configure.url">/admin/plugins/gmaps/configureMacro.action</param>
@@ -147,344 +144,6 @@ The plugin descriptor file already contains variables for common values, such as
 
 -   [Marking Packages as Optional Imports](/server/framework/atlassian-sdk/marking-packages-as-optional-imports)
 -   [atlassian-plugin.xml Element Reference](/server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

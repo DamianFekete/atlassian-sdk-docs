@@ -67,9 +67,9 @@ When starting from scratch, you can use the extension wizard to create a new con
 
     {{% note %}}
 
-You may see a warning saying 'No one has access to this page. Click here to change these settings.' You'll need to click on the link to configure access for your extensions first before proceeding.
+    You may see a warning saying 'No one has access to this page. Click here to change these settings.' You'll need to click on the link to configure access for your extensions first before proceeding.
 
-{{% /note %}}
+    {{% /note %}}
 
 3.  To start creating your Extension, click on the **+ Install** button, and then click on the "use the wizard" link
 4.  Fill in the key, name, and description of your new extension
@@ -80,47 +80,40 @@ If you click on "Edit", you'll see this plugin have the following files, assumin
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p><strong>File</strong></p></th>
 <th><p><strong>Description </strong></p></th>
-<th><p><strong>Required </strong></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>atlassian-extension.json </p></td>
-<td><p>The manifest for the extension.  The only required attributes are &quot;key&quot; and &quot;version&quot;. </p></td>
-<td><p>Yes</p></td>
+<td><p>The manifest for the extension.  The only required attributes are &quot;key&quot; and &quot;version&quot;. </p>
+<p><strong>Required</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>screenshot.png</p></td>
 <td><p>The screenshot to show in the extension list. Referred to in the descriptor. Must be a 175 x 80 pixel gif.</p></td>
-<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>js/myext/main.js </p></td>
 <td><p>The JavaScript module to execute on the default context of &quot;atl.general&quot;.  The example puts a banner on the top of every non-admin page with an image. </p></td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>css/main.css </p></td>
 <td><p>The CSS file to be displayed whenever the JavaScript is executed.  The example hides the second banner that says &quot;Bye&quot;. </p></td>
-<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>images/projectavatar.png </p></td>
 <td><p>An image file that is referenced in the JavaScript </p></td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>ui/web-items.json </p></td>
 <td><p>A list of web items.  The example is one that puts a &quot;Yahoo&quot; link on the Speakeasy page </p></td>
-<td><p> </p></td>
 </tr>
 </tbody>
 </table>
@@ -197,52 +190,46 @@ Web items are defined in the file `ui/web-items.json` as a list of web item obje
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
 <th><p>Description</p></th>
-<th><p>Required</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>section</p></td>
-<td><p>Where the web item will show up</p></td>
-<td><p>Yes</p></td>
+<td><p>Where the web item will show up.</p>
+<p><strong>Required</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>label</p></td>
-<td><p>The text to show for the web item</p></td>
-<td><p>Yes</p></td>
+<td><p>The text to show for the web item.</p>
+<p><strong>Required</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>url</p></td>
-<td><p>The URL for the link to point to</p></td>
-<td><p>Yes</p></td>
+<td><p>The URL for the link to point to.</p>
+<p><strong>Required</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>cssId</p></td>
 <td><p>The CSS ID of the link anchor (0.12.2 or later)</p></td>
-<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>cssClass</p></td>
 <td><p>The CSS class or set of classes for the link anchor</p></td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>weight</p></td>
 <td><p>The weight of the web item</p></td>
-<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>tooltip</p></td>
 <td><p>The text to show for the tool tip, if applicable</p></td>
-<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>icon</p></td>
@@ -252,7 +239,6 @@ Web items are defined in the file `ui/web-items.json` as a list of web item obje
 <li><code>height</code> - The height of the icon</li>
 <li><code>url</code> - The url of the icon</li>
 </ul></td>
-<td><p> </p></td>
 </tr>
 </tbody>
 </table>
@@ -388,344 +374,6 @@ The custom module types are necessary to ensure the plugin can be enabled on a p
 Keep in mind the idea is the application should work 100% correctly if your extension is not enabled. This means you shouldn't do things like create psuedo Confluence macros that show useful information for your extension users but blank screens or gibberish for all others.
 
 {{% /note %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
