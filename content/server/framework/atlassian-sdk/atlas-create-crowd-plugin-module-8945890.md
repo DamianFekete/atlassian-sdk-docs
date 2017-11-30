@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Crowd Plugin Module 8945890
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-crowd-plugin-module-8945890.html
+- /server/framework/atlassian-sdk/atlas-create-crowd-plugin-module-8945890.html
+- /server/framework/atlassian-sdk/atlas-create-crowd-plugin-module-8945890.md
+category: devguide
+confluence_id: 8945890
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945890
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945890
-confluence_id: 8945890
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-crowd-plugin-module
+new_url: /server/framework/atlassian-sdk/atlas-create-crowd-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-crowd-plugin-module
 ---
 # atlas-create-crowd-plugin-module
 
-This page describes the shell script `atlas-create-crowd-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-crowd-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Crowd**.
 
@@ -28,7 +32,7 @@ This shell script is a Maven wrapper script. All parameters are passed straight 
 
 ## Supported plugin module types
 
-The plugin module generation scripts are still under development. Currently, only the JIRA script has the full set of modules. All other products contain the applicable common modules, such as REST, web item and servlet. See the list of [common modules in the Atlassian Plugin Framework](/server/framework/atlassian-sdk/plugin-modules-852136.html).
+The plugin module generation scripts are still under development. Currently, only the JIRA script has the full set of modules. All other products contain the applicable common modules, such as REST, web item and servlet. See the list of [common modules in the Atlassian Plugin Framework](/server/framework/atlassian-sdk/plugin-modules).
 
 ## Getting Help
 
@@ -63,7 +67,92 @@ Let's assume you want to add a new plugin module to your existing Crowd plugin.
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Best Practices 2818374
 aliases:
-    - /server/framework/atlassian-sdk/best-practices-2818374.html
+- /server/framework/atlassian-sdk/best-practices-2818374.html
+- /server/framework/atlassian-sdk/best-practices-2818374.md
+category: devguide
+confluence_id: 2818374
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818374
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818374
-confluence_id: 2818374
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/best-practices
+new_url: /server/framework/atlassian-sdk/best-practices
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Best Practices
 ---
 # Best Practices
 
@@ -37,6 +41,15 @@ you might try
 That will ensure that your CSS rules don't get applied to anyone else's plugins, and you don't inadvertently pick up a style from Confluence's table class that may change in the future.
 
 On the Javascript side, you run an even greater risk of conflicting with the product or with another plugin. For that reason, you should namespace your javascript as outlined in <a href="http://icant.co.uk/articles/seven-rules-of-unobtrusive-javascript/#r6" class="external-link">this tutorial</a>. Our products don't actually follow this rule yet, so it's doubly important for plugins to do so.
+
+
+
+
+
+
+
+
+
 
 
 

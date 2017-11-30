@@ -1,14 +1,18 @@
 ---
-title: Atlas Integration Test 2818349
 aliases:
-    - /server/framework/atlassian-sdk/atlas-integration-test-2818349.html
+- /server/framework/atlassian-sdk/atlas-integration-test-2818349.html
+- /server/framework/atlassian-sdk/atlas-integration-test-2818349.md
+category: devguide
+confluence_id: 2818349
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818349
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818349
-confluence_id: 2818349
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-integration-test
+new_url: /server/framework/atlassian-sdk/atlas-integration-test
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-integration-test
 ---
 # atlas-integration-test
 
@@ -155,6 +159,80 @@ atlas-integration-test --product confluence
 
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818349" class="createlink">Atlassian Plugin SDK Documentation</a>  
 [Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

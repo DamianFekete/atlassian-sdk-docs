@@ -1,14 +1,18 @@
 ---
-title: Storing Plugin Settings 18251950
 aliases:
-    - /server/framework/atlassian-sdk/storing-plugin-settings-18251950.html
+- /server/framework/atlassian-sdk/storing-plugin-settings-18251950.html
+- /server/framework/atlassian-sdk/storing-plugin-settings-18251950.md
+category: devguide
+confluence_id: 18251950
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18251950
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18251950
-confluence_id: 18251950
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/storing-plugin-settings
+new_url: /server/framework/atlassian-sdk/storing-plugin-settings
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Storing plugin settings
 ---
 # Storing plugin settings
 
@@ -37,6 +41,120 @@ The `PluginSettingsFactory` allows us to create specific `PluginSettings` ob
 Plugin developers benefit from the use of the abstract factory pattern here in several ways. No matter what the target product for a plugin, one syntax can be used to interact with plugin settings. So it is not necessary for developers to learn and remember multiple, distinct settings storage syntax for different products. And a particular plugin could potentially have multiple target products without special handling, at least as far as plugin settings are concerned.
 
 These are benefits often seen when using factories for object creation: users of the object are insulated from the specific objects used and their implementations, and maintenance changes only need to occur in one location rather than in each client.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

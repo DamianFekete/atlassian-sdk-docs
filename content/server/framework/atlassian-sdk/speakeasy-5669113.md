@@ -1,14 +1,18 @@
 ---
-title: Speakeasy 5669113
 aliases:
-    - /server/framework/atlassian-sdk/speakeasy-5669113.html
+- /server/framework/atlassian-sdk/speakeasy-5669113.html
+- /server/framework/atlassian-sdk/speakeasy-5669113.md
+category: devguide
+confluence_id: 5669113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669113
-confluence_id: 5669113
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy
+new_url: /server/framework/atlassian-sdk/speakeasy
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Speakeasy
 ---
 # Speakeasy
 
@@ -46,7 +50,7 @@ Further to these goals, let me throw a few points out there to clarify.
 -   End users can install, enable and disable their *own* extensions. (The set of users who can install, and the set of users who can enable extensions will eventually be customisable, but for now, it's everyone, so be wary)
 -   The augmentative part we're still working on, the broad idea is that if you turn them off, the base product is unchanged. This reduces the "upgrade pain" associated with plugin compatibility somewhat (you can wait for an extension to be made compatible with a new release and still upgrade)
 -   Plugins are enabled per server, for everyone. This causes various issues with deployability as a rogue or broken plugin can bring down a server, or at least cause it harm. Extensions however are per user. This means a single user can only hurt themselves (they might get a funny looking interface) and not any other users if they're experimenting or trying a new extension. This again increases the safety for your server. (Note: there is a "disable all" URL that always works - if someone gets themselves into trouble, they can always use that to get out of it)
--   Learn more at the [Troubleshooting Speakeasy](/server/framework/atlassian-sdk/troubleshooting-speakeasy-2818156.html)
+-   Learn more at the [Troubleshooting Speakeasy](/server/framework/atlassian-sdk/troubleshooting-speakeasy)
 
 **For developers:**
 
@@ -58,9 +62,9 @@ There are still one or two major technical pillars we're building - but we're re
 
 # How do I get started with Speakeasy?
 
-Right now, you must [install the Speakeasy plugin](/server/framework/atlassian-sdk/installing-speakeasy-2818535.html) into your server (JIRA 4.3+ or Confluence 3.5+). Any user can then go to "\[DEVNET:Their name\] &gt; Speakeasy" and upload an extension.  Other users can then enable that extension, or fork it, etc. Extensions aren't available on the Atlassian Marketplace yet, but you can build your own or get some that others have built. 
+Right now, you must [install the Speakeasy plugin](/server/framework/atlassian-sdk/installing-speakeasy) into your server (JIRA 4.3+ or Confluence 3.5+). Any user can then go to "\[DEVNET:Their name\] &gt; Speakeasy" and upload an extension.  Other users can then enable that extension, or fork it, etc. Extensions aren't available on the Atlassian Marketplace yet, but you can build your own or get some that others have built. 
 
-Once you have Speakeasy installed, take a look at [Example Extensions](/server/framework/atlassian-sdk/example-extensions-2818108.html) for a list of extensions we have published, or [Developing Speakeasy Extensions](/server/framework/atlassian-sdk/developing-speakeasy-extensions-2818113.html) to get started developing your own extensions. You can even improve the Speakeasy Plugin itself, as described on [Extending the Speakeasy Plugin](/server/framework/atlassian-sdk/extending-the-speakeasy-plugin-2818151.html).
+Once you have Speakeasy installed, take a look at [Example Extensions](/server/framework/atlassian-sdk/example-extensions) for a list of extensions we have published, or [Developing Speakeasy Extensions](/server/framework/atlassian-sdk/developing-speakeasy-extensions) to get started developing your own extensions. You can even improve the Speakeasy Plugin itself, as described on [Extending the Speakeasy Plugin](/server/framework/atlassian-sdk/extending-the-speakeasy-plugin).
 
 # What's the catch?
 
@@ -73,6 +77,9 @@ As a reference, we're running it at Atlassian on all our internal instances, and
 -   <a href="https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/labs/speakeasy-plugin" class="external-link">Maven repository</a>
 -   <a href="http://github.com/mrdon/speakeasy-plugin" class="external-link">Github project page</a>
 -   Talk: <a href="http://www.atlassian.com/company/about/events/atlascamp/2011/day2/remixing-confluence-with-speakeasy" class="external-link">Remixing Confluence with Speakeasy</a> (AtlasCamp 2011)
+
+
+
 
 
 

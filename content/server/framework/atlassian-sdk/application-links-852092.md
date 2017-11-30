@@ -1,14 +1,18 @@
 ---
-title: Application Links 852092
 aliases:
-    - /server/framework/atlassian-sdk/application-links-852092.html
+- /server/framework/atlassian-sdk/application-links-852092.html
+- /server/framework/atlassian-sdk/application-links-852092.md
+category: devguide
+confluence_id: 852092
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852092
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852092
-confluence_id: 852092
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/application-links
+new_url: /server/framework/atlassian-sdk/application-links
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Application links
 ---
 # Application links
 
@@ -28,9 +32,179 @@ The Javadoc for Application Links (AppLinks) is available via the links below:
 
 <a href="http://confluence.atlassian.com/display/APPLINKS/Application+Links+Documentation" class="external-link">Application Links user documentation</a>
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

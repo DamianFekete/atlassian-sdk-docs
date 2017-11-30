@@ -1,20 +1,24 @@
 ---
-title: Atlas Create Home Zip 2818359
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-home-zip-2818359.html
+- /server/framework/atlassian-sdk/atlas-create-home-zip-2818359.html
+- /server/framework/atlassian-sdk/atlas-create-home-zip-2818359.md
+category: devguide
+confluence_id: 2818359
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818359
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818359
-confluence_id: 2818359
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-home-zip
+new_url: /server/framework/atlassian-sdk/atlas-create-home-zip
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-home-zip
 ---
 # atlas-create-home-zip
 
-This page describes the shell script `atlas-create-home-zip`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-home-zip`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
-NOTE: This command is only available in [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html) version 3.1 and later
+NOTE: This command is only available in [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk) version 3.1 and later
 
  
 
@@ -58,6 +62,88 @@ to the `<configuration/>` of the `maven-jira-plugin` or `maven-confluence-plugi
 ```
 
 Now every time you start JIRA or Confluence using `atlas-run` or `atlas-debug`, the home directory will be prepopulated using the contents of the generated zip file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

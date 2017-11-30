@@ -1,14 +1,18 @@
 ---
-title: Getting Help with the Sdk 2818317
 aliases:
-    - /server/framework/atlassian-sdk/getting-help-with-the-sdk-2818317.html
+- /server/framework/atlassian-sdk/getting-help-with-the-sdk-2818317.html
+- /server/framework/atlassian-sdk/getting-help-with-the-sdk-2818317.md
+category: devguide
+confluence_id: 2818317
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818317
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818317
-confluence_id: 2818317
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/getting-help-with-the-sdk
+new_url: /server/framework/atlassian-sdk/getting-help-with-the-sdk
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Getting help with the SDK
 ---
 # Getting help with the SDK
 
@@ -54,6 +58,68 @@ atlas-cli -?
 ###### Reading the Reference Guide
 
 See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818463" class="createlink">guide to all scripts</a>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

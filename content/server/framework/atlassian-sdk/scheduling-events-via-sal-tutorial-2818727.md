@@ -1,14 +1,18 @@
 ---
-title: Scheduling Events via Sal Tutorial 2818727
 aliases:
-    - /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial-2818727.html
+- /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial-2818727.html
+- /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial-2818727.md
+category: devguide
+confluence_id: 2818727
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818727
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818727
-confluence_id: 2818727
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/scheduling-events-via-sal-tutorial
+new_url: /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Scheduling events via SAL tutorial
 ---
 # Scheduling events via SAL tutorial
 
@@ -22,7 +26,7 @@ Our tutorials are classified as 'beginner', 'intermediate' and 'advanced'. This 
 
 # Overview
 
-This tutorial shows you how to schedule Java tasks in your plugin that run in the background at regular intervals. To this end we will use the cross-product `PluginScheduler` component from [SAL](/server/framework/atlassian-sdk/sal-services-5242921.html) (Shared Access Layer).
+This tutorial shows you how to schedule Java tasks in your plugin that run in the background at regular intervals. To this end we will use the cross-product `PluginScheduler` component from [SAL](/server/framework/atlassian-sdk/sal-services) (Shared Access Layer).
 
 Scheduled background tasks can be useful in many situations where relatively expensive tasks, or housekeeping works needs to be run periodically. In this tutorial our periodic background task will be a search on Twitter that runs every 5 seconds and stores the results of the most recent search in memory (for the sake of this tutorial we'll pretend that a Twitter search is a very expensive task).
 
@@ -51,7 +55,7 @@ Alternatively, you can download the source using the **Downloads** page here:�
 
 To complete this tutorial, you must already understand the basics of Java development: classes, interfaces, methods, how to use the compiler, and so on. You should also understand:
 
--   how to create an Atlassian plugin project using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+-   how to create an Atlassian plugin project using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
 -   how to open the plugin project in your IDE
 -   how to compile your project and create a JAR file using Maven.
 
@@ -550,6 +554,133 @@ $ mvn jira:run
 <img src="/server/framework/atlassian-sdk/images/screen2.png" width="300" height="156" />
 
 <img src="/server/framework/atlassian-sdk/images/screen3.png" width="300" height="181" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

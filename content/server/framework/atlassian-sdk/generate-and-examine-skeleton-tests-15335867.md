@@ -1,14 +1,18 @@
 ---
-title: Generate and Examine Skeleton Tests 15335867
 aliases:
-    - /server/framework/atlassian-sdk/generate-and-examine-skeleton-tests-15335867.html
+- /server/framework/atlassian-sdk/generate-and-examine-skeleton-tests-15335867.html
+- /server/framework/atlassian-sdk/generate-and-examine-skeleton-tests-15335867.md
+category: devguide
+confluence_id: 15335867
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335867
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335867
-confluence_id: 15335867
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/generate-and-examine-skeleton-tests
+new_url: /server/framework/atlassian-sdk/generate-and-examine-skeleton-tests
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Generate and Examine skeleton tests
 ---
 # Generate and Examine skeleton tests
 
@@ -238,11 +242,20 @@ The `jira-tests` artifact contains the JIRA Unit tests.  The `jira-func-tests`,
 
 ## Next Step
 
-So far, you've learned about the generated structure created for you when you run an `atlas-create-application-plugin` command.  This structure includes test directories, files, and dependencies. This is code that Atlassian generates for all plugin developers automatically.  In the next section, you [write a simple unit test, execute the test in your plugin, and review the results](/server/framework/atlassian-sdk/create-and-run-unit-tests-15335878.html) of the test.
+So far, you've learned about the generated structure created for you when you run an `atlas-create-application-plugin` command.  This structure includes test directories, files, and dependencies. This is code that Atlassian generates for all plugin developers automatically.  In the next section, you [write a simple unit test, execute the test in your plugin, and review the results](/server/framework/atlassian-sdk/create-and-run-unit-tests) of the test.
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

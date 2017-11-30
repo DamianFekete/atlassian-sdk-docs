@@ -1,14 +1,17 @@
 ---
-title: Amps 6.3.6 52429199
 aliases:
-    - /server/framework/atlassian-sdk/amps-6.3.6-52429199.html
+- /server/framework/atlassian-sdk/amps-6.3.6-52429199.html
+- /server/framework/atlassian-sdk/amps-6.3.6-52429199.md
+category: devguide
+confluence_id: 52429199
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=52429199
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=52429199
-confluence_id: 52429199
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes/amps-6-3-6
+new_url: /server/framework/atlassian-sdk/amps-6-3-6
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: AMPS 6.3.6
 ---
 # AMPS 6.3.6
 
@@ -28,35 +31,6 @@ This version now includes the latest stable product versions as defaults:
 | Confluence | 6.4.0                |
 | JIRA       | 7.5.0                |
 | Crowd      | 3.0.0                |
-
- 
-
- 
-
- 
-
-  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

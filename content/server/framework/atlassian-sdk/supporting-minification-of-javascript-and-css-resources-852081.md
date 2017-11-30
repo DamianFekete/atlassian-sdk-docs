@@ -1,14 +1,18 @@
 ---
-title: Supporting Minification Of Javascript and Css Resources 852081
 aliases:
-    - /server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources-852081.html
+- /server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources-852081.html
+- /server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources-852081.md
+category: devguide
+confluence_id: 852081
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852081
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852081
-confluence_id: 852081
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/supporting-minification-of-javascript-and-css-resources
+new_url: /server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Supporting minification of JavaScript and CSS resources
 ---
 # Supporting minification of JavaScript and CSS resources
 
@@ -88,10 +92,6 @@ You can turn off minification support in your development environments, so that 
 ```
 
 Minification is automatically disabled in Atlassian developer mode.
-
-
-
-
 
 
 

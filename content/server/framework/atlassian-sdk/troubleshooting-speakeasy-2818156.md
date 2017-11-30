@@ -1,14 +1,18 @@
 ---
-title: Troubleshooting Speakeasy 2818156
 aliases:
-    - /server/framework/atlassian-sdk/troubleshooting-speakeasy-2818156.html
+- /server/framework/atlassian-sdk/troubleshooting-speakeasy-2818156.html
+- /server/framework/atlassian-sdk/troubleshooting-speakeasy-2818156.md
+category: devguide
+confluence_id: 2818156
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818156
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818156
-confluence_id: 2818156
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/troubleshooting-speakeasy
+new_url: /server/framework/atlassian-sdk/troubleshooting-speakeasy
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Troubleshooting Speakeasy
 ---
 # Troubleshooting Speakeasy
 
@@ -46,8 +50,6 @@ The following are problems that may occur with Speakeasy and their solution:
 </tr>
 </tbody>
 </table>
-
-
 
 
 

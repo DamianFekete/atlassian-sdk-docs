@@ -1,14 +1,17 @@
 ---
-title: Sal Services 5242921
 aliases:
-    - /server/framework/atlassian-sdk/sal-services-5242921.html
+- /server/framework/atlassian-sdk/sal-services-5242921.html
+- /server/framework/atlassian-sdk/sal-services-5242921.md
+category: devguide
+confluence_id: 5242921
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242921
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242921
-confluence_id: 5242921
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-services
+new_url: /server/framework/atlassian-sdk/sal-services
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: SAL services
 ---
 # SAL services
 
@@ -953,7 +956,138 @@ Crucible<br />
 ##### RELATED TOPICS
 
 <a href="http://docs.atlassian.com/sal-api/" class="external-link">Javadoc</a>  
-[About SAL Development](/server/framework/atlassian-sdk/about-sal-development-5242930.html)
+[About SAL Development](/server/framework/atlassian-sdk/about-sal-development)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

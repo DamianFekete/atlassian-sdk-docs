@@ -1,14 +1,17 @@
 ---
-title: Servlet Filter Plugin Module 852110
 aliases:
-    - /server/framework/atlassian-sdk/servlet-filter-plugin-module-852110.html
+- /server/framework/atlassian-sdk/servlet-filter-plugin-module-852110.html
+- /server/framework/atlassian-sdk/servlet-filter-plugin-module-852110.md
+category: reference
+confluence_id: 852110
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852110
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852110
-confluence_id: 852110
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-filter-plugin-module
+new_url: /server/framework/atlassian-sdk/servlet-filter-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Servlet Filter plugin module
 ---
 # Servlet Filter plugin module
 
@@ -218,7 +221,47 @@ Some information to be aware of when developing or configuring a Servlet Filter 
 ##### RELATED TOPICS
 
 [Servlet Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Plugin+Module)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

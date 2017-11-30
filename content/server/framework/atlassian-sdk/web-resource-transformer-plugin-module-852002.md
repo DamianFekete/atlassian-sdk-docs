@@ -1,14 +1,17 @@
 ---
-title: Web Resource Transformer Plugin Module 852002
 aliases:
-    - /server/framework/atlassian-sdk/web-resource-transformer-plugin-module-852002.html
+- /server/framework/atlassian-sdk/web-resource-transformer-plugin-module-852002.html
+- /server/framework/atlassian-sdk/web-resource-transformer-plugin-module-852002.md
+category: reference
+confluence_id: 852002
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852002
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852002
-confluence_id: 852002
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-resource-transformer-plugin-module
+new_url: /server/framework/atlassian-sdk/web-resource-transformer-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Resource Transformer plugin module
 ---
 # Web Resource Transformer plugin module
 
@@ -185,8 +188,41 @@ Some information to be aware of when developing or configuring a Web Resource Tr
 
 ##### RELATED TOPICS
 
-[Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)  
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

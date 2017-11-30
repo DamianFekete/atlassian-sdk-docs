@@ -1,14 +1,18 @@
 ---
-title: Stateless Web Resource Transforms and Conditions 28313151
 aliases:
-    - /server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions-28313151.html
+- /server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions-28313151.html
+- /server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions-28313151.md
+category: devguide
+confluence_id: 28313151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28313151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28313151
-confluence_id: 28313151
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/stateless-web-resource-transforms-and-conditions
+new_url: /server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Stateless web-resource transforms and conditions
 ---
 # Stateless web-resource transforms and conditions
 
@@ -68,7 +72,7 @@ Note that fixing the transform can be hard, as it may not be the transform class
 
 ### Transforms that do variable injection
 
-For a long time, there was no good way of inserting JSON data into a page. One solution people used was to use transforms to inject data into JavaScript as it is being served -- for example, the ContextPathTransformer. Now, there is a much better way -- deliver JSON data via the [Stateless web-resource transforms and conditions](/server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions-28313151.html).
+For a long time, there was no good way of inserting JSON data into a page. One solution people used was to use transforms to inject data into JavaScript as it is being served -- for example, the ContextPathTransformer. Now, there is a much better way -- deliver JSON data via the [Stateless web-resource transforms and conditions](/server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions).
 
 To see this in action, see the new ContextPathProvider. This consists of three parts:
 
@@ -143,9 +147,6 @@ In an old product, `class2` will be ignored.
 In a new product, for a `web-resource` only (ie not a `web-item` / `web-panel` etc), the contract is to look for `class2` if it exists, otherwise use `class`.
 
 Note that `class` can be either a condition1 or a condition2 - in particular if you're implementing something for condition2 only, `class` can be a condition2.
-
-
-
 
 
 

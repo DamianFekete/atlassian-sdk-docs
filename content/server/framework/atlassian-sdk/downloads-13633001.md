@@ -1,14 +1,17 @@
 ---
-title: Downloads 13633001
 aliases:
-    - /server/framework/atlassian-sdk/downloads-13633001.html
+- /server/framework/atlassian-sdk/downloads-13633001.html
+- /server/framework/atlassian-sdk/downloads-13633001.md
+category: devguide
+confluence_id: 13633001
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633001
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633001
-confluence_id: 13633001
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/downloads
+new_url: /server/framework/atlassian-sdk/downloads
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: Downloads
 ---
 # Downloads
 
@@ -61,7 +64,7 @@ Just check your pre-requisites on [Windows](https://developer.atlassian.com/docs
 
 If you're installing the Atlassian SDK for the first time, you may want to follow the more detailed instructions. 
 
-› [Set up the Atlassian SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)
+› [Set up the Atlassian SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
  
 
@@ -178,7 +181,7 @@ If you need to install an earlier version of the SDK for any reason, you can do 
     -   Mac OS X: <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-mac/versions" class="uri external-link">https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-mac/versions</a>
 
     {{% note %}}
-    The Atlassian Marketplace contains only relatively recent version of the Atlassian Plugin SDK. If you need an older version than what is available on the Marketplace, you can get it from the <a href="https://maven.atlassian.com/index.html#nexus-search;quick%7Eatlassian-plugin-sdk" class="external-link">Atlassian Maven repository</a>.
+The Atlassian Marketplace contains only relatively recent version of the Atlassian Plugin SDK. If you need an older version than what is available on the Marketplace, you can get it from the <a href="https://maven.atlassian.com/index.html#nexus-search;quick%7Eatlassian-plugin-sdk" class="external-link">Atlassian Maven repository</a>.
 
     {{% /note %}}
 3.  Once you have the package for the version you want, install it using the method appropriate for your OS. For example, for Debian / Ubuntu Linux, use:
@@ -199,9 +202,60 @@ If you need to install an earlier version of the SDK for any reason, you can do 
     /usr/share/atlassian-plugin-sdk-4.1.5/bin
     ```
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

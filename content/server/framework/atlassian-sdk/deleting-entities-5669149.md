@@ -1,14 +1,18 @@
 ---
-title: Deleting Entities 5669149
 aliases:
-    - /server/framework/atlassian-sdk/deleting-entities-5669149.html
+- /server/framework/atlassian-sdk/deleting-entities-5669149.html
+- /server/framework/atlassian-sdk/deleting-entities-5669149.md
+category: devguide
+confluence_id: 5669149
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669149
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669149
-confluence_id: 5669149
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/deleting-entities
+new_url: /server/framework/atlassian-sdk/deleting-entities
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Deleting entities
 ---
 # Deleting entities
 
@@ -23,7 +27,197 @@ private void deleteBlog(Blog blog) throws SQLException
 
 Note that the delete method take a vararg argument so it is possible to delete several entities at once.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,20 +1,24 @@
 ---
-title: Plugin Framework 852107
 aliases:
-    - /server/framework/atlassian-sdk/plugin-framework-852107.html
+- /server/framework/atlassian-sdk/plugin-framework-852107.html
+- /server/framework/atlassian-sdk/plugin-framework-852107.md
+category: devguide
+confluence_id: 852107
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852107
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852107
-confluence_id: 852107
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework
+new_url: /server/framework/atlassian-sdk/plugin-framework
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Plugin Framework
 ---
 # Plugin Framework
 
 ## Getting Started
 
-Get started by [setting up your Atlassian plugin development environment](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html).
+Get started by [setting up your Atlassian plugin development environment](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
 With Atlassian's plugin development platform, you can create plugins that extend the functionality of Atlassian applications such as <a href="http://www.atlassian.com/software/jira/" class="external-link">JIRA</a>, <a href="http://www.atlassian.com/software/confluence/" class="external-link">Confluence</a> and <a href="http://www.atlassian.com" class="external-link">others</a>.
 
@@ -30,14 +34,14 @@ The plugin framework supports several types of plugins, including OSGi-based plu
 
 ### Plugin Descriptor
 
-See how to [define your plugin via an XML file](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor-852008.html), the 'plugin descriptor'.
+See how to [define your plugin via an XML file](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor), the 'plugin descriptor'.
 
 ### OSGi, Spring and the Plugin Framework\*
 
 Read the in-depth information about [how we use OSGi](/server/framework/atlassian-sdk/852146.html) in the Atlassian Plugin Framework.
 
 \*Embedding the Plugin Framework  
-Find out how to [transform your web application](/server/framework/atlassian-sdk/embedding-the-plugin-framework-852025.html) into a platform that can be extended at runtime via plugins.
+Find out how to [transform your web application](/server/framework/atlassian-sdk/embedding-the-plugin-framework) into a platform that can be extended at runtime via plugins.
 
  
 
@@ -45,7 +49,7 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 
 [Atlassian Platform Common Components](/server/framework/atlassian-sdk/atlassian-platform-common-components)
 
-[Application Version Matrix](/server/framework/atlassian-sdk/plugin-framework-version-matrix-852041.html)
+[Application Version Matrix](/server/framework/atlassian-sdk/plugin-framework-version-matrix)
 
 <a href="http://docs.atlassian.com/" class="external-link">Javadoc</a>
 
@@ -69,39 +73,207 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 
 ## Plugin Modules
 
-#### [Plugin Module Index](/server/framework/atlassian-sdk/plugin-module-index-2818387.html)
+#### [Plugin Module Index](/server/framework/atlassian-sdk/plugin-module-index)
 
-#### [Component Import Plugin Module](/server/framework/atlassian-sdk/component-import-plugin-module-852117.html)
+#### [Component Import Plugin Module](/server/framework/atlassian-sdk/component-import-plugin-module)
 
-#### [Component Plugin Module](/server/framework/atlassian-sdk/component-plugin-module-852118.html)
+#### [Component Plugin Module](/server/framework/atlassian-sdk/component-plugin-module)
 
-#### [Module Type Plugin Module](/server/framework/atlassian-sdk/module-type-plugin-module-852019.html)
+#### [Module Type Plugin Module](/server/framework/atlassian-sdk/module-type-plugin-module)
 
-#### [Servlet Context Listener Plugin Module](/server/framework/atlassian-sdk/servlet-context-listener-plugin-module-852123.html)
+#### [Servlet Context Listener Plugin Module](/server/framework/atlassian-sdk/servlet-context-listener-plugin-module)
 
-#### [Servlet Context Parameter Plugin Module](/server/framework/atlassian-sdk/servlet-context-parameter-plugin-module-852120.html)
+#### [Servlet Context Parameter Plugin Module](/server/framework/atlassian-sdk/servlet-context-parameter-plugin-module)
 
-#### [Servlet Filter Plugin Module](/server/framework/atlassian-sdk/servlet-filter-plugin-module-852110.html)
+#### [Servlet Filter Plugin Module](/server/framework/atlassian-sdk/servlet-filter-plugin-module)
 
-#### [Servlet Plugin Module](/server/framework/atlassian-sdk/servlet-plugin-module-852096.html)
+#### [Servlet Plugin Module](/server/framework/atlassian-sdk/servlet-plugin-module)
 
-#### [Template Context Item Plugin Module](/server/framework/atlassian-sdk/template-context-item-plugin-module-852139.html)
+#### [Template Context Item Plugin Module](/server/framework/atlassian-sdk/template-context-item-plugin-module)
 
-#### [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module-852014.html)
+#### [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module)
 
-#### [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module-852000.html)
+#### [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
 
-#### [Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module-852106.html)
+#### [Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)
 
-#### [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module-852116.html)
+#### [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
 
-#### [Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module-852002.html)
+#### [Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module)
 
-#### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module-852133.html)
+#### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

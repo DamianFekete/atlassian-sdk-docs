@@ -24,7 +24,7 @@ subcategory:
 </tr>
 <tr class="even">
 <td><p>Level of experience:</p></td>
-<td><p>This is an advanced tutorial. You should have completed at least one intermediate tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials-2818708.html">list of tutorials in DAC</a>.</p></td>
+<td><p>This is an advanced tutorial. You should have completed at least one intermediate tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials">list of tutorials in DAC</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Time estimate:</p></td>
@@ -55,13 +55,13 @@ To complete this tutorial, you must already understand the basics of Java develo
 
 All these components will be contained within a single JAR file. Each component is further discussed in the examples below.
 
-We'll be making extensive use of [SAL](/server/framework/atlassian-sdk/about-sal-development-5242930.html), which exports a bunch of services that can be used for persistence, user authorization, and other common tasks in a way that will work in any Atlassian application.
+We'll be making extensive use of [SAL](/server/framework/atlassian-sdk/about-sal-development), which exports a bunch of services that can be used for persistence, user authorization, and other common tasks in a way that will work in any Atlassian application.
 
 For rendering the form, we'll use the <a href="https://studio.atlassian.com/wiki/display/ATR/Home" class="external-link">Atlassian Template Renderer</a>. ATR is a plugin that provides services to other plugins that allow them to render templates, typically in Velocity.
 
 For styling our forms to make them look good and for communicating with the server via ajax, we'll be using <a href="https://studio.atlassian.com/browse/AJS" class="external-link">AUI</a>.
 
-To create our REST resources, which our JavaScript will communicate with, we'll use the [REST module](/server/framework/atlassian-sdk/rest-plugin-module-4915219.html).
+To create our REST resources, which our JavaScript will communicate with, we'll use the [REST module](/server/framework/atlassian-sdk/rest-plugin-module).
 
 ### Plugin Source
 
@@ -1369,6 +1369,226 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 5.  Navigate to your servlet location:  
     <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>   
     You should see something similar to the following:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

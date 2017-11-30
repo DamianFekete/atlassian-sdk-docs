@@ -1,14 +1,17 @@
 ---
-title: Writing Your First Plugin Faq 2818654
 aliases:
-    - /server/framework/atlassian-sdk/writing-your-first-plugin-faq-2818654.html
+- /server/framework/atlassian-sdk/writing-your-first-plugin-faq-2818654.html
+- /server/framework/atlassian-sdk/writing-your-first-plugin-faq-2818654.md
+category: devguide
+confluence_id: 2818654
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818654
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818654
-confluence_id: 2818654
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/faq/writing-your-first-plugin-faq
+new_url: /server/framework/atlassian-sdk/writing-your-first-plugin-faq
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: Writing your first plugin FAQ
 ---
 # Writing your first plugin FAQ
 
@@ -290,10 +293,70 @@ A plugin specific log4j.properties file does not get picked up using this method
 
 [Atlassian Plugin SDK FAQ](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq-2818649.html)
 
-[Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)
+[Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
-[Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests-15335861.html)  
-  
+[Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

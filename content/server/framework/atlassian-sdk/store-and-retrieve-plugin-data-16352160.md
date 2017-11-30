@@ -1,14 +1,18 @@
 ---
-title: Store and Retrieve Plugin Data 16352160
 aliases:
-    - /server/framework/atlassian-sdk/store-and-retrieve-plugin-data-16352160.html
+- /server/framework/atlassian-sdk/store-and-retrieve-plugin-data-16352160.html
+- /server/framework/atlassian-sdk/store-and-retrieve-plugin-data-16352160.md
+category: devguide
+confluence_id: 16352160
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352160
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352160
-confluence_id: 16352160
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/store-and-retrieve-plugin-data
+new_url: /server/framework/atlassian-sdk/store-and-retrieve-plugin-data
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Store and retrieve plugin data
 ---
 # Store and retrieve plugin data
 
@@ -191,9 +195,53 @@ You've created a plugin complete with a GUI that accepts and stores data - no mi
 
 [Developing for the Marketplace](https://developer.atlassian.com/display/MARKET/Developing+for+the+Marketplace)
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

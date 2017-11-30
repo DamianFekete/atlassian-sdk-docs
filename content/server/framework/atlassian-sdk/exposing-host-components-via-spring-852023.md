@@ -1,14 +1,18 @@
 ---
-title: Exposing Host Components via Spring 852023
 aliases:
-    - /server/framework/atlassian-sdk/exposing-host-components-via-spring-852023.html
+- /server/framework/atlassian-sdk/exposing-host-components-via-spring-852023.html
+- /server/framework/atlassian-sdk/exposing-host-components-via-spring-852023.md
+category: devguide
+confluence_id: 852023
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852023
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852023
-confluence_id: 852023
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/exposing-host-components-via-spring
+new_url: /server/framework/atlassian-sdk/exposing-host-components-via-spring
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Exposing host components via Spring
 ---
 # Exposing host components via Spring
 
@@ -69,6 +73,171 @@ If you are already defining your beans in XML, it may be more natural to also ma
        <plugin:interface>com.example.SomeCapability</plugin:interface>
     </bean>
     ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

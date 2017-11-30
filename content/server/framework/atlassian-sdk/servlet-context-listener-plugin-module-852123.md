@@ -1,14 +1,17 @@
 ---
-title: Servlet Context Listener Plugin Module 852123
 aliases:
-    - /server/framework/atlassian-sdk/servlet-context-listener-plugin-module-852123.html
+- /server/framework/atlassian-sdk/servlet-context-listener-plugin-module-852123.html
+- /server/framework/atlassian-sdk/servlet-context-listener-plugin-module-852123.md
+category: reference
+confluence_id: 852123
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852123
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852123
-confluence_id: 852123
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-context-listener-plugin-module
+new_url: /server/framework/atlassian-sdk/servlet-context-listener-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Servlet Context Listener plugin module
 ---
 # Servlet Context Listener plugin module
 
@@ -127,7 +130,49 @@ Some information to be aware of when developing or configuring a Servlet Context
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

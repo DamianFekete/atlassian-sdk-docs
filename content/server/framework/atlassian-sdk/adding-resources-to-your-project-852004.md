@@ -1,14 +1,17 @@
 ---
-title: Adding Resources to Your Project 852004
 aliases:
-    - /server/framework/atlassian-sdk/adding-resources-to-your-project-852004.html
+- /server/framework/atlassian-sdk/adding-resources-to-your-project-852004.html
+- /server/framework/atlassian-sdk/adding-resources-to-your-project-852004.md
+category: devguide
+confluence_id: 852004
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852004
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852004
-confluence_id: 852004
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/adding-resources-to-your-project
+new_url: /server/framework/atlassian-sdk/adding-resources-to-your-project
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: Adding resources to your project
 ---
 # Adding resources to your project
 
@@ -236,9 +239,64 @@ The `conditionalComment` parameter also works for JavaScript resources. 
 
 **Description:** The value given here will form the title attribute of the CSS `<link>` tag.
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

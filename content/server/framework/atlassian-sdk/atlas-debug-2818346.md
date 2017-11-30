@@ -1,18 +1,22 @@
 ---
-title: Atlas Debug 2818346
 aliases:
-    - /server/framework/atlassian-sdk/atlas-debug-2818346.html
+- /server/framework/atlassian-sdk/atlas-debug-2818346.html
+- /server/framework/atlassian-sdk/atlas-debug-2818346.md
+category: devguide
+confluence_id: 2818346
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818346
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818346
-confluence_id: 2818346
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-debug
+new_url: /server/framework/atlassian-sdk/atlas-debug
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-debug
 ---
 # atlas-debug
 
-This page describes the shell script `atlas-debug`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-debug`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -89,7 +93,7 @@ Interpreted parameters:
 </tr>
 <tr class="even">
 <td><p>--rest-version</p></td>
-<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module-4915219.html">Atlassian REST module</a> to use.</p></td>
+<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module">Atlassian REST module</a> to use.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--plugins</p></td>
@@ -188,6 +192,83 @@ Say you want to run that RefApp plugin in multiple applications simultaneously, 
 -   Type the following to run the plugin in JIRA:
 
         atlas-debug --product jira --version 4.0-SNAPSHOT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Getting Started with Active Objects 5669135
 aliases:
-    - /server/framework/atlassian-sdk/getting-started-with-active-objects-5669135.html
+- /server/framework/atlassian-sdk/getting-started-with-active-objects-5669135.html
+- /server/framework/atlassian-sdk/getting-started-with-active-objects-5669135.md
+category: devguide
+confluence_id: 5669135
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669135
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669135
-confluence_id: 5669135
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/getting-started-with-active-objects
+new_url: /server/framework/atlassian-sdk/getting-started-with-active-objects
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Getting started with Active Objects
 ---
 # Getting started with Active Objects
 
@@ -53,7 +57,7 @@ git checkout stage3
 
 ## Step 1. Creating the plugin
 
-For the purpose of this tutorial we're going to use the [Atlassian Refapp](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html).
+For the purpose of this tutorial we're going to use the [Atlassian Refapp](/server/framework/atlassian-sdk/about-the-atlassian-refapp).
 
 Creating the plugin, once the SDK is installed is as simple as running **`atlas-create-refapp-plugin`**, and answering the questions asked.
 
@@ -71,7 +75,7 @@ Note: You may need to use a different folder to the downloaded source to avoid c
 
 {{% /note %}}{{% note %}}
 
-The following instructions should apply to using Active Objects across Atlassian products, whether in JIRA, Confluence, Bamboo or the Refapp. There are some minor differences between the products, however. For example, the name of the plugin referenced in your `pom.xml` will differ, as it follows the pattern `maven-product-plugin`. See [Getting Started](/server/framework/atlassian-sdk/getting-started-5668881.html) for common information on developing Atlassian plugins and using the SDK, or a particular product development space--like [JIRA developer documentation](https://developer.atlassian.com/display/JIRADEV), or [Confluence Cloud](https://developer.atlassian.com/display/CONFCLOUD) or [Server](https://developer.atlassian.com/display/CONFDEV)--for product-specific information, if necessary.
+The following instructions should apply to using Active Objects across Atlassian products, whether in JIRA, Confluence, Bamboo or the Refapp. There are some minor differences between the products, however. For example, the name of the plugin referenced in your `pom.xml` will differ, as it follows the pattern `maven-product-plugin`. See [Getting Started](/server/framework/atlassian-sdk/index) for common information on developing Atlassian plugins and using the SDK, or a particular product development space--like [JIRA developer documentation](https://developer.atlassian.com/display/JIRADEV), or [Confluence Cloud](https://developer.atlassian.com/display/CONFCLOUD) or [Server](https://developer.atlassian.com/display/CONFDEV)--for product-specific information, if necessary.
 
 {{% /note %}}
 
@@ -924,7 +928,7 @@ We've now completed **stage 4** of this guide.
 
 NOTE: If you're having issues, you might want to compare with <a href="https://bitbucket.org/atlassian_tutorial/ao-tutorial/src/8ff99e91f5a4/ao-tutorial-stage4/" class="external-link">my version of the code</a>.
 
-You'll notice that there are other stages to the source code. This is because [Handling AO Upgrade Tasks](/server/framework/atlassian-sdk/handling-ao-upgrade-tasks-45520507.html) follows on from this tutorial.
+You'll notice that there are other stages to the source code. This is because [Handling AO Upgrade Tasks](/server/framework/atlassian-sdk/handling-ao-upgrade-tasks) follows on from this tutorial.
 
 {{% /tip %}}
 
@@ -934,6 +938,190 @@ You'll notice that there are other stages to the source code. This is because [
 -   <a href="http://java.net/projects/activeobjects" class="external-link">Active Objects on java.net</a>
 -   [Active Objects Plugin Module](/server/framework/atlassian-sdk/active-objects-plugin-module)
 -   [Active Objects FAQ](/server/framework/atlassian-sdk/active-objects-faq)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

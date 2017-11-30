@@ -1,14 +1,18 @@
 ---
-title: Working with the Sdk 2818723
 aliases:
-    - /server/framework/atlassian-sdk/working-with-the-sdk-2818723.html
+- /server/framework/atlassian-sdk/working-with-the-sdk-2818723.html
+- /server/framework/atlassian-sdk/working-with-the-sdk-2818723.md
+category: devguide
+confluence_id: 2818723
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818723
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818723
-confluence_id: 2818723
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk
+new_url: /server/framework/atlassian-sdk/working-with-the-sdk
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Working with the SDK
 ---
 # Working with the SDK
 
@@ -123,9 +127,106 @@ The table below shows the applications currently supported by the Atlassian Plug
 
 ***Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).*
 
-The SDK supports both [static](/server/framework/atlassian-sdk/852149.html) and [dynamic](/server/framework/atlassian-sdk/852157.html) plugins. The focus is on [version 2 plugins](/server/framework/atlassian-sdk/851971.html), as supported by the Atlassian Plugin Framework.
+The SDK supports both [static](/server/framework/atlassian-sdk/static-plugin) and [dynamic](/server/framework/atlassian-sdk/dynamic-plugin) plugins. The focus is on [version 2 plugins](/server/framework/atlassian-sdk/version-1-or-version-2-plugin), as supported by the Atlassian Plugin Framework.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

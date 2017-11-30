@@ -1,14 +1,17 @@
 ---
-title: Servlet Modules 851996
 aliases:
-    - /server/framework/atlassian-sdk/servlet-modules-851996.html
+- /server/framework/atlassian-sdk/servlet-modules-851996.html
+- /server/framework/atlassian-sdk/servlet-modules-851996.md
+category: reference
+confluence_id: 851996
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851996
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851996
-confluence_id: 851996
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/using-the-built-in-plugin-modules/servlet-modules
+new_url: /server/framework/atlassian-sdk/servlet-modules
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Servlet modules
 ---
 # Servlet modules
 
@@ -23,7 +26,7 @@ Before any of these can be used, you need to perform a few setup steps:
 
 1.  Copy the atlassian-plugin-servlet jar into your application
 2.  Define, if you haven't already, a `HostContainer` instance as a bean in your application. Its implementation should delegate to your `BeanFactory` (or equivalent) for class instantiation.
-3.  Define the `DefaultServletModuleManager` as a bean in your application. It is recommended this bean is also exposed as a host component. See [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring-852023.html) for more information.
+3.  Define the `DefaultServletModuleManager` as a bean in your application. It is recommended this bean is also exposed as a host component. See [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring) for more information.
 4.  Add the desired module descriptors to your instance of `DefaultModuleDescriptorFactory`
 
 Some descriptors require additional configuration:
@@ -163,6 +166,168 @@ Some descriptors require additional configuration:
             <url-pattern>/*</url-pattern>    
         </filter-mapping>
     ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

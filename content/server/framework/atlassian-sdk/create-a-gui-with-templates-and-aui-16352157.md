@@ -1,14 +1,18 @@
 ---
-title: Create a Gui with Templates and Aui 16352157
 aliases:
-    - /server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui-16352157.html
+- /server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui-16352157.html
+- /server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui-16352157.md
+category: devguide
+confluence_id: 16352157
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352157
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352157
-confluence_id: 16352157
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-gui-with-templates-and-aui
+new_url: /server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Create a GUI with templates and AUI
 ---
 # Create a GUI with templates and AUI
 
@@ -225,9 +229,56 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
 
 Your add-on looks great! Now you'll [add a `POST` method so it can store and retrieve user data](https://developer.atlassian.com/display/DOCS/Store+and+retrieve+plugin+data).
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

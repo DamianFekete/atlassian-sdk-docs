@@ -1,14 +1,18 @@
 ---
-title: Start a Host Application with a Plugin Installed 2818619
 aliases:
-    - /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed-2818619.html
+- /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed-2818619.html
+- /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed-2818619.md
+category: devguide
+confluence_id: 2818619
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818619
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818619
-confluence_id: 2818619
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/start-a-host-application-with-a-plugin-installed
+new_url: /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Start a host application with a plugin installed
 ---
 # Start a host application with a plugin installed
 
@@ -37,7 +41,7 @@ You can use the Atlassian Plugin SDK to download the Atlassian host application 
 3.  Open your browser and go to the URL given in the message.  
     For example, in the message above the URL is <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> for Confluence. The application's login screen appears.
 4.  Log in with username `admin` and password `admin`.
-5.  [Find your plugin](/server/framework/atlassian-sdk/finding-your-plugin-in-the-host-application-2818618.html) to confirm that it was deployed.
+5.  [Find your plugin](/server/framework/atlassian-sdk/finding-your-plugin-in-the-host-application) to confirm that it was deployed.
 
 #### Troubleshooting
 
@@ -51,6 +55,123 @@ You can use the Atlassian Plugin SDK to download the Atlassian host application 
 Please note: The plugin now knows about the host application's binaries, because it has downloaded the JAR files. But it has not downloaded the application source code. You do not need to have access to the host application's source code to be able to develop a plugin. The JAR files alone will enable you to go and write the plugin, using the application's API.
 
 If you hold a commercial license for an Atlassian application with access to the source code, you can attach the application source code to your plugin project. See how to [use the Atlassian Plugin SDK with a source code license](/server/framework/atlassian-sdk/using-the-atlassian-plugin-sdk-with-a-source-code-license-2818656.html).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

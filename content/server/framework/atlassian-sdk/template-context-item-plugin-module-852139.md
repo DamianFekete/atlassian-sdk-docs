@@ -1,14 +1,17 @@
 ---
-title: Template Context Item Plugin Module 852139
 aliases:
-    - /server/framework/atlassian-sdk/template-context-item-plugin-module-852139.html
+- /server/framework/atlassian-sdk/template-context-item-plugin-module-852139.html
+- /server/framework/atlassian-sdk/template-context-item-plugin-module-852139.md
+category: reference
+confluence_id: 852139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852139
-confluence_id: 852139
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/template-context-item-plugin-module
+new_url: /server/framework/atlassian-sdk/template-context-item-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Template Context Item plugin module
 ---
 # Template Context Item plugin module
 
@@ -149,6 +152,44 @@ In `MyService` you would then have a corresponding method that would call the `c
 ##### RELATED TOPICS
 
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Internationalising Your Plugin 8946312
 aliases:
-    - /server/framework/atlassian-sdk/internationalising-your-plugin-8946312.html
+- /server/framework/atlassian-sdk/internationalising-your-plugin-8946312.html
+- /server/framework/atlassian-sdk/internationalising-your-plugin-8946312.md
+category: devguide
+confluence_id: 8946312
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946312
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946312
-confluence_id: 8946312
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/internationalising-your-plugin
+new_url: /server/framework/atlassian-sdk/internationalising-your-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Internationalising your plugin
 ---
 # Internationalising your plugin
 
@@ -310,6 +314,122 @@ The <a href="http://mojo.codehaus.org/l10n-maven-plugin/" class="external-link">
 ## Additional Resources
 
 -   <a href="http://rscbundlecheck.sourceforge.net/" class="uri external-link">http://rscbundlecheck.sourceforge.net/</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

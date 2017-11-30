@@ -1,14 +1,18 @@
 ---
-title: Plugin Release Checklist 2818392
 aliases:
-    - /server/framework/atlassian-sdk/plugin-release-checklist-2818392.html
+- /server/framework/atlassian-sdk/plugin-release-checklist-2818392.html
+- /server/framework/atlassian-sdk/plugin-release-checklist-2818392.md
+category: devguide
+confluence_id: 2818392
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818392
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818392
-confluence_id: 2818392
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/packaging-and-releasing-your-plugin/plugin-release-checklist
+new_url: /server/framework/atlassian-sdk/plugin-release-checklist
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Plugin release checklist
 ---
 # Plugin release checklist
 
@@ -41,6 +45,124 @@ Each time you release a new version of a plugin, there are certain steps you sho
 2.  Update plugins documentation on on <a href="http://studio.plugins.atlassian.com/wiki/" class="uri external-link">http://studio.plugins.atlassian.com/wiki/</a>.
 3.  Update the plugin's listing on <a href="http://plugins.atlassian.com" class="uri external-link">http://plugins.atlassian.com</a>
 4.  Communicate about release (probably with a blog post and a post to the appropriate mailing list.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

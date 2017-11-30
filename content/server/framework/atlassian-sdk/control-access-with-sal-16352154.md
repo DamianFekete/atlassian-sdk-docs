@@ -1,14 +1,18 @@
 ---
-title: Control Access with Sal 16352154
 aliases:
-    - /server/framework/atlassian-sdk/control-access-with-sal-16352154.html
+- /server/framework/atlassian-sdk/control-access-with-sal-16352154.html
+- /server/framework/atlassian-sdk/control-access-with-sal-16352154.md
+category: devguide
+confluence_id: 16352154
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352154
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352154
-confluence_id: 16352154
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal
+new_url: /server/framework/atlassian-sdk/control-access-with-sal
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Control access with SAL
 ---
 # Control access with SAL
 
@@ -124,6 +128,59 @@ In order to load the changes in JIRA and verify that your `UserManager` and `
 ## Next Steps
 
 You've added SAL services to your plugin and verified that your dependencies are correctly configured. Now, [create a GUI using Atlassian User Interface (AUI) resources and templates](https://developer.atlassian.com/display/DOCS/Create+a+GUI+with+templates+and+AUI).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

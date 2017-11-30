@@ -1,14 +1,18 @@
 ---
-title: The Active Objects Library 5669139
 aliases:
-    - /server/framework/atlassian-sdk/the-active-objects-library-5669139.html
+- /server/framework/atlassian-sdk/the-active-objects-library-5669139.html
+- /server/framework/atlassian-sdk/the-active-objects-library-5669139.md
+category: devguide
+confluence_id: 5669139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669139
-confluence_id: 5669139
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library
+new_url: /server/framework/atlassian-sdk/the-active-objects-library
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: The Active Objects library
 ---
 # The Active Objects library
 
@@ -26,15 +30,15 @@ When in an Atlassian plugin
 
 Here is the content of this documentation:
 
--   [Creating an EntityManager](/server/framework/atlassian-sdk/creating-an-entitymanager-5669141.html)
--   [Creating Entities](/server/framework/atlassian-sdk/creating-entities-5669143.html)
--   [Deleting Entities](/server/framework/atlassian-sdk/deleting-entities-5669149.html)
--   [Finding Entities](/server/framework/atlassian-sdk/finding-entities-5669147.html)
--   [Getting entities by PK](/server/framework/atlassian-sdk/getting-entities-by-pk-5669145.html)
--   [ManyToMany Relationship](/server/framework/atlassian-sdk/manytomany-relationship-5669155.html)
--   [OneToMany Relationship](/server/framework/atlassian-sdk/onetomany-relationship-5669153.html)
--   [OneToOne Relationship](/server/framework/atlassian-sdk/onetoone-relationship-5669151.html)
--   [Testing](/server/framework/atlassian-sdk/testing-5669157.html)
+-   [Creating an EntityManager](/server/framework/atlassian-sdk/creating-an-entitymanager)
+-   [Creating Entities](/server/framework/atlassian-sdk/creating-entities)
+-   [Deleting Entities](/server/framework/atlassian-sdk/deleting-entities)
+-   [Finding Entities](/server/framework/atlassian-sdk/finding-entities)
+-   [Getting entities by PK](/server/framework/atlassian-sdk/getting-entities-by-pk)
+-   [ManyToMany Relationship](/server/framework/atlassian-sdk/manytomany-relationship)
+-   [OneToMany Relationship](/server/framework/atlassian-sdk/onetomany-relationship)
+-   [OneToOne Relationship](/server/framework/atlassian-sdk/onetoone-relationship)
+-   [Testing](/server/framework/atlassian-sdk/testing)
 
 ### Some code…
 
@@ -48,6 +52,201 @@ I suggest you clone and check out the code available on BitBucket:
 
 -   <a href="http://java.net/projects/activeobjects" class="uri external-link">http://java.net/projects/activeobjects</a>, this is the Active Objects project on `java.net`. The library is also documented there to some extent.
 -   <a href="https://bitbucket.org/activeobjects/" class="uri external-link">https://bitbucket.org/activeobjects/</a>, this is the Active Objects account on BitBucket. A migration of the whole project (i.e. the library) is in the works and ultimately we see all of Active Objects (the library) resources be available there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

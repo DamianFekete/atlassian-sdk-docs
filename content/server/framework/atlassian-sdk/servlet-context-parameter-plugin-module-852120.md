@@ -1,14 +1,17 @@
 ---
-title: Servlet Context Parameter Plugin Module 852120
 aliases:
-    - /server/framework/atlassian-sdk/servlet-context-parameter-plugin-module-852120.html
+- /server/framework/atlassian-sdk/servlet-context-parameter-plugin-module-852120.html
+- /server/framework/atlassian-sdk/servlet-context-parameter-plugin-module-852120.md
+category: reference
+confluence_id: 852120
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852120
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852120
-confluence_id: 852120
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-context-parameter-plugin-module
+new_url: /server/framework/atlassian-sdk/servlet-context-parameter-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Servlet Context Parameter plugin module
 ---
 # Servlet Context Parameter plugin module
 
@@ -152,7 +155,48 @@ Some information to be aware of when developing or configuring a Servlet Context
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

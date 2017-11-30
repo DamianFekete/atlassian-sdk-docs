@@ -1,18 +1,22 @@
 ---
-title: Atlas Compile 2818348
 aliases:
-    - /server/framework/atlassian-sdk/atlas-compile-2818348.html
+- /server/framework/atlassian-sdk/atlas-compile-2818348.html
+- /server/framework/atlassian-sdk/atlas-compile-2818348.md
+category: devguide
+confluence_id: 2818348
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818348
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818348
-confluence_id: 2818348
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-compile
+new_url: /server/framework/atlassian-sdk/atlas-compile
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-compile
 ---
 # atlas-compile
 
-This page describes the shell script `atlas-compile`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-compile`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -62,6 +66,97 @@ Run the following command to compile your source code without failing the build,
 ``` javascript
 atlas-compile --fail-never
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

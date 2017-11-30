@@ -1,14 +1,18 @@
 ---
-title: Early Access Programs 2818399
 aliases:
-    - /server/framework/atlassian-sdk/early-access-programs-2818399.html
+- /server/framework/atlassian-sdk/early-access-programs-2818399.html
+- /server/framework/atlassian-sdk/early-access-programs-2818399.md
+category: devguide
+confluence_id: 2818399
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818399
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818399
-confluence_id: 2818399
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/additional-developer-resources/early-access-programs
+new_url: /server/framework/atlassian-sdk/early-access-programs
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Early access programs
 ---
 # Early access programs
 
@@ -65,7 +69,114 @@ You can also subscribe to our release feeds in RSS format:
 | Bitbucket         | **<a href="https://my.atlassian.com/download/feeds/stash.rss" class="uri external-link">https://my.atlassian.com/download/feeds/stash.rss</a>**                       |
 | Bamboo            | **<a href="https://my.atlassian.com/download/feeds/bamboo.rss" class="uri external-link">https://my.atlassian.com/download/feeds/bamboo.rss</a>**                     |
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

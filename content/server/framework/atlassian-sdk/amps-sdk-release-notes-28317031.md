@@ -1,14 +1,17 @@
 ---
-title: Amps Sdk Release Notes 28317031
 aliases:
-    - /server/framework/atlassian-sdk/amps-sdk-release-notes-28317031.html
+- /server/framework/atlassian-sdk/amps-sdk-release-notes-28317031.html
+- /server/framework/atlassian-sdk/amps-sdk-release-notes-28317031.md
+category: devguide
+confluence_id: 28317031
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28317031
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28317031
-confluence_id: 28317031
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes
+new_url: /server/framework/atlassian-sdk/amps-sdk-release-notes
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: AMPS SDK release notes
 ---
 # AMPS SDK release notes
 
@@ -61,19 +64,11 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 
 ### For older versions
 
--   [AMPS SDK 6.x and up release notes](/server/framework/atlassian-sdk/amps-sdk-6.x-and-up-release-notes-42733163.html)
--   [AMPS SDK 5.0.4 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5.0.4-release-notes-29465870.html)
--   [AMPS SDK 5.0.3 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5.0.3-release-notes-28868823.html)
--   [AMPS SDK 5.0.2 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5.0.2-release-notes-28318037.html)
--   [AMPS SDK 5.0.0 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5.0.0-release-notes-28317040.html)
-
- 
-
-
-
-
-
-
+-   [AMPS SDK 6.x and up release notes](/server/framework/atlassian-sdk/amps-sdk-6-x-and-up-release-notes)
+-   [AMPS SDK 5.0.4 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-4-release-notes)
+-   [AMPS SDK 5.0.3 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-3-release-notes)
+-   [AMPS SDK 5.0.2 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-2-release-notes)
+-   [AMPS SDK 5.0.0 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-0-release-notes)
 
 
 

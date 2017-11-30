@@ -1,14 +1,18 @@
 ---
-title: Quick Start Guide to Embedding 851992
 aliases:
-    - /server/framework/atlassian-sdk/quick-start-guide-to-embedding-851992.html
+- /server/framework/atlassian-sdk/quick-start-guide-to-embedding-851992.html
+- /server/framework/atlassian-sdk/quick-start-guide-to-embedding-851992.md
+category: devguide
+confluence_id: 851992
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851992
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851992
-confluence_id: 851992
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/quick-start-guide-to-embedding
+new_url: /server/framework/atlassian-sdk/quick-start-guide-to-embedding
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Quick start guide to embedding
 ---
 # Quick start guide to embedding
 
@@ -133,6 +137,170 @@ public class HiMomRunnable implements Runnable
 ```
 
 To deploy this plugin, we can drop it into the "plugins" directory we configured in step 2 and the plugin framework should find it within 2 seconds and install the plugin automatically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Advanced Configuration with Spring Xml Files 6849823
 aliases:
-    - /server/framework/atlassian-sdk/advanced-configuration-with-spring-xml-files-6849823.html
+- /server/framework/atlassian-sdk/advanced-configuration-with-spring-xml-files-6849823.html
+- /server/framework/atlassian-sdk/advanced-configuration-with-spring-xml-files-6849823.md
+category: devguide
+confluence_id: 6849823
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6849823
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6849823
-confluence_id: 6849823
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/advanced-configuration-with-spring-xml-files
+new_url: /server/framework/atlassian-sdk/advanced-configuration-with-spring-xml-files
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Advanced configuration with Spring XML files
 ---
 # Advanced configuration with Spring XML files
 
@@ -33,6 +37,177 @@ To include a Spring configuration file, ensure it is included in the `META-INF/s
 <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=OSGi%2C+Spring+and+the+Plugin+Framework" class="createlink">OSGi, Spring and the Plugin Framework</a>  
 [Writing Atlassian Plugins](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Writing+Atlassian+Plugins)  
 [Managing Plugin Dependencies](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Managing+Plugin+Dependencies)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

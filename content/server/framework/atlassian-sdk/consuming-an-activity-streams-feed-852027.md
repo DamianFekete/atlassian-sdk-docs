@@ -1,14 +1,18 @@
 ---
-title: Consuming an Activity Streams Feed 852027
 aliases:
-    - /server/framework/atlassian-sdk/consuming-an-activity-streams-feed-852027.html
+- /server/framework/atlassian-sdk/consuming-an-activity-streams-feed-852027.html
+- /server/framework/atlassian-sdk/consuming-an-activity-streams-feed-852027.md
+category: devguide
+confluence_id: 852027
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852027
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852027
-confluence_id: 852027
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/consuming-an-activity-streams-feed
+new_url: /server/framework/atlassian-sdk/consuming-an-activity-streams-feed
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Consuming an Activity Streams feed
 ---
 # Consuming an Activity Streams feed
 
@@ -403,6 +407,183 @@ Issue description here &lt;/div>
 </activity:object>
 </entry>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: Plugin Framework Version Matrix 852041
 aliases:
-    - /server/framework/atlassian-sdk/plugin-framework-version-matrix-852041.html
+- /server/framework/atlassian-sdk/plugin-framework-version-matrix-852041.html
+- /server/framework/atlassian-sdk/plugin-framework-version-matrix-852041.md
+category: reference
+confluence_id: 852041
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852041
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852041
-confluence_id: 852041
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-version-matrix
+new_url: /server/framework/atlassian-sdk/plugin-framework-version-matrix
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: Plugin Framework version matrix
 ---
 # Plugin Framework version matrix
 
@@ -460,6 +463,153 @@ Other useful version matrices:
 
 -   [Shared Access Layer (SAL)](https://developer.atlassian.com/display/DOCS/SAL+Version+Matrix)
 -   <a href="http://confluence.atlassian.com/display/APPLINKS/Application+Links+Version+Matrix" class="external-link">Application Links (AppLinks)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: About the Atlassian Refapp 2818632
 aliases:
-    - /server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html
+- /server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html
+- /server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.md
+category: devguide
+confluence_id: 2818632
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818632
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818632
-confluence_id: 2818632
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/about-the-atlassian-refapp
+new_url: /server/framework/atlassian-sdk/about-the-atlassian-refapp
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: About the Atlassian RefApp
 ---
 # About the Atlassian RefApp
 
@@ -30,9 +34,9 @@ Atlassian applications were built independently by different teams. We made many
 
 ## Creating your Plugin for the RefApp
 
-To create a RefApp plugin, use the steps in [create a plugin skeleton](/server/framework/atlassian-sdk/creating-a-plugin-skeleton-with-the-atlassian-sdk-2818617.html) but run `atlas-create-refapp-plugin` to create the plugin project.
+To create a RefApp plugin, use the steps in [create a plugin skeleton](/server/framework/atlassian-sdk/creating-a-plugin-skeleton-with-the-atlassian-sdk) but run `atlas-create-refapp-plugin` to create the plugin project.
 
-Now you can start the RefApp as described in the [SDK guide](/server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed-2818619.html), using `atlas-run` to download and run the RefApp with your new plugin already installed.
+Now you can start the RefApp as described in the [SDK guide](/server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed), using `atlas-run` to download and run the RefApp with your new plugin already installed.
 
 This is the RefApp home page as displayed in a web browser:
 
@@ -48,9 +52,118 @@ In addition to all installed plugins, the page shows bundle usage by the RefApp.
 
 ##### RELATED TOPICS
 
-[atlas-create-refapp-plugin](/server/framework/atlassian-sdk/atlas-create-refapp-plugin-2818343.html)
+[atlas-create-refapp-plugin](/server/framework/atlassian-sdk/atlas-create-refapp-plugin)
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

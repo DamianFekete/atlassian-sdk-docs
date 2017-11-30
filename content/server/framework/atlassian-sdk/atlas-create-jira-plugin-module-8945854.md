@@ -1,18 +1,22 @@
 ---
-title: Atlas Create JIRA Plugin Module 8945854
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-jira-plugin-module-8945854.html
+- /server/framework/atlassian-sdk/atlas-create-jira-plugin-module-8945854.html
+- /server/framework/atlassian-sdk/atlas-create-jira-plugin-module-8945854.md
+category: devguide
+confluence_id: 8945854
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945854
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945854
-confluence_id: 8945854
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-jira-plugin-module
+new_url: /server/framework/atlassian-sdk/atlas-create-jira-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-jira-plugin-module
 ---
 # atlas-create-jira-plugin-module
 
-This page describes the shell script `atlas-create-jira-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-jira-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **JIRA**.
 
@@ -84,7 +88,87 @@ Let's assume you want to add a new plugin module to your existing JIRA plugin.
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

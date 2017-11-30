@@ -1,14 +1,18 @@
 ---
-title: Atlas Run Cloud 37882647
 aliases:
-    - /server/framework/atlassian-sdk/atlas-run-cloud-37882647.html
+- /server/framework/atlassian-sdk/atlas-run-cloud-37882647.html
+- /server/framework/atlassian-sdk/atlas-run-cloud-37882647.md
+category: devguide
+confluence_id: 37882647
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=37882647
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=37882647
-confluence_id: 37882647
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-run-cloud
+new_url: /server/framework/atlassian-sdk/atlas-run-cloud
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-run-cloud
 ---
 # atlas-run-cloud
 
@@ -18,9 +22,9 @@ The atlas-run-cloud command is no longer the supported method for developing a
 
 {{% /warning %}}
 
-This page describes the shell script `atlas-run-cloud`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html) (6.2.2 and later).
+This page describes the shell script `atlas-run-cloud`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk) (6.2.2 and later).
 
-This command is used to start a local Cloud instance of an Atlassian application. It currently only works for JIRA Software. If you want to start a local instance of another application, or you want to start a local Server instance of JIRA Software, see [atlas-run-standalone](/server/framework/atlassian-sdk/atlas-run-standalone-2818534.html) instead.
+This command is used to start a local Cloud instance of an Atlassian application. It currently only works for JIRA Software. If you want to start a local instance of another application, or you want to start a local Server instance of JIRA Software, see [atlas-run-standalone](/server/framework/atlassian-sdk/atlas-run-standalone) instead.
 
  
 
@@ -99,7 +103,75 @@ This will do the following:
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

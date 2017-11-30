@@ -1,14 +1,18 @@
 ---
-title: Common Coding Tasks 852076
 aliases:
-    - /server/framework/atlassian-sdk/common-coding-tasks-852076.html
+- /server/framework/atlassian-sdk/common-coding-tasks-852076.html
+- /server/framework/atlassian-sdk/common-coding-tasks-852076.md
+category: devguide
+confluence_id: 852076
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852076
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852076
-confluence_id: 852076
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks
+new_url: /server/framework/atlassian-sdk/common-coding-tasks
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Common coding tasks
 ---
 # Common coding tasks
 
@@ -16,13 +20,13 @@ All of the <a href="http://www.atlassian.com/software/" class="external-link">A
 
 The following pages describe some of these common programming tasks. 
 
--   [Development Cycle](/server/framework/atlassian-sdk/development-cycle-18252617.html)
--   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form-2818695.html)
--   [Using Standard Page Decorators](/server/framework/atlassian-sdk/using-standard-page-decorators-851983.html)
--   [Adding a Configuration UI for your Plugin](/server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin-851988.html)
--   [Adding WebSudo Support to your Plugin](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin-5242916.html)
--   [Storing plugin settings](/server/framework/atlassian-sdk/storing-plugin-settings-18251950.html)
--   [Internationalising your plugin](/server/framework/atlassian-sdk/internationalising-your-plugin-8946312.html)
+-   [Development Cycle](/server/framework/atlassian-sdk/development-cycle)
+-   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
+-   [Using Standard Page Decorators](/server/framework/atlassian-sdk/using-standard-page-decorators)
+-   [Adding a Configuration UI for your Plugin](/server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin)
+-   [Adding WebSudo Support to your Plugin](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin)
+-   [Storing plugin settings](/server/framework/atlassian-sdk/storing-plugin-settings)
+-   [Internationalising your plugin](/server/framework/atlassian-sdk/internationalising-your-plugin)
 
 Once you've got a handle on the common aspects of Atlassian plugin programming, you can dive into the product-specific references below. You may know about Confluence or JIRA, but have you considered creating a plugin for Bitbucket Server or Bamboo?
 
@@ -55,6 +59,132 @@ Got continuous integration? Then you've got [Bamboo](https://developer.atlassian
 **FishEye and Crucible**
 
 [FishEye and Crucible](https://developer.atlassian.com/display/FECRUDEV) add reporting, visualisation, notifications, code sharing and peer review to your source repository. Develop [plugins and gadgets](https://developer.atlassian.com/display/FECRUDEV/FishEye+and+Crucible+Plugin+Guide) to extend FishEye and Crucible. Use the [remote APIs](https://developer.atlassian.com/display/FECRUDEV/Remote+API+Reference) to integrate FishEye and Crucible software with other systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

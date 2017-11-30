@@ -1,14 +1,18 @@
 ---
-title: Adding a Configuration UI for Your Plugin 851988
 aliases:
-    - /server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin-851988.html
+- /server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin-851988.html
+- /server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin-851988.md
+category: devguide
+confluence_id: 851988
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851988
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851988
-confluence_id: 851988
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/adding-a-configuration-ui-for-your-plugin
+new_url: /server/framework/atlassian-sdk/adding-a-configuration-ui-for-your-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Adding a configuration UI for your plugin
 ---
 # Adding a configuration UI for your plugin
 
@@ -48,7 +52,130 @@ This `param` element causes a button with the Configure label to appear in the d
     -   Or a servlet defined via a [Servlet](https://developer.atlassian.com/display/DOCS/Servlet+Plugin+Module) plugin module.
 -   Not all applications support configuration links, so you may need to create a web item link in the administration menu to link to your configuration page.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

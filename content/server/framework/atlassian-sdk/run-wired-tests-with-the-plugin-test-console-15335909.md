@@ -1,14 +1,18 @@
 ---
-title: Run Wired Tests with the Plugin Test Console 15335909
 aliases:
-    - /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console-15335909.html
+- /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console-15335909.html
+- /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console-15335909.md
+category: devguide
+confluence_id: 15335909
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335909
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335909
-confluence_id: 15335909
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/run-wired-tests-with-the-plugin-test-console
+new_url: /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Run Wired Tests with the Plugin Test Console
 ---
 # Run Wired Tests with the Plugin Test Console
 
@@ -206,9 +210,19 @@ Like any other Atlassian plugin, you can use the FastDev feature with your test 
 
 This page taught you how to code using the Atlassian Wired Test Framework.  Tests that use this framework are plugins that use Spring dependency injection to run inside an Atlassian host application.  When you use the framework, you have access to the Plugin Test Console.  This console allows you to run test and view their results right in the application.  When your underlying test code changes, the system recognizes the change and launches FastDev to rebuild your tests.
 
-At this point, all you really need is some test data. In the next section, you learn [how to seed your host application with test data](/server/framework/atlassian-sdk/create-test-data-and-a-test-fixture-15335913.html).
+At this point, all you really need is some test data. In the next section, you learn [how to seed your host application with test data](/server/framework/atlassian-sdk/create-test-data-and-a-test-fixture).
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

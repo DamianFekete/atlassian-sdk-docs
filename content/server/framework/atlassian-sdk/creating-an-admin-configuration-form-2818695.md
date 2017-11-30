@@ -1,14 +1,18 @@
 ---
-title: Creating an Admin Configuration Form 2818695
 aliases:
-    - /server/framework/atlassian-sdk/creating-an-admin-configuration-form-2818695.html
+- /server/framework/atlassian-sdk/creating-an-admin-configuration-form-2818695.html
+- /server/framework/atlassian-sdk/creating-an-admin-configuration-form-2818695.md
+category: devguide
+confluence_id: 2818695
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818695
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818695
-confluence_id: 2818695
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/creating-an-admin-configuration-form
+new_url: /server/framework/atlassian-sdk/creating-an-admin-configuration-form
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Creating an admin configuration form
 ---
 # Creating an admin configuration form
 
@@ -24,7 +28,7 @@ subcategory:
 </tr>
 <tr class="even">
 <td><p>Level of experience:</p></td>
-<td><p>This is an advanced tutorial. You should have completed at least one intermediate tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials-2818708.html">list of tutorials in DAC</a>.</p></td>
+<td><p>This is an advanced tutorial. You should have completed at least one intermediate tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials">list of tutorials in DAC</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Time estimate:</p></td>
@@ -37,14 +41,14 @@ subcategory:
 
 This tutorial shows how to create a plugin that generates a simple web form that can appear in the UI of any Atlassian product.
 
-To test our work, we'll use the [Atlassian Reference Application](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html) (or RefApp for short). The RefApp is an Atlassian application that encapsulates the common base features of Atlassian products. It's useful for testing cross-application plugins, such as the one we develop in this tutorial.
+To test our work, we'll use the [Atlassian Reference Application](/server/framework/atlassian-sdk/about-the-atlassian-refapp) (or RefApp for short). The RefApp is an Atlassian application that encapsulates the common base features of Atlassian products. It's useful for testing cross-application plugins, such as the one we develop in this tutorial.
 
 Along the way, this tutorial introduces these concepts:
 
--   [Shared Access Layer (SAL) API](/server/framework/atlassian-sdk/about-sal-development-5242930.html) is a programming interface that exposes many common services to plugins, such as persistence and user authorization. It does so in a way that works with any Atlassian application.
+-   [Shared Access Layer (SAL) API](/server/framework/atlassian-sdk/about-sal-development) is a programming interface that exposes many common services to plugins, such as persistence and user authorization. It does so in a way that works with any Atlassian application.
 -   <a href="https://studio.atlassian.com/wiki/display/ATR/Home" class="external-link">Atlassian Template Renderer (ATR)</a> is a plugin that enables other plugins to render templates, typically Velocity templates.
 -   <a href="https://studio.atlassian.com/browse/AJS" class="external-link">Atlassian User Interface (AUI)</a> gives user interface elements the Atlassian look-and-feel. 
--   [REST module](/server/framework/atlassian-sdk/rest-plugin-module-4915219.html) forms the communication mechanism between the browser and the server.
+-   [REST module](/server/framework/atlassian-sdk/rest-plugin-module) forms the communication mechanism between the browser and the server.
 
 Your completed plugin will consist of:
 
@@ -624,7 +628,7 @@ Next we write the REST resource that serves the data.
 
 ### Serve the configuration from a REST resource
 
-The JavaScript we've added makes a request to a configuration resource for populating our form. Since it doesn't exist yet, we need to create this resource. But before we write the code for that, we need to add a few more dependencies in Maven. The [Atlassian REST module](/server/framework/atlassian-sdk/rest-plugin-module-4915219.html) uses <a href="http://jersey.dev.java.net/" class="external-link">Jersey</a>, an implementation of the <a href="https://jsr311.dev.java.net/" class="external-link">JAX-RS</a> API. We'll add a dependency for this JAX-RS API. We'll also use JAXB to serialize our configuration object for us, to avoid having to manually construct JSON, so we need to add a dependency for that as well.
+The JavaScript we've added makes a request to a configuration resource for populating our form. Since it doesn't exist yet, we need to create this resource. But before we write the code for that, we need to add a few more dependencies in Maven. The [Atlassian REST module](/server/framework/atlassian-sdk/rest-plugin-module) uses <a href="http://jersey.dev.java.net/" class="external-link">Jersey</a>, an implementation of the <a href="https://jsr311.dev.java.net/" class="external-link">JAX-RS</a> API. We'll add a dependency for this JAX-RS API. We'll also use JAXB to serialize our configuration object for us, to avoid having to manually construct JSON, so we need to add a dependency for that as well.
 
 Open the `pom.xml` file and add these `dependency` elements to the `dependencies` section:
 
@@ -903,7 +907,7 @@ Add the following lines to `atlassian-plugin.xml`:
 
 ## Step 7. Add menu items
 
-The last thing we need to do is to make it easy for the admin user to find our configuration administration UI. We'll create links in the administration menu by adding [Web item](/server/framework/atlassian-sdk/web-item-plugin-module-852014.html) elements to `atlassian-plugin.xml`. Unfortunately, not every Atlassian product uses the same layout for menus, so we need to add a link entry for each product.
+The last thing we need to do is to make it easy for the admin user to find our configuration administration UI. We'll create links in the administration menu by adding [Web item](/server/framework/atlassian-sdk/web-item-plugin-module) elements to `atlassian-plugin.xml`. Unfortunately, not every Atlassian product uses the same layout for menus, so we need to add a link entry for each product.
 
 Fortunately, the `application` attribute will come to our rescue (mostly)!
 
@@ -991,7 +995,7 @@ Have a chocolate!
 
 ##### RELATED TOPICS
 
-[About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html)
+[About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)
 
 <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/user/UserManager.html" class="external-link">SAL UserManager</a>
 
@@ -999,19 +1003,128 @@ Have a chocolate!
 
 <a href="/pages/createpage.action?spaceKey=AUI&amp;title=Forms" class="createlink">AUI class attributes</a>
 
- 
 
- 
 
- 
 
-  
 
-  
 
-  
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Adding Websudo Support to Your Plugin 5242916
 aliases:
-    - /server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin-5242916.html
+- /server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin-5242916.html
+- /server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin-5242916.md
+category: devguide
+confluence_id: 5242916
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242916
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242916
-confluence_id: 5242916
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/adding-websudo-support-to-your-plugin
+new_url: /server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Adding WebSudo support to your plugin
 ---
 # Adding WebSudo support to your plugin
 
@@ -20,7 +24,7 @@ subcategory:
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
-<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242917">SAL 2.2</a> and later; <a href="/server/framework/atlassian-sdk/rest-plugin-2.2-release-notes-4915210.html">REST 2.2</a> and later.</p></td>
+<td><p><a href="https://developer.atlassian.com/pages/viewpage.action?pageId=5242917">SAL 2.2</a> and later; <a href="/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes">REST 2.2</a> and later.</p></td>
 </tr>
 </tbody>
 </table>
@@ -31,7 +35,7 @@ Support for Secure Administrator Sessions (also called websudo) was added in Con
 
 All the Atlassian applications will support WebSudo sessions at some point. As of SAL version 2.2 and REST 2.2 it is possible to enforce websudo from within a plugin if the host application supports it.
 
-SAL 2.2 supports programmatic access to a `WebSudoManager` that you can use from within your [servlet](/server/framework/atlassian-sdk/servlet-plugin-module-852096.html) or [servlet filter](/server/framework/atlassian-sdk/servlet-filter-plugin-module-852110.html). As of version 2.2 of the Atlassian [REST plugin module](https://developer.atlassian.com/display/REST), you can add annotations to REST resources.
+SAL 2.2 supports programmatic access to a `WebSudoManager` that you can use from within your [servlet](/server/framework/atlassian-sdk/servlet-plugin-module) or [servlet filter](/server/framework/atlassian-sdk/servlet-filter-plugin-module). As of version 2.2 of the Atlassian [REST plugin module](https://developer.atlassian.com/display/REST), you can add annotations to REST resources.
 
 ## Servlet Example
 
@@ -126,6 +130,130 @@ public class ATestResource
 ```
 
 This prevents websudo protection from being enforced for the `ATestResource` REST resource.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

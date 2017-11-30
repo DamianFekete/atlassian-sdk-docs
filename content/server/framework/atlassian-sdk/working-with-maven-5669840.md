@@ -1,14 +1,18 @@
 ---
-title: Working with Maven 5669840
 aliases:
-    - /server/framework/atlassian-sdk/working-with-maven-5669840.html
+- /server/framework/atlassian-sdk/working-with-maven-5669840.html
+- /server/framework/atlassian-sdk/working-with-maven-5669840.md
+category: devguide
+confluence_id: 5669840
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669840
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669840
-confluence_id: 5669840
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/working-with-maven
+new_url: /server/framework/atlassian-sdk/working-with-maven
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Working with Maven
 ---
 # Working with Maven
 
@@ -46,7 +50,7 @@ The command performs the same function as the Maven command `mvn clean`, removi
 
 If you have multiple versions of Maven on your system, you should use the SDK command wrapper to ensure that the correct Maven version is executed. Alternatively, you can put the bundled Maven on your path. (Run atlas-version to discover the location of the SDK's Maven instance binary file.)
 
-For information on the standard SDK command format, see [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+For information on the standard SDK command format, see [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 ## Verifying Your Maven Settings
 
@@ -93,9 +97,9 @@ Your Maven output will look something like this:
 
 The Atlassian Plugin SDK is built on top of the Atlassian Maven Plugin Suite (AMPS). AMPS extends the Maven 2 build environment specifically for developing Atlassian plugins. When you create a project with the Atlassian Plugin SDK, AMPS is automatically configured as the build environment for your project.
 
-This page provides more information about AMPS. You won't normally need to use AMPS directly, since the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html) wraps AMPS commands with its own script-style commands. However, in some cases you may wish to invoke AMPS commands directly or specify configuration settings for AMPS, which you can do in the project POM.
+This page provides more information about AMPS. You won't normally need to use AMPS directly, since the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk) wraps AMPS commands with its own script-style commands. However, in some cases you may wish to invoke AMPS commands directly or specify configuration settings for AMPS, which you can do in the project POM.
 
-For information on configuring AMPS settings see [AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html).
+For information on configuring AMPS settings see [AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference).
 
 ## AMPS Architecture
 
@@ -339,13 +343,13 @@ The short form of the `mvn APPLICATION:run` or `mvn APPLICATION:create` comm
 
 ##### RELATED TOPICS
 
-[AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html)
+[AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference)
 
 ## Atlassian Maven Repositories
 
-Atlassian provides various Maven repositories for Plugin Developers.We recommend using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html) to make sure you've got the correct settings to use our servers.
+Atlassian provides various Maven repositories for Plugin Developers.We recommend using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk) to make sure you've got the correct settings to use our servers.
 
-The Plugin SDK handles almost all of this Maven tweaking for you. The SDK includes an embedded Maven installation and correct `settings.xml` that will be kept up to date as necessary. We believe it makes the plugin development process much easier. For more information, see [here](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html).
+The Plugin SDK handles almost all of this Maven tweaking for you. The SDK includes an embedded Maven installation and correct `settings.xml` that will be kept up to date as necessary. We believe it makes the plugin development process much easier. For more information, see [here](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
 ## Atlassian Maven Proxy 
 
@@ -398,12 +402,7 @@ Maven is included in the Atlassian SDK, so you do not normally need to install i
 
 In previous versions of the SDK (and as previously described on this page), you needed to add repository proxies and modify your Maven settings file to use the SDK with Maven 3. 
 
-Now you can simply follow the steps on [Changing the Default Maven Version](/server/framework/atlassian-sdk/changing-the-default-maven-version-19071041.html) to use Maven 3 with the SDK. 
-
-
-
-
-
+Now you can simply follow the steps on [Changing the Default Maven Version](/server/framework/atlassian-sdk/changing-the-default-maven-version) to use Maven 3 with the SDK.
 
 
 

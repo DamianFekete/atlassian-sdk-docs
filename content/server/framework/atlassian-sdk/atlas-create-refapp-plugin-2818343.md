@@ -1,20 +1,24 @@
 ---
-title: Atlas Create Refapp Plugin 2818343
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-refapp-plugin-2818343.html
+- /server/framework/atlassian-sdk/atlas-create-refapp-plugin-2818343.html
+- /server/framework/atlassian-sdk/atlas-create-refapp-plugin-2818343.md
+category: devguide
+confluence_id: 2818343
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818343
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818343
-confluence_id: 2818343
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-refapp-plugin
+new_url: /server/framework/atlassian-sdk/atlas-create-refapp-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-refapp-plugin
 ---
 # atlas-create-refapp-plugin
 
-This page describes the shell script `atlas-create-refapp-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-refapp-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
-NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for the **Atlassian Reference Application**, also called the [RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html).
+NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for the **Atlassian Reference Application**, also called the [RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp).
 
  
 
@@ -103,8 +107,87 @@ Let's assume you want to create a new RefApp plugin by supplying all the necessa
 
 ##### RELATED TOPICS
 
-[About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html)  
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

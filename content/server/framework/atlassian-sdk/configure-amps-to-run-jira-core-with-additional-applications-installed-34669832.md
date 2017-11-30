@@ -1,14 +1,18 @@
 ---
-title: Configure Amps to Run JIRA Core with Additional Applications Installed 34669832
 aliases:
-    - /server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed-34669832.html
+- /server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed-34669832.html
+- /server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed-34669832.md
+category: devguide
+confluence_id: 34669832
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=34669832
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=34669832
-confluence_id: 34669832
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/configure-amps-to-run-jira-core-with-additional-applications-installed
+new_url: /server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Configure AMPS to run JIRA Core with additional applications installed
 ---
 # Configure AMPS to run JIRA Core with additional applications installed
 
@@ -168,6 +172,12 @@ There are three important characteristics of the `applications` element that mak
         </profile>
     </profiles>
     ```
+
+
+
+
+
+
 
 
 

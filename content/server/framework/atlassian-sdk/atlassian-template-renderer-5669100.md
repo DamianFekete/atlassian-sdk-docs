@@ -1,14 +1,18 @@
 ---
-title: Atlassian Template Renderer 5669100
 aliases:
-    - /server/framework/atlassian-sdk/atlassian-template-renderer-5669100.html
+- /server/framework/atlassian-sdk/atlassian-template-renderer-5669100.html
+- /server/framework/atlassian-sdk/atlassian-template-renderer-5669100.md
+category: devguide
+confluence_id: 5669100
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669100
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669100
-confluence_id: 5669100
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/atlassian-template-renderer
+new_url: /server/framework/atlassian-sdk/atlassian-template-renderer
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Atlassian Template Renderer
 ---
 # Atlassian Template Renderer
 
@@ -30,16 +34,187 @@ When you need to render a template, call the `renderer.render(String templateNam
 
 ### A bit more sugar
 
-Let's say you want one of the other components injected into **each** of the template contexts for you to use. You could make sure to have that component injected anywhere you do some rendering and then creating a context map with the component in it. But there's an easier way. Specify the component as a [`template-context-item`](/server/framework/atlassian-sdk/template-context-item-plugin-module-852139.html).
+Let's say you want one of the other components injected into **each** of the template contexts for you to use. You could make sure to have that component injected anywhere you do some rendering and then creating a context map with the component in it. But there's an easier way. Specify the component as a [`template-context-item`](/server/framework/atlassian-sdk/template-context-item-plugin-module).
 
 ``` xml
 <template-context-item key="rendererHelperContextItem" component-ref="rendererHelper"
     context-key="helper" name="Renderer Helper Context Item"/>
 ```
 
-Using this technique, the ATR plugin makes the SAL [I18nResolver](/server/framework/atlassian-sdk/sal-services-5242921.html#%7B%7B%7B%7D-i18n-resolver%7B%7D%7D%7D) and the plugins <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.2.0/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a> automatically available to all templates in this way with the `i18n` and `webResourceManager` context keys.
+Using this technique, the ATR plugin makes the SAL [I18nResolver](/server/framework/atlassian-sdk/sal-services#%7B%7B%7B%7D-i18n-resolver%7B%7D%7D%7D) and the plugins <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.2.0/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a> automatically available to all templates in this way with the `i18n` and `webResourceManager` context keys.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

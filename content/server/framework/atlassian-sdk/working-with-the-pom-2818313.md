@@ -1,14 +1,18 @@
 ---
-title: Working with the Pom 2818313
 aliases:
-    - /server/framework/atlassian-sdk/working-with-the-pom-2818313.html
+- /server/framework/atlassian-sdk/working-with-the-pom-2818313.html
+- /server/framework/atlassian-sdk/working-with-the-pom-2818313.md
+category: devguide
+confluence_id: 2818313
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818313
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818313
-confluence_id: 2818313
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/getting-started/working-with-the-pom
+new_url: /server/framework/atlassian-sdk/working-with-the-pom
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Working with the POM
 ---
 # Working with the POM
 
@@ -130,7 +134,7 @@ In general, our sample POM uses standard Maven object model syntax, as described
     This view is particularly important if you're developing a plugin for distribution on the Atlassian Marketplace. However, even if you are developing a plugin for internal consumption only, it's helpful to provide a meaningful project name, description, and other details of the add-on. You may even choose to include additional assets, such as a screenshot. For more information on customizing the add-on view in the Manage Add-ons page, see [Plugin metadata files used by UPM and Marketplace](https://developer.atlassian.com/display/MARKET/Plugin+metadata+files+used+by+UPM+and+Marketplace).  
     <img src="/server/framework/atlassian-sdk/images/add-ondetails.png" width="650" />
 -   `packaging` should always be `atlassian-plugin`.
--   `dependencies` specify the libraries that your plugin needs. For more about managing dependencies with the POM, see [Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies-2818370.html).
+-   `dependencies` specify the libraries that your plugin needs. For more about managing dependencies with the POM, see [Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies).
 -   `build` describes detailed build settings. Note that the SDK adds the following plugins to Maven:  
     -   com.atlassian.maven.plugins
     -   maven-compiler-plugin
@@ -138,7 +142,25 @@ In general, our sample POM uses standard Maven object model syntax, as described
     The plugins offer numerous configuration options you can use to control the build environment for your project. For details on the configuration options, see [Using the AMPS Maven Plugin Directly](/server/framework/atlassian-sdk/using-the-amps-maven-plugin-directly-2818721.html).
 -   `properties` specifies the target host application and version and the version of the SDK used to generate the project. These determine the environment that the SDK starts up when you enter the atlas-run command in the project home directory. They do not affect the final artifact of the project, the JAR file that can be installed to the host application.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

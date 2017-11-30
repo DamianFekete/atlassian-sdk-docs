@@ -1,18 +1,22 @@
 ---
-title: Modify the Plugin 41236025
 aliases:
-    - /server/framework/atlassian-sdk/modify-the-plugin-41236025.html
+- /server/framework/atlassian-sdk/modify-the-plugin-41236025.html
+- /server/framework/atlassian-sdk/modify-the-plugin-41236025.md
+category: devguide
+confluence_id: 41236025
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=41236025
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=41236025
-confluence_id: 41236025
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/modify-the-plugin
+new_url: /server/framework/atlassian-sdk/modify-the-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Modify the plugin
 ---
 # Modify the plugin
 
-In the [previous step](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project), you created a skeleton for a JIRA plugin. In this part of the tutorial, you'll modify your plugin to add a new link in the JIRA menu.  To do this you'll need to create a [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module-852133.html) and a [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module-852014.html) using the Atlassian SDK.
+In the [previous step](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project), you created a skeleton for a JIRA plugin. In this part of the tutorial, you'll modify your plugin to add a new link in the JIRA menu.  To do this you'll need to create a [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module) and a [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module) using the Atlassian SDK.
 
  
 
@@ -78,7 +82,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
     atlas-create-jira-plugin-module
     ```
 
-    You'll be prompted to choose a plugin module from a list of possible module types (check out [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html) for more information).
+    You'll be prompted to choose a plugin module from a list of possible module types (check out [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules) for more information).
 
 4.  Type **30** to select the `Web Section `plugin module type.
 
@@ -160,7 +164,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 
 Starting and stopping JIRA can take several minutes each time.  QuickReload significantly reduces your plugin development iteration time, so in the next part of the tutorial, you'll learn how to use it to test a change to your plugin without restarting JIRA.
 
-**[Modify the plugin using QuickReload](/server/framework/atlassian-sdk/modify-the-plugin-using-quickreload-41236017.html)**
+**[Modify the plugin using QuickReload](/server/framework/atlassian-sdk/modify-the-plugin-using-quickreload)**
 
 ## Additional Resources
 
@@ -171,6 +175,31 @@ Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/a
  
 
 Still need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

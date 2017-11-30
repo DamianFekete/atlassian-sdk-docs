@@ -1,14 +1,17 @@
 ---
-title: Module Type Plugin Module 852019
 aliases:
-    - /server/framework/atlassian-sdk/module-type-plugin-module-852019.html
+- /server/framework/atlassian-sdk/module-type-plugin-module-852019.html
+- /server/framework/atlassian-sdk/module-type-plugin-module-852019.md
+category: reference
+confluence_id: 852019
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852019
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852019
-confluence_id: 852019
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/module-type-plugin-module
+new_url: /server/framework/atlassian-sdk/module-type-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Module Type plugin module
 ---
 # Module Type plugin module
 
@@ -218,7 +221,51 @@ Some information to be aware of when developing or configuring a Module Type plu
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

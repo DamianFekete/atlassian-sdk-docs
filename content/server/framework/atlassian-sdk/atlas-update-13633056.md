@@ -1,14 +1,18 @@
 ---
-title: Atlas Update 13633056
 aliases:
-    - /server/framework/atlassian-sdk/atlas-update-13633056.html
+- /server/framework/atlassian-sdk/atlas-update-13633056.html
+- /server/framework/atlassian-sdk/atlas-update-13633056.md
+category: devguide
+confluence_id: 13633056
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633056
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633056
-confluence_id: 13633056
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-update
+new_url: /server/framework/atlassian-sdk/atlas-update
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-update
 ---
 # atlas-update
 
@@ -48,6 +52,71 @@ Run the following command to determine if an update your SDK:
 ``` javascript
 atlas-update
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Packaging and Releasing Your Plugin 2818640
 aliases:
-    - /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin-2818640.html
+- /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin-2818640.html
+- /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin-2818640.md
+category: devguide
+confluence_id: 2818640
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818640
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818640
-confluence_id: 2818640
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/packaging-and-releasing-your-plugin
+new_url: /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Packaging and releasing your plugin
 ---
 # Packaging and releasing your plugin
 
@@ -16,7 +20,7 @@ So you've developed a killer plugin and you want to share it with the world. How
 
 ## Packaging your plugin
 
-Once you're happy with your plugin and ready to release it, [use the SDK to package your plugin](/server/framework/atlassian-sdk/atlas-package-2818351.html).
+Once you're happy with your plugin and ready to release it, [use the SDK to package your plugin](/server/framework/atlassian-sdk/atlas-package).
 
 This will produce a `jar` file in the plugin's `target` directory. You can <a href="http://confluence.atlassian.com/display/UPM" class="external-link">use the UPM</a> to install it for testing in your staging or production environments.
 
@@ -86,9 +90,124 @@ Each time you release a new version of a plugin, there are certain steps you sho
     3.  Put the binary package in your local Maven repository.
 4.  Copy the created binary package from your target sub-directory to the project's `jars` sub-directory (in SVN). Then schedule it for addition to SVN before finally committing the added resource.
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

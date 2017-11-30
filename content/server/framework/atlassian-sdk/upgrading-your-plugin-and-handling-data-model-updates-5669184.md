@@ -1,14 +1,18 @@
 ---
-title: Upgrading Your Plugin and Handling Data Model Updates 5669184
 aliases:
-    - /server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html
+- /server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html
+- /server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.md
+category: devguide
+confluence_id: 5669184
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669184
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669184
-confluence_id: 5669184
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/upgrading-your-plugin-and-handling-data-model-updates
+new_url: /server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Upgrading your plugin and handling data model updates
 ---
 # Upgrading your plugin and handling data model updates
 
@@ -156,6 +160,191 @@ See <a href="https://ecosystem.atlassian.net/browse/AO-273" class="external-link
 ## Best practices
 
 See [Best practices for developing with Active Objects](/server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

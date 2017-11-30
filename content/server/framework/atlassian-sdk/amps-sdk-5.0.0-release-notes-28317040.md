@@ -1,14 +1,17 @@
 ---
-title: Amps Sdk 5.0.0 Release Notes 28317040
 aliases:
-    - /server/framework/atlassian-sdk/amps-sdk-5.0.0-release-notes-28317040.html
+- /server/framework/atlassian-sdk/amps-sdk-5.0.0-release-notes-28317040.html
+- /server/framework/atlassian-sdk/amps-sdk-5.0.0-release-notes-28317040.md
+category: devguide
+confluence_id: 28317040
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28317040
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28317040
-confluence_id: 28317040
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-5-0-0-release-notes
+new_url: /server/framework/atlassian-sdk/amps-sdk-5-0-0-release-notes
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: AMPS SDK 5.0.0 release notes
 ---
 # AMPS SDK 5.0.0 release notes
 
@@ -41,19 +44,6 @@ We've released AMPS 5.0.0 with a major version bump chiefly to indicate the majo
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-deb" class="external-link">Linux/Debian</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm" class="external-link">Linux/RPM</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-tgz" class="external-link">Standalone</a>
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: Rest Plugin Module 4915219
 aliases:
-    - /server/framework/atlassian-sdk/rest-plugin-module-4915219.html
+- /server/framework/atlassian-sdk/rest-plugin-module-4915219.html
+- /server/framework/atlassian-sdk/rest-plugin-module-4915219.md
+category: reference
+confluence_id: 4915219
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915219
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915219
-confluence_id: 4915219
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/rest-plugin-module
+new_url: /server/framework/atlassian-sdk/rest-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: REST plugin module
 ---
 # REST plugin module
 
@@ -249,7 +252,7 @@ To develop a REST API and deploy it into an Atlassian application, you will foll
 2.  Bundle your resource classes in your plugin JAR file, along with the plugin descriptor `atlassian-plugin.xml`.
 3.  Deploy your plugin to the application.
 
-See [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html) and [Configuring the Plugin Descriptor](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor-852008.html).
+See [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project) and [Configuring the Plugin Descriptor](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor).
 
 #### Accessing your REST Resources
 
@@ -353,10 +356,150 @@ To get the same behaviour for JSON you need to either annotate each field with `
 
 ##### RELATED TOPICS
 
-[Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin-2818694.html)  
-[Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1-4915226.html)  
+[Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
+[Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)  
 [Guidelines for Atlassian REST API Design](https://developer.atlassian.com/display/REST/Guidelines+for+Atlassian+REST+API+Design)  
 [Atlassian Plugin Framework Documentation](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

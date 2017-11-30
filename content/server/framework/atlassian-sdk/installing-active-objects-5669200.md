@@ -1,14 +1,18 @@
 ---
-title: Installing Active Objects 5669200
 aliases:
-    - /server/framework/atlassian-sdk/installing-active-objects-5669200.html
+- /server/framework/atlassian-sdk/installing-active-objects-5669200.html
+- /server/framework/atlassian-sdk/installing-active-objects-5669200.md
+category: devguide
+confluence_id: 5669200
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669200
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669200
-confluence_id: 5669200
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/installing-active-objects
+new_url: /server/framework/atlassian-sdk/installing-active-objects
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Installing Active Objects
 ---
 # Installing Active Objects
 
@@ -134,6 +138,188 @@ Active Objects 0.15 is bundled by default. To install the latest version:
 </table>
 
 Active Objects plugin is bundled by default.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

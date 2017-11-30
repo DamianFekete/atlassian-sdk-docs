@@ -1,14 +1,18 @@
 ---
-title: Using the Osgi Browser 8946139
 aliases:
-    - /server/framework/atlassian-sdk/using-the-osgi-browser-8946139.html
+- /server/framework/atlassian-sdk/using-the-osgi-browser-8946139.html
+- /server/framework/atlassian-sdk/using-the-osgi-browser-8946139.md
+category: devguide
+confluence_id: 8946139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946139
-confluence_id: 8946139
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/using-the-osgi-browser
+new_url: /server/framework/atlassian-sdk/using-the-osgi-browser
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Using the OSGi Browser
 ---
 # Using the OSGi Browser
 
@@ -72,6 +76,111 @@ Additionally, it is possible that you are importing the right packages but of th
 
 <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=OSGi%2C+Spring+and+the+Plugin+Framework" class="createlink">OSGi, Spring and the Plugin Framework</a>  
 [Developing for the Marketplace](https://developer.atlassian.com/display/MARKET/Developing+for+the+Marketplace)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

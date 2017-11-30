@@ -1,14 +1,18 @@
 ---
-title: Checking Plugins for API Compatibility 6291602
 aliases:
-    - /server/framework/atlassian-sdk/checking-plugins-for-api-compatibility-6291602.html
+- /server/framework/atlassian-sdk/checking-plugins-for-api-compatibility-6291602.html
+- /server/framework/atlassian-sdk/checking-plugins-for-api-compatibility-6291602.md
+category: devguide
+confluence_id: 6291602
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6291602
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6291602
-confluence_id: 6291602
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/checking-plugins-for-api-compatibility
+new_url: /server/framework/atlassian-sdk/checking-plugins-for-api-compatibility
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Checking Plugins for API Compatibility
 ---
 # Checking Plugins for API Compatibility
 
@@ -102,9 +106,13 @@ The checkup tool checks all references made by the plugin to the following compo
 -   Annotations
 -   Fields
 
- 
 
- 
+
+
+
+
+
+
 
 
 

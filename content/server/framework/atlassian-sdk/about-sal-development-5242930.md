@@ -1,14 +1,17 @@
 ---
-title: About Sal Development 5242930
 aliases:
-    - /server/framework/atlassian-sdk/about-sal-development-5242930.html
+- /server/framework/atlassian-sdk/about-sal-development-5242930.html
+- /server/framework/atlassian-sdk/about-sal-development-5242930.md
+category: devguide
+confluence_id: 5242930
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242930
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242930
-confluence_id: 5242930
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/about-sal-development
+new_url: /server/framework/atlassian-sdk/about-sal-development
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: About SAL development
 ---
 # About SAL development
 
@@ -46,7 +49,7 @@ Here is another diagram, giving more detail of SAL in action. Again, let's assum
 
 ## Using a SAL Service
 
-To use a SAL service, you will need to declare a [component import module](/server/framework/atlassian-sdk/component-import-plugin-module-852117.html) in your `atlassian-plugin.xml`. For example, if you want to get the UserManager, the component import would look like this:
+To use a SAL service, you will need to declare a [component import module](/server/framework/atlassian-sdk/component-import-plugin-module) in your `atlassian-plugin.xml`. For example, if you want to get the UserManager, the component import would look like this:
 
 ``` xml
 <component-import key="userManager" interface="com.atlassian.sal.api.user.UserManager" />
@@ -69,6 +72,140 @@ Please refer to the list of available [SAL services](https://developer.atlassian
 
 [SAL Services](https://developer.atlassian.com/display/SAL/SAL+Services)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Setting the Platform Version Dependency in the Pom 2818408
 aliases:
-    - /server/framework/atlassian-sdk/setting-the-platform-version-dependency-in-the-pom-2818408.html
+- /server/framework/atlassian-sdk/setting-the-platform-version-dependency-in-the-pom-2818408.html
+- /server/framework/atlassian-sdk/setting-the-platform-version-dependency-in-the-pom-2818408.md
+category: devguide
+confluence_id: 2818408
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818408
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818408
-confluence_id: 2818408
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/getting-started/working-with-the-pom/setting-the-platform-version-dependency-in-the-pom
+new_url: /server/framework/atlassian-sdk/setting-the-platform-version-dependency-in-the-pom
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Setting the platform version dependency in the POM
 ---
 # Setting the platform version dependency in the POM
 
@@ -93,6 +97,24 @@ Note that this does not affect projects that have the above `dependencyManagemen
 
 [Atlassian Platform Common Components](/server/framework/atlassian-sdk/atlassian-platform-common-components)  
 [Plugin Framework 2.6 Migration Guide](https://developer.atlassian.com/pages/viewpage.action?pageId=852068)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

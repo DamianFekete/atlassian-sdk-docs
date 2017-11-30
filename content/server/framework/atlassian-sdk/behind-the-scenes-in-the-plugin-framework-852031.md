@@ -1,14 +1,18 @@
 ---
-title: Behind the Scenes in the Plugin Framework 852031
 aliases:
-    - /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework-852031.html
+- /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework-852031.html
+- /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework-852031.md
+category: devguide
+confluence_id: 852031
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852031
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852031
-confluence_id: 852031
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework
+new_url: /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Behind the scenes in the Plugin Framework
 ---
 # Behind the scenes in the Plugin Framework
 
@@ -16,14 +20,184 @@ The SDK hides much of the complexity of the underlying OSGi framework from you. 
 
 The following topics provide this background information on the framework.
 
--   [Going from Plugin to OSGi Bundle](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.html)
--   [Lifecycle of a Bundle](/server/framework/atlassian-sdk/lifecycle-of-a-bundle-852035.html)
+-   [Going from Plugin to OSGi Bundle](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle)
+-   [Lifecycle of a Bundle](/server/framework/atlassian-sdk/lifecycle-of-a-bundle)
 -   [Dynamic Module Types](/server/framework/atlassian-sdk/dynamic-module-types-852034.html)
--   [Automatic Generation of Spring Configuration](/server/framework/atlassian-sdk/automatic-generation-of-spring-configuration-852044.html)
+-   [Automatic Generation of Spring Configuration](/server/framework/atlassian-sdk/automatic-generation-of-spring-configuration)
 
 ##### RELATED TOPICS
 
-[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks-852076.html)
+[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

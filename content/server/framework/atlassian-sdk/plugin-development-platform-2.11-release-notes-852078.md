@@ -43,7 +43,7 @@ Starting with Atlassian Plugin Development Platform 2.9, we've combined the rele
 For a list of what issues were resolved in each platform component, click the version in the component version table.
 
 **Haven't used the Atlassian Plugin Framework yet?**  
-Take a look at the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk-23299291.html) and the [Plugin Framework documentation](/server/framework/atlassian-sdk/common-coding-tasks-852076.html).
+Take a look at the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/developing-with-the-atlassian-plugin-sdk-23299291.html) and the [Plugin Framework documentation](/server/framework/atlassian-sdk/common-coding-tasks).
 
 **Comments, Requests and Feedback**  
 We would love your feedback. Please log your requests, bug reports and comments in our <a href="https://studio.atlassian.com/browse/PLUG" class="external-link">issue tracker</a>.
@@ -81,7 +81,7 @@ Plugins can now get the timezone of users and the timezone of the application. T
 
 ### 3. Multipart Requests
 
-com.atlassian.sal.api.net.Request now supports the method setFiles(). It allows posting attachments to REST end points using the SAL request API. See [SAL Services](/server/framework/atlassian-sdk/sal-services-5242921.html)
+com.atlassian.sal.api.net.Request now supports the method setFiles(). It allows posting attachments to REST end points using the SAL request API. See [SAL Services](/server/framework/atlassian-sdk/sal-services)
 
  
 
@@ -97,7 +97,228 @@ The logging is more explicit when the modules are activated or disabled, a "Disa
 
 ### 5. Harmonize web-panel with web-item and web-section
 
-These 3 elements now implement the same descriptor, so that web-panels can have labels like web-items. See [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module-852000.html)
+These 3 elements now implement the same descriptor, so that web-panels can have labels like web-items. See [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

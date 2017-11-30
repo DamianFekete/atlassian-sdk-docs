@@ -1,14 +1,18 @@
 ---
-title: Install the Atlassian Sdk On a Linux Or Mac System 11305014
 aliases:
-    - /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system-11305014.html
+- /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system-11305014.html
+- /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system-11305014.md
+category: devguide
+confluence_id: 11305014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=11305014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=11305014
-confluence_id: 11305014
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/install-the-atlassian-sdk-on-a-linux-or-mac-system
+new_url: /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Install the Atlassian SDK on a Linux or Mac system
 ---
 # Install the Atlassian SDK on a Linux or Mac system
 
@@ -246,6 +250,33 @@ You now have a local development environment configured for the Atlassian SDK an
 ## Additional Resources
 
 Need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

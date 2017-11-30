@@ -1,18 +1,22 @@
 ---
-title: Atlas Clover 2818720
 aliases:
-    - /server/framework/atlassian-sdk/atlas-clover-2818720.html
+- /server/framework/atlassian-sdk/atlas-clover-2818720.html
+- /server/framework/atlassian-sdk/atlas-clover-2818720.md
+category: devguide
+confluence_id: 2818720
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818720
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818720
-confluence_id: 2818720
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-clover
+new_url: /server/framework/atlassian-sdk/atlas-clover
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-clover
 ---
 # atlas-clover
 
-This page describes the shell script `atlas-clover`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-clover`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -56,8 +60,100 @@ A coverage summary will also be printed to stdout at the end of the build and wi
 
 <a href="http://docs.atlassian.com/maven-clover2-plugin/2.6.0/" class="external-link">maven-clover2-plugin Site Docs</a>  
 <a href="http://confluence.atlassian.com/x/K4CDBQ" class="external-link">Maven Clover User Guide</a>  
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
-[Getting Started](/server/framework/atlassian-sdk/getting-started-5668881.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
+[Getting Started](/server/framework/atlassian-sdk/index)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

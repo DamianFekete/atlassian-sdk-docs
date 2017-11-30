@@ -1,14 +1,18 @@
 ---
-title: Creating an Entitymanager 5669141
 aliases:
-    - /server/framework/atlassian-sdk/creating-an-entitymanager-5669141.html
+- /server/framework/atlassian-sdk/creating-an-entitymanager-5669141.html
+- /server/framework/atlassian-sdk/creating-an-entitymanager-5669141.md
+category: devguide
+confluence_id: 5669141
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669141
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669141
-confluence_id: 5669141
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/creating-an-entitymanager
+new_url: /server/framework/atlassian-sdk/creating-an-entitymanager
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Creating an EntityManager
 ---
 # Creating an EntityManager
 
@@ -37,6 +41,200 @@ When in an Atlassian plugin
 There is no need for you to create your own entity manager, this is handled by the Active Objects plugin.
 
 {{% /tip %}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

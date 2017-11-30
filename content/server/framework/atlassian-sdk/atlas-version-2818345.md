@@ -1,18 +1,22 @@
 ---
-title: Atlas Version 2818345
 aliases:
-    - /server/framework/atlassian-sdk/atlas-version-2818345.html
+- /server/framework/atlassian-sdk/atlas-version-2818345.html
+- /server/framework/atlassian-sdk/atlas-version-2818345.md
+category: devguide
+confluence_id: 2818345
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818345
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818345
-confluence_id: 2818345
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-version
+new_url: /server/framework/atlassian-sdk/atlas-version
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-version
 ---
 # atlas-version
 
-This page describes the shell script `atlas-version`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-version`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -47,6 +51,70 @@ Java home: C:\Sun\SDK\jdk\jre
 Default locale: en_AU, platform encoding: Cp1252
 OS name: "windows xp" version: "5.1" arch: "x86" Family: "windows"
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

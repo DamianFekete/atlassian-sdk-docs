@@ -1,18 +1,22 @@
 ---
-title: Create and Run Traditional Integration Tests 15335901
 aliases:
-    - /server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html
+- /server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html
+- /server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.md
+category: devguide
+confluence_id: 15335901
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335901
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335901
-confluence_id: 15335901
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/create-and-run-traditional-integration-tests
+new_url: /server/framework/atlassian-sdk/create-and-run-traditional-integration-tests
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Create and run traditional integration tests
 ---
 # Create and run traditional integration tests
 
-This page explains the tools and processes you use in the Atlassian Plugin SDK, to create and run traditional integration tests for your plugin. The material on this page assumes you have already worked through or otherwise understand the information in [Create and Run Unit Tests](/server/framework/atlassian-sdk/create-and-run-unit-tests-15335878.html). 
+This page explains the tools and processes you use in the Atlassian Plugin SDK, to create and run traditional integration tests for your plugin. The material on this page assumes you have already worked through or otherwise understand the information in [Create and Run Unit Tests](/server/framework/atlassian-sdk/create-and-run-unit-tests). 
 
 ## Overview of Integration Testing
 
@@ -24,7 +28,7 @@ If you have existing integration or functional tests, you can convert these to t
 
 There are several ways to execute integration tests and review the results--from the command line or from the test console in the host application's UI. The command line approach as described here compiles the project, starts up the application and executes all the tests. When writing and tweaking the test code itself, this may not be the most efficient manner of working.
 
-As an alternative, if you are using the Wired Test Framework, you can use the test console in the application. The test console lets you modify test code and rerun the individual test you are working on and see the results of the test without having to recompile the plugin and restart the application. This is usually the most efficient manner of working when you are developing and tweaking test code. (The test console is described [in the next page in this tutorial](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console-15335909.html)).  
+As an alternative, if you are using the Wired Test Framework, you can use the test console in the application. The test console lets you modify test code and rerun the individual test you are working on and see the results of the test without having to recompile the plugin and restart the application. This is usually the most efficient manner of working when you are developing and tweaking test code. (The test console is described [in the next page in this tutorial](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console)).  
 
 ### The atlas-integration-test Command
 
@@ -395,9 +399,23 @@ While still in Eclipse and do the following to define a `<testGroup>` for your i
 
 ## Next Steps
 
-In this page and the previous, you learned how to build, configure, and run tests.  All the testing is run from the command line, this can make the development process time consuming and awkward. In the next section, you learn how [to use wired test together with the test console](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console-15335909.html) to test your code and speed up development.
+In this page and the previous, you learned how to build, configure, and run tests.  All the testing is run from the command line, this can make the development process time consuming and awkward. In the next section, you learn how [to use wired test together with the test console](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console) to test your code and speed up development.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

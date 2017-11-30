@@ -1,14 +1,17 @@
 ---
-title: Configuring the Plugin Descriptor 852008
 aliases:
-    - /server/framework/atlassian-sdk/configuring-the-plugin-descriptor-852008.html
+- /server/framework/atlassian-sdk/configuring-the-plugin-descriptor-852008.html
+- /server/framework/atlassian-sdk/configuring-the-plugin-descriptor-852008.md
+category: devguide
+confluence_id: 852008
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852008
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852008
-confluence_id: 852008
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/configuring-the-plugin-descriptor
+new_url: /server/framework/atlassian-sdk/configuring-the-plugin-descriptor
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: Configuring the plugin descriptor
 ---
 # Configuring the plugin descriptor
 
@@ -143,9 +146,64 @@ The plugin descriptor file already contains variables for common values, such as
 ##### RELATED TOPICS
 
 -   [Marking Packages as Optional Imports](/server/framework/atlassian-sdk/marking-packages-as-optional-imports-852102.html)
--   [atlassian-plugin.xml Element Reference](/server/framework/atlassian-sdk/atlassian-plugin.xml-element-reference-16974521.html)
+-   [atlassian-plugin.xml Element Reference](/server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference)
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

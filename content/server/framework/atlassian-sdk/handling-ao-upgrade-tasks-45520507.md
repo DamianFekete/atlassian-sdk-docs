@@ -1,14 +1,18 @@
 ---
-title: Handling Ao Upgrade Tasks 45520507
 aliases:
-    - /server/framework/atlassian-sdk/handling-ao-upgrade-tasks-45520507.html
+- /server/framework/atlassian-sdk/handling-ao-upgrade-tasks-45520507.html
+- /server/framework/atlassian-sdk/handling-ao-upgrade-tasks-45520507.md
+category: devguide
+confluence_id: 45520507
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=45520507
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=45520507
-confluence_id: 45520507
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/handling-ao-upgrade-tasks
+new_url: /server/framework/atlassian-sdk/handling-ao-upgrade-tasks
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Handling AO upgrade tasks
 ---
 # Handling AO upgrade tasks
 
@@ -539,9 +543,188 @@ This complete **stage 6** of this tutorial. Let's check that everything is worki
 
 {{% /tip %}}
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

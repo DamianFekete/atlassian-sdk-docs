@@ -1,14 +1,18 @@
 ---
-title: Developing a Rest Service Plugin 2818694
 aliases:
-    - /server/framework/atlassian-sdk/developing-a-rest-service-plugin-2818694.html
+- /server/framework/atlassian-sdk/developing-a-rest-service-plugin-2818694.html
+- /server/framework/atlassian-sdk/developing-a-rest-service-plugin-2818694.md
+category: devguide
+confluence_id: 2818694
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818694
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818694
-confluence_id: 2818694
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/developing-a-rest-service-plugin
+new_url: /server/framework/atlassian-sdk/developing-a-rest-service-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Developing a REST service plugin
 ---
 # Developing a REST service plugin
 
@@ -24,7 +28,7 @@ subcategory:
 </tr>
 <tr class="even">
 <td><p>Level of experience:</p></td>
-<td><p>This is an intermediate tutorial. You should have completed at least one beginner tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials-2818708.html">list of tutorials in DAC</a>.</p></td>
+<td><p>This is an intermediate tutorial. You should have completed at least one beginner tutorial before working through this tutorial. See the <a href="/server/framework/atlassian-sdk/tutorials">list of tutorials in DAC</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Time estimate:</p></td>
@@ -407,7 +411,7 @@ Let's try the plugin again but this time let's use the REST API Browser (RAB), a
 
     {{% tip %}}
 
-    For information on adding documentation for your resources and parameters (which REST browsers such as this one can display), see [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser-8945929.html).
+For information on adding documentation for your resources and parameters (which REST browsers such as this one can display), see [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser).
 
     {{% /tip %}}
 
@@ -424,13 +428,153 @@ Congratulations! You've created and parameterized a REST resource exposed by you
 
 For general information on using REST for Atlassian plugin development, see:
 
--   [About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp-2818632.html)
--   [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1-4915226.html)
--   [REST Plugin Module](/server/framework/atlassian-sdk/rest-plugin-module-4915219.html)
+-   [About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)
+-   [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)
+-   [REST Plugin Module](/server/framework/atlassian-sdk/rest-plugin-module)
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

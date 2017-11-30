@@ -1,14 +1,18 @@
 ---
-title: Adding Data Providers to Your Plugin 33736398
 aliases:
-    - /server/framework/atlassian-sdk/adding-data-providers-to-your-plugin-33736398.html
+- /server/framework/atlassian-sdk/adding-data-providers-to-your-plugin-33736398.html
+- /server/framework/atlassian-sdk/adding-data-providers-to-your-plugin-33736398.md
+category: devguide
+confluence_id: 33736398
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=33736398
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=33736398
-confluence_id: 33736398
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/adding-data-providers-to-your-plugin
+new_url: /server/framework/atlassian-sdk/adding-data-providers-to-your-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Adding data providers to your plugin
 ---
 # Adding data providers to your plugin
 
@@ -168,6 +172,16 @@ There are two important things to note about using data on the client:
 
 -   `WRM.data.claim` can \*only be called once for a single data key\*. The clientside web-resource manager (WRM) releases the data object for garbage collection after the first time it's claimed. If you want to access the data multiple times from your JS code, it's up to you to store it in your own variable. This behaviour was chosen to support use cases involving large data blobs. For example, a data provider may return a collection of JIRA issues to render client-side. This web-resource manager should not hold onto this collection internally after it's first claimed.
 -   Within a single `<web-resource>`, `<data>` elements will always be rendered onto the page before `<resource>` elements such as JavaScript files. This makes it safe to call "`WRM.data.claim`" on a `<data>` element from a JavaScript resource in the same `<web-resource>`.
+
+
+
+
+
+
+
+
+
+
 
 
 

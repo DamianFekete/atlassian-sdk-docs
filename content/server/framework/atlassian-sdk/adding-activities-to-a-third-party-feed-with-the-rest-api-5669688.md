@@ -1,14 +1,18 @@
 ---
-title: Adding Activities to a Third Party Feed with the REST API 5669688
 aliases:
-    - /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-rest-api-5669688.html
+- /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-rest-api-5669688.html
+- /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-rest-api-5669688.md
+category: devguide
+confluence_id: 5669688
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669688
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669688
-confluence_id: 5669688
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/adding-activities-to-a-third-party-feed-with-the-rest-api
+new_url: /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-rest-api
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Adding Activities to a Third Party Feed with the REST API
 ---
 # Adding Activities to a Third Party Feed with the REST API
 
@@ -141,6 +145,184 @@ We recommend adhering to the following guidelines in order to make your activity
 -   The title of your entry should follow the pattern "Actor verbed object". For example : "Chris Okasaki committed changeset" or "Simon Jones posted a blog entry".
 -   Linked entities (issue keys, usernames, etc.) should be mentioned in the title and content. We automatically add hyperlinks to issue keys and full names (not usernames) for users.
 -   Use a 16x16 color image for the activity icon - do not omit the icon,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,18 +1,22 @@
 ---
-title: Create and Run Unit Tests 15335878
 aliases:
-    - /server/framework/atlassian-sdk/create-and-run-unit-tests-15335878.html
+- /server/framework/atlassian-sdk/create-and-run-unit-tests-15335878.html
+- /server/framework/atlassian-sdk/create-and-run-unit-tests-15335878.md
+category: devguide
+confluence_id: 15335878
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335878
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335878
-confluence_id: 15335878
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/create-and-run-unit-tests
+new_url: /server/framework/atlassian-sdk/create-and-run-unit-tests
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Create and run unit tests
 ---
 # Create and run unit tests
 
-This page explains how to create and run unit tests in a plugin.  You should you have already worked through [Generate and Examine Skeleton Tests](/server/framework/atlassian-sdk/generate-and-examine-skeleton-tests-15335867.html).   The Atlassian Plugin Framework requires that you use JUnit 4.10 or higher. By default, the SDK 4.1 (and higher) `atlas-` commands all generate a `pom.xml` file with a dependency on the appropriate JUnit version. If you are working with an older plugin, you should make sure to update JUnit `<version>` value to 4.10 before continuing.  
+This page explains how to create and run unit tests in a plugin.  You should you have already worked through [Generate and Examine Skeleton Tests](/server/framework/atlassian-sdk/generate-and-examine-skeleton-tests).   The Atlassian Plugin Framework requires that you use JUnit 4.10 or higher. By default, the SDK 4.1 (and higher) `atlas-` commands all generate a `pom.xml` file with a dependency on the appropriate JUnit version. If you are working with an older plugin, you should make sure to update JUnit `<version>` value to 4.10 before continuing.  
 
 ## JUnit Quick Reminders
 
@@ -224,11 +228,22 @@ Both Eclipse and IDEA allow you to run JUnit tests from within your IDE.  If yo
 
 ## Next Steps
 
-In the next section, you learn about the [tools and processes for running traditional integration tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html). 
+In the next section, you learn about the [tools and processes for running traditional integration tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests).
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

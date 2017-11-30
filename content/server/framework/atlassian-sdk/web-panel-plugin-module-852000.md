@@ -1,14 +1,17 @@
 ---
-title: Web Panel Plugin Module 852000
 aliases:
-    - /server/framework/atlassian-sdk/web-panel-plugin-module-852000.html
+- /server/framework/atlassian-sdk/web-panel-plugin-module-852000.html
+- /server/framework/atlassian-sdk/web-panel-plugin-module-852000.md
+category: reference
+confluence_id: 852000
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852000
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852000
-confluence_id: 852000
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-panel-plugin-module
+new_url: /server/framework/atlassian-sdk/web-panel-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Panel plugin module
 ---
 # Web Panel plugin module
 
@@ -388,8 +391,44 @@ Each host application declares its own set of locations where the web panel can 
 
 ##### RELATED TOPICS
 
-[Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module-852106.html)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)  
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

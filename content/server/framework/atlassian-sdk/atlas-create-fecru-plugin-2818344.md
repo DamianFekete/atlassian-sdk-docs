@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Fecru Plugin 2818344
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-fecru-plugin-2818344.html
+- /server/framework/atlassian-sdk/atlas-create-fecru-plugin-2818344.html
+- /server/framework/atlassian-sdk/atlas-create-fecru-plugin-2818344.md
+category: devguide
+confluence_id: 2818344
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818344
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818344
-confluence_id: 2818344
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-fecru-plugin
+new_url: /server/framework/atlassian-sdk/atlas-create-fecru-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-fecru-plugin
 ---
 # atlas-create-fecru-plugin
 
-This page describes the shell script `atlas-create-fecru-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-fecru-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **FishEye** and **Crucible**. Because these two applications share the same code base, you will use the same shell script to create your plugin for either application.
 
@@ -103,7 +107,91 @@ Let's assume you want to create a new FishEye or Crucible plugin by supplying al
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

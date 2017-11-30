@@ -1,14 +1,18 @@
 ---
-title: Using the REST API Browser 8945910
 aliases:
-    - /server/framework/atlassian-sdk/using-the-rest-api-browser-8945910.html
+- /server/framework/atlassian-sdk/using-the-rest-api-browser-8945910.html
+- /server/framework/atlassian-sdk/using-the-rest-api-browser-8945910.md
+category: devguide
+confluence_id: 8945910
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945910
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945910
-confluence_id: 8945910
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/using-the-rest-api-browser
+new_url: /server/framework/atlassian-sdk/using-the-rest-api-browser
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Using the REST API Browser
 ---
 # Using the REST API Browser
 
@@ -55,15 +59,111 @@ However, we do not recommend using non-public APIs in your plugin or client code
 
 ## Using the REST API Browser to document your APIs
 
-If you are developing a Java plugin with a REST API of its own, you can ensure that RAB will document your REST resources too. See [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser-8945929.html).
+If you are developing a Java plugin with a REST API of its own, you can ensure that RAB will document your REST resources too. See [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser).
 
- 
 
- 
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

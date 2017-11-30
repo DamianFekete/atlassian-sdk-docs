@@ -1,14 +1,18 @@
 ---
-title: About Amps Build Options 16974627
 aliases:
-    - /server/framework/atlassian-sdk/about-amps-build-options-16974627.html
+- /server/framework/atlassian-sdk/about-amps-build-options-16974627.html
+- /server/framework/atlassian-sdk/about-amps-build-options-16974627.md
+category: devguide
+confluence_id: 16974627
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974627
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974627
-confluence_id: 16974627
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/about-amps-build-options
+new_url: /server/framework/atlassian-sdk/about-amps-build-options
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: About AMPS build options
 ---
 # About AMPS build options
 
@@ -54,9 +58,105 @@ Values specified on the command line override values in the POM.
 
 For details on AMPS configuration settings, see:
 
--   [AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html)
+-   [AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference)
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Adding Activities to a Third Party Feed with the Java API 5669691
 aliases:
-    - /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api-5669691.html
+- /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api-5669691.html
+- /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api-5669691.md
+category: devguide
+confluence_id: 5669691
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669691
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669691
-confluence_id: 5669691
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/adding-activities-to-a-third-party-feed-with-the-java-api
+new_url: /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Adding Activities to a Third Party feed with the Java API
 ---
 # Adding Activities to a Third Party feed with the Java API
 
@@ -199,6 +203,185 @@ We create a new `Activity` by using the `Activity.Builder` helper class. `Activi
 <img src="/server/framework/atlassian-sdk/images/deleted-issue-filters.jpg" width="300" height="259" />
 
 <img src="/server/framework/atlassian-sdk/images/deleted-issue-activity.jpg" width="300" height="205" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

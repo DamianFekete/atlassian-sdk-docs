@@ -1,14 +1,18 @@
 ---
-title: Modify the Plugin Using Quickreload 41236017
 aliases:
-    - /server/framework/atlassian-sdk/modify-the-plugin-using-quickreload-41236017.html
+- /server/framework/atlassian-sdk/modify-the-plugin-using-quickreload-41236017.html
+- /server/framework/atlassian-sdk/modify-the-plugin-using-quickreload-41236017.md
+category: devguide
+confluence_id: 41236017
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=41236017
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=41236017
-confluence_id: 41236017
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/modify-the-plugin-using-quickreload
+new_url: /server/framework/atlassian-sdk/modify-the-plugin-using-quickreload
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Modify the plugin using QuickReload
 ---
 # Modify the plugin using QuickReload
 
@@ -98,20 +102,44 @@ Still need help? Request support at <a href="https://ecosystem.atlassian.net/se
 
 If you'd like to keep learning about add-on development you may want to try out the Confluence tutorial below:
 
-[Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/44044634.html)
+[Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/create-a-confluence-hello-world-macro)
 
 Here are some other things you might like to do next:
 
--   Check out the [Learn the Development Platform by Example](/server/framework/atlassian-sdk/learn-the-development-platform-by-example-16352140.html) Tutorial to learn about developing plugins for any Atlassian application.  
--   Tackle another one of our Atlassian Developer [Tutorials](/server/framework/atlassian-sdk/tutorials-2818708.html).
+-   Check out the [Learn the Development Platform by Example](/server/framework/atlassian-sdk/learn-the-development-platform-by-example) Tutorial to learn about developing plugins for any Atlassian application.  
+-   Tackle another one of our Atlassian Developer [Tutorials](/server/framework/atlassian-sdk/tutorials).
 
 ## Additional resources
 
 The following resources will allow you to learn more about some of the tasks we covered in this tutorial:
 
--   [Working with the POM](/server/framework/atlassian-sdk/working-with-the-pom-2818313.html)
--   [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
--   [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests-15335861.html)
+-   [Working with the POM](/server/framework/atlassian-sdk/working-with-the-pom)
+-   [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+-   [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

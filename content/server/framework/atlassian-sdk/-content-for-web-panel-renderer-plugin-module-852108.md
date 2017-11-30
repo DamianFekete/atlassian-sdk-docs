@@ -14,7 +14,7 @@ subcategory:
 
 ## Purpose of this Module Type
 
-The Web Panel Renderer plugin module allows plugins to define custom renderer engines for [web panels](/server/framework/atlassian-sdk/web-panel-plugin-module-852000.html). (Web panels are bits of HTML that will be inserted into a page.)
+The Web Panel Renderer plugin module allows plugins to define custom renderer engines for [web panels](/server/framework/atlassian-sdk/web-panel-plugin-module). (Web panels are bits of HTML that will be inserted into a page.)
 
 ## Configuration
 
@@ -38,7 +38,7 @@ The root element for the Web Panel Renderer plugin module is `web-panel-renderer
 <td><p>class</p></td>
 <td><p>The class which implements <a href="https://studio.atlassian.com/source/browse/PLUG/trunk/atlassian-plugins-webfragment/src/main/java/com/atlassian/plugin/web/renderer/WebPanelRenderer.java?r=56664" class="external-link">com.atlassian.plugin.web.renderer.WebPanelRenderer</a>.</p>
 <p>This class is responsible for turning a web panel's content into proper HTML.</p>
-<p>See the plugin framework guide to <a href="/server/framework/atlassian-sdk/creating-plugin-module-instances-851984.html">creating plugin module instances</a>.</p></td>
+<p>See the plugin framework guide to <a href="/server/framework/atlassian-sdk/creating-plugin-module-instances">creating plugin module instances</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>state</p>
@@ -79,7 +79,7 @@ To create your own renderer you should create a class that implements <a href="h
 
 As an example we will create a plugin for the <a href="https://studio.atlassian.com/browse/REFAPP" class="external-link">Atlassian Reference Application</a> (version 2.5.0 or higher). We will create a web panel template renderer for <a href="http://freemarker.sourceforge.net" class="external-link">FreeMarker templates</a>, which is a format that is not supported by the Atlassian Plugin Framework out of the box. We will then also add a web panel that uses a FreeMarker template.
 
-1.  Using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html), create a new plugin for the Reference Application and make sure the generated `pom.xml` file uses version 2.5.0 or higher:
+1.  Using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk), create a new plugin for the Reference Application and make sure the generated `pom.xml` file uses version 2.5.0 or higher:
 
     ``` bash
     $ atlas-create-refapp-plugin
@@ -221,6 +221,226 @@ To access the full source code for this plugin, you can:
 -   <a href="https://svn.atlassian.com/svn/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">check it out from Subversion</a>.
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

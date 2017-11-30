@@ -1,14 +1,18 @@
 ---
-title: Frequently Used Commands 13632968
 aliases:
-    - /server/framework/atlassian-sdk/frequently-used-commands-13632968.html
+- /server/framework/atlassian-sdk/frequently-used-commands-13632968.html
+- /server/framework/atlassian-sdk/frequently-used-commands-13632968.md
+category: devguide
+confluence_id: 13632968
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13632968
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13632968
-confluence_id: 13632968
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/frequently-used-commands
+new_url: /server/framework/atlassian-sdk/frequently-used-commands
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Frequently used commands
 ---
 # Frequently used commands
 
@@ -130,7 +134,70 @@ Copy the `generated-test-resources.zip` file to the test `/src/test/resources
 <productDataPath>${basedir}/src/test/resources/generated-test-resources.zip</productDataPath>
 ```
 
-See [atlas-create-home-zip](/server/framework/atlassian-sdk/atlas-create-home-zip-2818359.html).
+See [atlas-create-home-zip](/server/framework/atlassian-sdk/atlas-create-home-zip).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

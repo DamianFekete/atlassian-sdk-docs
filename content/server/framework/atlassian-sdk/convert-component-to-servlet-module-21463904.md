@@ -1,14 +1,18 @@
 ---
-title: Convert Component to Servlet Module 21463904
 aliases:
-    - /server/framework/atlassian-sdk/convert-component-to-servlet-module-21463904.html
+- /server/framework/atlassian-sdk/convert-component-to-servlet-module-21463904.html
+- /server/framework/atlassian-sdk/convert-component-to-servlet-module-21463904.md
+category: devguide
+confluence_id: 21463904
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=21463904
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=21463904
-confluence_id: 21463904
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module
+new_url: /server/framework/atlassian-sdk/convert-component-to-servlet-module
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Convert component to servlet module
 ---
 # Convert component to servlet module
 
@@ -186,9 +190,59 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
 
 ## Next Steps
 
-Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container-16352147.html)
+Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

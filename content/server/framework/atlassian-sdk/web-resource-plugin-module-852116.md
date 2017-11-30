@@ -1,14 +1,17 @@
 ---
-title: Web Resource Plugin Module 852116
 aliases:
-    - /server/framework/atlassian-sdk/web-resource-plugin-module-852116.html
+- /server/framework/atlassian-sdk/web-resource-plugin-module-852116.html
+- /server/framework/atlassian-sdk/web-resource-plugin-module-852116.md
+category: reference
+confluence_id: 852116
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852116
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852116
-confluence_id: 852116
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-resource-plugin-module
+new_url: /server/framework/atlassian-sdk/web-resource-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Resource plugin module
 ---
 # Web Resource plugin module
 
@@ -317,7 +320,41 @@ Use this element to make a particular transformer available to the web resource 
 ##### RELATED TOPICS
 
 [Web Resource Transformer Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

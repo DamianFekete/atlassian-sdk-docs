@@ -1,14 +1,17 @@
 ---
-title: Sal 3.0 Upgrade Guide 35721084
 aliases:
-    - /server/framework/atlassian-sdk/sal-3.0-upgrade-guide-35721084.html
+- /server/framework/atlassian-sdk/sal-3.0-upgrade-guide-35721084.html
+- /server/framework/atlassian-sdk/sal-3.0-upgrade-guide-35721084.md
+category: devguide
+confluence_id: 35721084
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=35721084
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=35721084
-confluence_id: 35721084
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-upgrade-guides/sal-3-0-upgrade-guide
+new_url: /server/framework/atlassian-sdk/sal-3-0-upgrade-guide
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: SAL 3.0 upgrade guide
 ---
 # SAL 3.0 upgrade guide
 
@@ -58,6 +61,135 @@ Plugin developers may retrieve a java.sql.Connection from the application and ex
 See <a href="https://docs.atlassian.com/sal-api/3.0.0/sal-api/apidocs/com/atlassian/sal/api/rdbms/TransactionalExecutor.html" class="external-link">TransactionalExecutor</a> for an documentation and example.
 
 See <a href="https://bitbucket.org/acourtis/rdbms-plugin-examples" class="uri external-link">https://bitbucket.org/acourtis/rdbms-plugin-examples</a> for some Hibernate and QueryDSL samples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

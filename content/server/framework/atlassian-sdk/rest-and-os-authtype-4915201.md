@@ -1,14 +1,17 @@
 ---
-title: Rest and Os Authtype 4915201
 aliases:
-    - /server/framework/atlassian-sdk/rest-and-os-authtype-4915201.html
+- /server/framework/atlassian-sdk/rest-and-os-authtype-4915201.html
+- /server/framework/atlassian-sdk/rest-and-os-authtype-4915201.md
+category: devguide
+confluence_id: 4915201
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915201
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915201
-confluence_id: 4915201
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/rest-and-os_authtype
+new_url: /server/framework/atlassian-sdk/rest-and-os-authtype
+platform: server
+product: atlassian-sdk
+subcategory: security
+title: REST and os_authType
 ---
 # REST and os\_authType
 
@@ -54,6 +57,148 @@ You can trigger this behaviour by adding the **os\_authType** query parameter in
 </tr>
 </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

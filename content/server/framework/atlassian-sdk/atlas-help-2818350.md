@@ -1,18 +1,22 @@
 ---
-title: Atlas Help 2818350
 aliases:
-    - /server/framework/atlassian-sdk/atlas-help-2818350.html
+- /server/framework/atlassian-sdk/atlas-help-2818350.html
+- /server/framework/atlassian-sdk/atlas-help-2818350.md
+category: devguide
+confluence_id: 2818350
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818350
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818350
-confluence_id: 2818350
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-help
+new_url: /server/framework/atlassian-sdk/atlas-help
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-help
 ---
 # atlas-help
 
-This page describes the shell script `atlas-help`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-help`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -71,8 +75,84 @@ See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlas
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818350" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

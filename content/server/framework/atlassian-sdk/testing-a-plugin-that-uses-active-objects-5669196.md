@@ -1,14 +1,18 @@
 ---
-title: Testing a Plugin That Uses Active Objects 5669196
 aliases:
-    - /server/framework/atlassian-sdk/testing-a-plugin-that-uses-active-objects-5669196.html
+- /server/framework/atlassian-sdk/testing-a-plugin-that-uses-active-objects-5669196.html
+- /server/framework/atlassian-sdk/testing-a-plugin-that-uses-active-objects-5669196.md
+category: devguide
+confluence_id: 5669196
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669196
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669196
-confluence_id: 5669196
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/testing-a-plugin-that-uses-active-objects
+new_url: /server/framework/atlassian-sdk/testing-a-plugin-that-uses-active-objects
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Testing a plugin that uses Active Objects
 ---
 # Testing a plugin that uses Active Objects
 
@@ -36,6 +40,202 @@ We *strongly* encourage you to test your plugin with all of these databases befo
 #### Working with Atlassian Support
 
 We also remind you that Atlassian Support will not be able to support your plugin. If we encounter customers who are having difficulty due to an interaction with your plugin, our course of action will be to disable that plugin and return their host product to normal functionality. The burden for plugin-related support is on you, the plugin author, so it is in your best interest to make sure these areas are fully tested.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

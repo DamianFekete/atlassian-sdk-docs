@@ -1,14 +1,18 @@
 ---
-title: Developing Speakeasy Extensions 2818113
 aliases:
-    - /server/framework/atlassian-sdk/developing-speakeasy-extensions-2818113.html
+- /server/framework/atlassian-sdk/developing-speakeasy-extensions-2818113.html
+- /server/framework/atlassian-sdk/developing-speakeasy-extensions-2818113.md
+category: devguide
+confluence_id: 2818113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818113
-confluence_id: 2818113
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/developing-speakeasy-extensions
+new_url: /server/framework/atlassian-sdk/developing-speakeasy-extensions
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Developing Speakeasy extensions
 ---
 # Developing Speakeasy extensions
 
@@ -57,7 +61,7 @@ To try out your idea, before getting into extension development and packaging, y
 
 When starting from scratch, you can use the extension wizard to create a new conventions-based, or "zip", extension:
 
-1.  [Install the Speakeasy plugin](/server/framework/atlassian-sdk/installing-speakeasy-2818535.html) on an instance of Confluence or JIRA
+1.  [Install the Speakeasy plugin](/server/framework/atlassian-sdk/installing-speakeasy) on an instance of Confluence or JIRA
 2.  Navigate to your Speakeasy page, by clicking "Extensions" in the username dropdown:  
     <img src="/server/framework/atlassian-sdk/images/extensions-link---jira.png" width="300" />
 
@@ -370,6 +374,8 @@ The custom module types are necessary to ensure the plugin can be enabled on a p
 Keep in mind the idea is the application should work 100% correctly if your extension is not enabled. This means you shouldn't do things like create psuedo Confluence macros that show useful information for your extension users but blank screens or gibberish for all others.
 
 {{% /note %}}
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Creating a Remote Debug Target 2818651
 aliases:
-    - /server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.html
+- /server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.html
+- /server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.md
+category: devguide
+confluence_id: 2818651
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818651
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818651
-confluence_id: 2818651
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/creating-a-remote-debug-target
+new_url: /server/framework/atlassian-sdk/creating-a-remote-debug-target
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Creating a remote debug target
 ---
 # Creating a remote debug target
 
@@ -20,7 +24,7 @@ This page describes how to set up standard IDE debugging tools to work with Atla
 
 Since plugin are deployed as part of another application (e.g., Confluence or JIRA), you can't just start your IDE in debug mode to debug the plugin. Your IDE must connect to the Atlassian application that hosts the plugin. In terms of your IDE configuration, the Atlassian host application needs to be configured as the remote debug target.
 
-To connect to an Atlassian application, you need to connect to it in debug mode. With the SDK, you use the [atlas-debug](/server/framework/atlassian-sdk/atlas-debug-2818346.html) command to start the application in debug mode. By default, this command opens port 5005 as the debug port, the default for Java debugging. But you can specify another using the `--jvm-debug-port` parameter. When setting up your debug target, configure this port value as the debug port, as described below
+To connect to an Atlassian application, you need to connect to it in debug mode. With the SDK, you use the [atlas-debug](/server/framework/atlassian-sdk/atlas-debug) command to start the application in debug mode. By default, this command opens port 5005 as the debug port, the default for Java debugging. But you can specify another using the `--jvm-debug-port` parameter. When setting up your debug target, configure this port value as the debug port, as described below
 
 ## Creating a remote debug target in IDEA
 
@@ -53,7 +57,105 @@ You can now attempt to use your plugin in the Atlassian application to generate 
 
 You can now start the Atlassian application in debug mode and connect to it from Eclipse.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

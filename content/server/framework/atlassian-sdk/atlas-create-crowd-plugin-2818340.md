@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Crowd Plugin 2818340
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-crowd-plugin-2818340.html
+- /server/framework/atlassian-sdk/atlas-create-crowd-plugin-2818340.html
+- /server/framework/atlassian-sdk/atlas-create-crowd-plugin-2818340.md
+category: devguide
+confluence_id: 2818340
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818340
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818340
-confluence_id: 2818340
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-crowd-plugin
+new_url: /server/framework/atlassian-sdk/atlas-create-crowd-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-crowd-plugin
 ---
 # atlas-create-crowd-plugin
 
-This page describes the shell script `atlas-create-crowd-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-crowd-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Crowd**.
 
@@ -103,8 +107,94 @@ Let's assume you want to create a new Crowd plugin by supplying all the necessar
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818340" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

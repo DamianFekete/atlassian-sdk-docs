@@ -1,14 +1,18 @@
 ---
-title: Embedding the Plugin Framework 852025
 aliases:
-    - /server/framework/atlassian-sdk/embedding-the-plugin-framework-852025.html
+- /server/framework/atlassian-sdk/embedding-the-plugin-framework-852025.html
+- /server/framework/atlassian-sdk/embedding-the-plugin-framework-852025.md
+category: devguide
+confluence_id: 852025
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852025
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852025
-confluence_id: 852025
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework
+new_url: /server/framework/atlassian-sdk/embedding-the-plugin-framework
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Embedding the Plugin Framework
 ---
 # Embedding the Plugin Framework
 
@@ -20,7 +24,7 @@ The plugin framework features a mature OSGi container that keeps plugins properl
 
 ## Getting Started
 
-See how to [get started](/server/framework/atlassian-sdk/quick-start-guide-to-embedding-851992.html) embedding the framework with as little fuss as possible.
+See how to [get started](/server/framework/atlassian-sdk/quick-start-guide-to-embedding) embedding the framework with as little fuss as possible.
 
 ## License
 
@@ -54,15 +58,177 @@ For conditions and terms of use, please see the license and copyright statements
 
 ## Topics
 
-#### [Quick Start Guide to Embedding](/server/framework/atlassian-sdk/quick-start-guide-to-embedding-851992.html)
+#### [Quick Start Guide to Embedding](/server/framework/atlassian-sdk/quick-start-guide-to-embedding)
 
-#### [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring-852023.html)
+#### [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring)
 
-#### [Using the Built-In Plugin Modules](/server/framework/atlassian-sdk/using-the-built-in-plugin-modules-851993.html)
+#### [Using the Built-In Plugin Modules](/server/framework/atlassian-sdk/using-the-built-in-plugin-modules)
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

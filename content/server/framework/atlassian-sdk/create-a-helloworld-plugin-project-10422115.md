@@ -1,14 +1,18 @@
 ---
-title: Create a Helloworld Plugin Project 10422115
 aliases:
-    - /server/framework/atlassian-sdk/create-a-helloworld-plugin-project-10422115.html
+- /server/framework/atlassian-sdk/create-a-helloworld-plugin-project-10422115.html
+- /server/framework/atlassian-sdk/create-a-helloworld-plugin-project-10422115.md
+category: devguide
+confluence_id: 10422115
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10422115
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10422115
-confluence_id: 10422115
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project
+new_url: /server/framework/atlassian-sdk/create-a-helloworld-plugin-project
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Create a HelloWorld plugin project
 ---
 # Create a HelloWorld plugin project
 
@@ -152,7 +156,7 @@ In this step, we'll use the `atlas-run` command to run the application (JIRA
 
 You have a basic plugin skeleton, so lets learn how to modify and customise it to provide a new menu in JIRA. 
 
-**[Modify the Plugin](/server/framework/atlassian-sdk/modify-the-plugin-41236025.html)**
+**[Modify the Plugin](/server/framework/atlassian-sdk/modify-the-plugin)**
 
 ## Additional Resources
 
@@ -163,6 +167,35 @@ Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/a
  
 
 Still need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

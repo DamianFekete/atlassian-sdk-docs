@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Bamboo Plugin 2818353
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-bamboo-plugin-2818353.html
+- /server/framework/atlassian-sdk/atlas-create-bamboo-plugin-2818353.html
+- /server/framework/atlassian-sdk/atlas-create-bamboo-plugin-2818353.md
+category: devguide
+confluence_id: 2818353
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818353
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818353
-confluence_id: 2818353
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-bamboo-plugin
+new_url: /server/framework/atlassian-sdk/atlas-create-bamboo-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-bamboo-plugin
 ---
 # atlas-create-bamboo-plugin
 
-This page describes the shell script `atlas-create-bamboo-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-bamboo-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Bamboo**.
 
@@ -103,7 +107,97 @@ Let's assume you want to create a new Bamboo plugin by supplying all the necessa
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

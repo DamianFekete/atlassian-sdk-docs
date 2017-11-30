@@ -1,14 +1,18 @@
 ---
-title: Going From Plugin to Osgi Bundle 852147
 aliases:
-    - /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.html
+- /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.html
+- /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.md
+category: devguide
+confluence_id: 852147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852147
-confluence_id: 852147
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/going-from-plugin-to-osgi-bundle
+new_url: /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Going from Plugin to OSGi bundle
 ---
 # Going from Plugin to OSGi bundle
 
@@ -28,9 +32,177 @@ The following diagram describes the process by which a plugin JAR is dynamically
 
 ##### RELATED TOPICS
 
-\[[Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies-2818370.html)\]  
+\[[Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies)\]  
 [Automatic Generation of Spring Configuration](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Automatic+Generation+of+Spring+Configuration)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Framework)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

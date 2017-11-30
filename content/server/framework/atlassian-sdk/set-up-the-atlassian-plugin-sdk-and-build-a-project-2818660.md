@@ -1,14 +1,18 @@
 ---
-title: Set Up the Atlassian Plugin Sdk and Build a Project 2818660
 aliases:
-    - /server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html
+- /server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html
+- /server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.md
+category: devguide
+confluence_id: 2818660
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818660
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818660
-confluence_id: 2818660
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project
+new_url: /server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Set up the Atlassian Plugin SDK and build a project
 ---
 # Set up the Atlassian Plugin SDK and build a project
 
@@ -39,8 +43,8 @@ The tutorial guides you through the following tasks:
 
 -   Install the Atlassian SDK on a ([Windows](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/install-the-atlassian-sdk-on-a-windows-system)) or ([Linux or Mac](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system)) system
 -   [Create a Plugin](https://developer.atlassian.com/display/DOCS/Create+a+HelloWorld+Plugin+Project)
--   [Modify the Plugin](/server/framework/atlassian-sdk/modify-the-plugin-41236025.html)
--   [Modify the plugin using QuickReload](/server/framework/atlassian-sdk/modify-the-plugin-using-quickreload-41236017.html)
+-   [Modify the Plugin](/server/framework/atlassian-sdk/modify-the-plugin)
+-   [Modify the plugin using QuickReload](/server/framework/atlassian-sdk/modify-the-plugin-using-quickreload)
 
 ## Get started
 
@@ -51,6 +55,37 @@ Before you dive into building an add-on, you'll need to set up your development 
 ## Additional Resources
 
 Need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a> or ask a question in the <a href="https://community.developer.atlassian.com/t/welcome-to-the-community/84" class="external-link">Atlassian Developer Community</a>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

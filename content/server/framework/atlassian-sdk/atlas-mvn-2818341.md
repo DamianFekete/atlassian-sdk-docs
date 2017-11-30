@@ -1,18 +1,22 @@
 ---
-title: Atlas Mvn 2818341
 aliases:
-    - /server/framework/atlassian-sdk/atlas-mvn-2818341.html
+- /server/framework/atlassian-sdk/atlas-mvn-2818341.html
+- /server/framework/atlassian-sdk/atlas-mvn-2818341.md
+category: devguide
+confluence_id: 2818341
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818341
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818341
-confluence_id: 2818341
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-mvn
+new_url: /server/framework/atlassian-sdk/atlas-mvn
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-mvn
 ---
 # atlas-mvn
 
-This page describes the shell script `atlas-mvn`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-mvn`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 {{% tip %}}
 
@@ -65,7 +69,80 @@ atlas-mvn test-compile --help
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

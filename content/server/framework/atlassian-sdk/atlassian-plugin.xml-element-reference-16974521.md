@@ -1,14 +1,17 @@
 ---
-title: Atlassian Plugin.Xml Element Reference 16974521
 aliases:
-    - /server/framework/atlassian-sdk/atlassian-plugin.xml-element-reference-16974521.html
+- /server/framework/atlassian-sdk/atlassian-plugin.xml-element-reference-16974521.html
+- /server/framework/atlassian-sdk/atlassian-plugin.xml-element-reference-16974521.md
+category: devguide
+confluence_id: 16974521
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974521
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974521
-confluence_id: 16974521
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/configuring-the-plugin-descriptor/atlassian-plugin-xml-element-reference
+new_url: /server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: atlassian-plugin.xml element reference
 ---
 # atlassian-plugin.xml element reference
 
@@ -256,6 +259,62 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Pluralising Internationalisation Strings 10421452
 aliases:
-    - /server/framework/atlassian-sdk/pluralising-internationalisation-strings-10421452.html
+- /server/framework/atlassian-sdk/pluralising-internationalisation-strings-10421452.html
+- /server/framework/atlassian-sdk/pluralising-internationalisation-strings-10421452.md
+category: devguide
+confluence_id: 10421452
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421452
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421452
-confluence_id: 10421452
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/internationalising-your-plugin/pluralising-internationalisation-strings
+new_url: /server/framework/atlassian-sdk/pluralising-internationalisation-strings
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Pluralising internationalisation strings
 ---
 # Pluralising internationalisation strings
 
@@ -117,6 +121,121 @@ Therefore, it is only recommended to use `ChoiceFormat` in cases where the sent
 -   <a href="http://stuartgunter.wordpress.com/2011/08/09/java-i18n-pluralisation-using-choiceformat/" class="external-link">Java i18n Pluralisation using ChoiceFormat</a>
 -   <a href="http://docs.oracle.com/javase/tutorial/i18n/format/choiceFormat.html" class="external-link">Handling Plurals (The Java™ Tutorials)</a>
 -   <a href="http://docs.oracle.com/javase/7/docs/api/java/text/ChoiceFormat.html" class="external-link">ChoiceFormat (Java Platform SE 7)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

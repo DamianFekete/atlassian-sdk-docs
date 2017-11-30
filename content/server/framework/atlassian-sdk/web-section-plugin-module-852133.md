@@ -1,14 +1,17 @@
 ---
-title: Web Section Plugin Module 852133
 aliases:
-    - /server/framework/atlassian-sdk/web-section-plugin-module-852133.html
+- /server/framework/atlassian-sdk/web-section-plugin-module-852133.html
+- /server/framework/atlassian-sdk/web-section-plugin-module-852133.md
+category: reference
+confluence_id: 852133
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852133
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852133
-confluence_id: 852133
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-section-plugin-module
+new_url: /server/framework/atlassian-sdk/web-section-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Section plugin module
 ---
 # Web Section plugin module
 
@@ -297,6 +300,38 @@ NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plug
 
 [Web Item Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module)  
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

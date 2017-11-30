@@ -1,14 +1,18 @@
 ---
-title: Atlas Cli 2818336
 aliases:
-    - /server/framework/atlassian-sdk/atlas-cli-2818336.html
+- /server/framework/atlassian-sdk/atlas-cli-2818336.html
+- /server/framework/atlassian-sdk/atlas-cli-2818336.md
+category: devguide
+confluence_id: 2818336
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818336
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818336
-confluence_id: 2818336
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-cli
+new_url: /server/framework/atlassian-sdk/atlas-cli
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-cli
 ---
 # atlas-cli
 
@@ -20,13 +24,13 @@ FastDev and atlas-cli have been deprecated. Please use [Automatic Plugin Reinst
 
  
 
-This page describes the shell script `atlas-cli`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-cli`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
 Along with the plugin install (`pi`) command, this command allows you to install a plugin into a running Atlassian application, without having to restart the application. At the CLI prompt, you enter `pi` to install a plugin whenever you change its code.
 
-Note that this mechanism is now incorporated in the user interface of Atlassian application as one of the developer tools. For more information, see [Automatic Plugin Reinstallation with FastDev](/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-fastdev-8945760.html). If you want to avoid using FastDev but do want to use the command line mode as described here, add the following to the AMPS configuration in your project POM:
+Note that this mechanism is now incorporated in the user interface of Atlassian application as one of the developer tools. For more information, see [Automatic Plugin Reinstallation with FastDev](/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-fastdev). If you want to avoid using FastDev but do want to use the command line mode as described here, add the following to the AMPS configuration in your project POM:
 
 `<useFastdevCli>false</useFastdevCli>`
 
@@ -115,7 +119,100 @@ Once you have done the initial `atlas-create-APPLICATION-plugin` and `atlas-run`
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

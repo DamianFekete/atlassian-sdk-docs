@@ -1,14 +1,18 @@
 ---
-title: Atlassian REST API Design Guidelines Version 1 4915226
 aliases:
-    - /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1-4915226.html
+- /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1-4915226.html
+- /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1-4915226.md
+category: devguide
+confluence_id: 4915226
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915226
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915226
-confluence_id: 4915226
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1
+new_url: /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Atlassian REST API design guidelines version 1
 ---
 # Atlassian REST API design guidelines version 1
 
@@ -451,7 +455,7 @@ A version number indicates a certain level of backwards-compatibility the client
 
 Every REST API MUST at least accept <a href="http://www.ietf.org/rfc/rfc2617.txt" class="external-link">basic authentication</a>.
 
-Other authentication options are optional, such as [Trusted Apps](/server/framework/atlassian-sdk/2818272.html), OS username and password as query parameters, or 'remember me' cookies.
+Other authentication options are optional, such as [Trusted Apps](/server/framework/atlassian-sdk/trusted-application-authentication), OS username and password as query parameters, or 'remember me' cookies.
 
 By default, access to all resources (using any method) requires the client to be authenticated. Resources that should be available anonymously MUST be marked as such. The default implementation SHOULD use the `AnonymousAllowed` annotation.
 
@@ -818,9 +822,154 @@ Any request which produces a status code with no body will have a body formatted
 
 ###### RELATED TOPICS
 
-[Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin-2818694.html)  
+[Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Basics of Exposing REST APIs via Plugins](/server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins-4915229.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

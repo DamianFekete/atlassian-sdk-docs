@@ -1,18 +1,22 @@
 ---
-title: Atlas Package 2818351
 aliases:
-    - /server/framework/atlassian-sdk/atlas-package-2818351.html
+- /server/framework/atlassian-sdk/atlas-package-2818351.html
+- /server/framework/atlassian-sdk/atlas-package-2818351.md
+category: devguide
+confluence_id: 2818351
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818351
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818351
-confluence_id: 2818351
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-package
+new_url: /server/framework/atlassian-sdk/atlas-package
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-package
 ---
 # atlas-package
 
-This page describes the shell script `atlas-package`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-package`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -60,6 +64,78 @@ Run the following command to produce your JAR without failing the build, even if
 ``` javascript
 atlas-package --fail-never
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

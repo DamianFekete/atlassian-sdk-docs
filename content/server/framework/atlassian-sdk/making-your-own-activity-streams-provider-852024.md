@@ -1,14 +1,18 @@
 ---
-title: Making Your Own Activity Streams Provider 852024
 aliases:
-    - /server/framework/atlassian-sdk/making-your-own-activity-streams-provider-852024.html
+- /server/framework/atlassian-sdk/making-your-own-activity-streams-provider-852024.html
+- /server/framework/atlassian-sdk/making-your-own-activity-streams-provider-852024.md
+category: devguide
+confluence_id: 852024
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852024
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852024
-confluence_id: 852024
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/making-your-own-activity-streams-provider
+new_url: /server/framework/atlassian-sdk/making-your-own-activity-streams-provider
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Making your own Activity Streams provider
 ---
 # Making your own Activity Streams provider
 
@@ -65,7 +69,7 @@ Alternatively, you can download the source using the **get source** option her
 
 ## Step 1. Set up your plugin project
 
-You can just copy and tweak the <a href="https://bitbucket.org/cjerozal/external-provider-sample/overview" class="external-link">sample project</a>, which is already set up to run Activity Streams 5.0 in an early-access milestone of JIRA 5.0. Or you may want to use the Atlassian Plugin SDK to [create a plugin skeleton](/server/framework/atlassian-sdk/creating-a-plugin-skeleton-with-the-atlassian-sdk-2818617.html) and then, in your sample project's pom.xml, specify a [product version](/server/framework/atlassian-sdk/activity-streams-version-matrix-852029.html) containing your desired version of Activity Streams.
+You can just copy and tweak the <a href="https://bitbucket.org/cjerozal/external-provider-sample/overview" class="external-link">sample project</a>, which is already set up to run Activity Streams 5.0 in an early-access milestone of JIRA 5.0. Or you may want to use the Atlassian Plugin SDK to [create a plugin skeleton](/server/framework/atlassian-sdk/creating-a-plugin-skeleton-with-the-atlassian-sdk) and then, in your sample project's pom.xml, specify a [product version](/server/framework/atlassian-sdk/activity-streams-version-matrix) containing your desired version of Activity Streams.
 
 ## Step. 2 Add the skeletons of classes for your provider
 
@@ -245,6 +249,181 @@ The sample plugin adds entries from the UPM (Universal Plugin Manager) audit log
 Additionally, if you specify filters in your implementation of `StreamsFilterOptionProvider`, you can have your own provider-specific Activity Streams filters. The sample plugin includes filters for various kinds of plugin activity.
 
 ![](/server/framework/atlassian-sdk/images/activity-filters.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

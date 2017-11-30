@@ -1,14 +1,18 @@
 ---
-title: Explore the Installed Sdk and the Atlas Commands 10421987
 aliases:
-    - /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands-10421987.html
+- /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands-10421987.html
+- /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands-10421987.md
+category: devguide
+confluence_id: 10421987
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421987
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421987
-confluence_id: 10421987
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/explore-the-installed-sdk-and-the-atlas-commands
+new_url: /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Explore the installed SDK and the atlas commands
 ---
 # Explore the installed SDK and the atlas commands
 
@@ -227,13 +231,39 @@ When you run a standalone instance, you can make changes in the instance. The sy
 
 **Extra Exploration**
 
-You can use the `atlas-run-standalone` command to run a particular version of a product. This is useful if, for instance, you want to test your code on an earlier version of JIRA or Confluence. Review the [command's reference page](/server/framework/atlassian-sdk/atlas-run-standalone-2818534.html) and try running an earlier version of JIRA.
+You can use the `atlas-run-standalone` command to run a particular version of a product. This is useful if, for instance, you want to test your code on an earlier version of JIRA or Confluence. Review the [command's reference page](/server/framework/atlassian-sdk/atlas-run-standalone) and try running an earlier version of JIRA.
 
 ## Next steps
 
-At this point, you have some basic understanding of the SDK. Enough to go ahead in the [next tutorial section to create your own plugin project](/server/framework/atlassian-sdk/create-a-helloworld-plugin-project-10422115.html).
+At this point, you have some basic understanding of the SDK. Enough to go ahead in the [next tutorial section to create your own plugin project](/server/framework/atlassian-sdk/create-a-helloworld-plugin-project).
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

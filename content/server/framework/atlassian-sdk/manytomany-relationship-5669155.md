@@ -1,14 +1,18 @@
 ---
-title: Manytomany Relationship 5669155
 aliases:
-    - /server/framework/atlassian-sdk/manytomany-relationship-5669155.html
+- /server/framework/atlassian-sdk/manytomany-relationship-5669155.html
+- /server/framework/atlassian-sdk/manytomany-relationship-5669155.md
+category: devguide
+confluence_id: 5669155
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669155
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669155
-confluence_id: 5669155
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/manytomany-relationship
+new_url: /server/framework/atlassian-sdk/manytomany-relationship
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: ManyToMany relationship
 ---
 # ManyToMany relationship
 
@@ -79,6 +83,195 @@ The <a href="https://developer.atlassian.com/display/DOCS/OneToOne+Relationship"
 If you do not set these attributes, Active Objects will revert to inferring the method by type. However, in a future upgrade, specifying these attributes will be required.
 
 *Note, the Active Objects plugin was upgraded to 0.22.1 in JIRA 6.1.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

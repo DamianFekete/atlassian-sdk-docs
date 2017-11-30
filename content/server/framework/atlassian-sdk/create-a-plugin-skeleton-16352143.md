@@ -1,14 +1,18 @@
 ---
-title: Create a Plugin Skeleton 16352143
 aliases:
-    - /server/framework/atlassian-sdk/create-a-plugin-skeleton-16352143.html
+- /server/framework/atlassian-sdk/create-a-plugin-skeleton-16352143.html
+- /server/framework/atlassian-sdk/create-a-plugin-skeleton-16352143.md
+category: devguide
+confluence_id: 16352143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352143
-confluence_id: 16352143
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-plugin-skeleton
+new_url: /server/framework/atlassian-sdk/create-a-plugin-skeleton
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Create a plugin skeleton
 ---
 # Create a plugin skeleton
 
@@ -186,6 +190,56 @@ Start from a new tab in your terminal:
 ## Next Steps
 
 Now that your plugin skeleton is built and imported into Eclipse, [you'll construct a servlet](https://developer.atlassian.com/display/DOCS/Convert+component+to+servlet+module).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

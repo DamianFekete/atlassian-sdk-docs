@@ -1,14 +1,17 @@
 ---
-title: Web Item Plugin Module 852014
 aliases:
-    - /server/framework/atlassian-sdk/web-item-plugin-module-852014.html
+- /server/framework/atlassian-sdk/web-item-plugin-module-852014.html
+- /server/framework/atlassian-sdk/web-item-plugin-module-852014.md
+category: reference
+confluence_id: 852014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852014
-confluence_id: 852014
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-item-plugin-module
+new_url: /server/framework/atlassian-sdk/web-item-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Item plugin module
 ---
 # Web Item plugin module
 
@@ -389,7 +392,44 @@ Here is an example `atlassian-plugin.xml` file containing how to add your link 
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

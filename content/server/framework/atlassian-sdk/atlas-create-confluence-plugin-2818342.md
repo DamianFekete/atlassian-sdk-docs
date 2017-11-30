@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Confluence Plugin 2818342
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-confluence-plugin-2818342.html
+- /server/framework/atlassian-sdk/atlas-create-confluence-plugin-2818342.html
+- /server/framework/atlassian-sdk/atlas-create-confluence-plugin-2818342.md
+category: devguide
+confluence_id: 2818342
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818342
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818342
-confluence_id: 2818342
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-confluence-plugin
+new_url: /server/framework/atlassian-sdk/atlas-create-confluence-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-confluence-plugin
 ---
 # atlas-create-confluence-plugin
 
-This page describes the shell script `atlas-create-confluence-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-confluence-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Confluence**.
 
@@ -103,8 +107,96 @@ Let's assume you want to create a new Confluence plugin by supplying all the nec
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818342" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

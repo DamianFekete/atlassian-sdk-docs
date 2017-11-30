@@ -1,22 +1,26 @@
 ---
-title: Configure Idea to Use the Sdk 2818645
 aliases:
-    - /server/framework/atlassian-sdk/configure-idea-to-use-the-sdk-2818645.html
+- /server/framework/atlassian-sdk/configure-idea-to-use-the-sdk-2818645.html
+- /server/framework/atlassian-sdk/configure-idea-to-use-the-sdk-2818645.md
+category: devguide
+confluence_id: 2818645
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818645
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818645
-confluence_id: 2818645
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/configure-idea-to-use-the-sdk
+new_url: /server/framework/atlassian-sdk/configure-idea-to-use-the-sdk
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Configure IDEA to use the SDK
 ---
 # Configure IDEA to use the SDK
 
-Setting up IDEA for plugin development is a breeze. Simply create a plugin project using the `atlas-create-*-plugin` command (for example, [atlas-create-confluence-plugin](/server/framework/atlassian-sdk/atlas-create-confluence-plugin-2818342.html)) and then load the project's POM file into IntelliJ. IntelliJ's Maven integration will generate the appropriate project files for you.
+Setting up IDEA for plugin development is a breeze. Simply create a plugin project using the `atlas-create-*-plugin` command (for example, [atlas-create-confluence-plugin](/server/framework/atlassian-sdk/atlas-create-confluence-plugin)) and then load the project's POM file into IntelliJ. IntelliJ's Maven integration will generate the appropriate project files for you.
 
 While it's possible to run the Atlassian Plugin SDK commands from within IDEA as custom run commands, in practice, most developers simply use IDEA for code editing and debugging, and use a separate console to run the `atlas-run`, `atlas-debug`, or other Atlassian Plugin SDK command. After you've made project changes with the SDK, IDEA will detect the file changes on disk and prompt you to reimport the project.
 
-After starting the Atlassian application, you can connect to it from IDEA for debugging on the default debug port 5005, as described in [Creating a Remote Debug Target](/server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.html). 
+After starting the Atlassian application, you can connect to it from IDEA for debugging on the default debug port 5005, as described in [Creating a Remote Debug Target](/server/framework/atlassian-sdk/creating-a-remote-debug-target). 
 
 ## Adding a plugin project to IDEA
 
@@ -62,11 +66,107 @@ Here are sample settings:
 -ea
 ```
 
- 
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

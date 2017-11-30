@@ -1,14 +1,18 @@
 ---
-title: Amps Build Configuration Reference 16974276
 aliases:
-    - /server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html
+- /server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html
+- /server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.md
+category: devguide
+confluence_id: 16974276
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974276
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974276
-confluence_id: 16974276
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/about-amps-build-options/amps-build-configuration-reference
+new_url: /server/framework/atlassian-sdk/amps-build-configuration-reference
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: AMPS build configuration reference
 ---
 # AMPS build configuration reference
 
@@ -36,7 +40,7 @@ While the underlying Cargo system can support many different containers, Atlassi
 
 ### dataSources
 
-It is possible to declare JNDI datasources for the product, but this is not available as a direct child of &lt;configuration&gt;. It is available as a child of a `<product>` in the `<products>` tag. See [Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps-16974213.html) for examples.
+It is possible to declare JNDI datasources for the product, but this is not available as a direct child of &lt;configuration&gt;. It is available as a child of a `<product>` in the `<products>` tag. See [Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps) for examples.
 
 ### httpPort
 
@@ -242,13 +246,13 @@ Specifies the pattern to use for finding integration tests to run. The default v
 
 Defines a product that can be referenced in a `testGroup`. Test groups allow you to run a subset of tests on a specific product configuration; for example, if your plugin is designed for JIRA and Confluence, you can have a test group with JIRA-specific tests, another group with Confluence-specific tests, and a third with tests common to both configurations.
 
-See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html) for examples of the `products` element configuration.
+See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests) for examples of the `products` element configuration.
 
 ### testGroup
 
 Defines a test group to run on one or more `<product>` configurations.
 
-See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html) for examples of using the `testGroup` element.
+See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests) for examples of using the `testGroup` element.
 
 ### testGroups
 
@@ -258,7 +262,7 @@ Example:
 
     atlas-mvn crowd:integration-test -DtestGroups=loginTests,authTests,cookieTests
 
-See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html) for examples of defining test groups.
+See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests) for examples of defining test groups.
 
 ### parallel
 
@@ -275,7 +279,7 @@ By default, the parallel option is off. To enable it, specify it at the command 
 
 This option has no effect on Studio-Crowd, FishEye or Studio-FeCru.
 
-For more information about test groups, see [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests-15335901.html).
+For more information about test groups, see [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests).
 
 ### noWebapp
 
@@ -307,7 +311,104 @@ This can be useful when debugging an OSGi validation problem or forcing the plug
 
 <a href="https://developer.atlassian.com/display/DOCS/Create+and+Run+Traditional+Integration+Tests" class="diff-block-context">Create and Run Traditional Integration Tests</a>
 
-[Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/amps-build-configuration-reference-16974276.html)
+[Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/amps-build-configuration-reference)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

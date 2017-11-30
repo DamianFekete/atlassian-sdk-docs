@@ -1,14 +1,18 @@
 ---
-title: Creating Plugin Module Instances 851984
 aliases:
-    - /server/framework/atlassian-sdk/creating-plugin-module-instances-851984.html
+- /server/framework/atlassian-sdk/creating-plugin-module-instances-851984.html
+- /server/framework/atlassian-sdk/creating-plugin-module-instances-851984.md
+category: devguide
+confluence_id: 851984
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851984
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851984
-confluence_id: 851984
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/creating-plugin-module-instances
+new_url: /server/framework/atlassian-sdk/creating-plugin-module-instances
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Creating plugin module instances
 ---
 # Creating plugin module instances
 
@@ -161,8 +165,12 @@ The prefix is now able to be used by plugin modules that expect objects like the
 
 ##### RELATED TOPICS
 
-[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks-852076.html)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)  
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
 
 
 

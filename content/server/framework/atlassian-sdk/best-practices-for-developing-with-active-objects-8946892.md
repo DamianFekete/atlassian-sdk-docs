@@ -24,11 +24,11 @@ Currently, the Atlassian Active Object framework does not support binary large o
 
 **Specify table names in annotations**
 
-Use the `@Table` annotation to specify your table names so that you can freely rename the entity interface. For example, `@Table("MyEntity")`. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html).
+Use the `@Table` annotation to specify your table names so that you can freely rename the entity interface. For example, `@Table("MyEntity")`. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates).
 
 **Do not remove column names from Java code on upgrade**
 
- When upgrading your plugin to a new version, do not remove columns unless you are aware of the consequences. Active Objects will make the database match the entity interface in the Java code. It alters tables to match the current interface. Removing columns will result in data loss. For that reason, we recommend that you do not delete tables or columns, only add them. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html). 
+ When upgrading your plugin to a new version, do not remove columns unless you are aware of the consequences. Active Objects will make the database match the entity interface in the Java code. It alters tables to match the current interface. Removing columns will result in data loss. For that reason, we recommend that you do not delete tables or columns, only add them. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates). 
 
 If your plugin needs a different table structure after the upgrade, your upgrade task should:
 
@@ -38,11 +38,11 @@ If your plugin needs a different table structure after the upgrade, your upgrade
 
 **Take care when renaming entities**
 
-The Active Objects framework does not know about renaming. So if you change the name of an entity, it will remove the other entity and create a new one. All the data in the entity will be lost. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html).
+The Active Objects framework does not know about renaming. So if you change the name of an entity, it will remove the other entity and create a new one. All the data in the entity will be lost. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates).
 
 **When changing data type, migrate the data as part of the upgrade process**
 
-When migrating from one data type to another, the recommended approach is not to use an in-place type conversion. Instead, create a new column and migrate the data during the upgrade process. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates-5669184.html).
+When migrating from one data type to another, the recommended approach is not to use an in-place type conversion. Instead, create a new column and migrate the data during the upgrade process. See [Upgrading your plugin and handling data model updates](/server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates).
 
 **Column names are case-sensitive**
 
@@ -113,6 +113,227 @@ See <a href="https://answers.atlassian.com/questions/216174/active-objects-mssql
 ##### RELATED TOPICS
 
 [Active Objects](https://developer.atlassian.com/display/AO/Active+Objects)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

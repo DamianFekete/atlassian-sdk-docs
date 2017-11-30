@@ -1,14 +1,18 @@
 ---
-title: Configuration Of Instructions in Atlassian Plugins 38449742
 aliases:
-    - /server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins-38449742.html
+- /server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins-38449742.html
+- /server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins-38449742.md
+category: devguide
+confluence_id: 38449742
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38449742
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38449742
-confluence_id: 38449742
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/configuration-of-instructions-in-atlassian-plugins
+new_url: /server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Configuration of Instructions in Atlassian Plugins
 ---
 # Configuration of Instructions in Atlassian Plugins
 
@@ -81,7 +85,12 @@ Here's what these default instructions do:
 -   <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner/src" class="external-link">Spring Scanner</a>
 -   <a href="https://www.youtube.com/watch?v=bEYoAFc42b4" class="external-link">Plugins 2</a>
 
- 
+
+
+
+
+
+
 
 
 

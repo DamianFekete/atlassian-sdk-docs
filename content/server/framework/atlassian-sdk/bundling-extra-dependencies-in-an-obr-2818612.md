@@ -24,7 +24,7 @@ Currently, you have to use the Universal Plugin Manager (UPM) to install OBR fil
 
 ### OSGi bundles only
 
-Any library/plugin you want to bundle must be an OSGi bundle in its own right, *with a valid `META-INF/MANIFEST.MF` file defining the OSGi bundle*. This is mainly an issue for any Atlassian-based plugins you might have, which do not generate a `MANIFEST.MF` by default. To do so, you need to declare the `<instructions>` section within the definition for the 'com.atlassian.maven.plugins' plugin for the application you're targeting. More information about this is available [here](/server/framework/atlassian-sdk/managing-dependencies-2818370.html).
+Any library/plugin you want to bundle must be an OSGi bundle in its own right, *with a valid `META-INF/MANIFEST.MF` file defining the OSGi bundle*. This is mainly an issue for any Atlassian-based plugins you might have, which do not generate a `MANIFEST.MF` by default. To do so, you need to declare the `<instructions>` section within the definition for the 'com.atlassian.maven.plugins' plugin for the application you're targeting. More information about this is available [here](/server/framework/atlassian-sdk/managing-dependencies).
 
 ## `pom.xml` Configuration
 
@@ -67,7 +67,7 @@ Within the `<configuration>` section of your plugin's 'maven-&lt;application&gt;
 
 ### `<instructions>`
 
-The package for the dependent plugin **must** be listed in the `<Import-Package>` section of the `<instructions>` for the OSGi bundle. More details about that are [here](/server/framework/atlassian-sdk/managing-dependencies-2818370.html). Some plugins do not technically need to be included for your plugin to build, but if they're not listed here, they won't get installed, since the UPM does dependency checking to ensure it doesn't install libraries that it doesn't need to.
+The package for the dependent plugin **must** be listed in the `<Import-Package>` section of the `<instructions>` for the OSGi bundle. More details about that are [here](/server/framework/atlassian-sdk/managing-dependencies). Some plugins do not technically need to be included for your plugin to build, but if they're not listed here, they won't get installed, since the UPM does dependency checking to ensure it doesn't install libraries that it doesn't need to.
 
 It also seems that on some platforms a spurious 'CONF\_COMM' property is added to the `MANIFEST.MF` when building this way. The fix is to include an empty `<CONF_COMM/>` element in your `<instructions>`.
 
@@ -141,6 +141,226 @@ Firstly, it doesn't work for dependent *plugins*, since they have extra work tha
 Secondly, it's not upgradable independently. The versions you use are based on what's available in whatever other plugins you have installed.
 
 On the other hand, a potential disadvantage of OBRs is that the extra bundles will remain installed after the plugin is removed, thus consuming extra memory and/or resources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

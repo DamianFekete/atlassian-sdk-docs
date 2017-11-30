@@ -1,20 +1,24 @@
 ---
-title: Configuring Your Project 5669161
 aliases:
-    - /server/framework/atlassian-sdk/configuring-your-project-5669161.html
+- /server/framework/atlassian-sdk/configuring-your-project-5669161.html
+- /server/framework/atlassian-sdk/configuring-your-project-5669161.md
+category: devguide
+confluence_id: 5669161
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669161
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669161
-confluence_id: 5669161
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project
+new_url: /server/framework/atlassian-sdk/configuring-your-project
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Configuring your project
 ---
 # Configuring your project
 
 # Configuring your project to work with Bamboo
 
-Configuring your project to work with JIRA is as simple as configuring the `maven-bamboo-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html).
+Configuring your project to work with JIRA is as simple as configuring the `maven-bamboo-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
 ``` xml
 <plugin>
@@ -44,7 +48,7 @@ where `amps.version` is the version of the Atlassian Plugin SDK you're using, 
 
 # Configuring your project to work with Confluence
 
-Configuring your project to work with Confluence is as simple as configuring the `maven-confluence-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)
+Configuring your project to work with Confluence is as simple as configuring the `maven-confluence-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
 ``` xml
 <plugin>
@@ -74,7 +78,7 @@ where `amps.version` is the version of the Atlassian Plugin SDK you're using, 
 
 # Configuring your project to work with FishEye or Crucible
 
-Configuring your project to work with FishEye/Crucible is as simple as configuring the `maven-fecru-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html).
+Configuring your project to work with FishEye/Crucible is as simple as configuring the `maven-fecru-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
 
 ``` xml
 <plugin>
@@ -94,7 +98,7 @@ FishEye/Crucible version 2.7.0 bundles ActiveObjects and is fully supported
 
 # Configuring your project to work with JIRA
 
-Configuring your project to work with JIRA is as simple as configuring the `maven-jira-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)
+Configuring your project to work with JIRA is as simple as configuring the `maven-jira-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
 ``` xml
 <plugin>
@@ -124,7 +128,7 @@ where `amps.version` is the version of the Atlassian Plugin SDK you're using, 
 
 # Configuring your project to work with the Refapp
 
-Configuring your project to work with the Refapp is as simple as configuring the `maven-refapp-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html). In your `pom.xml` edit your plugin according to the following:
+Configuring your project to work with the Refapp is as simple as configuring the `maven-refapp-plugin` that comes with the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project). In your `pom.xml` edit your plugin according to the following:
 
 ``` xml
 <plugin>
@@ -151,6 +155,203 @@ Configuring your project to work with the Refapp is as simple as configuring the
 ```
 
 where `amps.version`, `refapp.version`, `ao.version` and `refappspi.version` are the versions you want to use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: Servlet Plugin Module 852096
 aliases:
-    - /server/framework/atlassian-sdk/servlet-plugin-module-852096.html
+- /server/framework/atlassian-sdk/servlet-plugin-module-852096.html
+- /server/framework/atlassian-sdk/servlet-plugin-module-852096.md
+category: reference
+confluence_id: 852096
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852096
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852096
-confluence_id: 852096
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-plugin-module
+new_url: /server/framework/atlassian-sdk/servlet-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Servlet plugin module
 ---
 # Servlet plugin module
 
@@ -176,7 +179,46 @@ Some information to be aware of when developing or configuring a Servlet plugin 
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

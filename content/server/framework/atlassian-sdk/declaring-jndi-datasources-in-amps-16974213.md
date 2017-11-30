@@ -1,14 +1,18 @@
 ---
-title: Declaring Jndi Datasources in Amps 16974213
 aliases:
-    - /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps-16974213.html
+- /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps-16974213.html
+- /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps-16974213.md
+category: devguide
+confluence_id: 16974213
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974213
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974213
-confluence_id: 16974213
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/declaring-jndi-datasources-in-amps
+new_url: /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Declaring JNDI datasources in AMPS
 ---
 # Declaring JNDI datasources in AMPS
 
@@ -144,7 +148,111 @@ This feature relies on CodeHaus Cargo to launch Tomcat with the datasource. You 
 
 There is no user interface to tell JIRA to use the provided datasource to store its data. However, it is still possible to use AMPS to declare the datasource; You will just need to provide JIRA with the dbconfig.xml. Please open the BitBucket repository for an example: <a href="https://bitbucket.org/aragot/amps-examples" class="external-link">Examples using JNDI datasources for JIRA and Confluence</a>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

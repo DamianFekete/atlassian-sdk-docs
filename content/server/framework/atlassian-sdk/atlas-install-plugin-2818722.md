@@ -1,18 +1,22 @@
 ---
-title: Atlas Install Plugin 2818722
 aliases:
-    - /server/framework/atlassian-sdk/atlas-install-plugin-2818722.html
+- /server/framework/atlassian-sdk/atlas-install-plugin-2818722.html
+- /server/framework/atlassian-sdk/atlas-install-plugin-2818722.md
+category: devguide
+confluence_id: 2818722
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818722
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818722
-confluence_id: 2818722
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-install-plugin
+new_url: /server/framework/atlassian-sdk/atlas-install-plugin
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-install-plugin
 ---
 # atlas-install-plugin
 
-This page describes the shell script `atlas-install-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-install-plugin`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -98,6 +102,81 @@ Go to the plugin's project directory (where you created the plugin) and run the 
 ``` javascript
 atlas-install-plugin --username myadmin --password secret --plugin-key com.atlassian.confluence.plugins.example
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

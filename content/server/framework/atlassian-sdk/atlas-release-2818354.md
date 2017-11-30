@@ -1,18 +1,22 @@
 ---
-title: Atlas Release 2818354
 aliases:
-    - /server/framework/atlassian-sdk/atlas-release-2818354.html
+- /server/framework/atlassian-sdk/atlas-release-2818354.html
+- /server/framework/atlassian-sdk/atlas-release-2818354.md
+category: devguide
+confluence_id: 2818354
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818354
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818354
-confluence_id: 2818354
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-release
+new_url: /server/framework/atlassian-sdk/atlas-release
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-release
 ---
 # atlas-release
 
-This page describes the shell script `atlas-release`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-release`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -63,8 +67,79 @@ atlas-release --fail-never
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818354" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Documenting Your APIs with the Atlassian REST API Browser 8945929
 aliases:
-    - /server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser-8945929.html
+- /server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser-8945929.html
+- /server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser-8945929.md
+category: devguide
+confluence_id: 8945929
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945929
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945929
-confluence_id: 8945929
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/documenting-your-apis-with-the-atlassian-rest-api-browser
+new_url: /server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Documenting your APIs with the Atlassian REST API Browser
 ---
 # Documenting your APIs with the Atlassian REST API Browser
 
@@ -16,7 +20,7 @@ The Atlassian REST API Browser (RAB) is a tool for discovering REST and other ty
 
 The RAB is available as part of the <a href="https://marketplace.atlassian.com/plugins/com.atlassian.devrel.developer-toolbox-plugin" class="external-link">Developer Toolbox</a> or <a href="https://marketplace.atlassian.com/plugins/com.atlassian.labs.rest-api-browser" class="external-link">on its own</a>. Any developer instance of an Atlassian application has the Developer Toolbox included.
 
-This page tells you how to use RAB to document any REST resources that you have added to an Atlassian application. (For more about how client developers would use the RAB, see [Using the REST API Browser](/server/framework/atlassian-sdk/using-the-rest-api-browser-8945910.html).)
+This page tells you how to use RAB to document any REST resources that you have added to an Atlassian application. (For more about how client developers would use the RAB, see [Using the REST API Browser](/server/framework/atlassian-sdk/using-the-rest-api-browser).)
 
 ## Adding a REST resource that will appear in RAB
 
@@ -38,7 +42,148 @@ The RAB source code is <a href="https://bitbucket.org/atlassian/rest-api-browser
 
 <a href="/pages/createpage.action?spaceKey=RAB&amp;title=Overview+of+the+Atlassian+REST+API+Browser" class="createlink">Overview of the Atlassian REST API Browser</a>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

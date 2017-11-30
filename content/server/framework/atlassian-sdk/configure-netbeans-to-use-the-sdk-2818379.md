@@ -1,14 +1,18 @@
 ---
-title: Configure Netbeans to Use the Sdk 2818379
 aliases:
-    - /server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk-2818379.html
+- /server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk-2818379.html
+- /server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk-2818379.md
+category: devguide
+confluence_id: 2818379
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818379
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818379
-confluence_id: 2818379
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/configure-netbeans-to-use-the-sdk
+new_url: /server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Configure NetBeans to use the SDK
 ---
 # Configure NetBeans to use the SDK
 
@@ -16,7 +20,7 @@ Partial integration between <a href="http://netbeans.org/" class="external-link"
 
 An existing NetBeans user is unlikely to want to switch to the instance of Maven that comes with the Atlassian SDK.
 
-**Step 1** - Setup the environment so that atlas Maven commands can be invoked from the command line.[  See: Step 2. Install the Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)  
+**Step 1** - Setup the environment so that atlas Maven commands can be invoked from the command line.[  See: Step 2. Install the Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)  
 **Step 2** - Create an empty plugin project using "atlas-create-confluence-plugin".  
 **Step 3** - Modify the pom.xml
 
@@ -79,6 +83,107 @@ If you want to start the plugin from within the Netbeans IDE, and not from the a
 -   With this, hitting F6 in Netbeans (or 'Run' menu 'Run Project') will launch the equivalent of 'atlas-run'
 
 {{% /tip %}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

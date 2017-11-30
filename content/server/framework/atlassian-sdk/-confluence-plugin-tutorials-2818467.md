@@ -50,11 +50,7 @@ subcategory:
 
 -   Page:
 
-    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
 
@@ -62,11 +58,15 @@ subcategory:
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
 
 -   Page:
 
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
+    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
@@ -109,6 +109,226 @@ subcategory:
 -   Page:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

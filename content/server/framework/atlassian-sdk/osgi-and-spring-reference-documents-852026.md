@@ -1,14 +1,17 @@
 ---
-title: Osgi and Spring Reference Documents 852026
 aliases:
-    - /server/framework/atlassian-sdk/osgi-and-spring-reference-documents-852026.html
+- /server/framework/atlassian-sdk/osgi-and-spring-reference-documents-852026.html
+- /server/framework/atlassian-sdk/osgi-and-spring-reference-documents-852026.md
+category: devguide
+confluence_id: 852026
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852026
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852026
-confluence_id: 852026
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/osgi-and-spring-reference-documents
+new_url: /server/framework/atlassian-sdk/osgi-and-spring-reference-documents
+platform: server
+product: atlassian-sdk
+subcategory: other
+title: OSGi and Spring reference documents
 ---
 # OSGi and Spring reference documents
 
@@ -80,7 +83,168 @@ Alliance</a></strong></p></td>
 ##### RELATED TOPICS
 
 [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)  
-[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks-852076.html)
+[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

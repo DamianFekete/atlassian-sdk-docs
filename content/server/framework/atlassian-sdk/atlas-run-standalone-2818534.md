@@ -1,18 +1,22 @@
 ---
-title: Atlas Run Standalone 2818534
 aliases:
-    - /server/framework/atlassian-sdk/atlas-run-standalone-2818534.html
+- /server/framework/atlassian-sdk/atlas-run-standalone-2818534.html
+- /server/framework/atlassian-sdk/atlas-run-standalone-2818534.md
+category: devguide
+confluence_id: 2818534
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818534
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818534
-confluence_id: 2818534
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-run-standalone
+new_url: /server/framework/atlassian-sdk/atlas-run-standalone
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-run-standalone
 ---
 # atlas-run-standalone
 
-This page describes the shell script `atlas-run-standalone`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html). 
+This page describes the shell script `atlas-run-standalone`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk). 
 
  
 
@@ -112,7 +116,7 @@ Interpreted parameters:
 <tr class="odd">
 <td><p>--rest-version</p>
 <p> </p></td>
-<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module-4915219.html">Atlassian REST module</a> to use.</p></td>
+<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module">Atlassian REST module</a> to use.</p></td>
 </tr>
 <tr class="even">
 <td><p>--plugins</p></td>
@@ -242,7 +246,74 @@ Currently if you want to run multiple products, or multiple versions of each pro
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

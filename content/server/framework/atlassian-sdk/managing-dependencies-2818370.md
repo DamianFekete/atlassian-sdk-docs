@@ -1,14 +1,18 @@
 ---
-title: Managing Dependencies 2818370
 aliases:
-    - /server/framework/atlassian-sdk/managing-dependencies-2818370.html
+- /server/framework/atlassian-sdk/managing-dependencies-2818370.html
+- /server/framework/atlassian-sdk/managing-dependencies-2818370.md
+category: devguide
+confluence_id: 2818370
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818370
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818370
-confluence_id: 2818370
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/getting-started/working-with-the-pom/managing-dependencies
+new_url: /server/framework/atlassian-sdk/managing-dependencies
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Managing dependencies
 ---
 # Managing dependencies
 
@@ -125,7 +129,7 @@ Each OSGi system has a special bundle called the **system bundle**, which functi
 -   Everything in the product itself that we think a plugin author might want to use (most of the product's core classes and any proprietary libraries we use, which means most of `com.atlassian.*`
 -   Several open source libraries the product uses (things like the Apache Commons libraries `org.apache.commons.*`, Google Collections `com.google.collect.*`, etc.)
 
-How do you know what's provided by the Atlassian product container? When running in development mode, the UPM presents an OSGi browser that lists the bundles in the application. See [Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser-8946139.html) for more information.
+How do you know what's provided by the Atlassian product container? When running in development mode, the UPM presents an OSGi browser that lists the bundles in the application. See [Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser) for more information.
 
 All plugins can use packages exported by the system bundle; in fact, the plugin system inspects your code at runtime, sees what code you want to use from the system bundle, and automatically adds the necessary directives. This works in simple cases, and it's good enough to start with, but we strongly recommend that you specify exactly what you need as part of the polishing-before-release process.
 
@@ -237,7 +241,7 @@ It's important to understand that if the Atlassian application framework provide
 
 In general, when developing plugins, you should be aware of what packages the container provides, and use 'provided' scope for such cases when possible. Provided scope minimizes the size of your plugin distribution, and it allows it to benefit from the advantages of OSGi-based modularity.
 
-The easiest way to see what libraries are available in the framework is by checking the [OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser-8946139.html) in the add-on administration console.
+The easiest way to see what libraries are available in the framework is by checking the [OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser) in the add-on administration console.
 
 In the console, note the entry called "System Bundle". It contains most of the core bundles available to your add-on. Click it to view the packages and versions of packages it exports.
 
@@ -255,16 +259,33 @@ The manifest statement applies to runtime bundle associations for packages that 
 
 To avoid problems that may result from a future version of the package, you may choose to explicitly declare the OSGi dependency by adding the import package instructions to the maven-amps-plugin or maven-*product*-plugin section of the POM, as described in [Using Container-provided Packages](#using-container-provided-packages), or to the plugin descriptor file.
 
-For more general information and strategies for declaring dependencies, component imports, and more, see [Converting from Version 1 to Version 2 (OSGi) Plugins](/server/framework/atlassian-sdk/852046.html).
+For more general information and strategies for declaring dependencies, component imports, and more, see [Converting from Version 1 to Version 2 (OSGi) Plugins](/server/framework/atlassian-sdk/converting-from-version-1-to-version-2-osgi-plugins).
 
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=OSGi%2C+Spring+and+the+Plugin+Framework" class="createlink">OSGi, Spring and the Plugin Framework</a>  
 [Going from Plugin to OSGi Bundle](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Going+from+Plugin+to+OSGi+Bundle)  
 <a href="http://prezi.com/ybc6itroyt40/big-modular-plugins/" class="external-link">Big Modular Plugins (AtlasCamp 2010 presentation video)<br />
-</a>[Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser-8946139.html) 
+</a>[Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser)
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

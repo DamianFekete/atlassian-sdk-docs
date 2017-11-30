@@ -1,14 +1,18 @@
 ---
-title: Changing the Default Maven Version 19071041
 aliases:
-    - /server/framework/atlassian-sdk/changing-the-default-maven-version-19071041.html
+- /server/framework/atlassian-sdk/changing-the-default-maven-version-19071041.html
+- /server/framework/atlassian-sdk/changing-the-default-maven-version-19071041.md
+category: devguide
+confluence_id: 19071041
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=19071041
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=19071041
-confluence_id: 19071041
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/changing-the-default-maven-version
+new_url: /server/framework/atlassian-sdk/changing-the-default-maven-version
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Changing the default Maven version
 ---
 # Changing the default Maven version
 
@@ -40,7 +44,101 @@ To configure the SDK to use your own (non-default) Maven instance:
 
 That's it! Now you can use the usual SDK commands, such as `atlas-run` and `atlas-create-confluence-plugin`. When you do, the SDK uses your Maven instance instead of the bundled default one.
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

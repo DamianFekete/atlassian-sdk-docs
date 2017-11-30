@@ -1,18 +1,22 @@
 ---
-title: Atlas Run 2818725
 aliases:
-    - /server/framework/atlassian-sdk/atlas-run-2818725.html
+- /server/framework/atlassian-sdk/atlas-run-2818725.html
+- /server/framework/atlassian-sdk/atlas-run-2818725.md
+category: devguide
+confluence_id: 2818725
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818725
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818725
-confluence_id: 2818725
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-run
+new_url: /server/framework/atlassian-sdk/atlas-run
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-run
 ---
 # atlas-run
 
-This page describes the shell script `atlas-run`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-run`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
  
 
@@ -89,7 +93,7 @@ Interpreted parameters:
 </tr>
 <tr class="even">
 <td><p>--rest-version</p></td>
-<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module-4915219.html">Atlassian REST module</a> to use.</p></td>
+<td><p>Version of the <a href="/server/framework/atlassian-sdk/rest-plugin-module">Atlassian REST module</a> to use.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--plugins</p></td>
@@ -203,8 +207,76 @@ Say you want to run that RefApp plugin in multiple applications simultaneously. 
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)  
-  
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

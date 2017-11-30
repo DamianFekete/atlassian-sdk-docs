@@ -1,18 +1,22 @@
 ---
-title: Automatic Generation Of Spring Configuration 852044
 aliases:
-    - /server/framework/atlassian-sdk/automatic-generation-of-spring-configuration-852044.html
+- /server/framework/atlassian-sdk/automatic-generation-of-spring-configuration-852044.html
+- /server/framework/atlassian-sdk/automatic-generation-of-spring-configuration-852044.md
+category: devguide
+confluence_id: 852044
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852044
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852044
-confluence_id: 852044
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/automatic-generation-of-spring-configuration
+new_url: /server/framework/atlassian-sdk/automatic-generation-of-spring-configuration
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Automatic generation of Spring configuration
 ---
 # Automatic generation of Spring configuration
 
-The Atlassian Plugin Framework uses <a href="http://www.springframework.org/osgi" class="external-link">Spring</a> to implement many of its features for OSGi plugins by automatically generating Spring XML configuration files. This generation occurs as several steps in the [OSGi plugin -&gt; OSGi bundle transformation](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.html) that happens at plugin installation. These steps are:
+The Atlassian Plugin Framework uses <a href="http://www.springframework.org/osgi" class="external-link">Spring</a> to implement many of its features for OSGi plugins by automatically generating Spring XML configuration files. This generation occurs as several steps in the [OSGi plugin -&gt; OSGi bundle transformation](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle) that happens at plugin installation. These steps are:
 
 1.  Component Import transformation
 2.  Component transformation
@@ -21,13 +25,13 @@ The Atlassian Plugin Framework uses <a href="http://www.springframework.org/osgi
 
 #### Component Import Transformation
 
-The [Component Import](/server/framework/atlassian-sdk/component-import-plugin-module-852117.html) module type allows a plugin to import a component exposed by another plugin or by the host application itself. These elements are converted into the Spring configuration file `META-INF/spring/atlassian-plugins-component-imports.xml` as Spring DM `<osgi:reference>` elements. See the <a href="http://static.springsource.org/osgi/docs/1.1.3/reference/html/service-registry.html#service-registry:refs" class="external-link">Spring DM documentation</a>.
+The [Component Import](/server/framework/atlassian-sdk/component-import-plugin-module) module type allows a plugin to import a component exposed by another plugin or by the host application itself. These elements are converted into the Spring configuration file `META-INF/spring/atlassian-plugins-component-imports.xml` as Spring DM `<osgi:reference>` elements. See the <a href="http://static.springsource.org/osgi/docs/1.1.3/reference/html/service-registry.html#service-registry:refs" class="external-link">Spring DM documentation</a>.
 
 In their place, a placeholder module descriptor is stored in the plugin framework so that the import will appear in the list of plugin modules. However, disabling it has no effect.
 
 #### Component Transformation
 
-The [Component](/server/framework/atlassian-sdk/component-plugin-module-852118.html) module type allows a plugin to make an object available for dependency injection within the plugin, and with the 'public' flag, also expose that instance to other plugins, accessible via the Component Import module type. The transformation that occurs upon installation converts these elements into Spring `<beans:bean>` elements in a configuration file called `META-INF/spring/atlassian-plugins-components.xml`. If the 'public' flag is set to true, the bean instances are also exposed via the Spring DM `<osgi:service>` element. See the <a href="http://static.springsource.org/osgi/docs/1.1.3/reference/html/service-registry.html#service-registry:export" class="external-link">Spring DM documentation</a>.
+The [Component](/server/framework/atlassian-sdk/component-plugin-module) module type allows a plugin to make an object available for dependency injection within the plugin, and with the 'public' flag, also expose that instance to other plugins, accessible via the Component Import module type. The transformation that occurs upon installation converts these elements into Spring `<beans:bean>` elements in a configuration file called `META-INF/spring/atlassian-plugins-components.xml`. If the 'public' flag is set to true, the bean instances are also exposed via the Spring DM `<osgi:service>` element. See the <a href="http://static.springsource.org/osgi/docs/1.1.3/reference/html/service-registry.html#service-registry:export" class="external-link">Spring DM documentation</a>.
 
 Like the Component Import module type, in their place, a placeholder module descriptor is stored in the plugin framework so that the component will appear in the list of plugin modules. However, disabling it has no effect.
 
@@ -77,8 +81,177 @@ The `SpringHostContainer` bean is only created once per plugin, providing the ab
 
 ##### RELATED TOPICS
 
-[Going from Plugin to OSGi Bundle](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle-852147.html)  
+[Going from Plugin to OSGi Bundle](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Framework)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

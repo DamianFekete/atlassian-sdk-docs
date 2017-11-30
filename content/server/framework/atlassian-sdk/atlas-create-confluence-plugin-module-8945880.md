@@ -1,18 +1,22 @@
 ---
-title: Atlas Create Confluence Plugin Module 8945880
 aliases:
-    - /server/framework/atlassian-sdk/atlas-create-confluence-plugin-module-8945880.html
+- /server/framework/atlassian-sdk/atlas-create-confluence-plugin-module-8945880.html
+- /server/framework/atlassian-sdk/atlas-create-confluence-plugin-module-8945880.md
+category: devguide
+confluence_id: 8945880
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945880
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945880
-confluence_id: 8945880
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-confluence-plugin-module
+new_url: /server/framework/atlassian-sdk/atlas-create-confluence-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: atlas-create-confluence-plugin-module
 ---
 # atlas-create-confluence-plugin-module
 
-This page describes the shell script `atlas-create-confluence-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+This page describes the shell script `atlas-create-confluence-plugin-module`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Confluence**.
 
@@ -28,7 +32,7 @@ This shell script is a Maven wrapper script. All parameters are passed straight 
 
 ## Supported plugin module types
 
-The plugin module generation scripts are still under development. Currently, only the JIRA script has the full set of modules. All other products contain the applicable common modules, such as REST, web item and servlet. See the list of [common modules in the Atlassian Plugin Framework](/server/framework/atlassian-sdk/plugin-modules-852136.html).
+The plugin module generation scripts are still under development. Currently, only the JIRA script has the full set of modules. All other products contain the applicable common modules, such as REST, web item and servlet. See the list of [common modules in the Atlassian Plugin Framework](/server/framework/atlassian-sdk/plugin-modules).
 
 ## Getting Help
 
@@ -63,7 +67,94 @@ Let's assume you want to add a new plugin module to your existing Confluence plu
 
 ##### RELATED TOPICS
 
-[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html)
+[Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: Sal Version Matrix 5242944
 aliases:
-    - /server/framework/atlassian-sdk/sal-version-matrix-5242944.html
+- /server/framework/atlassian-sdk/sal-version-matrix-5242944.html
+- /server/framework/atlassian-sdk/sal-version-matrix-5242944.md
+category: devguide
+confluence_id: 5242944
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242944
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242944
-confluence_id: 5242944
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-version-matrix
+new_url: /server/framework/atlassian-sdk/sal-version-matrix
+platform: server
+product: atlassian-sdk
+subcategory: updates
+title: SAL version matrix
 ---
 # SAL version matrix
 
@@ -299,6 +302,134 @@ INFO: SAL is bundled with all application versions as shown in the above table. 
 ##### RELATED TOPICS
 
 [SAL Documentation Home](https://developer.atlassian.com/display/SAL/Shared+Access+Layer+Documentation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

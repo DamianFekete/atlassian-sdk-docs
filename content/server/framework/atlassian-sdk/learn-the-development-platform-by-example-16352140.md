@@ -1,14 +1,18 @@
 ---
-title: Learn the Development Platform By Example 16352140
 aliases:
-    - /server/framework/atlassian-sdk/learn-the-development-platform-by-example-16352140.html
+- /server/framework/atlassian-sdk/learn-the-development-platform-by-example-16352140.html
+- /server/framework/atlassian-sdk/learn-the-development-platform-by-example-16352140.md
+category: devguide
+confluence_id: 16352140
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352140
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352140
-confluence_id: 16352140
-platform:
-product:
-category:
-subcategory:
+learning: tutorials
+legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example
+new_url: /server/framework/atlassian-sdk/learn-the-development-platform-by-example
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Learn the development platform by example
 ---
 # Learn the development platform by example
 
@@ -18,12 +22,12 @@ You might notice that Atlassian often uses the terms 'add-on' and 'plugin' in to
 
 This tutorial contains the following topics: 
 
--   [Create a plugin skeleton](/server/framework/atlassian-sdk/create-a-plugin-skeleton-16352143.html)
--   [Convert component to servlet module](/server/framework/atlassian-sdk/convert-component-to-servlet-module-21463904.html)
--   [Run your plugin in the container](/server/framework/atlassian-sdk/run-your-plugin-in-the-container-16352147.html)
--   [Control access with SAL](/server/framework/atlassian-sdk/control-access-with-sal-16352154.html)
--   [Create a GUI with templates and AUI](/server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui-16352157.html)
--   [Store and retrieve plugin data](/server/framework/atlassian-sdk/store-and-retrieve-plugin-data-16352160.html)
+-   [Create a plugin skeleton](/server/framework/atlassian-sdk/create-a-plugin-skeleton)
+-   [Convert component to servlet module](/server/framework/atlassian-sdk/convert-component-to-servlet-module)
+-   [Run your plugin in the container](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
+-   [Control access with SAL](/server/framework/atlassian-sdk/control-access-with-sal)
+-   [Create a GUI with templates and AUI](/server/framework/atlassian-sdk/create-a-gui-with-templates-and-aui)
+-   [Store and retrieve plugin data](/server/framework/atlassian-sdk/store-and-retrieve-plugin-data)
 
 ## How to work through the tutorial
 
@@ -52,9 +56,63 @@ git clone https://bitbucket.org/atlassian_tutorial/learn-development-platform-by
 
 Alternatively, you can <a href="https://bitbucket.org/atlassian_tutorial/learn-development-platform-by-example-plugin-tutorial/get/master.zip" class="external-link">download the source code</a> for this plugin project.
 
-## [Start the tutorial &gt;&gt;](/server/framework/atlassian-sdk/create-a-plugin-skeleton-16352143.html) 
+## [Start the tutorial &gt;&gt;](/server/framework/atlassian-sdk/create-a-plugin-skeleton) 
 
-##  
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

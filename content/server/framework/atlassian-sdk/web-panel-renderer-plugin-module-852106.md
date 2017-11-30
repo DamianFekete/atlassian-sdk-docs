@@ -1,14 +1,17 @@
 ---
-title: Web Panel Renderer Plugin Module 852106
 aliases:
-    - /server/framework/atlassian-sdk/web-panel-renderer-plugin-module-852106.html
+- /server/framework/atlassian-sdk/web-panel-renderer-plugin-module-852106.html
+- /server/framework/atlassian-sdk/web-panel-renderer-plugin-module-852106.md
+category: reference
+confluence_id: 852106
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852106
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852106
-confluence_id: 852106
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-panel-renderer-plugin-module
+new_url: /server/framework/atlassian-sdk/web-panel-renderer-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Web Panel Renderer plugin module
 ---
 # Web Panel Renderer plugin module
 
@@ -242,7 +245,42 @@ To access the full source code for this plugin, you can:
 ##### RELATED TOPICS
 
 [Web Panel Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Plugin+Module)  
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

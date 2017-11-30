@@ -1,18 +1,21 @@
 ---
-title: Tutorials 2818708
 aliases:
-    - /server/framework/atlassian-sdk/tutorials-2818708.html
+- /server/framework/atlassian-sdk/tutorials-2818708.html
+- /server/framework/atlassian-sdk/tutorials-2818708.md
+category: devguide
+confluence_id: 2818708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818708
-confluence_id: 2818708
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/tutorials
+new_url: /server/framework/atlassian-sdk/tutorials
+platform: server
+product: atlassian-sdk
+subcategory: intro
+title: Tutorials
 ---
 # Tutorials
 
-After you've gotten acquainted with the [getting started](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html) tutorials in this space, have a look at some of the application-specific tutorials listed in the following sections.
+After you've gotten acquainted with the [getting started](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project) tutorials in this space, have a look at some of the application-specific tutorials listed in the following sections.
 
 ## JIRA Tutorials
 
@@ -116,11 +119,7 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
 
@@ -128,11 +127,15 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
 
 -   Page:
 
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
+    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
@@ -356,7 +359,26 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

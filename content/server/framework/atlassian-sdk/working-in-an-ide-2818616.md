@@ -1,18 +1,22 @@
 ---
-title: Working in an Ide 2818616
 aliases:
-    - /server/framework/atlassian-sdk/working-in-an-ide-2818616.html
+- /server/framework/atlassian-sdk/working-in-an-ide-2818616.html
+- /server/framework/atlassian-sdk/working-in-an-ide-2818616.md
+category: devguide
+confluence_id: 2818616
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818616
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818616
-confluence_id: 2818616
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide
+new_url: /server/framework/atlassian-sdk/working-in-an-ide
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Working in an IDE
 ---
 # Working in an IDE
 
-Most developers are accustomed to working within an IDE. The [getting started tutorial](https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project) describes how to set up the project in Eclipse in [Windows](https://developer.atlassian.com/display/DOCS/Set+Up+the+Eclipse+IDE+for+Windows) and in [Linux](https://developer.atlassian.com/display/DOCS/Set+Up+the+Eclipse+IDE+for+Linux). If you are using **IntelliJ IDEA**, just open the POM in your IDE following [Configure IDEA to use the SDK](/server/framework/atlassian-sdk/configure-idea-to-use-the-sdk-2818645.html). If you are using **NetBeans**, see [Configure NetBeans to use the SDK](/server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk-2818379.html).
+Most developers are accustomed to working within an IDE. The [getting started tutorial](https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project) describes how to set up the project in Eclipse in [Windows](https://developer.atlassian.com/display/DOCS/Set+Up+the+Eclipse+IDE+for+Windows) and in [Linux](https://developer.atlassian.com/display/DOCS/Set+Up+the+Eclipse+IDE+for+Linux). If you are using **IntelliJ IDEA**, just open the POM in your IDE following [Configure IDEA to use the SDK](/server/framework/atlassian-sdk/configure-idea-to-use-the-sdk). If you are using **NetBeans**, see [Configure NetBeans to use the SDK](/server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk).
 
 ## What's happening
 
@@ -26,13 +30,112 @@ After this is complete, Maven will construct project files that your IDE can und
 
 The following pages provide additional information on using the Atlassian Plugins SDK with an IDE:
 
--   [Configure IDEA to use the SDK](/server/framework/atlassian-sdk/configure-idea-to-use-the-sdk-2818645.html)
--   [Configure NetBeans to use the SDK](/server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk-2818379.html)
--   [Creating a Remote Debug Target](/server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.html)
+-   [Configure IDEA to use the SDK](/server/framework/atlassian-sdk/configure-idea-to-use-the-sdk)
+-   [Configure NetBeans to use the SDK](/server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk)
+-   [Creating a Remote Debug Target](/server/framework/atlassian-sdk/creating-a-remote-debug-target)
 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

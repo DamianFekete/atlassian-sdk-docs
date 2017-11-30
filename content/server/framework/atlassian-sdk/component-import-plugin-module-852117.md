@@ -1,14 +1,17 @@
 ---
-title: Component Import Plugin Module 852117
 aliases:
-    - /server/framework/atlassian-sdk/component-import-plugin-module-852117.html
+- /server/framework/atlassian-sdk/component-import-plugin-module-852117.html
+- /server/framework/atlassian-sdk/component-import-plugin-module-852117.md
+category: reference
+confluence_id: 852117
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852117
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852117
-confluence_id: 852117
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/component-import-plugin-module
+new_url: /server/framework/atlassian-sdk/component-import-plugin-module
+platform: server
+product: atlassian-sdk
+subcategory: modules
+title: Component Import plugin module
 ---
 # Component Import plugin module
 
@@ -134,7 +137,53 @@ Some information to be aware of when developing or configuring a Component Impor
 
 ##### RELATED TOPICS
 
-[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules-852136.html)
+[Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

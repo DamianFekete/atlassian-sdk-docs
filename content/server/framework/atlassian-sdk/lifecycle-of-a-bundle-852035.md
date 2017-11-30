@@ -1,14 +1,18 @@
 ---
-title: Lifecycle Of a Bundle 852035
 aliases:
-    - /server/framework/atlassian-sdk/lifecycle-of-a-bundle-852035.html
+- /server/framework/atlassian-sdk/lifecycle-of-a-bundle-852035.html
+- /server/framework/atlassian-sdk/lifecycle-of-a-bundle-852035.md
+category: devguide
+confluence_id: 852035
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852035
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852035
-confluence_id: 852035
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/lifecycle-of-a-bundle
+new_url: /server/framework/atlassian-sdk/lifecycle-of-a-bundle
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Lifecycle of a bundle
 ---
 # Lifecycle of a bundle
 
@@ -67,7 +71,174 @@ The table below shows the possible states of an OSGi bundle and how these map to
 ##### RELATED TOPICS
 
 [Behind the Scenes in the Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Behind+the+Scenes+in+the+Plugin+Framework)  
-[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks-852076.html)
+[Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,14 +1,18 @@
 ---
-title: Installing Speakeasy 2818535
 aliases:
-    - /server/framework/atlassian-sdk/installing-speakeasy-2818535.html
+- /server/framework/atlassian-sdk/installing-speakeasy-2818535.html
+- /server/framework/atlassian-sdk/installing-speakeasy-2818535.md
+category: devguide
+confluence_id: 2818535
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818535
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818535
-confluence_id: 2818535
-platform:
-product:
-category:
-subcategory:
+learning: guides
+legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/installing-speakeasy
+new_url: /server/framework/atlassian-sdk/installing-speakeasy
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Installing Speakeasy
 ---
 # Installing Speakeasy
 
@@ -55,7 +59,6 @@ A more sensible configuration might be to allow developers to to develop Extensi
 ## Next Steps...
 
 It's time to [start building a Speakeasy extension](https://developer.atlassian.com/display/SPEAK/Speakeasy+Extension+Development+Guide)!
-
 
 
 

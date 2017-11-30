@@ -16,7 +16,7 @@ This page describes the various methods you can use to reload a plugin and check
 
 ## FastDev and Live Reload - The Fastest Way to Run your Changes
 
-There is no need to manually install your plugin into the Atlassian application every time you change the code. Instead, you can use Fastdev in your browser to dynamically reinstall your plugin after each change.  FastDev can also handle reloads for multi-module maven projects that contain multiple plugins. You can also disable FastDev, or configure it to ignore changes in given files or use a different Maven command. Please refer to the [FastDev configuration guide](/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-fastdev-8945760.html).
+There is no need to manually install your plugin into the Atlassian application every time you change the code. Instead, you can use Fastdev in your browser to dynamically reinstall your plugin after each change.  FastDev can also handle reloads for multi-module maven projects that contain multiple plugins. You can also disable FastDev, or configure it to ignore changes in given files or use a different Maven command. Please refer to the [FastDev configuration guide](/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-fastdev).
 
 {{% warning %}}
 
@@ -72,15 +72,235 @@ As an alternative to FastDev, you can keep the application running in one comman
 -   Run `atlas-unit-test` to run the unit tests.
 -   Run `atlas-package` to produce the JAR.
 
-The Atlassian Plugin SDK provides many more scripts supporting various goals, as described in the [detailed documentation](/server/framework/atlassian-sdk/working-with-the-sdk-2818723.html).
+The Atlassian Plugin SDK provides many more scripts supporting various goals, as described in the [detailed documentation](/server/framework/atlassian-sdk/working-with-the-sdk).
 
 ## Running in Debug Mode
 
-You can use `atlas-debug` instead of `atlas-run`. This sets up the host application so that you can attach your IDE's remote debugger to it. Read the instructions on [setting up a remote debugger](/server/framework/atlassian-sdk/creating-a-remote-debug-target-2818651.html).
+You can use `atlas-debug` instead of `atlas-run`. This sets up the host application so that you can attach your IDE's remote debugger to it. Read the instructions on [setting up a remote debugger](/server/framework/atlassian-sdk/creating-a-remote-debug-target).
 
 ## Writing Tests for your Plugin
 
-Atlassian plugins depend on Maven 2 to run their test suites. This is advantageous because all plugins are always tested the same way, and because Bamboo, our continuous integration server, can do likewise. Find out how to [make it happen](/server/framework/atlassian-sdk/writing-and-running-plugin-tests-15335861.html).
+Atlassian plugins depend on Maven 2 to run their test suites. This is advantageous because all plugins are always tested the same way, and because Bamboo, our continuous integration server, can do likewise. Find out how to [make it happen](/server/framework/atlassian-sdk/writing-and-running-plugin-tests).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

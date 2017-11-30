@@ -1,14 +1,17 @@
 ---
-title: Shared Access Layer 5242946
 aliases:
-    - /server/framework/atlassian-sdk/shared-access-layer-5242946.html
+- /server/framework/atlassian-sdk/shared-access-layer-5242946.html
+- /server/framework/atlassian-sdk/shared-access-layer-5242946.md
+category: devguide
+confluence_id: 5242946
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242946
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242946
-confluence_id: 5242946
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer
+new_url: /server/framework/atlassian-sdk/shared-access-layer
+platform: server
+product: atlassian-sdk
+subcategory: learning
+title: Shared Access Layer
 ---
 # Shared Access Layer
 
@@ -19,17 +22,17 @@ The Shared Access Layer, or SAL for short, provides a consistent, cohesive API t
 -   Persistence for plugin settings
 -   A plugin upgrade framework
 
-SAL is a component of the Atlassian plugin development platform. Check our [SAL availability guide](/server/framework/atlassian-sdk/sal-version-matrix-5242944.html), then take a look at the [SAL services](/server/framework/atlassian-sdk/sal-services-5242921.html). To view the changes made in each release of SAL, visit the <a href="https://ecosystem.atlassian.net/browse/SAL" class="external-link">SAL project page in JIRA</a>.
+SAL is a component of the Atlassian plugin development platform. Check our [SAL availability guide](/server/framework/atlassian-sdk/sal-version-matrix), then take a look at the [SAL services](/server/framework/atlassian-sdk/sal-services). To view the changes made in each release of SAL, visit the <a href="https://ecosystem.atlassian.net/browse/SAL" class="external-link">SAL project page in JIRA</a>.
 
 ## Main Topics
 
-**[Adding SAL Dependency](/server/framework/atlassian-sdk/adding-sal-dependency-5242905.html)**  
+**[Adding SAL Dependency](/server/framework/atlassian-sdk/adding-sal-dependency)**  
 What to put in your plugin's pom to use SAL.
 
-** **[**Atlassian Plugin SDK**](/server/framework/atlassian-sdk/getting-started-5668881.html)  
+** **[**Atlassian Plugin SDK**](/server/framework/atlassian-sdk/index)  
 Get started with developing an Atlassian plugin.
 
-**[SAL Services](/server/framework/atlassian-sdk/sal-services-5242921.html)**  
+**[SAL Services](/server/framework/atlassian-sdk/sal-services)**  
 Take a look at the services that SAL offers.
 
 ## Atlassian Development Hubs
@@ -53,7 +56,7 @@ Take a look at the services that SAL offers.
 
 <a href="http://docs.atlassian.com/sal-api/" class="external-link">Javadoc</a>
 
-[Installation guide](/server/framework/atlassian-sdk/sal-version-matrix-5242944.html)
+[Installation guide](/server/framework/atlassian-sdk/sal-version-matrix)
 
 [Using SAL to store plugin settings](https://developer.atlassian.com/display/SAL/Storing+plugin+settings)
 
@@ -67,7 +70,140 @@ Take a look at the services that SAL offers.
 
 <a href="http://blogs.atlassian.com/developer/" class="external-link">Atlassian developer blog</a>
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
