@@ -14,7 +14,7 @@ subcategory:
 
 **Module definition example**
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
   <plugin-info>
     <description>A basic Active Objects module test</description>
@@ -29,6 +29,7 @@ subcategory:
   </ao>
 </atlassian-plugin>
 ```
+
 
 
 

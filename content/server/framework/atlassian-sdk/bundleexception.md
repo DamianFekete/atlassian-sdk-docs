@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852121
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852121
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852121
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/bundleexception
 new_url: /server/framework/atlassian-sdk/bundleexception
 platform: server
@@ -20,7 +19,7 @@ title: BundleException
 
 A plugin fails to load at runtime, and the log contains an `OsgiContainerException` with a `BundleException` as its root cause. For example:
 
-``` java
+``` bash
 2009-10-13 14:23:09,656 [ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)' WARN     [plugin.osgi.factory.OsgiPlugin] Unable to enable plugin 'com.atlassian.gadgets.renderer'
 com.atlassian.plugin.osgi.container.OsgiContainerException: Cannot start plugin: com.atlassian.gadgets.renderer
     at com.atlassian.plugin.osgi.factory.OsgiPlugin.enableInternal(OsgiPlugin.java:385)
@@ -35,6 +34,7 @@ When your plugin declares a package import, at runtime it must find another OSGi
 ### Resolution
 
 First, verify that another bundle does export the package. If you're using the SDK, one way to do this is to look at the Felix web console (available at `plugins/servlet/system/console`), which allows you to explore the bundles available in the system. If another bundle does export the package, verify that the version constraints (shown in the error log) are met by the bundle. If no bundle exports the package, you may need to provide it by packaging it within your plugin and removing the package import.
+
 
 
 

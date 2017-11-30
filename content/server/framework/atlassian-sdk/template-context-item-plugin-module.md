@@ -72,7 +72,7 @@ The root element for the Template Context Items plugin module is `template-conte
 
 ## Example
 
-``` javascript
+``` xml
 <template-context-item key="i18nResolveContextItem" component-ref="i18nResolver"
     context-key="i18n" global="true" name="I18nResolver Context Item"/>
 ```
@@ -89,7 +89,7 @@ The following are the two best ways of getting a hold of the plugins `BundleCont
 
 This will be the case if you have defined a dynamic module type, from which you can access the plugins `Plugin` object. In this case, you can access the `BundleContext` like so:
 
-``` javascript
+``` java
 BundleContext ctx = ((OsgiPlugin) plugin).getBundle().getBundleContext();
 ```
 
@@ -97,7 +97,7 @@ BundleContext ctx = ((OsgiPlugin) plugin).getBundle().getBundleContext();
 
 In this case, you should expose an OSGi `ServiceFactory` for your service. These work in the same way to Springs `FactoryBean`'s. Here's an example:
 
-``` javascript
+``` java
 public class MyServiceServiceFactory implements ServiceFactory
 {
     public Object getService(Bundle bundle, ServiceRegistration registration)
@@ -112,7 +112,7 @@ public class MyServiceServiceFactory implements ServiceFactory
 
 Once you have a `BundleContext`, you need to create `ServiceTracker` that tracks the `TemplateRenderer` service in the plugins `BundleContext`:
 
-``` javascript
+``` java
 private final ServiceTracker templateRendererServiceTracker;
 public MyService(BundleContext bundleContext)
 {
@@ -123,7 +123,7 @@ public MyService(BundleContext bundleContext)
 
 Now you can use the service using the `getService()`. The important thing that you need to worry about is handling if the service isn't available. Sometimes it may be appropriate to do no action, at other times, you may want to throw an exception:
 
-``` javascript
+``` java
 TemplateRenderer renderer = (TemplateRenderer) templateRendererServiceTracker.getService();
 if (renderer == null)
 {
@@ -140,7 +140,7 @@ Finally, it's important that you close the `ServiceTracker` once you're finished
 
 Closing the service tracker should be done in your plugin module type descriptors disable method, or your `ServiceFactory`'s unget method. For example:
 
-``` javascript
+``` java
 public void ungetService(Bundle bundle, ServiceRegistration registration, Object service)
 {
     ((MyService) service).closeTemplateRendererServiceTracker();
@@ -152,6 +152,8 @@ In `MyService` you would then have a corresponding method that would call the `c
 ##### RELATED TOPICS
 
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+
+
 
 
 

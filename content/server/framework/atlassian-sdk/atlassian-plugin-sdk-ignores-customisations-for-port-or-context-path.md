@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 2818650
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818650
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818650
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path
 new_url: /server/framework/atlassian-sdk/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path
 platform: server
@@ -23,6 +22,8 @@ Passing `context-path` or `http-port` parameters to `atlas-run` or `atlas-debug`
 # Solution
 
 Make sure to run `atlas-clean` every time you change the runtime parameters through the SDK scripts; the scripts will cache previous installations and settings, which must be manually cleared.
+
+
 
 
 

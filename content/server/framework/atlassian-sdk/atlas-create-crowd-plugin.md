@@ -20,11 +20,9 @@ This page describes the shell script `atlas-create-crowd-plugin`, part of the [A
 
 NOTE: There is a specific version of this shell script for each Atlassian application. The shell script described on this page is for **Crowd**.
 
- 
-
 ## Basic Usage
 
-`atlas-create-crowd-plugin [options]` - Creates an example of a Crowd plugin, which you can adapt to suit your own plugin's needs. (Runs `mvn crowd:create`.) Interpreted parameters: `artifact-id, group-id, version, package, non-interactive`.
+ `atlas-create-crowd-plugin [options]` - Creates an example of a Crowd plugin, which you can adapt to suit your own plugin's needs. (Runs `mvn crowd:create`.) Interpreted parameters: `artifact-id, group-id, version, package, non-interactive`.
 
 ## Parameters
 
@@ -90,7 +88,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-create-crowd-plugin -?
 atlas-create-crowd-plugin -help
 ```
@@ -99,16 +97,22 @@ atlas-create-crowd-plugin -help
 
 Let's assume you want to create a new Crowd plugin skeleton. Simply open a command window, go to the directory where you want to create the plugin and type:
 
-    atlas-create-crowd-plugin
+``` bash
+atlas-create-crowd-plugin
+```
 
 Let's assume you want to create a new Crowd plugin by supplying all the necessary information to the script and allowing the package name to be the same as the group ID. Let's assume you do not want the script to prompt you for information. Type:
 
-    atlas-create-crowd-plugin --artifact-id myfooplugin --group-id com.mycompany.plugins --version 1.0 --non-interactive
+``` bash
+atlas-create-crowd-plugin --artifact-id myfooplugin --group-id com.mycompany.plugins --version 1.0 --non-interactive
+```
 
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818340" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
 
 
 

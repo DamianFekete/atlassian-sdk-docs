@@ -19,28 +19,32 @@ title: Writing your first plugin FAQ
 
 If you use a vendor name of "Atlassian" in your `atlassian-plugin.xml` file, you may receive errors like this:
 
-    [ERROR] BUILD FAILURE
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Manifest must contain versions for all imports.  Suggested changes:
-    javax.servlet.http;version="2.3",
-    com.opensymphony.user;version="1.1.1",
-    com.atlassian.plugins.rest.common.security;version="1.0.2",
-    com.atlassian.jira.t*;version="4.0",
-    net.jcip.annotations;version="1.0",
-    javax.xml.bind.annotation;version="2.1"
+``` bash
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Manifest must contain versions for all imports.  Suggested changes:
+javax.servlet.http;version="2.3",
+com.opensymphony.user;version="1.1.1",
+com.atlassian.plugins.rest.common.security;version="1.0.2",
+com.atlassian.jira.t*;version="4.0",
+net.jcip.annotations;version="1.0",
+javax.xml.bind.annotation;version="2.1"
+```
 
 The vendor should be set to something other than "Atlassian", since we have a number of additional validations triggered by that vendor string. For example:
 
-    <plugin-info>
-    <description>A sample plugin showing how to add a REST service to JIRA.</description>
-      <version>1.0</version>
-      <vendor name="Example Company" url="http://www.example.com" />
-      <application-version min="4.0"/>
-    </plugin-info>
+``` xml
+<plugin-info>
+<description>A sample plugin showing how to add a REST service to JIRA.</description>
+  <version>1.0</version>
+  <vendor name="Example Company" url="http://www.example.com" />
+  <application-version min="4.0"/>
+</plugin-info>
+```
 
 To **skip the manifest validation**, you can add the following tag to the configuration element in your pom.xml
 
-``` javascript
+``` xml
 <skipManifestValidation>true</skipManifestValidation>
 ```
 
@@ -62,9 +66,9 @@ We recommend Simple Logging Facade for Java (<a href="http://www.slf4j.org/" cla
 
 You should ensure that none of these libraries are bundled with your plugin (in `META-INF/lib`) as this will prevent the host application from logging any of your plugin's log messages.
 
-You can check your plugin's dependencies by using <a href="http://maven.apache.org/plugins/maven-dependency-plugin/tree-mojo.html" class="external-link"><code>mvn dependency:tree</code></a> and then exclude any transitive dependencies in the `pom.xml`:
+You can check your plugin's dependencies by using <a href="http://maven.apache.org/plugins/maven-dependency-plugin/tree-mojo.html" class="external-link">mvn dependency:tree</a> and then exclude any transitive dependencies in the `pom.xml`:
 
-``` javascript
+``` xml
 <exclusions>
    <exclusion>
      <groupId>org.slf4j</groupId>
@@ -89,17 +93,19 @@ Use the following command :`mvn org.apache.maven.plugins:maven-eclipse-plugin:2.
 
 The error that you will see if 2.7 is used in your mvn build :
 
-    [ERROR] BUILD ERROR
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Request to merge when 'filtering' is not identical. 
-    [INFO] Original=resource src/main/resources: output=target/classes, 
-    [INFO]    include=[atlassian-plugin.xml], exclude=[**/*.java], test=false, 
-    [INFO]    filtering=true, merging with=resource src/main/resources: 
-    [INFO]    output=target/classes, include=[], exclude=[atlassian-plugin.xml|**/*.java], 
-    [INFO]    test=false, filtering=false
-    [INFO] ------------------------------------------------------------------------
-    [INFO] For more information, run Maven with the -e switch
-    [INFO] ------------------------------------------------------------------------
+``` bash
+[ERROR] BUILD ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] Request to merge when 'filtering' is not identical. 
+[INFO] Original=resource src/main/resources: output=target/classes, 
+[INFO]    include=[atlassian-plugin.xml], exclude=[**/*.java], test=false, 
+[INFO]    filtering=true, merging with=resource src/main/resources: 
+[INFO]    output=target/classes, include=[], exclude=[atlassian-plugin.xml|**/*.java], 
+[INFO]    test=false, filtering=false
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+```
 
 # If you change pom.xml, you may need to restart the atlas-cli
 
@@ -111,7 +117,7 @@ During development, one of the main things that can slow you down is reloading t
 
 To enable this feature, set the system property `plugin.resource.directories` to a comma-delimited list of directories containing plugin resources. For example, to point the framework at your current project's resource directory when running an Atlassian application from Maven, you could set the `MAVEN_OPTS` variable:
 
-``` javascript
+``` bash
 export MAVEN_OPTS=-Dplugin.resource.directories=/home/myuser/dev/myplugin/src/main/resources
 ```
 
@@ -119,8 +125,12 @@ export MAVEN_OPTS=-Dplugin.resource.directories=/home/myuser/dev/myplugin/src/ma
 
 The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-plugin-sdk" class="external-link">Atlassian Plugin SDK</a> makes it easy to override any component of the application's webapp.
 
+{{% note %}}
+
 1.  Create a `src/test/resources/***-app` directory, where `***` is the name of the application you're developing your plugin against. For example `confluence`.
 2.  To this directory add the resources you want to add (or override) following the webapp directory structure.
+
+{{% /note %}}
 
 Now when you run your application via `atlas-run`, `atlas-debug` and/or `atlas-integration-test`, it will use the updated WAR built from the application configured in your `pom.xml` and the added resources you have defined.
 
@@ -142,7 +152,7 @@ For example, let's assume you want to use Confluence 3.1:
 
 Alternatively, you can permanently change the application version number in the dependencies section of your POM. Note that your POM may use a property to hold the version number, like this:
 
-``` javascript
+``` xml
 <properties>
     <confluence.version>RELEASE</confluence.version>
 </properties>
@@ -152,7 +162,7 @@ You plugin will always build and deploy against this version, until you change t
 
 For example, if you are happy to use Confluence 3.1 for a while, you would change the version to the following:
 
-``` javascript
+``` xml
 <properties>
     <confluence.version>3.1</confluence.version>
 </properties>
@@ -179,7 +189,7 @@ You should verify the `<version>` value <a href="https://maven.atlassian.com/
 
 ## Write a Selenium test
 
-The Atlassian Plugin SDK comes with support for integration/functional tests that will run with the target Atlassian application started and your plugin installed. You just have to create one or more tests in the `src/test/java/it` directory. The convention is if your code is in the `com.mycompany.myplugin` package, your integration tests would be in the `it.com.mycompany.myplugin` package or `src/test/java/it/com/mycompany/myplugin` directory.
+The Atlassian Plugin SDK comes with support for integration/functional tests that will run with the target Atlassian application started and your plugin installed. You just have to create one or more tests in the `src/test/java/it` directory. The convention is if your code is in the `com.mycompany.myplugin` package, your integration tests would be in the <a href="http://it.com" class="external-link">it.com</a>`.mycompany.myplugin` package or `src/test/java/it/com/mycompany/myplugin` directory.
 
 To use Selenium in these tests, the `atlassian-selenium-browsers-auto` artifact provides a few static helper methods. These methods, when used for the first time:
 
@@ -212,7 +222,7 @@ public class TestHelloWorld extends TestCase
 
 If you want to specify a browser other than Firefox 3.5, you can do so by specifying the `selenium.browser` system property in your atlassian-&lt;product&gt;-plugin configuration. For example:
 
-``` javascript
+``` xml
 <build>
   <plugins>
     <plugin>
@@ -258,11 +268,13 @@ Make sure that you download and install the **same** version of the source cod
 
 The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-plugin-sdk" class="external-link">Atlassian Plugin SDK</a> makes it easy to override the application's `log4j.properties` file, so that you can do custom logging for your plugin.
 
+{{% note %}}
+
 1.  Create your `log4j.properties` file. A simple way to do this is to copy the application's `log4j.properties` file and change it to suit your needs.
 2.  Place the `log4j.properties` file somewhere in your source tree, for example in `src/aps/log4j.properties` ('aps' means the Atlassian Plugin SDK).
 3.  Configure your `pom.xml` like this:
 
-    ``` javascript
+    ``` xml
     <plugin>
       <groupId>com.atlassian.maven.plugins</groupId>
       <artifactId>maven-***-plugin</artifactId> <!-- *** is the name of the application (product) you're using -->
@@ -274,6 +286,8 @@ The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-pl
       </configuration>
     </plugin>
     ```
+
+{{% /note %}}
 
 Now you can run your application via `atlas-run` or `atlas-debug`.
 
@@ -290,6 +304,8 @@ A plugin specific log4j.properties file does not get picked up using this method
 [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
 [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
+
+
 
 
 

@@ -30,7 +30,7 @@ title: Plugin Development Platform 2.11 release notes
 -   <a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.4.x/" class="external-link">Trusted Apps</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=12452" class="external-link">2.5</a> (updated)
 -   <a href="https://studio.atlassian.com/svn/APL/branches/applinks-3.4.x" class="external-link">APL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12419" class="external-link">3.5</a> (updated)
 
-**Highlights of this Release:**
+ 
 
  
 
@@ -48,11 +48,13 @@ Take a look at the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/develo
 **Comments, Requests and Feedback**  
 We would love your feedback. Please log your requests, bug reports and comments in our <a href="https://studio.atlassian.com/browse/PLUG" class="external-link">issue tracker</a>.
 
-# Highlights of this Release
+## Highlights of this Release
 
-![](/server/framework/atlassian-sdk/images/1.png)
+ 
 
-## Conditional comments for JavaScript web resources
+ 
+
+### 1. Conditional comments for JavaScript web resources
 
 Earlier we have supported conditional comments for CSS files, which allows for example to enable a CSS file only for a specific browser. This release adds support for using conditional comments with JavaScript files. This is documented on the [Web Resource Module](https://developer.atlassian.com/display/CONFDEV/Web+Resource+Module) page.
 
@@ -65,29 +67,39 @@ Example:
 </resource>
 ```
 
-![](/server/framework/atlassian-sdk/images/2.png)
+ 
 
-## TimeZone information
+ 
+
+### 2. TimeZone information
 
 Plugins can now get the timezone of users and the timezone of the application. To use this module, import <a href="http://confluence.atlassian.com/display/SAL/SAL+Services#SALServices-%21package2.gif%21%7B%7Bcom.atlassian.sal.api.timezone%7D%7D" class="external-link">com.atlassian.sal.api.timezone.TimeZoneManager</a> in your atlassian-plugins.xml, it will be passed to the constructor of your module.
 
-![](/server/framework/atlassian-sdk/images/3.png)
+ 
 
-## Multipart Requests
+ 
+
+### 3. Multipart Requests
 
 com.atlassian.sal.api.net.Request now supports the method setFiles(). It allows posting attachments to REST end points using the SAL request API. See [SAL Services](/server/framework/atlassian-sdk/sal-services)
 
-![](/server/framework/atlassian-sdk/images/4.png)
+ 
 
-## Better logging of dynamic plugin module events
+ 
+
+### 4. Better logging of dynamic plugin module events
 
 The logging is more explicit when the modules are activated or disabled, a "Disabling" state was created between Enabled and Disabled, and the key replaces the name when the name is unset.
 
-![](/server/framework/atlassian-sdk/images/5.png)
+ 
 
-## Harmonize web-panel with web-item and web-section
+ 
+
+### 5. Harmonize web-panel with web-item and web-section
 
 These 3 elements now implement the same descriptor, so that web-panels can have labels like web-items. See [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
+
+
 
 
 

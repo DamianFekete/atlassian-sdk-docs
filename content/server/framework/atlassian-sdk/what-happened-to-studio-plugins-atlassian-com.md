@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 16974434
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974434
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974434
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/what-happened-to-studio-plugins-atlassian-com
 new_url: /server/framework/atlassian-sdk/what-happened-to-studio-plugins-atlassian-com
 platform: server
@@ -509,6 +508,7 @@ Matt Doar (<a href="mailto:mdoar@pobox.com" class="external-link">mdoar@pobox.co
 ## My Project Has Disappeared
 
 If your project was hosted on <a href="https://studio.plugins.atlassian.com" class="uri external-link">https://studio.plugins.atlassian.com</a> and has now disappeared, please contact us to discuss the situation. Our contact information is on the [How to Access Developer Support](https://developer.atlassian.com/display/SUPPORT/How+to+Access+Developer+Support) page.
+
 
 
 

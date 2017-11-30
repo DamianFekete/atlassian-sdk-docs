@@ -319,3 +319,4 @@ Indicates whether this plugin module should only have one instance of its class 
 
 
 
+

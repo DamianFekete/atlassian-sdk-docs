@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852009
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852009
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852009
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/differences-between-version-1-plugins-and-version-2-plugins
 new_url: /server/framework/atlassian-sdk/differences-between-version-1-plugins-and-version-2-plugins
 platform: server
@@ -26,6 +25,7 @@ There are two versions of plugins in the Atlassian Plugin Framework:
 -   **Version 2 plugins.** These plugins are dynamically deployed on an internal <a href="http://osgi.org" class="external-link">OSGi</a> container to provide a consistent set of features and behaviours, regardless of the application the plugin is running on. Version 2 plugins have to be specifically declared as such, using the `plugins-version="2"` attribute in `atlassian-plugin.xml`.
 
 You can also take a look at the document describing the detailed differences for <a href="/pages/createpage.action?spaceKey=JIRADEV&amp;title=Differences+between+Plugins1+and+Plugins2" class="createlink">JIRA plugin development</a>.
+
 
 
 

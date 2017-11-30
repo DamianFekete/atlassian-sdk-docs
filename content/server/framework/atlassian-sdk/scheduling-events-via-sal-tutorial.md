@@ -45,7 +45,9 @@ All these components will be contained within a single JAR file. Each component 
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you are done, you can find the plugin source code on Atlassian Bitbucket. Bitbucket serves a public Git repository containing the tutorial's code. To clone the repository, issue the following command:
 
-    $ git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/jira-scheduled-events.git
+``` bash
+$ git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/jira-scheduled-events.git
+```
 
 Alternatively, you can download the source using the **Downloads** page here: <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events" class="uri external-link">https://bitbucket.org/atlassian_tutorial/jira-scheduled-events</a>
 
@@ -71,74 +73,78 @@ Use the appropriate `atlas-create-`*`application`*`-plugin` command to create yo
 
 We'll be using the Atlassian Plugin SDK throughout the tutorial, so make sure you have it installed and working as described here. To check that you're ready to go, try the **atlas-version** command; you should see output like the following:
 
-    $ atlas-version
+``` bash
+$ atlas-version
 
-    ATLAS Version:    3.0.4
-    ATLAS Home:       /Users/administrator/usr/atlassian-plugin-sdk-3.0.4
-    ATLAS Scripts:    /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/bin
-    ATLAS Maven Home: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven
-    --------
-    Executing: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven/bin/mvn --version 
-    Apache Maven 2.1.0 (r755702; 2009-03-19 06:10:27+1100)
-    Java version: 1.6.0_15
-    Java home: /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
-    Default locale: en_US, platform encoding: MacRoman
-    OS name: "mac os x" version: "10.6" arch: "x86_64" Family: "mac"
-    $
+ATLAS Version:    3.0.4
+ATLAS Home:       /Users/administrator/usr/atlassian-plugin-sdk-3.0.4
+ATLAS Scripts:    /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/bin
+ATLAS Maven Home: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven
+--------
+Executing: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven/bin/mvn --version 
+Apache Maven 2.1.0 (r755702; 2009-03-19 06:10:27+1100)
+Java version: 1.6.0_15
+Java home: /System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home
+Default locale: en_US, platform encoding: MacRoman
+OS name: "mac os x" version: "10.6" arch: "x86_64" Family: "mac"
+$
+```
 
 Then create a new JIRA plugin by running the `atlas-create-jira-plugin` command and filling in appropriate values for the plugin's groupId and artifactId when prompted.  
 Read below for an example of this:
 
-    $ atlas-create-jira-plugin 
-    Executing: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven/bin/mvn com.atlassian.maven.plugins:maven-jira-plugin:3.0.4:create 
-    [INFO] Scanning for projects...
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Building Maven Default Project
-    [INFO]    task-segment: [com.atlassian.maven.plugins:maven-jira-plugin:3.0.4:create] (aggregator-style)
-    [INFO] ------------------------------------------------------------------------
-    [INFO] [jira:create]
-    [INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
-    [INFO] Setting property: velocimacro.messages.on => 'false'.
-    [INFO] Setting property: resource.loader => 'classpath'.
-    [INFO] Setting property: resource.manager.logwhenfound => 'false'.
-    [INFO] [archetype:generate]
-    [INFO] Generating project in Interactive mode
-    [INFO] Archetype repository missing. Using the one from [com.atlassian.maven.archetypes:jira-plugin-archetype:5 -> https://maven.atlassian.com/public] found in catalog internal
-    Define value for groupId: : com.atlassian.example
-    Define value for artifactId: : scheduling
-    Define value for version:  1.0-SNAPSHOT: : 
-    Define value for package:  com.atlassian.example: : com.atlassian.example.scheduling
-    Confirm properties configuration:
-    groupId: com.atlassian.example
-    artifactId: scheduling
-    version: 1.0-SNAPSHOT
-    package: com.atlassian.example.scheduling
-     Y: : 
-    [INFO] ----------------------------------------------------------------------------
-    [INFO] Using following parameters for creating OldArchetype: jira-plugin-archetype:3.0.4
-    [INFO] ----------------------------------------------------------------------------
-    [INFO] Parameter: groupId, Value: com.atlassian.example
-    [INFO] Parameter: packageName, Value: com.atlassian.example.scheduling
-    [INFO] Parameter: package, Value: com.atlassian.example.scheduling
-    [INFO] Parameter: artifactId, Value: scheduling
-    [INFO] Parameter: basedir, Value: /private/tmp
-    [INFO] Parameter: version, Value: 1.0-SNAPSHOT
-    [INFO] ********************* End of debug info from resources from generated POM ***********************
-    [INFO] OldArchetype created in dir: /private/tmp/scheduling
-    [INFO] ------------------------------------------------------------------------
-    [INFO] BUILD SUCCESSFUL
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Total time: 1 minute 1 second
-    [INFO] Finished at: Mon Feb 22 18:13:41 EST 2010
-    [INFO] Final Memory: 42M/252M
-    [INFO] ------------------------------------------------------------------------
-    $
+``` bash
+$ atlas-create-jira-plugin 
+Executing: /Users/administrator/usr/atlassian-plugin-sdk-3.0.4/apache-maven/bin/mvn com.atlassian.maven.plugins:maven-jira-plugin:3.0.4:create 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Default Project
+[INFO]    task-segment: [com.atlassian.maven.plugins:maven-jira-plugin:3.0.4:create] (aggregator-style)
+[INFO] ------------------------------------------------------------------------
+[INFO] [jira:create]
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] [archetype:generate]
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository missing. Using the one from [com.atlassian.maven.archetypes:jira-plugin-archetype:5 -> https://maven.atlassian.com/public] found in catalog internal
+Define value for groupId: : com.atlassian.example
+Define value for artifactId: : scheduling
+Define value for version:  1.0-SNAPSHOT: : 
+Define value for package:  com.atlassian.example: : com.atlassian.example.scheduling
+Confirm properties configuration:
+groupId: com.atlassian.example
+artifactId: scheduling
+version: 1.0-SNAPSHOT
+package: com.atlassian.example.scheduling
+ Y: : 
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating OldArchetype: jira-plugin-archetype:3.0.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: com.atlassian.example
+[INFO] Parameter: packageName, Value: com.atlassian.example.scheduling
+[INFO] Parameter: package, Value: com.atlassian.example.scheduling
+[INFO] Parameter: artifactId, Value: scheduling
+[INFO] Parameter: basedir, Value: /private/tmp
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] ********************* End of debug info from resources from generated POM ***********************
+[INFO] OldArchetype created in dir: /private/tmp/scheduling
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1 minute 1 second
+[INFO] Finished at: Mon Feb 22 18:13:41 EST 2010
+[INFO] Final Memory: 42M/252M
+[INFO] ------------------------------------------------------------------------
+$
+```
 
 # Step 2. Add the required Maven dependencies
 
 In this tutorial we are using both SAL and the open source Java Twitter library <a href="http://twitter4j.org" class="external-link">twitter4j</a>. Add both to the `pom.xml` file:
 
-``` javascript
+``` xml
     <dependencies>
 ...
         <dependency>
@@ -160,7 +166,7 @@ In this tutorial we are using both SAL and the open source Java Twitter library 
 
 For the plugin framework to be able to inject the SAL `PluginScheduler`, we need to import the component explicitly in `atlassian-plugin.xml`, so add the following element:
 
-``` javascript
+``` xml
     <component-import key="pluginScheduler">
         <description>SAL Scheduler</description>
         <interface>com.atlassian.sal.api.scheduling.PluginScheduler</interface>
@@ -173,7 +179,7 @@ Now let's write a component that gets the SAL `PluginScheduler` injected and the
 
 First implement the job itself, which must be a public class that implements `com.atlassian.sal.api.scheduling.PluginJob`:
 
-``` javascript
+``` java
 package com.atlassian.example.scheduling;
 
 import com.atlassian.sal.api.scheduling.PluginJob;
@@ -222,7 +228,7 @@ Finally see how we use the twitter4j library that allows us to do a public, anon
 
 This is the class that we register as a plugin component in `atlassian-plugin.xml`. It gets instantiated by the plugin framework at application startup and is responsible for registering our job. It also stores the Twitter search results and is accessible the webwork action we will add later.
 
-``` javascript
+``` java
 package com.atlassian.example.scheduling;
 
 import com.atlassian.sal.api.lifecycle.LifecycleAware;
@@ -290,7 +296,7 @@ It is critical that we do not attempt to (un)register any jobs in our component'
 
 As with every plugin component, we create an interface that we use when sharing our component with other plugin modules:
 
-``` javascript
+``` java
 package com.atlassian.example.scheduling;
 
 public interface TwitterMonitor {
@@ -301,7 +307,7 @@ public interface TwitterMonitor {
 
 # Step 6. Add the Component to atlassian-plugin.xml
 
-``` javascript
+``` xml
 ...
     <component key="schedulerComponent" class="com.atlassian.example.scheduling.TwitterMonitorImpl"
              system="true" public="true">
@@ -348,7 +354,7 @@ In order to display the tweets in an admin page, we'll need to add some methods 
 
 This is necessary because we'll have the `TwitterMonitorImpl` component injected into our webwork action and these extra methods in the interface will allow the action to communicate with the component and retrieve the latest search results and interval period.
 
-``` javascript
+``` java
 package com.atlassian.example.scheduling;
 
 import twitter4j.Tweet;
@@ -368,7 +374,7 @@ public interface TwitterMonitor {
 
 And implement them in `TwitterMonitorImpl`:
 
-``` javascript
+``` java
 ...
 public class TwitterMonitorImpl implements TwitterMonitor, LifecycleAware {
 
@@ -393,7 +399,7 @@ In the remainder of the tutorial we shall limit ourselves to JIRA and we'll crea
 
 First let's implement the webwork action:
 
-``` javascript
+``` java
 package com.atlassian.example.scheduling;
 
 import com.atlassian.jira.web.action.JiraWebActionSupport;
@@ -458,7 +464,7 @@ Note that after a reschedule action, we won't render a page, but instead we'll r
 
 We'll register the webwork action in `atlassian-plugin.xml` and also add a Web Item to add a link to the context menu of the JIRA administration section that will link to our new page:
 
-``` javascript
+``` xml
 ...
     <resource type="i18n" name="i18n" location="com.atlassian.example.scheduling.TwitterSchedulerBundle"/>
 
@@ -490,7 +496,7 @@ Always using i18n is a good habit, even if you only provide one language bundle.
 
 Finally we'll add the `src/main/resources/templates/scheduler.vm` velocity template that renders the page. The snippet below only focuses on the interesting bits while omitting most of the layout. <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events/src/2b3d9c01c4a3bb28eff446bc0487a9001c5efab7/src/main/resources/templates/scheduler.vm?at=master" class="external-link">The full template is on Bitbucket</a>.
 
-``` javascript
+``` xml
 ...
     <form method="post" action="TwitterScheduler!reschedule.jspa">
         <p>
@@ -537,7 +543,9 @@ Finally we'll add the `src/main/resources/templates/scheduler.vm` velocity templ
 
 That concludes all code for our tutorial, so let's start it up and check it out:
 
-    $ mvn jira:run
+``` bash
+$ mvn jira:run
+```
 
 #### Screenshots
 
@@ -546,6 +554,8 @@ That concludes all code for our tutorial, so let's start it up and check it out:
 <img src="/server/framework/atlassian-sdk/images/screen2.png" width="300" height="156" />
 
 <img src="/server/framework/atlassian-sdk/images/screen3.png" width="300" height="181" />
+
+
 
 
 

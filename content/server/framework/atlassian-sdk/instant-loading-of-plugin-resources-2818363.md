@@ -328,3 +328,4 @@ export MAVEN_OPTS=-Dplugin.resource.directories=/home/myuser/dev/myplugin/src/ma
 
 
 
+

@@ -21,11 +21,8 @@ This is our first public announcement of the Atlassian Plugin Development Platfo
 
 In upcoming releases we will extend the platform to include more of the available tools, making it easier for you to manage dependencies and ensure you have all the components you need.
 
-**Components of this Release:**
+**Haven't used the Atlassian Plugin Development Platform yet?**
 
- 
-
-**Haven't used the Atlassian Plugin Development Platform yet?**  
 Take a look at our [guide to the platform and its components](/server/framework/atlassian-sdk/atlassian-platform-common-components).
 
  
@@ -81,6 +78,8 @@ Highlights of the REST plugin module 2.2:
 -   Faster startup time
 
 See the [REST Plugin 2.2 Release Notes](/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes).
+
+
 
 
 

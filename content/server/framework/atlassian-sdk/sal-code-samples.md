@@ -34,8 +34,7 @@ Add this to your atlassian-plugin.xml. It will only work with a version 2 plugin
 
 **Example class**
 
-``` javascript
-
+``` java
 public class Example {
 
     final PluginSettingsFactory pluginSettingsFactory;
@@ -65,6 +64,8 @@ public class Example {
     
 }
 ```
+
+
 
 
 

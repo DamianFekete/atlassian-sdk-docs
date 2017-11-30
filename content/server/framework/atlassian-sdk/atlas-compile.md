@@ -40,14 +40,14 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-compile -?
 atlas-compile -help
 ```
 
 Run the following command to see all options provided by `mvn compile`:
 
-``` javascript
+``` bash
 atlas-mvn compile --help
 ```
 
@@ -57,15 +57,17 @@ Refer to the <a href="http://maven.apache.org/guides/getting-started/index.html#
 
 Run the following command to compile your source code:
 
-``` javascript
+``` bash
 atlas-compile
 ```
 
 Run the following command to compile your source code without failing the build, even if there are errors
 
-``` javascript
+``` bash
 atlas-compile --fail-never
 ```
+
+
 
 
 

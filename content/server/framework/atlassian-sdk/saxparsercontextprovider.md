@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 2818385
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818385
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818385
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/saxparsercontextprovider
 new_url: /server/framework/atlassian-sdk/saxparsercontextprovider
 platform: server
@@ -30,6 +29,7 @@ It's not clear what version of jersey is shipped with JIRA.
 There is a JIRA Forum discussion about this <a href="http://forums.atlassian.com/message.jspa?messageID=257356502&amp;tstart=0" class="external-link">here</a>.
 
 {{% /note %}}
+
 
 
 

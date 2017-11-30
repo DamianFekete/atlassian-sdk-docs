@@ -60,52 +60,51 @@ If you get stuck at any point, you can compare your progress to our <a href="htt
 
     The basic skeleton for your Atlassian JIRA plugin is created in a new `myPlugin` directory: 
 
-    ``` p1
+    ``` text
     .
     ├── LICENSE
     ├── README
     ├── pom.xml
     └── src
         ├── main
-        │   ├── java
-        │   │   └── com
-        │   │       └── atlassian
-        │   │           └── tutorial
-        │   │               └── myPlugin
-        │   │                   ├── api
-        │   │                   │   └── MyPluginComponent.java
-        │   │                   └── impl
-        │   │                       └── MyPluginComponentImpl.java
-        │   └── resources
-        │       ├── META-INF
-        │       │   └── spring
-        │       │       └── plugin-context.xml
-        │       ├── atlassian-plugin.xml
-        │       ├── css
-        │       │   └── myPlugin.css
-        │       ├── images
-        │       │   ├── pluginIcon.png
-        │       │   └── pluginLogo.png
-        │       ├── myPlugin.properties
-        │       └── js
-        │           └── myPlugin.js
+        │   ├── java
+        │   │   └── com
+        │   │       └── atlassian
+        │   │           └── tutorial
+        │   │               └── myPlugin
+        │   │                   ├── api
+        │   │                   │   └── MyPluginComponent.java
+        │   │                   └── impl
+        │   │                       └── MyPluginComponentImpl.java
+        │   └── resources
+        │       ├── META-INF
+        │       │   └── spring
+        │       │       └── plugin-context.xml
+        │       ├── atlassian-plugin.xml
+        │       ├── css
+        │       │   └── myPlugin.css
+        │       ├── images
+        │       │   ├── pluginIcon.png
+        │       │   └── pluginLogo.png
+        │       ├── myPlugin.properties
+        │       └── js
+        │           └── myPlugin.js
         └── test
             ├── java
-            │   ├── it
-            │   │   └── com
-            │   │       └── atlassian
-            │   │           └── tutorial
-            │   │               └── myPlugin
-            │   │                   └── MyComponentWiredTest.java
-            │   └── ut
-            │       └── com
-            │           └── atlassian
-            │               └── tutorial
-            │                   └── myPlugin
-            │                       └── MyComponentUnitTest.java
+            │   ├── it
+            │   │   └── com
+            │   │       └── atlassian
+            │   │           └── tutorial
+            │   │               └── myPlugin
+            │   │                   └── MyComponentWiredTest.java
+            │   └── ut
+            │       └── com
+            │           └── atlassian
+            │               └── tutorial
+            │                   └── myPlugin
+            │                       └── MyComponentUnitTest.java
             └── resources
                 └── atlassian-plugin.xml
-                  
     ```
 
     Feel free to take a moment to explore the different files created by the Atlassian SDK before you continue. 
@@ -157,7 +156,11 @@ In this step, we'll use the `atlas-run` command to run the application (JIRA
 
 You have a basic plugin skeleton, so lets learn how to modify and customise it to provide a new menu in JIRA. 
 
+{{% note %}}
+
 **[Modify the Plugin](/server/framework/atlassian-sdk/modify-the-plugin)**
+
+{{% /note %}}
 
 ## Additional Resources
 
@@ -168,6 +171,8 @@ Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/a
  
 
 Still need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
+
 
 
 

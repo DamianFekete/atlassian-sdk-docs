@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 8947254
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947254
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947254
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/how-to-speed-up-plugin-startup
 new_url: /server/framework/atlassian-sdk/how-to-speed-up-plugin-startup
 platform: server
@@ -30,7 +29,9 @@ If using the SDK, whenever you add a non-provided Maven dependency, that depende
 
 To know what libraries are being bundled in your plugin, you can either pay attention to the Maven output, or if dealing with a plugin jar itself, list the contents of the plugin via:
 
-    jar -tf my-plugin.jar
+``` java
+jar -tf my-plugin.jar
+```
 
 Now, look for paths that begin with `META-INF/lib` as these will be the jars that the SDK embedded in your plugin for you. Ideally, you don't want to see any, but if you do, ensure they aren't already provided by the host application or a bundled plugin.
 
@@ -99,10 +100,13 @@ To run code when the full application has started, but before it is publicly ava
 
 1.  Create a class that implements `com.atlassian.sal.api.lifecycle.LifecycleAware`. Put your initialization code in the `onStart()` method, to be called when the application has started, or the plugin is finished loading if the plugin was installed after application start.
 2.  Expose your class as a public component:
+
     ``` xml
     <component key="myStartupCode" class="com.example.MyStartup" public="true"
                    interface="com.atlassian.sal.api.lifecycle.LifecycleAware" />
     ```
+
+
 
 
 

@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 851986
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851986
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851986
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/linkageerror
 new_url: /server/framework/atlassian-sdk/linkageerror
 platform: server
@@ -45,6 +44,7 @@ The quick solution is to not bundle any third-party JARs in your plugin. However
 ### Applies To
 
 This troubleshooting tip applies to OSGi (version 2) plugins and possibly dynamic legacy Confluence plugins.
+
 
 
 

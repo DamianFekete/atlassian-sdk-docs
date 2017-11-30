@@ -40,7 +40,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-clean -?
 atlas-clean -help
 ```
@@ -58,6 +58,8 @@ For example, let's assume that you want to use version 3.1 of your host applicat
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 [Getting Started](/server/framework/atlassian-sdk/index)
+
+
 
 
 

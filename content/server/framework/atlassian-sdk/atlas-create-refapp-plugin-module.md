@@ -24,7 +24,9 @@ NOTE: There is a specific version of this shell script for each Atlassian applic
 
 ## Basic Usage
 
-`atlas-create-refapp-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a plugin module for the RefApp that you can adapt to suit your own plugin's needs. (Runs `mvn refapp:create-plugin-module`.) Passes all parameters straight through to Maven.The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
+ `atlas-create-refapp-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a plugin module for the RefApp that you can adapt to suit your own plugin's needs. (Runs `mvn refapp:create-plugin-module`.) Passes all parameters straight through to Maven.  
+
+The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
 
 ## Parameters
 
@@ -59,7 +61,9 @@ Let's assume you want to add a new plugin module to your existing RefApp plugin.
 2.  Go to the root directory for your plugin (where the `pom.xml` is located).
 3.  Run this command:
 
-        atlas-create-refapp-plugin-module
+    ``` bash
+    atlas-create-refapp-plugin-module
+    ```
 
 4.  Follow the prompts to specify the type of plugin module that you want, and further information required to create the basic module.
 5.  The script will added the required module to your `atlassian-plugin.xml` file.
@@ -68,6 +72,8 @@ Let's assume you want to add a new plugin module to your existing RefApp plugin.
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
 
 
 

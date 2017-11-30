@@ -26,7 +26,7 @@ Before you implement internationalisation (also called 'i18n' because there are 
 
 First, all messages in the plugin must be moved outside the code into a properties file in the plugin. The properties file stores the default (English) translations for all messages inside the plugin. The properties file format is a key = value format, where the key is used to refer to the resource in the code and the value is the default message in English:
 
-``` javascript
+``` text
 com.example.plugin.fruit.basket.label = Your Fruit Basket
 com.example.plugin.fruit.apple = Apple
 com.example.plugin.fruit.banana = Banana
@@ -78,7 +78,7 @@ To internationalise your plugin, please follow these steps, described in more de
 
 As mentioned above, a properties file contains translatable strings for your plugin in key-value pairs.
 
-``` javascript
+``` text
 com.example.plugin.fruit.basket.label = Your Fruit Basket
 com.example.plugin.fruit.apple = Apple
 com.example.plugin.fruit.banana = Banana
@@ -88,13 +88,13 @@ com.example.plugin.fruit.basket.add.button = Add Fruit
 
 1.  You will need to create a default English properties files for your plugin in the following location:
 
-    ``` javascript
+    ``` bash
     src/main/resources/com/example/mypluginname/mypluginprops.properties
     ```
 
 2.  If you can translate your plugin into another language, you should write your translated message strings in a own separate file for that language, and name the file with the correct locale extension. For example, to provide a German translation you would also provide:
 
-    ``` javascript
+    ``` bash
     src/main/resources/com/example/mypluginname/mypluginprops_de_DE.properties
     ```
 
@@ -166,7 +166,7 @@ For a list of plugin modules specific to:
 
 In your properties file, `src/main/resources/com/example/mypluginname/MyPluginName.properties`, add the property key with the value in English:
 
-``` javascript
+``` text
 com.example.plugin.fruit.basket.add.button = Add Fruit
 ```
 
@@ -192,13 +192,13 @@ If your property value includes <a href="http://docs.oracle.com/javase/tutorial/
 
 **In MyPluginName.properties:**
 
-``` javascript
+``` java
 com.example.plugin.fruit.basket.contains = Your fruit basket contains {0} item(s)
 ```
 
 **In an action class:**
 
-``` javascript
+``` java
 List<String> fruits = Arrays.asList("apple", "banana", "apricot");
 return getText("com.example.plugin.fruit.basket.contains", new String[]{ String.valueOf(fruits.size()) });
 ```
@@ -238,7 +238,7 @@ If your plugin contains English text in <a href="http://velocity.apache.org/" cl
 
 To render an internationalised message in Velocity templates, use $i18n.getText(), optionally with an array of parameter values. Here is a snippet of HTML with some examples:
 
-``` javascript
+``` xml
 <p>
     $i18n.getText("com.example.plugin.fruit.basket.contains", [$fruits.size()])
 </p>
@@ -314,6 +314,8 @@ The <a href="http://mojo.codehaus.org/l10n-maven-plugin/" class="external-link">
 ## Additional Resources
 
 -   <a href="http://rscbundlecheck.sourceforge.net/" class="uri external-link">http://rscbundlecheck.sourceforge.net/</a>
+
+
 
 
 

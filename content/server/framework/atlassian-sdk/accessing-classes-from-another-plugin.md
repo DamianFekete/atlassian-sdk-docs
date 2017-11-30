@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852151
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/accessing-classes-from-another-plugin
 new_url: /server/framework/atlassian-sdk/accessing-classes-from-another-plugin
 platform: server
@@ -34,6 +33,7 @@ In the above diagrams:
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Troubleshooting+a+LinkageError" class="createlink">Troubleshooting a LinkageError</a>
+
 
 
 

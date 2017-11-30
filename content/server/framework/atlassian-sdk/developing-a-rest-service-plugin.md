@@ -55,7 +55,9 @@ We will create the service in a plugin built for the Atlassian reference applica
 
 We encourage you to work through this tutorial. If you want to skip ahead or check your work when you are done, you can find the plugin source code on Atlassian Bitbucket. To clone the repository, issue the following command:
 
-    git clone git@bitbucket.org:serverecosystem/message.git
+``` bash
+git clone git@bitbucket.org:serverecosystem/message.git
+```
 
      
 
@@ -70,7 +72,9 @@ In this step, you use an `atlas-` command to create your plugin project. The `at
 1.  Open a terminal and navigate to the directory where you want to create your REST plugin project home directory.
 2.  Enter the following command:
 
-        atlas-create-refapp-plugin
+    ``` bash
+    atlas-create-refapp-plugin
+    ```
 
 3.  When prompted, enter the following values for your plugin project parameters:
 
@@ -131,7 +135,11 @@ The SDK finishes up, adding REST source files to the project. 
 
 Navigate to the following directory: 
 
-`<project_home>/src/main/java/com/atlassian/plugins/tutorial/rest/`
+``` bash
+<project_home>/src/main/java/com/atlassian/plugins/tutorial/rest/
+```
+
+ 
 
 This directory contains two source files that implement the REST services: 
 
@@ -144,61 +152,56 @@ Also notice the annotations. These are <a href="https://jaxb.java.net/nonav/jaxb
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Annotation</p></th>
-<th><p>Source</p></th>
-<th><p>Scope</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><code>@Path</code></p></td>
-<td><p><a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Path.html" class="external-link">Path</a></p></td>
-<td><p><code>Class</code> or <code>Method</code></p></td>
-<td><p>Identifies the URI path that a resource class or class method will serve requests for. <code>@Path</code> annotations on methods are relative to the <code>@Path</code> annotation on the enclosing class.</p></td>
+<td><p>Identifies the URI path that a resource class or class method will serve requests for. <code>@Path</code> annotations on methods are relative to the <code>@Path</code> annotation on the enclosing class.</p>
+<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Path.html" class="external-link">Path</a></p>
+<p><strong>Scope:</strong> <code>Class</code> or <code>Method</code></p></td>
 </tr>
 <tr class="even">
 <td><p><code>@GET</code></p></td>
-<td><p><a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/GET.html" class="external-link">GET</a></p></td>
-<td><p><code>Method</code></p></td>
-<td><p>Identifies that the class method will handle requests for a <code>GET</code> http message. Having more than one <code>@GET</code> annotation on a method in a class will fail unless <code>@Path</code> annotations are used to distinguish them. Other annotations are available such as <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/DELETE.html" class="external-link">DELETE</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/POST.html" class="external-link">POST</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/HEAD.html" class="external-link">HEAD</a>, etc.  See: <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/package-summary.html" class="external-link">javax.ws.rs</a></p></td>
+<td><p>Identifies that the class method will handle requests for a <code>GET</code> http message. Having more than one <code>@GET</code> annotation on a method in a class will fail unless <code>@Path</code> annotations are used to distinguish them. Other annotations are available such as <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/DELETE.html" class="external-link">DELETE</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/POST.html" class="external-link">POST</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/HEAD.html" class="external-link">HEAD</a>, etc.  See: <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/package-summary.html" class="external-link">javax.ws.rs</a>.</p>
+<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/GET.html" class="external-link">GET</a></p>
+<pre><code>Scope: Method</code></pre></td>
 </tr>
 <tr class="odd">
 <td><p><code>@AnonymousAllowed</code></p></td>
-<td><p> </p></td>
-<td><p><code>Method</code></p></td>
-<td><p>Identifies that the method can be called without supplying user credentials. If this annotation did not exist then a session would need to be established with your application or you would need to pass in <code>os_username</code> and <code>os_password</code> parameters.</p></td>
+<td><p>Identifies that the method can be called without supplying user credentials. If this annotation did not exist then a session would need to be established with your application or you would need to pass in <code>os_username</code> and <code>os_password</code> parameters.</p>
+<pre><code>Scope: Method</code></pre></td>
 </tr>
 <tr class="even">
 <td><p><code>@Produces</code></p></td>
-<td><p><a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Produces.html" class="external-link">Produces</a></p></td>
-<td><p><code>Method</code></p></td>
-<td><p>It specifies the content types the method may return. If this annotation is not present, the method may return <em>any</em> content type; if it is present, the method must return one of the types specified.</p></td>
+<td><p>It specifies the content types the method may return. If this annotation is not present, the method may return <em>any</em> content type; if it is present, the method must return one of the types specified.</p>
+<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Produces.html" class="external-link">Produces</a></p>
+<pre><code>Scope: Method</code></pre></td>
 </tr>
 <tr class="odd">
 <td><p><code>@XmlRootElement</code></p></td>
-<td><p><a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlRootElement.html" class="external-link">XmlRootElement</a></p></td>
-<td><p><code>Class</code> or <code>enum</code></p></td>
-<td><p>Maps a class or an enum type to an XML element.</p></td>
+<td><p>Maps a class or an enum type to an XML element.</p>
+<p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlRootElement.html" class="external-link">XmlRootElement</a></p>
+<p><strong>Scope:</strong> <code>Class</code> or <code>enum</code></p></td>
 </tr>
 <tr class="even">
 <td><p><code>@XmlAccessorType</code></p></td>
-<td><p><a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAccessorType.html" class="external-link">XmlAccessorType</a></p></td>
-<td><p><code>Class</code> or <code>enum</code></p></td>
-<td><p>Controls whether fields or properties are serialised by default</p></td>
+<td><p>Controls whether fields or properties are serialised by default.</p>
+<p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAccessorType.html" class="external-link">XmlAccessorType</a></p>
+<p><strong>Scope:</strong> <code>Class</code> or <code>enum</code></p></td>
 </tr>
 <tr class="odd">
 <td><p><code>@XmlAttribute</code></p></td>
-<td><p><a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAttribute.html" class="external-link">XmlAttribute</a></p></td>
-<td><p><code>Property</code> or <code>field</code></p></td>
-<td><p>Maps a property or field to an XML Attribute</p></td>
+<td><p>Maps a property or field to an XML Attribute.</p>
+<p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAttribute.html" class="external-link">XmlAttribute</a></p>
+<p><strong>Scope:</strong> <code>Property</code> or <code>field</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -223,7 +226,7 @@ Substitute *`<host>`* with the host name appropriate for your Atlassian applicat
 
 You should see a page with text that resembles:
 
-``` javascript
+``` xml
 This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <message key="default">
     <value>Hello World</value>
@@ -303,37 +306,33 @@ Notice we've added a few more annotations: 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Annotation</p></th>
-<th><p>Source</p></th>
-<th><p>Scope</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><code>@XmlElement</code></p></td>
-<td><p><a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlElement.html" class="external-link">XmlElement</a></p></td>
-<td><p><code>Property</code> or <code>field</code></p></td>
-<td><p>Maps a property or field to an XML Element</p></td>
+<td><p>Maps a property or field to an XML Element.</p>
+<p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlElement.html" class="external-link">XmlElement</a></p>
+<p><strong>Scope:</strong> <code>Property</code> or <code>field</code></p></td>
 </tr>
 <tr class="even">
 <td><p><code>@PathParam</code></p></td>
-<td><p><a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/PathParam.html" class="external-link">PathParam</a></p></td>
-<td><p><code>Method Parameter</code></p></td>
-<td><p>It maps a method variable to an element in the <code>@Path</code>.</p></td>
+<td><p>It maps a method variable to an element in the <code>@Path</code>.</p>
+<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/PathParam.html" class="external-link">PathParam</a></p>
+<pre><code>Scope: Method Parameter</code></pre></td>
 </tr>
 <tr class="odd">
 <td><p><code>@QueryParam</code></p></td>
-<td><p><a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/QueryParam.html" class="external-link">QueryParam</a></p></td>
-<td><p><code>Method Parameter</code></p></td>
-<td><p>It maps a method variable to a query parameter.</p></td>
+<td><p>It maps a method variable to a query parameter.</p>
+<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/QueryParam.html" class="external-link">QueryParam</a></p>
+<pre><code>Scope: Method Parameter</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -360,7 +359,11 @@ When we used the SDK to add the REST module to our project, the SDK helpfully ad
 We'll leave the full explanation of testing matters to [another tutorial](https://developer.atlassian.com/display/DOCS/Writing+and+Running+Plugin+Tests) for now, and just make a small adjustment to our tests to get them working:
 
 1.  Navigate to the test directory for the plugin:  
-    `<project_home>/src/test/java/ut/com/atlassian/plugins/tutorial/rest`  
+
+    ``` bash
+    <project_home>/src/test/java/ut/com/atlassian/plugins/tutorial/rest 
+    ```
+
 2.  Open `MyRestResourceTest.java` for editing.  
     The test checks whether the `getMessage()` method returns the "Hello World" message. But the method, as we've modified it, now expects a parameter. We'll hard-code one.  
 3.  Add an input value to the `getMessage()` method invocation. Since our test still expects our original "Hello World" message in the response, add that. As modified, the relevant line of code should look like this:   
@@ -401,7 +404,7 @@ Let's try the plugin again but this time let's use the REST API Browser (RAB), a
 
 For information on adding documentation for your resources and parameters (which REST browsers such as this one can display), see [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser).
 
-{{% /tip %}}
+    {{% /tip %}}
 
 As a further exercise, try installing the plugin to another Atlassian application, such as JIRA. Start up JIRA in another terminal using the `atlas-run-standalone` command, and use the <a href="https://confluence.atlassian.com/display/UPM/Installing+Add-ons#InstallingAdd-ons-Installingbyfileupload" class="external-link">UPM to install</a> the JAR file directly from the `<project_home>/target` directory. Just as you did with the RefApp, you can open the REST API Browser from the Administration Console of the application and test the Message service.
 
@@ -419,6 +422,8 @@ For general information on using REST for Atlassian plugin development, see:
 -   [About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)
 -   [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)
 -   [REST Plugin Module](/server/framework/atlassian-sdk/rest-plugin-module)
+
+
 
 
 

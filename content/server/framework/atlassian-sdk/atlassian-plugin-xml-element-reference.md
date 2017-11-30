@@ -179,7 +179,7 @@ The plugin vendor. Provides a link in the plugin administration screens. Its par
 </tbody>
 </table>
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -217,7 +217,7 @@ Arbitrary parameters for a plugin. Its parent element is `<plugin-info>`. These 
 
 A common example of a `param` element the URL for your plugin's configuration screen. Below is an example.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -232,7 +232,7 @@ This element allows you to declare plugin dependencies and shorten your export p
 
 The element's parent element is `plugin-info`.
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
     <plugin-info>
         <!-- ... -->
@@ -250,7 +250,7 @@ As seen in the above example, the `bundle-instructions` element allows child ele
 
 In the rest of the descriptor XML file, contains any modules that make up your plugin. You can add these modules through the `atlas-`\* commands or manually. The following illustrates the addition of a `web-item` module:
 
-``` javascript
+``` xml
 <web-item name="Radio Paradise" i18n-name-key="radio-paradise.name" key="radio-paradise" section="client-sites-link/my-section" weight="1000">
     <description key="radio-paradise.description">The Radio Paradise Plugin</description>
     <label key="radio-paradise.label"></label>
@@ -259,6 +259,8 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
+
 
 
 

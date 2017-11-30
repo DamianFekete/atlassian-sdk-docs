@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852130
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852130
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852130
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/my-public-component-just-disappeared
 new_url: /server/framework/atlassian-sdk/my-public-component-just-disappeared
 platform: server
@@ -20,9 +19,12 @@ You may notice that in certain situations, a public component on your plugin dis
 
 For example, say you registered a DictionaryService as a public component, and it depended on a MessageService. If the MessageService, for whatever reason, is unregistered, the Dictionary Service will be unregistered automatically. The only way to detect this is to turn on trace logging for `org.springframework.osgi.service.dependency.internal` and you will see something like:
 
-    Exporter [dictionaryService] stopped; transitive OSGi dependency [messageService] is unsatifised
+``` bash
+Exporter [dictionaryService] stopped; transitive OSGi dependency [messageService] is unsatifised
+```
 
 This can also happen if there is a circular dependency between two plugins that consume each others services.
+
 
 
 

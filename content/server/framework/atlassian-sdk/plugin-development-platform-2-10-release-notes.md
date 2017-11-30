@@ -35,17 +35,6 @@ title: Plugin Development Platform 2.10 release notes
 
  
 
- 
-
- 
-
-**Highlights of this Release:**
-
- 
-
-**  
-**
-
 **Wondering where are the Plugin Framework release notes?**  
 Starting with Atlassian Plugin Development Platform 2.9, we've combined the releases of the plugin framework as well as other key plugins, libraries, and API's that plugin developers depend on into the Atlassian Plugin Development Platform. The platform has been used internally for many releases to test and deliver a set of capabilities our products and plugins could build upon, and starting with version 2.9, this platform has been made available to the public.
 
@@ -92,6 +81,8 @@ Atlassian developer mode (-Datlassian.dev.mode=true) changes the host applicatio
 When Atlassian developer mode is enabled, Universal Plugin Manager contains a 'Developer' tab displaying useful information.
 
 ![](/server/framework/atlassian-sdk/images/developer-tab.png)
+
+
 
 
 

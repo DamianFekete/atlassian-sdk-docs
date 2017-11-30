@@ -42,9 +42,9 @@ To use the RAB on an Atlassian application instance started with the SDK, follow
 
     {{% note %}}
 
-After entering a search term, you can use the **Link to filtered results** to save or share a link to the filtered results. 
+    After entering a search term, you can use the **Link to filtered results** to save or share a link to the filtered results. 
 
-{{% /note %}}
+    {{% /note %}}
 
 5.  To test a resource, enter any required parameter values in the fields and click **Send**.  
     The results appear in the Response section of the page, as shown by the following screenshot.  
@@ -60,6 +60,8 @@ However, we do not recommend using non-public APIs in your plugin or client code
 ## Using the REST API Browser to document your APIs
 
 If you are developing a Java plugin with a REST API of its own, you can ensure that RAB will document your REST resources too. See [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser).
+
+
 
 
 

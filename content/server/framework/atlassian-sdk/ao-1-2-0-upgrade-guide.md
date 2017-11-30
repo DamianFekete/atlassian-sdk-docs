@@ -56,55 +56,13 @@ There are no bugfixes in this release.
 
 ## Changes
 
-Key
+| Key                                                                                                  | Summary                                                                                                                                             | T                                                                                                                                                                                                                                                                                  | Created      | Updated      | Assignee         | Reporter         | P                                                                                                                                                | Status   | Resolution | Fix Version/S |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------|------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|---------------|
+| <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">AO-96</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">Add possibility in AO to create multi-column indexes</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15311&amp;avatarType=issuetype" alt="New Feature" class="icon confluence-external-resource" /></a> | Feb 02, 2011 | Apr 27, 2017 | Sebastian Pawlak | Samuel Berrigaud | <img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="icon confluence-external-resource" width="16" /> | RESOLVED | Fixed      | 1.2.0         |
 
-Summary
+<a href="https://ecosystem.atlassian.net/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+AO+AND+fixVersion+%3D+%221.2.0%22+++++&amp;src=confmacro" class="external-link" title="View all matching issues in JIRA.">1 issue</a>
 
-T
 
-Created
-
-Updated
-
-Due
-
-Assignee
-
-Reporter
-
-P
-
-Status
-
-Resolution
-
-Fix Version/s
-
-[AO-96](https://ecosystem.atlassian.net/browse/AO-96?src=confmacro)
-
-[Add possibility in AO to create multi-column indexes](https://ecosystem.atlassian.net/browse/AO-96?src=confmacro)
-
-[<img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15311&amp;avatarType=issuetype" alt="New Feature" class="icon" />](https://ecosystem.atlassian.net/browse/AO-96?src=confmacro)
-
-Feb 02, 2011
-
-Apr 27, 2017
-
-Sebastian Pawlak
-
-Samuel Berrigaud
-
-<img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="icon" />
-
-Resolved
-
-Fixed
-
-1.2.0
-
-<a href="https://developer.atlassian.com/plugins/servlet/applinks/oauth/login-dance/authorize?applicationLinkID=61b6191d-d412-3043-a96c-75b7bceaed1f" class="static-oauth-init">Authenticate</a> to retrieve your issues
-
-[1 issue](https://ecosystem.atlassian.net/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+AO+AND+fixVersion+%3D+%221.2.0%22+++++&src=confmacro "View all matching issues in JIRA.")
 
 
 

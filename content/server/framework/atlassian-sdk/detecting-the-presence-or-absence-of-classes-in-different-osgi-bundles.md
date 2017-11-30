@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 2818636
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818636
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818636
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/detecting-the-presence-or-absence-of-classes-in-different-osgi-bundles
 new_url: /server/framework/atlassian-sdk/detecting-the-presence-or-absence-of-classes-in-different-osgi-bundles
 platform: server
@@ -20,7 +19,7 @@ title: Detecting the presence or absence of classes in different OSGI bundles
 
 Problems have been found with this approach and it is not recommended. We are currently working on a better solution.
 
-{{% /warning %}} {{% note %}}
+{{% /warning %}}{{% note %}}
 
 This page is about 'Plugins 2' plugins, i.e. plugins written for version 2 of the Atlassian Plugin Framework. The procedure below will not work with plugins written against version 1 of the plugin framework.
 
@@ -144,6 +143,8 @@ Just query the method **isExamplePresent** to find out if the example dependency
 
 [Advanced Plugin Development FAQ](/server/framework/atlassian-sdk/advanced-plugin-development-faq)  
 [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
+
+
 
 
 

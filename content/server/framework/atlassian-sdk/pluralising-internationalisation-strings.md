@@ -20,10 +20,12 @@ During the development of your plugin, you will sometimes find the need to creat
 
 For example:
 
-    "There were no matching files"
-    "There was 1 matching file"
-    "There were 2 matching files"
-    ... 
+``` text
+"There were no matching files"
+"There was 1 matching file"
+"There were 2 matching files"
+... 
+```
 
 As you can see, in English, there are three different ways to construct the message depending on the number of files in question.
 
@@ -41,7 +43,9 @@ This type of constructions should be avoided, because the message will then have
 
 As an alternative, the previous message could simplified to the following form:
 
-    "Matching Files: {0}", where {0} is a place holder for the number of files in question.
+``` text
+"Matching Files: {0}", where {0} is a place holder for the number of files in question.
+```
 
 The problem is solved by transforming the form of the sentence into a single phrase that does not need to change according to the pluralisation rules of the target language.
 
@@ -55,7 +59,9 @@ In this case, a `ChoiceFormat` message allows us to attach a format to a range 
 
 #### An example
 
-    "1 user has mentioned you on this issue"
+``` text
+"1 user has mentioned you on this issue"
+```
 
 We want to write our internationalisation string such that:
 
@@ -65,7 +71,9 @@ We want to write our internationalisation string such that:
 
 To accomplish this, we would write our internationalisation string as follows:
 
-    com.example.plugin.mentions = {0,choice, 0#No users have| 1#A user has| 1<{0,number} users have} mentioned you on this issue.
+``` java
+com.example.plugin.mentions = {0,choice, 0#No users have| 1#A user has| 1<{0,number} users have} mentioned you on this issue.
+```
 
 {{% note %}}
 
@@ -92,7 +100,7 @@ When you write these choice format strings, you are defining **ranges** that val
 
 For instance, if we passed a negative number - say, -1 - in to the string:
 
-``` javascript
+``` java
 com.example.plugin.matches = {0} {0,choice, 0#matching things| 1#match| 1<matches}
 ```
 
@@ -113,6 +121,8 @@ Therefore, it is only recommended to use `ChoiceFormat` in cases where the sent
 -   <a href="http://stuartgunter.wordpress.com/2011/08/09/java-i18n-pluralisation-using-choiceformat/" class="external-link">Java i18n Pluralisation using ChoiceFormat</a>
 -   <a href="http://docs.oracle.com/javase/tutorial/i18n/format/choiceFormat.html" class="external-link">Handling Plurals (The Java™ Tutorials)</a>
 -   <a href="http://docs.oracle.com/javase/7/docs/api/java/text/ChoiceFormat.html" class="external-link">ChoiceFormat (Java Platform SE 7)</a>
+
+
 
 
 

@@ -102,7 +102,11 @@ Still need help? Request support at <a href="https://ecosystem.atlassian.net/se
 
 If you'd like to keep learning about add-on development you may want to try out the Confluence tutorial below:
 
+{{% note %}}
+
 [Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/create-a-confluence-hello-world-macro)
+
+{{% /note %}}
 
 Here are some other things you might like to do next:
 
@@ -116,6 +120,8 @@ The following resources will allow you to learn more about some of the tasks we 
 -   [Working with the POM](/server/framework/atlassian-sdk/working-with-the-pom)
 -   [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
 -   [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
+
+
 
 
 

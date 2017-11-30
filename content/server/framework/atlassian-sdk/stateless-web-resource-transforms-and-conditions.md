@@ -59,7 +59,7 @@ There are two cases to fix here:
 
 Examples include LESS and i18n transformation.
 
-To fix these, convert from `WebResourceTransformer` to <a href="https://bitbucket.org/atlassian/atlassian-plugins-webresource/src/10b622b03d78cf858c78bbafb69353100cef41b6/atlassian-plugins-webresource/src/main/java/com/atlassian/plugin/webresource/transformer/WebResourceTransformerFactory.java?at=master" class="external-link"><code>WebResourceTransformerFactory</code> </a>(which produces `UrlReadingWebResourceTransformers`). This enables you to contribute to the URL at page-render-time and read from that URL at resource-serve-time.
+To fix these, convert from `WebResourceTransformer` to <a href="https://bitbucket.org/atlassian/atlassian-plugins-webresource/src/10b622b03d78cf858c78bbafb69353100cef41b6/atlassian-plugins-webresource/src/main/java/com/atlassian/plugin/webresource/transformer/WebResourceTransformerFactory.java?at=master" class="external-link">WebResourceTransformerFactory </a>(which produces `UrlReadingWebResourceTransformers`). This enables you to contribute to the URL at page-render-time and read from that URL at resource-serve-time.
 
 Taking the i18n transform as an example:
 
@@ -98,9 +98,6 @@ Note one potential issue:
 
 If your plugin targets products using old versions of webresources but you want to make use of the transform2 / condition2, use the following techniques to be compatible:
 
--   [Transforms](#transforms)
--   [Conditions](#conditions)
-
 ### Transforms
 
 Keep your transform1 implementation untouched and add a transform2 declaration with `alias-key` = the key of the transform1.
@@ -126,7 +123,7 @@ The transform lookup algorithm for a key `my-key` is as follows:
   ...
 ```
 
-In an old product, the `<url-reading-web-resource-transformer>` will be ignored.
+`In an old product, the <url-reading-web-resource-transformer>` will be ignored.
 
 ### Conditions
 
@@ -147,6 +144,8 @@ In an old product, `class2` will be ignored.
 In a new product, for a `web-resource` only (ie not a `web-item` / `web-panel` etc), the contract is to look for `class2` if it exists, otherwise use `class`.
 
 Note that `class` can be either a condition1 or a condition2 - in particular if you're implementing something for condition2 only, `class` can be a condition2.
+
+
 
 
 

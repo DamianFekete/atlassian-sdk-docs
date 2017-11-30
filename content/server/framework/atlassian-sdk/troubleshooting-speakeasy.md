@@ -32,15 +32,9 @@ The following are problems that may occur with Speakeasy and their solution:
 <tbody>
 <tr class="odd">
 <td><p>User can't access the Speakeasy page due to a rogue extension</p></td>
-<td><p>Have the user visit<br />
-</p>
-<div class="panel preformatted" style="border-width: 1px;">
-<div class="preformattedContent panelContent">
-<pre><code>http://THE_SERVER_URL/plugins/servlet/speakeasy/unsubscribe</code></pre>
-</div>
-</div>
-<p><br />
-to be removed from all Speakeasy extension access lists</p></td>
+<td><p>Have the user visit</p>
+<p>http://THE_SERVER_URL/plugins/servlet/speakeasy/unsubscribe</p>
+<p>to be removed from all Speakeasy extension access lists</p></td>
 </tr>
 <tr class="even">
 <td><p>User is having UI issues that may be due to a Speakeasy extension</p></td>
@@ -56,6 +50,8 @@ to be removed from all Speakeasy extension access lists</p></td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

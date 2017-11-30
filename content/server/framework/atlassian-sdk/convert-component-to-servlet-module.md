@@ -184,13 +184,15 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
 
     {{% note %}}
 
-If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
+    If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
 
-{{% /note %}}
+    {{% /note %}}
 
 ## Next Steps
 
 Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
+
+
 
 
 

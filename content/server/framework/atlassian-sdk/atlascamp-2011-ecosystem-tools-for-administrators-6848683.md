@@ -22,27 +22,27 @@ subcategory:
 
 PDF File <a href="/download/attachments/6848683/Ecosystem%20Tools%20for%20Administrators%20v4.pdf?api=v2" class="filename" title="Download">Ecosystem Tools for Administrators v4.pdf</a>
 
-Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="fn confluence-userlink url">Matt Ryall</a>
+Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="url confluence-userlink fn">Matt Ryall</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl" class="aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="aui-button editAttachmentLink">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl" class="aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
 
 ZIP Archive <a href="/download/attachments/6848683/Ecosystem%20Tools%20for%20Administrators%20v4.key.zip?api=v2" class="filename" title="Download">Ecosystem Tools for Administrators v4.key.zip</a>
 
-Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="fn confluence-userlink url">Matt Ryall</a>
+Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="url confluence-userlink fn">Matt Ryall</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button editAttachmentLink">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
 
-Drag and drop to upload or <span class="aui-button browse-files aui-button-link">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
+Drag and drop to upload or <span class="aui-button-link browse-files aui-button">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
 
 Upload file
 
@@ -152,6 +152,7 @@ Luke:
 Confluence cache tuning:
 
 -   <a href="http://confluence.atlassian.com/display/DOC/Cache+Performance+Tuning" class="uri external-link">http://confluence.atlassian.com/display/DOC/Cache+Performance+Tuning</a>
+
 
 
 

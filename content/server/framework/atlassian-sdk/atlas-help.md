@@ -22,7 +22,7 @@ This page describes the shell script `atlas-help`, part of the [Atlassian Plugin
 
 ## Basic Usage
 
-`atlas-help [--verbose]` - Displays help text for the shell scripts incorporated into the Atlassian Plugin SDK. Interpreted parameters: `verbose`.
+ `atlas-help [--verbose]` - Displays help text for the shell scripts incorporated into the Atlassian Plugin SDK. Interpreted parameters: `verbose`.
 
 ## Parameters
 
@@ -42,13 +42,13 @@ Make sure you are not in the Maven command line interface (CLI) when you enter t
 
 Enter the following shell script to see an overview of all the scripts with a brief outline of their functionality:
 
-``` javascript
+``` bash
 atlas-help
 ```
 
 Enter the following to see all possible help content:
 
-``` javascript
+``` bash
 atlas-help --verbose
 ```
 
@@ -64,7 +64,7 @@ Each shell script provides help text if the first argument of the script is one 
 
 Examples:
 
-``` javascript
+``` bash
 atlas-clean help
 atlas-cli -?
 ```
@@ -77,6 +77,8 @@ See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlas
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818350" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
 
 
 

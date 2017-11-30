@@ -57,7 +57,7 @@ To use a SAL service, you will need to declare a [component import module](/serv
 
 You also need to update you project's `pom.xml` to include SAL:
 
-``` javascript
+``` xml
         <dependency>
             <groupId>com.atlassian.sal</groupId>
             <artifactId>sal-api</artifactId>
@@ -72,6 +72,8 @@ Please refer to the list of available [SAL services](https://developer.atlassian
 
 [SAL Services](https://developer.atlassian.com/display/SAL/SAL+Services)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
+
+
 
 
 

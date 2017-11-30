@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669147
-learning: patterns
+learning: guides
 legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/finding-entities
 new_url: /server/framework/atlassian-sdk/finding-entities
 platform: server
@@ -82,6 +82,8 @@ There is also the possibility to limit the number of entities returned:
 ```
 
 This query also starts selecting the elements from the 9th in the given order (which is not specified here). It is a good idea to specify a given order when using `offset` and `limit` for paging.
+
+
 
 
 

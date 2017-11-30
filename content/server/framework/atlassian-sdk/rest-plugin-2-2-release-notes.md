@@ -21,7 +21,7 @@ With pleasure, Atlassian presents the **Atlassian REST Plugin 2.2**.
 
 Highlights of this release:
 
--   **Secure administration sessions.** Atlassian REST 2.2, when paired with [SAL 2.2](https://developer.atlassian.com/pages/viewpage.action?pageId=5242917), provides support for secure administration sessions, the aptly-named 'WebSudo'. Confluence already supports ﻿<a href="#websudo" class="unresolved">WebSudo</a>: When an administrator who is logged into Confluence attempts to access an administration function, they are prompted to log in again. Eventually, all the Atlassian applications will support WebSudo sessions. How can you get WebSudo with REST? See the [SAL documentation](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin).
+-   **Secure administration sessions.** Atlassian REST 2.2, when paired with [SAL 2.2](https://developer.atlassian.com/pages/viewpage.action?pageId=5242917), provides support for secure administration sessions, the aptly-named 'WebSudo'. Confluence already supports <a href="#websudo" class="unresolved">WebSudo</a>: When an administrator who is logged into Confluence attempts to access an administration function, they are prompted to log in again. Eventually, all the Atlassian applications will support WebSudo sessions. How can you get WebSudo with REST? See the [SAL documentation](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin).
 
 <!-- -->
 
@@ -38,6 +38,8 @@ priority
 status
 
 Unable to locate JIRA server for this macro. It may be due to Application Link configuration.
+
+
 
 
 

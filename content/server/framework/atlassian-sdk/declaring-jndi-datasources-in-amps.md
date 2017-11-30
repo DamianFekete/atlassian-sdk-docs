@@ -47,7 +47,7 @@ You can checkout this example on BitBucket: <a href="https://bitbucket.org/arago
 
 In the following example, we declare the JNDI datasource jdbc/DefaultDS and make it target a local Postgres instance. 
 
-``` javascript
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -122,7 +122,7 @@ Notice how we set the Data Path to an empty directory: If you start Confluence u
 
 Using the previous pom.xml, you can start the product using:
 
-``` javascript
+``` bash
 atlas-run
 ```
 
@@ -147,6 +147,8 @@ This feature relies on CodeHaus Cargo to launch Tomcat with the datasource. You 
 ## Known Issues
 
 There is no user interface to tell JIRA to use the provided datasource to store its data. However, it is still possible to use AMPS to declare the datasource; You will just need to provide JIRA with the dbconfig.xml. Please open the BitBucket repository for an example: <a href="https://bitbucket.org/aragot/amps-examples" class="external-link">Examples using JNDI datasources for JIRA and Confluence</a>
+
+
 
 
 

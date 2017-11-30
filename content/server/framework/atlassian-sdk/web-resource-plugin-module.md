@@ -217,7 +217,7 @@ In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=85
 <td><p>atl.general</p></td>
 <td><p>Everywhere except administration screens.</p>
 {{% note %}}
-<div class="confluence-information-macro confluence-information-macro-note">
+<div class="confluence-information-macro-note confluence-information-macro">
 <div class="confluence-information-macro-body">
 <p>An issue prevents this context from working in the JIRA login page in JIRA 5.x and later. See <a href="https://jira.atlassian.com/browse/JRA-27960" class="uri external-link">https://jira.atlassian.com/browse/JRA-27960</a> for more information and a work-around.</p>
 </div>
@@ -321,6 +321,8 @@ Use this element to make a particular transformer available to the web resource 
 
 [Web Resource Transformer Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
 
 
 

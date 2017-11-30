@@ -18,11 +18,9 @@ title: atlas-release-rollback
 
 This page describes the shell script `atlas-release-rollback`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
- 
-
 ## Basic Usage
 
-`atlas-release-rollback [options]` - Rolls back a release of the current plugin. (Runs `mvn release:rollback`.) Passes all parameters straight through to Maven.
+ `atlas-release-rollback [options]` - Rolls back a release of the current plugin. (Runs `mvn release:rollback`.) Passes all parameters straight through to Maven.
 
 ## Parameters
 
@@ -40,14 +38,14 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-release-rollback -?
 atlas-release-rollback -help
 ```
 
 Run the following command to see all options provided by `mvn release`:
 
-``` javascript
+``` bash
 atlas-mvn release --help
 ```
 
@@ -55,13 +53,13 @@ atlas-mvn release --help
 
 Run the following command to roll back a previous release of your plugin:
 
-``` javascript
+``` bash
 atlas-release-rollback
 ```
 
 Run the following command to roll back a previous release of your plugin without failing the build, even if there are errors
 
-``` javascript
+``` bash
 atlas-release-rollback --fail-never
 ```
 
@@ -69,6 +67,8 @@ atlas-release-rollback --fail-never
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818347" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
 
 
 

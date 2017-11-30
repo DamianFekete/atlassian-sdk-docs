@@ -33,10 +33,6 @@ title: Plugin Development Platform 2.9 release notes
 -   <a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.4.x/" class="external-link">Trusted Apps</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=11823" class="external-link">2.3</a> (updated)
 -   <a href="https://studio.atlassian.com/svn/APL/branches/applinks-3.4.x" class="external-link">APL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12161" class="external-link">3.2</a> (updated)
 
-**Highlights of this Release:**
-
- 
-
 **Wondering where are the Plugin Framework release notes?**  
 Starting with Atlassian Plugin Development Platform 2.9, we've combined the releases of the plugin framework as well as other key plugins, libraries, and API's that plugin developers depend on into the Atlassian Plugin Development Platform. The platform has been used internally for many releases to test and deliver a set of capabilities our products and plugins could build upon, and starting with version 2.9, this platform has been made available to the public.
 
@@ -48,47 +44,27 @@ We would love your feedback. Please log your requests, bug reports and comments 
 
  
 
-# Highlights of this Release
+## Highlights of this Release
 
  
 
-## 1 New Universal Plugin Manager Plugin
-
- 
-
- 
+### 1 New Universal Plugin Manager Plugin
 
 This is the first release of the Plugin Development Platform that contains the Universal Plugin Manager. The Universal Plugin Manager lets system administrators dynamically install plugins from either local files or from <a href="http://plugins.atlassian.com" class="uri external-link">http://plugins.atlassian.com</a> as well as manage those plugins and modules.
 
-## 2 New Application Links Plugin
-
- 
-
- 
+### 2 New Application Links Plugin
 
 This is the first release of the Plugin Development Platform that contains the Application Links Plugin. The Application Links Plugin is responsible for storing relationships with external Atlassian and non-Atlassian applications, as well as storing links between individual application entities such as JIRA projects or Confluence spaces. This gives system administrators a one-stop-shop for setting up relationships between external applications, including any authentication options. Furthermore, The Application Links Plugin provides an API for plugins, allowing them to easily contact external applications without having to ask for external URLs or authentication configuration information.
 
-## 3 New Authentication Libraries
-
- 
-
- 
+### 3 New Authentication Libraries
 
 To support the new Application Links Plugin, the Trusted Applications library and Atlassian OAUTH plugin both received new releases and were added to the platform. Products using these will no longer contain administration screens for their configuration, but will rely on the Application Links Plugin to set their configuration.
 
-## 4 Web Resource Conditions
-
- 
-
- 
+### 4 Web Resource Conditions
 
 Just like web links and sections can specify when they should be displayed, so now can web resources via a condition. This feature is particularly useful when combined with the web resource contexts feature that allows you to specify a context, or set of pages, that the web resource should appear. With the condition, you now can specify also when, within this context, it should appear allowing you to restrict its usage to only admins or during certain times.
 
-## 5 Other Things Worth Mentioning
-
- 
-
- 
+### 5 Other Things Worth Mentioning
 
 This release includes a number of improvements and bug fixes. Here are a few worth mentioning:
 
@@ -99,6 +75,8 @@ This release includes a number of improvements and bug fixes. Here are a few wor
 -   CSS Web resources can now specify CSS conditionals for better supporting later IE browsers
 -   <a href="http://docs.atlassian.com/aui/3.3.0/sandbox/sandbox.html" class="external-link">AUI Sandbox</a> now deployed with every release to let the developer experiment with AUI components
 -   REST now supports file uploads via `@MultipartFormParam`
+
+
 
 
 

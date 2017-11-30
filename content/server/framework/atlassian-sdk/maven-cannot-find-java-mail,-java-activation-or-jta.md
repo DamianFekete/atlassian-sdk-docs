@@ -1,16 +1,19 @@
 ---
-title: 2818709
 aliases:
-    - /server/framework/atlassian-sdk/2818709.html
+- /server/framework/atlassian-sdk/2818709.html
+- /server/framework/atlassian-sdk/2818709.md
+category: devguide
+confluence_id: 2818709
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818709
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818709
-confluence_id: 2818709
-platform:
-product:
-category:
-subcategory:
+legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/maven-cannot-find-java-mail-java-activation-or-jta
+new_url: /server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta
+platform: server
+product: atlassian-sdk
+subcategory: other
+title: Maven cannot find Java Mail, Java Activation or JTA
 ---
-# Documentation : Maven Cannot Find Java Mail, Java Activation or JTA
+# Maven cannot find Java Mail, Java Activation or JTA
 
 When you run the shell scripts in the Atlassian Plugin SDK, Maven may complain that it cannot find **Java Mail**, **Java Activation** or **JTA**.
 
@@ -32,7 +35,7 @@ You will find the Sun binaries in these locations:
 
 The Maven install command looks like this:
 
-``` javascript
+``` bash
 atlas-mvn install:install-file -DgroupId=javax.XXXXX -DartifactId=XXXXX \
   -Dversion=X.X.X -Dpackaging=jar -Dfile=/path/to/XXXX-X_X_X.jar
 ```
@@ -58,268 +61,14 @@ Below, as an example of the detailed installation process, we give specific inst
     atlas-mvn install:install-file -DgroupId=javax.activation -DartifactId=activation -Dversion=1.0.2 -Dpackaging=jar -Dfile=activation.jar
     ```
 
+      
     {{% note %}}
 
     Issue with Atlassian Plugin SDK
 
-    A known issue with the Atlassian Plugin SDK is causing problems with maven parameters. You may need to run the above command directly from your maven directory. Please see <a href="https://studio.atlassian.com/browse/AMPS-197" class="external-link">AMPS-197</a> for more information.
+A known issue with the Atlassian Plugin SDK is causing problems with maven parameters. You may need to run the above command directly from your maven directory. Please see <a href="https://studio.atlassian.com/browse/AMPS-197" class="external-link">AMPS-197</a> for more information.
 
     {{% /note %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

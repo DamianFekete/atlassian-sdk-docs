@@ -201,11 +201,11 @@ In this tutorial, you will create the plugin elements manually rather than using
 
     {{% note %}}
 
-Note
+    Note
 
-Note: It can take the Confluence macro browser a little bit of time to realise that there's a new macro available, so if it doesn't show up right away give it a little while and try again.  
+    Note: It can take the Confluence macro browser a little bit of time to realise that there's a new macro available, so if it doesn't show up right away give it a little while and try again.  
 
-{{% /note %}}
+    {{% /note %}}
 
     <img src="/server/framework/atlassian-sdk/images/confluence-macro-browser-showing-helloworld-macro.png" title="Macro Browser" alt="Confluence macro browser showing helloworld macro" width="500" height="305" />  
     <img src="/server/framework/atlassian-sdk/images/helloworld-macro-on-page-in-edit-view.png" title="Helloworld Macro - Edit Mode" alt="Helloworld macro showing on confluence page in edit mode" width="500" height="268" />
@@ -376,11 +376,11 @@ At the moment, all the formatting work is being done in the **execute **functi
 
     {{% note %}}
 
-Note
+    Note
 
-You might need to hold down the shift key while reloading the page to see the changes to the page itself!
+    You might need to hold down the shift key while reloading the page to see the changes to the page itself!
 
-{{% /note %}}
+    {{% /note %}}
 
       
     <img src="/server/framework/atlassian-sdk/images/final-changes-with-css.png" width="502" height="250" />
@@ -397,6 +397,8 @@ Or, check out the questions on <a href="http://answers.atlassian.com/" class="e
 -   You can find documentation for Spring Scanner at <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner" class="uri external-link">https://bitbucket.org/atlassian/atlassian-spring-scanner</a>
 -   Learn more about the [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
 -   [L](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module/including-information-in-your-macro-for-the-macro-browser)earn more about the [Macro Module](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module)
+
+
 
 
 

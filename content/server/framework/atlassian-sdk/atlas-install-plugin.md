@@ -22,7 +22,7 @@ This page describes the shell script `atlas-install-plugin`, part of the [Atlass
 
 ## Basic Usage
 
-`atlas-install-plugin [options]` - Installs the plugin into a running application. (Runs `mvn amps:install`.) Interpreted parameters: `http-port, context-path, server, username, password, plugin-key`.
+ `atlas-install-plugin [options]` - Installs the plugin into a running application. (Runs `mvn amps:install`.) Interpreted parameters: `http-port, context-path, server, username, password, plugin-key`.
 
 ## Parameters
 
@@ -54,8 +54,8 @@ Interpreted Parameters:
 </tr>
 <tr class="even">
 <td><p>--context-path</p></td>
-<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
-<p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
+<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> then you should enter <code>/confluence</code>.</p>
+<p>To run your application in the root web application context (eg. <a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>), then you should enter ROOT.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
@@ -90,7 +90,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-install-plugin -?
 atlas-install-plugin -help
 ```
@@ -99,9 +99,11 @@ atlas-install-plugin -help
 
 Go to the plugin's project directory (where you created the plugin) and run the following command to install your plugin `com.atlassian.confluence.plugins.example` into the host application, where the administration username is 'myadmin' with password 'secret'.
 
-``` javascript
+``` bash
 atlas-install-plugin --username myadmin --password secret --plugin-key com.atlassian.confluence.plugins.example
 ```
+
+
 
 
 

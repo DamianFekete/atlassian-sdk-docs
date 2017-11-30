@@ -36,11 +36,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
+    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
 
 -   Page:
 
-    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
+    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
 
 #### Intermediate
 
@@ -54,11 +54,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
@@ -72,11 +72,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 ### External Tutorials
 
@@ -90,6 +90,7 @@ Tutorials classified by the level of skill assumed:
 ### Other Tutorials
 
 Looking for specific tutorials for Confluence, JIRA and other Atlassian products? Please refer to the [complete list of Atlassian tutorials](/server/framework/atlassian-sdk/tutorials).
+
 
 
 

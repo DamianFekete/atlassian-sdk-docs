@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 43648385
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=43648385
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=43648385
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/getting-started-tutorial-faq
 new_url: /server/framework/atlassian-sdk/getting-started-tutorial-faq
 platform: server
@@ -22,13 +21,13 @@ Here you will find a list of Frequently Asked Questions about the '[Set up the A
 
 You can check which version of JAVA you have installed on your system by opening a Terminal window and running the following command:
 
-``` javascript
+``` bash
 javac -version
 ```
 
 If you're running the Oracle JAVA 8 you'll see a response like 
 
-``` javascript
+``` bash
 javac 1.8.0_101
 ```
 
@@ -44,7 +43,7 @@ You can get this at <a href="http://www.oracle.com/technetwork/java/javase/down
 
 You might come across the following error when you try to start up your plugin using the `atlas-run` command if you have not changed to the directory with the plugin skeleton you created:
 
-``` javascript
+``` bash
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
@@ -65,7 +64,7 @@ Make sure you're in **your plugin directory** and make sure the **`pom.xml`**
 
 You may see the following error if you are using the Oracle Java SE Development Kit 7 with the latest version of the Atlassian Plugin SDK:
 
-``` javascript
+``` bash
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
@@ -82,13 +81,13 @@ The latest version of the Atlassian Plugin SDK requires Oracle Java SE Developme
 
 You can check which version of JAVA you are using by entering the following command:
 
-``` javascript
+``` bash
 atlas-version
 ```
 
 The output will look something like:
 
-``` javascript
+``` bash
 ATLAS Version:    6.2.9
 ATLAS Home:       /usr/local/Cellar/atlassian-plugin-sdk/6.2.4/libexec
 ATLAS Scripts:    /usr/local/Cellar/atlassian-plugin-sdk/6.2.4/libexec/bin
@@ -131,7 +130,7 @@ The `JAVA_HOME` environment variable specifies the location of the JDK on you
 9.  Close all dialog windows.
 10. Open a new  **Command Prompt** window, and run the following command:
 
-    ``` text
+    ``` bash
     C:\Users\manthony>javac -version
     javac 1.8.0_91
     ```
@@ -160,27 +159,28 @@ To set your `PATH` and `JAVA_HOME` variables:
 
     {{% note %}}
 
-The path in Line 1 will be the path for the JDK on **your system**.
+    The path in Line 1 will be the path for the JDK on **your system**.
 
-For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On Linux it may be `/usr/local/jdk` or similar.
+    For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On Linux it may be `/usr/local/jdk` or similar.
 
-{{% /note %}}
+    {{% /note %}}
 
 3.  Save and close the file.
 4.  Enter the following at the command line to pick up your changes:
 
-    ``` javascript
+    ``` bash
     host:~ test$ source ~/.bash_profile
     ```
 
 5.  Verify you are now seeing the correct result when you enter the command `javac -version` in **terminal**
 
-    ``` text
+    ``` bash
     host:~ test$ javac -version
     javac 1.8.0_91 
     ```
 
 Still Stuck? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
+
 
 
 

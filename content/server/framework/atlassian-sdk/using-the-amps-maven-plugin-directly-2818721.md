@@ -187,7 +187,7 @@ Say you wanted to run that plugin in debug mode from your IDE. Set up a configur
 
 Say you wanted to write a new plugin for Confluence, with integration tests, but wanted minimal POM XML and you do not want to have to extend any other POM:
 
-``` javascript
+``` xml
 <packaging>confluence-plugin</packaging>
 ...
 <plugin>
@@ -248,6 +248,7 @@ The short form of the `mvn APPLICATION:run` or `mvn APPLICATION:create` command 
 [AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference)
 
  
+
 
 
 

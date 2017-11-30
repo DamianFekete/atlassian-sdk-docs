@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 851975
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851975
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851975
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/classnotfoundexception
 new_url: /server/framework/atlassian-sdk/classnotfoundexception
 platform: server
@@ -26,13 +25,13 @@ The exceptions are caused by the way classloaders work for plugins. With OSGi, e
 
 If you do not specify your own package imports, the plugin framework 'guesses' which ones you need by scanning the class files in your plugin. Your plugin `.jar` file is transformed at startup and placed in the directory `<jira_home>/plugins/.osgi-plugins/transformed-plugins`. The `META-INF/MANIFEST.MF` file in that transformed jar (not the original jar file) is where the package imports are ultimately specified using the header `Import-Package` like this:
 
-``` javascript
+``` bash
 Import-Package: com.atlassian.confluence,com.atlassian.confluence.pages,org.apache.velocity
 ```
 
 or for a more complex plugin:
 
-``` javascript
+``` bash
 Import-Package: com.atlassian.core.util.collection;resolution:="option
  al",com.atlassian.jira.config.properties;version="[4.0.1,4.0.1]",com.
  atlassian.jira.issue.fields.option;resolution:="optional",com.atlassi
@@ -57,7 +56,7 @@ You can do this by using the `<bundle-instructions>` element in the `<plugin-inf
 
 In this example `atlassian-plugin.xml` we force the scanning to include the `com.mylibrary` package, in addition to its usual scanning:
 
-``` javascript
+``` xml
 <atlassian-plugin ...>
   <plugin-info>
     <description>${project.description}</description>
@@ -77,6 +76,7 @@ Be sure to mark packages as [optional imports](/server/framework/atlassian-sdk/m
 ##### RELATED TOPICS
 
 [Marking Packages as Optional Imports](/server/framework/atlassian-sdk/marking-packages-as-optional-imports)
+
 
 
 

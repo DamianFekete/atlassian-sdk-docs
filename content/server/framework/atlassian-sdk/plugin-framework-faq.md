@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852039
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852039
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852039
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq
 new_url: /server/framework/atlassian-sdk/plugin-framework-faq
 platform: server
@@ -27,6 +26,7 @@ title: Plugin Framework FAQ
 -   [Running on WebSphere 6.1](/server/framework/atlassian-sdk/running-on-websphere-6-1)
 -   [Using JDOM in OSGi](/server/framework/atlassian-sdk/using-jdom-in-osgi)
 -   [What happened to studio.plugins.atlassian.com?](/server/framework/atlassian-sdk/what-happened-to-studio-plugins-atlassian-com)
+
 
 
 

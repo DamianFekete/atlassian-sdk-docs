@@ -44,7 +44,7 @@ You can use the `com.atlassian.sal.api.websudo.WebSudoManager` to check for secu
 The call to `WebSudoManager#enforceWebSudoProtection(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)` will cause the host application to  
 redirect the user to an authentication form if, and only if, the current request is not WebSudo protected.
 
-``` javascript
+``` java
 package com.example.myplugin.servlet;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -106,7 +106,7 @@ Enforce websudo protection for all the resources in the `com.example.myplugin.re
 
 `com/example/myplugin/rest/resources/admin/package-info.java`:
 
-``` javascript
+``` java
 @WebSudoRequired
 package com.example.myplugin.rest.resources.admin;
 import com.atlassian.sal.api.websudo.WebSudoRequired;
@@ -114,7 +114,7 @@ import com.atlassian.sal.api.websudo.WebSudoRequired;
 
 To exclude a resource, you can add the annotation `com.atlassian.sal.api.websudo.WebSudoNotRequired`:
 
-``` javascript
+``` java
 @Path("/test/{key}")
 @WebSudoNotRequired
 public class ATestResource
@@ -130,6 +130,8 @@ public class ATestResource
 ```
 
 This prevents websudo protection from being enforced for the `ATestResource` REST resource.
+
+
 
 
 

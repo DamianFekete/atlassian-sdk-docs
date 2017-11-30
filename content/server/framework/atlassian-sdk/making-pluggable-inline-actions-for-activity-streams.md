@@ -201,7 +201,7 @@ You will probably want to internationalise your plugin. And it is easy enough to
 
 First, create your `i18n.properties` file. Let's start with just a single i18n property for the hyperlink label.
 
-``` javascript
+``` bash
 streams.bamboo.action.trigger.title=Run
 ```
 
@@ -561,6 +561,8 @@ And our final `atlassian-plugin.xml` is:
 
 </atlassian-plugin>
 ```
+
+
 
 
 

@@ -71,6 +71,8 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 
  
 
+{{% note %}}
+
 ## Plugin Modules
 
 #### [Plugin Module Index](/server/framework/atlassian-sdk/plugin-module-index)
@@ -102,6 +104,10 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 #### [Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module)
 
 #### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
+
+{{% /note %}}
+
+
 
 
 

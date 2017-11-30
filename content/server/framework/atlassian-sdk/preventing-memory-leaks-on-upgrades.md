@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 8947251
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947251
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947251
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/preventing-memory-leaks-on-upgrades
 new_url: /server/framework/atlassian-sdk/preventing-memory-leaks-on-upgrades
 platform: server
@@ -35,6 +34,8 @@ This technique only works if the bean is a component. If you try to register you
 ### Forgotten Job Registrations
 
 If your plugin has registered any code to be called regularly via the job engine, ensure that you clean up that job when the plugin is shutdown. This shutdown code should go in a component that implements `DisposableBean` as described above.
+
+
 
 
 

@@ -24,7 +24,9 @@ NOTE: There is a specific version of this shell script for each Atlassian applic
 
 ## Basic Usage
 
-`atlas-create-confluence-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a Confluence plugin module that you can adapt to suit your own plugin's needs. (Runs `mvn confluence:create-plugin-module`.) Passes all parameters straight through to Maven.The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
+ `atlas-create-confluence-plugin-module [options]` - Prompts you for plugin module type and related details, then creates an example of a Confluence plugin module that you can adapt to suit your own plugin's needs. (Runs `mvn confluence:create-plugin-module`.) Passes all parameters straight through to Maven.  
+
+The script will automatically add the changes to your `atlassian-plugin.xml` and generate the appropriate Java code.
 
 ## Parameters
 
@@ -46,7 +48,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-create-confluence-plugin-module -?
 atlas-create-confluence-plugin-module -help
 ```
@@ -59,7 +61,9 @@ Let's assume you want to add a new plugin module to your existing Confluence plu
 2.  Go to the root directory for your plugin (where the `pom.xml` is located).
 3.  Run this command:
 
-        atlas-create-confluence-plugin-module
+    ``` bash
+    atlas-create-confluence-plugin-module
+    ```
 
 4.  Follow the prompts to specify the type of plugin module that you want, and further information required to create the basic module.
 5.  The script will added the required module to your `atlassian-plugin.xml` file.
@@ -68,6 +72,8 @@ Let's assume you want to add a new plugin module to your existing Confluence plu
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
+
+
 
 
 

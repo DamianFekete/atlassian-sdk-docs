@@ -18,11 +18,9 @@ title: atlas-release
 
 This page describes the shell script `atlas-release`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
- 
-
 ## Basic Usage
 
-`atlas-release [options]` - Performs a release of the current plugin. (Runs `mvn release:prepare release:perform`.) Passes all parameters straight through to Maven.
+ `atlas-release [options]` - Performs a release of the current plugin. (Runs `mvn release:prepare release:perform`.) Passes all parameters straight through to Maven.
 
 ## Parameters
 
@@ -40,14 +38,14 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-release -?
 atlas-release -help
 ```
 
 Run the following command to see all options provided by `mvn release`:
 
-``` javascript
+``` bash
 atlas-mvn release --help
 ```
 
@@ -55,13 +53,13 @@ atlas-mvn release --help
 
 Run the following command to release your plugin:
 
-``` javascript
+``` bash
 atlas-release
 ```
 
 Run the following command to release your plugin without failing the build, even if there are errors
 
-``` javascript
+``` bash
 atlas-release --fail-never
 ```
 
@@ -69,6 +67,8 @@ atlas-release --fail-never
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818354" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
+
+
 
 
 

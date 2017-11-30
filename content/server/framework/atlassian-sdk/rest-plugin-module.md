@@ -157,19 +157,19 @@ The root element for the REST plugin module is `rest`. It allows the following a
 <tr class="odd">
 <td><p>key</p></td>
 <td><p>The identifier of the plugin module, i.e. the identifier of the REST module. This key must be unique within the plugin where it is defined. Sometimes you will need to uniquely identify a module. Do this with the <strong>complete module key</strong>. A module with key <code>fred</code> in a plugin with key <code>com.example.modules</code> will have a complete key of <code>com.example.modules:fred</code>.</p>
-<p><strong>Requred: Yes</strong></p>
+<p><strong>Requred.</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>path</p></td>
 <td><p>The path to the REST API exposed by this module. For example, if set to <code>/foo</code>, the REST API will be available at <a href="http://localhost:8080/context/rest/foo/1.0" class="uri external-link">http://localhost:8080/context/rest/foo/1.0</a>, where 1.0 is the version of the REST API.</p>
-<p><strong>Requred: Yes</strong></p>
+<p><strong>Requred.</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p>version</p></td>
 <td><p>This is the version of the REST API. This is not the same thing as the plugin version. Different versions of the same API can be provided by different plugins. Version numbers follow the same pattern as OSGi versions, i.e. <code>major.minor.micro.qualifier</code> where <code>major</code>, <code>minor</code> and <code>micro</code> are integers. If version is <code>none</code>, then the REST API will not contain a version number in its URL.</p>
-<p><strong>Requred: Yes</strong></p>
+<p><strong>Requred.</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
 </tbody>
@@ -192,13 +192,11 @@ The root element for the REST plugin module is `rest`. It allows the following a
 <tr class="odd">
 <td><p>description</p></td>
 <td><p>The description of the plugin module, i.e. the description of the REST module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body.</p>
-<p><strong>Requred: -</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>package</p></td>
 <td><p>The package from which to start scanning for resources and providers. Can be specified multiple times. Defaults to scanning the whole plugin. <strong>Since 2.0</strong></p>
-<p><strong>Requred: -</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
 <tr class="odd">
@@ -206,7 +204,6 @@ The root element for the REST plugin module is `rest`. It allows the following a
 <td><p>Determines when the filter is triggered. You can include multiple <code>dispatcher</code> elements.<br />
 If this element is present, its content must be one of the following: <code>REQUEST</code>, <code>INCLUDE</code>, <code>FORWARD</code>, <code>ERROR</code>.<br />
 Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Plugin Framework 2.5</a> and later. In earlier versions of the framework, the filter will be fired on all conditions.</p>
-<p><strong>Requred: -</strong></p>
 <p><strong>Default: Filter will be triggered on <code>REQUEST</code> only.</strong></p></td>
 </tr>
 </tbody>
@@ -360,6 +357,8 @@ To get the same behaviour for JSON you need to either annotate each field with `
 [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)  
 [Guidelines for Atlassian REST API Design](https://developer.atlassian.com/display/REST/Guidelines+for+Atlassian+REST+API+Design)  
 [Atlassian Plugin Framework Documentation](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
+
+
 
 
 

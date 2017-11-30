@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 2818648
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818648
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818648
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/how-can-i-change-the-version-of-java-my-plugin-uses
 new_url: /server/framework/atlassian-sdk/how-can-i-change-the-version-of-java-my-plugin-uses
 platform: server
@@ -28,7 +27,7 @@ OSX - run Applications, Utilities, Java Preferences. Making changes to soft link
 
 If you would like to enforce a particular JDK version or version range, add these parameters to your plugin's POM file.
 
-``` javascript
+``` xml
 <project>
     <build>
         <plugins>
@@ -58,7 +57,7 @@ If you would like to enforce a particular JDK version or version range, add thes
 
 Plugins are pre-configured to use Java 1.5 as the source level when compiling. If you would like to use a different source level, you'll need to set the `jdkLevel` property:
 
-``` javascript
+``` xml
 <project>
   ...
   <properties>
@@ -70,6 +69,8 @@ Plugins are pre-configured to use Java 1.5 as the source level when compiling. I
 ```
 
 This property is also used by the Maven IDEA plugin to set the source level for the project generated when you run `mvn idea:idea`.
+
+
 
 
 

@@ -56,6 +56,8 @@ For conditions and terms of use, please see the license and copyright statements
 
  
 
+{{% note %}}
+
 ## Topics
 
 #### [Quick Start Guide to Embedding](/server/framework/atlassian-sdk/quick-start-guide-to-embedding)
@@ -63,6 +65,10 @@ For conditions and terms of use, please see the license and copyright statements
 #### [Exposing Host Components via Spring](/server/framework/atlassian-sdk/exposing-host-components-via-spring)
 
 #### [Using the Built-In Plugin Modules](/server/framework/atlassian-sdk/using-the-built-in-plugin-modules)
+
+{{% /note %}}
+
+
 
 
 

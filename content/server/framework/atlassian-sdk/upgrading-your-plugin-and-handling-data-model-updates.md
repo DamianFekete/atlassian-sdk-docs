@@ -33,7 +33,7 @@ You need to define your upgrade tasks in the module definition within the plugin
 
 **Module definition example**
 
-``` javascript
+``` xml
 <atlassian-plugin name="Hello World" key="example.plugin.helloworld" plugins-version="2">
   <plugin-info>
     <description>A basic Active Objects module test</description>
@@ -160,6 +160,8 @@ See <a href="https://ecosystem.atlassian.net/browse/AO-273" class="external-link
 ## Best practices
 
 See [Best practices for developing with Active Objects](/server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects).
+
+
 
 
 

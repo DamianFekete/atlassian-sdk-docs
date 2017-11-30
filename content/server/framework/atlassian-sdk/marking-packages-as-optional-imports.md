@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852102
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852102
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852102
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/marking-packages-as-optional-imports
 new_url: /server/framework/atlassian-sdk/marking-packages-as-optional-imports
 platform: server
@@ -20,7 +19,7 @@ Unless you plan to list every single package your plugin needs, be sure to add t
 
 Example:
 
-``` javascript
+``` xml
 <plugin ...>
   <plugin-info>
     <bundle-instructions>
@@ -38,6 +37,7 @@ If, however, you are sure your code only refers to packages you need, you can om
 ##### RELATED TOPICS
 
 [Creating your Plugin Descriptor](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Creating+your+Plugin+Descriptor)
+
 
 
 

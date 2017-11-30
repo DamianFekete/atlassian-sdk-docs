@@ -24,41 +24,12 @@ Additional Requirements
 
 {{% /note %}}
 
-  
-
 ## Use an installer
 
 We recommend that you use one of our installers to get the Atlassian SDK onto your local development system. 
 
 Just check your pre-requisites on [Windows](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/set-up-the-sdk-prerequisites-on-a-windows-system) or [Linux / Mac OS X](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/set-up-the-sdk-prerequisites-for-linux-or-mac), then download and run the installer appropriate for your operating system:  
   
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><h3 id="downloads" style="margin-left: 30.0px;">Downloads</h3></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-windows" class="external-link">Windows binary installer (.exe)</a> .....</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-mac" class="external-link">Mac OS X Installer (.pkg)</a></p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-deb" class="external-link">Debian Linux</a></p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-tgz" class="external-link">Linux binaries (tar.gz)</a></p></td>
-</tr>
-</tbody>
-</table>
-
- 
 
 ## First time users
 
@@ -83,8 +54,6 @@ If you previously installed the SDK using `tar.gz` and added the SDK folder to
 {{% /note %}}
 
 .
-
- 
 
 ### Debian / Ubuntu Linux
 
@@ -163,15 +132,11 @@ brew update
 brew upgrade atlassian/tap/atlassian-plugin-sdk
 ```
 
- 
-
 ------------------------------------------------------------------------
 
 ### Installing an earlier version of the SDK
 
 If you need to install an earlier version of the SDK for any reason, you can do that by downloading the version you want from <a href="https://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a>.  
- 
-
  
 
 1.  Remove an existing install, if necessary, using the method appropriate for your operating system. For example, for Debian / Ubuntu Linux, enter the command:
@@ -189,7 +154,7 @@ If you need to install an earlier version of the SDK for any reason, you can do 
     {{% note %}}
 The Atlassian Marketplace contains only relatively recent version of the Atlassian Plugin SDK. If you need an older version than what is available on the Marketplace, you can get it from the <a href="https://maven.atlassian.com/index.html#nexus-search;quick%7Eatlassian-plugin-sdk" class="external-link">Atlassian Maven repository</a>.
 
-{{% /note %}}
+    {{% /note %}}
 3.  Once you have the package for the version you want, install it using the method appropriate for your OS. For example, for Debian / Ubuntu Linux, use:
 
     ``` bash
@@ -207,6 +172,8 @@ The Atlassian Marketplace contains only relatively recent version of the Atlassi
     ``` bash
     /usr/share/atlassian-plugin-sdk-4.1.5/bin
     ```
+
+
 
 
 

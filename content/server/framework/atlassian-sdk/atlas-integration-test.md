@@ -22,7 +22,7 @@ This page describes the shell script `atlas-integration-test`, part of the <a hr
 
 ## Basic Usage
 
-`atlas-integration-test [options]` - Runs the integration tests for the plugin. (Runs `mvn integration-test`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins,lib-plugins, bundled-plugins, product, no-webapp, skip-tests`.
+ `atlas-integration-test [options]` - Runs the integration tests for the plugin. (Runs `mvn integration-test`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins,lib-plugins, bundled-plugins, product, no-webapp, skip-tests`.
 
 ## Parameters
 
@@ -70,12 +70,10 @@ Interpreted parameters:
 <td><p>--context-path</p></td>
 <td><p>The<br />
 application context path. You will need to include the leading forward<br />
-slash. For example, if your application is running at {{</p>
+slash. For example, if your application is running at</p>
 <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a>
-<p>}} then you should enter <code>/confluence</code>.<br />
-To run your application in the root web application context (eg. {{</p>
-<a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>
-<p>}}), then you should enter <code>ROOT</code>.</p></td>
+<p>then you should enter <code>/confluence</code>.<br />
+To run your application in the root web application context (eg.<a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>), then you should enter <code style="background-color: transparent;">ROOT</code>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
@@ -142,7 +140,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-integration-test -?
 atlas-integration-test -help
 ```
@@ -151,7 +149,7 @@ atlas-integration-test -help
 
 You can run your integration tests against a different application. Say you have a RefApp plugin but want to run your integration tests against Confluence:
 
-``` javascript
+``` bash
 atlas-integration-test --product confluence
 ```
 
@@ -159,6 +157,8 @@ atlas-integration-test --product confluence
 
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818349" class="createlink">Atlassian Plugin SDK Documentation</a>  
 [Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
+
+
 
 
 

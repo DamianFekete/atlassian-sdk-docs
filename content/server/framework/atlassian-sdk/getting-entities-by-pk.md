@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669145
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669145
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669145
-learning: patterns
+learning: guides
 legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/getting-entities-by-pk
 new_url: /server/framework/atlassian-sdk/getting-entities-by-pk
 platform: server
@@ -27,7 +27,9 @@ public Post getPost(int postId)
 
 Note that the `get` method take a vararg argument so it is possible to get several entities at once by passing several primary keys to the method. It will then return an array of entities.
 
-This code is a sample extract from the <a href="https://bitbucket.org/activeobjects/ao-dogfood-blog/src/9958325ad566/src/main/java/net/java/ao/blog/service/AoBlogService.java#cl-73" class="external-link"><code>BlogService</code> implementation of the DogFood blog</a>
+This code is a sample extract from the <a href="https://bitbucket.org/activeobjects/ao-dogfood-blog/src/9958325ad566/src/main/java/net/java/ao/blog/service/AoBlogService.java#cl-73" class="external-link">BlogService implementation of the DogFood blog</a>
+
+
 
 
 

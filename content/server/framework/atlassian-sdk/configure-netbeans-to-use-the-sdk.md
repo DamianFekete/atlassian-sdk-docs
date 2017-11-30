@@ -26,7 +26,7 @@ An existing NetBeans user is unlikely to want to switch to the instance of Maven
 
 In order for NetBeans to pick up the necessary files to recognize this correctly you need to add the following to the project's **pom.xml**
 
-``` javascript
+``` xml
 <repositories>
     <repository>
         <id>atlassian</id>
@@ -57,7 +57,7 @@ In order for NetBeans to pick up the necessary files to recognize this correctly
 
 and to the properties section add a reference to your locally installed Atlassian Maven repository, so that your pom.xml contains something like:
 
-``` javascript
+``` xml
 <properties>
     <maven.local.repo>C:\Atlassian\atlassian-plugin-sdk-3.2\repository</maven.local.repo>        
     <confluence.version>3.3</confluence.version>
@@ -83,6 +83,8 @@ If you want to start the plugin from within the Netbeans IDE, and not from the a
 -   With this, hitting F6 in Netbeans (or 'Run' menu 'Run Project') will launch the equivalent of 'atlas-run'
 
 {{% /tip %}}
+
+
 
 
 

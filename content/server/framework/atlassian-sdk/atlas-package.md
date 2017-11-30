@@ -22,7 +22,7 @@ This page describes the shell script `atlas-package`, part of the [Atlassian Plu
 
 ## Basic Usage
 
-`atlas-package[options]` - Packages the plugin artifacts and produces the JAR. (Runs `mvn package`.) Passes all parameters straight through to Maven.
+ `atlas-package[options]` - Packages the plugin artifacts and produces the JAR. (Runs `mvn package`.) Passes all parameters straight through to Maven.
 
 ## Parameters
 
@@ -40,14 +40,14 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-package -?
 atlas-package -help
 ```
 
 Run the following command to see all options provided by `mvn package`:
 
-``` javascript
+``` bash
 atlas-mvn package --help
 ```
 
@@ -55,15 +55,17 @@ atlas-mvn package --help
 
 Run the following command to produce your JAR:
 
-``` javascript
+``` bash
 atlas-package
 ```
 
 Run the following command to produce your JAR without failing the build, even if there are errors
 
-``` javascript
+``` bash
 atlas-package --fail-never
 ```
+
+
 
 
 

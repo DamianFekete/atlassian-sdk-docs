@@ -85,11 +85,11 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
+    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
 
 -   Page:
 
@@ -119,11 +119,7 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
+    [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
 
 -   Page:
 
@@ -131,7 +127,19 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
+    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+
+-   Page:
+
+    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
 
@@ -143,25 +151,21 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Searching Using the V2 Search API](/display/CONFDEV/Searching+Using+the+V2+Search+API)
 
 -   Page:
 
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
--   Page:
-
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
 #### Advanced
 
 -   Page:
 
     [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+
+-   Page:
+
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
@@ -174,10 +178,6 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 -   Page:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
-
--   Page:
-
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 ## FishEye/Crucible Tutorials
 
@@ -218,11 +218,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
 
 -   Page:
 
-    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
+    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
 
 -   Page:
 
@@ -232,25 +232,25 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Crucible Gadget Tutorial](/display/FECRUDEV/Crucible+Gadget+Tutorial)
-
--   Page:
-
-    [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
-
--   Page:
-
     [FishEye Twitter Integration Plugin Tutorial](/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
 
 -   Page:
 
     [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
 
+-   Page:
+
+    [Crucible Gadget Tutorial](/display/FECRUDEV/Crucible+Gadget+Tutorial)
+
+-   Page:
+
+    [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
+
 #### Advanced
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 -   Page:
 
@@ -266,7 +266,7 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 ### Related Tutorials
 
@@ -308,11 +308,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
+    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
 
 -   Page:
 
-    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
+    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
 
 #### Intermediate
 
@@ -326,11 +326,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
@@ -344,11 +344,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 ### External Tutorials
 
@@ -358,6 +358,8 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
+
+
 
 
 

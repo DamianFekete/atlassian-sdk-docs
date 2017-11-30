@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 2818401
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818401
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818401
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/supporting-websudo-in-your-plugin
 new_url: /server/framework/atlassian-sdk/supporting-websudo-in-your-plugin
 platform: server
@@ -21,6 +20,8 @@ Support for ﻿Secure Administrator Sessions, called 'WebSudo', was added in Con
 All the Atlassian applications will support WebSudo sessions at some point. As of [SAL 2.2](https://developer.atlassian.com/pages/viewpage.action?pageId=5242917) and <a href="/pages/createpage.action?spaceKey=REST&amp;title=REST+Plugin+2.2+Release+notes" class="createlink">REST 2.2</a> it is possible to enforce WebSudo from within a plugin if the host application supports it.
 
 [More...](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin)
+
+
 
 
 

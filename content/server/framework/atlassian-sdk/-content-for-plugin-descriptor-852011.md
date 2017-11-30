@@ -330,9 +330,13 @@ As seen in the above example, the `bundle-instructions` element allows child ele
 -   `<Import-Package>`  
     Alternatively, you can declare these instruction sets inside your `pom.xml` file.
 
-**Speeding up Plugin Loading**
+{{% note %}}
+
+Speeding up Plugin Loading
 
 [How to Speed Up Plugin Startup](/server/framework/atlassian-sdk/how-to-speed-up-plugin-startup) contains information on using bundle instructions for speeding plugin start up.
+
+{{% /note %}}
 
 The Atlassian Plugin Framework uses the <a href="http://www.aqute.biz/Code/Bnd" class="external-link">bnd</a> tool to generate OSGi bundles. This tool is available as the <a href="http://felix.apache.org/site/apache-felix-maven-bundle-plugin-bnd.html" class="external-link">Bundle Plugin for Maven</a>. For details of the bnd directives, please refer to the <a href="http://www.aqute.biz/Code/Bnd#directives" class="external-link">bnd documentation</a>.
 
@@ -349,6 +353,7 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
 
 
 

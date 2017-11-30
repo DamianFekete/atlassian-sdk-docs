@@ -16,11 +16,11 @@ subcategory:
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
+    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
 
 -   Page:
 
@@ -50,11 +50,7 @@ subcategory:
 
 -   Page:
 
-    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
+    [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
 
 -   Page:
 
@@ -62,7 +58,19 @@ subcategory:
 
 -   Page:
 
-    [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
+    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+
+-   Page:
+
+    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
 
@@ -74,25 +82,21 @@ subcategory:
 
 -   Page:
 
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Searching Using the V2 Search API](/display/CONFDEV/Searching+Using+the+V2+Search+API)
 
 -   Page:
 
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
--   Page:
-
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
 #### Advanced
 
 -   Page:
 
     [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+
+-   Page:
+
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
@@ -106,9 +110,6 @@ subcategory:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
 
--   Page:
-
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 
 

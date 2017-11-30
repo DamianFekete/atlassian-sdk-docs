@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669143
-learning: patterns
+learning: guides
 legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/creating-entities
 new_url: /server/framework/atlassian-sdk/creating-entities
 platform: server
@@ -66,13 +66,13 @@ private Blog createBlog() throws SQLException
 }
 ```
 
-This code can be found in the <a href="https://bitbucket.org/activeobjects/ao-dogfood-blog/src/9958325ad566/src/main/java/net/java/ao/blog/service/AoBlogService.java#cl-125" class="external-link"><code>BlogService</code> implementation of the DogFood blog</a>
+This code can be found in the <a href="https://bitbucket.org/activeobjects/ao-dogfood-blog/src/9958325ad566/src/main/java/net/java/ao/blog/service/AoBlogService.java#cl-125" class="external-link">BlogService implementation of the DogFood blog</a>
 
 ## Creating an entity with "not null"-constraints
 
 The previous way of creating an entity works only as long as there are no "not null"-constraints on fields other than the primary key. Consider the case of someone adding a field to the sample entity:
 
-``` xml
+``` java
 public interface Blog extends Entity
 {
     public String getName();
@@ -98,6 +98,8 @@ private Blog createBlog() throws SQLException
 ```
 
 The column names are used here, so they must conform to the [Column names](/server/framework/atlassian-sdk/column-names) convention.
+
+
 
 
 

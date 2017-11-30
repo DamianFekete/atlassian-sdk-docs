@@ -39,15 +39,23 @@ To load the plugin project in IDEA:
 
 You may find it beneficial to increase the default amount of memory allocated for IDEA. You can do this by modifying the VM options located in:
 
-`<Install-dir>\bin\idea.exe.vmoptions`
+``` bash
+<Install-dir>\bin\idea.exe.vmoptions
+```
 
-`<Install-dir>\bin\idea.vmoptions`
+``` bash
+<Install-dir>\bin\idea.vmoptions
+```
 
-`/Applications/IntelliJ\ IDEA\ 9.0.4.app/Contents/Info.plist`
+``` bash
+/Applications/IntelliJ\ IDEA\ 9.0.4.app/Contents/Info.plist
+```
 
 For example, if you installed the application in it's default location on Windows you may see something like this:
 
-    C:\Program Files\JetBrains\IntelliJ IDEA 9.0.4\bin\idea.exe.vmoptions
+``` bash
+ C:\Program Files\JetBrains\IntelliJ IDEA 9.0.4\bin\idea.exe.vmoptions
+```
 
 Here are sample settings:
 
@@ -57,6 +65,8 @@ Here are sample settings:
 -XX:MaxPermSize=128m
 -ea
 ```
+
+
 
 
 

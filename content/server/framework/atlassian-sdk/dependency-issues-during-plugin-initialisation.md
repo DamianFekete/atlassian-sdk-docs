@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852094
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852094
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852094
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/dependency-issues-during-plugin-initialisation
 new_url: /server/framework/atlassian-sdk/dependency-issues-during-plugin-initialisation
 platform: server
@@ -21,20 +20,20 @@ title: Dependency issues during plugin initialisation
 Your plugin fails to initialize with an error that suggests a dependency problem, such as missing resources or incompatible classes.  
 The exact symptoms can take many forms - here are a few examples:
 
-``` javascript
+``` bash
 [INFO] [talledLocalContainer] org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/osgi]
 [INFO] [talledLocalContainer] Offending resource: URL [bundle://28.0:0/META-INF/spring/atlassian-plugins-component-imports.xml]
 ```
 
-``` javascript
+``` bash
 [INFO] [talledLocalContainer] Caused by: org.springframework.beans.FatalBeanException: Class [org.springframework.osgi.config.OsgiNamespaceHandler] for namespace [http://www.springframework.org/schema/osgi] does not implement the [org.springframework.beans.factory.xml.NamespaceHandler] interface
 ```
 
-``` javascript
+``` bash
 [INFO] [talledLocalContainer] com.atlassian.util.concurrent.LazyReference$InitializationException: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.myplugin.MyFilter': Instantiation of bean failed; nested exception is java.lang.IllegalAccessError: tried to access field org.slf4j.impl.StaticLoggerBinder.SINGLETON from class org.slf4j.LoggerFactory
 ```
 
-``` javascript
+``` bash
 [INFO] [talledLocalContainer] 2011-01-05 16:30:20,759 ERROR [http-1990-3] [atlassian.plugin.servlet.DefaultServletModuleManager] getFilter Unable to create filter
 [INFO] [talledLocalContainer] com.atlassian.util.concurrent.LazyReference$InitializationException: java.lang.ClassCastException: com.myplugin.MyFilter cannot be cast to javax.servlet.Filter
 ```
@@ -50,7 +49,7 @@ There are a couple of ways you can explore the resources provided by the hosting
 
 To see the list of jars bundled with your plugin, run the following from your plugin directory:
 
-``` javascript
+``` bash
 mvn clean package
 ls target/classes/META-INF/lib/
 ```
@@ -61,7 +60,7 @@ As a general rule, the only jars listed in `target/classes/META-INF/lib/` should
 
 To resolve this issue, ensure that all dependencies, except those that are unique to your plugin, have their `scope` element set to `provided` in your plugin's `pom.xml`. For example:
 
-``` javascript
+``` xml
     <dependencies>
     ...
         <dependency>
@@ -87,6 +86,7 @@ Note that the default scope is `compile`, which results in the dependency being 
 -   [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)
 -   [Plugin Development Platform](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Framework)
 -   <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project" class="createlink">Atlassian Plugin SDK</a>
+
 
 
 

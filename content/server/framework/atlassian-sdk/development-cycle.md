@@ -31,11 +31,19 @@ If you don't feel ready to proceed, please check our guide to [starting with th
 
 ## Steps in the Process
 
+{{% note %}}
+
 **[![](/server/framework/atlassian-sdk/images/1.png)](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)[Develop](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)**: Create your plugin from an archetype (template) and use the awesome Atlassian tools that make plugin development a breeze. Click through to the tutorials on specific plugin types.
+
+{{% /note %}}{{% note %}}
 
 ![](/server/framework/atlassian-sdk/images/2.png)**[Test](https://developer.atlassian.com/pages/viewpage.action?pageId=2818653)**: Find out how to include automated tests for your plugin. In our quest for quality, we encourage plugin developers to supply unit and functional tests with a significant amount of code coverage.
 
+{{% /note %}}{{% note %}}
+
 ![](/server/framework/atlassian-sdk/images/3.png)**[Package & Release](/server/framework/atlassian-sdk/packaging-and-releasing-your-plugin)**: Share your killer plugin with the world. Read about licensing, plugin repositories, issue trackers, documentation and how to announce your plugin.
+
+{{% /note %}}
 
  
 
@@ -87,6 +95,8 @@ After getting acquainted with cross-product development information here, see pr
 -   <https://developer.atlassian.com/display/BAMBOODEV>
 -   <https://developer.atlassian.com/display/FECRUDEV>
 -   <https://developer.atlassian.com/display/CROWDDEV>
+
+
 
 
 

@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 852012
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852012
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852012
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/access-components-statically
 new_url: /server/framework/atlassian-sdk/access-components-statically
 platform: server
@@ -67,6 +66,7 @@ This technique contains several patterns that are generally very bad, but accept
 
 1.  Static variables will be null if accessed before the object is constructed. However, as long as you don't try to call StaticAccessor from a constructor, the variables will be guaranteed to be assigned before access.
 2.  Static state is generally thought of to be type of global variable, however since the class is loaded as part of an OSGi bundle, you can think of it scoped to the bundle's lifecycle - when the plugin is uninstalled, the state goes away. However, be aware that even if the plugin is disabled, the ClassLoader for that bundle, which contains a direct reference on the StaticAccessor class and therefore, its static variables, will still be around. Since this technique only advocates storing static references to defined components, this shouldn't be a problem.
+
 
 
 

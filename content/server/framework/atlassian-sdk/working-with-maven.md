@@ -42,7 +42,9 @@ For example:
 
  
 
-    atlas-mvn clean
+``` bash
+atlas-mvn clean
+```
 
 The command performs the same function as the Maven command `mvn clean`, removing build artifacts from the current project.
 
@@ -223,41 +225,53 @@ This section describes how to run the following commands:
 
 Say you want to create a new Confluence plugin skeleton. Simply go to the directory where you want to create the plugin and type:
 
-    mvn confluence:create
+``` bash
+mvn confluence:create
+```
 
 ### Running a Plugin in an Application
 
 Say you wanted to run an arbitrary plugin in Confluence. Simply go to the plugin's project directory and type:
 
-    mvn confluence:run
+``` bash
+mvn confluence:run
+```
 
 ### Specifying a Version of the Application
 
 Say you wanted to run your plugin with Confluence 3.4:
 
-    mvn confluence:run -Dproduct.version=3.4
+``` bash
+mvn confluence:run -Dproduct.version=3.4
+```
 
 Say you want to run your plugin with JIRA 4.2:
 
-    mvn jira:run -Dproduct.version=4.2
+``` bash
+mvn jira:run -Dproduct.version=4.2
+```
 
 ### Specifying an Application Server (Container)
 
 Say you wanted to run that plugin but with Confluence 3.4 and Tomcat 7:
 
-    mvn confluence:run -Dproduct.version=3.4 -Dcontainer=tomcat7x
+``` bash
+mvn confluence:run -Dproduct.version=3.4 -Dcontainer=tomcat7x
+```
 
 ### Running your Plugin in Debug Mode from your IDE
 
 Say you wanted to run that plugin in debug mode from your IDE. Set up a configuration in IDEA that executes from the project directory:
 
-    mvn confluence:run -Dcontainer=jetty6x
+``` bash
+mvn confluence:run -Dcontainer=jetty6x
+```
 
 ### Writing Integration Tests
 
 Say you wanted to write a new plugin for Confluence, with integration tests, but wanted minimal POM XML and you do not want to have to extend any other POM:
 
-``` javascript
+``` xml
 <packaging>confluence-plugin</packaging>
 ...
 <plugin>
@@ -271,21 +285,31 @@ Say you wanted to write a new plugin for Confluence, with integration tests, but
 
 Say you had a Refapp plugin but wanted to run your integration tests against Confluence:
 
-    mvn package confluence:integration-test
+``` bash
+mvn package confluence:integration-test
+```
 
 ### Running your Plugin in Multiple Applications
 
 Say you want to run the plugin in multiple applications simultaneously. In three separate tabs in your terminal (command window), type:
 
-    mvn refapp:run
+``` bash
+mvn refapp:run
+```
 
-    mvn confluence:run -Dproduct.version=3.4
+``` bash
+mvn confluence:run -Dproduct.version=3.4
+```
 
-    mvn jira:run -Dproduct.version=4.2
+``` bash
+mvn jira:run -Dproduct.version=4.2
+```
 
 You can now test your plugin on three applications side by side in your browser. This also means you can upgrade your plugin simultaneously:
 
-    mvn package confluence:install refapp:install
+``` bash
+mvn package confluence:install refapp:install
+```
 
 ### Using the Command Line Interface in Interactive Mode
 
@@ -295,16 +319,20 @@ In this mode, Maven remains in a running state, so that you can enter commands i
 
 To put Maven into CLI mode, run this command from the project home directory:
 
-    mvn confluence:cli
+``` bash
+mvn confluence:cli
+```
 
 After a few moments, the CLI prompt appears:
 
-    ...
-    [INFO] [confluence:cli]
-    [INFO] [cli:execute]
-    [INFO] Opening port 4330 for socket cli access
-    [INFO] Waiting for commands...
-    maven2> 
+``` bash
+...
+[INFO] [confluence:cli]
+[INFO] [cli:execute]
+[INFO] Opening port 4330 for socket cli access
+[INFO] Waiting for commands...
+maven2> 
+```
 
 From there, you can enter Maven commands as usual. For a list of available commands, enter `help` at the prompt.
 
@@ -375,6 +403,8 @@ Maven is included in the Atlassian SDK, so you do not normally need to install i
 In previous versions of the SDK (and as previously described on this page), you needed to add repository proxies and modify your Maven settings file to use the SDK with Maven 3. 
 
 Now you can simply follow the steps on [Changing the Default Maven Version](/server/framework/atlassian-sdk/changing-the-default-maven-version) to use Maven 3 with the SDK.
+
+
 
 
 

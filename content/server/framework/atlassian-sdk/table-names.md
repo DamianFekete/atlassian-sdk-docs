@@ -25,13 +25,13 @@ The table name for this entity will be **AO\_28BE2D\_MY\_OBJECT**.
 It has three parts:
 
 1.  `AO` is a prefix common to all Active Objects generated tables. It allows us to prevent collisions with existing product table names.
-2.  `28BE2D` is the last 6 characters of the hexadecimal value of the MD5 hash of plugin key name, `com.atlassian.example.ao.myplugin`, or if present,  the [`namespace` attribute on the `ao` module](/server/framework/atlassian-sdk/active-objects-plugin-module). This generated value helps prevent table name collisions between plugins that use Active Objects.
+2.  `28BE2D` is the last 6 characters of the hexadecimal value of the MD5 hash of plugin key name, `com.atlassian.example.ao.myplugin`, or if present,  the [namespace attribute on the ao module](/server/framework/atlassian-sdk/active-objects-plugin-module). This generated value helps prevent table name collisions between plugins that use Active Objects.
 
     {{% note %}}
 
-We recommend that you avoid the use of the plugin key for generating this value by setting a `namespace` for the module. This reduces the likelihood that a change in the plugin key (or more accurately, an internal representation of the plugin key name) causes new tables to be created. In this event, any existing tables are retained, but orphaned.
+    We recommend that you avoid the use of the plugin key for generating this value by setting a `namespace` for the module. This reduces the likelihood that a change in the plugin key (or more accurately, an internal representation of the plugin key name) causes new tables to be created. In this event, any existing tables are retained, but orphaned.
 
-{{% /note %}}
+    {{% /note %}}
 
 3.  `MY_OBJECT` is the upper case translation of the entity class name `MyObject`. The Active Object plugin chooses upper case to ease compatibility with multiple databases. This is not the default behavior of the Active Objects library so be wary about this when reading the Active Objects documentation.
 
@@ -44,6 +44,8 @@ Table names (once transformed) can not be more than 30 characters long. This is 
 # See also
 
 -   [Column names](/server/framework/atlassian-sdk/column-names)
+
+
 
 
 

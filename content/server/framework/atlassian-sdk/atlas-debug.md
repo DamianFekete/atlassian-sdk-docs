@@ -22,7 +22,7 @@ This page describes the shell script `atlas-debug`, part of the [Atlassian Plugi
 
 ## Basic Usage
 
-`atlas-debug [options]` - Runs the application in debug mode with your plugin installed. (Runs `mvn amps:debug`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product, jvm-debug-port, jvm-debug-suspend`.
+ `atlas-debug [options]` - Runs the application in debug mode with your plugin installed. (Runs `mvn amps:debug`.) Interpreted parameters: `version, container, http-port, context-path, server, jvmargs, log4j, test-version, sal-version, rest-version, plugins, lib-plugins, bundled-plugins, product, jvm-debug-port, jvm-debug-suspend`.
 
 ## Parameters
 
@@ -68,8 +68,8 @@ Interpreted parameters:
 </tr>
 <tr class="even">
 <td><p>--context-path</p></td>
-<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <code>http://localhost:1990/confluence</code> then you should enter <code>/confluence</code>.</p>
-<p>To run your application in the root web application context (eg. <code>http://localhost:1990</code>), then you should enter <code>ROOT</code>.</p></td>
+<td><p>The application context path. You will need to include the leading forward slash. For example, if your application is running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> then you should enter <code>/confluence</code>.</p>
+To run your application in the root web application context (eg. <a href="http://localhost:1990" class="uri external-link">http://localhost:1990</a>), then you should enter ROOT.</td>
 </tr>
 <tr class="odd">
 <td><p>--server</p></td>
@@ -136,7 +136,7 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-debug -?
 atlas-debug -help
 ```
@@ -147,7 +147,9 @@ atlas-debug -help
 
 Say you want to install and run your plugin in your host Atlassian application, attaching your debugger. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-debug
+``` bash
+atlas-debug
+```
 
 Note that the above shell script will work for any host application, including Confluence, JIRA, etc. The script will determine the application, based on your plugin's specifications.
 
@@ -155,13 +157,17 @@ Note that the above shell script will work for any host application, including C
 
 Say you want to run your plugin with Confluence 2.10.3, attaching your debugger. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-clean
-    atlas-debug --version 2.10.3
+``` bash
+atlas-clean
+atlas-debug --version 2.10.3
+```
 
 Say you want to run your plugin with JIRA 4.0 snapshot. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-clean
-    atlas-debug --version 4.0-SNAPSHOT
+``` bash
+atlas-clean
+atlas-debug --version 4.0-SNAPSHOT
+```
 
 *Note:* Running `atlas-clean` will clear the previous version of the host application from your build output directory. You only need to do this if the previous application version was different from the one you need now.
 
@@ -169,13 +175,17 @@ Say you want to run your plugin with JIRA 4.0 snapshot. Go to the plugin's proje
 
 Say you want to run your plugin with Confluence 2.10.3 and JBoss 4.2.x. Go to the plugin's project directory (where you created the plugin) and type:
 
-    atlas-debug --version 2.10.3 --container jboss42x
+``` bash
+atlas-debug --version 2.10.3 --container jboss42x
+```
 
 ###### Specifying a Version of SAL
 
 Say you want to run that plugin but with Confluence 2.10.3 and SAL 2.0.5:
 
-    atlas-debug --version 2.10.3 --sal-version 2.0.5
+``` bash
+atlas-debug --version 2.10.3 --sal-version 2.0.5
+```
 
 ###### Running your Plugin in Multiple Applications
 
@@ -183,15 +193,23 @@ Say you want to run that RefApp plugin in multiple applications simultaneously, 
 
 -   Type the following to run the plugin in the RefApp:
 
-        atlas-debug
+    ``` bash
+    atlas-debug
+    ```
 
 -   Type the following to run the plugin in Confluence:
 
-        atlas-debug --product confluence --version 3.0-m9
+    ``` bash
+    atlas-debug --product confluence --version 3.0-m9
+    ```
 
 -   Type the following to run the plugin in JIRA:
 
-        atlas-debug --product jira --version 4.0-SNAPSHOT
+    ``` bash
+    atlas-debug --product jira --version 4.0-SNAPSHOT
+    ```
+
+
 
 
 

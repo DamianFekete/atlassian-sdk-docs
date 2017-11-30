@@ -14,8 +14,6 @@ subcategory:
 
 If you have an existing local `settings.xml` file, you may encounter problems resolving dependencies required by the SDK commands. To prevent these problems, add the following `<pluginRepository>` block to your local `settings.xml` profile:
 
-  Expand source
-
 ``` xml
 <pluginRepository>
     <id>atlassian-plugin-sdk</id>
@@ -29,6 +27,7 @@ If you have an existing local `settings.xml` file, you may encounter problems re
       </snapshots>
  </pluginRepository>
 ```
+
 
 
 

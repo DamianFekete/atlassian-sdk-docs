@@ -315,17 +315,17 @@ The response might look like this:
 }
 ```
 
-### Global Filtering
+###  Global Filtering
 
 Global filters apply to all activity providers. Some examples are filters by username or date. If you would like to use a global filter on your feed, add it to your URL as a `streams` parameter. The URL has this format:
 
-``` javascript
+``` xml
 https://studio.atlassian.com/activity?streams=<option-key>\+<OPERATOR_KEY>\+<option-value>&streams=<option-key2>\+<OPERATOR_KEY2>\+<option-value2>...
 ```
 
 For example, to filter activity by the user `johndoe`, your URL would look like this:
 
-``` javascript
+``` xml
 http://studio.atlassian.com/activity?streams=user+IS+johndoe
 ```
 
@@ -333,7 +333,7 @@ Note that operators in the URL must be upper case.
 
 It is also possible to have multiple values for each filter operator. Examples of this include searching for activity belonging to a set of usernames or within a date range. For example, to filter activity within two specific dates (specified as the number of milliseconds since the epoch in GMT), your URL would look like this:
 
-``` javascript
+``` xml
 http://studio.atlassian.com/activity?streams=update-date+BETWEEN+1320652800000+1320998399999
 ```
 
@@ -343,13 +343,13 @@ You can get the list of available global filters by using the request described 
 
 Per-provider filters only apply to items from a particular activity provider (for example, the JIRA provider or the Crucible provider). They are used to apply criteria that only make sense in the context of a particular provider, for example asking for only 'review closed' items in Crucible. The URL for per-provider filters has this format:
 
-``` javascript
+``` xml
 https://studio.atlassian.com/activity?<provider-key>=<option-key>\+<OPERATOR_KEY>\+<value>&<provider-key>=<key2>\+<OPERATOR_KEY2>\+<value2>...
 ```
 
 For example, to filter JIRA items so that you only get created issues, your URL would look like this:
 
-``` javascript
+``` xml
 http://studio.atlassian.com/activity?issues=activity+IS+issue%3Apost
 ```
 
@@ -359,7 +359,7 @@ You can get the list of available filters by using the request described in the 
 
 You can combine the global and per-provider filters simply by using them together. For example, use the following URL to get the activity of user `admin`, and showing only created issues in JIRA:
 
-``` javascript
+``` xml
 http://studio.atlassian.com/activity?issues=activity+IS+issue%3Apost&streams=user+IS+admin
 ```
 
@@ -407,6 +407,8 @@ Issue description here &lt;/div>
 </activity:object>
 </entry>
 ```
+
+
 
 
 

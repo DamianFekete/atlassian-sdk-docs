@@ -18,11 +18,9 @@ title: atlas-unit-test
 
 This page describes the shell script `atlas-unit-test`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
- 
-
 ## Basic Usage
 
-`atlas-unit-test [options]` - Runs the unit tests for your plugin. (Runs `mvn test`.) Passes all parameters straight through to Maven.
+ `atlas-unit-test [options]` - Runs the unit tests for your plugin. (Runs `mvn test`.) Passes all parameters straight through to Maven.
 
 ## Parameters
 
@@ -40,14 +38,14 @@ The shell script will display some help text if you enter one of the following a
 
 For example:
 
-``` javascript
+``` bash
 atlas-unit-test -?
 atlas-unit-test -help
 ```
 
 Run the following command to see all options provided by `mvn test`:
 
-``` javascript
+``` bash
 atlas-mvn test --help
 ```
 
@@ -55,13 +53,13 @@ atlas-mvn test --help
 
 Run the following command to run your unit tests:
 
-``` javascript
+``` bash
 atlas-unit-test
 ```
 
 Run the following command to run your unit tests without failing the build, even if there are errors:
 
-``` javascript
+``` bash
 atlas-unit-test --fail-never
 ```
 
@@ -69,6 +67,8 @@ atlas-unit-test --fail-never
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 [Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
+
+
 
 
 

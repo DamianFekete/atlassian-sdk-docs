@@ -6,7 +6,6 @@ category: devguide
 confluence_id: 851991
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851991
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851991
-learning: faq
 legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/using-jdom-in-osgi
 new_url: /server/framework/atlassian-sdk/using-jdom-in-osgi
 platform: server
@@ -22,7 +21,7 @@ title: Using JDOM in OSGi
 
 For some reason, the author of JDOM decided to break one of the fundamental rules of Java, that is, do not put classes in the root package. JDOM has a class called `JDOMAuthor` in the root package. If you want to include JDOM in your OSGi bundle, you'll need to remove these classes. In Maven, you can do it like this:
 
-``` javascript
+``` xml
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -81,7 +80,7 @@ For some reason, the author of JDOM decided to break one of the fundamental rule
 
 Additionally, if using the Maven Bundle Plugin, you will need to manually include this library, for example:
 
-``` javascript
+``` xml
                     <Bundle-ClassPath>.,{maven-dependencies},jdom-1.0-fixed.jar</Bundle-ClassPath>
                     <Include-Resource>{maven-resources},{maven-dependencies},${project.build.directory}/jdom-1.0-fixed.jar</Include-Resource>
 ```
@@ -94,11 +93,14 @@ Make sure JDOM is not included in your bundled Maven dependencies. You can usual
 
 Note that if you are not marking all packages as optional imports by default, then you will need to add at least the following to your imports:
 
-    oracle*;resolution:=optional,org.jaxen*;resolution:=optional
+``` xml
+oracle*;resolution:=optional,org.jaxen*;resolution:=optional
+```
 
 ##### RELATED TOPICS
 
 [Marking Packages as Optional Imports](/server/framework/atlassian-sdk/marking-packages-as-optional-imports)
+
 
 
 
