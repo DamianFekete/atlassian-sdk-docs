@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/access
 new_url: /server/framework/atlassian-sdk/access-components-statically
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Access components statically
 ---
 # Access components statically

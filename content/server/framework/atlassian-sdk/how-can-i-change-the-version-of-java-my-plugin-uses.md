@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ho
 new_url: /server/framework/atlassian-sdk/how-can-i-change-the-version-of-java-my-plugin-uses
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: How can I change the version of Java my plugin uses
 ---
 # How can I change the version of Java my plugin uses

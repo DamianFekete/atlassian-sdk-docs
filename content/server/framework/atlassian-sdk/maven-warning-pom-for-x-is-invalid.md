@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ma
 new_url: /server/framework/atlassian-sdk/maven-warning-pom-for-x-is-invalid
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Maven warning POM for X is invalid
 ---
 # Maven warning POM for X is invalid

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Plugins that cannot be reloaded with FastDev or pi
 ---
 # Plugins that cannot be reloaded with FastDev or pi

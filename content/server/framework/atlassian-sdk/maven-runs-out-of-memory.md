@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ma
 new_url: /server/framework/atlassian-sdk/maven-runs-out-of-memory
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Maven runs out of memory
 ---
 # Maven runs out of memory

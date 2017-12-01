@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/using-
 new_url: /server/framework/atlassian-sdk/using-jdom-in-osgi
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Using JDOM in OSGi
 ---
 # Using JDOM in OSGi

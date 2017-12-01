@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/preventing-memory-leaks-on-upgrades
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Preventing memory leaks on upgrades
 ---
 # Preventing memory leaks on upgrades

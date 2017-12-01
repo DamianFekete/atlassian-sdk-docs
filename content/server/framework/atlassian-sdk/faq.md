@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq
 new_url: /server/framework/atlassian-sdk/faq
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: FAQ
 ---
 # FAQ

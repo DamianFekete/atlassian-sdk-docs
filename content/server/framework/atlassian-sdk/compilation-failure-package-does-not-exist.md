@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/compilation
 new_url: /server/framework/atlassian-sdk/compilation-failure-package-does-not-exist
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Compilation failure - package does not exist
 ---
 # Compilation failure - package does not exist

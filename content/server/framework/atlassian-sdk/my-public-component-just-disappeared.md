@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/my-pub
 new_url: /server/framework/atlassian-sdk/my-public-component-just-disappeared
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: My public component just disappeared!
 ---
 # My public component just disappeared!

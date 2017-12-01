@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/detecting-the-presence-or-absence-of-classes-in-different-osgi-bundles
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Detecting the presence or absence of classes in different OSGI bundles
 ---
 # Detecting the presence or absence of classes in different OSGI bundles

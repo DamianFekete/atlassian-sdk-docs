@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/noclassdeff
 new_url: /server/framework/atlassian-sdk/noclassdeffounderror
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: NoClassDefFoundError
 ---
 # NoClassDefFoundError

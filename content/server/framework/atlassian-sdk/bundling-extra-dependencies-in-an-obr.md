@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/bundling-extra-dependencies-in-an-obr
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Bundling extra dependencies in an OBR
 ---
 # Bundling extra dependencies in an OBR

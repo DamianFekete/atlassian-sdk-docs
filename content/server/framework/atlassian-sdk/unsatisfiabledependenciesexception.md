@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/unsatisfiab
 new_url: /server/framework/atlassian-sdk/unsatisfiabledependenciesexception
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: UnsatisfiableDependenciesException
 ---
 # UnsatisfiableDependenciesException

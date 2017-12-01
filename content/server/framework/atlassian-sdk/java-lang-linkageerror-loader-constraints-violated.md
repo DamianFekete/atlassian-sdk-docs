@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/java-lang-l
 new_url: /server/framework/atlassian-sdk/java-lang-linkageerror-loader-constraints-violated
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: java.lang.LinkageError - loader constraints violated
 ---
 # java.lang.LinkageError - loader constraints violated

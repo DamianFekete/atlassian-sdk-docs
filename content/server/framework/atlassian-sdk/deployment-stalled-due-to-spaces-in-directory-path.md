@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/deployment-stalled-due-to-spaces-in-directory-path
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Deployment stalled due to spaces in directory path
 ---
 # Deployment stalled due to spaces in directory path

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/bundleexcep
 new_url: /server/framework/atlassian-sdk/bundleexception-with-no-bundle-constraint-specified
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: BundleException with no bundle constraint specified
 ---
 # BundleException with no bundle constraint specified

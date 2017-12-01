@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/dependency-
 new_url: /server/framework/atlassian-sdk/dependency-issues-during-plugin-initialisation
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Dependency issues during plugin initialisation
 ---
 # Dependency issues during plugin initialisation

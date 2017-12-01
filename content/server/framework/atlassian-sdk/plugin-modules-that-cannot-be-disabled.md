@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/plugin
 new_url: /server/framework/atlassian-sdk/plugin-modules-that-cannot-be-disabled
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Plugin modules that cannot be disabled
 ---
 # Plugin modules that cannot be disabled

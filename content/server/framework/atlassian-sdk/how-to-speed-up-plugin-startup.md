@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/how-to-speed-up-plugin-startup
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: How to speed up plugin startup
 ---
 # How to speed up plugin startup

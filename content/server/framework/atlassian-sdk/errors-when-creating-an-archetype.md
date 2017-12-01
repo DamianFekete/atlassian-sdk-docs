@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/er
 new_url: /server/framework/atlassian-sdk/errors-when-creating-an-archetype
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Errors when creating an archetype
 ---
 # Errors when creating an archetype

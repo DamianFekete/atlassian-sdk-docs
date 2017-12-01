@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/pluginexcep
 new_url: /server/framework/atlassian-sdk/pluginexception
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: PluginException
 ---
 # PluginException

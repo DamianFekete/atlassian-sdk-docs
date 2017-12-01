@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ma
 new_url: /server/framework/atlassian-sdk/maven-parsing-error-unrecognised-html-tag
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Maven parsing error unrecognised HTML tag
 ---
 # Maven parsing error unrecognised HTML tag

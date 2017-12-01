@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/beancreatio
 new_url: /server/framework/atlassian-sdk/beancreationexception-from-spring-framework
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: BeanCreationException from Spring Framework
 ---
 # BeanCreationException from Spring Framework

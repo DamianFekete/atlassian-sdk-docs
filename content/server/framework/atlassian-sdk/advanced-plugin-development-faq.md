@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/advanced-plugin-development-faq
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Advanced plugin development FAQ
 ---
 # Advanced plugin development FAQ

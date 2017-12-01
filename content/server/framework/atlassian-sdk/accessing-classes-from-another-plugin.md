@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/access
 new_url: /server/framework/atlassian-sdk/accessing-classes-from-another-plugin
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Accessing classes from another plugin
 ---
 # Accessing classes from another plugin

@@ -501,7 +501,7 @@ Then we simply need to declare the upgrade task in the Active Objects module des
 </ao>
 ```
 
-And we're good to go. Obviously something we've not shown here is how to update the `TodoService` implementation. This is left as an exercise to the reader <img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/wink.png" alt="(wink)" class="confluence-external-resource emoticon-wink" /> . If you're stuck you can look at the source repository.
+And we're good to go. Obviously something we've not shown here is how to update the `TodoService` implementation. This is left as an exercise to the reader <img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/wink.png" alt="(wink)" class="emoticon-wink confluence-external-resource" /> . If you're stuck you can look at the source repository.
 
 {{% tip %}}
 

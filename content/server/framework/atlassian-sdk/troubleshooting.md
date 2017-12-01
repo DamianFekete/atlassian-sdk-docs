@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting
 new_url: /server/framework/atlassian-sdk/troubleshooting
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Troubleshooting
 ---
 # Troubleshooting
