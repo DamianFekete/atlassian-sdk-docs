@@ -325,37 +325,3 @@ This query also starts selecting the elements from the 9th in the given order (w
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

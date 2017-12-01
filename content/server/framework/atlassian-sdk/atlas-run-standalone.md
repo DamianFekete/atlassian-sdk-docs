@@ -57,7 +57,7 @@ Interpreted parameters:
 <li><code>3.1-m7</code></li>
 </ul>
 {{% note %}}
-<div class="confluence-information-macro confluence-information-macro-information">
+<div class="confluence-information-macro-information confluence-information-macro">
 <div class="confluence-information-macro-body">
 <p>If you want to change versions, you need to clean the target directory by deleting it or running atlas-clean</p>
 </div>
@@ -251,45 +251,6 @@ Currently if you want to run multiple products, or multiple versions of each pro
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

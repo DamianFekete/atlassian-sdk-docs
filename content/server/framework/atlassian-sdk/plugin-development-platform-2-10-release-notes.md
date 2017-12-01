@@ -353,37 +353,3 @@ When Atlassian developer mode is enabled, Universal Plugin Manager contains a 'D
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

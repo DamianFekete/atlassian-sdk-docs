@@ -346,37 +346,3 @@ See the [REST Plugin 2.2 Release Notes](/server/framework/atlassian-sdk/rest-plu
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -789,37 +789,3 @@ And our final `atlassian-plugin.xml` is:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

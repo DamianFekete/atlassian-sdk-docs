@@ -375,37 +375,3 @@ We recommend adhering to the following guidelines in order to make your activity
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

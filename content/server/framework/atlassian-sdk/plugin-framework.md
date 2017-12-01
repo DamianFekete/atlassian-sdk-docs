@@ -330,37 +330,3 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

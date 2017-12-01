@@ -369,37 +369,3 @@ These 3 elements now implement the same descriptor, so that web-panels can have 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

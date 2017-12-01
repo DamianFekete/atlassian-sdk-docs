@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/writing-your-first-plugin-f
 new_url: /server/framework/atlassian-sdk/writing-your-first-plugin-faq
 platform: server
 product: atlassian-sdk
-subcategory: intro
+subcategory: other
 title: Writing your first plugin FAQ
 ---
 # Writing your first plugin FAQ
@@ -304,95 +304,6 @@ A plugin specific log4j.properties file does not get picked up using this method
 [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
 [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

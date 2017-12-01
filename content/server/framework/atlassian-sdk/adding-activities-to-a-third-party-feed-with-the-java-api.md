@@ -434,37 +434,3 @@ We create a new `Activity` by using the `Activity.Builder` helper class. `Activi
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
