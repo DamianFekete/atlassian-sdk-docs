@@ -100,14 +100,6 @@ There is no content with the specified labels
 
 -   Page:
 
-    [How do I find information about lost attachments?](/pages/viewpage.action?pageId=2031805)
-
--   Page:
-
-    [Enabling Developer Mode](/display/CONFDEV/Enabling+Developer+Mode)
-
--   Page:
-
     [How do I get the location of the confluence.home directory?](/pages/viewpage.action?pageId=2031784)
 
 -   Page:
@@ -129,6 +121,14 @@ There is no content with the specified labels
 -   Page:
 
     [How do I check which Jar file a class file belong to?](/pages/viewpage.action?pageId=2031766)
+
+-   Page:
+
+    [How do I find information about lost attachments?](/pages/viewpage.action?pageId=2031805)
+
+-   Page:
+
+    [Enabling Developer Mode](/display/CONFDEV/Enabling+Developer+Mode)
 
 -   Page:
 
@@ -241,6 +241,49 @@ Feel free to comment, make submissions, or pose your own question on FishEye/Cru
 -   Page:
 
     [How do I search for previous build result?](/pages/viewpage.action?pageId=1638475)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

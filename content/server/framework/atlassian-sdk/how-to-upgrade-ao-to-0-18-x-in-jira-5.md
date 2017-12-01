@@ -464,37 +464,3 @@ If you are launching JIRA along with your plugin via the Atlassian SDK, you can 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

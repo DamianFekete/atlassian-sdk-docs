@@ -778,37 +778,3 @@ This complete **stage 6** of this tutorial. Let's check that everything is worki
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

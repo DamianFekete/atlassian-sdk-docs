@@ -131,14 +131,6 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
@@ -155,17 +147,25 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
 #### Advanced
 
 -   Page:
 
-    [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
 
 -   Page:
 
@@ -358,98 +358,6 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

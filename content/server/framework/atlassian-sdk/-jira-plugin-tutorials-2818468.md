@@ -119,10 +119,6 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
-
--   Page:
-
     [Tutorial - Custom message (mail) handler for JIRA](/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
 
 -   Page:
@@ -132,6 +128,10 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
+
+-   Page:
+
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 -   Page:
 

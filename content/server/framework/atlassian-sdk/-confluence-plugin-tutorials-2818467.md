@@ -62,14 +62,6 @@ subcategory:
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
@@ -86,17 +78,25 @@ subcategory:
 
 -   Page:
 
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+
+-   Page:
+
+    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+
+-   Page:
+
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
 #### Advanced
 
 -   Page:
 
-    [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
 
 -   Page:
 

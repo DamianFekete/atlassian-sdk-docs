@@ -75,6 +75,38 @@ title: Tutorials and guides
 ## Guides
 
 
+[Adding data providers to your plugin](/server/framework/atlassian-sdk/adding-data-providers-to-your-plugin)
+
+[Best Practices](/server/framework/atlassian-sdk/best-practices)
+
+[Checking Plugins for API Compatibility](/server/framework/atlassian-sdk/checking-plugins-for-api-compatibility)
+
+[Configuration of Instructions in Atlassian Plugins](/server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins)
+
+[Configure AMPS to run JIRA Core with additional applications installed](/server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed)
+
+[Converting from Version 1 to Version 2 (OSGi) Plugins](/server/framework/atlassian-sdk/converting-from-version-1-to-version-2-osgi-plugins)
+
+[Creating plugin module instances](/server/framework/atlassian-sdk/creating-plugin-module-instances)
+
+[Speakeasy](/server/framework/atlassian-sdk/speakeasy)
+
+[Developing Speakeasy extensions](/server/framework/atlassian-sdk/developing-speakeasy-extensions)
+
+[Example extensions](/server/framework/atlassian-sdk/example-extensions)
+
+[Extending the Speakeasy plugin](/server/framework/atlassian-sdk/extending-the-speakeasy-plugin)
+
+[Installing Speakeasy](/server/framework/atlassian-sdk/installing-speakeasy)
+
+[Troubleshooting Speakeasy](/server/framework/atlassian-sdk/troubleshooting-speakeasy)
+
+[Stateless web-resource transforms and conditions](/server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions)
+
+[Supporting minification of JavaScript and CSS resources](/server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources)
+
+[Working with Maven](/server/framework/atlassian-sdk/working-with-maven)
+
 [Atlassian Platform common components](/server/framework/atlassian-sdk/atlassian-platform-common-components)
 
 [About the Platform](/server/framework/atlassian-sdk/about-the-platform)
@@ -308,35 +340,3 @@ title: Tutorials and guides
 [Managing dependencies](/server/framework/atlassian-sdk/managing-dependencies)
 
 [Setting the platform version dependency in the POM](/server/framework/atlassian-sdk/setting-the-platform-version-dependency-in-the-pom)
-
-[Adding data providers to your plugin](/server/framework/atlassian-sdk/adding-data-providers-to-your-plugin)
-
-[Best Practices](/server/framework/atlassian-sdk/best-practices)
-
-[Checking Plugins for API Compatibility](/server/framework/atlassian-sdk/checking-plugins-for-api-compatibility)
-
-[Configuration of Instructions in Atlassian Plugins](/server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins)
-
-[Configure AMPS to run JIRA Core with additional applications installed](/server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed)
-
-[Converting from Version 1 to Version 2 (OSGi) Plugins](/server/framework/atlassian-sdk/converting-from-version-1-to-version-2-osgi-plugins)
-
-[Creating plugin module instances](/server/framework/atlassian-sdk/creating-plugin-module-instances)
-
-[Speakeasy](/server/framework/atlassian-sdk/speakeasy)
-
-[Developing Speakeasy extensions](/server/framework/atlassian-sdk/developing-speakeasy-extensions)
-
-[Example extensions](/server/framework/atlassian-sdk/example-extensions)
-
-[Extending the Speakeasy plugin](/server/framework/atlassian-sdk/extending-the-speakeasy-plugin)
-
-[Installing Speakeasy](/server/framework/atlassian-sdk/installing-speakeasy)
-
-[Troubleshooting Speakeasy](/server/framework/atlassian-sdk/troubleshooting-speakeasy)
-
-[Stateless web-resource transforms and conditions](/server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions)
-
-[Supporting minification of JavaScript and CSS resources](/server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources)
-
-[Working with Maven](/server/framework/atlassian-sdk/working-with-maven)
