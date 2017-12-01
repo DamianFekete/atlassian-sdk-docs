@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/unsatisfied
 new_url: /server/framework/atlassian-sdk/unsatisfieddependencyexception-error-creating-bean-with-name
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: UnsatisfiedDependencyException - error creating bean with name
 ---
 # UnsatisfiedDependencyException - error creating bean with name

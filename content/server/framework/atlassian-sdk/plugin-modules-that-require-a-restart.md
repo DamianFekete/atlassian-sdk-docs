@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/plugin
 new_url: /server/framework/atlassian-sdk/plugin-modules-that-require-a-restart
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Plugin modules that require a restart
 ---
 # Plugin modules that require a restart

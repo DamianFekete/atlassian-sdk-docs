@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/differ
 new_url: /server/framework/atlassian-sdk/differences-between-version-1-plugins-and-version-2-plugins
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Differences between version 1 plugins and version 2 plugins
 ---
 # Differences between version 1 plugins and version 2 plugins

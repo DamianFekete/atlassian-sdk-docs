@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/at
 new_url: /server/framework/atlassian-sdk/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Atlassian Plugin SDK ignores customisations for port or context path
 ---
 # Atlassian Plugin SDK ignores customisations for port or context path

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/runnin
 new_url: /server/framework/atlassian-sdk/running-on-websphere-6-1
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Running on WebSphere 6.1
 ---
 # Running on WebSphere 6.1

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/classnotfou
 new_url: /server/framework/atlassian-sdk/classnotfoundexception
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: ClassNotFoundException
 ---
 # ClassNotFoundException

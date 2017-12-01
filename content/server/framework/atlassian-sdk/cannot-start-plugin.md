@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/cannot-star
 new_url: /server/framework/atlassian-sdk/cannot-start-plugin
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Cannot start plugin
 ---
 # Cannot start plugin

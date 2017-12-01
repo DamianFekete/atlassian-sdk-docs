@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ma
 new_url: /server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Maven cannot find Java Mail, Java Activation or JTA
 ---
 # Maven cannot find Java Mail, Java Activation or JTA

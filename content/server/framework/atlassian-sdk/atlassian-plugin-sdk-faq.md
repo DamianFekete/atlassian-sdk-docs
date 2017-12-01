@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq
 new_url: /server/framework/atlassian-sdk/atlassian-plugin-sdk-faq
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Atlassian Plugin SDK FAQ
 ---
 # Atlassian Plugin SDK FAQ

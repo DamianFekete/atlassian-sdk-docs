@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/bundleexcep
 new_url: /server/framework/atlassian-sdk/bundleexception
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: BundleException
 ---
 # BundleException

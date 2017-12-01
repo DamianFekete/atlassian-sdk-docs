@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/writing-your-first-plugin-f
 new_url: /server/framework/atlassian-sdk/writing-your-first-plugin-faq
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Writing your first plugin FAQ
 ---
 # Writing your first plugin FAQ

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/supporting-websudo-in-your-plugin
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Supporting WebSudo in your plugin
 ---
 # Supporting WebSudo in your plugin

@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/ma
 new_url: /server/framework/atlassian-sdk/maven-is-unable-to-download-the-artifact-from-any-repository
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Maven is unable to download the artifact from any repository
 ---
 # Maven is unable to download the artifact from any repository

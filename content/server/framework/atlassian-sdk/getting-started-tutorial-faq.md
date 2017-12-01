@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/getting-started-tutorial-fa
 new_url: /server/framework/atlassian-sdk/getting-started-tutorial-faq
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Getting started tutorial FAQ
 ---
 # Getting started tutorial FAQ

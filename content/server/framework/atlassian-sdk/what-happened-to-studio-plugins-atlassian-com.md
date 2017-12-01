@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/what-h
 new_url: /server/framework/atlassian-sdk/what-happened-to-studio-plugins-atlassian-com
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: What happened to studio.plugins.atlassian.com?
 ---
 # What happened to studio.plugins.atlassian.com?

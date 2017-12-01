@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/pr
 new_url: /server/framework/atlassian-sdk/product-fails-to-start-within-timeout-period
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Product fails to start within timeout period
 ---
 # Product fails to start within timeout period

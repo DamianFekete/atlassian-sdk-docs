@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/differ
 new_url: /server/framework/atlassian-sdk/differences-between-spring-and-pico
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Differences between Spring and Pico
 ---
 # Differences between Spring and Pico

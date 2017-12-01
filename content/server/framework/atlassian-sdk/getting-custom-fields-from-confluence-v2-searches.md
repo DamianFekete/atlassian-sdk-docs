@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development
 new_url: /server/framework/atlassian-sdk/getting-custom-fields-from-confluence-v2-searches
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: Getting custom fields from Confluence V2 Searches
 ---
 # Getting custom fields from Confluence V2 Searches

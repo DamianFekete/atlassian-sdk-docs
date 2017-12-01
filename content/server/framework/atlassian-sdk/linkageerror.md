@@ -10,7 +10,7 @@ legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/linkageerro
 new_url: /server/framework/atlassian-sdk/linkageerror
 platform: server
 product: atlassian-sdk
-subcategory: other
+subcategory: faq
 title: LinkageError
 ---
 # LinkageError
