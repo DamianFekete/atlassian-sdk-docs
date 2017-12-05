@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852019
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852019
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852019
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/module-type-plugin-module
-new_url: /server/framework/atlassian-sdk/module-type-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Module Type plugin module
+title: Module Type Plugin Module 852019
 ---
 # Module Type plugin module
 
@@ -32,10 +30,6 @@ title: Module Type plugin module
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 

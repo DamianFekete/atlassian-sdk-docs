@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 851977
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851977
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851977
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/service-glossary-entry
-new_url: /server/framework/atlassian-sdk/service
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Service
+title: 851977
 ---
 # Service
 

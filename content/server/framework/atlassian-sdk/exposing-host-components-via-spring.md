@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852023
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852023
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852023
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/exposing-host-components-via-spring
-new_url: /server/framework/atlassian-sdk/exposing-host-components-via-spring
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Exposing host components via Spring
+title: Exposing Host Components via Spring 852023
 ---
 # Exposing host components via Spring
 

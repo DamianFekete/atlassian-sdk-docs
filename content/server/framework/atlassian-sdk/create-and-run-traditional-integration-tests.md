@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 15335901
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335901
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335901
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/create-and-run-traditional-integration-tests
-new_url: /server/framework/atlassian-sdk/create-and-run-traditional-integration-tests
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Create and run traditional integration tests
+title: Create and Run Traditional Integration Tests 15335901
 ---
 # Create and run traditional integration tests
 

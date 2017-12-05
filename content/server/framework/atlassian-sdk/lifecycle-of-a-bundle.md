@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852035
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852035
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852035
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/lifecycle-of-a-bundle
-new_url: /server/framework/atlassian-sdk/lifecycle-of-a-bundle
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Lifecycle of a bundle
+title: Lifecycle Of a Bundle 852035
 ---
 # Lifecycle of a bundle
 

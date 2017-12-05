@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 5668881
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5668881
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5668881
-legacy_url: https://developer.atlassian.com/docs/getting-started
-new_url: /server/framework/atlassian-sdk/index
 platform: server
 product: atlassian-sdk
 subcategory: index
-title: Getting started
+title: Getting Started 5668881
 ---
 # Getting started
 
@@ -49,7 +47,6 @@ Already have the SDK?
 #### Building for Atlassian Cloud?
 
 You'll [use the Atlassian Connect framework](https://developer.atlassian.com/static/connect/docs/guides/introduction.html) to build for instances hosted in the cloud on Atlassian's servers. You'll still need to install the SDK for your local development.  
- 
 
 ------------------------------------------------------------------------
 

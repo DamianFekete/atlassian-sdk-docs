@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818386
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818386
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818386
-legacy_url: https://developer.atlassian.com/docs/getting-started/atlassian-javadoc
-new_url: /server/framework/atlassian-sdk/atlassian-javadoc
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Atlassian JavaDoc
+title: Atlassian Javadoc 2818386
 ---
 # Atlassian JavaDoc
 

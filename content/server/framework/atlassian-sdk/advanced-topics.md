@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818630
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818630
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818630
-legacy_url: https://developer.atlassian.com/docs/advanced-topics
-new_url: /server/framework/atlassian-sdk/advanced-topics
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Advanced Topics
+title: Advanced Topics 2818630
 ---
 # Advanced Topics
 

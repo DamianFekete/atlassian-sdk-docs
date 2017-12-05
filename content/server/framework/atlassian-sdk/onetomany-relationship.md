@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669153
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669153
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669153
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/onetomany-relationship
-new_url: /server/framework/atlassian-sdk/onetomany-relationship
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: OneToMany relationship
+title: Onetomany Relationship 5669153
 ---
 # OneToMany relationship
 

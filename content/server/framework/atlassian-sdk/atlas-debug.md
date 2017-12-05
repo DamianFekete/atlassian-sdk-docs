@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818346
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818346
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818346
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-debug
-new_url: /server/framework/atlassian-sdk/atlas-debug
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-debug
+title: Atlas Debug 2818346
 ---
 # atlas-debug
 

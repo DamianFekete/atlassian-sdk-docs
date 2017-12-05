@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818348
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818348
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818348
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-compile
-new_url: /server/framework/atlassian-sdk/atlas-compile
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-compile
+title: Atlas Compile 2818348
 ---
 # atlas-compile
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852018
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852018
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852018
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/plugin-modules-that-cannot-be-disabled
-new_url: /server/framework/atlassian-sdk/plugin-modules-that-cannot-be-disabled
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Plugin modules that cannot be disabled
+title: Plugin Modules That Cannot Be Disabled 852018
 ---
 # Plugin modules that cannot be disabled
 

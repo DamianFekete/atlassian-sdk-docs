@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818336
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818336
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818336
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-cli
-new_url: /server/framework/atlassian-sdk/atlas-cli
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-cli
+title: Atlas Cli 2818336
 ---
 # atlas-cli
 

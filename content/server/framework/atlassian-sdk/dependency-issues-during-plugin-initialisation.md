@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852094
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852094
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852094
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/dependency-issues-during-plugin-initialisation
-new_url: /server/framework/atlassian-sdk/dependency-issues-during-plugin-initialisation
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Dependency issues during plugin initialisation
+title: Dependency Issues During Plugin Initialisation 852094
 ---
 # Dependency issues during plugin initialisation
 

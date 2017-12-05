@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852147
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/going-from-plugin-to-osgi-bundle
-new_url: /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Going from Plugin to OSGi bundle
+title: Going From Plugin to Osgi Bundle 852147
 ---
 # Going from Plugin to OSGi bundle
 

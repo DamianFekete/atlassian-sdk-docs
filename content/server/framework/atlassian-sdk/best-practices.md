@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818374
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818374
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818374
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/best-practices
-new_url: /server/framework/atlassian-sdk/best-practices
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Best Practices
+title: Best Practices 2818374
 ---
 # Best Practices
 

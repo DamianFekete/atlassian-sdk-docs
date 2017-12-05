@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 10422292
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10422292
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10422292
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/put-the-final-polish-on-the-project-in-eclipse
-new_url: /server/framework/atlassian-sdk/put-the-final-polish-on-the-project-in-eclipse
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Put the final polish on the project in Eclipse
+title: Put the Final Polish On the Project in Eclipse 10422292
 ---
 # Put the final polish on the project in Eclipse
 

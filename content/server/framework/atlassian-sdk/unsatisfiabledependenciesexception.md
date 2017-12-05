@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818382
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818382
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818382
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/unsatisfiabledependenciesexception
-new_url: /server/framework/atlassian-sdk/unsatisfiabledependenciesexception
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: UnsatisfiableDependenciesException
+title: Unsatisfiabledependenciesexception 2818382
 ---
 # UnsatisfiableDependenciesException
 

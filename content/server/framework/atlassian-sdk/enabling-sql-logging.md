@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669194
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669194
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669194
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/active-objects-faq/enabling-sql-logging
-new_url: /server/framework/atlassian-sdk/enabling-sql-logging
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Enabling SQL logging
+title: Enabling Sql Logging 5669194
 ---
 # Enabling SQL logging
 

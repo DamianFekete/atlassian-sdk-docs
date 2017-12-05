@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 10421452
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421452
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421452
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/internationalising-your-plugin/pluralising-internationalisation-strings
-new_url: /server/framework/atlassian-sdk/pluralising-internationalisation-strings
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Pluralising internationalisation strings
+title: Pluralising Internationalisation Strings 10421452
 ---
 # Pluralising internationalisation strings
 

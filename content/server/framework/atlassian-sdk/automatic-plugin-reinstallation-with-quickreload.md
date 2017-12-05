@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 38441282
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38441282
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38441282
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/automatic-plugin-reinstallation-with-quickreload
-new_url: /server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-quickreload
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Automatic plugin reinstallation with QuickReload
+title: Automatic Plugin Reinstallation with Quickreload 38441282
 ---
 # Automatic plugin reinstallation with QuickReload
 

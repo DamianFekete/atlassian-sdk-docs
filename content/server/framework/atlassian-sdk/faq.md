@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818355
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818355
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818355
-legacy_url: https://developer.atlassian.com/docs/faq
-new_url: /server/framework/atlassian-sdk/faq
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: FAQ
+title: Faq 2818355
 ---
 # FAQ
 
@@ -100,6 +98,14 @@ There is no content with the specified labels
 
 -   Page:
 
+    [How do I find information about lost attachments?](/pages/viewpage.action?pageId=2031805)
+
+-   Page:
+
+    [Enabling Developer Mode](/display/CONFDEV/Enabling+Developer+Mode)
+
+-   Page:
+
     [How do I get the location of the confluence.home directory?](/pages/viewpage.action?pageId=2031784)
 
 -   Page:
@@ -121,14 +127,6 @@ There is no content with the specified labels
 -   Page:
 
     [How do I check which Jar file a class file belong to?](/pages/viewpage.action?pageId=2031766)
-
--   Page:
-
-    [How do I find information about lost attachments?](/pages/viewpage.action?pageId=2031805)
-
--   Page:
-
-    [Enabling Developer Mode](/display/CONFDEV/Enabling+Developer+Mode)
 
 -   Page:
 

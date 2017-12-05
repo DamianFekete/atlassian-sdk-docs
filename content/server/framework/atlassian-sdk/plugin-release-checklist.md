@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818392
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818392
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818392
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/packaging-and-releasing-your-plugin/plugin-release-checklist
-new_url: /server/framework/atlassian-sdk/plugin-release-checklist
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Plugin release checklist
+title: Plugin Release Checklist 2818392
 ---
 # Plugin release checklist
 

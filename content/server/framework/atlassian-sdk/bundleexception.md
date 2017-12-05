@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852121
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852121
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852121
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/bundleexception
-new_url: /server/framework/atlassian-sdk/bundleexception
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: BundleException
+title: Bundleexception 852121
 ---
 # BundleException
 

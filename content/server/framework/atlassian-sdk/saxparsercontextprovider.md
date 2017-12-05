@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818385
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818385
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818385
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/saxparsercontextprovider
-new_url: /server/framework/atlassian-sdk/saxparsercontextprovider
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: SAXParserContextProvider
+title: Saxparsercontextprovider 2818385
 ---
 # SAXParserContextProvider
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818709
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818709
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818709
-legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/maven-cannot-find-java-mail-java-activation-or-jta
-new_url: /server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Maven cannot find Java Mail, Java Activation or JTA
+title: 2818709
 ---
 # Maven cannot find Java Mail, Java Activation or JTA
 

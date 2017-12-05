@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 15335909
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335909
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335909
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/run-wired-tests-with-the-plugin-test-console
-new_url: /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Run Wired Tests with the Plugin Test Console
+title: Run Wired Tests with the Plugin Test Console 15335909
 ---
 # Run Wired Tests with the Plugin Test Console
 

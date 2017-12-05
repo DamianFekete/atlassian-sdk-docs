@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 11305014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=11305014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=11305014
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/install-the-atlassian-sdk-on-a-linux-or-mac-system
-new_url: /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Install the Atlassian SDK on a Linux or Mac system
+title: Install the Atlassian Sdk On a Linux Or Mac System 11305014
 ---
 # Install the Atlassian SDK on a Linux or Mac system
 
@@ -24,7 +22,7 @@ Windows users should see [Install the Atlassian SDK on a Windows system](https:
 
 {{% /note %}}
 
-, you install the SDK on your Linux or Mac system. You also configure your operating system to recognize the SDK commands in your environment.
+On this page, you install the SDK on your Linux or Mac system. You also configure your operating system to recognize the SDK commands in your environment.
 
 ## Step 1: Configure your environment
 

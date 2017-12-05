@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 28313151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28313151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28313151
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/stateless-web-resource-transforms-and-conditions
-new_url: /server/framework/atlassian-sdk/stateless-web-resource-transforms-and-conditions
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Stateless web-resource transforms and conditions
+title: Stateless Web Resource Transforms and Conditions 28313151
 ---
 # Stateless web-resource transforms and conditions
 

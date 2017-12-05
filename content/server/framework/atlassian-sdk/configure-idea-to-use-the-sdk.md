@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818645
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818645
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818645
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/configure-idea-to-use-the-sdk
-new_url: /server/framework/atlassian-sdk/configure-idea-to-use-the-sdk
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configure IDEA to use the SDK
+title: Configure Idea to Use the Sdk 2818645
 ---
 # Configure IDEA to use the SDK
 

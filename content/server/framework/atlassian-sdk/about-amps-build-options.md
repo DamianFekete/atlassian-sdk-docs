@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16974627
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974627
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974627
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/about-amps-build-options
-new_url: /server/framework/atlassian-sdk/about-amps-build-options
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: About AMPS build options
+title: About Amps Build Options 16974627
 ---
 # About AMPS build options
 
@@ -24,7 +22,9 @@ You can pass AMPS parameters to Maven in one of two ways:
 
 -   On the command line as Java system variables. For example:
 
-        mvn jira:run -D<parameter1Name>=<parameter1Value> -D<parameter2Name>=<parameter2Value> ...
+    ``` bash
+    mvn jira:run -D<parameter1Name>=<parameter1Value> -D<parameter2Name>=<parameter2Value> ...
+    ```
 
 -   In the POM, by using the configuration element in the AMPS declaration:  
       

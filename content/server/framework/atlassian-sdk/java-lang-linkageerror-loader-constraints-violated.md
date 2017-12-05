@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818383
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818383
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818383
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/java-lang-linkageerror-loader-constraints-violated
-new_url: /server/framework/atlassian-sdk/java-lang-linkageerror-loader-constraints-violated
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: java.lang.LinkageError - loader constraints violated
+title: Java.Lang.Linkageerror Loader Constraints Violated 2818383
 ---
 # java.lang.LinkageError - loader constraints violated
 

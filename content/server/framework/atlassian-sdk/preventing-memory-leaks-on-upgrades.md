@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 8947251
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947251
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947251
-legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/preventing-memory-leaks-on-upgrades
-new_url: /server/framework/atlassian-sdk/preventing-memory-leaks-on-upgrades
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Preventing memory leaks on upgrades
+title: Preventing Memory Leaks On Upgrades 8947251
 ---
 # Preventing memory leaks on upgrades
 

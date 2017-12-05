@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818156
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818156
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818156
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/troubleshooting-speakeasy
-new_url: /server/framework/atlassian-sdk/troubleshooting-speakeasy
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Troubleshooting Speakeasy
+title: Troubleshooting Speakeasy 2818156
 ---
 # Troubleshooting Speakeasy
 

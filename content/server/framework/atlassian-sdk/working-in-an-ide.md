@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818616
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818616
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818616
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide
-new_url: /server/framework/atlassian-sdk/working-in-an-ide
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Working in an IDE
+title: Working in an Ide 2818616
 ---
 # Working in an IDE
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818108
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818108
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818108
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/example-extensions
-new_url: /server/framework/atlassian-sdk/example-extensions
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Example extensions
+title: Example Extensions 2818108
 ---
 # Example extensions
 

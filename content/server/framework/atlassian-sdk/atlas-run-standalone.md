@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818534
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818534
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818534
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-run-standalone
-new_url: /server/framework/atlassian-sdk/atlas-run-standalone
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-run-standalone
+title: Atlas Run Standalone 2818534
 ---
 # atlas-run-standalone
 
@@ -57,7 +55,7 @@ Interpreted parameters:
 <li><code>3.1-m7</code></li>
 </ul>
 {{% note %}}
-<div class="confluence-information-macro-information confluence-information-macro">
+<div class="confluence-information-macro confluence-information-macro-information">
 <div class="confluence-information-macro-body">
 <p>If you want to change versions, you need to clean the target directory by deleting it or running atlas-clean</p>
 </div>

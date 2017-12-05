@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669187
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669187
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669187
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/active-objects-faq
-new_url: /server/framework/atlassian-sdk/active-objects-faq
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Active Objects FAQ
+title: Active Objects Faq 5669187
 ---
 # Active Objects FAQ
 

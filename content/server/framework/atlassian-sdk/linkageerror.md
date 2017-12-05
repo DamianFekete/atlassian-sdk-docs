@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 851986
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851986
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851986
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/linkageerror
-new_url: /server/framework/atlassian-sdk/linkageerror
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: LinkageError
+title: Linkageerror 851986
 ---
 # LinkageError
 

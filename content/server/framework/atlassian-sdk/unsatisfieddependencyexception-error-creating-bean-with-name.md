@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818380
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818380
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818380
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/unsatisfieddependencyexception-error-creating-bean-with-name
-new_url: /server/framework/atlassian-sdk/unsatisfieddependencyexception-error-creating-bean-with-name
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: UnsatisfiedDependencyException - error creating bean with name
+title: Unsatisfieddependencyexception Error Creating Bean with Name 2818380
 ---
 # UnsatisfiedDependencyException - error creating bean with name
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818151
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/extending-the-speakeasy-plugin
-new_url: /server/framework/atlassian-sdk/extending-the-speakeasy-plugin
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Extending the Speakeasy plugin
+title: Extending the Speakeasy Plugin 2818151
 ---
 # Extending the Speakeasy plugin
 

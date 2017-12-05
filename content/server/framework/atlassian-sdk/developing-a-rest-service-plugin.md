@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818694
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818694
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818694
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/developing-a-rest-service-plugin
-new_url: /server/framework/atlassian-sdk/developing-a-rest-service-plugin
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developing a REST service plugin
+title: Developing a Rest Service Plugin 2818694
 ---
 # Developing a REST service plugin
 
@@ -58,8 +56,6 @@ We encourage you to work through this tutorial. If you want to skip ahead or che
 ``` bash
 git clone git@bitbucket.org:serverecosystem/message.git
 ```
-
-     
 
 Alternatively, you can download the source using the **get source** option here:
 
@@ -166,42 +162,42 @@ Also notice the annotations. These are <a href="https://jaxb.java.net/nonav/jaxb
 <td><p><code>@Path</code></p></td>
 <td><p>Identifies the URI path that a resource class or class method will serve requests for. <code>@Path</code> annotations on methods are relative to the <code>@Path</code> annotation on the enclosing class.</p>
 <p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Path.html" class="external-link">Path</a></p>
-<p><strong>Scope:</strong> <code>Class</code> or <code>Method</code></p></td>
+<p><strong>Scope:</strong> Class or Method</p></td>
 </tr>
 <tr class="even">
 <td><p><code>@GET</code></p></td>
-<td><p>Identifies that the class method will handle requests for a <code>GET</code> http message. Having more than one <code>@GET</code> annotation on a method in a class will fail unless <code>@Path</code> annotations are used to distinguish them. Other annotations are available such as <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/DELETE.html" class="external-link">DELETE</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/POST.html" class="external-link">POST</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/HEAD.html" class="external-link">HEAD</a>, etc.  See: <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/package-summary.html" class="external-link">javax.ws.rs</a>.</p>
+<td><p>Identifies that the class method will handle requests for a GET http message. Having more than one @GET annotation on a method in a class will fail unless @Path annotations are used to distinguish them. Other annotations are available such as <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/DELETE.html" class="external-link">DELETE</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/POST.html" class="external-link">POST</a>, <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/HEAD.html" class="external-link">HEAD</a>, etc.  See: <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/package-summary.html" class="external-link">javax.ws.rs</a>.</p>
 <p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/GET.html" class="external-link">GET</a></p>
-<pre><code>Scope: Method</code></pre></td>
+<p><strong>Scope:</strong> Method</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>@AnonymousAllowed</code></p></td>
-<td><p>Identifies that the method can be called without supplying user credentials. If this annotation did not exist then a session would need to be established with your application or you would need to pass in <code>os_username</code> and <code>os_password</code> parameters.</p>
-<pre><code>Scope: Method</code></pre></td>
+<td><p>Identifies that the method can be called without supplying user credentials. If this annotation did not exist then a session would need to be established with your application or you would need to pass in os_username and os_password parameters.</p>
+<p><strong>Scope:</strong> Method</p></td>
 </tr>
 <tr class="even">
 <td><p><code>@Produces</code></p></td>
-<td><p>It specifies the content types the method may return. If this annotation is not present, the method may return <em>any</em> content type; if it is present, the method must return one of the types specified.</p>
-<p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Produces.html" class="external-link">Produces</a></p>
-<pre><code>Scope: Method</code></pre></td>
+<td><p>It specifies the content types the method may return. If this annotation is not present, the method may return any content type; if it is present, the method must return one of the types specified.</p>
+<p>Source: <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/Produces.html" class="external-link">Produces</a></p>
+<p><strong>Scope:</strong> Method</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>@XmlRootElement</code></p></td>
 <td><p>Maps a class or an enum type to an XML element.</p>
 <p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlRootElement.html" class="external-link">XmlRootElement</a></p>
-<p><strong>Scope:</strong> <code>Class</code> or <code>enum</code></p></td>
+<p><strong>Scope:</strong> Class or enum</p></td>
 </tr>
 <tr class="even">
 <td><p><code>@XmlAccessorType</code></p></td>
 <td><p>Controls whether fields or properties are serialised by default.</p>
 <p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAccessorType.html" class="external-link">XmlAccessorType</a></p>
-<p><strong>Scope:</strong> <code>Class</code> or <code>enum</code></p></td>
+<p><strong>Scope:</strong> Class or enum</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>@XmlAttribute</code></p></td>
 <td><p>Maps a property or field to an XML Attribute.</p>
 <p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlAttribute.html" class="external-link">XmlAttribute</a></p>
-<p><strong>Scope:</strong> <code>Property</code> or <code>field</code></p></td>
+<p><strong>Scope:</strong> Property or field</p></td>
 </tr>
 </tbody>
 </table>
@@ -320,19 +316,19 @@ Notice we've added a few more annotations: 
 <td><p><code>@XmlElement</code></p></td>
 <td><p>Maps a property or field to an XML Element.</p>
 <p><strong>Source:</strong> <a href="https://jaxb.java.net/nonav/jaxb20-pfd/api/javax/xml/bind/annotation/XmlElement.html" class="external-link">XmlElement</a></p>
-<p><strong>Scope:</strong> <code>Property</code> or <code>field</code></p></td>
+<p><strong>Scope:</strong> Property or field</p></td>
 </tr>
 <tr class="even">
 <td><p><code>@PathParam</code></p></td>
-<td><p>It maps a method variable to an element in the <code>@Path</code>.</p>
+<td><p>It maps a method variable to an element in the @Path.</p>
 <p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/PathParam.html" class="external-link">PathParam</a></p>
-<pre><code>Scope: Method Parameter</code></pre></td>
+<p><strong>Scope:</strong> Method Parameter</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>@QueryParam</code></p></td>
 <td><p>It maps a method variable to a query parameter.</p>
 <p><strong>Source:</strong> <a href="https://jsr311.java.net/nonav/javadoc/javax/ws/rs/QueryParam.html" class="external-link">QueryParam</a></p>
-<pre><code>Scope: Method Parameter</code></pre></td>
+<p><strong>Scope:</strong> Method Parameter</p></td>
 </tr>
 </tbody>
 </table>

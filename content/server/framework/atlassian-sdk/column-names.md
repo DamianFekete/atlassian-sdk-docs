@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669191
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669191
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669191
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/active-objects-faq/column-names
-new_url: /server/framework/atlassian-sdk/column-names
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Column names
+title: Column Names 5669191
 ---
 # Column names
 

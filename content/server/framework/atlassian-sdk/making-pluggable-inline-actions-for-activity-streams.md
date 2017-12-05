@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852073
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852073
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852073
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/making-pluggable-inline-actions-for-activity-streams
-new_url: /server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Making pluggable inline actions for Activity Streams
+title: Making Pluggable Inline Actions for Activity Streams 852073
 ---
 # Making pluggable inline actions for Activity Streams
 

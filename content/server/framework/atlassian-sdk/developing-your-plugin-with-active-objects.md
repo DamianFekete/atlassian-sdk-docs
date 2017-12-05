@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669137
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669137
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669137
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects
-new_url: /server/framework/atlassian-sdk/developing-your-plugin-with-active-objects
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developing your plugin with Active Objects
+title: Developing Your Plugin with Active Objects 5669137
 ---
 # Developing your plugin with Active Objects
 

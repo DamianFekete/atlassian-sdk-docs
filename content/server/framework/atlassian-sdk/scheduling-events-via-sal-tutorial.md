@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818727
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818727
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818727
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/scheduling-events-via-sal-tutorial
-new_url: /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Scheduling events via SAL tutorial
+title: Scheduling Events via Sal Tutorial 2818727
 ---
 # Scheduling events via SAL tutorial
 

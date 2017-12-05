@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 851979
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851979
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851979
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/lifecycle-glossary-entry
-new_url: /server/framework/atlassian-sdk/lifecycle
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Lifecycle
+title: 851979
 ---
 # Lifecycle
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669141
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669141
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669141
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/creating-an-entitymanager
-new_url: /server/framework/atlassian-sdk/creating-an-entitymanager
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Creating an EntityManager
+title: Creating an Entitymanager 5669141
 ---
 # Creating an EntityManager
 

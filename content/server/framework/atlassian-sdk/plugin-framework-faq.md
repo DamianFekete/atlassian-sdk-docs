@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852039
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852039
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852039
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq
-new_url: /server/framework/atlassian-sdk/plugin-framework-faq
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Plugin Framework FAQ
+title: Plugin Framework Faq 852039
 ---
 # Plugin Framework FAQ
 

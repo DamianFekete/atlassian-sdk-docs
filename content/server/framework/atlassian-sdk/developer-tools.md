@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 18252579
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252579
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252579
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools
-new_url: /server/framework/atlassian-sdk/developer-tools
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developer tools
+title: Developer Tools 18252579
 ---
 # Developer tools
 

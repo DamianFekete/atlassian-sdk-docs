@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818370
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818370
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818370
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/getting-started/working-with-the-pom/managing-dependencies
-new_url: /server/framework/atlassian-sdk/managing-dependencies
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Managing dependencies
+title: Managing Dependencies 2818370
 ---
 # Managing dependencies
 

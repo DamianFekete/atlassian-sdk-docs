@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 43648385
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=43648385
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=43648385
-legacy_url: https://developer.atlassian.com/docs/faq/getting-started-tutorial-faq
-new_url: /server/framework/atlassian-sdk/getting-started-tutorial-faq
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Getting started tutorial FAQ
+title: Getting Started Tutorial Faq 43648385
 ---
 # Getting started tutorial FAQ
 

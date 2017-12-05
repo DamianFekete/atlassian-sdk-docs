@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16974276
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974276
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974276
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/about-amps-build-options/amps-build-configuration-reference
-new_url: /server/framework/atlassian-sdk/amps-build-configuration-reference
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: AMPS build configuration reference
+title: Amps Build Configuration Reference 16974276
 ---
 # AMPS build configuration reference
 
@@ -216,7 +214,9 @@ Specifies whether to install the current plugin when the product is started. The
 
 You can set this flag to `false` to start a product without being in a plugin working directory. This is useful for quickly starting a product with a specific configuration for testing or experimentation. For example, the command:
 
-    atlas-mvn confluence:run -DproductVersion=3.4 -Dinstall.plugin=false
+``` bash
+atlas-mvn confluence:run -DproductVersion=3.4 -Dinstall.plugin=false
+```
 
 Starts Confluence 3.4 with the default test data.
 
@@ -260,7 +260,9 @@ Specifies which test groups should be run in this invocation. Test groups should
 
 Example:
 
-    atlas-mvn crowd:integration-test -DtestGroups=loginTests,authTests,cookieTests
+``` bash
+atlas-mvn crowd:integration-test -DtestGroups=loginTests,authTests,cookieTests
+```
 
 See [Create and Run Traditional Integration Tests](/server/framework/atlassian-sdk/create-and-run-traditional-integration-tests) for examples of defining test groups.
 
@@ -291,7 +293,9 @@ This can be valuable if you are debugging integration tests and the product's st
 
 Example:
 
-    atlas-mvn jira:integration-test -DtestGroups=jiraTests,pluginTests -Dno.webapp=true
+``` bash
+atlas-mvn jira:integration-test -DtestGroups=jiraTests,pluginTests -Dno.webapp=true
+```
 
 ### instructions
 

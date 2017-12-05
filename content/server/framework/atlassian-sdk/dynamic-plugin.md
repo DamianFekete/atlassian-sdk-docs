@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852157
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852157
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852157
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/dynamic-plugin-glossary-entry
-new_url: /server/framework/atlassian-sdk/dynamic-plugin
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 'Dynamic plugin '
+title: 852157
 ---
 # Dynamic plugin
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818384
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818384
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818384
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/pluginexception
-new_url: /server/framework/atlassian-sdk/pluginexception
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: PluginException
+title: Pluginexception 2818384
 ---
 # PluginException
 

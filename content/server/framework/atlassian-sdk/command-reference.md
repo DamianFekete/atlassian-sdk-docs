@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818724
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818724
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818724
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference
-new_url: /server/framework/atlassian-sdk/command-reference
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Command reference
+title: Command Reference 2818724
 ---
 # Command reference
 

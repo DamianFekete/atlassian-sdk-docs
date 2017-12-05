@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852002
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852002
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852002
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-resource-transformer-plugin-module
-new_url: /server/framework/atlassian-sdk/web-resource-transformer-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Resource Transformer plugin module
+title: Web Resource Transformer Plugin Module 852002
 ---
 # Web Resource Transformer plugin module
 
@@ -27,10 +25,6 @@ title: Web Resource Transformer plugin module
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 

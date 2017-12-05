@@ -30,115 +30,115 @@ You can insert the images directly into a page -- there's no need to attach them
 
 PNG File <a href="/download/attachments/7372858/1.png?api=v2" class="filename" title="Download">1.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/2.png?api=v2" class="filename" title="Download">2.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/3.png?api=v2" class="filename" title="Download">3.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/4.png?api=v2" class="filename" title="Download">4.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/5.png?api=v2" class="filename" title="Download">5.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/6.png?api=v2" class="filename" title="Download">6.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/7.png?api=v2" class="filename" title="Download">7.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/8.png?api=v2" class="filename" title="Download">8.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/9.png?api=v2" class="filename" title="Download">9.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 PNG File <a href="/download/attachments/7372858/10.png?api=v2" class="filename" title="Download">10.png</a>
 
-Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="fn url confluence-userlink">Sarah Maddox [Atlassian Technical Writer]</a>
+Oct 09, 2011 by <a href="%20%20%20%20/display/~smaddox%0A" class="confluence-userlink fn url">Sarah Maddox [Atlassian Technical Writer]</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="previewAttachmentLink aui-button">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
-Drag and drop to upload or <span class="browse-files aui-button-link aui-button">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
+Drag and drop to upload or <span class="aui-button browse-files aui-button-link">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
 
 Upload file
 

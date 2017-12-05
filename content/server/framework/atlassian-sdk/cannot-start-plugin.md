@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818394
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818394
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818394
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/cannot-start-plugin
-new_url: /server/framework/atlassian-sdk/cannot-start-plugin
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Cannot start plugin
+title: Cannot Start Plugin 2818394
 ---
 # Cannot start plugin
 

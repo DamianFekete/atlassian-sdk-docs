@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818617
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818617
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818617
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/creating-a-plugin-skeleton-with-the-atlassian-sdk
-new_url: /server/framework/atlassian-sdk/creating-a-plugin-skeleton-with-the-atlassian-sdk
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Creating a plugin skeleton with the Atlassian SDK
+title: Creating a Plugin Skeleton with the Atlassian Sdk 2818617
 ---
 # Creating a plugin skeleton with the Atlassian SDK
 

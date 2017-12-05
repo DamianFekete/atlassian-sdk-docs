@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 851992
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851992
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851992
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/quick-start-guide-to-embedding
-new_url: /server/framework/atlassian-sdk/quick-start-guide-to-embedding
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Quick start guide to embedding
+title: Quick Start Guide to Embedding 851992
 ---
 # Quick start guide to embedding
 

@@ -115,6 +115,10 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+
+-   Page:
+
     [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
@@ -128,10 +132,6 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
-
--   Page:
-
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 -   Page:
 

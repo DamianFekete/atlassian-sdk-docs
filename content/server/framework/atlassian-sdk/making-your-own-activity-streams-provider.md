@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852024
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852024
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852024
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/making-your-own-activity-streams-provider
-new_url: /server/framework/atlassian-sdk/making-your-own-activity-streams-provider
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Making your own Activity Streams provider
+title: Making Your Own Activity Streams Provider 852024
 ---
 # Making your own Activity Streams provider
 

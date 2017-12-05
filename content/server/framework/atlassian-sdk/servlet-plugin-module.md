@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852096
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852096
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852096
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-plugin-module
-new_url: /server/framework/atlassian-sdk/servlet-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet plugin module
+title: Servlet Plugin Module 852096
 ---
 # Servlet plugin module
 

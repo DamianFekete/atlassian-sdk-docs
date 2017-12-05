@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818650
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818650
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818650
-legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path
-new_url: /server/framework/atlassian-sdk/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Atlassian Plugin SDK ignores customisations for port or context path
+title: Atlassian Plugin Sdk Ignores Customisations for Port Or Context Path 2818650
 ---
 # Atlassian Plugin SDK ignores customisations for port or context path
 

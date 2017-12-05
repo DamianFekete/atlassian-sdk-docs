@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669147
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/finding-entities
-new_url: /server/framework/atlassian-sdk/finding-entities
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Finding entities
+title: Finding Entities 5669147
 ---
 # Finding entities
 

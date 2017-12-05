@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 34669832
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=34669832
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=34669832
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/configure-amps-to-run-jira-core-with-additional-applications-installed
-new_url: /server/framework/atlassian-sdk/configure-amps-to-run-jira-core-with-additional-applications-installed
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configure AMPS to run JIRA Core with additional applications installed
+title: Configure Amps to Run JIRA Core with Additional Applications Installed 34669832
 ---
 # Configure AMPS to run JIRA Core with additional applications installed
 
@@ -61,7 +59,7 @@ Atlassian AMPS 5.1.7 and above supports a new element: `applications.`` `This 
 For each application that should be installed, you must define an `application` element that has the following two child elements:
 
 -   `applicationKey` -- identifies the application to be installed
--   `version -- `defines the version of the application to be installed
+-   `version -- `defines the version of the application to be installed
 
 If more than one application is defined, the product will run with all defined applications installed. Applications are installed into the product's home directory, so changing application versions or removing an application from the applications list may require you to run `mvn clean`.
 

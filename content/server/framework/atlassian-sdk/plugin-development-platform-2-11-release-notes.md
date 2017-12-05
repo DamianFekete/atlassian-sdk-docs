@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852078
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852078
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852078
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-11-release-notes
-new_url: /server/framework/atlassian-sdk/plugin-development-platform-2-11-release-notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Development Platform 2.11 release notes
+title: Plugin Development Platform 2.11 Release Notes 852078
 ---
 # Plugin Development Platform 2.11 release notes
 
@@ -29,12 +27,6 @@ title: Plugin Development Platform 2.11 release notes
 -   <a href="https://studio.atlassian.com/svn/OAUTH/branches/atlassian-oauth-1.2.x/" class="external-link">OAUTH</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10330&amp;version=12125" class="external-link">1.2</a>
 -   <a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.4.x/" class="external-link">Trusted Apps</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=12452" class="external-link">2.5</a> (updated)
 -   <a href="https://studio.atlassian.com/svn/APL/branches/applinks-3.4.x" class="external-link">APL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12419" class="external-link">3.5</a> (updated)
-
- 
-
- 
-
- 
 
 **Wondering where are the Plugin Framework release notes?**  
 Starting with Atlassian Plugin Development Platform 2.9, we've combined the releases of the plugin framework as well as other key plugins, libraries, and API's that plugin developers depend on into the Atlassian Plugin Development Platform. The platform has been used internally for many releases to test and deliver a set of capabilities our products and plugins could build upon, and starting with version 2.9, this platform has been made available to the public.

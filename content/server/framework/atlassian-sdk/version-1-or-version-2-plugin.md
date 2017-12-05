@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 851971
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851971
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851971
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/version-1-or-version-2-plugin-glossary-entry
-new_url: /server/framework/atlassian-sdk/version-1-or-version-2-plugin
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Version 1 or version 2 plugin
+title: 851971
 ---
 # Version 1 or version 2 plugin
 

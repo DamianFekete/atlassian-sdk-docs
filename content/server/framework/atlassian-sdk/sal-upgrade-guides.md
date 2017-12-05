@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 35721082
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=35721082
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=35721082
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-upgrade-guides
-new_url: /server/framework/atlassian-sdk/sal-upgrade-guides
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: SAL upgrade guides
+title: Sal Upgrade Guides 35721082
 ---
 # SAL upgrade guides
 

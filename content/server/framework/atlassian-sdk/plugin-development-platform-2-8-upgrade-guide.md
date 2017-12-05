@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852113
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-8-release-notes/plugin-development-platform-2-8-upgrade-guide
-new_url: /server/framework/atlassian-sdk/plugin-development-platform-2-8-upgrade-guide
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Development Platform 2.8 upgrade guide
+title: Plugin Development Platform 2.8 Upgrade Guide 852113
 ---
 # Plugin Development Platform 2.8 upgrade guide
 

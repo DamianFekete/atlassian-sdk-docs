@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669688
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669688
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669688
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams/adding-activities-to-a-third-party-feed-with-the-rest-api
-new_url: /server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-rest-api
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding Activities to a Third Party Feed with the REST API
+title: Adding Activities to a Third Party Feed with the REST API 5669688
 ---
 # Adding Activities to a Third Party Feed with the REST API
 

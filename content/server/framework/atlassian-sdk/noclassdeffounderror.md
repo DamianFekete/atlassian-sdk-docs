@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818395
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818395
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818395
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/noclassdeffounderror
-new_url: /server/framework/atlassian-sdk/noclassdeffounderror
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: NoClassDefFoundError
+title: Noclassdeffounderror 2818395
 ---
 # NoClassDefFoundError
 

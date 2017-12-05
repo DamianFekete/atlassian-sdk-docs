@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 28318037
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28318037
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28318037
-legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-5-0-2-release-notes
-new_url: /server/framework/atlassian-sdk/amps-sdk-5-0-2-release-notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: AMPS SDK 5.0.2 release notes
+title: Amps Sdk 5.0.2 Release Notes 28318037
 ---
 # AMPS SDK 5.0.2 release notes
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16352140
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352140
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352140
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example
-new_url: /server/framework/atlassian-sdk/learn-the-development-platform-by-example
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Learn the development platform by example
+title: Learn the Development Platform By Example 16352140
 ---
 # Learn the development platform by example
 

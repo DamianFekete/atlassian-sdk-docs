@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818631
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818631
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818631
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components
-new_url: /server/framework/atlassian-sdk/atlassian-platform-common-components
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlassian Platform common components
+title: Atlassian Platform Common Components 2818631
 ---
 # Atlassian Platform common components
 

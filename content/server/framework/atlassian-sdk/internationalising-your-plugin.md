@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8946312
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946312
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946312
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/internationalising-your-plugin
-new_url: /server/framework/atlassian-sdk/internationalising-your-plugin
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Internationalising your plugin
+title: Internationalising Your Plugin 8946312
 ---
 # Internationalising your plugin
 

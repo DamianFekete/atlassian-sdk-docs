@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852025
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852025
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852025
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework
-new_url: /server/framework/atlassian-sdk/embedding-the-plugin-framework
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Embedding the Plugin Framework
+title: Embedding the Plugin Framework 852025
 ---
 # Embedding the Plugin Framework
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818388
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818388
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818388
-legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/deployment-stalled-due-to-spaces-in-directory-path
-new_url: /server/framework/atlassian-sdk/deployment-stalled-due-to-spaces-in-directory-path
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Deployment stalled due to spaces in directory path
+title: Deployment Stalled Due to Spaces in Directory Path 2818388
 ---
 # Deployment stalled due to spaces in directory path
 

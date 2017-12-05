@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 13633001
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633001
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633001
-legacy_url: https://developer.atlassian.com/docs/getting-started/downloads
-new_url: /server/framework/atlassian-sdk/downloads
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Downloads
+title: Downloads 13633001
 ---
 # Downloads
 
@@ -36,8 +34,6 @@ Just check your pre-requisites on [Windows](https://developer.atlassian.com/docs
 If you're installing the Atlassian SDK for the first time, you may want to follow the more detailed instructions. 
 
 › [Set up the Atlassian SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
-
- 
 
 ------------------------------------------------------------------------
 

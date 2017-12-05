@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16352154
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352154
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352154
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal
-new_url: /server/framework/atlassian-sdk/control-access-with-sal
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Control access with SAL
+title: Control Access with Sal 16352154
 ---
 # Control access with SAL
 

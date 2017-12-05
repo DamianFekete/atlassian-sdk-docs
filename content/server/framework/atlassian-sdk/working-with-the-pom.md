@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818313
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818313
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818313
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/getting-started/working-with-the-pom
-new_url: /server/framework/atlassian-sdk/working-with-the-pom
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Working with the POM
+title: Working with the Pom 2818313
 ---
 # Working with the POM
 

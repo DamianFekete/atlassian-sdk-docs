@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669840
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669840
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669840
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/working-with-maven
-new_url: /server/framework/atlassian-sdk/working-with-maven
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Working with Maven
+title: Working with Maven 5669840
 ---
 # Working with Maven
 

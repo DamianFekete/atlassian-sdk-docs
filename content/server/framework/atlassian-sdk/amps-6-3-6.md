@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 52429199
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=52429199
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=52429199
-legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes/amps-6-3-6
-new_url: /server/framework/atlassian-sdk/amps-6-3-6
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: AMPS 6.3.6
+title: Amps 6.3.6 52429199
 ---
 # AMPS 6.3.6
 

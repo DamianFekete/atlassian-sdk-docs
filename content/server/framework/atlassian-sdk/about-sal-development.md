@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 5242930
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242930
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242930
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/about-sal-development
-new_url: /server/framework/atlassian-sdk/about-sal-development
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: About SAL development
+title: About Sal Development 5242930
 ---
 # About SAL development
 

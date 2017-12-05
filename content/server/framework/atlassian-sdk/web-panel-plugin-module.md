@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852000
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852000
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852000
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-panel-plugin-module
-new_url: /server/framework/atlassian-sdk/web-panel-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Panel plugin module
+title: Web Panel Plugin Module 852000
 ---
 # Web Panel plugin module
 
@@ -27,10 +25,6 @@ title: Web Panel plugin module
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 
