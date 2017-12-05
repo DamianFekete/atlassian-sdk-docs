@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852081
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852081
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852081
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/supporting-minification-of-javascript-and-css-resources
-new_url: /server/framework/atlassian-sdk/supporting-minification-of-javascript-and-css-resources
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Supporting minification of JavaScript and CSS resources
+title: Supporting Minification Of Javascript and Css Resources 852081
 ---
 # Supporting minification of JavaScript and CSS resources
 

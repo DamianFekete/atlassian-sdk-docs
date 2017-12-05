@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 15335867
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335867
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335867
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/generate-and-examine-skeleton-tests
-new_url: /server/framework/atlassian-sdk/generate-and-examine-skeleton-tests
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Generate and Examine skeleton tests
+title: Generate and Examine Skeleton Tests 15335867
 ---
 # Generate and Examine skeleton tests
 

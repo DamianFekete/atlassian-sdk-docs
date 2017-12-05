@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818409
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818409
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818409
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/about-the-platform
-new_url: /server/framework/atlassian-sdk/about-the-platform
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: About the Platform
+title: About the Platform 2818409
 ---
 # About the Platform
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852149
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852149
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852149
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/static-plugin-glossary-entry
-new_url: /server/framework/atlassian-sdk/static-plugin
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Static plugin
+title: 852149
 ---
 # Static plugin
 

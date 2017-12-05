@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669145
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669145
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669145
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/getting-entities-by-pk
-new_url: /server/framework/atlassian-sdk/getting-entities-by-pk
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Getting entities by PK
+title: Getting Entities By Pk 5669145
 ---
 # Getting entities by PK
 

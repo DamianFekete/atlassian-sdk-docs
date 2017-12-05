@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 4915226
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915226
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915226
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1
-new_url: /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlassian REST API design guidelines version 1
+title: Atlassian REST API Design Guidelines Version 1 4915226
 ---
 # Atlassian REST API design guidelines version 1
 
@@ -552,23 +550,7 @@ public class XsrfCheck
 
 The following diagram shows when XSRF protection is enforced on a request to a rest resource in atlassian-rest 3.0.0 and later versions. 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><table>
-<caption> </caption>
-<tbody>
-<tr class="odd">
-<td><img src="/server/framework/atlassian-sdk/images/39373982.png" class="gliffy-macro-image" /></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+<img src="/server/framework/atlassian-sdk/images/39373982.png" class="gliffy-macro-image" />
 
 Also in atlassian-rest 3.0.0 a value of "nocheck" for the X-Atlassian-Token XSRF header has been deprecated and will result in a warning when used appearing in the logs. Since, rest 2.9.1 a value of **"no-check"**, is accepted in addition to the old "nocheck" rest value for the X-Atlassian-Token header ( <a href="https://ecosystem.atlassian.net/browse/REST-263?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />REST-263</a> - REST-164 Implemented checking the X-Atlassian-Token header with the wrong value Resolved ).
 

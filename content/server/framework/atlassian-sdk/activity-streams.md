@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852150
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852150
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852150
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/activity-streams
-new_url: /server/framework/atlassian-sdk/activity-streams
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Activity Streams
+title: Activity Streams 852150
 ---
 # Activity Streams
 

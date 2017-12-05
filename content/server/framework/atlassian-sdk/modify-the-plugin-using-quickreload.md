@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 41236017
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=41236017
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=41236017
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/modify-the-plugin-using-quickreload
-new_url: /server/framework/atlassian-sdk/modify-the-plugin-using-quickreload
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Modify the plugin using QuickReload
+title: Modify the Plugin Using Quickreload 41236017
 ---
 # Modify the plugin using QuickReload
 

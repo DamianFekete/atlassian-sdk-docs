@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 18252617
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252617
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252617
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle
-new_url: /server/framework/atlassian-sdk/development-cycle
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Development cycle
+title: Development Cycle 18252617
 ---
 # Development cycle
 

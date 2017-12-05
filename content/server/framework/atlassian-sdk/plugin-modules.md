@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852136
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852136
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852136
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules
-new_url: /server/framework/atlassian-sdk/plugin-modules
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Plugin modules
+title: Plugin Modules 852136
 ---
 # Plugin modules
 

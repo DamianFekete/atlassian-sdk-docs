@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945929
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945929
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945929
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/documenting-your-apis-with-the-atlassian-rest-api-browser
-new_url: /server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Documenting your APIs with the Atlassian REST API Browser
+title: Documenting Your APIs with the Atlassian REST API Browser 8945929
 ---
 # Documenting your APIs with the Atlassian REST API Browser
 

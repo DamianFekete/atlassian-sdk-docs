@@ -6,12 +6,10 @@ category: reference
 confluence_id: 851996
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851996
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851996
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/using-the-built-in-plugin-modules/servlet-modules
-new_url: /server/framework/atlassian-sdk/servlet-modules
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet modules
+title: Servlet Modules 851996
 ---
 # Servlet modules
 

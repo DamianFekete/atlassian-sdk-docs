@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818641
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818641
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818641
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting
-new_url: /server/framework/atlassian-sdk/troubleshooting
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Troubleshooting
+title: Troubleshooting 2818641
 ---
 # Troubleshooting
 

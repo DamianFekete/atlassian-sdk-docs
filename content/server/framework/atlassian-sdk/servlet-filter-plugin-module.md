@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852110
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852110
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852110
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-filter-plugin-module
-new_url: /server/framework/atlassian-sdk/servlet-filter-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet Filter plugin module
+title: Servlet Filter Plugin Module 852110
 ---
 # Servlet Filter plugin module
 

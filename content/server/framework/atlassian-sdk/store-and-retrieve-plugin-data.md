@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16352160
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352160
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352160
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/store-and-retrieve-plugin-data
-new_url: /server/framework/atlassian-sdk/store-and-retrieve-plugin-data
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Store and retrieve plugin data
+title: Store and Retrieve Plugin Data 16352160
 ---
 # Store and retrieve plugin data
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818349
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818349
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818349
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-integration-test
-new_url: /server/framework/atlassian-sdk/atlas-integration-test
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-integration-test
+title: Atlas Integration Test 2818349
 ---
 # atlas-integration-test
 

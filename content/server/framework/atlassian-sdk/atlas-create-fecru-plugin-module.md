@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945893
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945893
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945893
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-fecru-plugin-module
-new_url: /server/framework/atlassian-sdk/atlas-create-fecru-plugin-module
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-create-fecru-plugin-module
+title: Atlas Create Fecru Plugin Module 8945893
 ---
 # atlas-create-fecru-plugin-module
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852115
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852115
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852115
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/simple-plugin-glossary-entry
-new_url: /server/framework/atlassian-sdk/simple-plugin
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Simple plugin
+title: 852115
 ---
 # Simple plugin
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 11305021
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=11305021
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=11305021
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/set-up-the-eclipse-ide-for-linux
-new_url: /server/framework/atlassian-sdk/set-up-the-eclipse-ide-for-linux
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Set up the Eclipse IDE for Linux
+title: Set Up the Eclipse Ide for Linux 11305021
 ---
 # Set up the Eclipse IDE for Linux
 

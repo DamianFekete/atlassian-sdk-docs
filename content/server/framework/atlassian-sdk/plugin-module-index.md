@@ -6,12 +6,10 @@ category: reference
 confluence_id: 2818387
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818387
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818387
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/plugin-module-index
-new_url: /server/framework/atlassian-sdk/plugin-module-index
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Plugin module Index
+title: Plugin Module Index 2818387
 ---
 # Plugin module Index
 

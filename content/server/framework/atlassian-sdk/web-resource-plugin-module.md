@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852116
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852116
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852116
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-resource-plugin-module
-new_url: /server/framework/atlassian-sdk/web-resource-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Resource plugin module
+title: Web Resource Plugin Module 852116
 ---
 # Web Resource plugin module
 
@@ -33,10 +31,6 @@ title: Web Resource plugin module
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 
@@ -217,7 +211,7 @@ In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=85
 <td><p>atl.general</p></td>
 <td><p>Everywhere except administration screens.</p>
 {{% note %}}
-<div class="confluence-information-macro confluence-information-macro-note">
+<div class="confluence-information-macro-note confluence-information-macro">
 <div class="confluence-information-macro-body">
 <p>An issue prevents this context from working in the JIRA login page in JIRA 5.x and later. See <a href="https://jira.atlassian.com/browse/JRA-27960" class="uri external-link">https://jira.atlassian.com/browse/JRA-27960</a> for more information and a work-around.</p>
 </div>

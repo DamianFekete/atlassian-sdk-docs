@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852046
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852046
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852046
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/converting-from-version-1-to-version-2-osgi-plugins
-new_url: /server/framework/atlassian-sdk/converting-from-version-1-to-version-2-osgi-plugins
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Converting from Version 1 to Version 2 (OSGi) Plugins
+title: 852046
 ---
 # Converting from Version 1 to Version 2 (OSGi) Plugins
 

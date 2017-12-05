@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818357
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818357
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818357
-legacy_url: https://developer.atlassian.com/docs/faq/atlassian-plugin-sdk-faq/maven-warning-pom-for-x-is-invalid
-new_url: /server/framework/atlassian-sdk/maven-warning-pom-for-x-is-invalid
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Maven warning POM for X is invalid
+title: Maven Warning Pom for X is Invalid 2818357
 ---
 # Maven warning POM for X is invalid
 

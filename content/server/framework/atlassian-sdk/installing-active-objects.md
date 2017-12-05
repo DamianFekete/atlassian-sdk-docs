@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669200
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669200
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669200
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/installing-active-objects
-new_url: /server/framework/atlassian-sdk/installing-active-objects
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Installing Active Objects
+title: Installing Active Objects 5669200
 ---
 # Installing Active Objects
 

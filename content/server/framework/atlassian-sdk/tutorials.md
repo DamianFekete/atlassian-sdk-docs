@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818708
-legacy_url: https://developer.atlassian.com/docs/getting-started/tutorials
-new_url: /server/framework/atlassian-sdk/tutorials
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Tutorials
+title: Tutorials 2818708
 ---
 # Tutorials
 
@@ -115,6 +113,10 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
+    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+
+-   Page:
+
     [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
@@ -147,10 +149,6 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 -   Page:
 
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
     [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
@@ -158,10 +156,6 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
     [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
 #### Advanced
-
--   Page:
-
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 -   Page:
 
@@ -178,6 +172,10 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 -   Page:
 
     [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
+
+-   Page:
+
+    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
 
 ## FishEye/Crucible Tutorials
 
@@ -254,6 +252,10 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+
+-   Page:
+
     [REST Service Plugin Module Tutorial for FishEye](/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
 
 -   Page:
@@ -263,10 +265,6 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
-
--   Page:
-
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 ### Related Tutorials
 
@@ -340,7 +338,7 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Developing a REST Service Plugin](/display/DOCS/Developing+a+REST+Service+Plugin)
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 -   Page:
 
@@ -348,7 +346,7 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Developing a REST Service Plugin](/display/DOCS/Developing+a+REST+Service+Plugin)
 
 ### External Tutorials
 

@@ -85,6 +85,10 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
+    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+
+-   Page:
+
     [REST Service Plugin Module Tutorial for FishEye](/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
 
 -   Page:
@@ -94,10 +98,6 @@ Tutorials classified by the level of skill assumed:
 -   Page:
 
     [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
-
--   Page:
-
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 ### Related Tutorials
 

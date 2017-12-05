@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818113
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy/developing-speakeasy-extensions
-new_url: /server/framework/atlassian-sdk/developing-speakeasy-extensions
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developing Speakeasy extensions
+title: Developing Speakeasy Extensions 2818113
 ---
 # Developing Speakeasy extensions
 
@@ -65,16 +63,19 @@ When starting from scratch, you can use the extension wizard to create a new con
 2.  Navigate to your Speakeasy page, by clicking "Extensions" in the username dropdown:  
     <img src="/server/framework/atlassian-sdk/images/extensions-link---jira.png" width="300" />
 
-    {{% note %}}
+{{% note %}}
 
-    You may see a warning saying 'No one has access to this page. Click here to change these settings.' You'll need to click on the link to configure access for your extensions first before proceeding.
+You may see a warning saying 'No one has access to this page. Click here to change these settings.' You'll need to click on the link to configure access for your extensions first before proceeding.
 
-    {{% /note %}}
+{{% /note %}}
 
-3.  To start creating your Extension, click on the **+ Install** button, and then click on the "use the wizard" link
-4.  Fill in the key, name, and description of your new extension
-5.  Click "submit" and you'll see your new extension in the list
-6.  Click on "Enable" and refresh the page to see the banner your new extension is displaying
+3. To start creating your Extension, click on the **+ Install** button, and then click on the "use the wizard" link
+
+4. Fill in the key, name, and description of your new extension
+
+5. Click "submit" and you'll see your new extension in the list
+
+6. Click on "Enable" and refresh the page to see the banner your new extension is displaying
 
 If you click on "Edit", you'll see this plugin have the following files, assuming your extension key is 'myext':
 

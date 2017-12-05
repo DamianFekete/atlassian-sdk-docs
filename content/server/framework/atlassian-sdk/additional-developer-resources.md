@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 18252419
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252419
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252419
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/additional-developer-resources
-new_url: /server/framework/atlassian-sdk/additional-developer-resources
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Additional developer resources
+title: Additional Developer Resources 18252419
 ---
 # Additional developer resources
 

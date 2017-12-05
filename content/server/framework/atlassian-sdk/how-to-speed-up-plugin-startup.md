@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 8947254
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947254
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947254
-legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/how-to-speed-up-plugin-startup
-new_url: /server/framework/atlassian-sdk/how-to-speed-up-plugin-startup
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: How to speed up plugin startup
+title: How to Speed Up Plugin Startup 8947254
 ---
 # How to speed up plugin startup
 

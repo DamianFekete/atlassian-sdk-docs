@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852092
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852092
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852092
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/application-links
-new_url: /server/framework/atlassian-sdk/application-links
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Application links
+title: Application Links 852092
 ---
 # Application links
 

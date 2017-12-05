@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818634
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818634
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818634
-legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq
-new_url: /server/framework/atlassian-sdk/advanced-plugin-development-faq
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Advanced plugin development FAQ
+title: Advanced Plugin Development Faq 2818634
 ---
 # Advanced plugin development FAQ
 

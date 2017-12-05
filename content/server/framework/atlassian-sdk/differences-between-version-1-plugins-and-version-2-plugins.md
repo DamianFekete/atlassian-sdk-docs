@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852009
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852009
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852009
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/differences-between-version-1-plugins-and-version-2-plugins
-new_url: /server/framework/atlassian-sdk/differences-between-version-1-plugins-and-version-2-plugins
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Differences between version 1 plugins and version 2 plugins
+title: Differences Between Version 1 Plugins and Version 2 Plugins 852009
 ---
 # Differences between version 1 plugins and version 2 plugins
 

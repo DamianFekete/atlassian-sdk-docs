@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818390
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818390
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818390
-legacy_url: https://developer.atlassian.com/docs/faq/advanced-plugin-development-faq/getting-custom-fields-from-confluence-v2-searches
-new_url: /server/framework/atlassian-sdk/getting-custom-fields-from-confluence-v2-searches
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Getting custom fields from Confluence V2 Searches
+title: Getting Custom Fields From Confluence V2 Searches 2818390
 ---
 # Getting custom fields from Confluence V2 Searches
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 10421987
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421987
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421987
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/explore-the-installed-sdk-and-the-atlas-commands
-new_url: /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Explore the installed SDK and the atlas commands
+title: Explore the Installed Sdk and the Atlas Commands 10421987
 ---
 # Explore the installed SDK and the atlas commands
 
@@ -181,7 +179,7 @@ If you haven't already done so, open a command window and do the following:
 
 5.  Open a browser and enter the JIRA URL.
 
-    You should see the URL for your installation displayed in the run output. For example, you might see <a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a><a href="http://localhost:2990/jira" class="external-link"> depending on your environment. On successful launch, the browser displays the JIRA login page.</a>
+    You should see the URL for your installation displayed in the run output. For example, you might see <a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a> depending on your environment. On successful launch, the browser displays the JIRA login page.<a href="http://localhost:2990/jira" class="external-link"></a>
 
 6.  Enter `admin` for both the username and password.  
     Your browser displays the JIRA dashboard:  

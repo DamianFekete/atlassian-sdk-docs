@@ -68,7 +68,7 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Developing a REST Service Plugin](/display/DOCS/Developing+a+REST+Service+Plugin)
+    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
 
 -   Page:
 
@@ -76,7 +76,7 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Developing a REST Service Plugin](/display/DOCS/Developing+a+REST+Service+Plugin)
 
 ### External Tutorials
 

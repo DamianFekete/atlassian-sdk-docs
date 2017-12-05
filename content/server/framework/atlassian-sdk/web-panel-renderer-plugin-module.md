@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852106
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852106
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852106
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-panel-renderer-plugin-module
-new_url: /server/framework/atlassian-sdk/web-panel-renderer-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Panel Renderer plugin module
+title: Web Panel Renderer Plugin Module 852106
 ---
 # Web Panel Renderer plugin module
 

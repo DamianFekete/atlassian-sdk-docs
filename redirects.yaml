@@ -301,7 +301,7 @@ redirects:
     old: /docs/faq/troubleshooting/unsatisfieddependencyexception-error-creating-bean-with-name}
 - {new: /server/framework/atlassian-sdk/velocity-in-osgi, old: /docs/faq/troubleshooting/velocity-in-osgi}
 - {new: /server/framework/atlassian-sdk/writing-your-first-plugin-faq, old: /docs/faq/writing-your-first-plugin-faq}
-- {new: /server/framework/atlassian-sdk/index, old: /docs/getting-started}
+- {new: /server/framework/atlassian-sdk/, old: /docs/getting-started}
 - {new: /server/framework/atlassian-sdk/getting-started-with-the-rest-apis, old: /docs/getting-started-with-the-rest-apis}
 - {new: /server/framework/atlassian-sdk/adding-resources-to-your-project, old: /docs/getting-started/adding-resources-to-your-project}
 - {new: /server/framework/atlassian-sdk/atlassian-javadoc, old: /docs/getting-started/atlassian-javadoc}

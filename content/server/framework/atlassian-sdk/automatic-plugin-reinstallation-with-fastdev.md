@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945760
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945760
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945760
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/automatic-plugin-reinstallation-with-fastdev
-new_url: /server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-fastdev
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Automatic plugin reinstallation with FastDev
+title: Automatic Plugin Reinstallation with Fastdev 8945760
 ---
 # Automatic plugin reinstallation with FastDev
 

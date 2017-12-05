@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 39999656
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=39999656
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=39999656
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/ao-1-2-0-upgrade-guide
-new_url: /server/framework/atlassian-sdk/ao-1-2-0-upgrade-guide
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: AO 1.2.0 upgrade guide
+title: Ao 1.2.0 Upgrade Guide 39999656
 ---
 # AO 1.2.0 upgrade guide
 

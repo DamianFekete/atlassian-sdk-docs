@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852123
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852123
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852123
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/servlet-context-listener-plugin-module
-new_url: /server/framework/atlassian-sdk/servlet-context-listener-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet Context Listener plugin module
+title: Servlet Context Listener Plugin Module 852123
 ---
 # Servlet Context Listener plugin module
 

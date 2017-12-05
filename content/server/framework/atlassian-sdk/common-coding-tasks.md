@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852076
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852076
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852076
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks
-new_url: /server/framework/atlassian-sdk/common-coding-tasks
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Common coding tasks
+title: Common Coding Tasks 852076
 ---
 # Common coding tasks
 

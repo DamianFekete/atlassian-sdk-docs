@@ -12,23 +12,7 @@ subcategory:
 ---
 # Documentation : \_PluginSDK\_StepByStep\_Diagram\_Install2
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><table>
-<caption> </caption>
-<tbody>
-<tr class="odd">
-<td><img src="/server/framework/atlassian-sdk/images/5865608.png" class="gliffy-macro-image" /></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+<img src="/server/framework/atlassian-sdk/images/5865608.png" class="gliffy-macro-image" />
 
 
 

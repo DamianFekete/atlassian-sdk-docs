@@ -6,22 +6,16 @@ category: devguide
 confluence_id: 16974521
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974521
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974521
-legacy_url: https://developer.atlassian.com/docs/getting-started/configuring-the-plugin-descriptor/atlassian-plugin-xml-element-reference
-new_url: /server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: atlassian-plugin.xml element reference
+title: Atlassian Plugin.Xml Element Reference 16974521
 ---
 # atlassian-plugin.xml element reference
 
 The `atlassian-plugin.xml` file describes your plugin to Atlassian applications like JIRA or Confluence. For this reason, you'll often see this file referred to as the *descriptor*. This file describes important elements like your plugin component modules and visual resources that the Universal Plugin Manager (UPM) uses.  
 
 The following sections describe some of the basic elements in the descriptor XML file.
-
- 
-
- 
 
 The `atlassian-plugin` element
 

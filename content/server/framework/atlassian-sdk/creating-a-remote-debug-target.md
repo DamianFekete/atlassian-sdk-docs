@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818651
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818651
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818651
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/creating-a-remote-debug-target
-new_url: /server/framework/atlassian-sdk/creating-a-remote-debug-target
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Creating a remote debug target
+title: Creating a Remote Debug Target 2818651
 ---
 # Creating a remote debug target
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852102
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852102
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852102
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/marking-packages-as-optional-imports
-new_url: /server/framework/atlassian-sdk/marking-packages-as-optional-imports
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Marking packages as optional imports
+title: Marking Packages As Optional Imports 852102
 ---
 # Marking packages as optional imports
 

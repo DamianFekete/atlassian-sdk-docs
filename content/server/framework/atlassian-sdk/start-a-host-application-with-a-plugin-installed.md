@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818619
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818619
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818619
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/start-a-host-application-with-a-plugin-installed
-new_url: /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Start a host application with a plugin installed
+title: Start a Host Application with a Plugin Installed 2818619
 ---
 # Start a host application with a plugin installed
 

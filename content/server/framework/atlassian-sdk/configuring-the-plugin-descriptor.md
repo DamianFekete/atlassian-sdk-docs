@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852008
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852008
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852008
-legacy_url: https://developer.atlassian.com/docs/getting-started/configuring-the-plugin-descriptor
-new_url: /server/framework/atlassian-sdk/configuring-the-plugin-descriptor
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Configuring the plugin descriptor
+title: Configuring the Plugin Descriptor 852008
 ---
 # Configuring the plugin descriptor
 

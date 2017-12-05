@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852107
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852107
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852107
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework
-new_url: /server/framework/atlassian-sdk/plugin-framework
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Plugin Framework
+title: Plugin Framework 852107
 ---
 # Plugin Framework
 

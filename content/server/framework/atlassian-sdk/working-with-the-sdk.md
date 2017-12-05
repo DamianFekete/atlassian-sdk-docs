@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818723
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818723
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818723
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk
-new_url: /server/framework/atlassian-sdk/working-with-the-sdk
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Working with the SDK
+title: Working with the Sdk 2818723
 ---
 # Working with the SDK
 

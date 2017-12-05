@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 28317031
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28317031
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28317031
-legacy_url: https://developer.atlassian.com/docs/amps-sdk-release-notes
-new_url: /server/framework/atlassian-sdk/amps-sdk-release-notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: AMPS SDK release notes
+title: Amps Sdk Release Notes 28317031
 ---
 # AMPS SDK release notes
 

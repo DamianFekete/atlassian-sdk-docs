@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 21463904
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=21463904
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=21463904
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module
-new_url: /server/framework/atlassian-sdk/convert-component-to-servlet-module
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Convert component to servlet module
+title: Convert Component to Servlet Module 21463904
 ---
 # Convert component to servlet module
 

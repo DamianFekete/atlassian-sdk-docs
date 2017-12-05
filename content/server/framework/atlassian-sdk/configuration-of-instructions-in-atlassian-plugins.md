@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 38449742
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38449742
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38449742
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/configuration-of-instructions-in-atlassian-plugins
-new_url: /server/framework/atlassian-sdk/configuration-of-instructions-in-atlassian-plugins
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configuration of Instructions in Atlassian Plugins
+title: Configuration Of Instructions in Atlassian Plugins 38449742
 ---
 # Configuration of Instructions in Atlassian Plugins
 

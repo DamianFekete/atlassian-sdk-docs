@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669161
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669161
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669161
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project
-new_url: /server/framework/atlassian-sdk/configuring-your-project
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configuring your project
+title: Configuring Your Project 5669161
 ---
 # Configuring your project
 

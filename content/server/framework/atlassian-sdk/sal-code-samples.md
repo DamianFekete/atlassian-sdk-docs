@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 5242906
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242906
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242906
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-code-samples
-new_url: /server/framework/atlassian-sdk/sal-code-samples
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: SAL code samples
+title: Sal Code Samples 5242906
 ---
 # SAL code samples
 

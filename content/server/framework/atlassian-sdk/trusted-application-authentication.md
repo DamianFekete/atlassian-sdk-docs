@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818272
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818272
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818272
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/trusted-application-authentication-glossary-entry
-new_url: /server/framework/atlassian-sdk/trusted-application-authentication
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Trusted application authentication
+title: 2818272
 ---
 # Trusted application authentication
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8946978
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946978
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946978
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/ao-0-18-x-upgrade-guide/how-to-upgrade-ao-to-0-18-x-in-jira-5
-new_url: /server/framework/atlassian-sdk/how-to-upgrade-ao-to-0-18-x-in-jira-5
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: How to upgrade AO to 0.18.x in JIRA 5
+title: How to Upgrade Ao to 0.18.X in JIRA 5 8946978
 ---
 # How to upgrade AO to 0.18.x in JIRA 5
 

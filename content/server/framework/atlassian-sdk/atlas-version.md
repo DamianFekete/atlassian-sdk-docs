@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818345
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818345
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818345
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-version
-new_url: /server/framework/atlassian-sdk/atlas-version
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-version
+title: Atlas Version 2818345
 ---
 # atlas-version
 

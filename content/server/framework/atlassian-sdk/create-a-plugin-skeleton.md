@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16352143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352143
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/learn-the-development-platform-by-example/create-a-plugin-skeleton
-new_url: /server/framework/atlassian-sdk/create-a-plugin-skeleton
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Create a plugin skeleton
+title: Create a Plugin Skeleton 16352143
 ---
 # Create a plugin skeleton
 

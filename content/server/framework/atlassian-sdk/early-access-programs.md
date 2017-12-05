@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818399
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818399
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818399
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/additional-developer-resources/early-access-programs
-new_url: /server/framework/atlassian-sdk/early-access-programs
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Early access programs
+title: Early Access Programs 2818399
 ---
 # Early access programs
 

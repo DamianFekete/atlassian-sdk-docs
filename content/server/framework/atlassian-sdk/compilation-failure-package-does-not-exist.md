@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818393
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818393
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818393
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/compilation-failure-package-does-not-exist
-new_url: /server/framework/atlassian-sdk/compilation-failure-package-does-not-exist
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Compilation failure - package does not exist
+title: Compilation Failure Package Does Not Exist 2818393
 ---
 # Compilation failure - package does not exist
 

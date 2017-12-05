@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852012
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852012
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852012
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/access-components-statically
-new_url: /server/framework/atlassian-sdk/access-components-statically
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Access components statically
+title: Access Components Statically 852012
 ---
 # Access components statically
 

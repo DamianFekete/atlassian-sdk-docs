@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 13631708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13631708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13631708
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/creating-an-admin-configuration-form/basic-plugin-tutorial
-new_url: /server/framework/atlassian-sdk/basic-plugin-tutorial
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Basic plugin tutorial
+title: Basic Plugin Tutorial 13631708
 ---
 # Basic plugin tutorial
 
@@ -530,7 +528,7 @@ Because this project creates an admin page, the servlet should check that the us
         } 
     ```
 
-    The `redirectToLogin` method uses another service provided by SAL, the <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/auth/LoginUriProvider.html" class="external-link"><code>LoginUriProvider</code></a>. The servlet uses this API to construct a URI to the application's login page. The method also provides the page with a URI parameter representing the page the user is redirected to. The servlet passes it the current URI redirecting the user back to the admin UI where they can properly authenticate. Passing a `LoginUriProvider` instance to the constructor ensures that the UI is injected by the plugin system.
+    The `redirectToLogin` method uses another service provided by SAL, the <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/auth/LoginUriProvider.html" class="external-link">LoginUriProvider</a>. The servlet uses this API to construct a URI to the application's login page. The method also provides the page with a URI parameter representing the page the user is redirected to. The servlet passes it the current URI redirecting the user back to the admin UI where they can properly authenticate. Passing a `LoginUriProvider` instance to the constructor ensures that the UI is injected by the plugin system.
 
 5.  Close and save the `MyServlet.java` file.
 
@@ -920,7 +918,7 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
 11. Choose N for **Add Another Plugin Module**.  
     The generator updates your project. 
-12. At the root of your project directory, run the `atlas-mvn eclipse:eclipse` command. 
+12. At the root of your project directory, run the `atlas-mvn `<a href="http://eclipseeclipse" class="external-link">eclipse:eclipse</a> command. 
 
 ### What the Generator Added
 
@@ -1178,7 +1176,7 @@ The REST code builds a configuration resource your plugin will use to store conf
         }
     ```
 
-    The GET method first performs the now familiar user check. We then construct a `Response` with an entity that is returned from a call to a funky <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionTemplate.html#execute%28com.atlassian.sal.api.transaction.TransactionCallback%29" class="external-link"><code>transactionTemplate.execute</code></a> method, providing it with an instance of <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionCallback.html" class="external-link"><code>TransactionCallback</code></a>. If you've used Spring's <a href="http://static.springsource.org/spring/docs/1.2.9/api/org/springframework/transaction/support/TransactionTemplate.html" class="external-link"><code>TransactionTemplate</code></a>, this should look familiar to you. For everyone spoiled by AOP, the summary is that we are accessing data that is coming from a database--well, it's not in Fisheye or Crucible, but work with me here!  
+    The GET method first performs the now familiar user check. We then construct a `Response` with an entity that is returned from a call to a funky <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionTemplate.html#execute%28com.atlassian.sal.api.transaction.TransactionCallback%29" class="external-link">transactionTemplate.execute</a> method, providing it with an instance of <a href="http://docs.atlassian.com/sal-api/2.0.16-SNAPSHOT/com/atlassian/sal/api/transaction/TransactionCallback.html" class="external-link">TransactionCallback</a>. If you've used Spring's <a href="http://static.springsource.org/spring/docs/1.2.9/api/org/springframework/transaction/support/TransactionTemplate.html" class="external-link">TransactionTemplate</a>, this should look familiar to you. For everyone spoiled by AOP, the summary is that we are accessing data that is coming from a database--well, it's not in Fisheye or Crucible, but work with me here!  
 
     Once we have a reference to a `PluginSettings` object, things are pretty easy. `PluginSettings` can be thought of as a persistent map. Just use `get` to retrieve data and `put` to add or update values.
 
@@ -1190,7 +1188,7 @@ The REST code builds a configuration resource your plugin will use to store conf
 
     {{% /note %}}
 
-5.  Add a `PUT` method.  ``
+5.  Add a `PUT` method.``
 
     ``` java
         @PUT
@@ -1249,7 +1247,7 @@ Inside our `TransactionCallback.doInTransaction` method, we use the `PluginSe
 
 ## Step 9. Use Javascript to Wire REST and the Form
 
-You have added a REST resource that is capable of getting and setting values in the database.  This resource is loaded along with your plugin into the container.  You use the JQuery implementation in AUI to populate your form. You'll make use of jQuery's <a href="http://docs.jquery.com/Ajax/jQuery.ajax" class="external-link"><code>ajax</code></a> method to communicate with your REST resources.
+You have added a REST resource that is capable of getting and setting values in the database.  This resource is loaded along with your plugin into the container.  You use the JQuery implementation in AUI to populate your form. You'll make use of jQuery's <a href="http://docs.jquery.com/Ajax/jQuery.ajax" class="external-link">ajax</a> method to communicate with your REST resources.
 
 ### Add JavaScript for GETting the configuration
 

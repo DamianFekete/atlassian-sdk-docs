@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945890
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945890
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945890
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-crowd-plugin-module
-new_url: /server/framework/atlassian-sdk/atlas-create-crowd-plugin-module
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-create-crowd-plugin-module
+title: Atlas Create Crowd Plugin Module 8945890
 ---
 # atlas-create-crowd-plugin-module
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852007
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852007
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852007
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/running-on-websphere-6-1
-new_url: /server/framework/atlassian-sdk/running-on-websphere-6-1
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Running on WebSphere 6.1
+title: Running On Websphere 6.1 852007
 ---
 # Running on WebSphere 6.1
 

@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 15335861
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335861
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335861
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests
-new_url: /server/framework/atlassian-sdk/writing-and-running-plugin-tests
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Writing and running plugin tests
+title: Writing and Running Plugin Tests 15335861
 ---
 # Writing and running plugin tests
 

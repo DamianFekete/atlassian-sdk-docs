@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 35720070
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=35720070
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=35720070
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/ao-0-18-x-upgrade-guide/ao-0-29-x-upgrade-guide
-new_url: /server/framework/atlassian-sdk/ao-0-29-x-upgrade-guide
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: AO 0.29.x upgrade guide
+title: Ao 0.29.X Upgrade Guide 35720070
 ---
 # AO 0.29.x upgrade guide
 

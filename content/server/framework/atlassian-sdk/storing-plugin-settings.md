@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 18251950
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18251950
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18251950
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/storing-plugin-settings
-new_url: /server/framework/atlassian-sdk/storing-plugin-settings
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Storing plugin settings
+title: Storing Plugin Settings 18251950
 ---
 # Storing plugin settings
 
@@ -32,7 +30,7 @@ The `ConfluencePluginSettings` object uses [Bandana](https://developer.atlass
 
 Here is a diagram of SAL's plugin settings objects:
 
-<img src="http://atlassian.wpengine.netdna-cdn.com/developer/gliffy_factory_pattern.jpg" alt="gliffy_factory_pattern.jpg" class="confluence-external-resource mt-image-none" width="598" height="317" />
+<img src="http://atlassian.wpengine.netdna-cdn.com/developer/gliffy_factory_pattern.jpg" alt="gliffy_factory_pattern.jpg" class="mt-image-none confluence-external-resource" width="598" height="317" />
 
 The `PluginSettingsFactory` uses the <a href="http://en.wikipedia.org/wiki/Abstract_factory_pattern" class="external-link">abstract factory pattern</a>: it "provides an interface for creating families of related or dependent objects without specifying their concrete classes" (p. 87 in *Design Patterns* by Gamma et al).
 

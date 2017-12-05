@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669113
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/speakeasy
-new_url: /server/framework/atlassian-sdk/speakeasy
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Speakeasy
+title: Speakeasy 5669113
 ---
 # Speakeasy
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 13633056
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633056
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633056
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-update
-new_url: /server/framework/atlassian-sdk/atlas-update
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-update
+title: Atlas Update 13633056
 ---
 # atlas-update
 

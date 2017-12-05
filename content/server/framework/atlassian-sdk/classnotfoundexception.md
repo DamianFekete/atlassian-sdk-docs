@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 851975
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851975
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851975
-legacy_url: https://developer.atlassian.com/docs/faq/troubleshooting/classnotfoundexception
-new_url: /server/framework/atlassian-sdk/classnotfoundexception
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: ClassNotFoundException
+title: Classnotfoundexception 851975
 ---
 # ClassNotFoundException
 

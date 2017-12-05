@@ -6,19 +6,14 @@ category: devguide
 confluence_id: 851970
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851970
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851970
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-10-release-notes
-new_url: /server/framework/atlassian-sdk/plugin-development-platform-2-10-release-notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Development Platform 2.10 release notes
+title: Plugin Development Platform 2.10 Release Notes 851970
 ---
 # Plugin Development Platform 2.10 release notes
 
 **19 April 2011**With pleasure, Atlassian presents the **Atlassian Plugin Development Platform 2.10**.
-
-**  
-**
 
 **Release Components:**
 
@@ -33,8 +28,6 @@ title: Plugin Development Platform 2.10 release notes
 -   <a href="https://studio.atlassian.com/svn/TRUST/branches/atlassian-trusted-apps-2.4.x/" class="external-link">Trusted Apps</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10110&amp;version=12266" class="external-link">2.4</a> (updated)
 -   <a href="https://studio.atlassian.com/svn/APL/branches/applinks-3.4.x" class="external-link">APL</a> - version <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12346" class="external-link">3.4</a>, see also <a href="https://studio.atlassian.com/secure/ReleaseNote.jspa?projectId=10130&amp;version=12320" class="external-link">3.3</a> (updated)
 
- 
-
 **Wondering where are the Plugin Framework release notes?**  
 Starting with Atlassian Plugin Development Platform 2.9, we've combined the releases of the plugin framework as well as other key plugins, libraries, and API's that plugin developers depend on into the Atlassian Plugin Development Platform. The platform has been used internally for many releases to test and deliver a set of capabilities our products and plugins could build upon, and starting with version 2.9, this platform has been made available to the public.
 
@@ -46,41 +39,20 @@ We would love your feedback. Please log your requests, bug reports and comments 
 
  
 
-# Highlights of this Release
+1.  **Basic IE9 Compatibility in AUI**  
+    With the release of IE9 several changes were required to fix regressions in IE9. See [AUI 3.4 Release Notes](https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes) for details.
 
-## 1 Basic IE9 Compatibility in AUI
+2.  **jQuery 1.5 upgrade in AUI**  
+    jQuery 1.5 is a major release which brings <a href="http://blog.jquery.com/2011/01/31/jquery-15-released/" class="external-link">multiple new features</a>.
+3.  **WebSudo can now be enabled while in Atlassian developer mode**
 
- 
+    Atlassian developer mode (-Datlassian.dev.mode=true) changes the host application behaviour to be more developer friendly in various ways. One optimisation disables WebSudo functionality in order to make testing easier and faster. -Datlassian.dev.websudo=true can be used to revert this while using the developer mode.
 
- 
+4.  **Universal Plugin Manager adds a new tab displaying useful information about the state of the host application's OSGi container**
 
-With the release of IE9 several changes were required to fix regressions in IE9. See [AUI 3.4 Release Notes](https://developer.atlassian.com/display/AUI/AUI+3.4+Release+Notes) for details.
+    When Atlassian developer mode is enabled, Universal Plugin Manager contains a 'Developer' tab displaying useful information.
 
-## 2 jQuery 1.5 upgrade in AUI
-
- 
-
- 
-
-jQuery 1.5 is a major release which brings <a href="http://blog.jquery.com/2011/01/31/jquery-15-released/" class="external-link">multiple new features</a>.
-
-## 3 WebSudo can now be enabled while in Atlassian developer mode
-
- 
-
- 
-
-Atlassian developer mode (-Datlassian.dev.mode=true) changes the host application behaviour to be more developer friendly in various ways. One optimisation disables WebSudo functionality in order to make testing easier and faster. -Datlassian.dev.websudo=true can be used to revert this while using the developer mode.
-
-## 4 Universal Plugin Manager adds a new tab displaying useful information about the state of the host application's OSGi container
-
- 
-
- 
-
-When Atlassian developer mode is enabled, Universal Plugin Manager contains a 'Developer' tab displaying useful information.
-
-![](/server/framework/atlassian-sdk/images/developer-tab.png)
+    ![](/server/framework/atlassian-sdk/images/developer-tab.png)
 
 
 

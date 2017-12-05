@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945896
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945896
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945896
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-refapp-plugin-module
-new_url: /server/framework/atlassian-sdk/atlas-create-refapp-plugin-module
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-create-refapp-plugin-module
+title: Atlas Create Refapp Plugin Module 8945896
 ---
 # atlas-create-refapp-plugin-module
 

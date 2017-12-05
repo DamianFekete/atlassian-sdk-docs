@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 16974213
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974213
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974213
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/declaring-jndi-datasources-in-amps
-new_url: /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Declaring JNDI datasources in AMPS
+title: Declaring Jndi Datasources in Amps 16974213
 ---
 # Declaring JNDI datasources in AMPS
 

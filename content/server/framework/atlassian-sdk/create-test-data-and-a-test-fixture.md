@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 15335913
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335913
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335913
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/create-test-data-and-a-test-fixture
-new_url: /server/framework/atlassian-sdk/create-test-data-and-a-test-fixture
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Create test data and a test fixture
+title: Create Test Data and a Test Fixture 15335913
 ---
 # Create test data and a test fixture
 

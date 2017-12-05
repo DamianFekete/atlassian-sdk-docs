@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 5242944
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242944
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242944
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/shared-access-layer/sal-version-matrix
-new_url: /server/framework/atlassian-sdk/sal-version-matrix
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: SAL version matrix
+title: Sal Version Matrix 5242944
 ---
 # SAL version matrix
 

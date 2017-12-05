@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669184
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669184
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669184
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/upgrading-your-plugin-and-handling-data-model-updates
-new_url: /server/framework/atlassian-sdk/upgrading-your-plugin-and-handling-data-model-updates
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Upgrading your plugin and handling data model updates
+title: Upgrading Your Plugin and Handling Data Model Updates 5669184
 ---
 # Upgrading your plugin and handling data model updates
 

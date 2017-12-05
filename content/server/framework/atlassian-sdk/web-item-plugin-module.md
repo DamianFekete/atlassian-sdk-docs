@@ -6,12 +6,10 @@ category: reference
 confluence_id: 852014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852014
-legacy_url: https://developer.atlassian.com/docs/getting-started/plugin-modules/web-item-plugin-module
-new_url: /server/framework/atlassian-sdk/web-item-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Item plugin module
+title: Web Item Plugin Module 852014
 ---
 # Web Item plugin module
 

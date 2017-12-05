@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818640
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818640
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818640
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/common-coding-tasks/development-cycle/packaging-and-releasing-your-plugin
-new_url: /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Packaging and releasing your plugin
+title: Packaging and Releasing Your Plugin 2818640
 ---
 # Packaging and releasing your plugin
 

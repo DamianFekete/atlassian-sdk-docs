@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818379
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818379
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818379
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-in-an-ide/configure-netbeans-to-use-the-sdk
-new_url: /server/framework/atlassian-sdk/configure-netbeans-to-use-the-sdk
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configure NetBeans to use the SDK
+title: Configure Netbeans to Use the Sdk 2818379
 ---
 # Configure NetBeans to use the SDK
 

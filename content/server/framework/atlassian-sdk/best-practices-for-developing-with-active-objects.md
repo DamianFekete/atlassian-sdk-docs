@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8946892
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946892
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946892
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/best-practices-for-developing-with-active-objects
-new_url: /server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Best practices for developing with Active Objects
+title: Best Practices for Developing with Active Objects 8946892
 ---
 # Best practices for developing with Active Objects
 

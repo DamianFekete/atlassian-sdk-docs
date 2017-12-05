@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 33736398
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=33736398
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=33736398
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/advanced-topics/adding-data-providers-to-your-plugin
-new_url: /server/framework/atlassian-sdk/adding-data-providers-to-your-plugin
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding data providers to your plugin
+title: Adding Data Providers to Your Plugin 33736398
 ---
 # Adding data providers to your plugin
 

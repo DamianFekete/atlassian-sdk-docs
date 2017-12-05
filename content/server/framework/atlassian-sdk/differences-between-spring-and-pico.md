@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852131
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852131
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852131
-legacy_url: https://developer.atlassian.com/docs/faq/plugin-framework-faq/differences-between-spring-and-pico
-new_url: /server/framework/atlassian-sdk/differences-between-spring-and-pico
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Differences between Spring and Pico
+title: Differences Between Spring and Pico 852131
 ---
 # Differences between Spring and Pico
 

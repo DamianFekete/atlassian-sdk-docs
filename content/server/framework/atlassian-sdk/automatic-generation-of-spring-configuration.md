@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852044
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852044
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852044
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework/automatic-generation-of-spring-configuration
-new_url: /server/framework/atlassian-sdk/automatic-generation-of-spring-configuration
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Automatic generation of Spring configuration
+title: Automatic Generation Of Spring Configuration 852044
 ---
 # Automatic generation of Spring configuration
 

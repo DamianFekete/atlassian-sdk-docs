@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669139
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library
-new_url: /server/framework/atlassian-sdk/the-active-objects-library
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: The Active Objects library
+title: The Active Objects Library 5669139
 ---
 # The Active Objects library
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 37882647
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=37882647
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=37882647
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-run-cloud
-new_url: /server/framework/atlassian-sdk/atlas-run-cloud
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-run-cloud
+title: Atlas Run Cloud 37882647
 ---
 # atlas-run-cloud
 

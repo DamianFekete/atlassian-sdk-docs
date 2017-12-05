@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669196
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669196
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669196
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/testing-a-plugin-that-uses-active-objects
-new_url: /server/framework/atlassian-sdk/testing-a-plugin-that-uses-active-objects
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Testing a plugin that uses Active Objects
+title: Testing a Plugin That Uses Active Objects 5669196
 ---
 # Testing a plugin that uses Active Objects
 

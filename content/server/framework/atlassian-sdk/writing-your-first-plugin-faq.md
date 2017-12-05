@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 2818654
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818654
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818654
-legacy_url: https://developer.atlassian.com/docs/faq/writing-your-first-plugin-faq
-new_url: /server/framework/atlassian-sdk/writing-your-first-plugin-faq
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Writing your first plugin FAQ
+title: Writing Your First Plugin Faq 2818654
 ---
 # Writing your first plugin FAQ
 

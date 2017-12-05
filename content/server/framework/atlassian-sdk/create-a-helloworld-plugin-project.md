@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 10422115
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10422115
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10422115
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project
-new_url: /server/framework/atlassian-sdk/create-a-helloworld-plugin-project
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Create a HelloWorld plugin project
+title: Create a Helloworld Plugin Project 10422115
 ---
 # Create a HelloWorld plugin project
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818632
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818632
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818632
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/about-the-atlassian-refapp
-new_url: /server/framework/atlassian-sdk/about-the-atlassian-refapp
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: About the Atlassian RefApp
+title: About the Atlassian Refapp 2818632
 ---
 # About the Atlassian RefApp
 

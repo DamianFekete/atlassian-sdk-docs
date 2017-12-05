@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 852031
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852031
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852031
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/behind-the-scenes-in-the-plugin-framework
-new_url: /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Behind the scenes in the Plugin Framework
+title: Behind the Scenes in the Plugin Framework 852031
 ---
 # Behind the scenes in the Plugin Framework
 

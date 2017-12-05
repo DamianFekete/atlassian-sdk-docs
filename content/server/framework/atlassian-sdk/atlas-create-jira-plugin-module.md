@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 8945854
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945854
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945854
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-jira-plugin-module
-new_url: /server/framework/atlassian-sdk/atlas-create-jira-plugin-module
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-create-jira-plugin-module
+title: Atlas Create JIRA Plugin Module 8945854
 ---
 # atlas-create-jira-plugin-module
 

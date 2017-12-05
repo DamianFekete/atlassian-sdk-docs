@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669157
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669157
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669157
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/testing
-new_url: /server/framework/atlassian-sdk/testing
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Testing
+title: Testing 5669157
 ---
 # Testing
 

@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 2818353
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818353
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818353
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/developer-tools/working-with-the-sdk/command-reference/atlas-create-bamboo-plugin
-new_url: /server/framework/atlassian-sdk/atlas-create-bamboo-plugin
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: atlas-create-bamboo-plugin
+title: Atlas Create Bamboo Plugin 2818353
 ---
 # atlas-create-bamboo-plugin
 

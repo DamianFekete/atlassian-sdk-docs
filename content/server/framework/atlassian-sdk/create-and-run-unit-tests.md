@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 15335878
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=15335878
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=15335878
-learning: tutorials
-legacy_url: https://developer.atlassian.com/docs/getting-started/writing-and-running-plugin-tests/create-and-run-unit-tests
-new_url: /server/framework/atlassian-sdk/create-and-run-unit-tests
+guides: tutorials
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Create and run unit tests
+title: Create and Run Unit Tests 15335878
 ---
 # Create and run unit tests
 

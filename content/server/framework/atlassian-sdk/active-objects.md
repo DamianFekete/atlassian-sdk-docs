@@ -6,13 +6,11 @@ category: devguide
 confluence_id: 5669125
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669125
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669125
-learning: guides
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/active-objects
-new_url: /server/framework/atlassian-sdk/active-objects
+guides: guides
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Active Objects
+title: Active Objects 5669125
 ---
 # Active Objects
 

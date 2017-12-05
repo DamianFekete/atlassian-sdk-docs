@@ -6,12 +6,10 @@ category: devguide
 confluence_id: 852003
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852003
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852003
-legacy_url: https://developer.atlassian.com/docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary
-new_url: /server/framework/atlassian-sdk/plugin-framework-glossary
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Plugin Framework glossary
+title: Plugin Framework Glossary 852003
 ---
 # Plugin Framework glossary
 
