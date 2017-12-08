@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852000
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852000
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852000
+date: '2017-12-08'
+legacy_title: Web Panel Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Panel Plugin Module 852000
+title: Web Panel plugin module
 ---
 # Web Panel plugin module
 
@@ -86,7 +88,7 @@ The root element for the Web Panel plugin module is `web-panel`. It allows the f
 <p><strong>Default:</strong> false.</p></td>
 </tr>
 <tr class="odd">
-<td><p>weight</p>
+<td><h6 id="WebPanelPluginModule-weightattrweight">weight</h6>
 <p> </p></td>
 <td><p>Determines the order in which web panels appear.</p>
 <p>Web panels are displayed top to bottom or left to right in order of ascending weight.</p>
@@ -123,30 +125,30 @@ The tables summarises the elements. The sections below contain further informati
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="#condition">condition</a></p></td>
+<td><p><a href="#condition-and-conditions-elements">c</a>ondition</p></td>
 <td><p>Defines a condition that must be satisfied for the web panel to be displayed.</p>
 <p>If you want to 'invert' a condition, add an attribute 'invert=&quot;true&quot;' to it.</p>
-<p>The web item will then be displayed if the condition returns false (not true).</p></td>
+<p>The web item will then be displayed if the condition returns false (not true). More below (<a href="#condition-and-conditions-elements">Condition and Conditions Elements</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#condition">conditions</a></p>
+<td><p>conditions</p>
 <p> </p></td>
 <td><p>Defines the logical operator type to evaluate its condition elements. By default 'AND' will be used.</p>
 <p><strong>Default:</strong> AND.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#context-provider">context-provider</a></p></td>
+<td><p>context-provider</p></td>
 <td><p>Allows dynamic addition to the Velocity context available for various web panel elements (in XML descriptors only).</p>
-<p>Currently only one context-provider can be specified per web panel.</p></td>
+<p>Currently only one context-provider can be specified per web panel. More below (<a href="#context-provider">Context-provider</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#label">label</a></p></td>
-<td>Is the i18n key that will be used to look up the textual representation of the link.</td>
+<td><p>label</p></td>
+<td>Is the i18n key that will be used to look up the textual representation of the link. More below (<a href="#label">Label</a>).</td>
 </tr>
 <tr class="odd">
-<td><p><a href="#param">param</a></p></td>
+<td><p>param</p></td>
 <td><p>Parameters for the plugin module. Use the 'key' attribute to declare the parameter key, then specify the value in either the 'value' attribute or the element body. This element may be repeated. An example is the configuration link described in <a href="https://developer.atlassian.com/display/DOCS/Adding+a+Configuration+UI+for+your+Plugin">Adding a Configuration UI for your Plugin</a>.</p>
-<p>This is handy if you want to use additional custom values from the UI.</p></td>
+<p>This is handy if you want to use additional custom values from the UI. More below (<a href="#param">Param</a>).</p></td>
 </tr>
 <tr class="even">
 <td><p>description</p></td>
@@ -154,7 +156,7 @@ The tables summarises the elements. The sections below contain further informati
 <p>I.e. the description of the web panel.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#resource">resource</a></p>
+<td><p>resource</p>
 <p> </p></td>
 <td><p>A resource element is used to provide a web panel with content.</p>
 <p>It can be used in a way similar to <a href="https://developer.atlassian.com/display/DOCS/Adding+Resources+to+your+Project">normal resources</a>,</p>
@@ -164,7 +166,7 @@ The tables summarises the elements. The sections below contain further informati
 <p>It is also possible to embed the contents (both static HTML or velocity) directly in the <code>atlassian-plugin.xml</code> file</p>
 <p>by encoding it in the resource element's body and then omitting the <code>location</code> attribute.</p>
 <p>Note that if you omit the resource element you MUST provide the module descriptor's <code>class</code> attribute, and vice versa,</p>
-<p>to ensure there is always exactly one source for the web panel's content.</p></td>
+<p>to ensure there is always exactly one source for the web panel's content. More below (<a href="#resource">Resource</a>).</p></td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +212,7 @@ For example: The following condition is true if the current user is a system adm
 
 NOTE: In versions before JIRA 3.7, the second class is called `com.atlassian.jira.plugin.web.conditions.UserHasProjectsCondition`
 
-#### Context-provider Element
+#### Context-provider
 
 |            |                                                                       |
 |------------|-----------------------------------------------------------------------|
@@ -271,7 +273,7 @@ The newly added context entries `historyWindowHeight` and `filtersWindowHeight` 
 <label>filter window height is: $filtersWindowHeight</label>
 ```
 
-#### Label Elements
+#### Label
 
 Label elements may contain optional parameters, as shown below:
 
@@ -285,7 +287,7 @@ Label elements may contain optional parameters, as shown below:
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
 
-#### Param Elements
+#### Param 
 
 Param elements represent a map of key/value pairs, where each entry corresponds to the param elements attribute: `name` and `value` respectively.
 
@@ -307,7 +309,7 @@ If the `value` attribute is not specified, the value will be set to the body of 
 <param name="isPopupLink">true</param>
 ```
 
-#### Resource Element
+#### Resource
 
 Unless the module descriptor's `class` attribute is specified, a web panel will contain a single resource child element that contains the contents of the web panel. This can be plain HTML, or a (Velocity) template to provide dynamic content.
 

@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 851974
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851974
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851974
+date: '2017-12-08'
+legacy_title: BundleException with no bundle constraint specified
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Bundleexception with No Bundle Constraint Specified 851974
+title: BundleException with no bundle constraint specified
 ---
 # BundleException with no bundle constraint specified
 

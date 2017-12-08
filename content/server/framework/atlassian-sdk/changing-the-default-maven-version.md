@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 19071041
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=19071041
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=19071041
+date: '2017-12-08'
 guides: guides
+legacy_title: Changing the Default Maven Version
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Changing the Default Maven Version 19071041
+title: Changing the default Maven version
 ---
 # Changing the default Maven version
 

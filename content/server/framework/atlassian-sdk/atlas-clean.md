@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818352
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818352
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818352
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-clean
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Clean 2818352
+title: atlas-clean
 ---
 # atlas-clean
 

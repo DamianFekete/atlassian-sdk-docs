@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818350
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818350
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818350
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-help
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Help 2818350
+title: atlas-help
 ---
 # atlas-help
 

@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852139
+date: '2017-12-08'
+legacy_title: Template Context Item Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Template Context Item Plugin Module 852139
+title: Template Context Item plugin module
 ---
 # Template Context Item plugin module
 

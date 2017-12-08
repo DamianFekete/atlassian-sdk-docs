@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818710
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818710
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818710
+date: '2017-12-08'
+legacy_title: Maven is Unable to Download the Artifact from Any Repository
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Maven is Unable to Download the Artifact From Any Repository 2818710
+title: Maven is unable to download the artifact from any repository
 ---
 # Maven is unable to download the artifact from any repository
 

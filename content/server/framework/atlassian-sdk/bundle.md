@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852005
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852005
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852005
+date: '2017-12-08'
+legacy_title: Bundle (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 852005
+title: Bundle
 ---
 # Bundle
 

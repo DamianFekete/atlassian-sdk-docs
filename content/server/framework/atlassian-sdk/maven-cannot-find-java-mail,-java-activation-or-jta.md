@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818709
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818709
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818709
+date: '2017-12-08'
+legacy_title: Maven Cannot Find Java Mail, Java Activation or JTA
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: 2818709
+title: Maven cannot find Java Mail, Java Activation or JTA
 ---
 # Maven cannot find Java Mail, Java Activation or JTA
 
@@ -59,7 +61,6 @@ Below, as an example of the detailed installation process, we give specific inst
     atlas-mvn install:install-file -DgroupId=javax.activation -DartifactId=activation -Dversion=1.0.2 -Dpackaging=jar -Dfile=activation.jar
     ```
 
-      
     {{% note %}}
 
     Issue with Atlassian Plugin SDK

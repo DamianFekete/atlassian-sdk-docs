@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669135
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669135
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669135
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Getting Started with Active Objects
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Getting Started with Active Objects 5669135
+title: Getting started with Active Objects
 ---
 # Getting started with Active Objects
 

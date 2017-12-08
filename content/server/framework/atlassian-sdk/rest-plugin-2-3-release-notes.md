@@ -6,10 +6,12 @@ category: reference
 confluence_id: 4915204
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915204
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915204
+date: '2017-12-08'
+legacy_title: REST Plugin 2.3 Release Notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Rest Plugin 2.3 Release Notes 4915204
+title: REST plugin 2.3 release notes
 ---
 # REST plugin 2.3 release notes
 

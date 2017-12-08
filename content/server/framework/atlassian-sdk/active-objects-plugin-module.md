@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669175
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669175
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669175
+date: '2017-12-08'
 guides: guides
+legacy_title: Active Objects Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Active Objects Plugin Module 5669175
+title: Active Objects plugin module
 ---
 # Active Objects plugin module
 

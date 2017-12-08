@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852107
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852107
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852107
+date: '2017-12-08'
 guides: guides
+legacy_title: Plugin Framework
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Plugin Framework 852107
+title: Plugin Framework
 ---
 # Plugin Framework
 
@@ -20,9 +22,11 @@ Get started by [setting up your Atlassian plugin development environment](/serve
 
 With Atlassian's plugin development platform, you can create plugins that extend the functionality of Atlassian applications such as <a href="http://www.atlassian.com/software/jira/" class="external-link">JIRA</a>, <a href="http://www.atlassian.com/software/confluence/" class="external-link">Confluence</a> and <a href="http://www.atlassian.com" class="external-link">others</a>.
 
-The platform consists of a plugin framework and set of components that provide useful tools to plugin developers. To see how the pieces fit together, take a look at the [overview of the platform](/server/framework/atlassian-sdk/atlassian-platform-common-components). To get started writing plugins, download and set up the Atlassian Plugin SDK. Then follow the plugin development guidelines for your specific application, as listed [below](#below).
+The platform consists of a plugin framework and set of components that provide useful tools to plugin developers. To see how the pieces fit together, take a look at the [overview of the platform](/server/framework/atlassian-sdk/atlassian-platform-common-components). To get started writing plugins, download and set up the Atlassian Plugin SDK. Then follow the plugin development guidelines for your specific application, as listed [below](#resources).
 
-If you need detailed information about the plugin framework itself, read the details [below](#below).
+If you need detailed information about the plugin framework itself, read the details [below](#plugin-framework-in-detail).
+
+ 
 
 ## Plugin Framework in Detail
 
@@ -40,8 +44,6 @@ Read the in-depth information about [how we use OSGi](/server/framework/atlassia
 
 \*Embedding the Plugin Framework  
 Find out how to [transform your web application](/server/framework/atlassian-sdk/embedding-the-plugin-framework) into a platform that can be extended at runtime via plugins.
-
- 
 
 ## Resources
 

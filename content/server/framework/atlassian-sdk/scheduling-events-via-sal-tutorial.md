@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818727
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818727
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818727
+date: '2017-12-08'
 guides: guides
+legacy_title: Scheduling Events via SAL Tutorial
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Scheduling Events via Sal Tutorial 2818727
+title: Scheduling events via SAL tutorial
 ---
 # Scheduling events via SAL tutorial
 
@@ -22,7 +24,7 @@ Our tutorials are classified as 'beginner', 'intermediate' and 'advanced'. This 
 
 {{% /tip %}}
 
-# Overview
+## Overview
 
 This tutorial shows you how to schedule Java tasks in your plugin that run in the background at regular intervals. To this end we will use the cross-product `PluginScheduler` component from [SAL](/server/framework/atlassian-sdk/sal-services) (Shared Access Layer).
 
@@ -49,7 +51,7 @@ $ git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/jira-sch
 
 Alternatively, you can download the source using the **Downloads** page here: <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events" class="uri external-link">https://bitbucket.org/atlassian_tutorial/jira-scheduled-events</a>
 
-# Required Knowledge
+## Required Knowledge
 
 To complete this tutorial, you must already understand the basics of Java development: classes, interfaces, methods, how to use the compiler, and so on. You should also understand:
 
@@ -65,7 +67,7 @@ This tutorial will teach you:
 -   how to create and use internationalisation resource bundles
 -   how to add a Web Item
 
-# Step 1. Create the Plugin Project
+## Step 1. Create the Plugin Project
 
 Use the appropriate `atlas-create-`*`application`*`-plugin` command to create your plugin. For example, `atlas-create-jira-plugin` or `atlas-create-confluence-plugin`.
 
@@ -138,7 +140,7 @@ package: com.atlassian.example.scheduling
 $
 ```
 
-# Step 2. Add the required Maven dependencies
+## Step 2. Add the required Maven dependencies
 
 In this tutorial we are using both SAL and the open source Java Twitter library <a href="http://twitter4j.org" class="external-link">twitter4j</a>. Add both to the `pom.xml` file:
 
@@ -160,7 +162,7 @@ In this tutorial we are using both SAL and the open source Java Twitter library 
     </dependencies>
 ```
 
-# Step 3. Import the SAL scheduler component to the Plugin Descriptor
+## Step 3. Import the SAL scheduler component to the Plugin Descriptor
 
 For the plugin framework to be able to inject the SAL `PluginScheduler`, we need to import the component explicitly in `atlassian-plugin.xml`, so add the following element:
 
@@ -171,7 +173,7 @@ For the plugin framework to be able to inject the SAL `PluginScheduler`, we need
     </component-import>
 ```
 
-# Step 4. Write the Background Task
+## Step 4. Write the Background Task
 
 Now let's write a component that gets the SAL `PluginScheduler` injected and then registers the periodic background task at startup.
 
@@ -222,7 +224,7 @@ We store this reference using the key `TwitterMonitorImpl.KEY`, which we'll decl
 
 Finally see how we use the twitter4j library that allows us to do a public, anonymous search with only 2 lines of code.
 
-# Step 5. Write the Component that Schedules the Task
+## Step 5. Write the Component that Schedules the Task
 
 This is the class that we register as a plugin component in `atlassian-plugin.xml`. It gets instantiated by the plugin framework at application startup and is responsible for registering our job. It also stores the Twitter search results and is accessible the webwork action we will add later.
 
@@ -303,7 +305,7 @@ public interface TwitterMonitor {
 }
 ```
 
-# Step 6. Add the Component to atlassian-plugin.xml
+## Step 6. Add the Component to atlassian-plugin.xml
 
 ``` xml
 ...
@@ -318,7 +320,7 @@ public interface TwitterMonitor {
 
 Notice the explicit declaration of the `com.atlassian.sal.api.lifecycle.LifecycleAware` interface and how our component is declared public, so that SAL's lifecycle manager can access it.
 
-# Step 7. Have a Beer and Put Your Feet Up!
+## Step 7. Have a Beer and Put Your Feet Up!
 
   
 At this point your should have your scheduled event working, complete with Twitter search!  
@@ -346,7 +348,7 @@ Up to this point our plugin uses no product specific features or API's, and will
 
 {{% /note %}}
 
-# Step 8. Extend the Component Interface
+## Step 8. Extend the Component Interface
 
 In order to display the tweets in an admin page, we'll need to add some methods to the `TwitterMonitor` interface.
 
@@ -391,7 +393,7 @@ public class TwitterMonitorImpl implements TwitterMonitor, LifecycleAware {
 ...
 ```
 
-# Step 9. Add a WebWork Action
+## Step 9. Add a WebWork Action
 
 In the remainder of the tutorial we shall limit ourselves to JIRA and we'll create page in the administration section to display the Twitter search results. We'll also allow the user to change the search query and the search interval.
 
@@ -458,7 +460,7 @@ We have two entry methods into this action: the `doExecute()` method that has no
 
 Note that after a reschedule action, we won't render a page, but instead we'll redirect the browser back to the read-only action of `doExecute()` to avoid exposing the reschedule URL in the browser, as that would continuously reschedule our job every time the user hits the browser's reload button.
 
-# Step 10. Register the WebWork Action in atlassian-plugin.xml
+## Step 10. Register the WebWork Action in atlassian-plugin.xml
 
 We'll register the webwork action in `atlassian-plugin.xml` and also add a Web Item to add a link to the context menu of the JIRA administration section that will link to our new page:
 
@@ -490,7 +492,7 @@ Always using i18n is a good habit, even if you only provide one language bundle.
 
 -   See the <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events/src/2b3d9c01c4a3bb28eff446bc0487a9001c5efab7/src/main/resources/com/atlassian/example/scheduling/TwitterSchedulerBundle.properties?at=master" class="external-link">contents of the language bundle</a> we use.
 
-# Step 11. Add the Velocity Template
+## Step 11. Add the Velocity Template
 
 Finally we'll add the `src/main/resources/templates/scheduler.vm` velocity template that renders the page. The snippet below only focuses on the interesting bits while omitting most of the layout. <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events/src/2b3d9c01c4a3bb28eff446bc0487a9001c5efab7/src/main/resources/templates/scheduler.vm?at=master" class="external-link">The full template is on Bitbucket</a>.
 
@@ -537,7 +539,7 @@ Finally we'll add the `src/main/resources/templates/scheduler.vm` velocity templ
 ...
 ```
 
-# Step 12. Start JIRA
+## Step 12. Start JIRA
 
 That concludes all code for our tutorial, so let's start it up and check it out:
 

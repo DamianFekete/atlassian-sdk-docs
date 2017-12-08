@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669189
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669189
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669189
+date: '2017-12-08'
 guides: guides
+legacy_title: Table names
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Table Names 5669189
+title: Table names
 ---
 # Table names
 
@@ -39,11 +41,11 @@ We recommend that you avoid the use of the plugin key for generating this value 
 
 You can also specify the table name you'd like to use through the `net.java.ao.schema.Table` annotation. The value defined in the annotation will still be processed in the same way a class name would be processed. So if you set the value as `MyObject`, the table will be named **AO\_28BE2D\_MY\_OBJECT**.
 
-# Constraints
+## Constraints
 
 Table names (once transformed) can not be more than 30 characters long. This is an Oracle restriction that is take in account whatever database one works with to provide consistency across all supported databases.
 
-# See also
+## See also
 
 -   [Column names](/server/framework/atlassian-sdk/column-names)
 

@@ -31,19 +31,19 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Adding content to the JIRA View Issue page](/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
+    [Tutorial - Adding content to the JIRA View Issue page](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
 
 -   Page:
 
-    [Tutorial - Writing a plugin gadget that shows days left in a version](/display/JIRADEV/Tutorial+-+Writing+a+plugin+gadget+that+shows+days+left+in+a+version)
+    [Tutorial - Writing a plugin gadget that shows days left in a version](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+a+plugin+gadget+that+shows+days+left+in+a+version)
 
 -   Page:
 
-    [Tutorial - Writing a JQL standalone gadget](/display/JIRADEV/Tutorial+-+Writing+a+JQL+standalone+gadget)
+    [Tutorial - Adding menu items to JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
 
 -   Page:
 
-    [Tutorial - Adding menu items to JIRA](/display/JIRADEV/Tutorial+-+Adding+menu+items+to+JIRA)
+    [Tutorial - Writing a JQL standalone gadget](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+a+JQL+standalone+gadget)
 
 -   Page:
 
@@ -65,27 +65,27 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Tutorial - Application links in JIRA](/display/JIRADEV/Tutorial+-+Application+links+in+JIRA)
+    [Tutorial - Application links in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Application+links+in+JIRA)
 
 -   Page:
 
-    [Tutorial - Internationalising your plugin](/display/JIRADEV/Tutorial+-+Internationalising+your+plugin)
+    [Tutorial - Internationalising your plugin](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Internationalising+your+plugin)
 
 -   Page:
 
-    [Tutorial - Smarter integration testing with TestKit](/display/JIRADEV/Tutorial+-+Smarter+integration+testing+with+TestKit)
+    [Tutorial - Writing integration tests for your JIRA plugin](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+integration+tests+for+your+JIRA+plugin)
 
 -   Page:
 
-    [Tutorial - Writing integration tests for your JIRA plugin](/display/JIRADEV/Tutorial+-+Writing+integration+tests+for+your+JIRA+plugin)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Tutorial - Smarter integration testing with TestKit](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Smarter+integration+testing+with+TestKit)
 
 -   Page:
 
-    [Tutorial - Adding a JQL function to JIRA](/display/JIRADEV/Tutorial+-+Adding+a+JQL+function+to+JIRA)
+    [Tutorial - Adding a JQL function to JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+JQL+function+to+JIRA)
 
 -   Page:
 
@@ -115,23 +115,23 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Scheduling Events via SAL Tutorial](/server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
 
 -   Page:
 
-    [Tutorial - Custom message (mail) handler for JIRA](/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
+    [Tutorial - Writing gadgets for JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+gadgets+for+JIRA)
 
 -   Page:
 
-    [Tutorial - Writing gadgets for JIRA](/display/JIRADEV/Tutorial+-+Writing+gadgets+for+JIRA)
+    [Tutorial - Custom message (mail) handler for JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
 
 -   Page:
 
-    [Tutorial - Creating a JIRA report](/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
+    [Tutorial - Creating a JIRA report](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
 
 -   Page:
 

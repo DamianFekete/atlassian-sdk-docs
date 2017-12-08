@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 8945760
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945760
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945760
+date: '2017-12-08'
 guides: guides
+legacy_title: Automatic Plugin Reinstallation with FastDev
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Automatic Plugin Reinstallation with Fastdev 8945760
+title: Automatic plugin reinstallation with FastDev
 ---
 # Automatic plugin reinstallation with FastDev
 
@@ -26,7 +28,7 @@ There is no need to manually install your plugin into the Atlassian application 
 
 FastDev is a plugin for Atlassian applications that speeds up plugin development by scanning plugin directories for changes and automatically reinstalling plugins when necessary.
 
-FastDev is bundled with the Atlassian Plugin SDK 3.6 and later. It is enabled by default. See the [configuration](#configuration) section below for instructions on disabling it.
+FastDev is bundled with the Atlassian Plugin SDK 3.6 and later. It is enabled by default. See the [configuration](#disabling-fastdev) section below for instructions on disabling it.
 
  
 
@@ -125,6 +127,8 @@ By default, FastDev assumes that Maven can be accessed on the command line as `m
 </systemPropertyVariables>
 ```
 
+ 
+
 ### Multi-Module Plugins
 
 More complex plugins may have more than one plugin module. FastDev can handle reloads for multi-module maven projects that contain multiple plugins, but you need to tell FastDev about any additional plugin root directories:
@@ -137,6 +141,8 @@ More complex plugins may have more than one plugin module. FastDev can handle re
 ```
 
 Note that FastDev is currently not very smart about dependency management, so if you are attempting to reload multiple plugins that depend on each other, you may run into problems.
+
+ 
 
 ### Credentials
 
@@ -157,6 +163,8 @@ Both properties are optional; FastDev will use the default unless otherwise spec
 These credential properties are supported starting with FastDev 1.9 (bundled with Atlassian Plugin SDK 3.7.1 or later).
 
 {{% /note %}}
+
+ 
 
 ### Disabling FastDev
 

@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669191
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669191
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669191
+date: '2017-12-08'
 guides: guides
+legacy_title: Column names
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Column Names 5669191
+title: Column names
 ---
 # Column names
 
@@ -21,7 +23,7 @@ Foreign key columns follow the same convention, but end with `_ID`. Using the sa
 You can also specify the column name you'd like to use through either the `net.java.ao.Accessor` or `net.java.ao.Mutator` annotation. Note that the value defined in the annotation will still be processed in the same way a method name would be processed.  
 So if you set the value as `SomeAttribute`, the column will be named **SOME\_ATTRIBUTE**.
 
-# Constraints
+## Constraints
 
 Column names (once transformed) can not be more than 30 characters long. This is an Oracle restriction that is take in account whatever database one works with to provide consistency across all supported databases.
 

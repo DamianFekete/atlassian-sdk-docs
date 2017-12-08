@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818355
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818355
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818355
+date: '2017-12-08'
+legacy_title: FAQ
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Faq 2818355
+title: FAQ
 ---
 # FAQ
 
@@ -42,149 +44,185 @@ This page collects the FAQ pages for different developer experience levels and t
 -   [Preventing Memory Leaks on Upgrades](https://developer.atlassian.com/display/DOCS/Preventing+Memory+Leaks+on+Upgrades)
 -   [Supporting WebSudo in your Plugin](https://developer.atlassian.com/display/DOCS/Supporting+WebSudo+in+your+Plugin)
 
-# FAQs for product development
+## FAQs for product development
 
-## JIRA
+### JIRA
 
 **Content by label**
 
 There is no content with the specified labels
 
-## Confluence
+### Confluence
 
 -   Page:
 
-    [How do I get the base URL and ContextPath of a Confluence installation?](/pages/viewpage.action?pageId=2031787)
+    [How do I get the information about Confluence such as version number, build number, build date?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031798)
 
 -   Page:
 
-    [How do I get my macro output exported to HTML and PDF?](/pages/viewpage.action?pageId=2031811)
+    [REV400 - How do I link to a comment?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031660)
 
 -   Page:
 
-    [How do I get hold of the HttpServletRequest?](/pages/viewpage.action?pageId=2031789)
+    [How do I get the base URL and ContextPath of a Confluence installation?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031787)
 
 -   Page:
 
-    [How do I get a reference to a component?](/pages/viewpage.action?pageId=2031788)
+    [How do I get my macro output exported to HTML and PDF?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031811)
 
 -   Page:
 
-    [How do I load a resource from a plugin?](/pages/viewpage.action?pageId=2031742)
+    [How do I get hold of the HttpServletRequest?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031789)
 
 -   Page:
 
-    [What is the best way to load a class or resource from a plugin?](/pages/viewpage.action?pageId=2031736)
+    [How do I get a reference to a component?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031788)
 
 -   Page:
 
-    [How do I autowire a component?](/pages/viewpage.action?pageId=2031786)
+    [How do I load a resource from a plugin?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031742)
 
 -   Page:
 
-    [How do I display the Confluence System Classpath?](/pages/viewpage.action?pageId=2031629)
+    [What is the best way to load a class or resource from a plugin?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031736)
 
 -   Page:
 
-    [How Do I find enabled and disabled plugins in the Database?](/pages/viewpage.action?pageId=2031825)
+    [How do I autowire a component?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031786)
 
 -   Page:
 
-    [How does RENDERMODE work?](/pages/viewpage.action?pageId=2031720)
+    [How do I display the Confluence System Classpath?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031629)
 
 -   Page:
 
-    [REV400 - How do I link to a comment?](/pages/viewpage.action?pageId=2031660)
+    [How Do I find enabled and disabled plugins in the Database?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031825)
 
 -   Page:
 
-    [How do I find information about lost attachments?](/pages/viewpage.action?pageId=2031805)
+    [How does RENDERMODE work?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031720)
 
 -   Page:
 
-    [Enabling Developer Mode](/display/CONFDEV/Enabling+Developer+Mode)
+    [Starting a Confluence cluster on a single machine](https://developer.atlassian.com/display/CONFDEV/Starting+a+Confluence+cluster+on+a+single+machine)
 
 -   Page:
 
-    [How do I get the location of the confluence.home directory?](/pages/viewpage.action?pageId=2031784)
+    [Confluence Data Center Plugin Validator](https://developer.atlassian.com/display/CONFDEV/Confluence+Data+Center+Plugin+Validator)
 
 -   Page:
 
-    [How do I associate my own properties with a ContentEntityObject?](/pages/viewpage.action?pageId=2031792)
+    [Troubleshooting Macros in the Page Gadget](https://developer.atlassian.com/display/CONFDEV/Troubleshooting+Macros+in+the+Page+Gadget)
 
 -   Page:
 
-    [How do I find the logged in user?](/pages/viewpage.action?pageId=2031739)
+    [How do I get hold of the GET-Parameters within a Macro?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031757)
 
 -   Page:
 
-    [What's the easiest way to render a velocity template from Java code?](/pages/viewpage.action?pageId=2031791)
+    [How to switch to non-minified Javascript for debugging](https://developer.atlassian.com/display/CONFDEV/How+to+switch+to+non-minified+Javascript+for+debugging)
 
 -   Page:
 
-    [What is Bandana? One form of Confluence Persistence](/pages/viewpage.action?pageId=2031780)
+    [How do I tell if a user has permission to...?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031704)
 
 -   Page:
 
-    [How do I check which Jar file a class file belong to?](/pages/viewpage.action?pageId=2031766)
+    [How do I get the location of the confluence.home directory?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031784)
 
 -   Page:
 
-    [How do I tell if a user has permission to...?](/pages/viewpage.action?pageId=2031704)
+    [How do I associate my own properties with a ContentEntityObject?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031792)
 
 -   Page:
 
-    [How do I make my attachments open in a new window or a tab?](/pages/viewpage.action?pageId=2031705)
+    [How do I find the logged in user?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031739)
 
 -   Page:
 
-    [How do I prevent my rendered wiki text from being surrounded by paragraph tags?](/pages/viewpage.action?pageId=2031790)
+    [How can I determine the context my macro is being rendered in?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031673)
 
 -   Page:
 
-    [I am trying to compile a plugin, but get an error about the target release](/display/CONFDEV/I+am+trying+to+compile+a+plugin%2C+but+get+an+error+about+the+target+release)
+    [How do I develop against Confluence with Secure Administrator Sessions?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031700)
 
 -   Page:
 
-    [How do I find Confluence Test Suite?](/pages/viewpage.action?pageId=2031681)
+    [How do I find information about lost attachments?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031805)
 
 -   Page:
 
-    [Encrypting error messages in Sybase](/display/CONFDEV/Encrypting+error+messages+in+Sybase)
+    [Enabling Developer Mode](https://developer.atlassian.com/display/CONFDEV/Enabling+Developer+Mode)
 
 -   Page:
 
-    [What class should my XWork action plugin extend?](/pages/viewpage.action?pageId=2031794)
+    [What's the easiest way to render a velocity template from Java code?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031791)
 
 -   Page:
 
-    [What class should my macro extend?](/pages/viewpage.action?pageId=2031795)
+    [What is Bandana? One form of Confluence Persistence](https://developer.atlassian.com/pages/viewpage.action?pageId=2031780)
 
 -   Page:
 
-    [How do I configure my Rich Text macro to receive unformatted input?](/pages/viewpage.action?pageId=14713072)
+    [How do I check which Jar file a class file belong to?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031766)
 
 -   Page:
 
-    [Within a Confluence macro, how do I retrieve the current ContentEntityObject?](/pages/viewpage.action?pageId=2031785)
+    [How do I make my attachments open in a new window or a tab?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031705)
 
 -   Page:
 
-    [How do I convert wiki text to HTML?](/pages/viewpage.action?pageId=2031793)
+    [How do I ensure my add-on works properly in a cluster?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031761)
 
 -   Page:
 
-    [How do I get the information about Confluence such as version number, build number, build date?](/pages/viewpage.action?pageId=2031798)
+    [How do I cache data in a plugin?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031764)
 
 -   Page:
 
-    [HTTP Response Code Definitions](/display/CONFDEV/HTTP+Response+Code+Definitions)
+    [How do I prevent my rendered wiki text from being surrounded by paragraph tags?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031790)
 
 -   Page:
 
-    [Disable Velocity Caching](/display/CONFDEV/Disable+Velocity+Caching)
+    [I am trying to compile a plugin, but get an error about the target release](https://developer.atlassian.com/display/CONFDEV/I+am+trying+to+compile+a+plugin%2C+but+get+an+error+about+the+target+release)
 
-## Fisheye/Crucible
+-   Page:
+
+    [How do I find Confluence Test Suite?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031681)
+
+-   Page:
+
+    [Encrypting error messages in Sybase](https://developer.atlassian.com/display/CONFDEV/Encrypting+error+messages+in+Sybase)
+
+-   Page:
+
+    [What class should my XWork action plugin extend?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031794)
+
+-   Page:
+
+    [What class should my macro extend?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031795)
+
+-   Page:
+
+    [How do I configure my Rich Text macro to receive unformatted input?](https://developer.atlassian.com/pages/viewpage.action?pageId=14713072)
+
+-   Page:
+
+    [Within a Confluence macro, how do I retrieve the current ContentEntityObject?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031785)
+
+-   Page:
+
+    [How do I convert wiki text to HTML?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031793)
+
+-   Page:
+
+    [HTTP Response Code Definitions](https://developer.atlassian.com/display/CONFDEV/HTTP+Response+Code+Definitions)
+
+-   Page:
+
+    [Disable Velocity Caching](https://developer.atlassian.com/display/CONFDEV/Disable+Velocity+Caching)
+
+### Fisheye/Crucible
 
 This page contains answers to frequently asked questions posed by FishEye/Crucible developers.
 
@@ -226,19 +264,19 @@ Feel free to comment, make submissions, or pose your own question on FishEye/Cru
 
      
 
-## Bamboo
+### Bamboo
 
 -   Page:
 
-    [How do I inject managers into my plugin?](/pages/viewpage.action?pageId=1638474)
+    [How do I inject managers into my plugin?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638474)
 
 -   Page:
 
-    [Note to Atlassian staff on the Bamboo Developer FAQ](/display/BAMBOODEV/Note+to+Atlassian+staff+on+the+Bamboo+Developer+FAQ)
+    [Note to Atlassian staff on the Bamboo Developer FAQ](https://developer.atlassian.com/display/BAMBOODEV/Note+to+Atlassian+staff+on+the+Bamboo+Developer+FAQ)
 
 -   Page:
 
-    [How do I search for previous build result?](/pages/viewpage.action?pageId=1638475)
+    [How do I search for previous build result?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638475)
 
 
 

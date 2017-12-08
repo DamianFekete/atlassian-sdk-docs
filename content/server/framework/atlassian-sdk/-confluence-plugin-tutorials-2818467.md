@@ -16,99 +16,99 @@ subcategory:
 
 -   Page:
 
-    [Write a simple Confluence Space Blueprint](/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
+    [Confluence Blueprints](https://developer.atlassian.com/display/CONFDEV/Confluence+Blueprints)
 
 -   Page:
 
-    [Confluence Blueprints](/display/CONFDEV/Confluence+Blueprints)
+    [Write a simple Confluence Space Blueprint](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
 
 -   Page:
 
-    [Adding Confluence Keyboard Shortcuts](/display/CONFDEV/Adding+Confluence+Keyboard+Shortcuts)
+    [Adding Confluence Keyboard Shortcuts](https://developer.atlassian.com/display/CONFDEV/Adding+Confluence+Keyboard+Shortcuts)
 
 -   Page:
 
-    [Create a Confluence 'Hello World' Macro](/display/DOCS/Create+a+Confluence+%27Hello+World%27+Macro)
+    [Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/create-a-confluence-hello-world-macro)
 
 -   Page:
 
-    [Write a simple Confluence Blueprint plugin](/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
+    [Write a simple Confluence Blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
 
 -   Page:
 
-    [Writing a Confluence Theme](/display/CONFDEV/Writing+a+Confluence+Theme)
+    [Writing a Confluence Theme](https://developer.atlassian.com/display/CONFDEV/Writing+a+Confluence+Theme)
 
 -   Page:
 
-    [Extending Autoconvert](/display/CONFDEV/Extending+Autoconvert)
+    [Extending Autoconvert](https://developer.atlassian.com/display/CONFDEV/Extending+Autoconvert)
 
 #### Intermediate
 
 -   Page:
 
-    [Adding new Confluence to HipChat notifications](/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+    [Extending the Highlight Actions Panel](https://developer.atlassian.com/display/CONFDEV/Extending+the+Highlight+Actions+Panel)
 
 -   Page:
 
-    [Adding items to the Info Banner](/display/CONFDEV/Adding+items+to+the+Info+Banner)
+    [Adding new Confluence to HipChat notifications](https://developer.atlassian.com/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
 
 -   Page:
 
-    [Extending the Confluence Insert Link Dialog](/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
+    [Adding items to the Info Banner](https://developer.atlassian.com/display/CONFDEV/Adding+items+to+the+Info+Banner)
 
 -   Page:
 
-    [Extending the Image Properties Dialog](/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+    [Extending the Confluence Insert Link Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
 
 -   Page:
 
-    [Write an intermediate blueprint plugin](/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+    [Extending the Image Properties Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Image+Properties+Dialog)
 
 -   Page:
 
-    [Writing a Macro Using JSON](/display/CONFDEV/Writing+a+Macro+Using+JSON)
+    [Write an intermediate blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
 
 -   Page:
 
-    [Extending the Highlight Actions Panel](/display/CONFDEV/Extending+the+Highlight+Actions+Panel)
+    [Writing a Macro Using JSON](https://developer.atlassian.com/display/CONFDEV/Writing+a+Macro+Using+JSON)
 
 -   Page:
 
-    [Posting Notifications in Confluence](/display/CONFDEV/Posting+Notifications+in+Confluence)
+    [Posting Notifications in Confluence](https://developer.atlassian.com/display/CONFDEV/Posting+Notifications+in+Confluence)
 
 -   Page:
 
-    [Searching Using the V2 Search API](/display/CONFDEV/Searching+Using+the+V2+Search+API)
+    [Searching Using the V2 Search API](https://developer.atlassian.com/display/CONFDEV/Searching+Using+the+V2+Search+API)
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Adding a Custom Action to Confluence](https://developer.atlassian.com/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 
 -   Page:
 
-    [Adding a Custom Action to Confluence](/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
+    [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
 
 #### Advanced
 
 -   Page:
 
-    [Write an advanced blueprint plugin](/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+    [Write an advanced blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+advanced+blueprint+plugin)
 
 -   Page:
 
-    [Adding a field to CQL](/display/CONFDEV/Adding+a+field+to+CQL)
+    [Extending the V2 search API](https://developer.atlassian.com/display/CONFDEV/Extending+the+V2+search+API)
 
 -   Page:
 
-    [Defining a Pluggable Service in a Confluence Plugin](/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
+    [Adding a field to CQL](https://developer.atlassian.com/display/CONFDEV/Adding+a+field+to+CQL)
 
 -   Page:
 
-    [Extending the V2 search API](/display/CONFDEV/Extending+the+V2+search+API)
+    [Defining a Pluggable Service in a Confluence Plugin](https://developer.atlassian.com/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
 
 
 

@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818317
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818317
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818317
+date: '2017-12-08'
 guides: guides
+legacy_title: Getting Help with the SDK
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Getting Help with the Sdk 2818317
+title: Getting help with the SDK
 ---
 # Getting help with the SDK
 

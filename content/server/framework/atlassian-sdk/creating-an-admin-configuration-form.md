@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818695
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818695
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818695
+date: '2017-12-08'
 guides: guides
+legacy_title: Creating an Admin Configuration Form
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Creating an Admin Configuration Form 2818695
+title: Creating an admin configuration form
 ---
 # Creating an admin configuration form
 

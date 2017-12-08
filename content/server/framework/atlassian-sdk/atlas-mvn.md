@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818341
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818341
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818341
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-mvn
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Mvn 2818341
+title: atlas-mvn
 ---
 # atlas-mvn
 

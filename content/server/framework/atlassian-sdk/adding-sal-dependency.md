@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 5242905
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242905
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242905
+date: '2017-12-08'
+legacy_title: Adding SAL Dependency
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding Sal Dependency 5242905
+title: Adding SAL dependency
 ---
 # Adding SAL dependency
 

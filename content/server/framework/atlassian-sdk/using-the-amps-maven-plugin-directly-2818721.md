@@ -141,7 +141,7 @@ This section describes how to run the following commands:
 -   [Creating a New Confluence Plugin from Scratch](#creating-a-new-confluence-plugin-from-scratch)
 -   [Running a Plugin in an Application](#running-a-plugin-in-an-application)
 -   [Specifying a Version of the Application](#specifying-a-version-of-the-application)
--   [Specifying an Application Server (Container)](#specifying-an-application-server-(container))
+-   [Specifying an Application Server (Container)](#specifying-an-application-server-container)
 -   [Running your Plugin in Debug Mode from your IDE](#running-your-plugin-in-debug-mode-from-your-ide)
 -   [Writing Integration Tests](#writing-integration-tests)
 -   [Running Integration Tests against a Different Application](#running-integration-tests-against-a-different-application)

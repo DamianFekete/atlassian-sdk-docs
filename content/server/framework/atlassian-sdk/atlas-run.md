@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818725
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818725
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818725
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-run
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Run 2818725
+title: atlas-run
 ---
 # atlas-run
 

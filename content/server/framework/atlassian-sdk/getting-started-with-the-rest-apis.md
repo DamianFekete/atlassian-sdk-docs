@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 18252730
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252730
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252730
+date: '2017-12-08'
+legacy_title: Getting Started with the REST APIs
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Getting Started with the REST APIs 18252730
+title: Getting started with the REST APIs
 ---
 # Getting started with the REST APIs
 
@@ -17,7 +19,7 @@ title: Getting Started with the REST APIs 18252730
 
 Redirection Notice
 
-This page will redirect to [REST API Development](/display/DOCS/REST+API+Development) in about 2 seconds.
+This page will redirect to [REST API Development](/server/framework/atlassian-sdk/rest-api-development) in about 2 seconds.
 
 {{% /note %}}
 

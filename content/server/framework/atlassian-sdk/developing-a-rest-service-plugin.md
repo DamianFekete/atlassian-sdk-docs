@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818694
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818694
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818694
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Developing a REST Service Plugin
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developing a Rest Service Plugin 2818694
+title: Developing a REST service plugin
 ---
 # Developing a REST service plugin
 

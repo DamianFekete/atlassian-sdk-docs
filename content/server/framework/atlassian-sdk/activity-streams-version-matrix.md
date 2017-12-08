@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852029
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852029
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852029
+date: '2017-12-08'
+legacy_title: Activity Streams Version Matrix
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Activity Streams Version Matrix 852029
+title: Activity Streams version matrix
 ---
 # Activity Streams version matrix
 

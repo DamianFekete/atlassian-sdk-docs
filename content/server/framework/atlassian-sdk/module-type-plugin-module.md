@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852019
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852019
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852019
+date: '2017-12-08'
+legacy_title: Module Type Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Module Type Plugin Module 852019
+title: Module Type plugin module
 ---
 # Module Type plugin module
 

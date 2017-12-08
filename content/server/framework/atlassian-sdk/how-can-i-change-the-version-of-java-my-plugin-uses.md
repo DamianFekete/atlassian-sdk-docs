@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818648
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818648
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818648
+date: '2017-12-08'
+legacy_title: How can I change the version of Java my plugin uses
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: How Can I Change the Version Of Java My Plugin Uses 2818648
+title: How can I change the version of Java my plugin uses
 ---
 # How can I change the version of Java my plugin uses
 

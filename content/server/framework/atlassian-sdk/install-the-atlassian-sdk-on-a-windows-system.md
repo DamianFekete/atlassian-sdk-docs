@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 10421945
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421945
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421945
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Install the Atlassian SDK on a Windows System
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Install the Atlassian Sdk On a Windows System 10421945
+title: Install the Atlassian SDK on a Windows system
 ---
 # Install the Atlassian SDK on a Windows system
 

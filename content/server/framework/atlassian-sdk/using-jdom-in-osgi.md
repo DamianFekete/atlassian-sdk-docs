@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 851991
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851991
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851991
+date: '2017-12-08'
+legacy_title: Using JDOM in OSGi
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Using Jdom in Osgi 851991
+title: Using JDOM in OSGi
 ---
 # Using JDOM in OSGi
 

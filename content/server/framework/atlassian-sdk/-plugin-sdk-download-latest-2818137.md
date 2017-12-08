@@ -12,8 +12,8 @@ subcategory:
 ---
 # Documentation : \_Plugin SDK Download Latest
 
-<a href="#›››-install-the-latest-version-‹‹‹" class="sdk-installer">››› Install the latest version ‹‹‹</a>  
-<a href="/display/DOCS/Downloads" class="sdk-download-link">Downloads for other systems...</a>
+<a href="#install-the-latest-version" class="sdk-installer">››› Install the latest version ‹‹‹</a>  
+<a href="https://developer.atlassian.com/display/DOCS/Downloads" class="sdk-download-link">Downloads for other systems...</a>
 
 Already have the SDK?
 

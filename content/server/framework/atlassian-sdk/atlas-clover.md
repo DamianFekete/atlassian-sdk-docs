@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818720
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818720
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818720
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-clover
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Clover 2818720
+title: atlas-clover
 ---
 # atlas-clover
 

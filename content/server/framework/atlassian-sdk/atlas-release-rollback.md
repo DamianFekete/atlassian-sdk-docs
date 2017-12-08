@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818347
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818347
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818347
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-release-rollback
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Release Rollback 2818347
+title: atlas-release-rollback
 ---
 # atlas-release-rollback
 

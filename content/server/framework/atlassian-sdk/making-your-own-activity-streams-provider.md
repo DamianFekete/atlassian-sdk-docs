@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852024
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852024
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852024
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Making your own Activity Streams Provider
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Making Your Own Activity Streams Provider 852024
+title: Making your own Activity Streams provider
 ---
 # Making your own Activity Streams provider
 
@@ -83,7 +85,7 @@ This is the required implementation for a plugin that inserts items in Activity 
 <tbody>
 <tr class="odd">
 <td><p>StreamsActivityProvider</p></td>
-<td><p>In the getActivityFeed method, construct your feed out of StreamsEntry items. There is more detail on creating StreamsEntry items below, in the section on making a feed item <a href="#below">below</a>.</p></td>
+<td><p>In the getActivityFeed method, construct your feed out of StreamsEntry items. There is more detail on creating StreamsEntry items below, in the section on making a feed item <a href="#step-4-make-a-feed-item-a-streamsentry">below</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -128,6 +130,8 @@ It looks something like this, with the nested elements being optional based on w
         <comment-handler class="com.atlassian.streams.ExternalStreamsCommentHandler" />
     </activity-streams-provider>
 ```
+
+ 
 
 ## Step 4. Make a feed item (a StreamsEntry)
 

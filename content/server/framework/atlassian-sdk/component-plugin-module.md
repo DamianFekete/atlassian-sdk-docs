@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852118
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852118
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852118
+date: '2017-12-08'
+legacy_title: Component Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Component Plugin Module 852118
+title: Component plugin module
 ---
 # Component plugin module
 

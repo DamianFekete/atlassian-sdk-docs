@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 5668881
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5668881
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5668881
+date: '2017-12-08'
+legacy_title: Getting Started
 platform: server
 product: atlassian-sdk
 subcategory: index
-title: Getting Started 5668881
+title: Getting started
 ---
 # Getting started
 
@@ -37,8 +39,8 @@ By downloading and/or using this SDK you agree to the <span class="underline">[
 
 ## Quickstart
 
-<a href="#›››-install-the-latest-version-‹‹‹" class="sdk-installer">››› Install the latest version ‹‹‹</a>  
-<a href="/display/DOCS/Downloads" class="sdk-download-link">Downloads for other systems...</a>
+<a href="#install-the-latest-version" class="sdk-installer">››› Install the latest version ‹‹‹</a>  
+<a href="https://developer.atlassian.com/display/DOCS/Downloads" class="sdk-download-link">Downloads for other systems...</a>
 
 Already have the SDK?
 

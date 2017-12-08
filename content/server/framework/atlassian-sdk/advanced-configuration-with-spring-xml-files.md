@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 6849823
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6849823
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6849823
+date: '2017-12-08'
 guides: guides
+legacy_title: Advanced Configuration with Spring XML Files
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Advanced Configuration with Spring Xml Files 6849823
+title: Advanced configuration with Spring XML files
 ---
 # Advanced configuration with Spring XML files
 

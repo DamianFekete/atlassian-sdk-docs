@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 851988
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851988
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851988
+date: '2017-12-08'
 guides: guides
+legacy_title: Adding a Configuration UI for your Plugin
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding a Configuration UI for Your Plugin 851988
+title: Adding a configuration UI for your plugin
 ---
 # Adding a configuration UI for your plugin
 

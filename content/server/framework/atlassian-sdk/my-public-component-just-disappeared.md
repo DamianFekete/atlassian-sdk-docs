@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852130
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852130
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852130
+date: '2017-12-08'
+legacy_title: My public component just disappeared!
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: 852130
+title: My public component just disappeared!
 ---
 # My public component just disappeared!
 

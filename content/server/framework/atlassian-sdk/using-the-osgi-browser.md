@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 8946139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946139
+date: '2017-12-08'
 guides: guides
+legacy_title: Using the OSGi Browser
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Using the Osgi Browser 8946139
+title: Using the OSGi Browser
 ---
 # Using the OSGi Browser
 

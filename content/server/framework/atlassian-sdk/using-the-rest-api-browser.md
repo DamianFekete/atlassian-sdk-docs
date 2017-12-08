@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 8945910
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945910
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945910
+date: '2017-12-08'
 guides: guides
+legacy_title: Using the REST API Browser
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Using the REST API Browser 8945910
+title: Using the REST API Browser
 ---
 # Using the REST API Browser
 

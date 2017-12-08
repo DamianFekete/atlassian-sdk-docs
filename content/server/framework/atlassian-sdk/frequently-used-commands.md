@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 13632968
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13632968
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13632968
+date: '2017-12-08'
 guides: guides
+legacy_title: Frequently Used Commands
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Frequently Used Commands 13632968
+title: Frequently used commands
 ---
 # Frequently used commands
 

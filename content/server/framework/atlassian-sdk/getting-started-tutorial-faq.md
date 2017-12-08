@@ -6,16 +6,18 @@ category: devguide
 confluence_id: 43648385
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=43648385
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=43648385
+date: '2017-12-08'
+legacy_title: Getting Started Tutorial FAQ
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Getting Started Tutorial Faq 43648385
+title: Getting started tutorial FAQ
 ---
 # Getting started tutorial FAQ
 
 Here you will find a list of Frequently Asked Questions about the '[Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)' Tutorial.
 
-# How do I check if Oracle Java SE Development Kit 8 (JDK) is installed?
+## How do I check if Oracle Java SE Development Kit 8 (JDK) is installed?
 
 You can check which version of JAVA you have installed on your system by opening a Terminal window and running the following command:
 
@@ -35,7 +37,7 @@ If you see an error like 'command not found' or just no response, then you'll ne
 
 You can get this at <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" class="external-link">Oracle Java SE Development Kit 8 Downloads</a>.
 
-# I get a BUILD FAILURE Error with 'Please verify you invoked Maven from the correct directory'
+## I get a BUILD FAILURE Error with 'Please verify you invoked Maven from the correct directory'
 
 ### Symptoms
 
@@ -56,7 +58,7 @@ You might come across the following error when you try to start up your plugin u
 
 Make sure you're in **your plugin directory** and make sure the **`pom.xml`** file has been created. 
 
-# I get a BUILD FAILURE error with 'Unsupported major.minor version 52.0'
+## I get a BUILD FAILURE error with 'Unsupported major.minor version 52.0'
 
 ### Symptoms
 

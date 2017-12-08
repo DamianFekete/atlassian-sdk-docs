@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852008
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852008
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852008
+date: '2017-12-08'
+legacy_title: Configuring the Plugin Descriptor
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Configuring the Plugin Descriptor 852008
+title: Configuring the plugin descriptor
 ---
 # Configuring the plugin descriptor
 
@@ -43,7 +45,7 @@ The following is the plugin descriptor file that the SDK generates for a JIRA pl
 </atlassian-plugin>
 ```
 
-The descriptor doesn't tell us much, yet. Most of the element and attribute values [contain variables](#contain-variables). And the plugin project doesn't have modules yet, so there isn't much to the descriptor. But you can still start up JIRA and see the plugin in the administration console. It appears as a user-installed add-on in the Manage Add-ons page. 
+The descriptor doesn't tell us much, yet. Most of the element and attribute values [contain variables](#keeping-the-pom-and-plugin-descriptor-in-sync). And the plugin project doesn't have modules yet, so there isn't much to the descriptor. But you can still start up JIRA and see the plugin in the administration console. It appears as a user-installed add-on in the Manage Add-ons page. 
 
 Once we add a module to the plugin, such as a custom field to the JIRA plugin project, the plugin descriptor starts to take shape.
 

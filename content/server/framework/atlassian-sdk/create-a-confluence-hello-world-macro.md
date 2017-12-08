@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 44044634
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=44044634
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=44044634
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Create a Confluence 'Hello World' Macro
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: 44044634
+title: Create a Confluence 'Hello World' macro
 ---
 # Create a Confluence 'Hello World' macro
 

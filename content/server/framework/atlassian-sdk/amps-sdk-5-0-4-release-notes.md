@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 29465870
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=29465870
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=29465870
+date: '2017-12-08'
+legacy_title: AMPS SDK 5.0.4 Release Notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Amps Sdk 5.0.4 Release Notes 29465870
+title: AMPS SDK 5.0.4 release notes
 ---
 # AMPS SDK 5.0.4 release notes
 

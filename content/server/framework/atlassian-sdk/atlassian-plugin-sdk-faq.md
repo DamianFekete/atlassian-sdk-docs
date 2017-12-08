@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818649
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818649
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818649
+date: '2017-12-08'
+legacy_title: Atlassian Plugin SDK FAQ
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Atlassian Plugin Sdk Faq 2818649
+title: Atlassian Plugin SDK FAQ
 ---
 # Atlassian Plugin SDK FAQ
 

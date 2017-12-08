@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 10421987
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421987
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421987
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Explore the Installed SDK and the atlas Commands
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Explore the Installed Sdk and the Atlas Commands 10421987
+title: Explore the installed SDK and the atlas commands
 ---
 # Explore the installed SDK and the atlas commands
 

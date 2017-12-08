@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 16352147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352147
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Run your plugin in the container
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Run Your Plugin in the Container 16352147
+title: Run your plugin in the container
 ---
 # Run your plugin in the container
 

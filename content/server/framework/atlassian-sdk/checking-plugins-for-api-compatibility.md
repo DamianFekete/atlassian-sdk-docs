@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 6291602
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6291602
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6291602
+date: '2017-12-08'
 guides: guides
+legacy_title: Checking Plugins for API Compatibility
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Checking Plugins for API Compatibility 6291602
+title: Checking Plugins for API Compatibility
 ---
 # Checking Plugins for API Compatibility
 

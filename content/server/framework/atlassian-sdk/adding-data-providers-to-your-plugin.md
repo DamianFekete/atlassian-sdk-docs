@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 33736398
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=33736398
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=33736398
+date: '2017-12-08'
 guides: guides
+legacy_title: Adding data providers to your plugin
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding Data Providers to Your Plugin 33736398
+title: Adding data providers to your plugin
 ---
 # Adding data providers to your plugin
 
@@ -80,7 +82,7 @@ interface WebResourceDataProvider {
 }
 ```
 
-See [About Jsonable's](#about-jsonable's) below for information on what this `get()` method should be returning.
+See [About Jsonable's](#about-jsonable-s) below for information on what this `get()` method should be returning.
 
 ### Injecting data during page rendering
 

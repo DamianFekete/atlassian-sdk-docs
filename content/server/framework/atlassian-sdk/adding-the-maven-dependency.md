@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669173
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669173
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669173
+date: '2017-12-08'
 guides: guides
+legacy_title: Adding the maven dependency
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding the Maven Dependency 5669173
+title: Adding the maven dependency
 ---
 # Adding the maven dependency
 

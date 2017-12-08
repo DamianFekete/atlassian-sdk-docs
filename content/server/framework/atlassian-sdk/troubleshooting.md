@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818641
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818641
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818641
+date: '2017-12-08'
+legacy_title: Troubleshooting
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Troubleshooting 2818641
+title: Troubleshooting
 ---
 # Troubleshooting
 
@@ -25,14 +27,14 @@ Some of these bundle gotchas can be debugged using the <a href="http://confluenc
 
 Errors typically fall into these categories:
 
--   *Compile time errors* are triggered by any PDK command that starts a `javac` compile such as `atlas-compile`, `atlas-package` or even `mvn package`. These go beyond the usual "cannot find symbol" <a href="http://mindprod.com/jgloss/compileerrormessages.html" class="external-link">Java compilation errors</a> due to typos in the method or class name, or missing import statements, or typos in a package name.For an example, see [Compilation failure: package does not exist](#compilation-failure:-package-does-not-exist).
+-   *Compile time errors* are triggered by any PDK command that starts a `javac` compile such as `atlas-compile`, `atlas-package` or even `mvn package`. These go beyond the usual "cannot find symbol" <a href="http://mindprod.com/jgloss/compileerrormessages.html" class="external-link">Java compilation errors</a> due to typos in the method or class name, or missing import statements, or typos in a package name.For an example, see [Compilation failure: package does not exist](#compilation-failure-package-does-not-exist).
 -   Start up errors are triggered when your new plugin is deployed and the application starts up. The application log file contains errors or warnings about it even before you try to use the plugin. An example of this type of error is [Cannot start plugin](#cannot-start-plugin).
 -   Run time errors are triggered when a new plugin is used and the application log file contains an error the first time the plugin is used. Note the following points for diagnosing these errors:
 
     -   Some of these errors and warnings only appear in `logs/catalina.out` and not in `atlassian-jira.log`
     -   If one REST resource in a plugin has a problem, then all the other resources and their URLs will produce HTTP 404 errors
 
-    Examples of these error are[NoClassDefFoundError](#noclassdeffounderror)[, UnsatisfiedDependencyException](#,-unsatisfieddependencyexception)[,](#,)[java.lang.LinkageError](#,)[, PluginException](#,-pluginexception)[, SAXParserContextProvider](#,-saxparsercontextprovider), and so on.
+    Examples of these error are[NoClassDefFoundError](#noclassdeffounderror)[, UnsatisfiedDependencyException](#unsatisfieddependencyexception)[,](#)[java.lang.LinkageError](#java-lang-linkageerror)[, PluginException](#pluginexception)[, SAXParserContextProvider](#saxparsercontextprovider), and so on.
 
 ## Troubleshooting topics
 

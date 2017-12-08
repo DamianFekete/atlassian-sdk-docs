@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852025
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852025
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852025
+date: '2017-12-08'
 guides: guides
+legacy_title: Embedding the Plugin Framework
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Embedding the Plugin Framework 852025
+title: Embedding the Plugin Framework
 ---
 # Embedding the Plugin Framework
 
@@ -19,6 +21,8 @@ This section of the plugin framework documentation is for developers who want to
 The plugin framework will transform your web application into a platform that can be extended at runtime, via plugins developed by your own developers or by outside developers who form part of your development community.
 
 The plugin framework features a mature OSGi container that keeps plugins properly isolated from your application while allowing plugins to selectively share services and code with each other.
+
+ 
 
 ## Getting Started
 

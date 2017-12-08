@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818367
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818367
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818367
+date: '2017-12-08'
+legacy_title: Maven Runs Out of Memory
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Maven Runs Out Of Memory 2818367
+title: Maven runs out of memory
 ---
 # Maven runs out of memory
 

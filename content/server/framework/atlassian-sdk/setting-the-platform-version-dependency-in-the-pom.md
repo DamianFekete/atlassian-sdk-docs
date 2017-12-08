@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818408
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818408
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818408
+date: '2017-12-08'
 guides: guides
+legacy_title: Setting the Platform Version Dependency in the POM
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Setting the Platform Version Dependency in the Pom 2818408
+title: Setting the platform version dependency in the POM
 ---
 # Setting the platform version dependency in the POM
 

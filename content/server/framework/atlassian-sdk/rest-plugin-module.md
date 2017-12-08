@@ -6,10 +6,12 @@ category: reference
 confluence_id: 4915219
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915219
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915219
+date: '2017-12-08'
+legacy_title: REST Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Rest Plugin Module 4915219
+title: REST plugin module
 ---
 # REST plugin module
 

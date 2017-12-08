@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 34669832
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=34669832
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=34669832
+date: '2017-12-08'
 guides: guides
+legacy_title: Configure AMPS to run JIRA Core with additional applications installed
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configure Amps to Run JIRA Core with Additional Applications Installed 34669832
+title: Configure AMPS to run JIRA Core with additional applications installed
 ---
 # Configure AMPS to run JIRA Core with additional applications installed
 

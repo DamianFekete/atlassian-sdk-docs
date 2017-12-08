@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 16974627
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974627
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974627
+date: '2017-12-08'
 guides: guides
+legacy_title: About AMPS Build Options
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: About Amps Build Options 16974627
+title: About AMPS build options
 ---
 # About AMPS build options
 

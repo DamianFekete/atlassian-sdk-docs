@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 851992
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851992
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851992
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Quick Start Guide to Embedding
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Quick Start Guide to Embedding 851992
+title: Quick start guide to embedding
 ---
 # Quick start guide to embedding
 

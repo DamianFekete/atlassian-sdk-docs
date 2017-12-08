@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 7897299
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=7897299
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=7897299
+date: '2017-12-08'
+legacy_title: Plugin Development Platform 2.12 Release Notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Development Platform 2.12 Release Notes 7897299
+title: Plugin Development Platform 2.12 release notes
 ---
 # Plugin Development Platform 2.12 release notes
 

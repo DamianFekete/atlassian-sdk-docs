@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 8945880
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945880
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945880
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-create-confluence-plugin-module
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Create Confluence Plugin Module 8945880
+title: atlas-create-confluence-plugin-module
 ---
 # atlas-create-confluence-plugin-module
 
