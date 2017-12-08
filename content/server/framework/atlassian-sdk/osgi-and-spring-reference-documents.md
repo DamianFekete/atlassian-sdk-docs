@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852026
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852026
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852026
+date: '2017-12-08'
+legacy_title: OSGi and Spring Reference Documents
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Osgi and Spring Reference Documents 852026
+title: OSGi and Spring reference documents
 ---
 # OSGi and Spring reference documents
 

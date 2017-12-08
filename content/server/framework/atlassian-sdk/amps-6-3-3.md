@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 52428903
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=52428903
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=52428903
+date: '2017-12-08'
+legacy_title: AMPS 6.3.3
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Amps 6.3.3 52428903
+title: AMPS 6.3.3
 ---
 # AMPS 6.3.3
 

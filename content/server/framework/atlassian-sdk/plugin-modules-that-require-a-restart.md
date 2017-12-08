@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852017
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852017
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852017
+date: '2017-12-08'
+legacy_title: Plugin Modules that Require a Restart
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Plugin Modules That Require a Restart 852017
+title: Plugin modules that require a restart
 ---
 # Plugin modules that require a restart
 

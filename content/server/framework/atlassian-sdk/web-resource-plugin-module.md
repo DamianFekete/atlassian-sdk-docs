@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852116
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852116
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852116
+date: '2017-12-08'
+legacy_title: Web Resource Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Resource Plugin Module 852116
+title: Web Resource plugin module
 ---
 # Web Resource plugin module
 
@@ -191,6 +193,8 @@ public MyServlet extends HttpServlet
 }
 ```
 
+ 
+
 ## Web Resource Contexts
 
 In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later of the Plugin Framework, you can automatically include web resources like CSS and JavaScript on all screens of a specific type in the application. These are called 'web resource contexts'. The currently available contexts are:
@@ -288,6 +292,7 @@ The plugin framework attempts to help by rewriting URLs in stylesheets to be rel
 
 {{% /note %}}
 
+  
   
 
 ## Transforming Web Resources

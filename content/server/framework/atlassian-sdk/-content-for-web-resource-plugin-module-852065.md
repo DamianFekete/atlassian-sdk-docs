@@ -171,6 +171,8 @@ public MyServlet extends HttpServlet
 }
 ```
 
+ 
+
 ## Web Resource Contexts
 
 In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later of the Plugin Framework, you can automatically include web resources like CSS and JavaScript on all screens of a specific type in the application. These are called 'web resource contexts'. The currently available contexts are:
@@ -268,6 +270,7 @@ The plugin framework attempts to help by rewriting URLs in stylesheets to be rel
 
 {{% /note %}}
 
+  
   
 
 ## Transforming Web Resources

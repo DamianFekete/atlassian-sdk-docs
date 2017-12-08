@@ -6,15 +6,15 @@ category: devguide
 confluence_id: 2818113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818113
+date: '2017-12-08'
 guides: guides
+legacy_title: Developing Speakeasy Extensions
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Developing Speakeasy Extensions 2818113
+title: Developing Speakeasy extensions
 ---
 # Developing Speakeasy extensions
-
- 
 
 ## What can extensions do?
 

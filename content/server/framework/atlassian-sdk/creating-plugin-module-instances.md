@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 851984
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851984
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851984
+date: '2017-12-08'
 guides: guides
+legacy_title: Creating Plugin Module Instances
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Creating Plugin Module Instances 851984
+title: Creating plugin module instances
 ---
 # Creating plugin module instances
 

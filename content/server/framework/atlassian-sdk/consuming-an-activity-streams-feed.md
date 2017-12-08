@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852027
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852027
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852027
+date: '2017-12-08'
 guides: guides
+legacy_title: Consuming an Activity Streams Feed
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Consuming an Activity Streams Feed 852027
+title: Consuming an Activity Streams feed
 ---
 # Consuming an Activity Streams feed
 
@@ -335,7 +337,7 @@ It is also possible to have multiple values for each filter operator. Examples o
 http://studio.atlassian.com/activity?streams=update-date+BETWEEN+1320652800000+1320998399999
 ```
 
-You can get the list of available global filters by using the request described in the filtering section [above](#above), within the block of the JSON response with key `streams`.
+You can get the list of available global filters by using the request described in the filtering section [above](#filtering), within the block of the JSON response with key `streams`.
 
 ### Per-Provider Filtering
 
@@ -351,7 +353,7 @@ For example, to filter JIRA items so that you only get created issues, your URL 
 http://studio.atlassian.com/activity?issues=activity+IS+issue%3Apost
 ```
 
-You can get the list of available filters by using the request described in the filtering section [above](#above). Each provider has its own set of filters, which are found in the response JSON in blocks with keys other than `streams`.
+You can get the list of available filters by using the request described in the filtering section [above](#filtering). Each provider has its own set of filters, which are found in the response JSON in blocks with keys other than `streams`.
 
 ### Combining Filters
 

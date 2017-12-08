@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852004
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852004
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852004
+date: '2017-12-08'
+legacy_title: Adding Resources to your Project
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Adding Resources to Your Project 852004
+title: Adding resources to your project
 ---
 # Adding resources to your project
 

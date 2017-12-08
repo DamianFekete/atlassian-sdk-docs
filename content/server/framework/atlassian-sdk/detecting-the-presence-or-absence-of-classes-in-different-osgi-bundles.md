@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818636
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818636
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818636
+date: '2017-12-08'
+legacy_title: Detecting the Presence or Absence of Classes in Different OSGI Bundles
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Detecting the Presence Or Absence Of Classes in Different Osgi Bundles 2818636
+title: Detecting the presence or absence of classes in different OSGI bundles
 ---
 # Detecting the presence or absence of classes in different OSGI bundles
 

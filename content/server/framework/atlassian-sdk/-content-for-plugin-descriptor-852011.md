@@ -308,6 +308,8 @@ A common example of a `param` element the URL for your plugin's configuration sc
 </atlassian-plugin>
 ```
 
+ 
+
 ### `bundle-instructions` element
 
 This element allows you to declare plugin dependencies and shorten your export package lists by specifying OSGi bundle instructions directly in the plugin XML. The element's parent element is `<plugin-info>`.

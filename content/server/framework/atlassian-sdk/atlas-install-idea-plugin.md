@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818719
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818719
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818719
+date: '2017-12-08'
+legacy_title: atlas-install-idea-plugin (not published)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 2818719
+title: atlas-install-idea-plugin
 ---
 # atlas-install-idea-plugin
 

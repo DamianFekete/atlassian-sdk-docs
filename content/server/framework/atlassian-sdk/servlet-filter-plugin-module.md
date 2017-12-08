@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852110
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852110
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852110
+date: '2017-12-08'
+legacy_title: Servlet Filter Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet Filter Plugin Module 852110
+title: Servlet Filter plugin module
 ---
 # Servlet Filter plugin module
 
@@ -152,7 +154,7 @@ I.e. the identifier of the servlet filter.</td>
 <li>* matches zero or many characters, including directory slashes</li>
 <li>? matches zero or one character</li>
 </ul>
-<h6 id="examples">Examples</h6>
+<h6 id="ServletFilterPluginModule-Examples">Examples</h6>
 <ul>
 <li><code>/mydir/*</code> matches <code>/mydir/myfile.xml</code></li>
 <li><code>/*/admin/*.??ml</code> matches <code>/mydir/otherdir/admin/myfile.html</code></li>

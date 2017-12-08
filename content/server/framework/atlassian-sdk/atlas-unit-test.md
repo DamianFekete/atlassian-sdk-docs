@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818360
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818360
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818360
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-unit-test
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Unit Test 2818360
+title: atlas-unit-test
 ---
 # atlas-unit-test
 

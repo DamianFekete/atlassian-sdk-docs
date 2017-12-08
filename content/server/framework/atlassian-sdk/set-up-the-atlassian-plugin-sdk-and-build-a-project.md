@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818660
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818660
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818660
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Set up the Atlassian Plugin SDK and Build a Project
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Set Up the Atlassian Plugin Sdk and Build a Project 2818660
+title: Set up the Atlassian Plugin SDK and build a project
 ---
 # Set up the Atlassian Plugin SDK and build a project
 

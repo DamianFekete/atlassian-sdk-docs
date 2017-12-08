@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669100
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669100
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669100
+date: '2017-12-08'
 guides: guides
+legacy_title: Atlassian Template Renderer
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlassian Template Renderer 5669100
+title: Atlassian Template Renderer
 ---
 # Atlassian Template Renderer
 

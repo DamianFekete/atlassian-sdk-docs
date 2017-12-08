@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 851983
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851983
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851983
+date: '2017-12-08'
 guides: guides
+legacy_title: Using Standard Page Decorators
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Using Standard Page Decorators 851983
+title: Using standard page decorators
 ---
 # Using standard page decorators
 

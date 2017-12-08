@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 851971
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851971
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851971
+date: '2017-12-08'
+legacy_title: Version 1 or Version 2 Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 851971
+title: Version 1 or version 2 plugin
 ---
 # Version 1 or version 2 plugin
 

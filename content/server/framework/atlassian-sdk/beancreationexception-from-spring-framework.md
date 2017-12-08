@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818633
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818633
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818633
+date: '2017-12-08'
+legacy_title: BeanCreationException from Spring Framework
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Beancreationexception From Spring Framework 2818633
+title: BeanCreationException from Spring Framework
 ---
 # BeanCreationException from Spring Framework
 

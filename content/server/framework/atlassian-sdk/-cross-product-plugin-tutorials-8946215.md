@@ -36,29 +36,29 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Making Pluggable Inline Actions for Activity Streams](/display/DOCS/Making+Pluggable+Inline+Actions+for+Activity+Streams)
+    [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
 
 -   Page:
 
-    [Adding Activities to a Third Party feed with the Java API](/display/DOCS/Adding+Activities+to+a+Third+Party+feed+with+the+Java+API)
+    [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
 
 #### Intermediate
 
 -   Page:
 
-    [Making your own Activity Streams Provider](/display/DOCS/Making+your+own+Activity+Streams+Provider)
+    [Making your own Activity Streams Provider](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider)
 
 -   Page:
 
-    [Getting Started with Active Objects](/display/DOCS/Getting+Started+with+Active+Objects)
+    [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
 
 -   Page:
 
-    [Unit Testing Plugins](/display/CONFDEV/Unit+Testing+Plugins)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
 
 -   Page:
 
@@ -68,15 +68,15 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Scheduling Events via SAL Tutorial](/display/DOCS/Scheduling+Events+via+SAL+Tutorial)
+    [Scheduling Events via SAL Tutorial](/server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial)
 
 -   Page:
 
-    [Creating an Admin Configuration Form](/display/DOCS/Creating+an+Admin+Configuration+Form)
+    [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
 
 -   Page:
 
-    [Developing a REST Service Plugin](/display/DOCS/Developing+a+REST+Service+Plugin)
+    [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)
 
 ### External Tutorials
 

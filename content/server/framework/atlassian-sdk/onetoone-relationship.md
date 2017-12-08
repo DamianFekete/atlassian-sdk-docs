@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669151
+date: '2017-12-08'
 guides: guides
+legacy_title: OneToOne Relationship
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Onetoone Relationship 5669151
+title: OneToOne relationship
 ---
 # OneToOne relationship
 

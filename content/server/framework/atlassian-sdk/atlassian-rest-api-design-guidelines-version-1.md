@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 4915226
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915226
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915226
+date: '2017-12-08'
 guides: guides
+legacy_title: Atlassian REST API Design Guidelines version 1
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlassian REST API Design Guidelines Version 1 4915226
+title: Atlassian REST API design guidelines version 1
 ---
 # Atlassian REST API design guidelines version 1
 
@@ -120,7 +122,7 @@ Structure of the above URI:
 -   `context` is the servlet context of the application. For example, for Confluence this would typically be `confluence`.
 -   `rest` denotes the REST API.
 -   `upm` is the path declared in the REST module type in the plugin descriptor.
--   `1` is the API version. See the section on API version control [below](#below).
+-   `1` is the API version. See the section on API version control [below](#version-control-for-apis).
 
 #### Standard Query Parameters in URIs
 
@@ -140,7 +142,7 @@ Below is a list of standard query parameters. These names are reserved in our RE
 <tbody>
 <tr class="odd">
 <td><p><code>expand</code></p></td>
-<td><p>Used for title expansion. See section on title expansion <a href="#below">below</a>.</p></td>
+<td><p>Used for title expansion. See section on title expansion <a href="#title-expansion-for-entities">below</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><code>start-index</code></p></td>
@@ -190,6 +192,8 @@ By default, REST APIs must support multiple content types.
 </tbody>
 </table>
 
+ 
+
 #### Hypertext Linking within an Entity
 
 Entities can have links to each other. This is represented by the `<link>` tag. The `<link>` tag supports the following attributes:
@@ -215,7 +219,7 @@ Entities can have links to each other. This is represented by the `<link>` tag. 
 <td><p>The relationship between the <em>containing</em> entity and the entity linked to.<br />
 Examples of possible values:</p>
 <ul>
-<li><code>self</code> -- denotes that the URI points to the entity itself, see Entity ID <a href="#below">below</a>.</li>
+<li><code>self</code> -- denotes that the URI points to the entity itself, see Entity ID <a href="#entity-id">below</a>.</li>
 <li><code>edit</code> -- denotes the URI used to update the entity,</li>
 <li><code>delete</code> -- denotes the URI used to delete the entity,</li>
 <li><code>add</code> -- denotes the URI used to create the entity.</li>
@@ -248,9 +252,13 @@ The following plugin entity has a `<link>` tag with a `rel` attribute identifyin
 </plugin>
 ```
 
+ 
+
 #### Entity ID
 
-Every addressable entity should have a `<link>` tag with the attribute `rel="self"` pointing to its own URI. See the section on linking [above](#above).
+Every addressable entity should have a `<link>` tag with the attribute `rel="self"` pointing to its own URI. See the section on linking [above](#hypertext-linking-within-an-entity).
+
+ 
 
 #### Version Control for Entities
 
@@ -307,13 +315,15 @@ In the response below, the `<modules>` entity has a `size` attribute indicating 
 </plugin>
 ```
 
+ 
+
 #### Title Expansion for Entities
 
 In order to be minimise network traffic and simplify some APIs from the client perspective, we recommend that APIs provide title expansion. This works by using the `expand` query parameter and setting its value to the last path element of the entity's schema.
 
 The `expand` query parameter allows a comma-separated list of identifiers to expand. For example, the value `modules,info` requests the expansion of entities for which the `expand` identifier is `modules` and `info`.
 
-You can use the dot notation to specify expansion of entities within another entity. For example `modules.module` would expand the plugin entity (because its `expand` identifier is `modules`) and the module entities within the plugin. See example 4 [below](#below).
+You can use the dot notation to specify expansion of entities within another entity. For example `modules.module` would expand the plugin entity (because its `expand` identifier is `modules`) and the module entities within the plugin. See example 4 [below](#example-4-using-the-dot-notation-to-expand-entities-within-another-entity).
 
 Expandable entities should be declared by parent entities in the form of an `expand` attribute. In example 1, the plugin entity declares `modules` and `info` as being expandable. The attribute should not be confused with the query parameter which specifies which entities *are* expanded.
 
@@ -376,6 +386,8 @@ The response will contain:
 
 Note that the above URI does not expand each individual module.
 
+ 
+
 ###### Example 4: Using the Dot Notation to Expand Entities within another Entity
 
 Use the following URI to expand the modules inside the collection within our plugin resource:  
@@ -409,6 +421,8 @@ You can also set indices to expand a given set of items in the collection. The i
 -   `modules[3]` will expand only the module at index 3 of the collection.
 -   `modules[1:3]` will expand modules ranging from index 1 to 3 (included). Note that `[:3]` and `[3:]` notations also work and the range goes respectively from the beginning of the collection and to the end of the collection.
 -   `modules[-1]` will expand the last module. Other negative index values also work and indices are counted from the end of the collection.
+
+ 
 
 ## Version Control for APIs
 
@@ -607,15 +621,15 @@ If <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" class=
 
 ## Caching
 
-REST APIs SHOULD support conditional GET requests. This will allow the client to cache resource representations. For conditional GET requests to work, the client MUST send the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19" class="external-link">ETag</a> value when requesting resources using the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.26" class="external-link">If-None-Match</a> request header. The ETag is the one provided by a previous request to that same URI. See the section on version control for entities [below](#below).
+REST APIs SHOULD support conditional GET requests. This will allow the client to cache resource representations. For conditional GET requests to work, the client MUST send the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19" class="external-link">ETag</a> value when requesting resources using the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.26" class="external-link">If-None-Match</a> request header. The ETag is the one provided by a previous request to that same URI. See the section on version control for entities [below](#version-control-for-entities).
 
-Server implementations should acknowledge the `If-None-Match` header and check whether the response should be a `304` (Not Modified). See the section on response codes [below](#below).
+Server implementations should acknowledge the `If-None-Match` header and check whether the response should be a `304` (Not Modified). See the section on response codes [below](#appendix-a-response-codes).
 
 ## Concurrency
 
-PUT or DELETE API requests SHOULD provide an <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.24" class="external-link">If-Match</a> header, and SHOULD react meaningfully to `412` (Precondition Failed) responses. See the section on response codes [below](#below).
+PUT or DELETE API requests SHOULD provide an <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.24" class="external-link">If-Match</a> header, and SHOULD react meaningfully to `412` (Precondition Failed) responses. See the section on response codes [below](#appendix-a-response-codes).
 
-The ETag is the one provided by a previous GET request to that same URI. See the section on version control for entities [below](#below).
+The ETag is the one provided by a previous GET request to that same URI. See the section on version control for entities [below](#version-control-for-entities).
 
 ## Not Yet Covered in these Guidelines
 
@@ -626,6 +640,8 @@ Some items worth discussing in the guidelines are currently out of scope:
 -   Gzip
 -   OpenSearch
 -   Internationalisation (i18n)
+
+ 
 
 ## Appendix A: Response Codes
 
@@ -761,7 +777,7 @@ The link element is used for hyperlinking entities and as entity IDs:
 <link title="This is my resource" rel="edit" href="http://host:port/context/rest/api/1/myresource" />
 ```
 
-See the sections on [linking](#above) and [entity IDs](#below) above.
+See the sections on [linking](#hypertext-linking-within-an-entity) and [entity IDs](#entity-id) above.
 
 ### Status
 
@@ -799,7 +815,7 @@ Any request which produces a status code with no body will have a body formatted
 </tr>
 <tr class="even">
 <td><p><code>status-code</code></p></td>
-<td><p>The actual HTTP code of the response. See the section on response codes <a href="#below">above</a>.</p></td>
+<td><p>The actual HTTP code of the response. See the section on response codes <a href="#appendix-a-response-codes">above</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>sub-code</code></p></td>

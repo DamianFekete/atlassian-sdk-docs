@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 5242946
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242946
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242946
+date: '2017-12-08'
+legacy_title: Shared Access Layer
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Shared Access Layer 5242946
+title: Shared Access Layer
 ---
 # Shared Access Layer
 

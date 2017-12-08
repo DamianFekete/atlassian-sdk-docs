@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 8946975
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946975
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946975
+date: '2017-12-08'
 guides: guides
+legacy_title: AO 0.18.x Upgrade Guide
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Ao 0.18.X Upgrade Guide 8946975
+title: AO 0.18.x upgrade guide
 ---
 # AO 0.18.x upgrade guide
 

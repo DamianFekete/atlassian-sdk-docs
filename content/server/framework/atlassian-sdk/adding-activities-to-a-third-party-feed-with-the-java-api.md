@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669691
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669691
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669691
+date: '2017-12-08'
 guides: guides
+legacy_title: Adding Activities to a Third Party feed with the Java API
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Adding Activities to a Third Party Feed with the Java API 5669691
+title: Adding Activities to a Third Party feed with the Java API
 ---
 # Adding Activities to a Third Party feed with the Java API
 

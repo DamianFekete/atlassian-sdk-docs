@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818368
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818368
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818368
+date: '2017-12-08'
+legacy_title: Maven Parsing Error Unrecognised HTML Tag
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Maven Parsing Error Unrecognised Html Tag 2818368
+title: Maven parsing error unrecognised HTML tag
 ---
 # Maven parsing error unrecognised HTML tag
 

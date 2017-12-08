@@ -49,55 +49,55 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
+    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](https://developer.atlassian.com/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
 
 -   Page:
 
-    [FishEye Event Listener Plugin Module Tutorial](/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+    [FishEye Event Listener Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
 
 -   Page:
 
-    [Using Logging From Your FishEye Plugin](/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
+    [Using Logging From Your FishEye Plugin](https://developer.atlassian.com/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
 
 #### Intermediate
 
 -   Page:
 
-    [FishEye Twitter Integration Plugin Tutorial](/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
+    [FishEye Twitter Integration Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
 
 -   Page:
 
-    [Crucible Workflow Conditions Plugin Module Tutorial](/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
+    [Crucible Workflow Conditions Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
 
 -   Page:
 
-    [Crucible Gadget Tutorial](/display/FECRUDEV/Crucible+Gadget+Tutorial)
+    [Crucible Gadget Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Gadget+Tutorial)
 
 -   Page:
 
-    [Rendering a Velocity Template from Your FishEye Servlet](/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
+    [Rendering a Velocity Template from Your FishEye Servlet](https://developer.atlassian.com/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
 
 #### Advanced
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [FishEye Gutter Renderer Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [FishEye Smart Commit Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 -   Page:
 
-    [REST Service Plugin Module Tutorial for FishEye](/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
+    [REST Service Plugin Module Tutorial for FishEye](https://developer.atlassian.com/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
 
 -   Page:
 
-    [Storing Plugin Settings for FishEye](/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
+    [Storing Plugin Settings for FishEye](https://developer.atlassian.com/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
 
 -   Page:
 
-    [Crucible SCM Plugin Tutorial](/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
+    [Crucible SCM Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
 
 ### Related Tutorials
 

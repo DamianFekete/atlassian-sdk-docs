@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 45523672
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=45523672
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=45523672
+date: '2017-12-08'
+legacy_title: Product Fails to Start Within Timeout Period
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Product Fails to Start Within Timeout Period 45523672
+title: Product fails to start within timeout period
 ---
 # Product fails to start within timeout period
 

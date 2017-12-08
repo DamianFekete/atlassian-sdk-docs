@@ -71,7 +71,8 @@ The root element for the Web Section plugin module is `web-section` It allows th
 </tr>
 <tr class="even">
 <td><p>weight</p></td>
-<td><p>Determines the order in which web items appear. Items are displayed top to bottom or left to right in order of ascending weight. The 'lightest' weight is displayed first, the 'heaviest' weights sink to the bottom. The weights for most applications' system sections start from 100, and the weights for their links generally start from 10. The weight is incremented by 10 for each in sequence so that there is ample space to insert your own sections and links.</p></td>
+<td><h6 id="id-_ContentforWebSectionPluginModule-weightattrWeightattribute">Weight attribute</h6>
+<p>Determines the order in which web items appear. Items are displayed top to bottom or left to right in order of ascending weight. The 'lightest' weight is displayed first, the 'heaviest' weights sink to the bottom. The weights for most applications' system sections start from 100, and the weights for their links generally start from 10. The weight is incremented by 10 for each in sequence so that there is ample space to insert your own sections and links.</p></td>
 </tr>
 </tbody>
 </table>
@@ -95,44 +96,42 @@ The table summarises the elements. The sections below contain further informatio
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="#condition">condition</a></p></td>
-<td><p>Defines a condition that must be satisfied for the web item to be displayed. If you want to 'invert' a condition, add an attribute 'invert=&quot;true&quot;' to it. The web item will then be displayed if the condition returns false (not true).</p></td>
+<td><p>condition</p></td>
+<td><p>Defines a condition that must be satisfied for the web item to be displayed. If you want to 'invert' a condition, add an attribute 'invert=&quot;true&quot;' to it. The web item will then be displayed if the condition returns false (not true). More below (<a href="http://developer.atlassian.com#conditionElements" class="external-link">Condition and Conditions elements</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#condition">conditions</a></p></td>
-<td><p>Defines the logical operator type used to evaluate the condition elements. By default 'AND' will be used.</p>
+<td><p>conditions</p></td>
+<td><p>Defines the logical operator type used to evaluate the condition elements. By default 'AND' will be used. More below (<a href="https://developer.atlassian.com/http:/#conditionElements">Condition and Conditions elements</a>).</p>
 <p><strong>Default:</strong> AND.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#context-provider">context-provider</a></p></td>
-<td><p>Allows dynamic addition to the Velocity context available for various web item elements (in XML descriptors only). Currently only one context-provider can be specified per web item and section.</p></td>
+<td><p>context-provider</p></td>
+<td><p>Allows dynamic addition to the Velocity context available for various web item elements (in XML descriptors only). Currently only one context-provider can be specified per web item and section. More below (<a href="#context-provider">Context-provider</a>)</p></td>
 </tr>
 <tr class="even">
 <td><p>description</p></td>
 <td><p>The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. Use this element to describe the section.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#label">label</a></p></td>
-<td><p>Is the i18n key that will be used to look up the textual representation of the link.</p></td>
+<td><p>label</p></td>
+<td><p>Is the i18n key that will be used to look up the textual representation of the link. More below (<a href="#label-element-is-required-label">Label</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#param">param</a></p></td>
-<td><p>Parameters for the plugin module. Use the 'key' attribute to declare the parameter key, then specify the value in either the 'value' attribute or the element body. This element may be repeated. An example is the configuration link described in <a href="https://developer.atlassian.com/display/DOCS/Adding+a+Configuration+UI+for+your+Plugin">Adding a Configuration UI for your Plugin</a>. Defines a key/value pair available from the web item. This is handy if you want to use additional custom values from the UI.</p></td>
+<td><p>param</p></td>
+<td><p>Parameters for the plugin module. Use the 'key' attribute to declare the parameter key, then specify the value in either the 'value' attribute or the element body. This element may be repeated. An example is the configuration link described in <a href="https://developer.atlassian.com/display/DOCS/Adding+a+Configuration+UI+for+your+Plugin">Adding a Configuration UI for your Plugin</a>. Defines a key/value pair available from the web item. This is handy if you want to use additional custom values from the UI. More below (<a href="#param">Param</a>).</p></td>
 </tr>
 <tr class="odd">
 <td><p>resource</p></td>
 <td>A resource for this plugin module. This element may be repeated. A 'resource' is a non-Java file that a plugin may need in order to operate. Refer to <a href="https://developer.atlassian.com/display/DOCS/Adding+Resources+to+your+Project">Adding Resources to your Project</a> for details on defining a resource.</td>
 </tr>
 <tr class="even">
-<td><p><a href="#tooltip">tooltip</a></p></td>
-<td><p>Is the i18n key that will be used to look up the textual mouse-over text of the link.</p></td>
+<td><p>tooltip</p></td>
+<td><p>Is the i18n key that will be used to look up the textual mouse-over text of the link. More below (<a href="#tooltip">Tooltip</a>).</p></td>
 </tr>
 </tbody>
 </table>
 
-\***label element is required.**  
-
-#### Label Elements
+#### \***label element is required.** Label 
 
 Label elements may contain optional parameters, as shown below:
 
@@ -146,11 +145,11 @@ Label elements may contain optional parameters, as shown below:
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
 
-#### Tooltip Elements
+#### Tooltip 
 
-Tooltip elements have the same attributes and parameters as the label elements. See [above](#label).
+Tooltip elements have the same attributes and parameters as the label elements. See [above](#label-element-is-required-label).
 
-#### Param Elements
+#### Param
 
 Param elements represent a map of key/value pairs, where each entry corresponds to the param elements attribute: `name` and `value` respectively.
 
@@ -172,7 +171,7 @@ If the `value` attribute is not specified, the value will be set to the body of 
 <param name="isPopupLink">true</param>
 ```
 
-#### Context-provider Element
+#### Context-provider
 
 |            |                                                                       |
 |------------|-----------------------------------------------------------------------|

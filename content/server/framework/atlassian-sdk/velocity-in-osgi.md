@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 851989
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851989
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851989
+date: '2017-12-08'
+legacy_title: Velocity in OSGi
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Velocity in Osgi 851989
+title: Velocity in OSGi
 ---
 # Velocity in OSGi
 

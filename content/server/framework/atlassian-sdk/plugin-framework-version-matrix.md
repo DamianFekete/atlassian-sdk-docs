@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852041
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852041
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852041
+date: '2017-12-08'
+legacy_title: Plugin Framework Version Matrix
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Framework Version Matrix 852041
+title: Plugin Framework version matrix
 ---
 # Plugin Framework version matrix
 

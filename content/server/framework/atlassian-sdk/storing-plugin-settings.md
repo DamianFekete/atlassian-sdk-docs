@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 18251950
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18251950
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18251950
+date: '2017-12-08'
 guides: guides
+legacy_title: Storing plugin settings
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Storing Plugin Settings 18251950
+title: Storing plugin settings
 ---
 # Storing plugin settings
 

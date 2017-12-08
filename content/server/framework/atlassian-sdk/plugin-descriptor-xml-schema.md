@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818613
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818613
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818613
+date: '2017-12-08'
+legacy_title: Plugin Descriptor XML Schema
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Plugin Descriptor Xml Schema 2818613
+title: Plugin descriptor XML Schema
 ---
 # Plugin descriptor XML Schema
 

@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818640
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818640
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818640
+date: '2017-12-08'
 guides: guides
+legacy_title: Packaging and Releasing your Plugin
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Packaging and Releasing Your Plugin 2818640
+title: Packaging and releasing your plugin
 ---
 # Packaging and releasing your plugin
 
@@ -24,7 +26,9 @@ This will produce a `jar` file in the plugin's `target` directory. You can <a hr
 
 ## Releasing your plugin
 
-**A Note about Quality**
+{{% note %}}
+
+A Note about Quality
 
 We have set certain criteria for our own plugin development. If you are working on a plugin that you wish to share with the community, we encourage you to try and meet these same criteria in your work. It will result in a higher quality product and make it easier for others to collaborate.
 
@@ -36,6 +40,8 @@ We have set certain criteria for our own plugin development. If you are working 
     -   a link to the plugin's complete, accurate and attractive documentation;
     -   screenshots of your plugin in action;
     -   a YouTube video giving a walkthrough or marketing the plugin's features.
+
+{{% /note %}}
 
 ### 1. Choose a License
 

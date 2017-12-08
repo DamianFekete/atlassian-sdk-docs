@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 5242921
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242921
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242921
+date: '2017-12-08'
+legacy_title: SAL Services
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Sal Services 5242921
+title: SAL services
 ---
 # SAL services
 

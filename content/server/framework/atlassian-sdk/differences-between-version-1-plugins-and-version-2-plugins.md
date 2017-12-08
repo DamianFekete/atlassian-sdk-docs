@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852009
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852009
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852009
+date: '2017-12-08'
+legacy_title: Differences between Version 1 Plugins and Version 2 Plugins
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Differences Between Version 1 Plugins and Version 2 Plugins 852009
+title: Differences between version 1 plugins and version 2 plugins
 ---
 # Differences between version 1 plugins and version 2 plugins
 

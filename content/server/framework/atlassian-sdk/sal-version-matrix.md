@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 5242944
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242944
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242944
+date: '2017-12-08'
+legacy_title: SAL Version Matrix
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Sal Version Matrix 5242944
+title: SAL version matrix
 ---
 # SAL version matrix
 

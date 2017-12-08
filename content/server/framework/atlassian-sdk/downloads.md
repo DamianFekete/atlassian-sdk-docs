@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 13633001
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633001
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633001
+date: '2017-12-08'
+legacy_title: Downloads
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Downloads 13633001
+title: Downloads
 ---
 # Downloads
 

@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852151
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852151
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852151
+date: '2017-12-08'
+legacy_title: Accessing Classes from Another Plugin
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Accessing Classes From Another Plugin 852151
+title: Accessing classes from another plugin
 ---
 # Accessing classes from another plugin
 

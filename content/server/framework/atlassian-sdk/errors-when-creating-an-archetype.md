@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818369
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818369
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818369
+date: '2017-12-08'
+legacy_title: Errors when Creating an Archetype
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Errors When Creating an Archetype 2818369
+title: Errors when creating an archetype
 ---
 # Errors when creating an archetype
 

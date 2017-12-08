@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852034
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852034
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852034
+date: '2017-12-08'
+legacy_title: Dynamic Module Types
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Dynamic Module Types 852034
+title: Dynamic Module Types
 ---
 # Dynamic Module Types
 

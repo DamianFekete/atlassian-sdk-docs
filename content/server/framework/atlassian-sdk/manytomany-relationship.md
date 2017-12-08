@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 5669155
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669155
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669155
+date: '2017-12-08'
 guides: guides
+legacy_title: ManyToMany Relationship
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Manytomany Relationship 5669155
+title: ManyToMany relationship
 ---
 # ManyToMany relationship
 

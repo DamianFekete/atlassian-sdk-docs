@@ -6,10 +6,12 @@ category: reference
 confluence_id: 851993
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851993
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851993
+date: '2017-12-08'
+legacy_title: Using the Built-In Plugin Modules
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Using the Built in Plugin Modules 851993
+title: Using the built-in plugin modules
 ---
 # Using the built-in plugin modules
 

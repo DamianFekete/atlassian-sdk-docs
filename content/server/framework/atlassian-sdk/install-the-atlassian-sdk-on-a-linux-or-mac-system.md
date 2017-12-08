@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 11305014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=11305014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=11305014
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Install the Atlassian SDK on a Linux or Mac system
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Install the Atlassian Sdk On a Linux Or Mac System 11305014
+title: Install the Atlassian SDK on a Linux or Mac system
 ---
 # Install the Atlassian SDK on a Linux or Mac system
 
@@ -39,7 +41,7 @@ host:~ test$ echo $JAVA_HOME
 /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home
 ```
 
-If the output resembles the above skip ahead to [Step 2: Download and Install the SDK](#step-2:-download-and-install-the-sdk)
+If the output resembles the above skip ahead to [Step 2: Download and Install the SDK](#step-2-download-and-install-the-sdk)
 
 The `JAVA_HOME` environment variable specifies the location of the JDK on your system. On Mac OS X, if you accepted the defaults when you installed the JDK, this is `/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home`. On Linux, it may be `/usr/local/jdk`, or a similar location. You should add the JDK's `bin` directory to your `PATH` environment variable as well. This ensures your environment is configured and can locate the `javac` command.
 

@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 4915201
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915201
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915201
+date: '2017-12-08'
+legacy_title: REST and os_authType
 platform: server
 product: atlassian-sdk
 subcategory: security
-title: Rest and Os Authtype 4915201
+title: REST and os_authType
 ---
 # REST and os\_authType
 

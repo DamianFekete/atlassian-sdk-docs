@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852078
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852078
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852078
+date: '2017-12-08'
+legacy_title: Plugin Development Platform 2.11 Release Notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Plugin Development Platform 2.11 Release Notes 852078
+title: Plugin Development Platform 2.11 release notes
 ---
 # Plugin Development Platform 2.11 release notes
 

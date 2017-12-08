@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818391
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818391
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818391
+date: '2017-12-08'
+legacy_title: Plugins that Cannot be Reloaded with FastDev or pi
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Plugins That Cannot Be Reloaded with Fastdev Or Pi 2818391
+title: Plugins that cannot be reloaded with FastDev or pi
 ---
 # Plugins that cannot be reloaded with FastDev or pi
 

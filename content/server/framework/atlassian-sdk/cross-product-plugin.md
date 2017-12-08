@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852128
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852128
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852128
+date: '2017-12-08'
+legacy_title: Cross-Product Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 852128
+title: 'Cross-product plugin '
 ---
 # Cross-product plugin
 

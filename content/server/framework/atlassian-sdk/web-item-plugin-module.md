@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852014
+date: '2017-12-08'
+legacy_title: Web Item Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Web Item Plugin Module 852014
+title: Web Item plugin module
 ---
 # Web Item plugin module
 
@@ -77,7 +79,7 @@ The root element for the Web Item plugin module is `web-item`. It allows the fol
 <p><strong>Default:</strong> false.</p></td>
 </tr>
 <tr class="even">
-<td><p>weight</p>
+<td><h6 id="WebItemPluginModule-weightattrweight">weight</h6>
 <p> </p></td>
 <td><p>Determines the order in which web items appear.</p>
 <p>Items are displayed top to bottom or left to right in order of ascending weight.</p>
@@ -109,19 +111,19 @@ The tables summarises the elements. The sections below contain further informati
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="#condition">condition</a></p></td>
+<td><p><a href="#condition-and-conditions-elements">condition</a></p></td>
 <td><p>Defines a condition that must be satisfied for the web panel to be displayed.</p>
 <p>If you want to 'invert' a condition, add an attribute 'invert=&quot;true&quot;' to it.</p>
 <p>The web item will then be displayed if the condition returns false (not true).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#condition">conditions</a></p>
+<td><p><a href="#condition-and-conditions-elements">conditions</a></p>
 <p> </p></td>
 <td><p>Defines the logical operator type to evaluate its condition elements. By default 'AND' will be used.</p>
 <p><strong>Default:</strong> AND.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#context-provider">context-provider</a></p></td>
+<td><p><a href="#context-provider-element">context-provider</a></p></td>
 <td><p>Allows dynamic addition to the Velocity context available for various web panel elements (in XML descriptors only).</p>
 <p>Currently only one context-provider can be specified per web panel.</p></td>
 </tr>
@@ -131,23 +133,23 @@ The tables summarises the elements. The sections below contain further informati
 <p>I.e. the description of the web item.</p></td>
 </tr>
 <tr class="odd">
-<td><a href="#icon">icon</a></td>
+<td><a href="#icon-elements">icon</a></td>
 <td><p>Defines an icon to display with or as the link.</p>
 <p> <strong>Note:</strong> In some cases the icon element is required.</p>
 <p>Try adding it if your web section is not displaying properly.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#label">label</a></p></td>
+<td><p><a href="#label-elements">label</a></p></td>
 <td>Is the i18n key that will be used to look up the textual representation of the link.</td>
 </tr>
 <tr class="odd">
-<td><a href="#link">link</a></td>
+<td><a href="#link-elements">link</a></td>
 <td><p>Defines where the web item should link to.</p>
 <p>The contents of the link element will be rendered using Velocity, allowing you to put dynamic content in links.</p>
-<p>For more complex examples of links, see <a href="#link">below</a>.</p></td>
+<p>For more complex examples of links, see <a href="#link-elements">below</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#param">param</a></p></td>
+<td><p><a href="#param-elements">param</a></p></td>
 <td><p>Parameters for the plugin module. Use the 'key' attribute to declare the parameter key, then specify the value in either the 'value' attribute or the element body. This element may be repeated. An example is the configuration link described in <a href="https://developer.atlassian.com/display/DOCS/Adding+a+Configuration+UI+for+your+Plugin">Adding a Configuration UI for your Plugin</a>.</p>
 <p>This is handy if you want to use additional custom values from the UI.</p></td>
 </tr>
@@ -167,13 +169,15 @@ The tables summarises the elements. The sections below contain further informati
 <p>Note that this value may be ignored in some situations.</p></td>
 </tr>
 <tr class="even">
-<td><a href="#tooltip">tooltip</a></td>
+<td><a href="#tooltip-elements">tooltip</a></td>
 <td>Is the i18n key that will be used to look up the textual mouse-over text of the link.</td>
 </tr>
 </tbody>
 </table>
 
 **\*label and link elements are required.**
+
+ 
 
 #### Label Elements
 
@@ -189,9 +193,13 @@ Label elements may contain optional parameters, as shown below:
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
 
+ 
+
 #### Tooltip Elements
 
-Tooltip elements have the same attributes and parameters as the label elements. See [above](#label).
+Tooltip elements have the same attributes and parameters as the label elements. See [above](#label-elements).
+
+ 
 
 #### Link Elements
 
@@ -210,15 +218,19 @@ The body of the link element is its URL. The URL is rendered with Velocity, so y
 <link linkId="view-attachments-link">/pages/viewpageattachments.action?pageId=$page.id</link>
 ```
 
+ 
+
 #### Icon Elements
 
-Icon elements have a `height` and a `width` attribute. The location of the icon is specified within a [link](#link) element:
+Icon elements have a `height` and a `width` attribute. The location of the icon is specified within a [link](#link-elements) element:
 
 ``` xml
 <icon height="16" width="16">
     <link>/images/icons/print.gif</link>
 </icon>
 ```
+
+ 
 
 #### Param Elements
 
@@ -241,6 +253,8 @@ If the `value` attribute is not specified, the value will be set to the body of 
 <param name="isPopupLink" value="true" />
 <param name="isPopupLink">true</param>
 ```
+
+ 
 
 #### Context-provider Element
 
@@ -302,6 +316,8 @@ The newly added context entries `historyWindowHeight` and `filtersWindowHeight` 
 <!-- set the link's label to print the value of filtersWindowHeight -->
 <label>filter window height is: $filtersWindowHeight</label>
 ```
+
+ 
 
 #### Condition and Conditions Elements
 

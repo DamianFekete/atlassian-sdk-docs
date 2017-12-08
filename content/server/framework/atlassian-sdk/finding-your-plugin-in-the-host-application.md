@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818618
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818618
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818618
+date: '2017-12-08'
 guides: guides
+legacy_title: Finding your plugin in the host application
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Finding Your Plugin in the Host Application 2818618
+title: Finding your plugin in the host application
 ---
 # Finding your plugin in the host application
 

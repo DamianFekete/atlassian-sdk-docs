@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 18252617
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252617
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252617
+date: '2017-12-08'
 guides: guides
+legacy_title: Development Cycle
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Development Cycle 18252617
+title: Development cycle
 ---
 # Development cycle
 
@@ -31,15 +33,15 @@ If you don't feel ready to proceed, please check our guide to [starting with th
 
 {{% note %}}
 
-**[![](/server/framework/atlassian-sdk/images/1.png)](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project-2818660.html)[Develop](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)**: Create your plugin from an archetype (template) and use the awesome Atlassian tools that make plugin development a breeze. Click through to the tutorials on specific plugin types.
+**1** **[Develop](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)**: Create your plugin from an archetype (template) and use the awesome Atlassian tools that make plugin development a breeze. Click through to the tutorials on specific plugin types.
 
 {{% /note %}}{{% note %}}
 
-![](/server/framework/atlassian-sdk/images/2.png)**[Test](https://developer.atlassian.com/pages/viewpage.action?pageId=2818653)**: Find out how to include automated tests for your plugin. In our quest for quality, we encourage plugin developers to supply unit and functional tests with a significant amount of code coverage.
+**2** **[Test](https://developer.atlassian.com/pages/viewpage.action?pageId=2818653)**: Find out how to include automated tests for your plugin. In our quest for quality, we encourage plugin developers to supply unit and functional tests with a significant amount of code coverage.
 
 {{% /note %}}{{% note %}}
 
-![](/server/framework/atlassian-sdk/images/3.png)**[Package & Release](/server/framework/atlassian-sdk/packaging-and-releasing-your-plugin)**: Share your killer plugin with the world. Read about licensing, plugin repositories, issue trackers, documentation and how to announce your plugin.
+**3** **[Package & Release](/server/framework/atlassian-sdk/packaging-and-releasing-your-plugin)**: Share your killer plugin with the world. Read about licensing, plugin repositories, issue trackers, documentation and how to announce your plugin.
 
 {{% /note %}}
 

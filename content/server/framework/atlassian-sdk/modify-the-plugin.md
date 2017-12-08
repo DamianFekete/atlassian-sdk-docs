@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 41236025
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=41236025
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=41236025
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Modify the Plugin
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Modify the Plugin 41236025
+title: Modify the plugin
 ---
 # Modify the plugin
 

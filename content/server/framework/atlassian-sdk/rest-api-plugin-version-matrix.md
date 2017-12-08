@@ -6,10 +6,12 @@ category: reference
 confluence_id: 4915206
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915206
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915206
+date: '2017-12-08'
+legacy_title: REST API Plugin Version Matrix
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: REST API Plugin Version Matrix 4915206
+title: REST API plugin version matrix
 ---
 # REST API plugin version matrix
 

@@ -6,14 +6,16 @@ category: devguide
 confluence_id: 2818654
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818654
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818654
+date: '2017-12-08'
+legacy_title: Writing your first plugin FAQ
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Writing Your First Plugin Faq 2818654
+title: Writing your first plugin FAQ
 ---
 # Writing your first plugin FAQ
 
-# Build Failure - Manifest Validation Errors
+## Build Failure - Manifest Validation Errors
 
 If you use a vendor name of "Atlassian" in your `atlassian-plugin.xml` file, you may receive errors like this:
 
@@ -48,11 +50,11 @@ To **skip the manifest validation**, you can add the following tag to the confi
 
 Note: This is not recommended if you want to make your plugin available to multiple Atlassian applications.
 
-# Cannot Log In to Confluence using Admin Account
+## Cannot Log In to Confluence using Admin Account
 
 If you find that you cannot log in to your test Confluence instance using the admin account, set your plugin to build against Confluence 2.6.1 or later using the `atlassian.product.version` parameter.
 
-# Choosing a Logging Framework
+## Choosing a Logging Framework
 
 Three logging frameworks are available to plugins:
 
@@ -79,11 +81,11 @@ You can check your plugin's dependencies by using <a href="http://maven.apache.
 </exclusions>
 ```
 
-# Choosing a Package Name
+## Choosing a Package Name
 
 Make sure your package names are unique. You can choose any package name, provided that it does not conflict with any existing package used in the Atlassian application you are developing for, or in any other plugins. Do **not** use `com.atlassian.confluence.plugins.*`. That is confusing to people who try to use the plugin. **Use a real package name** that corresponds to your organisation or project. For example: `org.mycompany.confluence.plugins.*`. The <a href="http://java.sun.com/docs/books/jls/second_edition/html/packages.doc.html#40169" class="external-link">Sun Java documentation</a> has some tips about conventions used to ensure unique package names.
 
-# Eclipse Maven Plugin Build Error
+## Eclipse Maven Plugin Build Error
 
 Please note that the new Eclipse plugin is unable to deal with source 'includes' and 'excludes'.
 
@@ -105,11 +107,11 @@ The error that you will see if 2.7 is used in your mvn build :
 [INFO] ------------------------------------------------------------------------
 ```
 
-# If you change pom.xml, you may need to restart the atlas-cli
+## If you change pom.xml, you may need to restart the atlas-cli
 
 If you are using `atlas-cli` and `pi` for a fast development cycle of your plugin and you get compilation errors about "Unable to run mojo" and no Java line number in your plugin source code, it may be that you changed the dependencies in `pom.xml` but didn't restart `atlas-cli`.
 
-# Instant Loading of Plugin Resources
+## Instant Loading of Plugin Resources
 
 During development, one of the main things that can slow you down is reloading the plugin just to see the effect of a change to a static CSS or JavaScript file. To solve this problem during development, you can point the plugin framework at a directory containing your resource files and have the plugin framework load them first before looking in the plugin itself.
 
@@ -119,7 +121,7 @@ To enable this feature, set the system property `plugin.resource.directories` 
 export MAVEN_OPTS=-Dplugin.resource.directories=/home/myuser/dev/myplugin/src/main/resources
 ```
 
-#  Overriding the application's webapp when developing your plugin
+##  Overriding the application's webapp when developing your plugin
 
 The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-plugin-sdk" class="external-link">Atlassian Plugin SDK</a> makes it easy to override any component of the application's webapp.
 
@@ -132,13 +134,13 @@ The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-pl
 
 Now when you run your application via `atlas-run`, `atlas-debug` and/or `atlas-integration-test`, it will use the updated WAR built from the application configured in your `pom.xml` and the added resources you have defined.
 
-## Example
+### Example
 
 This can be useful for example to disable the velocity caches by overriding `velocity.properties` when developing a Confluence plugin.
 
 Create a `src/test/resources/confluence-app/WEB-INF/classes/velocity.properties` file specifying the properties as defined in the [Confluence developer documentation](https://developer.atlassian.com/display/CONFDEV/Disable+Velocity+Caching). That's it.
 
-# Specifying a particular version of the host application
+## Specifying a particular version of the host application
 
 The `atlas-run` command will download the latest version of the application binaries into your local Maven repository. If you want to develop against a version of the host application other than the very latest, you can specify the version to use as a parameter of your `atlas-run` command.
 
@@ -166,11 +168,11 @@ For example, if you are happy to use Confluence 3.1 for a while, you would chang
 </properties>
 ```
 
-# Tips for Functional Tests with Selenium
+## Tips for Functional Tests with Selenium
 
 With more and more UI being rendered and processed dynamically with JavaScript, in-browser testing has become a requirement for functional testing. Selenium is a popular choice for implementing tests that execute within the context of a browser but are still Java-driven. This page gives you tips for using Selenium to test your plugin.
 
-## Add atlassian-selenium-browsers-auto to your pom.xml
+### Add atlassian-selenium-browsers-auto to your pom.xml
 
 Add this XML to the `<dependencies>` section in your pom.xml:
 
@@ -185,7 +187,7 @@ Add this XML to the `<dependencies>` section in your pom.xml:
 
 You should verify the `<version>` value <a href="https://maven.atlassian.com/index.html#welcome" class="external-link">is the latest by searching</a> for the `<groupId>` in Atlassian's Maven repository. 
 
-## Write a Selenium test
+### Write a Selenium test
 
 The Atlassian Plugin SDK comes with support for integration/functional tests that will run with the target Atlassian application started and your plugin installed. You just have to create one or more tests in the `src/test/java/it` directory. The convention is if your code is in the `com.mycompany.myplugin` package, your integration tests would be in the <a href="http://it.com" class="external-link">it.com</a>`.mycompany.myplugin` package or `src/test/java/it/com/mycompany/myplugin` directory.
 
@@ -216,7 +218,7 @@ public class TestHelloWorld extends TestCase
 }
 ```
 
-## Specify a Browser
+### Specify a Browser
 
 If you want to specify a browser other than Firefox 3.5, you can do so by specifying the `selenium.browser` system property in your atlassian-&lt;product&gt;-plugin configuration. For example:
 
@@ -238,7 +240,7 @@ If you want to specify a browser other than Firefox 3.5, you can do so by specif
 
 You can find out what strings are valid by looking at the `com.atlassian.browsers.BrowserVersion`.
 
-# Using the Atlassian Plugin SDK with a Source Code License
+## Using the Atlassian Plugin SDK with a Source Code License
 
 This page is relevant to developers who hold a commercial license for an Atlassian application, with access to the source code.
 
@@ -262,7 +264,7 @@ This is a resource intensive process, and you may need to allocate more memory t
 
 Make sure that you download and install the **same** version of the source code that is set in the `atlassian.product.version` property in your `pom.xml`.
 
-# Using your own log4j configuration for your plugin
+## Using your own log4j configuration for your plugin
 
 The <a href="https://maven.atlassian.com/public/com/atlassian/amps/atlassian-plugin-sdk" class="external-link">Atlassian Plugin SDK</a> makes it easy to override the application's `log4j.properties` file, so that you can do custom logging for your plugin.
 

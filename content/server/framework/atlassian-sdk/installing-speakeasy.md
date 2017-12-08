@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818535
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818535
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818535
+date: '2017-12-08'
 guides: guides
+legacy_title: Installing Speakeasy
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Installing Speakeasy 2818535
+title: Installing Speakeasy
 ---
 # Installing Speakeasy
 

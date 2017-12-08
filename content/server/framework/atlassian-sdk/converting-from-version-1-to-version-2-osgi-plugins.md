@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852046
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852046
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852046
+date: '2017-12-08'
 guides: guides
+legacy_title: Converting from Version 1 to Version 2 (OSGi) Plugins
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: 852046
+title: Converting from Version 1 to Version 2 (OSGi) Plugins
 ---
 # Converting from Version 1 to Version 2 (OSGi) Plugins
 
@@ -56,6 +58,8 @@ So the first step of migration is to make your plugin a *Version 2* plugin by se
 
 For the remainder of this document, please consider the following terms synonymous (they mean the same thing): *Version 2 plugin* and *OSGi plugin*.
 
+ 
+
 ### 2. Check that packages used by your plugin are available to OSGi plugins
 
 OSGi plugins - plugins with 'plugins-version' set to 2 - are subject to certain restrictions. In particular, an OSGi plugin can access only those external classes that the host application (or other plugins) explicitly exposes. This means that you can no longer assume that all classes on the application's classpath will be accessible to your plugin.
@@ -66,6 +70,8 @@ Refer to the list of packages that your host application exposes, and ensure tha
 -   [Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser) to determine the packages and components exposed by an application.
 
 It is very important to ensure that plugin code does not depend on packages that are not exposed, as the problem will only manifest itself during runtime.
+
+ 
 
 #### 2.1 Rely on automatic package imports
 
@@ -124,7 +130,9 @@ Components that are exposed by other plugins are treated a little differently to
 <component-import key="loc" interface="com.atlassian.sal.api.license.LicenseHandler" />
 ```
 
-You will also need to ensure that the component [class is imported](#class-is-imported), which [usually happens transparently](#usually-happens-transparently).
+You will also need to ensure that the component [class is imported](#2-check-that-packages-used-by-your-plugin-are-available-to-osgi-plugins), which [usually happens transparently](#2-1-rely-on-automatic-package-imports).
+
+ 
 
 ### 4. Advanced configuration with Spring configuration files
 

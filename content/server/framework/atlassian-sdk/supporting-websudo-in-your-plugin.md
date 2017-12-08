@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818401
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818401
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818401
+date: '2017-12-08'
+legacy_title: Supporting WebSudo in your Plugin
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Supporting Websudo in Your Plugin 2818401
+title: Supporting WebSudo in your plugin
 ---
 # Supporting WebSudo in your plugin
 

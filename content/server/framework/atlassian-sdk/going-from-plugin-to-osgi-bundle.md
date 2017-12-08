@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 852147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852147
+date: '2017-12-08'
 guides: guides
+legacy_title: Going from Plugin to OSGi Bundle
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Going From Plugin to Osgi Bundle 852147
+title: Going from Plugin to OSGi bundle
 ---
 # Going from Plugin to OSGi bundle
 

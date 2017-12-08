@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 21463904
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=21463904
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=21463904
+date: '2017-12-08'
 guides: tutorials
+legacy_title: Convert component to servlet module
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Convert Component to Servlet Module 21463904
+title: Convert component to servlet module
 ---
 # Convert component to servlet module
 
@@ -75,7 +77,7 @@ In this part of the tutorial you'll create a Java class called `MyPluginServlet
 
 4.  Save and close the file.
 
-Step 2. Add the servlet module to the atlassian-plugin.xml file
+## Step 2. Add the servlet module to the atlassian-plugin.xml file
 
 Now that you've written your Java class, you need to define it in the `atlassian-plugin.xml` descriptor file as a plugin module. You'll use a `servlet` module type. It's possible to add this module to your plugin from the command line, but in this case it's more expedient to add the code directly to the descriptor file. 
 

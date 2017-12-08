@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 38449742
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38449742
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38449742
+date: '2017-12-08'
 guides: guides
+legacy_title: Configuration of Instructions in Atlassian Plugins
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Configuration Of Instructions in Atlassian Plugins 38449742
+title: Configuration of Instructions in Atlassian Plugins
 ---
 # Configuration of Instructions in Atlassian Plugins
 

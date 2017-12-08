@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852117
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852117
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852117
+date: '2017-12-08'
+legacy_title: Component Import Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Component Import Plugin Module 852117
+title: Component Import plugin module
 ---
 # Component Import plugin module
 

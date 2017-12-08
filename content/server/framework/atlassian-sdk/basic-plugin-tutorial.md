@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 13631708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13631708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13631708
+date: '2017-12-08'
+legacy_title: Basic Plugin Tutorial
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: Basic Plugin Tutorial 13631708
+title: Basic plugin tutorial
 ---
 # Basic plugin tutorial
 

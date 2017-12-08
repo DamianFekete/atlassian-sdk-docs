@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 42733163
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=42733163
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=42733163
+date: '2017-12-08'
+legacy_title: AMPS SDK 6.x and up release notes
 platform: server
 product: atlassian-sdk
 subcategory: updates
-title: Amps Sdk 6.X and Up Release Notes 42733163
+title: AMPS SDK 6.x and up release notes
 ---
 # AMPS SDK 6.x and up release notes
 

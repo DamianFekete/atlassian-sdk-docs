@@ -6,10 +6,12 @@ category: reference
 confluence_id: 852120
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852120
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852120
+date: '2017-12-08'
+legacy_title: Servlet Context Parameter Plugin Module
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet Context Parameter Plugin Module 852120
+title: Servlet Context Parameter plugin module
 ---
 # Servlet Context Parameter plugin module
 

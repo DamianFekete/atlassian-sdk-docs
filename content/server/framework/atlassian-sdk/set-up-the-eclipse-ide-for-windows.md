@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 10422238
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10422238
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10422238
+date: '2017-12-08'
+legacy_title: Set Up the Eclipse IDE for Windows
 platform: server
 product: atlassian-sdk
 subcategory: intro
-title: Set Up the Eclipse Ide for Windows 10422238
+title: Set up the Eclipse IDE for Windows
 ---
 # Set up the Eclipse IDE for Windows
 

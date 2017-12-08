@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 2818359
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818359
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818359
+date: '2017-12-08'
 guides: guides
+legacy_title: atlas-create-home-zip
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Atlas Create Home Zip 2818359
+title: atlas-create-home-zip
 ---
 # atlas-create-home-zip
 

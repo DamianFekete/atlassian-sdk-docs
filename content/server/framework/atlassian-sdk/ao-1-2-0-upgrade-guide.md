@@ -6,11 +6,13 @@ category: devguide
 confluence_id: 39999656
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=39999656
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=39999656
+date: '2017-12-08'
 guides: guides
+legacy_title: AO 1.2.0 Upgrade Guide
 platform: server
 product: atlassian-sdk
 subcategory: learning
-title: Ao 1.2.0 Upgrade Guide 39999656
+title: AO 1.2.0 upgrade guide
 ---
 # AO 1.2.0 upgrade guide
 
@@ -56,7 +58,7 @@ There are no bugfixes in this release.
 
 | Key                                                                                                  | Summary                                                                                                                                             | T                                                                                                                                                                                                                                                                                  | Created      | Updated      | Assignee         | Reporter         | P                                                                                                                                                | Status   | Resolution | Fix Version/S |
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------------|------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|---------------|
-| <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">AO-96</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">Add possibility in AO to create multi-column indexes</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15311&amp;avatarType=issuetype" alt="New Feature" class="icon confluence-external-resource" /></a> | Feb 02, 2011 | Apr 27, 2017 | Sebastian Pawlak | Samuel Berrigaud | <img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="icon confluence-external-resource" width="16" /> | RESOLVED | Fixed      | 1.2.0         |
+| <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">AO-96</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link">Add possibility in AO to create multi-column indexes</a> | <a href="https://ecosystem.atlassian.net/browse/AO-96?src=confmacro" class="external-link"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15311&amp;avatarType=issuetype" alt="New Feature" class="confluence-external-resource icon" /></a> | Feb 02, 2011 | Apr 27, 2017 | Sebastian Pawlak | Samuel Berrigaud | <img src="https://ecosystem.atlassian.net/images/icons/priorities/major.svg" alt="Major" class="confluence-external-resource icon" width="16" /> | RESOLVED | Fixed      | 1.2.0         |
 
 <a href="https://ecosystem.atlassian.net/secure/IssueNavigator.jspa?reset=true&amp;jqlQuery=project+%3D+AO+AND+fixVersion+%3D+%221.2.0%22+++++&amp;src=confmacro" class="external-link" title="View all matching issues in JIRA.">1 issue</a>
 

@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 2818612
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818612
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818612
+date: '2017-12-08'
+legacy_title: Bundling extra dependencies in an OBR
 platform: server
 product: atlassian-sdk
 subcategory: faq
-title: Bundling Extra Dependencies in an Obr 2818612
+title: Bundling extra dependencies in an OBR
 ---
 # Bundling extra dependencies in an OBR
 

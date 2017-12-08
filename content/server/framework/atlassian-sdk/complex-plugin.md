@@ -6,10 +6,12 @@ category: devguide
 confluence_id: 852127
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852127
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852127
+date: '2017-12-08'
+legacy_title: Complex Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 852127
+title: 'Complex plugin '
 ---
 # Complex plugin
 

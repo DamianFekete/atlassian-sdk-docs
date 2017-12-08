@@ -17,11 +17,11 @@ subcategory:
 The product developers publish upgrade guides each time they release a new version of the product. They often use these upgrade guides to mention things that have changes in the code: new APIS, deprecations, new libraries, etc. Read **all** the upgrades between the version you are currently running on and the one you wish to move to.
 
 -   <a href="#jira-upgrade-guides" class="unresolved">JIRA Upgrade Guides</a>
--   <a href="#jira-upgrade-guides" class="unresolved">Confluence Release Notes</a> (Upgrade guides are attached to each release notes page)
--   <a href="#jira-upgrade-guides" class="unresolved">Bamboo Upgrade Guides</a>
--   <a href="#jira-upgrade-guides" class="unresolved">Crowd Upgrade Guides</a>
--   <a href="#jira-upgrade-guides" class="unresolved">Fisheye Upgrade Guides</a>
--   <a href="#jira-upgrade-guides" class="unresolved">Crucible Upgrade Guides</a>
+-   <a href="#confluence-release-notes" class="unresolved">Confluence Release Notes</a> (Upgrade guides are attached to each release notes page)
+-   <a href="#bamboo-upgrade-guides" class="unresolved">Bamboo Upgrade Guides</a>
+-   <a href="#crowd-upgrade-guides" class="unresolved">Crowd Upgrade Guides</a>
+-   <a href="#fisheye-upgrade-guides" class="unresolved">Fisheye Upgrade Guides</a>
+-   <a href="#crucible-upgrade-guides" class="unresolved">Crucible Upgrade Guides</a>
 
 #### Upgrade your POM and recompile the plugin against the new product.version
 

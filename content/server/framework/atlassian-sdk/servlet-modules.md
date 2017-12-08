@@ -6,10 +6,12 @@ category: reference
 confluence_id: 851996
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851996
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851996
+date: '2017-12-08'
+legacy_title: Servlet Modules
 platform: server
 product: atlassian-sdk
 subcategory: modules
-title: Servlet Modules 851996
+title: Servlet modules
 ---
 # Servlet modules
 
