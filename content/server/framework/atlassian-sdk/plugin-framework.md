@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852107
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852107
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852107
-date: '2017-12-08'
+date: '2017-12-11'
 guides: guides
 legacy_title: Plugin Framework
 platform: server
@@ -40,7 +40,7 @@ See how to [define your plugin via an XML file](/server/framework/atlassian-sdk/
 
 ### OSGi, Spring and the Plugin Framework\*
 
-Read the in-depth information about [how we use OSGi](/server/framework/atlassian-sdk/852146.html) in the Atlassian Plugin Framework.
+Read the in-depth information about [how we use OSGi](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) in the Atlassian Plugin Framework.
 
 \*Embedding the Plugin Framework  
 Find out how to [transform your web application](/server/framework/atlassian-sdk/embedding-the-plugin-framework) into a platform that can be extended at runtime via plugins.
@@ -106,6 +106,160 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 #### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
 
 {{% /note %}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

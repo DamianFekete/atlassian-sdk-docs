@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 10422292
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10422292
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10422292
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Put the Final Polish on the Project in Eclipse
 platform: server
 product: atlassian-sdk
@@ -15,7 +15,7 @@ title: Put the final polish on the project in Eclipse
 ---
 # Put the final polish on the project in Eclipse
 
-At this point, you have created an Atlassian Plugin project and edited that project. You have also configured Eclipse to work with Atlassian projects. Let's go ahead and bring the helloworld project you created into Eclipse and work on it there. The following topics are covered:
+At this point, you have created an Atlassian Plugin project and edited that project. You have also configured Eclipse to work with Atlassian projects. Let's go ahead and bring the helloworld project you created into Eclipse and work on it there. 
 
 ## Step 1: Learn a little about modules
 
@@ -388,6 +388,160 @@ Where you go now depends upon your interests, but there are many more tutorials 
 
 -   [JIRA tutorials](https://developer.atlassian.com/display/JIRADEV/JIRA+platform)
 -   [Confluence Tutorials](https://developer.atlassian.com/display/CONFDEV/Tutorials)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

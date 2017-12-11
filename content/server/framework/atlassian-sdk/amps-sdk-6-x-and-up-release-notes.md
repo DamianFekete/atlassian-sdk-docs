@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 42733163
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=42733163
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=42733163
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: AMPS SDK 6.x and up release notes
 platform: server
 product: atlassian-sdk
@@ -27,7 +27,7 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 
 ### AMPS 
 
--   [AMPS 6.3.10](/server/framework/atlassian-sdk/amps-6.3.10-52430822.html)
+-   [AMPS 6.3.10](/server/framework/atlassian-sdk/amps-6-3-10)
 -   [AMPS 6.3.7](/server/framework/atlassian-sdk/amps-6-3-7)
 -   [AMPS 6.3.6](/server/framework/atlassian-sdk/amps-6-3-6)
 -   [AMPS 6.3.5](/server/framework/atlassian-sdk/amps-6-3-5)
@@ -39,6 +39,160 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 -   [AMPS 6.2.11](/server/framework/atlassian-sdk/amps-6-2-11)
 -   [AMPS 6.2.10](/server/framework/atlassian-sdk/amps-6-2-10)
 -   [AMPS 6.3.11](/server/framework/atlassian-sdk/amps-6-3-11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852046
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852046
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852046
-date: '2017-12-08'
+date: '2017-12-11'
 guides: guides
 legacy_title: Converting from Version 1 to Version 2 (OSGi) Plugins
 platform: server
@@ -37,7 +37,7 @@ Summary of the steps required to convert your plugin:
     ```
 
 2.  Check that packages used by your plugin are available to OSGi plugins. 
-3.  Check that components used by your plugin are available to OSGi plugins. See [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html) for more information.
+3.  Check that components used by your plugin are available to OSGi plugins. See [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) for more information.
 
 The plugin framework handles all the OSGi requirements, such as bundle instructions, manifest, etc. See [Going from Plugin to OSGi Bundle](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle). For more complex plugins, you may find it useful to do more complex configuration, such as supplying complete Spring configuration files.
 
@@ -77,7 +77,7 @@ It is very important to ensure that plugin code does not depend on packages that
 
 With the plugin framework, the required packages are imported transparently for OSGi plugins. You do not need to do anything to have required packages imported, but it may help to understand how this works.
 
-Normally, an <a href="http://en.wikipedia.org/wiki/OSGi" class="external-link">OSGi</a> bundle needs to explicitly import all packages it needs. To work around this requirement, the plugin framework generates the list of required packages by scanning the class files inside your plugin and determining which packages they use. Once this list of packages is determined, the plugin system generates an OSGi manifest and inserts it into your plugin prior to loading it into the OSGi container. For more information, refer to [OSGi Basics](/server/framework/atlassian-sdk/852146.html) and [how OSGI bundles are generated](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle).
+Normally, an <a href="http://en.wikipedia.org/wiki/OSGi" class="external-link">OSGi</a> bundle needs to explicitly import all packages it needs. To work around this requirement, the plugin framework generates the list of required packages by scanning the class files inside your plugin and determining which packages they use. Once this list of packages is determined, the plugin system generates an OSGi manifest and inserts it into your plugin prior to loading it into the OSGi container. For more information, refer to [OSGi Basics](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) and [how OSGI bundles are generated](/server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle).
 
 #### 2.2 Customise package imports and exports with a bundle manifest
 
@@ -168,9 +168,163 @@ To include a Spring configuration file, ensure it is included in the `META-INF/s
 ##### RELATED TOPICS
 
 [Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies)  
-[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)  
+[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)  
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)  
 [Confluence Developer Documentation: Converting a Plugin to Plugin Framework 2](https://developer.atlassian.com/display/CONFDEV/Converting+a+Plugin+to+Plugin+Framework+2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

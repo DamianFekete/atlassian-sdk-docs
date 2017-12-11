@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852094
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852094
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852094
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Dependency Issues during Plugin Initialisation
 platform: server
 product: atlassian-sdk
@@ -83,9 +83,163 @@ Note that the default scope is `compile`, which results in the dependency being 
 
 ##### RELATED TOPICS
 
--   [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)
+-   [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)
 -   [Plugin Development Platform](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Framework)
 -   <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project" class="createlink">Atlassian Plugin SDK</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

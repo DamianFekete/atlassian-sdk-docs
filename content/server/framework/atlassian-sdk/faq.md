@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818355
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818355
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818355
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: FAQ
 platform: server
 product: atlassian-sdk
@@ -53,10 +53,6 @@ This page collects the FAQ pages for different developer experience levels and t
 There is no content with the specified labels
 
 ### Confluence
-
--   Page:
-
-    [How do I get the information about Confluence such as version number, build number, build date?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031798)
 
 -   Page:
 
@@ -121,6 +117,10 @@ There is no content with the specified labels
 -   Page:
 
     [How to switch to non-minified Javascript for debugging](https://developer.atlassian.com/display/CONFDEV/How+to+switch+to+non-minified+Javascript+for+debugging)
+
+-   Page:
+
+    [How do I get the information about Confluence such as version number, build number, build date?](https://developer.atlassian.com/pages/viewpage.action?pageId=2031798)
 
 -   Page:
 
@@ -277,6 +277,160 @@ Feel free to comment, make submissions, or pose your own question on FishEye/Cru
 -   Page:
 
     [How do I search for previous build result?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638475)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852000
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852000
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852000
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Web Panel Plugin Module
 platform: server
 product: atlassian-sdk
@@ -88,7 +88,7 @@ The root element for the Web Panel plugin module is `web-panel`. It allows the f
 <p><strong>Default:</strong> false.</p></td>
 </tr>
 <tr class="odd">
-<td><h6 id="WebPanelPluginModule-weightattrweight">weight</h6>
+<td><p>weight</p>
 <p> </p></td>
 <td><p>Determines the order in which web panels appear.</p>
 <p>Web panels are displayed top to bottom or left to right in order of ascending weight.</p>
@@ -389,6 +389,160 @@ Each host application declares its own set of locations where the web panel can 
 
 [Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

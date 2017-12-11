@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818708
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Tutorials
 platform: server
 product: atlassian-sdk
@@ -250,11 +250,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [FishEye Gutter Renderer Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+    [FishEye Smart Commit Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
 
 -   Page:
 
-    [FishEye Smart Commit Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+    [FishEye Gutter Renderer Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
 
 -   Page:
 
@@ -308,11 +308,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
+    [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
 
 -   Page:
 
-    [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
+    [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
 
 #### Intermediate
 
@@ -322,11 +322,11 @@ Tutorials classified by the level of skill assumed:
 
 -   Page:
 
-    [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
+    [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 -   Page:
 
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+    [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
 
 -   Page:
 
@@ -358,6 +358,160 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

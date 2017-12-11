@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818619
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818619
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818619
-date: '2017-12-08'
+date: '2017-12-11'
 guides: guides
 legacy_title: Start a Host Application with a Plugin Installed
 platform: server
@@ -45,7 +45,7 @@ You can use the Atlassian Plugin SDK to download the Atlassian host application 
 
 #### Troubleshooting
 
--   [Maven Cannot Find Java Mail, Java Activation or JTA](/server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta)
+-   [Maven Cannot Find Java Mail, Java Activation or JTA](/server/framework/atlassian-sdk/maven-cannot-find-java-mail-java-activation-or-jta)
 -   [BeanCreationException from Spring Framework](/server/framework/atlassian-sdk/beancreationexception-from-spring-framework)
 -   [Specifying a particular version of the host application](/server/framework/atlassian-sdk/specifying-a-particular-version-of-the-host-application-2818657.html)
 -   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
@@ -55,6 +55,160 @@ You can use the Atlassian Plugin SDK to download the Atlassian host application 
 Please note: The plugin now knows about the host application's binaries, because it has downloaded the JAR files. But it has not downloaded the application source code. You do not need to have access to the host application's source code to be able to develop a plugin. The JAR files alone will enable you to go and write the plugin, using the application's API.
 
 If you hold a commercial license for an Atlassian application with access to the source code, you can attach the application source code to your plugin project. See how to [use the Atlassian Plugin SDK with a source code license](/server/framework/atlassian-sdk/using-the-atlassian-plugin-sdk-with-a-source-code-license-2818656.html).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
