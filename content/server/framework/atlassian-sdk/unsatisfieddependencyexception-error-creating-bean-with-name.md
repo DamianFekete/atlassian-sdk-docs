@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818380
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818380
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818380
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: UnsatisfiedDependencyException - Error creating bean with name
 platform: server
 product: atlassian-sdk
@@ -21,7 +21,7 @@ title: UnsatisfiedDependencyException - error creating bean with name
 
 **Solution**: add a `component-import` element in the `atlassian-plugin.xml` file to import the necessary class. See the <a href="http://confluence.atlassian.com/display/PLUGINFRAMEWORK/Component+Import+Plugin+Module" class="external-link">Component Import</a> plugin module for an example of what this element does.
 
-Other useful introductions include [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html) and [Automatic Generation of Spring Configuration](/server/framework/atlassian-sdk/automatic-generation-of-spring-configuration).
+Other useful introductions include [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) and [Automatic Generation of Spring Configuration](/server/framework/atlassian-sdk/automatic-generation-of-spring-configuration).
 
 **Example**:
 
@@ -55,6 +55,160 @@ Note that `component-import` may not always work if the host application expose
 
 If using a `component-import` doesn't work you may be able to instantiate the object using `ManagerFactory.getMyObject()`  
 or `ComponentManager.getInstance().getMyObject()`, or even `ComponentManager.getInstance().getComponentInstanceOfType(MyObject.class)`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

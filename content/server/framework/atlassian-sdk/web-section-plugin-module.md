@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852133
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852133
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852133
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Web Section Plugin Module
 platform: server
 product: atlassian-sdk
@@ -119,7 +119,7 @@ The table summarises the elements. The sections below contain further informatio
 </tr>
 <tr class="odd">
 <td><p>label</p></td>
-<td><p>Is the i18n key that will be used to look up the textual representation of the link. More below (<a href="#label-element-is-required-label">Label</a>).</p></td>
+<td><p>Is the i18n key that will be used to look up the textual representation of the link. More below (<a href="#label">Label</a>).</p></td>
 </tr>
 <tr class="even">
 <td><p>param</p></td>
@@ -136,7 +136,9 @@ The table summarises the elements. The sections below contain further informatio
 </tbody>
 </table>
 
-#### \***label element is required.** Label 
+**\*label element is required.**
+
+####  Label 
 
 Label elements may contain optional parameters, as shown below:
 
@@ -152,7 +154,7 @@ Label elements may contain optional parameters, as shown below:
 
 #### Tooltip 
 
-Tooltip elements have the same attributes and parameters as the label elements. See [above](#label-element-is-required-label).
+Tooltip elements have the same attributes and parameters as the label elements. See [above](#label).
 
 #### Param
 
@@ -299,6 +301,160 @@ NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plug
 
 [Web Item Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module)  
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

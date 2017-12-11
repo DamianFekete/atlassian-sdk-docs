@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669147
-date: '2017-12-08'
+date: '2017-12-11'
 guides: guides
 legacy_title: Finding Entities
 platform: server
@@ -18,7 +18,7 @@ title: Finding entities
 
 Finding entities in Active Objects is done through the `EntityManager` `find` methods.
 
-# Finding all entities
+## Finding all entities
 
 The simplest one will return all entities of a given type. This is as simple as:
 
@@ -28,7 +28,7 @@ The simplest one will return all entities of a given type. This is as simple as:
 
 Here all the posts are going to be returned. Note that by default Active Object is lazy and therefore only IDs of the posts are going to be loaded. However it might still not be wise to load all the entities of a given type at once.
 
-# Finding entities with a given criteria
+## Finding entities with a given criteria
 
 Adding a criteria is as simple as writing a SQL where clause. Here is what we would write to get the posts published between two dates:
 
@@ -44,7 +44,7 @@ We've made used of the `Query` object here, but `EntityManager` provides a short
   entityManager.find(Post.class, "published > ? AND published < ?", date1, date2);
 ```
 
-# Finding entities with *like*
+## Finding entities with *like*
 
 Adding a wildcard is also much like a SQL Query, here is what we would write to get a (contrived) field that is *like* the argument:
 
@@ -65,7 +65,7 @@ The case is especially important when working with databases such as Postgres - 
 
 {{% /note %}}
 
-# Ordering elements returned
+## Ordering elements returned
 
 The order of returned element is not guaranteed by default in SQL, so here is how to apply the order clause when using Active Objects:
 
@@ -73,7 +73,7 @@ The order of returned element is not guaranteed by default in SQL, so here is ho
   entityManager.find(Post.class, Query.select().order("published DESC"));
 ```
 
-# Limiting the number of elements returned, and paging
+## Limiting the number of elements returned, and paging
 
 There is also the possibility to limit the number of entities returned:
 
@@ -82,6 +82,160 @@ There is also the possibility to limit the number of entities returned:
 ```
 
 This query also starts selecting the elements from the 9th in the given order (which is not specified here). It is a good idea to specify a given order when using `offset` and `limit` for paging.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

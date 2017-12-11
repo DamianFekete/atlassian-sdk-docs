@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852003
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852003
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852003
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Plugin Framework Glossary
 platform: server
 product: atlassian-sdk
@@ -32,8 +32,162 @@ Below is a list of all entries in the glossary, plus the first few lines of cont
 
 ##### RELATED TOPICS
 
-[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)  
+[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Framework)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

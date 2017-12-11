@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852014
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: Web Item Plugin Module
 platform: server
 product: atlassian-sdk
@@ -79,7 +79,7 @@ The root element for the Web Item plugin module is `web-item`. It allows the fol
 <p><strong>Default:</strong> false.</p></td>
 </tr>
 <tr class="even">
-<td><h6 id="WebItemPluginModule-weightattrweight">weight</h6>
+<td><p>weight</p>
 <p> </p></td>
 <td><p>Determines the order in which web items appear.</p>
 <p>Items are displayed top to bottom or left to right in order of ascending weight.</p>
@@ -407,6 +407,160 @@ Here is an example `atlassian-plugin.xml` file containing how to add your link 
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

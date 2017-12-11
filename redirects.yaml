@@ -384,7 +384,7 @@ redirects:
     old: /docs/faq/atlassian-plugin-sdk-faq/errors-when-creating-an-archetype}
 - {confluence_id: 2818648, new: /server/framework/atlassian-sdk/how-can-i-change-the-version-of-java-my-plugin-uses,
     old: /docs/faq/atlassian-plugin-sdk-faq/how-can-i-change-the-version-of-java-my-plugin-uses}
-- {confluence_id: 2818709, new: '/server/framework/atlassian-sdk/maven-cannot-find-java-mail,-java-activation-or-jta',
+- {confluence_id: 2818709, new: /server/framework/atlassian-sdk/maven-cannot-find-java-mail-java-activation-or-jta,
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-cannot-find-java-mail-java-activation-or-jta}
 - {confluence_id: 2818710, new: /server/framework/atlassian-sdk/maven-is-unable-to-download-the-artifact-from-any-repository,
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-is-unable-to-download-the-artifact-from-any-repository}
@@ -555,3 +555,286 @@ redirects:
     old: /docs/getting-started/writing-and-running-plugin-tests/staff-readme-for-foundation-test-docs}
 - {confluence_id: 18252495, new: /server/framework/atlassian-sdk/introduction-to-the-atlassian-plugin-sdk,
     old: /docs/introduction-to-the-atlassian-plugin-sdk}
+- {confluence_id: 52430822, new: /server/framework/atlassian-sdk/amps-6-3-10, old: /docs/amps-sdk-release-notes/amps-sdk-6-x-and-up-release-notes/amps-6-3-10}
+- {confluence_id: 852146, new: /server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework,
+    old: /docs/atlassian-platform-common-components/plugin-framework/osgi-spring-and-the-plugin-framework}
+- {confluence_id: 2818364, new: /server/framework/atlassian-sdk/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli,
+    old: /docs/faq/writing-your-first-plugin-faq/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli}
+- {confluence_id: 7372850, new: /server/framework/atlassian-sdk/plugin-development-platform-release-notes,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818638, new: /server/framework/atlassian-sdk/plugin-hosting-with-atlassian,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670157, new: /server/framework/atlassian-sdk/presentations, old: /pages/viewpage.action}
+- {confluence_id: 4915224, new: /server/framework/atlassian-sdk/rest-glossary-terms-and-definitions,
+    old: /pages/viewpage.action}
+- {confluence_id: 6291717, new: /server/framework/atlassian-sdk/rest-quickstart-references,
+    old: /pages/viewpage.action}
+- {confluence_id: 8945924, new: /server/framework/atlassian-sdk/running-the-rest-api-browser-in-the-atlassian-plugin-sdk,
+    old: /pages/viewpage.action}
+- {confluence_id: 5242900, new: /server/framework/atlassian-sdk/sal-development-resources,
+    old: /pages/viewpage.action}
+- {confluence_id: 5242955, new: /server/framework/atlassian-sdk/sal-faq, old: /pages/viewpage.action}
+- {confluence_id: 5242956, new: /server/framework/atlassian-sdk/sal-issue-tracker,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818318, new: /server/framework/atlassian-sdk/sdk-snapshots, old: /pages/viewpage.action}
+- {confluence_id: 2818680, new: /server/framework/atlassian-sdk/speeding-up-confluence-plugin-development-using-maven-cli,
+    old: /pages/viewpage.action}
+- {confluence_id: 852126, new: /server/framework/atlassian-sdk/declaring-a-dependency-on-a-third-party-package,
+    old: /pages/viewpage.action}
+- {confluence_id: 852125, new: /server/framework/atlassian-sdk/declaring-a-dependency-on-another-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 852122, new: /server/framework/atlassian-sdk/defining-an-extension-point-in-my-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818311, new: /server/framework/atlassian-sdk/developer-bamboo-server,
+    old: /pages/viewpage.action}
+- {confluence_id: 852099, new: /server/framework/atlassian-sdk/development-faq, old: /pages/viewpage.action}
+- {confluence_id: 2818713, new: /server/framework/atlassian-sdk/example-settings-xml,
+    old: /pages/viewpage.action}
+- {confluence_id: 852124, new: /server/framework/atlassian-sdk/exposing-a-service-in-my-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818681, new: /server/framework/atlassian-sdk/getting-started-with-remote-apis,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818715, new: /server/framework/atlassian-sdk/how-to-develop-without-the-sdk,
+    old: /pages/viewpage.action}
+- {confluence_id: 18252233, new: /server/framework/atlassian-sdk/incomplete-plugin-tutorial-writing-rest-services,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818714, new: /server/framework/atlassian-sdk/maven-requirements,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818711, new: /server/framework/atlassian-sdk/obsolete-atlassian-maven-pdk,
+    old: /pages/viewpage.action}
+- {confluence_id: 852098, new: /server/framework/atlassian-sdk/platform-faq, old: /pages/viewpage.action}
+- {confluence_id: 6849881, new: /server/framework/atlassian-sdk/atlascamp-2011-authentication-across-the-atlassian-ecosystem,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849684, new: /server/framework/atlassian-sdk/atlascamp-2011-awesome-new-bamboo-plugin-capabilities,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849653, new: /server/framework/atlassian-sdk/atlascamp-2011-behaviour-driven-development-for-plugin-authors,
+    old: /pages/viewpage.action}
+- {confluence_id: 6848534, new: /server/framework/atlassian-sdk/atlascamp-2011-confluence-4-and-beyond,
+    old: /pages/viewpage.action}
+- {confluence_id: 6291923, new: /server/framework/atlassian-sdk/atlascamp-2011-continuous-deployment-for-plugins,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849808, new: /server/framework/atlassian-sdk/atlascamp-2011-deep-dive-on-the-jira-5-0-rest-api,
+    old: /pages/viewpage.action}
+- {confluence_id: 6848683, new: /server/framework/atlassian-sdk/atlascamp-2011-ecosystem-tools-for-administrators,
+    old: /pages/viewpage.action}
+- {confluence_id: 8945752, new: /server/framework/atlassian-sdk/atlascamp-2011-five-strategies-to-accelerate-plugin-development,
+    old: /pages/viewpage.action}
+- {confluence_id: 6848540, new: /server/framework/atlassian-sdk/atlascamp-2011-get-in-the-flow-with-activity-streams,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849601, new: /server/framework/atlassian-sdk/atlascamp-2011-get-ready-for-jira-6,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849623, new: /server/framework/atlassian-sdk/atlascamp-2011-pimp-my-confluence-4-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849644, new: /server/framework/atlassian-sdk/atlascamp-2011-remixing-confluence-with-speakeasy,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849670, new: /server/framework/atlassian-sdk/atlascamp-2011-the-atlassian-sdk-goes-to-12,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818678, new: /server/framework/atlassian-sdk/atlassian-plugin-archetypes,
+    old: /pages/viewpage.action}
+- {confluence_id: 7372808, new: /server/framework/atlassian-sdk/atlassian-product-overview-for-developers,
+    old: /pages/viewpage.action}
+- {confluence_id: 13633073, new: /server/framework/atlassian-sdk/atlassian-staff-page-restrictions-test,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915229, new: /server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818398, new: /server/framework/atlassian-sdk/best-practices-for-ensuring-a-plugin-works-with-a-new-version-of-the-product,
+    old: /pages/viewpage.action}
+- {confluence_id: 8947336, new: /server/framework/atlassian-sdk/browsing-and-testing-rest-apis-in-your-application,
+    old: /pages/viewpage.action}
+- {confluence_id: 18252503, new: /server/framework/atlassian-sdk/confluence-build-information,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818400, new: /server/framework/atlassian-sdk/converting-a-plugin-to-plugins-3,
+    old: /pages/viewpage.action}
+- {confluence_id: 8946211, new: /server/framework/atlassian-sdk/cross-product-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 852042, new: /server/framework/atlassian-sdk/pluginframework-inclusionslibrary,
+    old: /pages/viewpage.action}
+- {confluence_id: 7897096, new: /server/framework/atlassian-sdk/pluginplatformdiagram,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670021, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670074, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-code,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670051, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-create,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670070, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-generate,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670060, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-install3,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670040, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-install,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670025, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-master,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670079, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-run,
+    old: /pages/viewpage.action}
+- {confluence_id: 5670066, new: /server/framework/atlassian-sdk/pluginsdk-stepbystep-diagram-start,
+    old: /pages/viewpage.action}
+- {confluence_id: 5669863, new: /server/framework/atlassian-sdk/pluginsdkquickstart,
+    old: /pages/viewpage.action}
+- {confluence_id: 8947331, new: /server/framework/atlassian-sdk/rabdescription, old: /pages/viewpage.action}
+- {confluence_id: 8947342, new: /server/framework/atlassian-sdk/rabquickstart, old: /pages/viewpage.action}
+- {confluence_id: 18251866, new: /server/framework/atlassian-sdk/redirects, old: /pages/viewpage.action}
+- {confluence_id: 4915211, new: /server/framework/atlassian-sdk/rest-plugin-module-overview,
+    old: /pages/viewpage.action}
+- {confluence_id: 5242884, new: /server/framework/atlassian-sdk/sal-overview, old: /pages/viewpage.action}
+- {confluence_id: 2818471, new: /server/framework/atlassian-sdk/sdk-known-issues,
+    old: /pages/viewpage.action}
+- {confluence_id: 11305049, new: /server/framework/atlassian-sdk/sdk-linux, old: /pages/viewpage.action}
+- {confluence_id: 11305037, new: /server/framework/atlassian-sdk/sdk-version, old: /pages/viewpage.action}
+- {confluence_id: 11305043, new: /server/framework/atlassian-sdk/sdk-windows, old: /pages/viewpage.action}
+- {confluence_id: 5668905, new: /server/framework/atlassian-sdk/temppagetree, old: /pages/viewpage.action}
+- {confluence_id: 852129, new: /server/framework/atlassian-sdk/url-pattern-format,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818465, new: /server/framework/atlassian-sdk/version-compatibility-for-plugin-development-platform,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915208, new: /server/framework/atlassian-sdk/version-compatibility-for-rest-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 5242943, new: /server/framework/atlassian-sdk/version-compatibility-for-shared-access-layer,
+    old: /pages/viewpage.action}
+- {confluence_id: 852030, new: /server/framework/atlassian-sdk/version-compatibility,
+    old: /pages/viewpage.action}
+- {confluence_id: 16974132, new: /server/framework/atlassian-sdk/warningdonotremove,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818372, new: /server/framework/atlassian-sdk/about-plugins-and-plugin-modules,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818358, new: /server/framework/atlassian-sdk/how-to-learn-to-program-in-java-or-javascript,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915209, new: /server/framework/atlassian-sdk/resource-glossary-entry,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915214, new: /server/framework/atlassian-sdk/representation-glossary-entry,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915215, new: /server/framework/atlassian-sdk/rest-glossary-entry,
+    old: /pages/viewpage.action}
+- {confluence_id: 4915216, new: /server/framework/atlassian-sdk/idempotence-or-idempotent-glossary-entry,
+    old: /pages/viewpage.action}
+- {confluence_id: 6849673, new: /server/framework/atlassian-sdk/atlascamp-2011-atlassian-bonfire-howd-you-do-that,
+    old: /pages/viewpage.action}
+- {confluence_id: 852028, new: /server/framework/atlassian-sdk/plugin-developers-cookbook,
+    old: /pages/viewpage.action}
+- {confluence_id: 852033, new: /server/framework/atlassian-sdk/newrelease, old: /pages/viewpage.action}
+- {confluence_id: 5242947, new: /server/framework/atlassian-sdk/newreleasesharedaccesslayer,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818472, new: /server/framework/atlassian-sdk/about-plugin-framework-2-documentation,
+    old: /pages/viewpage.action}
+- {confluence_id: 852047, new: /server/framework/atlassian-sdk/about-plugins, old: /pages/viewpage.action}
+- {confluence_id: 852036, new: /server/framework/atlassian-sdk/about, old: /pages/viewpage.action}
+- {confluence_id: 852144, new: /server/framework/atlassian-sdk/advantages, old: /pages/viewpage.action}
+- {confluence_id: 18252416, new: /server/framework/atlassian-sdk/archive, old: /pages/viewpage.action}
+- {confluence_id: 8946290, new: /server/framework/atlassian-sdk/bamboo-plugin-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818473, new: /server/framework/atlassian-sdk/components-of-plugin-development-platform,
+    old: /pages/viewpage.action}
+- {confluence_id: 852080, new: /server/framework/atlassian-sdk/condition-and-conditions-elements,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818467, new: /server/framework/atlassian-sdk/confluence-plugin-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 852055, new: /server/framework/atlassian-sdk/content-for-component-import-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852064, new: /server/framework/atlassian-sdk/content-for-component-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 851997, new: /server/framework/atlassian-sdk/content-for-configuration-ui,
+    old: /pages/viewpage.action}
+- {confluence_id: 852093, new: /server/framework/atlassian-sdk/content-for-minification,
+    old: /pages/viewpage.action}
+- {confluence_id: 852063, new: /server/framework/atlassian-sdk/content-for-module-type-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 851985, new: /server/framework/atlassian-sdk/content-for-page-decorators,
+    old: /pages/viewpage.action}
+- {confluence_id: 852011, new: /server/framework/atlassian-sdk/content-for-plugin-descriptor,
+    old: /pages/viewpage.action}
+- {confluence_id: 852006, new: /server/framework/atlassian-sdk/content-for-resource-definition,
+    old: /pages/viewpage.action}
+- {confluence_id: 852072, new: /server/framework/atlassian-sdk/content-for-servlet-context-listener-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852071, new: /server/framework/atlassian-sdk/content-for-servlet-context-parameter-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852070, new: /server/framework/atlassian-sdk/content-for-servlet-filter-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852069, new: /server/framework/atlassian-sdk/content-for-servlet-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852140, new: /server/framework/atlassian-sdk/content-for-template-context-items-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852066, new: /server/framework/atlassian-sdk/content-for-web-item-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852015, new: /server/framework/atlassian-sdk/content-for-web-panel-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852108, new: /server/framework/atlassian-sdk/content-for-web-panel-renderer-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852065, new: /server/framework/atlassian-sdk/content-for-web-resource-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 851998, new: /server/framework/atlassian-sdk/content-for-web-resource-transformer-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852114, new: /server/framework/atlassian-sdk/content-for-web-section-plugin-module,
+    old: /pages/viewpage.action}
+- {confluence_id: 852079, new: /server/framework/atlassian-sdk/context-provider-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 23691392, new: /server/framework/atlassian-sdk/copyright-notice,
+    old: /pages/viewpage.action}
+- {confluence_id: 8946215, new: /server/framework/atlassian-sdk/cross-product-plugin-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 852058, new: /server/framework/atlassian-sdk/description-for-class-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852013, new: /server/framework/atlassian-sdk/description-for-dependency-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 852052, new: /server/framework/atlassian-sdk/description-for-description-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 852061, new: /server/framework/atlassian-sdk/description-for-disabled-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852062, new: /server/framework/atlassian-sdk/description-for-i18n-name-key-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852054, new: /server/framework/atlassian-sdk/description-for-java-version-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 852067, new: /server/framework/atlassian-sdk/description-for-key-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852057, new: /server/framework/atlassian-sdk/description-for-name-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852051, new: /server/framework/atlassian-sdk/description-for-param-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 852053, new: /server/framework/atlassian-sdk/description-for-resource-element,
+    old: /pages/viewpage.action}
+- {confluence_id: 852059, new: /server/framework/atlassian-sdk/description-for-singleton-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 852060, new: /server/framework/atlassian-sdk/description-for-system-attribute,
+    old: /pages/viewpage.action}
+- {confluence_id: 6291467, new: /server/framework/atlassian-sdk/development-hubs,
+    old: /pages/viewpage.action}
+- {confluence_id: 8945826, new: /server/framework/atlassian-sdk/fastdevworkflow, old: /pages/viewpage.action}
+- {confluence_id: 8946253, new: /server/framework/atlassian-sdk/fecru-plugin-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818463, new: /server/framework/atlassian-sdk/getting-help-on-plugin-sdk,
+    old: /pages/viewpage.action}
+- {confluence_id: 7372858, new: /server/framework/atlassian-sdk/images-for-release-notes,
+    old: /pages/viewpage.action}
+- {confluence_id: 5242881, new: /server/framework/atlassian-sdk/images, old: /pages/viewpage.action}
+- {confluence_id: 5668913, new: /server/framework/atlassian-sdk/inclusionslibrary,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818468, new: /server/framework/atlassian-sdk/jira-plugin-tutorials,
+    old: /pages/viewpage.action}
+- {confluence_id: 852103, new: /server/framework/atlassian-sdk/label-elements, old: /pages/viewpage.action}
+- {confluence_id: 13632950, new: /server/framework/atlassian-sdk/localm2pluginsettings,
+    old: /pages/viewpage.action}
+- {confluence_id: 5669830, new: /server/framework/atlassian-sdk/mailinglists, old: /pages/viewpage.action}
+- {confluence_id: 5669180, new: /server/framework/atlassian-sdk/module-definition-example,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818464, new: /server/framework/atlassian-sdk/note-about-maven-bundled-with-sdk,
+    old: /pages/viewpage.action}
+- {confluence_id: 852032, new: /server/framework/atlassian-sdk/note-pointing-to-current-docs,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818460, new: /server/framework/atlassian-sdk/package-name, old: /pages/viewpage.action}
+- {confluence_id: 852104, new: /server/framework/atlassian-sdk/param-elements, old: /pages/viewpage.action}
+- {confluence_id: 851990, new: /server/framework/atlassian-sdk/plugin-module-matrix,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818469, new: /server/framework/atlassian-sdk/plugin-platform-version,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818137, new: /server/framework/atlassian-sdk/plugin-sdk-download-latest,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818466, new: /server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818470, new: /server/framework/atlassian-sdk/plugin-sdk-version,
+    old: /pages/viewpage.action}
+- {confluence_id: 2818459, new: /server/framework/atlassian-sdk/plugin-tutorial-step-build-and-test,
+    old: /pages/viewpage.action}
+- {confluence_id: 11306016, new: /server/framework/atlassian-sdk/plugin-tutorial-step-create-plugin,
+    old: /pages/viewpage.action}
+- {confluence_id: 852105, new: /server/framework/atlassian-sdk/pluginframework-images-for-release-notes,
+    old: /pages/viewpage.action}

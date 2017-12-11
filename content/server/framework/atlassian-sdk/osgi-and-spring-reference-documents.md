@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852026
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852026
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852026
-date: '2017-12-08'
+date: '2017-12-11'
 legacy_title: OSGi and Spring Reference Documents
 platform: server
 product: atlassian-sdk
@@ -82,8 +82,162 @@ Alliance</a></strong></p></td>
 
 ##### RELATED TOPICS
 
-[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/852146.html)  
+[OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)  
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
