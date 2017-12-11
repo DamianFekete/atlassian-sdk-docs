@@ -1,6 +1,6 @@
 {
   "name": "@atlassian/docs-atlassian-sdk",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "devDependencies": {
     "@atlassian/doc-scripts": "latest"
   },
