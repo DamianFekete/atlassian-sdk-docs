@@ -59,7 +59,7 @@
                 "url": "/server/framework/atlassian-sdk/rest-and-os-authtype"
               }
             ],
-            "expandAlways": true
+            "expandAlways": false
           },
           {
             "title": "Learning",
@@ -95,7 +95,7 @@
                 "url": "/server/framework/atlassian-sdk/shared-access-layer"
               }
             ],
-            "expandAlways": true
+            "expandAlways": false
           },
           {
             "title": "Updates",
@@ -110,7 +110,7 @@
                 "url": "/server/framework/atlassian-sdk/rest-plugin-release-notes"
               }
             ],
-            "expandAlways": true
+            "expandAlways": false
           },
           {
             "title": "Other considerations",
@@ -145,7 +145,7 @@
                 "url": "/server/framework/atlassian-sdk/plugin-framework-glossary"
               }
             ],
-            "expandAlways": true
+            "expandAlways": false
           }
         ],
         "name": "devguide",
