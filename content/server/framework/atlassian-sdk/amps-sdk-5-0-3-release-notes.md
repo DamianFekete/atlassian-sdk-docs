@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 28868823
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=28868823
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=28868823
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: AMPS SDK 5.0.3 Release Notes
 platform: server
 product: atlassian-sdk
@@ -30,6 +30,23 @@ It is **recommended** that if you use a package manager (such as apt-get, yum,
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-deb" class="external-link">Linux/Debian</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm" class="external-link">Linux/RPM</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-tgz" class="external-link">Standalone</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

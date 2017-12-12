@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8946253
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946253
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946253
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _FECRU Plugin Tutorials
 platform: server
 product: atlassian-sdk
@@ -105,11 +105,6 @@ Tutorials classified by the level of skill assumed:
 ### Related Tutorials
 
 You may also be interested in the [integration tutorials](https://developer.atlassian.com/display/FECRUDEV/Integration+Tutorials).
-
-
-
-
-
 
 
 

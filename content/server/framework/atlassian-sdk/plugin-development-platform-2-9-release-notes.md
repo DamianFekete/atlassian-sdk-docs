@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852143
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform 2.9 Release Notes
 platform: server
 product: atlassian-sdk
@@ -75,6 +75,24 @@ This release includes a number of improvements and bug fixes. Here are a few wor
 -   CSS Web resources can now specify CSS conditionals for better supporting later IE browsers
 -   <a href="http://docs.atlassian.com/aui/3.3.0/sandbox/sandbox.html" class="external-link">AUI Sandbox</a> now deployed with every release to let the developer experiment with AUI components
 -   REST now supports file uploads via `@MultipartFormParam`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

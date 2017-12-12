@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669189
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669189
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669189
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Table names
 platform: server
@@ -48,77 +48,6 @@ Table names (once transformed) can not be more than 30 characters long. This is 
 ## See also
 
 -   [Column names](/server/framework/atlassian-sdk/column-names)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

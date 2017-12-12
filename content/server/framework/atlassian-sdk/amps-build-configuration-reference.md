@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 16974276
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16974276
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16974276
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: AMPS Build Configuration Reference
 platform: server
@@ -320,46 +320,6 @@ This can be useful when debugging an OSGi validation problem or forcing the plug
 <a href="https://developer.atlassian.com/display/DOCS/Create+and+Run+Traditional+Integration+Tests" class="diff-block-context">Create and Run Traditional Integration Tests</a>
 
 [Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/amps-build-configuration-reference)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

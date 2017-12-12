@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852140
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852140
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852140
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Template Context Items Plugin Module
 platform: server
 product: atlassian-sdk
@@ -146,28 +146,6 @@ public void ungetService(Bundle bundle, ServiceRegistration registration, Object
 ```
 
 In `MyService` you would then have a corresponding method that would call the `close()` method on the service tracker.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 18252416
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18252416
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18252416
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Archive
 platform: server
 product: atlassian-sdk
@@ -35,11 +35,102 @@ A resting home for obsolete and duplicate pages.
 -   [Platform FAQ](/server/framework/atlassian-sdk/platform-faq)
 -   [Development FAQ](/server/framework/atlassian-sdk/development-faq)
 -   [How to develop without the SDK](/server/framework/atlassian-sdk/how-to-develop-without-the-sdk)
--   [Best Practices for ensuring a plugin works with a new version of the product](/server/framework/atlassian-sdk/best-practices-for-ensuring-a-plugin-works-with-a-new-version-of-the-product)
+-   [Best Practices for ensuring a plugin works with a new version of the product](/server/framework/atlassian-sdk/Loading...)
 -   [SDK Snapshots](/server/framework/atlassian-sdk/sdk-snapshots)
 -   [Running the REST API Browser in the Atlassian Plugin SDK](/server/framework/atlassian-sdk/running-the-rest-api-browser-in-the-atlassian-plugin-sdk)
 -   [Browsing and Testing REST APIs in your Application](/server/framework/atlassian-sdk/browsing-and-testing-rest-apis-in-your-application)
 -   [Presentations](/server/framework/atlassian-sdk/presentations)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

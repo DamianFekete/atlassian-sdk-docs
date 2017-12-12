@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852015
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852015
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852015
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Web Panel Plugin Module
 platform: server
 product: atlassian-sdk
@@ -364,6 +364,29 @@ As mentioned previously, it is also possible to provide your own custom class th
 ```
 
 Note that `com.example.FooWebPanel` MUST implement <a href="https://studio.atlassian.com/source/browse/PLUG/trunk/atlassian-plugins-webfragment/src/main/java/com/atlassian/plugin/web/model/WebPanel.java?r=56850" class="external-link">WebPanel</a>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

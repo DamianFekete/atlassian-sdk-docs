@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852136
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852136
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852136
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Modules
 platform: server
 product: atlassian-sdk
@@ -57,6 +57,7 @@ For example, let's say we have a plugin that works in both JIRA and Confluence, 
 <component key="confluencePluginComponent" class="com.example.ConfluencePluginComponent"  
            interface="com.example.PluginComponent" application="confluence" />
 ```
+
 
 
 

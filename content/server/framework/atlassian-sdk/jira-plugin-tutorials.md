@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818468
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818468
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818468
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _JIRA Plugin Tutorials
 platform: server
 product: atlassian-sdk
@@ -151,6 +151,126 @@ Tutorials classified by the level of skill assumed:
 ### External Tutorials for JIRA
 
 <a href="https://studio.plugins.atlassian.com/wiki/display/WSMPL/Webwork+Sample+Plugin" class="external-link">WebWork Sample Plugin</a> - from Matt Doar, describing how JIRA uses <a href="http://www.opensymphony.com/webwork/" class="external-link">WebWork</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

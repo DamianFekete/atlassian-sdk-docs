@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818714
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818714
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818714
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Maven Requirements
 platform: server
 product: atlassian-sdk
@@ -70,11 +70,6 @@ You will be able to find all of these artifacts in the <a href="http://maven.atl
 ## Troubleshooting
 
 Please refer to our [FAQ and troubleshooting page](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
-
-
-
-
-
 
 
 

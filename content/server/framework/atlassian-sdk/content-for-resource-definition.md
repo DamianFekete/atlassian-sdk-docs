@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852006
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852006
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852006
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Resource Definition
 platform: server
 product: atlassian-sdk
@@ -236,6 +236,25 @@ The `conditionalComment` parameter also works for JavaScript resources. 
 **Name &** **Value (Example):** title \| (Your title) 
 
 **Description:** The value given here will form the title attribute of the CSS `<link>` tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

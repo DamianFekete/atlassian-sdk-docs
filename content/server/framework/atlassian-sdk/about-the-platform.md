@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818409
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818409
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818409
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: About the Platform
 platform: server
@@ -825,84 +825,6 @@ The matrix below shows the applications which include and support the REST API p
 -   [Plugin Development Platform 2.11 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-11-release-notes)
 -   [Plugin Development Platform 2.12 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-12-release-notes)
 -   [Plugin Development Platform 2.13 Release Notes](/server/framework/atlassian-sdk/plugin-development-platform-2-13-release-notes)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

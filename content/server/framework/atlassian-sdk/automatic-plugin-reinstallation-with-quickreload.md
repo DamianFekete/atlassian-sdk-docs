@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 38441282
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38441282
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38441282
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Automatic Plugin Reinstallation with QuickReload
 platform: server
@@ -275,46 +275,6 @@ Currently you can
 If you see this "java.lang.UnsatisfiedLinkError: Native Library" error it means that the quick reload plugin was re-loaded while running but it could not be. It's ironic I know that a reloading plugin can't be cleanly re-loaded but it's more to do with the underlying native file watching library than quick re-load itself.
 
 Java does not like to unload native libraries and the underlying name.pachler.nio.file does not expect to be reloaded. Trust me, you won't see this much. It's seen more in developing this plugin itself or you are running FastDev at the same time as QuickReload
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

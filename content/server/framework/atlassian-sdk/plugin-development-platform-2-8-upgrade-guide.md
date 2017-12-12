@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852113
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852113
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852113
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform 2.8 Upgrade Guide
 platform: server
 product: atlassian-sdk
@@ -28,6 +28,24 @@ Take a look through the <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWO
 ## Step 2. Add web-resource-transformer Module Type
 
 In the list of the plugin module descriptors your application supports, add `com.atlassian.plugin.webresource.transformer.WebResourceTransformerModuleDescriptor`. No additional application work is needed. See the documentation for this module type: [Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

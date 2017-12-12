@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818360
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818360
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818360
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-unit-test
 platform: server
@@ -67,45 +67,6 @@ atlas-unit-test --fail-never
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 [Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8946312
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946312
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946312
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Internationalising your plugin
 platform: server
@@ -314,46 +314,6 @@ The <a href="http://mojo.codehaus.org/l10n-maven-plugin/" class="external-link">
 ## Additional Resources
 
 -   <a href="http://rscbundlecheck.sourceforge.net/" class="uri external-link">http://rscbundlecheck.sourceforge.net/</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

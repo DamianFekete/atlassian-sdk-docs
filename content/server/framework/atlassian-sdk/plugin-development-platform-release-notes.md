@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 7372850
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=7372850
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=7372850
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform Release Notes
 platform: server
 product: atlassian-sdk
@@ -24,80 +24,6 @@ Atlassian Plugin Development Platform 2.11 is now available - see the [release n
 {{% /note %}}
 
 ### Plugin Development Platform Release Notes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 851985
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851985
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851985
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Page Decorators
 platform: server
 product: atlassian-sdk
@@ -75,6 +75,27 @@ This decorator will generally be accompanied by a web item link or tab. The tab,
 </tr>
 </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

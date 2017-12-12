@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852070
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852070
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852070
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Servlet Filter Plugin Module
 platform: server
 product: atlassian-sdk
@@ -195,12 +195,6 @@ Some information to be aware of when developing or configuring a Servlet Filter 
 -   Your servlet filter's `init()` method will not be called on web application startup, as for a normal filter. Instead, this method will be called the first time your filter is accessed after each time it is enabled. This means that if you disable a plugin containing a filter or a single servlet filter module, and re-enable it again, the filter will be re-created and its `init()` method will be called again.
 -   Because servlet filters are deployed beneath root, be careful when choosing each `url-pattern` under which your filter is deployed. If you plan to handle the request in the filter, it is recommended to use a value that will always be unique to the world!
 -   Some application servers, like WebSphere 6.1, won't call servlet filters if there is no underlying servlet to match the URL. On these systems, you will only be able to create a filter to handle normal application URLs.
-
-
-
-
-
-
 
 
 

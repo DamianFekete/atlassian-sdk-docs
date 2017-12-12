@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5242946
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242946
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242946
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Shared Access Layer
 platform: server
 product: atlassian-sdk
@@ -69,50 +69,6 @@ Take a look at the services that SAL offers.
 <a href="https://studio.atlassian.com/browse/SAL" class="external-link">Feature requests and bug reports</a>
 
 <a href="http://blogs.atlassian.com/developer/" class="external-link">Atlassian developer blog</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

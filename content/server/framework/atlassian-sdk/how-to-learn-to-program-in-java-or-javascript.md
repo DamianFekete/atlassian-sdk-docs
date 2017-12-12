@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818358
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818358
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818358
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: How to learn to program (in Java or JavaScript)
 platform: server
 product: atlassian-sdk
@@ -87,6 +87,78 @@ As with Java, there are a wealth of online tutorials and dead-tree books.
 The most effective way to learn something is to practice with it at least a little bit every day. Learning programming is difficult but very rewarding. There will be lots of things that don't make sense at first. Study examples wherever you can. Experiment. Try not to get frustrated. Don't expect to become an expert in a week, a month, or even a year. Good programmers never stop learning.
 
 Good luck!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

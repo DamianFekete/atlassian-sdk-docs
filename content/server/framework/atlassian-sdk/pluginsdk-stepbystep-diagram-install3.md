@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5670060
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5670060
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5670060
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _PluginSDK_StepByStep_Diagram_Install2
 platform: server
 product: atlassian-sdk

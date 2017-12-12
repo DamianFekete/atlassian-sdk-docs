@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852116
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852116
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852116
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Web Resource Plugin Module
 platform: server
 product: atlassian-sdk
@@ -320,6 +320,7 @@ Use this element to make a particular transformer available to the web resource 
 
 [Web Resource Transformer Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

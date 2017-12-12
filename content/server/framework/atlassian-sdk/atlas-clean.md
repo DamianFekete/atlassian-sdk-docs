@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818352
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818352
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818352
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-clean
 platform: server
@@ -58,46 +58,6 @@ For example, let's assume that you want to use version 3.1 of your host applicat
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 [Getting Started](/server/framework/atlassian-sdk/index)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

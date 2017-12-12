@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818466
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818466
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818466
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Plugin SDK Supported Applications and Default Ports
 platform: server
 product: atlassian-sdk
@@ -80,6 +80,140 @@ The table below shows the applications currently supported by the Atlassian Plug
 </table>
 
 ***Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

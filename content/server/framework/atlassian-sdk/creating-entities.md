@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669143
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Creating Entities
 platform: server
@@ -98,77 +98,6 @@ private Blog createBlog() throws SQLException
 ```
 
 The column names are used here, so they must conform to the [Column names](/server/framework/atlassian-sdk/column-names) convention.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

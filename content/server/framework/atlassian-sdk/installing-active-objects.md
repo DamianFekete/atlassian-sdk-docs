@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669200
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669200
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669200
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Installing Active Objects
 platform: server
@@ -138,77 +138,6 @@ Active Objects 0.15 is bundled by default. To install the latest version:
 </table>
 
 Active Objects plugin is bundled by default.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

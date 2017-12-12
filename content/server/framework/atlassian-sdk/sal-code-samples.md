@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5242906
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242906
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242906
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: SAL Code Samples
 platform: server
 product: atlassian-sdk
@@ -64,50 +64,6 @@ public class Example {
     
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852146
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852146
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852146
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: OSGi, Spring and the Plugin Framework
 platform: server
@@ -165,6 +165,149 @@ Import-Package: org.otherPlugin.api;version="[3.2.0,4.0.0)"
 [Managing Dependencies](/server/framework/atlassian-sdk/managing-dependencies)  
 [Using the OSGi Browser](/server/framework/atlassian-sdk/using-the-osgi-browser)  
 [Writing Atlassian Plugins](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Writing+Atlassian+Plugins)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

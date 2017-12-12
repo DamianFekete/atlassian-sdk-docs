@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8947336
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947336
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947336
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Browsing and Testing REST APIs in your Application
 platform: server
 product: atlassian-sdk
@@ -65,101 +65,6 @@ The screenshot below shows the REST API Browser running in JIRA 5.0. In this exa
 <a href="/pages/createpage.action?spaceKey=RAB&amp;title=Overview+of+the+Atlassian+REST+API+Browser" class="createlink">Overview of the Atlassian REST API Browser</a>  
 [Running the REST API Browser in the Atlassian Plugin SDK](https://developer.atlassian.com/display/RAB/Running+the+REST+API+Browser+in+the+Atlassian+Plugin+SDK)  
 [Documenting your APIs with the Atlassian REST API Browser](https://developer.atlassian.com/display/RAB/Documenting+your+APIs+with+the+Atlassian+REST+API+Browser)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

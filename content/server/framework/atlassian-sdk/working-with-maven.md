@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669840
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669840
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669840
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Working with Maven
 platform: server
@@ -403,101 +403,6 @@ Maven is included in the Atlassian SDK, so you do not normally need to install i
 In previous versions of the SDK (and as previously described on this page), you needed to add repository proxies and modify your Maven settings file to use the SDK with Maven 3. 
 
 Now you can simply follow the steps on [Changing the Default Maven Version](/server/framework/atlassian-sdk/changing-the-default-maven-version) to use Maven 3 with the SDK.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

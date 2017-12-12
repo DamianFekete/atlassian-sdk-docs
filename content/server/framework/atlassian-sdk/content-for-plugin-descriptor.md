@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852011
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852011
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852011
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Plugin Descriptor
 platform: server
 product: atlassian-sdk
@@ -358,6 +358,23 @@ In the rest of the descriptor XML file, contains any modules that make up your p
 ```
 
 For more information about the modules a plugin can contain, refer to the list of module types for your plugin's host application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

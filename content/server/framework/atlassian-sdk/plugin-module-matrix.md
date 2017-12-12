@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 851990
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851990
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851990
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Plugin Module Matrix
 platform: server
 product: atlassian-sdk
@@ -200,6 +200,71 @@ Other useful version matrices:
 
 -   [Shared Access Layer (SAL)](/server/framework/atlassian-sdk/sal-version-matrix)
 -   <a href="http://confluence.atlassian.com/display/APPLINKS/Application+Links+Version+Matrix" class="external-link">Application Links (AppLinks)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

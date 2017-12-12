@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852072
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852072
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852072
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Servlet Context Listener Plugin Module
 platform: server
 product: atlassian-sdk
@@ -109,16 +109,6 @@ Some information to be aware of when developing or configuring a Servlet Context
     2.  A new servlet context will be created after the plugin was re-enabled.
     3.  Your listener will be instantiated.
     4.  The method `contextCreated()` on your listener will be called.
-
-
-
-
-
-
-
-
-
-
 
 
 

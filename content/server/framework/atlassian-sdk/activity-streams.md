@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852150
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852150
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852150
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Activity Streams
 platform: server
@@ -45,77 +45,6 @@ Activity Streams includes a lightweight API that allows plugins to add activitie
 ### Making your own Activity Streams Provider
 
 An activity stream is created from the input of 'providers' that create sets of items for inclusion in the stream. You can create your own external provider and inject custom events into the activity streams. See how to [build a provider plugin](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

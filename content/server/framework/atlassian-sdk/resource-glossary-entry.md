@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 4915209
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915209
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915209
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Resource (Glossary Entry)
 platform: server
 product: atlassian-sdk
@@ -20,6 +20,53 @@ In the context of [REST](/server/framework/atlassian-sdk/rest-glossary-entry) AP
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Guidelines+for+Atlassian+REST+API+Design&amp;linkCreation=true&amp;fromPageId=4915209" class="createlink">Guidelines for Atlassian REST API Design</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

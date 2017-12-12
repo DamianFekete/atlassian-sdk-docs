@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 4915215
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915215
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915215
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: REST (Glossary Entry)
 platform: server
 product: atlassian-sdk
@@ -30,6 +30,52 @@ Some useful references:
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Guidelines+for+Atlassian+REST+API+Design&amp;linkCreation=true&amp;fromPageId=4915215" class="createlink">Guidelines for Atlassian REST API Design</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

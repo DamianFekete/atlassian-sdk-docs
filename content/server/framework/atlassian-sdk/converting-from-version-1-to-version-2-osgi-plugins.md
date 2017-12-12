@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852046
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852046
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852046
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Converting from Version 1 to Version 2 (OSGi) Plugins
 platform: server
@@ -171,101 +171,6 @@ To include a Spring configuration file, ensure it is included in the `META-INF/s
 [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)  
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)  
 [Confluence Developer Documentation: Converting a Plugin to Plugin Framework 2](https://developer.atlassian.com/display/CONFDEV/Converting+a+Plugin+to+Plugin+Framework+2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

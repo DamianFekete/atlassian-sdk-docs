@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818345
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818345
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818345
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-version
 platform: server
@@ -51,45 +51,6 @@ Java home: C:\Sun\SDK\jdk\jre
 Default locale: en_AU, platform encoding: Cp1252
 OS name: "windows xp" version: "5.1" arch: "x86" Family: "windows"
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

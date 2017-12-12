@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6291923
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6291923
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6291923
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Continuous Deployment for Plugins
 platform: server
 product: atlassian-sdk
@@ -44,38 +44,6 @@ Confluence EAP Feedback Plugin - (<a href="https://bitbucket.org/sherif/confluen
 ### D.I.Y issue collecting with Wufoo
 
 [View](https://dac-lf.prod.atl-paas.net/server/framework/atlassian-sdk/attachments/6291923/6488105.swf)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

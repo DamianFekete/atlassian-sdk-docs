@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8946978
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946978
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946978
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: How to upgrade AO to 0.18.x in JIRA 5
 platform: server
@@ -202,77 +202,6 @@ If you are launching JIRA along with your plugin via the Atlassian SDK, you can 
     <streams.version>$STREAMS_VERSION</streams.version>
 </properties>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

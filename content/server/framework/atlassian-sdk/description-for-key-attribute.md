@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852067
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852067
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852067
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Description for key attribute
 platform: server
 product: atlassian-sdk
@@ -24,6 +24,20 @@ The unique identifier of the plugin module. You refer to this key to use the res
  
 
 In the example, `appProps` is the key for this particular module declaration, for `component-import`, in this case.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

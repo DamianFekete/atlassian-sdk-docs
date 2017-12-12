@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818355
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818355
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818355
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: FAQ
 platform: server
 product: atlassian-sdk
@@ -272,11 +272,185 @@ Feel free to comment, make submissions, or pose your own question on FishEye/Cru
 
 -   Page:
 
+    [How do I trigger off a build from my action?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638479)
+
+-   Page:
+
+    [How do I start a build programatically?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638480)
+
+-   Page:
+
     [Note to Atlassian staff on the Bamboo Developer FAQ](https://developer.atlassian.com/display/BAMBOODEV/Note+to+Atlassian+staff+on+the+Bamboo+Developer+FAQ)
 
 -   Page:
 
     [How do I search for previous build result?](https://developer.atlassian.com/pages/viewpage.action?pageId=1638475)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

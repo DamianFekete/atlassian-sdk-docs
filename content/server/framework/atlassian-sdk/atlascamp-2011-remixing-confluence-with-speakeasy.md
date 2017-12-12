@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6849644
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6849644
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6849644
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Remixing Confluence with Speakeasy
 platform: server
 product: atlassian-sdk
@@ -34,37 +34,6 @@ Powerpoint [remixingConfluence\_nodemos.ppt](https://dac-lf.prod.atl-paas.net/se
 ### Contact
 
 <a href="mailto:nali@atlassian.com" class="external-link">email</a> // twitter @nabeelahali
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

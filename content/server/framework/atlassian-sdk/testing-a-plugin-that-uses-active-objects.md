@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669196
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669196
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669196
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Testing a plugin that uses Active Objects
 platform: server
@@ -40,77 +40,6 @@ We *strongly* encourage you to test your plugin with all of these databases befo
 #### Working with Atlassian Support
 
 We also remind you that Atlassian Support will not be able to support your plugin. If we encounter customers who are having difficulty due to an interaction with your plugin, our course of action will be to disable that plugin and return their host product to normal functionality. The burden for plugin-related support is on you, the plugin author, so it is in your best interest to make sure these areas are fully tested.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

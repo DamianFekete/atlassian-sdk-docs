@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852080
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852080
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852080
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Condition and Conditions Elements
 platform: server
 product: atlassian-sdk
@@ -49,28 +49,6 @@ For example: The following condition is true if the current user is a system adm
 ```
 
 NOTE: In versions before JIRA 3.7, the second class is called `com.atlassian.jira.plugin.web.conditions.UserHasProjectsCondition`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

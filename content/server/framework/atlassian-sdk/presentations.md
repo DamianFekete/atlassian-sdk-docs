@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5670157
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5670157
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5670157
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Presentations
 platform: server
 product: atlassian-sdk
@@ -118,61 +118,6 @@ title: Presentations
 ## Miscellaneous Talks
 
 -   <a href="http://confluence.atlassian.com/display/AUG/Ten+common+mistakes+in+plugin+development" class="external-link">Ten Common Mistakes in Plugin Development</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

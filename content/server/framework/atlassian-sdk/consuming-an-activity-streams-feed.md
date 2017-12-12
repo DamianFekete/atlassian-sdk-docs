@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852027
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852027
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852027
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Consuming an Activity Streams Feed
 platform: server
@@ -407,76 +407,6 @@ Issue description here &lt;/div>
 </activity:object>
 </entry>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

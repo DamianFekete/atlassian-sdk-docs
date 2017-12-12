@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 38449742
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=38449742
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=38449742
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Configuration of Instructions in Atlassian Plugins
 platform: server
@@ -84,101 +84,6 @@ Here's what these default instructions do:
 -   <a href="http://www.eclipse.org/gemini/blueprint/documentation/reference/1.0.2.RELEASE/html/app-deploy.html" class="external-link">Spring OSGi bundles in Blueprints</a>
 -   <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner/src" class="external-link">Spring Scanner</a>
 -   <a href="https://www.youtube.com/watch?v=bEYoAFc42b4" class="external-link">Plugins 2</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

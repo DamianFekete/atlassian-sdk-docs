@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 16352147
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352147
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352147
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Run your plugin in the container
 platform: server
@@ -158,6 +158,26 @@ Atlassian includes several developer tools in its applications so you can develo
 Next steps
 
 You've built the foundation and learned core concepts to develop your plugin in the Atlassian system, and become acquainted with the Developer Toolbox. Now you'll [add component modules](https://developer.atlassian.com/display/DOCS/Control+access+with+SAL).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

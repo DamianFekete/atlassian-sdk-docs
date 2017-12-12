@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852078
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852078
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852078
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform 2.11 Release Notes
 platform: server
 product: atlassian-sdk
@@ -92,6 +92,24 @@ The logging is more explicit when the modules are activated or disabled, a "Disa
 ### 5. Harmonize web-panel with web-item and web-section
 
 These 3 elements now implement the same descriptor, so that web-panels can have labels like web-items. See [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

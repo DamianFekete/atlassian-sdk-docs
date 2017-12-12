@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 21463904
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=21463904
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=21463904
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Convert component to servlet module
 platform: server
@@ -191,6 +191,26 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
 ## Next Steps
 
 Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

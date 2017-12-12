@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818638
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818638
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818638
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Hosting with Atlassian
 platform: server
 product: atlassian-sdk
@@ -30,25 +30,6 @@ Atlassian offers several additional core products in the cloud environment. Sign
 ------------------------------------------------------------------------
 
 Many projects are still available at our legacy hosting site: <a href="http://studio.plugins.atlassian.com/" class="uri external-link">http://studio.plugins.atlassian.com/</a>. If you have any questions, please let us know at <a href="mailto:developer-relations@atlassian.com" class="external-link">developer-relations@atlassian.com</a>.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

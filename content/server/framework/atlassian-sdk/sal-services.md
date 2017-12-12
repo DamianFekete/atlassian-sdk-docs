@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5242921
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242921
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242921
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: SAL Services
 platform: server
 product: atlassian-sdk
@@ -1477,50 +1477,6 @@ Crucible<br />
 
 <a href="http://docs.atlassian.com/sal-api/" class="external-link">Javadoc</a>  
 [About SAL Development](/server/framework/atlassian-sdk/about-sal-development)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

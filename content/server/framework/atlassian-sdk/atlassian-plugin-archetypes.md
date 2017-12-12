@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818678
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818678
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818678
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlassian Plugin Archetypes
 platform: server
 product: atlassian-sdk
@@ -169,6 +169,22 @@ For example, if Joe Developer from Acme Corp were writing his first Confluence m
 This would download some 50 small files from the net, create a folder named "awesome-macro" into his "plugin-project" folder, and set up all he needs to work on the plugin.
 
 Please return to [Set up the Atlassian Plugin SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project) for the next steps.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

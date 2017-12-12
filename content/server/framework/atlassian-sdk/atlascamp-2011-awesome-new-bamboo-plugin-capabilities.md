@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6849684
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6849684
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6849684
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Awesome New Bamboo Plugin Capabilities
 platform: server
 product: atlassian-sdk
@@ -22,51 +22,6 @@ title: Atlascamp 2011 - Awesome New Bamboo Plugin Capabilities
 ## Resources
 
 Source: <a href="https://bitbucket.org/jschumacher/pac-release-plugin" class="uri external-link">https://bitbucket.org/jschumacher/pac-release-plugin</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

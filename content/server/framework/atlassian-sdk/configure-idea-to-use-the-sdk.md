@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818645
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818645
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818645
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Configure IDEA to use the SDK
 platform: server
@@ -65,46 +65,6 @@ Here are sample settings:
 -XX:MaxPermSize=128m
 -ea
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

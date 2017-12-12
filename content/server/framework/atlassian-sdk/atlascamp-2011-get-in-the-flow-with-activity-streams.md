@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6848540
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6848540
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6848540
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Get in the Flow with Activity Streams
 platform: server
 product: atlassian-sdk
@@ -43,36 +43,6 @@ September 29, 2011
 Click <a href="http://www.atlassian.com/en/company/about/events/atlascamp/2011/day2/get-in-the-flow-with-atlassian-streams" class="external-link">here</a>.
 
 ## Slides
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

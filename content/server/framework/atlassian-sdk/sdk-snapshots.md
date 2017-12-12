@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818318
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818318
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818318
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: SDK Snapshots
 platform: server
 product: atlassian-sdk
@@ -28,6 +28,13 @@ A few words of caution are in order first:
 -   That being said, if you have problems, **please** let us know by filing bugs in the <a href="https://studio.atlassian.com/browse/AMPS" class="external-link">SDK JIRA project</a>.
 
 Finally, if you're motivated enough to try a snapshot build, we think it's likely you can write some code yourself. If you do find a problem - and the fix is something you can do yourself - send us the fix along with your newly filed JIRA issue. The SDK is open source protected by the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" class="external-link">Apache 2.0 license</a>, and we're delighted to accept your contributions under those terms.
+
+
+
+
+
+
+
 
 
 

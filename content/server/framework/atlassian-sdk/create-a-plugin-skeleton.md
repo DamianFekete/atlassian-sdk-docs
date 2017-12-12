@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 16352143
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352143
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352143
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Create a plugin skeleton
 platform: server
@@ -190,6 +190,26 @@ Start from a new tab in your terminal:
 ## Next Steps
 
 Now that your plugin skeleton is built and imported into Eclipse, [you'll construct a servlet](https://developer.atlassian.com/display/DOCS/Convert+component+to+servlet+module).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

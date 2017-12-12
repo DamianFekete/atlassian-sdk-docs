@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5242884
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242884
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242884
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _SAL Overview
 platform: server
 product: atlassian-sdk
@@ -21,6 +21,31 @@ The Shared Access Layer, or SAL for short, provides a consistent, cohesive API t
 -   Internationalisation lookups
 -   Persistence for plugin settings
 -   A plugin upgrade framework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

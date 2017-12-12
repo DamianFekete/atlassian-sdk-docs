@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818534
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818534
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818534
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-run-standalone
 platform: server
@@ -251,45 +251,6 @@ Currently if you want to run multiple products, or multiple versions of each pro
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852042
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852042
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852042
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _PluginFramework_InclusionsLibrary
 platform: server
 product: atlassian-sdk
@@ -84,50 +84,6 @@ To include the entire contents of a page:
 -   [\_Version Compatibility](/server/framework/atlassian-sdk/version-compatibility)
 -   [\_WarningDoNotRemove](/server/framework/atlassian-sdk/warningdonotremove)
 -   [Cross-Product Tutorials](/server/framework/atlassian-sdk/cross-product-tutorials)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

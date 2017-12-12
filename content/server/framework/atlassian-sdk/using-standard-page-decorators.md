@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 851983
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851983
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851983
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Using Standard Page Decorators
 platform: server
@@ -91,46 +91,6 @@ This decorator will generally be accompanied by a web item link or tab. The tab,
 </tr>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

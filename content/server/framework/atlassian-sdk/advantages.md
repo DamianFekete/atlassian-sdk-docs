@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852144
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852144
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852144
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Advantages
 platform: server
 product: atlassian-sdk
@@ -30,47 +30,6 @@ Features of the Atlassian Plugin Framework 2:
 -   Supports plugins of all levels of complexity.
 -   Insulates plugins against product upgrades.
 -   Allows in-container testing for faster plugin development.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

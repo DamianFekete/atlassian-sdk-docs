@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852065
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852065
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852065
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Web Resource Plugin Module
 platform: server
 product: atlassian-sdk
@@ -294,6 +294,10 @@ For a complete description and example, please refer to the page on Web Resource
 -   Since the resources are returned with headers that tell the browser to cache the content indefinitely, during development, you may need to hold down the "shift" key while reloading the page to force the browser to re-request the files.
 
 Use this element to make a particular transformer available to the web resource in the plugin. Example:
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852107
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852107
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852107
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Plugin Framework
 platform: server
@@ -106,76 +106,6 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 #### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
 
 {{% /note %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

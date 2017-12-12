@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818465
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818465
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818465
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Version Compatibility for Plugin Development Platform
 platform: server
 product: atlassian-sdk
@@ -126,6 +126,64 @@ Streams 5.0</p></td>
 -   Event = Atlassian Event
 -   Streams = [Activity Streams](https://developer.atlassian.com/display/STREAMS)
 -   (N/A) = (This component was not part of the platform at this time.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669135
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669135
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669135
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Getting Started with Active Objects
 platform: server
@@ -938,77 +938,6 @@ You'll notice that there are other stages to the source code. This is because [
 -   <a href="http://java.net/projects/activeobjects" class="external-link">Active Objects on java.net</a>
 -   [Active Objects Plugin Module](/server/framework/atlassian-sdk/active-objects-plugin-module)
 -   [Active Objects FAQ](/server/framework/atlassian-sdk/active-objects-faq)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852014
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852014
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852014
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Web Item Plugin Module
 platform: server
 product: atlassian-sdk
@@ -407,6 +407,7 @@ Here is an example `atlassian-plugin.xml` file containing how to add your link 
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818350
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818350
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818350
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-help
 platform: server
@@ -77,46 +77,6 @@ See the detailed <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlas
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818350" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

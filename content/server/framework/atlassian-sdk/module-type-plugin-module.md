@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852019
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852019
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852019
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Module Type Plugin Module
 platform: server
 product: atlassian-sdk
@@ -218,6 +218,7 @@ Some information to be aware of when developing or configuring a Module Type plu
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

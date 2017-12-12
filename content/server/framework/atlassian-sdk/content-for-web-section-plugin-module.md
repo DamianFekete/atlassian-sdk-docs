@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852114
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852114
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852114
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Web Section Plugin Module
 platform: server
 product: atlassian-sdk
@@ -294,16 +294,6 @@ Here is an example `atlassian-plugin.xml` file containing a single web section, 
 ```
 
 NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plugin.web.conditions.UserIsAdminCondition`
-
-
-
-
-
-
-
-
-
-
 
 
 

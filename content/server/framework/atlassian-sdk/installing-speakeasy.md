@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818535
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818535
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818535
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Installing Speakeasy
 platform: server
@@ -59,101 +59,6 @@ A more sensible configuration might be to allow developers to to develop Extensi
 ## Next Steps...
 
 It's time to [start building a Speakeasy extension](https://developer.atlassian.com/display/SPEAK/Speakeasy+Extension+Development+Guide)!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
