@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818459
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818459
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818459
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Plugin Tutorial Step - Build and Test
 platform: server
 product: atlassian-sdk
@@ -52,6 +52,147 @@ Use live reload to view real-time updates to templates and other resources:
 Go back to the browser. The updated plugin has been installed into the application, and you can test your changes.
 
 The full instructions are in the [SDK guide](/server/framework/atlassian-sdk/working-with-the-sdk).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

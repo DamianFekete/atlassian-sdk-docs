@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 16352154
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=16352154
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=16352154
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Control access with SAL
 platform: server
@@ -128,6 +128,26 @@ In order to load the changes in JIRA and verify that your `UserManager` and `
 ## Next Steps
 
 You've added SAL services to your plugin and verified that your dependencies are correctly configured. Now, [create a GUI using Atlassian User Interface (AUI) resources and templates](https://developer.atlassian.com/display/DOCS/Create+a+GUI+with+templates+and+AUI).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

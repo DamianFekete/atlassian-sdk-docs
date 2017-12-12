@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 7897299
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=7897299
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=7897299
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform 2.12 Release Notes
 platform: server
 product: atlassian-sdk
@@ -75,6 +75,24 @@ AUI has many new features including <a href="http://documentcloud.github.com/und
  
 
 This version of the plugin framework introduces context batching. This lowers the number of CSS and JavaScript requests. thus improving page loading performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

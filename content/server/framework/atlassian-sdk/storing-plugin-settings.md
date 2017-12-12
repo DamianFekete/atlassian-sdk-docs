@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 18251950
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=18251950
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=18251950
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Storing plugin settings
 platform: server
@@ -32,7 +32,7 @@ The `ConfluencePluginSettings` object uses [Bandana](https://developer.atlass
 
 Here is a diagram of SAL's plugin settings objects:
 
-<img src="http://atlassian.wpengine.netdna-cdn.com/developer/gliffy_factory_pattern.jpg" alt="gliffy_factory_pattern.jpg" class="confluence-external-resource mt-image-none" width="598" height="317" />
+<img src="http://atlassian.wpengine.netdna-cdn.com/developer/gliffy_factory_pattern.jpg" alt="gliffy_factory_pattern.jpg" class="mt-image-none confluence-external-resource" width="598" height="317" />
 
 The `PluginSettingsFactory` uses the <a href="http://en.wikipedia.org/wiki/Abstract_factory_pattern" class="external-link">abstract factory pattern</a>: it "provides an interface for creating families of related or dependent objects without specifying their concrete classes" (p. 87 in *Design Patterns* by Gamma et al).
 
@@ -41,46 +41,6 @@ The `PluginSettingsFactory` allows us to create specific `PluginSettings` ob
 Plugin developers benefit from the use of the abstract factory pattern here in several ways. No matter what the target product for a plugin, one syntax can be used to interact with plugin settings. So it is not necessary for developers to learn and remember multiple, distinct settings storage syntax for different products. And a particular plugin could potentially have multiple target products without special handling, at least as far as plugin settings are concerned.
 
 These are benefits often seen when using factories for object creation: users of the object are insulated from the specific objects used and their implementations, and maintenance changes only need to occur in one location rather than in each client.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

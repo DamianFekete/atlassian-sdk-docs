@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8945929
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945929
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945929
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Documenting your APIs with the Atlassian REST API Browser
 platform: server
@@ -41,57 +41,6 @@ The RAB source code is <a href="https://bitbucket.org/atlassian/rest-api-browser
 ##### RELATED TOPICS
 
 <a href="/pages/createpage.action?spaceKey=RAB&amp;title=Overview+of+the+Atlassian+REST+API+Browser" class="createlink">Overview of the Atlassian REST API Browser</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

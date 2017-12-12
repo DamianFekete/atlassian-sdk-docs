@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818713
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818713
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818713
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Example settings.xml
 platform: server
 product: atlassian-sdk
@@ -30,15 +30,6 @@ If your network requires the use of an HTTP or HTTPS proxy, you'll need to <a hr
 An error occurred: svn.atlassian.com. The error has been recorded.
 
 Download <a href="https://svn.atlassian.com/svn/public/atlassian/maven2settings/settings.xml.devnet" class="external-link">here</a>
-
-
-
-
-
-
-
-
-
 
 
 

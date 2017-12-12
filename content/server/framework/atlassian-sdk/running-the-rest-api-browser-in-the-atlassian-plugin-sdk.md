@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8945924
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945924
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945924
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Running the REST API Browser in the Atlassian Plugin SDK
 platform: server
 product: atlassian-sdk
@@ -96,132 +96,6 @@ For details, see [how to use RAB](/server/framework/atlassian-sdk/browsing-and-t
 [Browsing and Testing REST APIs in your Application](/server/framework/atlassian-sdk/browsing-and-testing-rest-apis-in-your-application)  
 [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser)  
 [atlas-run-standalone](/server/framework/atlassian-sdk/atlas-run-standalone)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

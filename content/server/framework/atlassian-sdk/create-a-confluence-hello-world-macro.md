@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 44044634
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=44044634
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=44044634
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Create a Confluence 'Hello World' Macro
 platform: server
@@ -397,6 +397,42 @@ Or, check out the questions on <a href="http://answers.atlassian.com/" class="e
 -   You can find documentation for Spring Scanner at <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner" class="uri external-link">https://bitbucket.org/atlassian/atlassian-spring-scanner</a>
 -   Learn more about the [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
 -   [L](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module/including-information-in-your-macro-for-the-macro-browser)earn more about the [Macro Module](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

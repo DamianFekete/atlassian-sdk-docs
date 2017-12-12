@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8945854
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945854
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945854
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-create-jira-plugin-module
 platform: server
@@ -95,46 +95,6 @@ Let's assume you want to add a new plugin module to your existing JIRA plugin.
 ##### RELATED TOPICS
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

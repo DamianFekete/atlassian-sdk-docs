@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6848683
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6848683
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6848683
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Ecosystem Tools for Administrators
 platform: server
 product: atlassian-sdk
@@ -25,27 +25,27 @@ title: Atlascamp 2011 - Ecosystem Tools for Administrators
 
 PDF File <a href="/download/attachments/6848683/Ecosystem%20Tools%20for%20Administrators%20v4.pdf?api=v2" class="filename" title="Download">Ecosystem Tools for Administrators v4.pdf</a>
 
-Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="confluence-userlink fn url">Matt Ryall</a>
+Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="fn url confluence-userlink">Matt Ryall</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl" class="aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl" class="aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
 ZIP Archive <a href="/download/attachments/6848683/Ecosystem%20Tools%20for%20Administrators%20v4.key.zip?api=v2" class="filename" title="Download">Ecosystem Tools for Administrators v4.key.zip</a>
 
-Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="confluence-userlink fn url">Matt Ryall</a>
+Sep 29, 2011 by <a href="%20%20%20%20/display/~557057%7C11212f7c-b227-40d3-b312-4668716468b0%0A" class="fn url confluence-userlink">Matt Ryall</a>
 
 Labels
 
 -   No labels
 -   <a href="#edit-labels" class="show-labels-editor" title="Edit Labels">Edit Labels</a>
 
-<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="removeAttachmentLink aui-button">$itemLabel</a>
+<span class="aui-button previewAttachmentLink">Preview</span> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="editAttachmentLink aui-button">$itemLabel</a> <a href="$itemRenderedUrl&amp;isFromPageView=true&amp;isFromPageView=true" class="aui-button removeAttachmentLink">$itemLabel</a>
 
-Drag and drop to upload or <span class="aui-button browse-files aui-button-link">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
+Drag and drop to upload or <span class="browse-files aui-button aui-button-link">browse for files</span> <img src="/server/framework/atlassian-sdk/images/icons/wait.gif" class="plugin_attachments_dropzone_uploadwaiticon" />
 
 Upload file
 
@@ -155,39 +155,6 @@ Luke:
 Confluence cache tuning:
 
 -   <a href="http://confluence.atlassian.com/display/DOC/Cache+Performance+Tuning" class="uri external-link">http://confluence.atlassian.com/display/DOC/Cache+Performance+Tuning</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

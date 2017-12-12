@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818680
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818680
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818680
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Speeding Up Confluence Plugin Development Using Maven CLI
 platform: server
 product: atlassian-sdk
@@ -21,7 +21,7 @@ These instructions are obsolete if you are using the <a href="/pages/createpage.
 
 {{% /warning %}}
 
-As everyone knows, running <a href="http://maven.apache.org/" class="external-link">Maven</a> can be pretty slow, which means deploying your plugin using the <a href="http://confluence.atlassian.com/display/DEVNET/Atlassian+Maven+PDK" class="external-link">Atlassian Maven PDK</a> takes quite a while. So I tried to find a way for faster turnaround times in Confluence plugin development. By using a combination of <a href="http://www.jroller.com/mrdon/" class="external-link">Don Brown's</a> excellent <a href="http://github.com/mrdon/maven-cli-plugin/wikis" class="external-link">CLI Plugin</a> and the [Atlassian Maven PDK](/server/framework/atlassian-sdk/obsolete-atlassian-maven-pdk), my deployment time for a changed plugin is down to -- TADA -- **1 to 2 seconds**.
+As everyone knows, running <a href="http://maven.apache.org/" class="external-link">Maven</a> can be pretty slow, which means deploying your plugin using the <a href="http://confluence.atlassian.com/display/DEVNET/Atlassian+Maven+PDK" class="external-link">Atlassian Maven PDK</a> takes quite a while. So I tried to find a way for faster turnaround times in Confluence plugin development. By using a combination of <a href="http://www.jroller.com/mrdon/" class="external-link">Don Brown's</a> excellent <a href="http://github.com/mrdon/maven-cli-plugin/wikis" class="external-link">CLI Plugin</a> and the [Atlassian Maven PDK](/server/framework/atlassian-sdk/Loading...), my deployment time for a changed plugin is down to -- TADA -- **1 to 2 seconds**.
 
 ## Setting Up a New Plugin Project
 
@@ -43,7 +43,7 @@ Here are the instructions to set up a new plugin project from scratch:
     ```
 
     This will allow the plugin to be installed automatically when it is used for the first time.
-3.  Make sure that you have specified the location of **your** Confluence instance in your settings.xml when configuring the [PDK](/server/framework/atlassian-sdk/obsolete-atlassian-maven-pdk):
+3.  Make sure that you have specified the location of **your** Confluence instance in your settings.xml when configuring the [PDK](/server/framework/atlassian-sdk/Loading...):
     ``` javascript
     <atlassian.pdk.server.url>http://localhost:1990/confluence</atlassian.pdk.server.url>
     ```
@@ -73,18 +73,6 @@ Here are the instructions to set up a new plugin project from scratch:
 After the first run, which takes about 2 seconds, all subsequent runs take about 1 second on my machine. And because the CLI plugin supports command history, running it again is as easy as switching to your terminal, doing &lt;Arrow Up&gt;+&lt;Enter&gt;, switching to your browser and reloading your page.
 
 The above procedure is very reliable and is as close to the usual plugin runtime environment as possible.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

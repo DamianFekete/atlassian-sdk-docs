@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818722
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818722
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818722
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-install-plugin
 platform: server
@@ -102,45 +102,6 @@ Go to the plugin's project directory (where you created the plugin) and run the 
 ``` bash
 atlas-install-plugin --username myadmin --password secret --plugin-key com.atlassian.confluence.plugins.example
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

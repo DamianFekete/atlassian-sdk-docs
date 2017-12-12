@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 4915224
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915224
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915224
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: REST Glossary - Terms and Definitions
 platform: server
 product: atlassian-sdk
@@ -25,37 +25,6 @@ Here is a list of all entries in the glossary, plus the first few lines of conte
 ##### RELATED TOPICS
 
 Unable to render {children}. Page not found: REST API Developer Documentation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8947342
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8947342
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8947342
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _RABQuickStart
 platform: server
 product: atlassian-sdk
@@ -23,85 +23,6 @@ Already using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working
 4.  Choose an API from the dropdown list at the top left of the screen.
 5.  Choose a resource from the list on the left of the screen. The REST API Browser will show you the methods (GET, POST, PUT, etc) and the parameters available for that resource.
 6.  To test the resource, enter the parameter values as prompted then click **Execute**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

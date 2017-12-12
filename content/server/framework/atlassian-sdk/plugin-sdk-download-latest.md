@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818137
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818137
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818137
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Plugin SDK Download Latest
 platform: server
 product: atlassian-sdk
@@ -21,6 +21,151 @@ title: _Plugin SDK Download Latest
 Already have the SDK?
 
 <a href="https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project" class="external-link">Set up the Atlassian SDK and build a project</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

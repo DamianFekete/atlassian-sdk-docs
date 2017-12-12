@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 4915226
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915226
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915226
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Atlassian REST API Design Guidelines version 1
 platform: server
@@ -837,57 +837,6 @@ Any request which produces a status code with no body will have a body formatted
 [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Basics of Exposing REST APIs via Plugins](/server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

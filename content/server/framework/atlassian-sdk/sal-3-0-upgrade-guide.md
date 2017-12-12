@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 35721084
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=35721084
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=35721084
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: SAL 3.0 Upgrade Guide
 platform: server
 product: atlassian-sdk
@@ -61,6 +61,103 @@ Plugin developers may retrieve a java.sql.Connection from the application and ex
 See <a href="https://docs.atlassian.com/sal-api/3.0.0/sal-api/apidocs/com/atlassian/sal/api/rdbms/TransactionalExecutor.html" class="external-link">TransactionalExecutor</a> for an documentation and example.
 
 See <a href="https://bitbucket.org/acourtis/rdbms-plugin-examples" class="uri external-link">https://bitbucket.org/acourtis/rdbms-plugin-examples</a> for some Hibernate and QueryDSL samples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

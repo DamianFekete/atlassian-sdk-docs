@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852108
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852108
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852108
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Web Panel Renderer Plugin Module
 platform: server
 product: atlassian-sdk
@@ -222,18 +222,6 @@ To access the full source code for this plugin, you can:
 
 -   <a href="http://svn.atlassian.com/fisheye/browse/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">browse it online</a>.
 -   <a href="https://svn.atlassian.com/svn/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">check it out from Subversion</a>.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

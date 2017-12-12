@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 851997
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851997
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851997
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Configuration UI
 platform: server
 product: atlassian-sdk
@@ -48,6 +48,22 @@ This `param` element causes a button with the Configure label to appear in the d
     -   A new XWork action that you have defined via an XWork plugin module.
     -   Or a servlet defined via a [Servlet](/server/framework/atlassian-sdk/servlet-plugin-module) plugin module.
 -   Not all applications support configuration links, so you may need to create a web item link in the administration menu to link to your configuration page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

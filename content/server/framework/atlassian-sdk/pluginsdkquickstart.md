@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669863
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669863
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669863
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _PluginSDKQuickStart
 platform: server
 product: atlassian-sdk
@@ -27,6 +27,16 @@ title: _PluginSDKQuickStart
 10. When you're ready, [release your plugin](/server/framework/atlassian-sdk/packaging-and-releasing-your-plugin).
 
 The brief instructions above are covered in more detail in [installing the Atlassian Plugin SDK](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project).
+
+
+
+
+
+
+
+
+
+
 
 
 

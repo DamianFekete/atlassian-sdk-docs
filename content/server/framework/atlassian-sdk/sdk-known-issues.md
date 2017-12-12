@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818471
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818471
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818471
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _SDK Known Issues
 platform: server
 product: atlassian-sdk
@@ -25,6 +25,52 @@ title: _SDK Known Issues
 ### Product-specific issues
 
 None for recent versions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,11 +2,11 @@
 aliases:
 - /server/framework/atlassian-sdk/activity-streams-version-matrix-852029.html
 - /server/framework/atlassian-sdk/activity-streams-version-matrix-852029.md
-category: reference
+category: devguide
 confluence_id: 852029
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852029
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852029
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Activity Streams Version Matrix
 platform: server
 product: atlassian-sdk
@@ -62,6 +62,57 @@ Confluence 4.1</p>
 </tr>
 </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

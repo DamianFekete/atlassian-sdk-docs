@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 4915229
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915229
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915229
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Basics of Exposing REST APIs via Plugins
 platform: server
 product: atlassian-sdk
@@ -124,6 +124,11 @@ public class RestHelloWorldService {
 <a href="/pages/createpage.action?spaceKey=REST&amp;title=Developing+a+REST+Service+Plugin" class="createlink">Developing a REST Service Plugin</a>  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Guidelines for Atlassian REST API Design](https://developer.atlassian.com/display/REST/Guidelines+for+Atlassian+REST+API+Design)
+
+
+
+
+
 
 
 

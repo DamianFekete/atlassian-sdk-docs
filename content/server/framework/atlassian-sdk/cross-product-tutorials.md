@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8946211
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8946211
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8946211
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Cross-Product Tutorials
 platform: server
 product: atlassian-sdk
@@ -93,93 +93,6 @@ Tutorials classified by the level of skill assumed:
 ### Other Tutorials
 
 Looking for specific tutorials for Confluence, JIRA and other Atlassian products? Please refer to the [complete list of Atlassian tutorials](/server/framework/atlassian-sdk/tutorials).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

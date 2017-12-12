@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818408
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818408
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818408
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Setting the Platform Version Dependency in the POM
 platform: server
@@ -97,6 +97,46 @@ Note that this does not affect projects that have the above `dependencyManagemen
 
 [Atlassian Platform Common Components](/server/framework/atlassian-sdk/atlassian-platform-common-components)  
 [Plugin Framework 2.6 Migration Guide](https://developer.atlassian.com/pages/viewpage.action?pageId=852068)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

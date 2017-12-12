@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818681
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818681
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818681
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Getting Started with Remote APIs
 platform: server
 product: atlassian-sdk
@@ -69,11 +69,6 @@ The links below point to the remote API documentation for the versions of each p
 -   <a href="http://confluence.atlassian.com/display/DISC/Confluence4r" class="external-link">Confluence4r</a>: Simple and useful wrapper around Confluence's XML-RPC for Ruby.
 -   <a href="http://confluence.atlassian.com/display/DISC/Confluence4r+Rails+Plugin" class="external-link">Confluence4r Rails Plugin</a>: enhanced version of Confluence4r for Rails.
 -   <a href="http://confluence.atlassian.com/display/Support/Hercules" class="external-link">Hercules</a> the support bot / log analysis tool
-
-
-
-
-
 
 
 

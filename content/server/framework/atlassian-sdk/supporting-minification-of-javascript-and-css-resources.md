@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852081
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852081
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852081
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Supporting Minification of JavaScript and CSS Resources
 platform: server
@@ -92,101 +92,6 @@ You can turn off minification support in your development environments, so that 
 ```
 
 Minification is automatically disabled in Atlassian developer mode.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

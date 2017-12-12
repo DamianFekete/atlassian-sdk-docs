@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 52428903
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=52428903
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=52428903
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: AMPS 6.3.3
 platform: server
 product: atlassian-sdk
@@ -26,6 +26,22 @@ title: AMPS 6.3.3
 <a href="https://ecosystem.atlassian.net/browse/AMPS-1158?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15310&amp;avatarType=issuetype" class="icon" />AMPS-1158</a> - New JIRA plugins should have source encoding and compiler version Resolved
 
 <a href="https://ecosystem.atlassian.net/browse/AMPS-1395?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15310&amp;avatarType=issuetype" class="icon" />AMPS-1395</a> - update default product versions for AMPS Resolved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

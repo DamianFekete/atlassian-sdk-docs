@@ -2,11 +2,11 @@
 aliases:
 - /server/framework/atlassian-sdk/rest-api-plugin-version-matrix-4915206.html
 - /server/framework/atlassian-sdk/rest-api-plugin-version-matrix-4915206.md
-category: reference
+category: devguide
 confluence_id: 4915206
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=4915206
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=4915206
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: REST API Plugin Version Matrix
 platform: server
 product: atlassian-sdk
@@ -132,6 +132,97 @@ NOTE: The REST API plugin is bundled with all application versions as shown in t
 ##### RELATED TOPICS
 
 [REST API Developer Documentation](https://developer.atlassian.com/display/REST/REST+API+Developer+Documentation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

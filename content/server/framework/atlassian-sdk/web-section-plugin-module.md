@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852133
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852133
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852133
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Web Section Plugin Module
 platform: server
 product: atlassian-sdk
@@ -301,6 +301,7 @@ NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plug
 
 [Web Item Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module)  
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+
 
 
 

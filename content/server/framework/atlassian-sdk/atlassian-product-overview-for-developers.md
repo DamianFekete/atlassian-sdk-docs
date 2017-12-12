@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 7372808
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=7372808
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=7372808
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlassian Product Overview for Developers
 platform: server
 product: atlassian-sdk
@@ -48,41 +48,6 @@ Got continuous integration? Then you've got [Bamboo](https://developer.atlassian
 ## Crowd
 
 [Crowd](https://developer.atlassian.com/display/CROWDDEV) is a web application that manages users, permissions and application access control. It offers a number of out-of-the-box connectors for well known applications and directories. If yours is not one of them, you can write a [custom connector](https://developer.atlassian.com/display/CROWDDEV/Remote+API+Reference). You can also add to Crowd functionality by writing a [plugin](https://developer.atlassian.com/display/CROWDDEV/Developing+Plugins+for+Crowd).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

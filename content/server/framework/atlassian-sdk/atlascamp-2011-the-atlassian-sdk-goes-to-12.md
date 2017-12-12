@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6849670
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6849670
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6849670
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - The Atlassian SDK goes to 11
 platform: server
 product: atlassian-sdk
@@ -27,38 +27,6 @@ title: Atlascamp 2011 - The Atlassian SDK goes to 12
 -   Download SDK - <a href="http://developer.atlassian.com" class="uri external-link">http://developer.atlassian.com</a>
 -   AMPS Project - <a href="http://studio.atlassian.com/browse/AMPS" class="uri external-link">http://studio.atlassian.com/browse/AMPS</a>
 -   FastDev Project - <a href="http://studio.atlassian.com/browse/FASTDEV" class="uri external-link">http://studio.atlassian.com/browse/FASTDEV</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

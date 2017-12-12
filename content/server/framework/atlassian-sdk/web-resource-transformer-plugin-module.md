@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852002
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852002
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852002
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Web Resource Transformer Plugin Module
 platform: server
 product: atlassian-sdk
@@ -186,6 +186,7 @@ Some information to be aware of when developing or configuring a Web Resource Tr
 
 [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
+
 
 
 

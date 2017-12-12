@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669155
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669155
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669155
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: ManyToMany Relationship
 platform: server
@@ -83,77 +83,6 @@ The <a href="https://developer.atlassian.com/display/DOCS/OneToOne+Relationship"
 If you do not set these attributes, Active Objects will revert to inferring the method by type. However, in a future upgrade, specifying these attributes will be required.
 
 *Note, the Active Objects plugin was upgraded to 0.22.1 in JIRA 6.1.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

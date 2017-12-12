@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818311
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818311
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818311
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Developer Bamboo Server
 platform: server
 product: atlassian-sdk
@@ -38,6 +38,19 @@ Error rendering macro 'rss' : java.net.UnknownHostException: bamboo.developer.at
 ### Recent Changes in the Atlassian Developer Bamboo Server
 
 Error rendering macro 'rss' : java.net.UnknownHostException: bamboo.developer.atlassian.com
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

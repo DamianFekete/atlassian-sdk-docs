@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669139
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: The Active Objects Library
 platform: server
@@ -52,77 +52,6 @@ I suggest you clone and check out the code available on BitBucket:
 
 -   <a href="http://java.net/projects/activeobjects" class="uri external-link">http://java.net/projects/activeobjects</a>, this is the Active Objects project on `java.net`. The library is also documented there to some extent.
 -   <a href="https://bitbucket.org/activeobjects/" class="uri external-link">https://bitbucket.org/activeobjects/</a>, this is the Active Objects account on BitBucket. A migration of the whole project (i.e. the library) is in the works and ultimately we see all of Active Objects (the library) resources be available there.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

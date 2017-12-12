@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852031
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852031
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852031
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Behind the Scenes in the Plugin Framework
 platform: server
@@ -28,76 +28,6 @@ The following topics provide this background information on the framework.
 ##### RELATED TOPICS
 
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

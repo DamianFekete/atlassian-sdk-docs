@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852028
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852028
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852028
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Developer's Cookbook
 platform: server
 product: atlassian-sdk
@@ -109,10 +109,6 @@ Definitions:
 
 [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework)  
 [Common Coding Tasks](/server/framework/atlassian-sdk/common-coding-tasks)
-
-
-
-
 
 
 

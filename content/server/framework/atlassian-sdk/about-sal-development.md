@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5242930
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5242930
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5242930
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: About SAL Development
 platform: server
 product: atlassian-sdk
@@ -72,50 +72,6 @@ Please refer to the list of available [SAL services](https://developer.atlassian
 
 [SAL Services](https://developer.atlassian.com/display/SAL/SAL+Services)  
 [Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818374
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818374
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818374
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Best Practices
 platform: server
@@ -41,101 +41,6 @@ you might try
 That will ensure that your CSS rules don't get applied to anyone else's plugins, and you don't inadvertently pick up a style from Confluence's table class that may change in the future.
 
 On the Javascript side, you run an even greater risk of conflicting with the product or with another plugin. For that reason, you should namespace your javascript as outlined in <a href="http://icant.co.uk/articles/seven-rules-of-unobtrusive-javascript/#r6" class="external-link">this tutorial</a>. Our products don't actually follow this rule yet, so it's doubly important for plugins to do so.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

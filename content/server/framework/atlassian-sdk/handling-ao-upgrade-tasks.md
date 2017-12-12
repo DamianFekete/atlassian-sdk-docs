@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 45520507
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=45520507
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=45520507
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Handling AO Upgrade Tasks
 platform: server
@@ -501,7 +501,7 @@ Then we simply need to declare the upgrade task in the Active Objects module des
 </ao>
 ```
 
-And we're good to go. Obviously something we've not shown here is how to update the `TodoService` implementation. This is left as an exercise to the reader <img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/wink.png" alt="(wink)" class="confluence-external-resource emoticon-wink" /> . If you're stuck you can look at the source repository.
+And we're good to go. Obviously something we've not shown here is how to update the `TodoService` implementation. This is left as an exercise to the reader <img src="https://ecosystem.atlassian.net/wiki/s/1566798676/6452/8afe5ead844f0e54811644803fbbe44093a68efd/_/images/icons/emoticons/wink.png" alt="(wink)" class="emoticon-wink confluence-external-resource" /> . If you're stuck you can look at the source repository.
 
 {{% tip %}}
 
@@ -544,77 +544,6 @@ If you're having issues, you might want to compare with my version of the code.
 {{% /note %}}
 
 {{% /tip %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

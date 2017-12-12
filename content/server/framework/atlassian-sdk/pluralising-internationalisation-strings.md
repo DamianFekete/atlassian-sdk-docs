@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 10421452
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=10421452
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=10421452
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Pluralising internationalisation strings
 platform: server
@@ -121,46 +121,6 @@ Therefore, it is only recommended to use `ChoiceFormat` in cases where the sent
 -   <a href="http://stuartgunter.wordpress.com/2011/08/09/java-i18n-pluralisation-using-choiceformat/" class="external-link">Java i18n Pluralisation using ChoiceFormat</a>
 -   <a href="http://docs.oracle.com/javase/tutorial/i18n/format/choiceFormat.html" class="external-link">Handling Plurals (The Java™ Tutorials)</a>
 -   <a href="http://docs.oracle.com/javase/7/docs/api/java/text/ChoiceFormat.html" class="external-link">ChoiceFormat (Java Platform SE 7)</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

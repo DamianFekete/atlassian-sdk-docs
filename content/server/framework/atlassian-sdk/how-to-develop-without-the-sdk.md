@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818715
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818715
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818715
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: How to develop without the SDK
 platform: server
 product: atlassian-sdk
@@ -22,17 +22,9 @@ These instructions are obsolete if you are using the <a href="/pages/createpage.
 {{% /warning %}}
 
 -   [Example settings.xml](/server/framework/atlassian-sdk/example-settings-xml)
--   [Obsolete Atlassian Maven PDK](/server/framework/atlassian-sdk/obsolete-atlassian-maven-pdk) -- This is a Maven 2 plugin which assists in building and deploying Atlassian plugins.
+-   [Obsolete Atlassian Maven PDK](/server/framework/atlassian-sdk/Loading...) -- This is a Maven 2 plugin which assists in building and deploying Atlassian plugins.
 -   [Maven Requirements](/server/framework/atlassian-sdk/maven-requirements)
 -   [Atlassian Plugin Archetypes](/server/framework/atlassian-sdk/atlassian-plugin-archetypes) -- Atlassian has created Maven 2 archetypes for five of our pluggable products.
-
-
-
-
-
-
-
-
 
 
 

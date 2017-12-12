@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852129
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852129
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852129
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _URL Pattern Format
 platform: server
 product: atlassian-sdk
@@ -24,64 +24,6 @@ The URL pattern format is used in Atlassian plugin types to map them to URLs. On
 
 -   `/mydir/*` matches `/mydir/myfile.xml`
 -   `/*/admin/*.??ml` matches `/mydir/otherdir/admin/myfile.html`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

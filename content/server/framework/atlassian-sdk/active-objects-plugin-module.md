@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669175
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669175
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669175
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Active Objects Plugin Module
 platform: server
@@ -127,77 +127,6 @@ Here is an example `atlassian-plugin.xml` file containing a single public compon
 
 There is a document explaining how to [use the plugin](https://developer.atlassian.com/display/AO/Developing+your+plugin+with+Active+Objects).  
 Also have a look at the sample <a href="https://bitbucket.org/atlassian_tutorial/ao-tutorial" class="external-link">Todo plugin</a> developed which is a simple example plugin using Active Object you can build upon.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

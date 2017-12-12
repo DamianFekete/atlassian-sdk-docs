@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818631
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818631
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818631
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Atlassian Platform Common Components
 platform: server
@@ -58,84 +58,6 @@ See [About the Platform](/server/framework/atlassian-sdk/about-the-platform).
 ## Using the plugin development platform dependency management POMs
 
 If you would like to have just one version to change when upgrading to a new version of the Atlassian Plugin Development Platform, you can use the `atlassian-platform-libraries` and `atlassian-platform-plugins` POM artifacts to set the versions via Maven's <a href="http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Importing_Dependencies" class="external-link">&quot;import&quot; scope</a>. This will allow you to change the platform version and have all the appropriate versions of platform modules set automatically.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

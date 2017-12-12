@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818640
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818640
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818640
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Packaging and Releasing your Plugin
 platform: server
@@ -93,46 +93,6 @@ Each time you release a new version of a plugin, there are certain steps you sho
     2.  Compiles code and package it
     3.  Put the binary package in your local Maven repository.
 4.  Copy the created binary package from your target sub-directory to the project's `jars` sub-directory (in SVN). Then schedule it for addition to SVN before finally committing the added resource.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

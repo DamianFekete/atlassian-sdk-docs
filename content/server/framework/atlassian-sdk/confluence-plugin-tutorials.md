@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818467
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818467
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818467
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Confluence Plugin Tutorials
 platform: server
 product: atlassian-sdk
@@ -91,6 +91,10 @@ title: _Confluence Plugin Tutorials
 
     [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
 
+-   Page:
+
+    [Writing a Blueprint - Intermediate](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Intermediate)
+
 #### Advanced
 
 -   Page:
@@ -112,6 +116,89 @@ title: _Confluence Plugin Tutorials
 -   Page:
 
     [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
+
+-   Page:
+
+    [Writing a Blueprint - Advanced](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Advanced)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

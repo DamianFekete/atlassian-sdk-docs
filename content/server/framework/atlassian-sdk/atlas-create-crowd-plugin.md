@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818340
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818340
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818340
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-create-crowd-plugin
 platform: server
@@ -111,46 +111,6 @@ atlas-create-crowd-plugin --artifact-id myfooplugin --group-id com.mycompany.plu
 
 [Working with the SDK](/server/framework/atlassian-sdk/working-with-the-sdk)  
 <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818340" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

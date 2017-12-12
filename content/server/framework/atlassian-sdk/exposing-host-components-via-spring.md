@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852023
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852023
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852023
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Exposing Host Components via Spring
 platform: server
@@ -73,75 +73,6 @@ If you are already defining your beans in XML, it may be more natural to also ma
        <plugin:interface>com.example.SomeCapability</plugin:interface>
     </bean>
     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

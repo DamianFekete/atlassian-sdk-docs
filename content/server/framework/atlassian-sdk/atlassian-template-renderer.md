@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669100
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669100
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669100
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Atlassian Template Renderer
 platform: server
@@ -42,76 +42,6 @@ Let's say you want one of the other components injected into each of the templat
 ```
 
 Using this technique, the ATR plugin makes the SAL [I18nResolver](/server/framework/atlassian-sdk/sal-services#%7B%7B%7B%7D-i18n-resolver%7B%7D%7D%7D) and the plugins <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.2.0/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a> automatically available to all templates in this way with the `i18n` and `webResourceManager` context keys.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

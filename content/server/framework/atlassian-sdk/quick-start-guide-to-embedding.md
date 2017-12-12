@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 851992
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=851992
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=851992
-date: '2017-12-11'
+date: '2017-12-08'
 guides: tutorials
 legacy_title: Quick Start Guide to Embedding
 platform: server
@@ -137,75 +137,6 @@ public class HiMomRunnable implements Runnable
 ```
 
 To deploy this plugin, we can drop it into the "plugins" directory we configured in step 2 and the plugin framework should find it within 2 seconds and install the plugin automatically.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5669184
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5669184
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5669184
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Upgrading your plugin and handling data model updates
 platform: server
@@ -160,77 +160,6 @@ See <a href="https://ecosystem.atlassian.net/browse/AO-273" class="external-link
 ## Best practices
 
 See [Best practices for developing with Active Objects](/server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

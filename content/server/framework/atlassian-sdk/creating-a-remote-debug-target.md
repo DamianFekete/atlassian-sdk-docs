@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818651
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818651
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818651
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Creating a Remote Debug Target
 platform: server
@@ -56,46 +56,6 @@ You can now attempt to use your plugin in the Atlassian application to generate 
 5.  Click **Apply** to save your configuration, or just **Debug** to save your configuration and start debugging.
 
 You can now start the Atlassian application in debug mode and connect to it from Eclipse.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

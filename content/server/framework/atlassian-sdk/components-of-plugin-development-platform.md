@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818473
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818473
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818473
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Components of Plugin Development Platform
 platform: server
 product: atlassian-sdk
@@ -32,6 +32,77 @@ These are the major components in the Atlassian Plugin Development Platform:
 -   **Active Objects.** For plugin data storage. An ORM layer that enables easier, faster and more scalable data access and storage than our old Bandana and PluginSettings APIs. [More...](/server/framework/atlassian-sdk/active-objects)
 -   **Speakeasy.** A new, experimental extension mechanism for Atlassian's products. Useful for easy plugin prototyping. [More...](/server/framework/atlassian-sdk/speakeasy)
 -   **JIRA Issue Collector.** Library for collecting user feedback from any page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

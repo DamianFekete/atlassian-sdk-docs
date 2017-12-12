@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 8945760
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=8945760
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=8945760
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: Automatic Plugin Reinstallation with FastDev
 platform: server
@@ -207,46 +207,6 @@ If you need to use a different FastDev release than the one bundled with the Atl
 -   The dynamic deployment method via FastDev or CLI will work *most* of the time, but not all plugins are eligible for dynamic installation. Specifically, some versions of some applications mark some module types as requiring a restart. If a plugin uses one of the module types that require a restart, the plugin will be installed but not activated until the application is restarted. And occasionally the host application fails to detect new changes. If you suspect this may be happening, just hit `ctrl-c` in the first window and type `atlas-run` again to completely restart the host app with your latest changes included. See the list of [plugin modules that cannot be dynamically reloaded](/server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi).
 -   [If you change pom.xml, you may need to restart the atlas-cli](/server/framework/atlassian-sdk/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli).
 -   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

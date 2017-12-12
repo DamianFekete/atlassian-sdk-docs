@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852093
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852093
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852093
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _Content for Minification
 platform: server
 product: atlassian-sdk
@@ -74,24 +74,6 @@ You can turn off minification support in your development environments, so that 
 ```
 
 Minification is automatically disabled in Atlassian developer mode.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818372
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818372
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818372
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: About Plugins and Plugin Modules
 platform: server
 product: atlassian-sdk
@@ -68,6 +68,76 @@ For details of the plugin module types available, refer to the developer documen
 -   [FishEye/Crucible](https://developer.atlassian.com/display/FECRUDEV/Plugin+Module+Types)
 
 See also information about the [common module types](/server/framework/atlassian-sdk/plugin-modules) available for plugins for any application. For more information about the plugin descriptor, see [Configuring the Plugin Descriptor](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

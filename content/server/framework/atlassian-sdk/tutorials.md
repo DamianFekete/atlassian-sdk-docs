@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818708
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818708
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818708
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Tutorials
 platform: server
 product: atlassian-sdk
@@ -157,6 +157,10 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
     [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
 
+-   Page:
+
+    [Writing a Blueprint - Intermediate](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Intermediate)
+
 #### Advanced
 
 -   Page:
@@ -178,6 +182,10 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 -   Page:
 
     [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
+
+-   Page:
+
+    [Writing a Blueprint - Advanced](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Advanced)
 
 ## FishEye/Crucible Tutorials
 
@@ -358,6 +366,205 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

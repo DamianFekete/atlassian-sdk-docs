@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 6848534
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=6848534
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=6848534
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Atlascamp 2011 - Confluence 4 and Beyond
 platform: server
 product: atlassian-sdk
@@ -37,40 +37,6 @@ title: Atlascamp 2011 - Confluence 4 and Beyond
 -   <a href="http://groups.google.com/group/json-rpc" class="external-link">The JSON-RPC standard</a> from the JSON-RPC mailing-list
 -   <a href="https://plugins.atlassian.com/plugin/details/40277" class="external-link">The Confluence JSON-RPC Plugin</a> from plugins.atlassian.com
 -   <a href="https://bitbucket.org/cmiller_atlassian/atlascamp-pagehistory-demo" class="external-link">The Page History Demo Plugin</a> at Bitbucket
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

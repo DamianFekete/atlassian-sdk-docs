@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 852111
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852111
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852111
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: Plugin Development Platform 2.8 Release Notes
 platform: server
 product: atlassian-sdk
@@ -78,6 +78,24 @@ Highlights of the REST plugin module 2.2:
 -   Faster startup time
 
 See the [REST Plugin 2.2 Release Notes](/server/framework/atlassian-sdk/rest-plugin-2-2-release-notes).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

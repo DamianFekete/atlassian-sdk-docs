@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5668913
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5668913
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5668913
-date: '2017-12-11'
+date: '2017-12-08'
 legacy_title: _InclusionsLibrary
 platform: server
 product: atlassian-sdk
@@ -99,7 +99,7 @@ If you want to change any of these pages, be aware that:
 -   [\_Confluence Plugin Tutorials](/server/framework/atlassian-sdk/confluence-plugin-tutorials)
 -   [\_Cross-Product Plugin Tutorials](/server/framework/atlassian-sdk/cross-product-plugin-tutorials)
 -   [\_Development Hubs](/server/framework/atlassian-sdk/development-hubs)
--   [\_FastDevWorkFlow](/server/framework/atlassian-sdk/fastdevworkflow)
+-   [\_FastDevWorkFlow](/server/framework/atlassian-sdk/Loading...)
 -   [\_FECRU Plugin Tutorials](/server/framework/atlassian-sdk/fecru-plugin-tutorials)
 -   [\_Getting Help on Plugin SDK](/server/framework/atlassian-sdk/getting-help-on-plugin-sdk)
 -   [\_Images for Release Notes](/server/framework/atlassian-sdk/images-for-release-notes)
@@ -135,6 +135,95 @@ If you want to change any of these pages, be aware that:
 -   [REST\_QuickStart\_References](/server/framework/atlassian-sdk/rest-quickstart-references)
 -   [\_Module definition example](/server/framework/atlassian-sdk/module-definition-example)
 -   [\_Copyright Notice](/server/framework/atlassian-sdk/copyright-notice)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 2818359
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=2818359
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=2818359
-date: '2017-12-11'
+date: '2017-12-08'
 guides: guides
 legacy_title: atlas-create-home-zip
 platform: server
@@ -66,46 +66,6 @@ to the `<configuration/>` of the `maven-jira-plugin` or `maven-confluence-plugi
 ```
 
 Now every time you start JIRA or Confluence using `atlas-run` or `atlas-debug`, the home directory will be prepopulated using the contents of the generated zip file.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
