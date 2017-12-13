@@ -11,7 +11,7 @@ legacy_title: Complex Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 'Complex plugin '
+title: Complex plugin
 ---
 # Complex plugin
 

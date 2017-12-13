@@ -11,7 +11,7 @@ legacy_title: Dynamic Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 'Dynamic plugin '
+title: Dynamic plugin
 ---
 # Dynamic plugin
 

@@ -11,7 +11,7 @@ legacy_title: Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 'Plugin '
+title: Plugin
 ---
 # Plugin
 
