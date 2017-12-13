@@ -38,7 +38,7 @@ We'll walk through the feature, starting with the simplest possible example.
 
 ### Adding a simple activity to the feed
 
-Let's assume the application is running at <a href="http://localhost:3990/jira" class="uri external-link">http://localhost:3990/jira</a>. To add an activity to the feed, POST a JSON document to <a href="http://localhost:3990/jira/rest/activities/1.0/" class="uri external-link">http://localhost:3990/jira/rest/activities/1.0/</a>. You need to authenticate (e.g. with basic auth), and the content-type header should be set to `application/vnd.atl.streams.thirdparty+json`. The document must adhere to the <a href="http://activitystrea.ms/specs/json/1.0/" class="external-link">activitystrea.ms JSON</a> specification. There are two deviations from the specification:
+Let's assume the application is running at <a href="http://localhost:3990/jira" class="uri external-link">localhost:3990/jira</a>. To add an activity to the feed, POST a JSON document to <a href="http://localhost:3990/jira/rest/activities/1.0/" class="uri external-link">localhost:3990/jira/rest/activities/1.0/</a>. You need to authenticate (e.g. with basic auth), and the content-type header should be set to `application/vnd.atl.streams.thirdparty+json`. The document must adhere to the <a href="http://activitystrea.ms/specs/json/1.0/" class="external-link">activitystrea.ms JSON</a> specification. There are two deviations from the specification:
 
 1.  The "generator" element is mandatory, and must have a displayName and id (those are all optional in the spec); the reason for this is explained below.
 2.  The "published" property is optional, and defaults to the current date/time if omitted (it is mandatory in the spec).

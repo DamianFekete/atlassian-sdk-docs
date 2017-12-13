@@ -15,8 +15,6 @@ title: Web Item plugin module
 ---
 # Web Item plugin module
 
- 
-
 ## Purpose of this Module Type
 
 Web Item plugin modules allow plugins to define new links in application menus.
@@ -29,8 +27,8 @@ The root element for the Web Item plugin module is `web-item`. It allows the fol
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,7 +55,9 @@ The root element for the Web Item plugin module is `web-item`. It allows the fol
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
 <p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
 </tr>
@@ -100,8 +100,8 @@ The tables summarises the elements. The sections below contain further informati
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -177,8 +177,6 @@ The tables summarises the elements. The sections below contain further informati
 
 **\*label and link elements are required.**
 
- 
-
 #### Label Elements
 
 Label elements may contain optional parameters, as shown below:
@@ -193,13 +191,9 @@ Label elements may contain optional parameters, as shown below:
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
 
- 
-
 #### Tooltip Elements
 
 Tooltip elements have the same attributes and parameters as the label elements. See [above](#label-elements).
-
- 
 
 #### Link Elements
 
@@ -217,9 +211,7 @@ The body of the link element is its URL. The URL is rendered with Velocity, so y
 ``` xml
 <link linkId="view-attachments-link">/pages/viewpageattachments.action?pageId=$page.id</link>
 ```
-
  
-
 #### Icon Elements
 
 Icon elements have a `height` and a `width` attribute. The location of the icon is specified within a [link](#link-elements) element:
@@ -229,8 +221,6 @@ Icon elements have a `height` and a `width` attribute. The location of the icon 
     <link>/images/icons/print.gif</link>
 </icon>
 ```
-
- 
 
 #### Param Elements
 
@@ -253,8 +243,6 @@ If the `value` attribute is not specified, the value will be set to the body of 
 <param name="isPopupLink" value="true" />
 <param name="isPopupLink">true</param>
 ```
-
- 
 
 #### Context-provider Element
 
@@ -316,8 +304,6 @@ The newly added context entries `historyWindowHeight` and `filtersWindowHeight` 
 <!-- set the link's label to print the value of filtersWindowHeight -->
 <label>filter window height is: $filtersWindowHeight</label>
 ```
-
- 
 
 #### Condition and Conditions Elements
 
@@ -382,7 +368,7 @@ Here is an example `atlassian-plugin.xml` file containing a single web item:
 
 Here is an example `atlassian-plugin.xml` file containing how to add your link to the application header.
 
-![](/server/framework/atlassian-sdk/images/screen-shot-2013-06-11-at-2.57.27-pm.png)
+![Application header bar](/server/framework/atlassian-sdk/images/screen-shot-2013-06-11-at-2.57.27-pm.png)
 
 ``` xml
 <atlassian-plugin name="Hello World Plugin" key="example.plugin.helloworld" plugins-version="2">
@@ -400,197 +386,6 @@ Here is an example `atlassian-plugin.xml` file containing how to add your link 
 </atlassian-plugin>
 ```
 
- 
-
- 
-
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

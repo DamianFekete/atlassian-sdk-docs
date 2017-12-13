@@ -38,7 +38,7 @@ We encourage you to work through this tutorial. If you want to skip ahead or che
 git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/testtutorial.git
 ```
 
-Alternatively, you can download the latest source here: <a href="https://bitbucket.org/atlassian_tutorial/testtutorial/downloads" class="uri external-link">https://bitbucket.org/atlassian_tutorial/testtutorial/downloads</a>.
+Alternatively, you can download the latest source here: <a href="https://bitbucket.org/atlassian_tutorial/testtutorial/downloads" class="uri external-link">bitbucket.org/atlassian_tutorial/testtutorial/downloads</a>.
 
 
 

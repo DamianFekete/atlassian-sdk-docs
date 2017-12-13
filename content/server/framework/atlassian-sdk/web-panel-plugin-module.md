@@ -17,8 +17,8 @@ title: Web Panel plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -40,8 +40,8 @@ The root element for the Web Panel plugin module is `web-panel`. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,9 +72,9 @@ The root element for the Web Panel plugin module is `web-panel`. It allows the f
 <tr class="even">
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
 </tr>
 <tr class="odd">
@@ -114,8 +114,8 @@ The tables summarises the elements. The sections below contain further informati
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -173,8 +173,6 @@ The tables summarises the elements. The sections below contain further informati
 
 **\*label element is required.**
 
- 
-
 #### Condition and Conditions Elements
 
 Conditions can be added to the [web section](https://developer.atlassian.com/display/DOCS/Web+Section+Plugin+Module), [web item](https://developer.atlassian.com/display/DOCS/Web+Item+Plugin+Module) and [web panel](https://developer.atlassian.com/display/DOCS/Web+Panel+Plugin+Module) modules, to display them only when **all** the given conditions are true.
@@ -192,7 +190,7 @@ Condition elements can take optional parameters. These parameters will be passed
 </condition>
 ```
 
-NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plugin.web.conditions.JiraGlobalPermissionCondition`
+**NOTE**: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plugin.web.conditions.JiraGlobalPermissionCondition`
 
 To invert a condition, add the attribute 'invert="true"' to the condition element. This is useful where you want to show the section if a certain condition is *not* satisfied.  
 Conditions elements are composed of a collection of condition/conditions elements and a type attribute. The type attribute defines what logical operator is used to evaluate its collection of condition elements. The type can be one of **AND** or **OR**.
@@ -319,8 +317,8 @@ A resource element's `type` attribute identifies the format of the panel's conte
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -389,189 +387,3 @@ Each host application declares its own set of locations where the web panel can 
 
 [Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

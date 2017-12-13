@@ -17,8 +17,8 @@ title: Web Panel Renderer plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -28,13 +28,9 @@ title: Web Panel Renderer plugin module
 </tbody>
 </table>
 
- 
-
- 
-
 ## Purpose of this Module Type
 
-The Web Panel Renderer plugin module allows plugins to define custom renderer engines for [web panels](https://developer.atlassian.com/display/DOCS/Web+Panel+Plugin+Module). (Web panels are bits of HTML that will be inserted into a page.)
+The Web Panel Renderer plugin module allows plugins to define custom renderer engines for [web panels](https://developer.atlassian.com/display/DOCS/Web+Panel+Plugin+Module) (web panels are bits of HTML that will be inserted into a page.)
 
 ## Configuration
 
@@ -44,8 +40,8 @@ The root element for the Web Panel Renderer plugin module is `web-panel-renderer
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,9 +69,9 @@ The root element for the Web Panel Renderer plugin module is `web-panel-renderer
 <tr class="even">
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
 </tr>
 <tr class="odd">
@@ -111,11 +107,11 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
 
     ``` xml
     ...
-            <dependency>
-                <groupId>freemarker</groupId>
-                <artifactId>freemarker</artifactId>
-                <version>2.3.9</version>
-            </dependency>
+        <dependency>
+            <groupId>freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.9</version>
+        </dependency>
     ...
     ```
 
@@ -172,9 +168,7 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
             throw new AssertionError("Not yet implemented.");
         }
     }
-    ```
-
-      
+    ```     
       
     Note how the `WebPanelRenderer` interface declares two render methods: one that takes the name of a template file and one that takes the whole template as a String. In this example we have only implemented the former method. The latter is left as an exercise for you. The consequence of this is that we will not be able to embed our FreeMarker content in `atlassian-plugin.xml`.
 
@@ -220,8 +214,8 @@ As an example we will create a plugin for the <a href="https://studio.atlassian.
     </div>
     ```
 
-7.  Start up the Reference Application using the command: `$ atlas-mvn refapp:run`)
-8.  Go to: <a href="http://localhost:5990/refapp/admin" class="uri external-link">http://localhost:5990/refapp/admin</a>
+7.  Start up the Reference Application using the command: `$ atlas-mvn refapp:run`
+8.  Go to: <a href="http://localhost:5990/refapp/admin" class="uri external-link">localhost:5990/refapp/admin</a>
 
 ## Known Limitations
 
@@ -240,194 +234,7 @@ To access the full source code for this plugin, you can:
 -   <a href="http://svn.atlassian.com/fisheye/browse/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">browse it online</a>.
 -   <a href="https://svn.atlassian.com/svn/public/contrib/tutorials/web-panel-renderer/trunk" class="external-link">check it out from Subversion</a>.
 
-  
-
 ##### RELATED TOPICS
 
 [Web Panel Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Plugin+Module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

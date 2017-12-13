@@ -17,8 +17,8 @@ title: Web Resource plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -46,8 +46,8 @@ The root element for the Web Resource plugin module is `web-resource`. It allows
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,9 +61,9 @@ The root element for the Web Resource plugin module is `web-resource`. It allows
 <td>The class which implements this plugin module. The class you need to provide depends on the module type. For example, Confluence theme, layout and colour-scheme modules can use classes already provided in Confluence. So you can write a theme-plugin without any Java code. But for macro and listener modules you need to write your own implementing class and include it in your plugin. See the plugin framework guide to <a href="https://developer.atlassian.com/display/DOCS/Creating+Plugin+Module+Instances">creating plugin module instances</a>.</td>
 </tr>
 <tr class="even">
-<td><p>state</p>
-<p>(<strong>default:</strong> enabled)</p></td>
-<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').</td>
+<td><p>state</p></td>
+<td>Indicate whether the plugin module should be disabled by default (value='disabled') or enabled by default (value='enabled').
+<p><strong>Default:</strong> enabled</p></td>
 </tr>
 <tr class="odd">
 <td><p>i18n-name-key</p></td>
@@ -72,25 +72,25 @@ The root element for the Web Resource plugin module is `web-resource`. It allows
 <tr class="even">
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+    key=&quot;appProps&quot; 
+    interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
 That is, the identifier of the web resource.</td>
 </tr>
 <tr class="odd">
-<td><p>name</p>
-<p>(<strong>default:</strong> the plugin key)</p></td>
-<td><p>The human-readable name of the plugin module. That is, the human-readable name of the web resource.</p></td>
+<td><p>name</p></td>
+<td><p>The human-readable name of the plugin module. That is, the human-readable name of the web resource.</p>
+<p><strong>Default:</strong> the plugin key</p></td>
 </tr>
 <tr class="even">
 <td><p>location</p></td>
 <td><p>The <a href="https://developer.atlassian.com/display/JIRADEV/Web+Fragments#WebFragments-Locations">location</a> into which this web item should be placed.</p></td>
 </tr>
 <tr class="odd">
-<td><p>system</p>
-<p>(<strong>default:</strong> false)</p></td>
-<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</td>
+<td><p>system</p></td>
+<td>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.
+<p><strong>Default:</strong> false</p></td>
 </tr>
 </tbody>
 </table>
@@ -101,8 +101,8 @@ That is, the identifier of the web resource.</td>
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -133,11 +133,9 @@ Note: This element is only available in <a href="https://developer.atlassian.com
 <tr class="odd">
 <td><p>transformation</p></td>
 <td><p>Use this element to make a particular transformer available to the web resource in the plugin. Example:</p>
-<p> </p>
 <pre><code>&lt;transformation extension=&quot;txt&quot;&gt;
   &lt;transformer key=&quot;template&quot; /&gt;
 &lt;/transformation&gt;</code></pre>
-<p> </p>
 <p>For a complete description, please refer to the page on <a href="https://developer.atlassian.com/display/DOCS/Web+Resource+Transformer+Plugin+Module">Web Resource Transformer Plugin Modules</a>.<br />
 Note: This element is only available in <a href="https://developer.atlassian.com/pages/viewpage.action?pageId=852001">Plugin Framework 2.5</a> and later.</p></td>
 </tr>
@@ -201,8 +199,8 @@ In [version 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=85
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -320,187 +318,3 @@ Use this element to make a particular transformer available to the web resource 
 
 [Web Resource Transformer Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

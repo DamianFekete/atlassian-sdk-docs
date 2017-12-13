@@ -50,7 +50,7 @@ Note that currently, data providers can only retrieve the global context, such a
 
 ### Sample code
 
-A demonstration plugin using data providers is available at <a href="https://bitbucket.org/atlassian/page-data-demo" class="uri external-link">https://bitbucket.org/atlassian/page-data-demo</a>. Code samples on this page are taken from that repository.
+A demonstration plugin using data providers is available at <a href="https://bitbucket.org/atlassian/page-data-demo" class="uri external-link">bitbucket.org/atlassian/page-data-demo</a>. Code samples on this page are taken from that repository.
 
 ## Using data providers
 

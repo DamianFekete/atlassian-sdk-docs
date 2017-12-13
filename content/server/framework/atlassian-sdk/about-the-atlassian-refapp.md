@@ -46,7 +46,7 @@ The default login credentials for a system administrator account in the RefApp a
 
 ## Finding your Plugin in the RefApp
 
-Once you have created your plugin and started the RefApp, you can verify that your plugin was installed by going to <a href="http://localhost:5990/refapp/index.jsp" class="uri external-link">http://localhost:5990/refapp/index.jsp</a>. Your plugin should appear in the list of plugins.
+Once you have created your plugin and started the RefApp, you can verify that your plugin was installed by going to <a href="http://localhost:5990/refapp/index.jsp" class="uri external-link">localhost:5990/refapp/index.jsp</a>. Your plugin should appear in the list of plugins.
 
 In addition to all installed plugins, the page shows bundle usage by the RefApp.
 

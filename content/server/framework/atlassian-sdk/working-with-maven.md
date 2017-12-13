@@ -40,8 +40,6 @@ The simplest way is to use the [`atlas-mvn`](https://developer.atlassian.com/dis
 
 For example:
 
- 
-
 ``` bash
 atlas-mvn clean
 ```
@@ -91,7 +89,7 @@ export MAVEN_COLOR=true
 ```
 
 Your Maven output will look something like this:  
-![](/server/framework/atlassian-sdk/images/mavencolourisedoutput.png)
+![mavencolourisedoutput.png](/server/framework/atlassian-sdk/images/mavencolourisedoutput.png)
 
 ## Using the AMPS Maven Plugin Directly
 
@@ -107,7 +105,7 @@ AMPS provides a set of plugins for Maven 2. AMPS combines multiple plugins, conv
   
 *Diagram: AMPS architecture:*
 
-![](/server/framework/atlassian-sdk/images/ampsarchitecture.png)
+![ampsarchitecture.png](/server/framework/atlassian-sdk/images/ampsarchitecture.png)
 
 The application-specific configuration is as follows:
 
@@ -338,12 +336,12 @@ From there, you can enter Maven commands as usual. For a list of available comma
 
 ### Specifying a Version of AMPS
 
-The short form of the `mvn APPLICATION:run` or `mvn APPLICATION:create` command will use the latest version of the AMPS plugins. If you want to get a specific version of an AMPS command, use the longer form of the command. For example:   
-`mvn com.atlassian.maven.plugins:maven-confluence-plugin:3.2.4:create`
+The short form of the `mvn APPLICATION:run` or `mvn APPLICATION:create` command will use the latest version of the AMPS plugins. If you want to get a specific version of an AMPS command, use the longer form of the command. For example:
 
-##### RELATED TOPICS
+``` bash 
+mvn com.atlassian.maven.plugins:maven-confluence-plugin:3.2.4:create
+```
 
-[AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference)
 
 ## Atlassian Maven Repositories
 
@@ -355,7 +353,7 @@ The Plugin SDK handles almost all of this Maven tweaking for you. The SDK includ
 
 The Atlassian Maven proxy sits in front of all of our other Maven repositories, as well as third-party repositories like iBiblio and Codehaus. This should provide all artifacts needed to build our products and plugins. In the basic case, this is the only repository you need to know about.
 
--   <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">https://packages.atlassian.com/maven/repository/public</a>
+-   <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">packages.atlassian.com/maven/repository/public</a>
 
 ``` xml
 <repository>
@@ -377,18 +375,18 @@ The Atlassian Maven proxy sits in front of all of our other Maven repositories, 
 
 The third-party directory contains jars that we are allowed to re-distribute or re-host but we do not own.
 
--   <a href="https://packages.atlassian.com/maven/3rdparty" class="uri external-link">https://packages.atlassian.com/maven/3rdparty</a>
+-   <a href="https://packages.atlassian.com/maven/3rdparty" class="uri external-link">packages.atlassian.com/maven/3rdparty</a>
 
-It is contained in <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">https://packages.atlassian.com/maven/repository/public</a>.
+It is contained in <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">packages.atlassian.com/maven/repository/public</a>.
 
 ### Atlassian Public Repository
 
 The Atlassian public repository contains all artifacts owned by Atlassian necessary to build a plugin for our products. It contains binaries, source and javadoc of our opensource components, and binaries and javadoc for our closed-source components.
 
--   <a href="https://packages.atlassian.com/maven/public" class="uri external-link">https://packages.atlassian.com/maven/public</a>
--   <a href="https://packages.atlassian.com/maven/public-snapshot" class="uri external-link">https://packages.atlassian.com/maven/public-snapshot</a>
+-   <a href="https://packages.atlassian.com/maven/public" class="uri external-link">packages.atlassian.com/maven/public</a>
+-   <a href="https://packages.atlassian.com/maven/public-snapshot" class="uri external-link">packages.atlassian.com/maven/public-snapshot</a>
 
-It is contained in <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">https://packages.atlassian.com/maven/repository/public</a>
+It is contained in <a href="https://packages.atlassian.com/maven/repository/public" class="uri external-link">packages.atlassian.com/maven/repository/public</a>
 
 {{% warning %}}
 
@@ -404,353 +402,6 @@ In previous versions of the SDK (and as previously described on this page), you 
 
 Now you can simply follow the steps on [Changing the Default Maven Version](/server/framework/atlassian-sdk/changing-the-default-maven-version) to use Maven 3 with the SDK.
 
+##### RELATED TOPICS
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[AMPS Build Configuration Reference](/server/framework/atlassian-sdk/amps-build-configuration-reference)

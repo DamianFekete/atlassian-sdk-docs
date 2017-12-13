@@ -32,7 +32,7 @@ In the above diagrams:
 
 ##### RELATED TOPICS
 
-<a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Troubleshooting+a+LinkageError" class="createlink">Troubleshooting a LinkageError</a>
+<a href="/server/framework/atlassian-sdk/linkageerror/" class="createlink">Troubleshooting a LinkageError</a>
 
 
 
