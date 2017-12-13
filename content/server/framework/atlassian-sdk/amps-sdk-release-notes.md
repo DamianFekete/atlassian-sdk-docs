@@ -17,7 +17,7 @@ title: AMPS SDK release notes
 
 {{% note %}}
 
-**Last updated 04 Dec 2015**
+**Last updated 22nd Nov 2017**
 
 By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](Atlassian-Developer-Terms_37879876.html)</span>
 
