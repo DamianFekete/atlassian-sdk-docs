@@ -1,58 +1,13 @@
 {
-  "index": {
-    "services": {
-      "headings": [
-        {
-          "title": "Atlassian SDK",
-          "name": "atlassian-sdk",
-          "items": [
-            {
-              "title": "Getting Started with Atlassian SDK",
-              "url": "/server/framework/atlassian-sdk/"
-            }
-          ]
-        }
-      ]
-    },
-    "products": {
-      "headings": [
-        {
-          "title": "Atlassian SDK",
-          "name": "atlassian-sdk",
-          "items": [
-            {
-              "title": "Sample Product",
-              "url": "/server/framework/atlassian-sdk/products/sample/"
-            }
-          ]
-        }
-      ]
-    },
-    "apis": {
-      "headings": [
-        {
-          "title": "Atlassian SDK",
-          "name": "atlassian-sdk",
-          "items": [
-            {
-              "title": "Sample API page",
-              "url": "/server/framework/atlassian-sdk/apis/sample/"
-            }
-          ]
-        }
-      ]
-    }
-  },
   "navigation": {
-    "title": "Atlassian SDK",
     "name": "atlassian-sdk",
     "categories": [
       {
+        "indexLinkTitle": "Latest updates",
+        "name": "devguide",
         "subcategories": [
           {
             "name": "intro",
-            "title": "Introduction and basics",
-            "expandAlways": true,
             "items": [
               {
                 "title": "Adding resources to your project",
@@ -90,23 +45,23 @@
                 "title": "atlassian-plugin.xml element reference",
                 "url": "/server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference"
               }
-            ]
+            ],
+            "title": "Introduction and basics",
+            "expandAlways": true
           },
           {
             "name": "security",
-            "title": "Security",
-            "expandAlways": false,
             "items": [
               {
                 "title": "REST and os_authType",
                 "url": "/server/framework/atlassian-sdk/rest-and-os-authtype"
               }
-            ]
+            ],
+            "title": "Security",
+            "expandAlways": false
           },
           {
             "name": "guides",
-            "title": "Learning",
-            "expandAlways": false,
             "items": [
               {
                 "id": "tutorialsAndGuides",
@@ -114,7 +69,6 @@
                 "url": "/server/framework/atlassian-sdk/tutorials_and_guides"
               },
               {
-                "isGroup": true,
                 "groupItems": [
                   {
                     "title": "About SAL development",
@@ -133,24 +87,25 @@
                     "url": "/server/framework/atlassian-sdk/sal-services"
                   }
                 ],
+                "isGroup": true,
                 "title": "Shared Access Layer",
                 "url": "/server/framework/atlassian-sdk/shared-access-layer"
               }
-            ]
+            ],
+            "title": "Learning",
+            "expandAlways": false
           },
           {
             "name": "updates",
-            "title": "Updates",
-            "expandAlways": false,
             "items": [
               {
-                "isGroup": true,
                 "groupItems": [
                   {
                     "title": "AMPS 6.3.11",
                     "url": "/server/framework/atlassian-sdk/amps-6-3-11"
                   }
                 ],
+                "isGroup": true,
                 "title": "AMPS SDK release notes",
                 "url": "/server/framework/atlassian-sdk/amps-sdk-release-notes"
               },
@@ -163,7 +118,10 @@
                 "url": "/server/framework/atlassian-sdk/plugin-framework-version-matrix"
               },
               {
-                "isGroup": true,
+                "title": "REST API plugin version matrix",
+                "url": "/server/framework/atlassian-sdk/rest-api-plugin-version-matrix"
+              },
+              {
                 "groupItems": [
                   {
                     "title": "REST plugin 2.1 release notes",
@@ -178,22 +136,18 @@
                     "url": "/server/framework/atlassian-sdk/rest-plugin-2-3-release-notes"
                   }
                 ],
-                "title": "REST API plugin version matrix",
-                "url": "/server/framework/atlassian-sdk/rest-api-plugin-version-matrix"
-              },
-              {
+                "isGroup": true,
                 "title": "REST plugin release notes",
                 "url": "/server/framework/atlassian-sdk/rest-plugin-release-notes"
               }
-            ]
+            ],
+            "title": "Updates",
+            "expandAlways": false
           },
           {
             "name": "faq",
-            "title": "FAQ and troubleshooting",
-            "expandAlways": false,
             "items": [
               {
-                "isGroup": true,
                 "groupItems": [
                   {
                     "title": "Advanced plugin development FAQ",
@@ -220,15 +174,16 @@
                     "url": "/server/framework/atlassian-sdk/writing-your-first-plugin-faq"
                   }
                 ],
+                "isGroup": true,
                 "title": "FAQ",
                 "url": "/server/framework/atlassian-sdk/faq"
               }
-            ]
+            ],
+            "title": "FAQ and troubleshooting",
+            "expandAlways": false
           },
           {
             "name": "other",
-            "title": "Other considerations",
-            "expandAlways": false,
             "items": [
               {
                 "title": "Atlassian Marketplace",
@@ -258,20 +213,19 @@
                 "title": "Plugin Framework glossary",
                 "url": "/server/framework/atlassian-sdk/plugin-framework-glossary"
               }
-            ]
+            ],
+            "title": "Other considerations",
+            "expandAlways": false
           }
         ],
         "title": "Guides",
-        "name": "devguide",
-        "url": "/server/framework/atlassian-sdk/",
-        "indexLinkTitle": "Latest updates"
+        "url": "/server/framework/atlassian-sdk/"
       },
       {
+        "name": "reference",
         "subcategories": [
           {
             "name": "modules",
-            "title": "Modules",
-            "expandAlways": true,
             "items": [
               {
                 "title": "Plugin modules",
@@ -349,20 +303,66 @@
                 "title": "Web Section plugin module",
                 "url": "/server/framework/atlassian-sdk/web-section-plugin-module"
               }
-            ]
+            ],
+            "title": "Modules",
+            "expandAlways": true
           }
         ],
         "title": "Reference",
-        "url": "/server/framework/atlassian-sdk/plugin-modules",
-        "name": "reference"
+        "url": "/server/framework/atlassian-sdk/plugin-modules"
       },
       {
+        "name": "help",
         "subcategories": [],
         "title": "Get help",
-        "url": "/server/framework/atlassian-sdk/get-help",
-        "name": "help"
+        "url": "/server/framework/atlassian-sdk/get-help"
       }
     ],
+    "title": "Atlassian SDK",
     "url": "/server/framework/atlassian-sdk/"
+  },
+  "index": {
+    "products": {
+      "headings": [
+        {
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Sample Product",
+              "url": "/server/framework/atlassian-sdk/products/sample/"
+            }
+          ],
+          "title": "Atlassian SDK"
+        }
+      ]
+    },
+    "apis": {
+      "headings": [
+        {
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Sample API page",
+              "url": "/server/framework/atlassian-sdk/apis/sample/"
+            }
+          ],
+          "title": "Atlassian SDK"
+        }
+      ]
+    },
+    "services": {
+      "headings": [
+        {
+          "name": "atlassian-sdk",
+          "items": [
+            {
+              "title": "Getting Started with Atlassian SDK",
+              "url": "/server/framework/atlassian-sdk/"
+            }
+          ],
+          "title": "Atlassian SDK"
+        }
+      ]
+    }
   }
 }
