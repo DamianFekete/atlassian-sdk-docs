@@ -129,7 +129,7 @@ Stylesheets for your plugin may often refer to images also in your plugin. In wh
 <resource type="download" name="my-style.css" location="com/example/plugin/my-style.css"/>
 ```
 
-Note: If you have multiple stylesheets and javascript resources defined, you should put the resource defintions in a [Web Resource Module.](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module)
+Note: If you have multiple stylesheets and javascript resources defined, you should put the resource defintions in a [Web Resource Module](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).
 
 To refer to your plugin images in a stylesheet, use a relative path based on the resource name defined for the image (which is 'my-images' in this case).
 

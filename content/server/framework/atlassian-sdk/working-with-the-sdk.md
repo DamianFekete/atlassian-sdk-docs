@@ -34,15 +34,20 @@ And more! And we're continually improving the SDK with new and better features.
 
 ## Looking at the SDK Command Format
 
-The SDK commands are wrappers for the underlying Maven commands. The SDK Maven plugin defines custom Maven goals for performing common plugin development tasks. If you want to run the integration tests - and only the integration tests - you can say:  
+The SDK commands are wrappers for the underlying Maven commands. The SDK Maven plugin defines custom Maven goals for performing common plugin development tasks. If you want to run the integration tests - and only the integration tests - you can say:
+
 `atlas-integration-test`
 
-Similarly, you can run the unit tests in isolation:  
+Similarly, you can run the unit tests in isolation:
+
 `atlas-unit-test`
 
 You can also install your plugin from the command line, instead of having to browse to the correct page and make several clicks:  
-`atlas-install-plugin`  
-Or:  
+
+`atlas-install-plugin`
+
+Or:
+
 `atlas-cli` then `pi`
 
 You can pass parameters on the command line in the form:
@@ -51,11 +56,17 @@ You can pass parameters on the command line in the form:
 
 To pass Java parameters in a command, use the `jvmargs` parameter, in the following form: 
 
-`atlas-run-standalone --product confluence --jvmargs '-D<parameter1>=<value> -D<parameter2>=<value>`' 
+``` bash
+atlas-run-standalone --product confluence --jvmargs '-D<parameter1>=<value> -D<parameter2>=<value>'
+```
 
 ## Running Behind a Corporate Firewall
 
-If you're working behind a proxy server requiring NTLM authentication, you may find it convenient to use a local authenticating proxy server, such as `cntlm`. You can then set Java HTTP environment variables in your SDK commands to point to the proxy. For example, by using: `-Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=3128 -Dhttp.nonProxyHosts=localhost|127.0.0.*`).
+If you're working behind a proxy server requiring NTLM authentication, you may find it convenient to use a local authenticating proxy server, such as `cntlm`. You can then set Java HTTP environment variables in your SDK commands to point to the proxy. For example, by using:
+
+``` bash
+-Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttps.proxyHost=localhost -Dhttps.proxyPort=3128 -Dhttp.nonProxyHosts=localhost|127.0.0.*
+```
 
 To run the SDK commands where your Java programs don't have direct access to the Internet, your atlas commands should be run with the `-DallowGoogleTracking=false` flag. This disables Google web requests during the build process.
 
@@ -125,7 +136,7 @@ The table below shows the applications currently supported by the Atlassian Plug
 </tbody>
 </table>
 
-***Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).*
+**Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).
 
 The SDK supports both [static](/server/framework/atlassian-sdk/static-plugin) and [dynamic](/server/framework/atlassian-sdk/dynamic-plugin) plugins. The focus is on [version 2 plugins](/server/framework/atlassian-sdk/version-1-or-version-2-plugin), as supported by the Atlassian Plugin Framework.
 

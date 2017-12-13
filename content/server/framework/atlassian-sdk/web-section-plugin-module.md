@@ -15,8 +15,6 @@ title: Web Section plugin module
 ---
 # Web Section plugin module
 
- 
-
 ## Purpose of this Module Type
 
 Web Section plugin modules allow plugins to define new sections in application menus. Each section can contain one or more links. To insert the links themselves, see the [Web Item Plugin Module](https://developer.atlassian.com/display/DOCS/Web+Item+Plugin+Module).
@@ -29,8 +27,8 @@ The root element for the Web Section plugin module is `web-section` It allows th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,9 +53,9 @@ The root element for the Web Section plugin module is `web-section` It allows th
 <tr class="even">
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
 </tr>
 <tr class="odd">
@@ -69,8 +67,7 @@ The root element for the Web Section plugin module is `web-section` It allows th
 <td><p>The <a href="https://developer.atlassian.com/display/JIRADEV/Web+Fragments#WebFragments-Locations">location</a> into which this web item should be placed.</p></td>
 </tr>
 <tr class="odd">
-<td><p>system</p>
-<p> </p></td>
+<td><p>system</p></td>
 <td><p>Indicates whether this plugin module is a system plugin module (value='true') or not (value='false'). Only available for non-OSGi plugins.</p>
 <p><strong>Default:</strong> false.</p></td>
 </tr>
@@ -90,8 +87,8 @@ The table summarises the elements. The sections below contain further informatio
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -301,185 +298,3 @@ NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plug
 
 [Web Item Plugin Module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module)  
 [Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

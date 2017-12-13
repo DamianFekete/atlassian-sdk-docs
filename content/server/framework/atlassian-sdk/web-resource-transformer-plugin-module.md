@@ -17,8 +17,8 @@ title: Web Resource Transformer plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -45,8 +45,8 @@ Below is a description of the attributes and child elements for each of the abov
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +72,10 @@ Below is a description of the attributes and child elements for each of the abov
 <td><p>key</p></td>
 <td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
 <p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
+<pre>
+<code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
 <p>The value of this attribute must match the <code>key</code> attribute of the <code>transformer</code> element in the <code>web-resource</code>.</p></td>
@@ -122,10 +125,7 @@ Below is a description of the attributes and child elements for each of the abov
 |:------------|:------------------------------------------------------------------------------------------------------|
 | Name\*      | key                                                                                                   |
 | Description | The value of this attribute must match the `key` attribute of the `web-resource-transformer` element. |
-
 **\*key attribute is required**
-
- 
 
 |             |                                                                                                             |
 |:------------|:------------------------------------------------------------------------------------------------------------|
@@ -186,186 +186,3 @@ Some information to be aware of when developing or configuring a Web Resource Tr
 
 [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)  
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

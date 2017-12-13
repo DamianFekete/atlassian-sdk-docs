@@ -82,8 +82,6 @@ Specifies the hostname of the machine on which the container should be started. 
 
 Specifies system properties that should be set in the forked Java VM that will host the container. The default values are blank. For example:
 
- 
-
 ``` xml
  <configuration>
   <systemPropertyVariables>
@@ -92,8 +90,6 @@ Specifies system properties that should be set in the forked Java VM that will h
   </systemPropertyVariables>
 </configuration>
 ```
-
- 
 
 ### enableFastdev
 
@@ -113,8 +109,6 @@ All plugins specified here must be installed in a repository your Maven installa
 
 Example:
 
- 
-
 ``` xml
 <configuration>
   <pluginArtifacts>
@@ -126,9 +120,6 @@ Example:
   </pluginArtifacts>
 </configuration>
 ```
-
- 
-
 ### libArtifacts
 
 Specifies arbitrary Java libraries that your plugin depends on to work properly. These libraries will be installed alongside the product's core libraries in `WEB-INF/lib`.
@@ -140,8 +131,6 @@ Accessing these libraries from your plugin is a product-specific process, and us
 To depend on a third-party library, add it to the `<dependencies>` in your plugin POM, which protects you from changes out of your control.
 
 Example:
-
- 
 
 ``` xml
  <configuration>
@@ -155,8 +144,6 @@ Example:
 </configuration>
 ```
 
- 
-
 ### bundledArtifacts
 
 Specifies other Atlassian plugins that your plugin depends on to work properly. These plugin artifacts will be treated as bundled by the product, meaning they can be disabled but not removed. The product will always make a bundled plugin available at startup, even if it was removed previously. By contrast, plugin artifacts can be removed after installation at any time, and they will stay gone until they are manually reinstalled.
@@ -168,8 +155,6 @@ Unless you're working with a forked version of a plugin normally bundled in the 
 To depend on another second- or third-party plugin, add it to the `<pluginArtifacts>` above.
 
 Example:
-
- 
 
 ``` xml
  <configuration>
@@ -183,8 +168,6 @@ Example:
 </configuration>
 ```
 
- 
-
 ### pluginDependencies
 
 Specifies other plugins or OSGi bundles that will be bundled into an OBR archive. OBRs can be installed via the UPM, and the UPM will automatically install any dependencies that are packaged in the OBR which are not installed yet.
@@ -192,8 +175,6 @@ Specifies other plugins or OSGi bundles that will be bundled into an OBR archive
 All dependencies specified here must be defined in the standard &lt;dependencies&gt; section of the `pom.xml`, and should be set to a &lt;scope&gt; of either 'test' or 'provided'.
 
 Example:
-
- 
 
 ``` xml
  <configuration>
@@ -205,8 +186,6 @@ Example:
   </pluginDependencies>
 </configuration>
 ```
-
- 
 
 For more information about dependencies, see [Managing Plugin Dependencies](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Managing+Plugin+Dependencies).
 
@@ -320,262 +299,3 @@ This can be useful when debugging an OSGi validation problem or forcing the plug
 <a href="https://developer.atlassian.com/display/DOCS/Create+and+Run+Traditional+Integration+Tests" class="diff-block-context">Create and Run Traditional Integration Tests</a>
 
 [Declaring JNDI Datasources in AMPS](/server/framework/atlassian-sdk/amps-build-configuration-reference)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
