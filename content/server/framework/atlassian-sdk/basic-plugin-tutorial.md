@@ -320,7 +320,7 @@ Follow these steps to build and install your plugin, so that you can test your c
     ```
 
 4.  Open your browser and navigate to the local refapp instance started by `atlas-run`.  
-    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for refapp. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports) for other applications.
+    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for refapp. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
 5.  At the refapp login screen, enter a username of `admin` and a password of `admin`. 
 6.  Navigate to your servlet location:  
     <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="uri external-link">http://localhost:2990/jira/plugins/servlet/myservlet</a>   
@@ -1365,7 +1365,7 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 2.  Enter` atlas-run` to build your plugin.
 
 3.  Open your browser and navigate to the local JIRA instance started by `atlas-run`.  
-    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for JIRA. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports) for other applications.
+    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for JIRA. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
 4.  At the JIRA login screen, enter a username of `admin` and a password of `admin`. 
 5.  Navigate to your servlet location:  
     <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>   

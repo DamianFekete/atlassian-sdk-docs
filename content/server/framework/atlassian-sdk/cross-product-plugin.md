@@ -11,7 +11,7 @@ legacy_title: Cross-Product Plugin (Glossary Entry)
 platform: server
 product: atlassian-sdk
 subcategory: other
-title: 'Cross-product plugin '
+title: Cross-product plugin
 ---
 # Cross-product plugin
 
