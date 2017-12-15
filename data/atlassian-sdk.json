@@ -110,18 +110,6 @@
                 "url": "/server/framework/atlassian-sdk/amps-sdk-release-notes"
               },
               {
-                "title": "Activity Streams version matrix",
-                "url": "/server/framework/atlassian-sdk/activity-streams-version-matrix"
-              },
-              {
-                "title": "Plugin Framework version matrix",
-                "url": "/server/framework/atlassian-sdk/plugin-framework-version-matrix"
-              },
-              {
-                "title": "REST API plugin version matrix",
-                "url": "/server/framework/atlassian-sdk/rest-api-plugin-version-matrix"
-              },
-              {
                 "groupItems": [
                   {
                     "title": "REST plugin 2.1 release notes",
