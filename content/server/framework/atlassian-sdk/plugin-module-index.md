@@ -353,7 +353,7 @@ Defines transformers which allow changing web resources before being served to t
 
 ###Other types
 
-#### <a id="rest" href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&title=REST+Plugin+Module" class="createlink">REST</a> 
+#### <a id="rest" href="/server/framework/atlassian-sdk/rest-plugin-module/" class="createlink">REST</a> 
 
 Exposes data and services as REST resources.
 

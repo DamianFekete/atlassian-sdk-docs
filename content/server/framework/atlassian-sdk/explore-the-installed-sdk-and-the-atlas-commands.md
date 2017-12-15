@@ -18,8 +18,6 @@ title: Explore the installed SDK and the atlas commands
 
 You should understand the basic contents and functions of the SDK before you develop your first add-on. On this page, you get a summary of the SDK contents, a very brief intro to Apache Maven, and you run an Atlassian application through the SDK. The following topics are covered:
 
- 
-
 ## Step 1: Browse the SDK contents and get introduced to Maven
 
 Maven is a popular tool and you may already be using it. You don't need to be a Maven expert to use this tutorial. You do need to understand some Maven basics to develop with the SDK. Examine the contents of the SDK installation:
@@ -31,8 +29,8 @@ Maven is a popular tool and you may already be using it. You don't need to be a 
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <thead>
     <tr class="header">
@@ -66,7 +64,7 @@ Maven relies on the ability to navigate to external repositories URLs and obtain
 If you're doing your development behind a corporate firewall, you may need to connect to the Internet through an HTTP proxy. If you know you do not have a firewall, skip this procedure. If you know your company requires you to use an HTTP proxy, you need to configure proxy settings in the `ATLAS_HOME/apache-maven/conf/settings.xml` file. Do the following:
 
 1.  Ask your system administrator to provide you with the following information:  
-    -   The proxy address protocol://host:port, for example <a href="https://our.company:8080" class="uri external-link">https://our.company:8080</a>.
+    -   The proxy address protocol://host:port, for example <a href="https://our.company:8080" class="uri external-link">our.company:8080</a>.
 
     -   a username/password required for access
     -   a list of hosts that don't require a proxy
@@ -181,7 +179,7 @@ If you haven't already done so, open a command window and do the following:
 
 5.  Open a browser and enter the JIRA URL.
 
-    You should see the URL for your installation displayed in the run output. For example, you might see <a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a> depending on your environment. On successful launch, the browser displays the JIRA login page.<a href="http://localhost:2990/jira" class="external-link"></a>
+    You should see the URL for your installation displayed in the run output. For example, you might see <a href="http://myhost.local:2990/jira" class="uri external-link">myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">localhost:2990/jira</a> depending on your environment. On successful launch, the browser displays the JIRA login page.<a href="http://localhost:2990/jira" class="external-link"></a>
 
 6.  Enter `admin` for both the username and password.  
     Your browser displays the JIRA dashboard:  
@@ -216,7 +214,7 @@ When you run a standalone instance, you can make changes in the instance. The sy
     Your standalone JIRA now has a TEST project. Test what happens to the project when you restart this standalone instance.
 5.  Return to the command line where you started JIRA.
 6.  Gracefully shutdown JIRA by pressing CTRL-Z (Windows) or CTRL-D (Linux).
-7.  Browse to the default JIRA URL (<a href="http://myhost.local:2990/jira" class="uri external-link">http://myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a>) with your browser.
+7.  Browse to the default JIRA URL (<a href="http://myhost.local:2990/jira" class="uri external-link">myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">localhost:2990/jira</a>) with your browser.
 
          Your browser should inform you that it could not get a connection to the server.
 
@@ -242,216 +240,3 @@ You can use the `atlas-run-standalone` command to run a particular version of a 
 ## Next steps
 
 At this point, you have some basic understanding of the SDK. Enough to go ahead in the [next tutorial section to create your own plugin project](/server/framework/atlassian-sdk/create-a-helloworld-plugin-project).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

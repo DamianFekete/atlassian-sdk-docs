@@ -17,7 +17,7 @@ title: Template Context Item plugin module
 
 ## Purpose of this Module Type
 
-This module type allows you to put arbitrary context items into the context of any <a href="/pages/createpage.action?spaceKey=ATR&amp;title=Using+the+Atlassian+Template+Renderer" class="createlink">Using the Atlassian Template Renderer</a>. This is useful to ensure plugin developers don't have to repeatedly create the same context each time they need to render content.
+This module type allows you to put arbitrary context items into the context of any <a href="/server/framework/atlassian-sdk/atlassian-template-renderer/" class="createlink">Using the Atlassian Template Renderer</a>. This is useful to ensure plugin developers don't have to repeatedly create the same context each time they need to render content.
 
 This module type is similar to the Confluence velocity-context-item module type. However, it is more powerful in the following ways:
 

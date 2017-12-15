@@ -18,17 +18,3 @@ title: Dynamic Module Types
 This page is in DRAFT and is visible to **Atlassian staff** only.  
   
 Tell the developers what they need to know about dynamic module types -- how the Plugin Framework handles them, and how this affects the decisions a plugin developer will need to make.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -15,7 +15,7 @@ title: Plugin modules
 ---
 # Plugin modules
 
-An Atlassian plugin can implement one or more plugin modules to affect the underlying Atlassian application. You can add modules to a plugin project using the Atlassian Plugin SDK. The atlas-create-&lt;app&gt;-plugin-module command lets you generate the initial plugin module code through a series of prompts. The module types you can create vary by target application. The modules listed below comprise the common module types; they apply across application types.  
+An Atlassian plugin can implement one or more plugin modules to affect the underlying Atlassian application. You can add modules to a plugin project using the Atlassian Plugin SDK. The <code>atlas-create-&lt;app&gt;-plugin-module</code> command lets you generate the initial plugin module code through a series of prompts. The module types you can create vary by target application. The modules listed below comprise the common module types; they apply across application types.  
 
 Below is detailed information of each plugin module type.
 
