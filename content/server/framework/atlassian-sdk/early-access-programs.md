@@ -22,8 +22,8 @@ Using our EAP, you can download Atlassian software prior to release. You can acc
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -45,16 +45,14 @@ Using our EAP, you can download Atlassian software prior to release. You can acc
 </tbody>
 </table>
 
- 
-
 You can also subscribe to our EAP feeds in RSS or JSONP formats:
 
 | Product          | RSS                                                                                                                                                                                   | JSONP                                                                                                                                                                                   |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| JIRA             | **<a href="https://my.atlassian.com/download/feeds/eap/jira.rss" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/jira.rss</a>**             | **<a href="https://my.atlassian.com/download/feeds/eap/jira.json" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/jira.json</a>**             |
-| Confluence       | **<a href="https://my.atlassian.com/download/feeds/eap/confluence.rss" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/confluence.rss</a>** | **<a href="https://my.atlassian.com/download/feeds/eap/confluence.json" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/confluence.json</a>** |
-| Bitbucket Server | **<a href="https://my.atlassian.com/download/feeds/eap/stash.rss" class="uri external-link">https://my.atlassian.com/download/feeds/eap/stash.rss</a>**                               | **<a href="https://my.atlassian.com/download/feeds/eap/stash.json" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/stash.json</a>**           |
-| Bamboo           | **<a href="https://my.atlassian.com/download/feeds/eap/bamboo.rss" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/bamboo.rss</a>**         | **<a href="https://my.atlassian.com/download/feeds/eap/bamboo.json" class="uri external-link" title="Follow link">https://my.atlassian.com/download/feeds/eap/bamboo.json</a>**         |
+| JIRA             | **<a href="https://my.atlassian.com/download/feeds/eap/jira.rss" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/jira.rss</a>**             | **<a href="https://my.atlassian.com/download/feeds/eap/jira.json" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/jira.json</a>**             |
+| Confluence       | **<a href="https://my.atlassian.com/download/feeds/eap/confluence.rss" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/confluence.rss</a>** | **<a href="https://my.atlassian.com/download/feeds/eap/confluence.json" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/confluence.json</a>** |
+| Bitbucket Server | **<a href="https://my.atlassian.com/download/feeds/eap/stash.rss" class="uri external-link">my.atlassian.com/download/feeds/eap/stash.rss</a>**                               | **<a href="https://my.atlassian.com/download/feeds/eap/stash.json" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/stash.json</a>**           |
+| Bamboo           | **<a href="https://my.atlassian.com/download/feeds/eap/bamboo.rss" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/bamboo.rss</a>**         | **<a href="https://my.atlassian.com/download/feeds/eap/bamboo.json" class="uri external-link" title="Follow link">my.atlassian.com/download/feeds/eap/bamboo.json</a>**         |
 
 ## Generally available releases
 
@@ -62,280 +60,9 @@ You can also subscribe to our release feeds in RSS format:
 
 | Product           | RSS                                                                                                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| JIRA Software     | **<a href="https://my.atlassian.com/download/feeds/jira-software.rss" class="uri external-link">https://my.atlassian.com/download/feeds/jira-software.rss</a>**       |
-| JIRA Service Desk | **<a href="https://my.atlassian.com/download/feeds/jira-servicedesk.rss" class="uri external-link">https://my.atlassian.com/download/feeds/jira-servicedesk.rss</a>** |
-| JIRA Core         | **<a href="https://my.atlassian.com/download/feeds/jira-core.rss" class="uri external-link">https://my.atlassian.com/download/feeds/jira-core.rss</a>**               |
-| Confluence        | **<a href="https://my.atlassian.com/download/feeds/confluence.rss" class="uri external-link">https://my.atlassian.com/download/feeds/confluence.rss</a>**             |
-| Bitbucket         | **<a href="https://my.atlassian.com/download/feeds/stash.rss" class="uri external-link">https://my.atlassian.com/download/feeds/stash.rss</a>**                       |
-| Bamboo            | **<a href="https://my.atlassian.com/download/feeds/bamboo.rss" class="uri external-link">https://my.atlassian.com/download/feeds/bamboo.rss</a>**                     |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| JIRA Software     | **<a href="https://my.atlassian.com/download/feeds/jira-software.rss" class="uri external-link">my.atlassian.com/download/feeds/jira-software.rss</a>**       |
+| JIRA Service Desk | **<a href="https://my.atlassian.com/download/feeds/jira-servicedesk.rss" class="uri external-link">my.atlassian.com/download/feeds/jira-servicedesk.rss</a>** |
+| JIRA Core         | **<a href="https://my.atlassian.com/download/feeds/jira-core.rss" class="uri external-link">my.atlassian.com/download/feeds/jira-core.rss</a>**               |
+| Confluence        | **<a href="https://my.atlassian.com/download/feeds/confluence.rss" class="uri external-link">my.atlassian.com/download/feeds/confluence.rss</a>**             |
+| Bitbucket         | **<a href="https://my.atlassian.com/download/feeds/stash.rss" class="uri external-link">my.atlassian.com/download/feeds/stash.rss</a>**                       |
+| Bamboo            | **<a href="https://my.atlassian.com/download/feeds/bamboo.rss" class="uri external-link">my.atlassian.com/download/feeds/bamboo.rss</a>**                     |

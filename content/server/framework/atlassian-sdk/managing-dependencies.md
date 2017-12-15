@@ -172,7 +172,7 @@ If you don't specify a scope in your dependency declaration, the scope defaults 
 
 {{% /note %}}
 
-Similarly, if you were writing a <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=Servlet+Modules" class="createlink">servlet plugin</a>, you'd need to tell the SDK where to find the servlet API classes to compile against, but you wouldn't want to actually include the servlet APIs in your plugin. To do that, you'd add this to your `pom.xml`:
+Similarly, if you were writing a <a href="/server/jira/platform/servlet" class="createlink">servlet plugin</a>, you'd need to tell the SDK where to find the servlet API classes to compile against, but you wouldn't want to actually include the servlet APIs in your plugin. To do that, you'd add this to your `pom.xml`:
 
 ``` xml
 <project>

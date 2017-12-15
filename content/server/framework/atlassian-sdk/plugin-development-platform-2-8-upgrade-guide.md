@@ -19,7 +19,7 @@ This upgrade guide documents the changes you need to make to the host applicatio
 
 ## Step 0. Review the Platform Release Notes
 
-Take a look through the <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&title=Plugin+Development+Platform+2.8+Release+Notes" class="createlink">platform 2.8 release notes</a>, paying special attention to the linked release notes in any components of the platform.
+Take a look through the <a href="/server/framework/atlassian-sdk/plugin-development-platform-2-8-release-notes/" class="createlink">platform 2.8 release notes</a>, paying special attention to the linked release notes in any components of the platform.
 
 ## Step 1. Upgrade Platform Module Versions
 

@@ -36,7 +36,7 @@ As such, you can do things like:
 
 Even better, take a look at the [Speakeasy Extension Examples](https://developer.atlassian.com/display/SPEAK/Speakeasy+Extension+Examples) for ideas.
 
-Great, but what can they *NOT* do? Since no server-side code is allowed, your extension cannot:
+Great, but what can they NOT do? Since no server-side code is allowed, your extension cannot:
 
 -   Implement arbitrary application plugin modules
 -   Access product information not exposed via REST, XML-RPC, or SOAP
@@ -81,8 +81,8 @@ If you click on "Edit", you'll see this plugin have the following files, assumin
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -191,8 +191,8 @@ Web items are defined in the file `ui/web-items.json` as a list of web item obje
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -343,7 +343,7 @@ If your extension is a "jar" extension, so in other words, a normal OSGi plugin 
 
     Again, replace "confluence" with the desired target product.
 
-5.  Navigate to <a href="http://localhost:1990/confluence&amp;nbsp;in" class="uri external-link">http://localhost:1990/confluence&amp;nbsp;in</a> your browser. See the Plugin SDK docs for other product URLs.
+5.  Navigate to <a href="http://localhost:1990/confluence" class="uri external-link">localhost:1990/confluence</a> your browser. See the Plugin SDK docs for other product URLs.
 6.  Login with a username of "admin" and password of "admin"
 7.  Move your cursor to your username on the top banner and click "Speakeasy". You should see your extension.
 8.  In your text editor, open files src/main/resources and start working on your extension. Most changes should be visible immediately, but others will require you to switch to your terminal window running the cli and enter 'pi'
@@ -358,7 +358,7 @@ If your extension is a "zip" extension, you can still use the Plugin SDK to deve
     atlas-run-standalone --product confluence --version 3.5.2 --jvmargs "-Dplugin.resource.directories=. -Xmx512m -XX:MaxPermSize=128m" --plugins com.atlassian.labs:speakeasy-plugin:0.10.2
     ```
 
-4.  Upload or push your extension to your local Confluence running at <a href="http://localhost:1990/confluence" class="uri external-link">http://localhost:1990/confluence</a> and start developing. JS and CSS changes that don't require a plugin reinstallation can be seen immediately via a reload (thanks to that 'plugin.resource.directories' system prop)
+4.  Upload or push your extension to your local Confluence running at <a href="http://localhost:1990/confluence" class="uri external-link">localhost:1990/confluence</a> and start developing. JS and CSS changes that don't require a plugin reinstallation can be seen immediately via a reload (thanks to that 'plugin.resource.directories' system prop)
 
 ## Under the covers
 
@@ -375,361 +375,3 @@ The custom module types are necessary to ensure the plugin can be enabled on a p
 Keep in mind the idea is the application should work 100% correctly if your extension is not enabled. This means you shouldn't do things like create psuedo Confluence macros that show useful information for your extension users but blank screens or gibberish for all others.
 
 {{% /note %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
