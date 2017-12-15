@@ -22,7 +22,3 @@ Redirection Notice
 This page will redirect to [Getting Started](/server/framework/atlassian-sdk/).
 
 {{% /note %}}
-
-
-
-

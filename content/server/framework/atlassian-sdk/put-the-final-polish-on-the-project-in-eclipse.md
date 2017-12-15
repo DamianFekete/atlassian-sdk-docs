@@ -33,7 +33,7 @@ If you want to check your work when you are done, you can find the `helloworld` 
 git clone https://bitbucket.org/atlassian_tutorial/helloworld.git
 ```
 
-If you aren't sure how to use Git, see the bitbucket <a href="http://confluence.atlassian.com/display/BITBUCKET/bitbucket+101" class="external-link">getting started guide</a>. Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/helloworld/overview" class="uri external-link">https://bitbucket.org/atlassian_tutorial/helloworld/overview</a>.
+If you aren't sure how to use Git, see the bitbucket <a href="http://confluence.atlassian.com/display/BITBUCKET/bitbucket+101" class="external-link">getting started guide</a>. Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/helloworld/overview" class="uri external-link">bitbucket.org/atlassian_tutorial/helloworld/overview</a>.
 
 ## Step 2: Generate Eclipse configuration files
 
@@ -325,7 +325,7 @@ In this step, you view the menu you just created in JIRA. At this point the menu
     </tr>
     <tr class="odd">
     <td><p>Enter Link URL (e.g. /secure/CreateIssue!default.jspa):</p></td>
-    <td><p><a href="http://www.radioparadise.com" class="uri external-link">http://www.radioparadise.com</a></p></td>
+    <td><p><a href="http://www.radioparadise.com" class="uri external-link">www.radioparadise.com</a></p></td>
     </tr>
     <tr class="even">
     <td><p>Show Advanced Setup? (Y/y/N/n) N:</p></td>
@@ -388,9 +388,3 @@ Where you go now depends upon your interests, but there are many more tutorials 
 
 -   [JIRA tutorials](https://developer.atlassian.com/display/JIRADEV/JIRA+platform)
 -   [Confluence Tutorials](https://developer.atlassian.com/display/CONFDEV/Tutorials)
-
-
-
-
-
-

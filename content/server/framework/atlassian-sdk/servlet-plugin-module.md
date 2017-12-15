@@ -15,22 +15,20 @@ title: Servlet plugin module
 ---
 # Servlet plugin module
 
- 
-
 ## Purpose of this Module Type
 
 Servlet plugin modules enable you to deploy Java servlets as a part of your plugins.
 
 ## Configuration
 
-The root element for the Servlet plugin module is **`servlet`**. It allows the following attributes and child elements for configuration:
+The root element for the Servlet plugin module is `servlet`. It allows the following attributes and child elements for configuration:
 
 #### Attributes
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,9 +55,9 @@ The root element for the Servlet plugin module is **`servlet`**. It allows the f
 <tr class="even">
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
 I.e. the identifier of the servlet.</td>
 </tr>
@@ -79,14 +77,12 @@ I.e. the identifier of the servlet.</td>
 
 **\*class and key attributes are default.**
 
- 
-
 #### Elements
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -168,7 +164,7 @@ Here is an example `atlassian-plugin.xml` file containing a single servlet:
 
 Your servlet will be accessible within the Atlassian web application via each `url-pattern` you specify, beneath the `/plugins/servlet` parent path.
 
-For example, if you specify a `url-pattern` of `/helloworld` as above, and your Atlassian application was deployed at <a href="http://yourserver/jira" class="uri external-link">http://yourserver/jira</a> -- then your servlet would be accessed at <a href="http://yourserver/jira/plugins/servlet/helloworld" class="uri external-link">http://yourserver/jira/plugins/servlet/helloworld</a> .
+For example, if you specify a `url-pattern` of `/helloworld` as above, and your Atlassian application was deployed at <a href="http://yourserver/jira" class="uri external-link">yourserver/jira</a> -- then your servlet would be accessed at <a href="http://yourserver/jira/plugins/servlet/helloworld" class="uri external-link">yourserver/jira/plugins/servlet/helloworld</a> .
 
 ## Notes
 
@@ -180,192 +176,3 @@ Some information to be aware of when developing or configuring a Servlet plugin 
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

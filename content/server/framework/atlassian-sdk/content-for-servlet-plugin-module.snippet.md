@@ -77,8 +77,6 @@ I.e. the identifier of the servlet.</td>
 
 **\*class and key attributes are default.**
 
- 
-
 #### Elements
 
 <table>
@@ -174,49 +172,3 @@ Some information to be aware of when developing or configuring a Servlet plugin 
 
 -   Your servlet's `init()` method will not be called on web application startup, as for a normal servlet. Instead, this method will be called the first time your servlet is accessed after each time it is enabled. This means that if you disable a plugin containing a servlet, or a single servlet module, and re-enable it again, the servlet is re-instantiated and its `init()` method will be called again.
 -   Because all servlet modules are deployed beneath a common `/plugins/servlet` root, be careful when choosing each `url-pattern` under which your servlet is deployed. It is recommended to use a value that will always be unique to the world!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

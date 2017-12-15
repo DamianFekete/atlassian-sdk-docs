@@ -17,14 +17,14 @@ title: Component plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
 <td><p>Atlassian Plugin Framework 2.0 and later.<br />
-<em>Note</em>: The Component plugin module described below is available only for OSGi-based plugins using version 2 of the Plugin Framework.<br />
+<em>Note:</em> The Component plugin module described below is available only for OSGi-based plugins using version 2 of the Plugin Framework.<br />
 <br />
 In version 1 plugins, this plugin module will differ significantly from the information on this page. In version 1 dynamic plugins or those deployed in <code>WEB-INF/lib</code>, this plugin module will be interpreted differently based on the application to which the plugin is deployed because it installs the component in the application's object container. For example, JIRA uses Pico and Confluence uses Spring. So the object's lifecycle and dependency injection process will vary.<br />
 <br />
@@ -32,10 +32,6 @@ For version 2 plugins, as described below, the internal Spring framework is used
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 
@@ -54,8 +50,8 @@ The root element for the Component plugin module is `component`. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -78,7 +74,8 @@ The root element for the Component plugin module is `component`. It allows the f
 <td>key</td>
 <td><p> The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
 <p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
+<pre><code>&lt;component-import key=&quot;appProps&quot; 
+interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
  
@@ -98,7 +95,8 @@ The root element for the Component plugin module is `component`. It allows the f
 <td><p>key</p></td>
 <td>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.
 <p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
+<pre><code>&lt;component-import key=&quot;appProps&quot; 
+interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p> </p>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p></td>
 </tr>
@@ -127,8 +125,8 @@ The root element for the Component plugin module is `component`. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -202,198 +200,3 @@ Some information to be aware of when developing or configuring a Component plugi
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

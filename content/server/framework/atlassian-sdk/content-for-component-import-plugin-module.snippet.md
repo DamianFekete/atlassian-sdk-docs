@@ -27,8 +27,8 @@ The root element for the Component Import plugin module is `component-import`. I
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -116,61 +116,3 @@ Some information to be aware of when developing or configuring a Component Impor
 -   The imported component will have its bean name set to the component import key, which may be important if using 'by name' dependency injection.
 -   If you wish to have more control over how imported services are discovered and made available to your plugin, you can create your own Spring configuration file containing Spring Dynamic Modules elements, stored in `META-INF/spring` in your plugin jar. This is recommended if you are needing to import multiple services that implement an interface, for example.
 -   You can use component imports to customise the bean name of host components, particularly useful if you plan to use 'by name' dependency injection.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -18,14 +18,12 @@ title: Create a Confluence 'Hello World' macro
 
 This tutorial builds on the concepts introduced in [Set Up the Atlassian SDK and Build a Project](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project). You'll delve a little deeper into the SDK environment and so to complete this tutorial successfully, you should have already installed the SDK and created a plugin project. 
 
- 
-
 ## About this tutorial
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -55,8 +53,6 @@ This tutorial builds on the concepts introduced in [Set Up the Atlassian SDK an
 </tr>
 </tbody>
 </table>
-
- 
 
 ## Create the plugin skeleton
 
@@ -99,7 +95,7 @@ You can find a list of all the **atlas-** commands in the [Command reference](
 4.  Now, navigate to the **myConfluenceMacro** directory that was created by the Atlassian Plugin SDK in the last step. 
 5.  Update the organization details for your plugin in the pom.xml file (see [modify the plugin - step 1](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/modify-the-plugin#ModifythePlugin-Step1.UpdatetheorganizationdetailsthatappearonthePlugin) from the [Set up the Atlassian Plugin SDK and Build a Project tutorial](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project) if you're stuck).
 6.  Start up confluence with your plugin installed (and download all the necessary files to do that) by running the command `atlas-run.`
-7.  Check that Confluence started up with your plugin installed by navigating to <a href="http://localhost:1990/confluence/plugins/servlet/upm/manage/all" class="uri external-link">http://localhost:1990/confluence/plugins/servlet/upm/manage/all</a> (you can login using **username: admin, password: admin** just like you did in the last tutorial).
+7.  Check that Confluence started up with your plugin installed by navigating to <a href="http://localhost:1990/confluence/plugins/servlet/upm/manage/all" class="uri external-link">localhost:1990/confluence/plugins/servlet/upm/manage/all</a> (you can login using **username: admin, password: admin** just like you did in the last tutorial).
 8.  Leave Confluence up and running now
 
 ## Create a Macro Element in Confluence
@@ -131,8 +127,6 @@ In this tutorial, you will create the plugin elements manually rather than using
 
 4.  Next you need to create the java class that you made reference to in Step 2. Because you'll be creating a couple of macros in this tutorial, you can create a **macro **folder to keep things tidy.
 5.  Open a new terminal window so you can create a new folder in the **/src/main/java/com/atlassian/tutorial **directory called **macro**:
-
-     
 
     ``` bash
     cd /src/main/java/com/atlassian/tutorial
@@ -199,13 +193,13 @@ In this tutorial, you will create the plugin elements manually rather than using
 
 11. Now you can try adding the Macro to a test page in Confluence (you'll need to make a new Confluence Space and Page before you can test it out so go ahead and do that first).
 
-    {{% note %}}
+{{% note %}}
 
-    Note
+Note
 
-    Note: It can take the Confluence macro browser a little bit of time to realise that there's a new macro available, so if it doesn't show up right away give it a little while and try again.  
+Note: It can take the Confluence macro browser a little bit of time to realise that there's a new macro available, so if it doesn't show up right away give it a little while and try again.  
 
-    {{% /note %}}
+{{% /note %}}
 
     <img src="/server/framework/atlassian-sdk/images/confluence-macro-browser-showing-helloworld-macro.png" title="Macro Browser" alt="Confluence macro browser showing helloworld macro" width="500" height="305" />  
     <img src="/server/framework/atlassian-sdk/images/helloworld-macro-on-page-in-edit-view.png" title="Helloworld Macro - Edit Mode" alt="Helloworld macro showing on confluence page in edit mode" width="500" height="268" />
@@ -374,13 +368,13 @@ At the moment, all the formatting work is being done in the **execute **functi
 
 15. Make sure your plugin is working with the new changes:
 
-    {{% note %}}
+{{% note %}}
 
-    Note
+Note
 
-    You might need to hold down the shift key while reloading the page to see the changes to the page itself!
+You might need to hold down the shift key while reloading the page to see the changes to the page itself!
 
-    {{% /note %}}
+{{% /note %}}
 
       
     <img src="/server/framework/atlassian-sdk/images/final-changes-with-css.png" width="502" height="250" />
@@ -394,221 +388,6 @@ Or, check out the questions on <a href="http://answers.atlassian.com/" class="e
 ## Resources
 
 -   The source code for this tutorial is available <a href="https://bitbucket.org/serverecosystem/myconfluencemacro/src" class="external-link">on Bitbucket</a>  
--   You can find documentation for Spring Scanner at <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner" class="uri external-link">https://bitbucket.org/atlassian/atlassian-spring-scanner</a>
+-   You can find documentation for Spring Scanner at <a href="https://bitbucket.org/atlassian/atlassian-spring-scanner" class="uri external-link">bitbucket.org/atlassian/atlassian-spring-scanner</a>
 -   Learn more about the [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
--   [L](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module/including-information-in-your-macro-for-the-macro-browser)earn more about the [Macro Module](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-   [Learn more](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module/including-information-in-your-macro-for-the-macro-browser) about the [Macro Module](https://developer.atlassian.com/confdev/confluence-plugin-guide/confluence-plugin-module-types/macro-module)

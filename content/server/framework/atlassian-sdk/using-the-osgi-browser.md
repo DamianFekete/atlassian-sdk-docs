@@ -20,7 +20,7 @@ The Universal Plugin Manager (UPM) provides a ton of really useful information t
 
 **The OSGi tab is available in UPM 1.3 and later.**
 
-For more information about OSGi and its use in the Atlassian Plugin Framework, please read about <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=OSGi%2C+Spring+and+the+Plugin+Framework" class="createlink">OSGi, Spring and the Plugin Framework</a>.
+For more information about OSGi and its use in the Atlassian Plugin Framework, please read about <a href="/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework" class="createlink">OSGi, Spring and the Plugin Framework</a>.
 
 ## How to enable the OSGi tab
 

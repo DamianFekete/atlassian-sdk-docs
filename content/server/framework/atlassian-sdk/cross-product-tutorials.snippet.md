@@ -93,25 +93,3 @@ Tutorials classified by the level of skill assumed:
 ### Other Tutorials
 
 Looking for specific tutorials for Confluence, JIRA and other Atlassian products? Please refer to the [complete list of Atlassian tutorials](/server/framework/atlassian-sdk/tutorials).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

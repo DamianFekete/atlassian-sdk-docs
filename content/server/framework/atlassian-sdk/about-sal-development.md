@@ -30,7 +30,7 @@ The Shared Access Layer, or SAL for short, provides a consistent, cohesive API t
 
 SAL is one of the ingredients in the Atlassian plugin development platform, along with the Atlassian Plugin Framework version 2.
 
--   If you want to see the how SAL fits into the platform, take a look at the overview of the <a href="/pages/createpage.action?spaceKey=SAL&amp;title=Atlassian+Plugin+Development+Platform" class="createlink">plugin development platform</a>.
+-   If you want to see the how SAL fits into the platform, take a look at the overview of the <a href="/server/framework/atlassian-sdk/about-sal-development/" class="createlink">plugin development platform</a>.
 -   If you are interested in the Atlassian Plugin Framework 2, see the [plugin framework documentation](https://developer.atlassian.com/display/PLUGINFRAMEWORK).
 
 ## How it Works

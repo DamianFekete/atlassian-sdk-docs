@@ -17,8 +17,8 @@ title: Basic plugin tutorial
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -35,8 +35,6 @@ title: Basic plugin tutorial
 </tr>
 </tbody>
 </table>
-
- 
 
 ## Overview of the Tutorial
 
@@ -99,8 +97,8 @@ In this step, you'll use the two `atlas-` commands to generate stub code for y
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -213,8 +211,8 @@ For this tutorial, you will need a [Servlet plugin module](https://developer.atl
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -258,9 +256,9 @@ Each module generator does generates a different structure and modifications.  
     -   **adminUI.properties** - a file for internationalization strings
     -   **servlet/MyServlet.java** - a file containing servlet code  
 -   **src/test/java/com/atlassian/plugins/tutorial/refapp/adminui** - **Directory**
-    -   ****servlet/MyServletTest**.java** - a test file
+    -   **servlet/MyServletTest.java** - a test file
 -   **src/test/java/it** - **Directory**
-    -   ****com/atlassian/plugins/tutorial/refapp/adminui/servlet/**MyServletFuncTest.java** - a test file
+    -   **com/atlassian/plugins/tutorial/refapp/adminui/servlet/MyServletFuncTest.java** - a test file
 
 This module generation added the following dependencies to the project `pom.xml` file:
 
@@ -297,7 +295,7 @@ The generated also added a number o the `atlassian-plugin.xml` descriptor file, 
 </servlet>
 ```
 
-The i18n resource supports internationalization of the servlet UI.   The 
+The i18n resource supports internationalization of the servlet UI.
 
 ## Step 4. Build, install and run the plugin
 
@@ -320,13 +318,12 @@ Follow these steps to build and install your plugin, so that you can test your c
     ```
 
 4.  Open your browser and navigate to the local refapp instance started by `atlas-run`.  
-    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for refapp. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
+    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">localhost:2990/refapp</a> for refapp. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
 5.  At the refapp login screen, enter a username of `admin` and a password of `admin`. 
 6.  Navigate to your servlet location:  
-    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="uri external-link">http://localhost:2990/jira/plugins/servlet/myservlet</a>   
+    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="uri external-link">localhost:2990/jira/plugins/servlet/myservlet</a>   
     You should see something similar to the following:  
      <img src="/server/framework/atlassian-sdk/images/baseline-servlet.png" width="500" />  
-      
 
 At this point, all of your servlet code is generated. You haven't added any bells and whistles. Things are about to change.
 
@@ -341,8 +338,8 @@ By default, the servlet module is not pre-configured to use Velocity templates (
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -366,8 +363,8 @@ By default, the servlet module is not pre-configured to use Velocity templates (
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -391,8 +388,8 @@ By default, the servlet module is not pre-configured to use Velocity templates (
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -621,7 +618,7 @@ You use the Atlassian template renderer API to render the form.   In Eclipse, 
 1.  Open a terminal window and navigate to the plugin root folder (where the `pom.xml` file is).
 2.  Run the `atlas-run` command to start the JIRA instance, and install your plugin in it. 
 3.  After atlas-run complete, open your browser and navigate to our servlet location:  
-    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>
+    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">localhost:2990/refapp/plugins/servlet/myservlet</a>
 4.  The `UserManager` code recognizes you haven't logged in yet. JIRA prompts you for a login.
 5.  At the JIRA login screen, enter a username of `admin` and a password of `admin`.   
     JIRA displays your form.
@@ -700,7 +697,7 @@ The Velocity context created by the TemplateRenderer automatically gives your pl
     </html>
     ```
 
-    In an AUI page, the aui, field-group, text, and button classes  are defined for you.  There is no need to create your own .CSS file. You can see the <a href="/pages/createpage.action?spaceKey=AUI&amp;title=Forms" class="createlink">Forms</a> page for detailed information about forms in AUI.
+    In an AUI page, the aui, field-group, text, and button classes  are defined for you.  There is no need to create your own .CSS file. You can see the <a href="/server/framework/atlassian-sdk/basic-plugin-tutorial/" class="createlink">Forms</a> page for detailed information about forms in AUI.
 
 4.  Save the `admin.vm` file.  
     At this point, live reload reflects your changes - a nicely aligned set of components!  
@@ -777,8 +774,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -802,8 +799,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -819,7 +816,7 @@ To find out what the application base URL is, you'll use another SAL API, the `
     <td><p><code>applicationProperties</code></p></td>
     </tr>
     <tr class="even">
-    <td><p>Enter Component-Ref Key (leave blank to specify class): </p></td>
+    <td><p><strong>Enter Component-Ref Key (leave blank to specify class): </strong></p></td>
     <td><p><code>applicationProperties</code></p></td>
     </tr>
     <tr class="odd">
@@ -839,8 +836,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -953,8 +950,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -985,8 +982,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -1010,8 +1007,8 @@ To find out what the application base URL is, you'll use another SAL API, the `
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 20%" />
+    <col style="width: 80%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -1182,15 +1179,14 @@ The REST code builds a configuration resource your plugin will use to store conf
 
     Once we have a reference to a `PluginSettings` object, things are pretty easy. `PluginSettings` can be thought of as a persistent map. Just use `get` to retrieve data and `put` to add or update values.
 
-    {{% note %}}
+{{% note %}}
 
-    Namespace your keys!
+**Namespace your keys!**
+Because this is **global** application configuration data, it is important that you do some kind of namespacing with your keys. Whether you use your plugin key, a class name or something else entirely is up to you. Just make sure it is unique enough that conflicts with other configuration data won't occur.
 
-    Because this is **global** application configuration data, it is important that you do some kind of namespacing with your keys. Whether you use your plugin key, a class name or something else entirely is up to you. Just make sure it is unique enough that conflicts with other configuration data won't occur.
+{{% /note %}}
 
-    {{% /note %}}
-
-5.  Add a `PUT` method.``
+5.  Add a `PUT` method.
 
     ``` java
         @PUT
@@ -1365,19 +1361,8 @@ We use the `ApplicationProperties.getBaseUrl()` method to find the application
 2.  Enter` atlas-run` to build your plugin.
 
 3.  Open your browser and navigate to the local JIRA instance started by `atlas-run`.  
-    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">http://localhost:2990/refapp</a> for JIRA. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
+    For example, the default address is <a href="http://localhost:2990/jira" class="external-link">localhost:2990/refapp</a> for JIRA. See [Plugin SDK Supported Applications and Default Ports](/server/framework/atlassian-sdk/plugin-sdk-supported-applications-and-default-ports.snippet) for other applications.
 4.  At the JIRA login screen, enter a username of `admin` and a password of `admin`. 
 5.  Navigate to your servlet location:  
-    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">http://localhost:2990/refapp/plugins/servlet/myservlet</a>   
+    <a href="http://localhost:2990/jira/plugins/servlet/myservlet" class="external-link">localhost:2990/refapp/plugins/servlet/myservlet</a>   
     You should see something similar to the following:
-
-
-
-
-
-
-
-
-
-
-

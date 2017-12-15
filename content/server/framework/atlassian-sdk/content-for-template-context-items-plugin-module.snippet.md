@@ -146,30 +146,3 @@ public void ungetService(Bundle bundle, ServiceRegistration registration, Object
 ```
 
 In `MyService` you would then have a corresponding method that would call the `close()` method on the service tracker.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

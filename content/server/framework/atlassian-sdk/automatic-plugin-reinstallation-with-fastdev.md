@@ -22,15 +22,11 @@ FastDev and atlas-cli have been deprecated. Please use [Automatic Plugin Reinsta
 
 {{% /warning %}}
 
- 
-
 There is no need to manually install your plugin into the Atlassian application every time you change the code. Instead, FastDev will automatically reinstall the plugin for you.
 
 FastDev is a plugin for Atlassian applications that speeds up plugin development by scanning plugin directories for changes and automatically reinstalling plugins when necessary.
 
 FastDev is bundled with the Atlassian Plugin SDK 3.6 and later. It is enabled by default. See the [configuration](#disabling-fastdev) section below for instructions on disabling it.
-
- 
 
 ## How it Works
 
@@ -77,9 +73,9 @@ You can specify additional files to ignore either by directory, extension, or fi
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 13%" />
+<col style="width: 39%" />
+<col style="width: 48%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -127,8 +123,6 @@ By default, FastDev assumes that Maven can be accessed on the command line as `m
 </systemPropertyVariables>
 ```
 
- 
-
 ### Multi-Module Plugins
 
 More complex plugins may have more than one plugin module. FastDev can handle reloads for multi-module maven projects that contain multiple plugins, but you need to tell FastDev about any additional plugin root directories:
@@ -141,8 +135,6 @@ More complex plugins may have more than one plugin module. FastDev can handle re
 ```
 
 Note that FastDev is currently not very smart about dependency management, so if you are attempting to reload multiple plugins that depend on each other, you may run into problems.
-
- 
 
 ### Credentials
 
@@ -163,8 +155,6 @@ Both properties are optional; FastDev will use the default unless otherwise spec
 These credential properties are supported starting with FastDev 1.9 (bundled with Atlassian Plugin SDK 3.7.1 or later).
 
 {{% /note %}}
-
- 
 
 ### Disabling FastDev
 
@@ -207,273 +197,3 @@ If you need to use a different FastDev release than the one bundled with the Atl
 -   The dynamic deployment method via FastDev or CLI will work *most* of the time, but not all plugins are eligible for dynamic installation. Specifically, some versions of some applications mark some module types as requiring a restart. If a plugin uses one of the module types that require a restart, the plugin will be installed but not activated until the application is restarted. And occasionally the host application fails to detect new changes. If you suspect this may be happening, just hit `ctrl-c` in the first window and type `atlas-run` again to completely restart the host app with your latest changes included. See the list of [plugin modules that cannot be dynamically reloaded](/server/framework/atlassian-sdk/plugins-that-cannot-be-reloaded-with-fastdev-or-pi).
 -   [If you change pom.xml, you may need to restart the atlas-cli](/server/framework/atlassian-sdk/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli).
 -   For other errors, please refer to the [FAQ and troubleshooting section](/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

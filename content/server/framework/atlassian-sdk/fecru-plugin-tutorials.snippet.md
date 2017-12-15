@@ -105,23 +105,3 @@ Tutorials classified by the level of skill assumed:
 ### Related Tutorials
 
 You may also be interested in the [integration tutorials](https://developer.atlassian.com/display/FECRUDEV/Integration+Tutorials).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

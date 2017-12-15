@@ -23,7 +23,7 @@ This page is visible to **Atlassian staff only**, because the `atlas-install-ide
 
 {{% /warning %}}
 
-This page describes the shell script `atlas-install-idea-plugin`, part of the <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818719" class="createlink">Atlassian Plugin SDK</a>.
+This page describes the shell script `atlas-install-idea-plugin`, part of the <a href="/server/framework/atlassian-sdk/atlas-install-idea-plugin/" class="createlink">Atlassian Plugin SDK</a>.
 
 ## Basic Usage
 
@@ -56,21 +56,9 @@ atlas-install-idea-plugin -help
 
 To be completed
 
- 
-
 {{% /note %}}
 
 ##### RELATED TOPICS
 
-<a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818719" class="createlink">Atlassian Plugin SDK Documentation</a>  
-<a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Developing+your+Plugin+using+the+Atlassian+Plugin+SDK&amp;linkCreation=true&amp;fromPageId=2818719" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>
-
-
-
-
-
-
-
-
-
-
+<a href="/server/framework/atlassian-sdk/atlas-install-idea-plugin/" class="createlink">Atlassian Plugin SDK Documentation</a>  
+<a href="/server/framework/atlassian-sdk/atlas-install-idea-plugin/" class="createlink">Developing your Plugin using the Atlassian Plugin SDK</a>

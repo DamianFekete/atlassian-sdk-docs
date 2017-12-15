@@ -96,26 +96,3 @@ For details, see [how to use RAB](/server/framework/atlassian-sdk/browsing-and-t
 [Browsing and Testing REST APIs in your Application](/server/framework/atlassian-sdk/browsing-and-testing-rest-apis-in-your-application.snippet)  
 [Documenting your APIs with the Atlassian REST API Browser](/server/framework/atlassian-sdk/documenting-your-apis-with-the-atlassian-rest-api-browser)  
 [atlas-run-standalone](/server/framework/atlassian-sdk/atlas-run-standalone)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

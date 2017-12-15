@@ -26,8 +26,6 @@ The platform consists of a plugin framework and set of components that provide u
 
 If you need detailed information about the plugin framework itself, read the details [below](#plugin-framework-in-detail).
 
- 
-
 ## Plugin Framework in Detail
 
 ### Atlassian Plugin Framework
@@ -38,11 +36,12 @@ The plugin framework supports several types of plugins, including OSGi-based plu
 
 See how to [define your plugin via an XML file](/server/framework/atlassian-sdk/configuring-the-plugin-descriptor), the 'plugin descriptor'.
 
-### OSGi, Spring and the Plugin Framework\*
+### OSGi, Spring and the Plugin Framework
 
 Read the in-depth information about [how we use OSGi](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) in the Atlassian Plugin Framework.
 
-\*Embedding the Plugin Framework  
+**Embedding the Plugin Framework**
+
 Find out how to [transform your web application](/server/framework/atlassian-sdk/embedding-the-plugin-framework) into a platform that can be extended at runtime via plugins.
 
 ## Resources
@@ -69,348 +68,38 @@ Find out how to [transform your web application](/server/framework/atlassian-sdk
 
 <a href="http://my.atlassian.com/" class="external-link">Mailing lists at my.atlassian.com</a>
 
- 
-
 {{% note %}}
 
 ## Plugin Modules
 
-#### [Plugin Module Index](/server/framework/atlassian-sdk/plugin-module-index)
+[Plugin Module Index](/server/framework/atlassian-sdk/plugin-module-index)
 
-#### [Component Import Plugin Module](/server/framework/atlassian-sdk/component-import-plugin-module)
+[Component Import Plugin Module](/server/framework/atlassian-sdk/component-import-plugin-module)
 
-#### [Component Plugin Module](/server/framework/atlassian-sdk/component-plugin-module)
+[Component Plugin Module](/server/framework/atlassian-sdk/component-plugin-module)
 
-#### [Module Type Plugin Module](/server/framework/atlassian-sdk/module-type-plugin-module)
+[Module Type Plugin Module](/server/framework/atlassian-sdk/module-type-plugin-module)
 
-#### [Servlet Context Listener Plugin Module](/server/framework/atlassian-sdk/servlet-context-listener-plugin-module)
+[Servlet Context Listener Plugin Module](/server/framework/atlassian-sdk/servlet-context-listener-plugin-module)
 
-#### [Servlet Context Parameter Plugin Module](/server/framework/atlassian-sdk/servlet-context-parameter-plugin-module)
+[Servlet Context Parameter Plugin Module](/server/framework/atlassian-sdk/servlet-context-parameter-plugin-module)
 
-#### [Servlet Filter Plugin Module](/server/framework/atlassian-sdk/servlet-filter-plugin-module)
+[Servlet Filter Plugin Module](/server/framework/atlassian-sdk/servlet-filter-plugin-module)
 
-#### [Servlet Plugin Module](/server/framework/atlassian-sdk/servlet-plugin-module)
+[Servlet Plugin Module](/server/framework/atlassian-sdk/servlet-plugin-module)
 
-#### [Template Context Item Plugin Module](/server/framework/atlassian-sdk/template-context-item-plugin-module)
+[Template Context Item Plugin Module](/server/framework/atlassian-sdk/template-context-item-plugin-module)
 
-#### [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module)
+[Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module)
 
-#### [Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
+[Web Panel Plugin Module](/server/framework/atlassian-sdk/web-panel-plugin-module)
 
-#### [Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)
+[Web Panel Renderer Plugin Module](/server/framework/atlassian-sdk/web-panel-renderer-plugin-module)
 
-#### [Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
+[Web Resource Plugin Module](/server/framework/atlassian-sdk/web-resource-plugin-module)
 
-#### [Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module)
+[Web Resource Transformer Plugin Module](/server/framework/atlassian-sdk/web-resource-transformer-plugin-module)
 
-#### [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
+[Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module)
 
 {{% /note %}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

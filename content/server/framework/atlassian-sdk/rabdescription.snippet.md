@@ -18,21 +18,3 @@ title: _RABDescription
 The Atlassian REST API Browser (RAB) is a tool for discovering the REST APIs and other remote APIs available in Atlassian applications, including JIRA, Confluence, and the other Atlassian products.
 
 RAB shows you all the REST and JSON-RPC resources in the application, displays the methods for each resource, and allows you to make test calls against the methods. If you have installed a plugin that creates additional REST resources for the application, RAB will also discover those resources.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

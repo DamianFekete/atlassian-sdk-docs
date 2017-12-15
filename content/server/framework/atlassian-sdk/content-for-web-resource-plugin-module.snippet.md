@@ -273,9 +273,6 @@ The plugin framework attempts to help by rewriting URLs in stylesheets to be rel
 
 {{% /note %}}
 
-  
-  
-
 ## Transforming Web Resources
 
 !!! Transformers are only available in [Plugin Framework 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later.
@@ -294,52 +291,3 @@ For a complete description and example, please refer to the page on Web Resource
 -   Since the resources are returned with headers that tell the browser to cache the content indefinitely, during development, you may need to hold down the "shift" key while reloading the page to force the browser to re-request the files.
 
 Use this element to make a particular transformer available to the web resource in the plugin. Example:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

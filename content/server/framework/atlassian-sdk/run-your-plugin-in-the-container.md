@@ -43,10 +43,10 @@ A Maven `pom.xml` file is essential to your project. Maven uses the `pom.xml`
     Here's an example: 
 
     ``` xml
-        <organization>
-            <name>Awesomeness Inc</name>
-            <url>http://www.awesomebreedsmoarawesome.com/</url>
-        </organization>
+    <organization>
+        <name>Awesomeness Inc</name>
+        <url>http://www.awesomebreedsmoarawesome.com/</url>
+    </organization>
     ```
 
 5.  Save and close the file.  
@@ -79,7 +79,7 @@ When you generated the plugin skeleton, you specified a RefApp plugin with your 
 
 4.  Locate the URL to access JIRA locally.  
     Your terminal outputs `[INFO]` messages to display the URL.   
-    JIRA usually runs on port 2990, with a URL like **<a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a> **
+    JIRA usually runs on port 2990, with a URL like **<a href="http://localhost:2990/jira" class="uri external-link">localhost:2990/jira</a> **
 
     ``` bash
     [INFO] [talledLocalContainer] INFO: Server startup in 100371 ms
@@ -92,10 +92,9 @@ When you generated the plugin skeleton, you specified a RefApp plugin with your 
 5.  Copy the URL and access it from your browser.  
     We recommend Google Chrome or Mozilla Firefox for this tutorial.  
       
-6.  Login with username and password **`admin/admin`.**  
-    If the login screen isn't visible, click **Login** from the upper right-hand corner.  
+6.  Login with username and password **`admin/admin`**. If the login screen isn't visible, click **Login** from the upper right-hand corner.  
       
-7.  Navigate to **<a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">http://localhost:2990/jira/plugins/servlet/test</a> **access the servlet.  
+7.  Navigate to **<a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">localhost:2990/jira/plugins/servlet/test</a>** access the servlet.  
     The page should be identical to the one you viewed while in RefApp.  
     ![](/server/framework/atlassian-sdk/images/3.2.jpeg)
 8.  Click **Back** in your browser to return to the dashboard.  
@@ -104,7 +103,7 @@ When you generated the plugin skeleton, you specified a RefApp plugin with your 
     **![](/server/framework/atlassian-sdk/images/add-onsjira.png)**
 10. Under Atlassian Marketplace, click **Manage add-ons**.   
       
-11. Locate your** **adminUI plugin.  
+11. Locate your adminUI plugin.  
     You'll see the UPM displayed in JIRA. Your plugin may be under **User-Installed Plugins**.   
       
 12. Confirm the changes you made to the `<company>` section in the `pom.xml` are displayed.  
@@ -118,19 +117,19 @@ Atlassian includes several developer tools in its applications so you can develo
     This arrow should be visible on any page as long as you're logged in.  
       
     <img src="/server/framework/atlassian-sdk/images/3.6.jpeg" width="700" />
-2.  Confirm the toolbar expands in the lower portion of your screen.  
+
+2.  Confirm the toolbar expands in the lower portion of your screen.
+
     <img src="/server/framework/atlassian-sdk/images/3.11.jpeg" width="700" />
 
     {{% note %}}
 
-    If you don't see the toolbar, try using Google Chrome or Mozilla Firefox to access your local JIRA instance.
+If you don't see the toolbar, try using Google Chrome or Mozilla Firefox to access your local JIRA instance.
 
     {{% /note %}}
-
       
     Now you can learn what resources you have available, and why you might use them in your add-on development.   
       
-
 3.  Type **SAL** (short for Shared Access Layer) into the search field.  
     The search field is located on the right side of the developer tool bar. Instant results appear the search box.  
     The SAL is an API for aiding cross-application plugin development. When developing for multiple Atlassian applications, SAL handles services like job scheduling or internationalization lookups.  
@@ -141,10 +140,9 @@ Atlassian includes several developer tools in its applications so you can develo
 5.  Click **admin &gt; Developer Toolbox**.  
     This offers a more comprehensive menu than the shortcut toolbar. This page gives quick access to the REST API browser or OSGi resources.  
       
-6.  Click **FastDev . **  
-    Choose this option from the <img src="https://extranet.atlassian.com/download/attachments/2132607152/image2013-6-21%2010%3A41%3A46.png?version=1&amp;modificationDate=1371836506655&amp;api=v2" class="confluence-external-resource" /> button in the lower toolbar, or **Scan and Reload** from the Developer Toolbox button. A keyboard shortcut is **SHIFT+F5.**  
-    **  
-    **
+6.  Click **FastDev**. 
+    Choose this option from the <img src="https://extranet.atlassian.com/download/attachments/2132607152/image2013-6-21%2010%3A41%3A46.png?version=1&modificationDate=1371836506655&api=v2" class="confluence-external-resource" /> button in the lower toolbar, or **Scan and Reload** from the Developer Toolbox button. A keyboard shortcut is **SHIFT+F5**. 
+
 7.  Confirm no changes are found.  
     In future steps, you'll use this to reload your plugin after you change source code files.  
       
@@ -153,226 +151,6 @@ Atlassian includes several developer tools in its applications so you can develo
 9.  View the i18n strings in JIRA.  
 10. Click **Unhighlight i18n**.
 
-  
-
 Next steps
 
 You've built the foundation and learned core concepts to develop your plugin in the Atlassian system, and become acquainted with the Developer Toolbox. Now you'll [add component modules](https://developer.atlassian.com/display/DOCS/Control+access+with+SAL).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

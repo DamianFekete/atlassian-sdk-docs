@@ -41,27 +41,3 @@ Use live reload to view real-time updates to templates and other resources:
 3.  Edit your project resources.
 4.  Save your changes:  
     Back in the host application, your plugin displays any user visible changes you make.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

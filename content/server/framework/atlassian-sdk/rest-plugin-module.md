@@ -17,8 +17,6 @@ title: REST plugin module
 
 This page describes how to use the REST plugin module to expose a REST API from a plugin.
 
- 
-
 {{% note %}}
 
 Plugin Framework 2 Only
@@ -26,8 +24,6 @@ Plugin Framework 2 Only
 The REST plugin module described below is available only for OSGi-based plugins using version 2.2 or later of the [Atlassian Plugin Framework](https://developer.atlassian.com/display/PLUGINFRAMEWORK).
 
 {{% /note %}}
-
- 
 
 ## Purpose of the REST Plugin Module
 
@@ -107,8 +103,6 @@ We have no schema or DTD.
 
 {{% /note %}}
 
- 
-
 Jersey also handles JSON based on the same JAXB objects as in the example above. The JSON for the example would be:
 
 ``` javascript
@@ -144,8 +138,8 @@ The root element for the REST plugin module is `rest`. It allows the following a
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,7 +156,7 @@ The root element for the REST plugin module is `rest`. It allows the following a
 </tr>
 <tr class="even">
 <td><p>path</p></td>
-<td><p>The path to the REST API exposed by this module. For example, if set to <code>/foo</code>, the REST API will be available at <a href="http://localhost:8080/context/rest/foo/1.0" class="uri external-link">http://localhost:8080/context/rest/foo/1.0</a>, where 1.0 is the version of the REST API.</p>
+<td><p>The path to the REST API exposed by this module. For example, if set to <code>/foo</code>, the REST API will be available at <a href="http://localhost:8080/context/rest/foo/1.0" class="uri external-link">localhost:8080/context/rest/foo/1.0</a>, where 1.0 is the version of the REST API.</p>
 <p><strong>Requred.</strong></p>
 <p><strong>Default: N/A</strong></p></td>
 </tr>
@@ -179,8 +173,8 @@ The root element for the REST plugin module is `rest`. It allows the following a
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -348,7 +342,7 @@ To get the same behaviour for JSON you need to either annotate each field with `
     -   <a href="https://jsr311.java.net/nonav/releases/1.0/index.html" class="external-link">1.0 API</a>
 -   <a href="https://jersey.github.io/" class="external-link">Jersey home page</a>
     -   <a href="https://jersey.github.io/documentation/1.19.1/index.html" class="external-link">Wiki</a>
-    -   1.0.3 API (<a href="https://jersey.github.io/apidocs/1.0.3/jersey/index.html" class="uri external-link">https://jersey.github.io/apidocs/1.0.3/jersey/index.html</a>) (implements JAX-RS 1.0)
+    -   <a href="https://jersey.github.io/apidocs/1.0.3/jersey/index.html" class="uri external-link">1.0.3 API</a> (implements JAX-RS 1.0)
     -   <a href="https://blogs.oracle.com/enterprisetechtips/entry/configuring_json_for_restful_web" class="external-link">Configuring JSON for RESTful Web Services in Jersey 1.0</a>
 
 ##### RELATED TOPICS
@@ -357,201 +351,3 @@ To get the same behaviour for JSON you need to either annotate each field with `
 [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)  
 [Guidelines for Atlassian REST API Design](https://developer.atlassian.com/display/REST/Guidelines+for+Atlassian+REST+API+Design)  
 [Atlassian Plugin Framework Documentation](https://developer.atlassian.com/display/PLUGINFRAMEWORK)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

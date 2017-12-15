@@ -123,245 +123,46 @@ Some descriptors require additional configuration:
 
     ``` xml
     <filter-mapping>
-            <filter-name>my-request-encoder</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
-        <filter-mapping>
-            <filter-name>filter-plugin-dispatcher-after-encoding</filter-name>
-            <url-pattern>/*</url-pattern>    
-        </filter-mapping>
-        
-        <filter-mapping>
-            <filter-name>my-url-rewriter</filter-name>
-            <url-pattern>/foo/*</url-pattern>
-        </filter-mapping>
+        <filter-name>my-request-encoder</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter-plugin-dispatcher-after-encoding</filter-name>
+        <url-pattern>/*</url-pattern>    
+    </filter-mapping>
+    
+    <filter-mapping>
+        <filter-name>my-url-rewriter</filter-name>
+        <url-pattern>/foo/*</url-pattern>
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>filter-plugin-dispatcher-before-login</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter-plugin-dispatcher-before-login</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>my-login-filter</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>my-login-filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>filter-plugin-dispatcher-before-decoration</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter-plugin-dispatcher-before-decoration</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>my-decorating-filter</filter-name>
-            <url-pattern>/*</url-pattern>
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>my-decorating-filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>filter-plugin-dispatcher-before-dispatch</filter-name>
-            <url-pattern>/*</url-pattern>    
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter-plugin-dispatcher-before-dispatch</filter-name>
+        <url-pattern>/*</url-pattern>    
+    </filter-mapping>
 
-        <filter-mapping>
-            <filter-name>my-web-framework</filter-name>
-            <url-pattern>/*</url-pattern>    
-        </filter-mapping>
+    <filter-mapping>
+        <filter-name>my-web-framework</filter-name>
+        <url-pattern>/*</url-pattern>    
+    </filter-mapping>
     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

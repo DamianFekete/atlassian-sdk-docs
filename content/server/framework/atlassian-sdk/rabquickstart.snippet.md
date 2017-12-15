@@ -23,19 +23,3 @@ Already using the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working
 4.  Choose an API from the dropdown list at the top left of the screen.
 5.  Choose a resource from the list on the left of the screen. The REST API Browser will show you the methods (GET, POST, PUT, etc) and the parameters available for that resource.
 6.  To test the resource, enter the parameter values as prompted then click **Execute**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

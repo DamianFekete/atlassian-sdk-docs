@@ -18,8 +18,8 @@ title: Making your own Activity Streams provider
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 70%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -40,8 +40,6 @@ title: Making your own Activity Streams provider
 </tr>
 </tbody>
 </table>
-
- 
 
 ## Overview
 
@@ -65,7 +63,7 @@ We encourage you to work through this tutorial. If you want to skip ahead or che
 $ git clone https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample
 ```
 
-Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample" class="uri external-link">https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample</a>.
+Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/atlassian_tutorial/jira-external-provider-sample" class="uri external-link">bitbucket.org/atlassian_tutorial/jira-external-provider-sample</a>.
 
 ## Step 1. Set up your plugin project
 
@@ -79,8 +77,8 @@ This is the required implementation for a plugin that inserts items in Activity 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 70%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -90,12 +88,12 @@ This is the required implementation for a plugin that inserts items in Activity 
 </tbody>
 </table>
 
-Optionally, you can add these implementations as needed:
+### Optionally, you can add these implementations as needed:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 70%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -122,78 +120,75 @@ Optionally, you can add these implementations as needed:
 It looks something like this, with the nested elements being optional based on whether you are using them or not:
 
 ``` xml
-    <activity-streams-provider key="external-provider" name="External Provider" i18n-name-key="streams.external.provider.name"
-                       class="com.atlassian.streams.ExternalStreamsActivityProvider">
-        <filter-provider class="com.atlassian.streams.ExternalFilterOptionProvider" />
-        <validator class="com.atlassian.streams.ExternalStreamsValidator" />
-        <key-provider class="com.atlassian.streams.ExternalStreamsKeyProvider" />
-        <comment-handler class="com.atlassian.streams.ExternalStreamsCommentHandler" />
-    </activity-streams-provider>
+<activity-streams-provider key="external-provider" name="External Provider" i18n-name-key="streams.external.provider.name"
+                    class="com.atlassian.streams.ExternalStreamsActivityProvider">
+    <filter-provider class="com.atlassian.streams.ExternalFilterOptionProvider" />
+    <validator class="com.atlassian.streams.ExternalStreamsValidator" />
+    <key-provider class="com.atlassian.streams.ExternalStreamsKeyProvider" />
+    <comment-handler class="com.atlassian.streams.ExternalStreamsCommentHandler" />
+</activity-streams-provider>
 ```
-
- 
 
 ## Step 4. Make a feed item (a StreamsEntry)
 
 In your StreamsActivityProvider.getActivityFeed implementation, you will need to create the entries for the items you want to appear in the stream. The sample plugin does this in ExternalStreamsActivityProvider:
 
 ``` java
-    /**
-     * Transforms a single {@link AuditLogEntry} to a {@link StreamsEntry}.
-     * @param auditLogEntry the log entry
-     * @return the transformed streams entry
-     */
-    private StreamsEntry toStreamsEntry(final AuditLogEntry auditLogEntry)
+/**
+    * Transforms a single {@link AuditLogEntry} to a {@link StreamsEntry}.
+    * @param auditLogEntry the log entry
+    * @return the transformed streams entry
+    */
+private StreamsEntry toStreamsEntry(final AuditLogEntry auditLogEntry)
+{
+    final URI fakeUri = URI.create("http://example.com");
+
+    StreamsEntry.ActivityObject activityObject = new StreamsEntry.ActivityObject(StreamsEntry.ActivityObject.params()
+                                                                    .id("").alternateLinkUri(URI.create(""))
+                                                                    .activityObjectType(upmEvent()));
+
+    final UserProfile userProfile = userProfileAccessor.getUserProfile(auditLogEntry.getUsername());
+
+    StreamsEntry.Renderer renderer = new StreamsEntry.Renderer()
     {
-        final URI fakeUri = URI.create("http://example.com");
-
-        StreamsEntry.ActivityObject activityObject = new StreamsEntry.ActivityObject(StreamsEntry.ActivityObject.params()
-                                                                     .id("").alternateLinkUri(URI.create(""))
-                                                                     .activityObjectType(upmEvent()));
-
-        final UserProfile userProfile = userProfileAccessor.getUserProfile(auditLogEntry.getUsername());
-
-        StreamsEntry.Renderer renderer = new StreamsEntry.Renderer()
+        public Html renderTitleAsHtml(StreamsEntry entry)
         {
-            public Html renderTitleAsHtml(StreamsEntry entry)
-            {
-                String userHtml = (userProfile.getProfilePageUri().isDefined()) ? "<a href=\""+userProfile.getProfilePageUri().get()+"\"  class=\"activity-item-user activity-item-author\">" + userProfile.getUsername() + "</a>" : userProfile.getUsername();
-                return new Html(userHtml + " " + auditLogEntry.getTitle(i18nResolver));
-            }
+            String userHtml = (userProfile.getProfilePageUri().isDefined()) ? "<a href=\""+userProfile.getProfilePageUri().get()+"\"  class=\"activity-item-user activity-item-author\">" + userProfile.getUsername() + "</a>" : userProfile.getUsername();
+            return new Html(userHtml + " " + auditLogEntry.getTitle(i18nResolver));
+        }
 
-            public Option<Html> renderSummaryAsHtml(StreamsEntry entry)
-            {
-                return Option.none();
-            }
+        public Option<Html> renderSummaryAsHtml(StreamsEntry entry)
+        {
+            return Option.none();
+        }
 
-            public Option<Html> renderContentAsHtml(StreamsEntry entry)
-            {
-                return Option.none();
-            }
-        };
+        public Option<Html> renderContentAsHtml(StreamsEntry entry)
+        {
+            return Option.none();
+        }
+    };
 
-        ActivityVerb verb = ExternalFilterOptionProvider.ExternalUPMActivityVerbs.getVerbFromEntryType(auditLogEntry.getEntryType());
+    ActivityVerb verb = ExternalFilterOptionProvider.ExternalUPMActivityVerbs.getVerbFromEntryType(auditLogEntry.getEntryType());
 
-        StreamsEntry streamsEntry = new StreamsEntry(StreamsEntry.params()
-                .id(fakeUri)
-                .postedDate(new DateTime(auditLogEntry.getDate()))
-                .authors(ImmutableNonEmptyList.of(userProfile))
-                .addActivityObject(activityObject)
-                .verb(verb)
-                .addLink(URI.create(webResourceManager.getStaticPluginResource(
-                                   "com.atlassian.streams.external-provider-sample:externalProviderWebResources",
-                                   "puzzle-piece.gif",
-                                   UrlMode.ABSOLUTE)),
-                        StreamsActivityProvider.ICON_LINK_REL,
-                        none(String.class))
-                .alternateLinkUri(fakeUri)
-                .renderer(renderer)
-                .applicationType(applicationProperties.getDisplayName()), i18nResolver);
-        return streamsEntry;
-    }
+    StreamsEntry streamsEntry = new StreamsEntry(StreamsEntry.params()
+            .id(fakeUri)
+            .postedDate(new DateTime(auditLogEntry.getDate()))
+            .authors(ImmutableNonEmptyList.of(userProfile))
+            .addActivityObject(activityObject)
+            .verb(verb)
+            .addLink(URI.create(webResourceManager.getStaticPluginResource(
+                                "com.atlassian.streams.external-provider-sample:externalProviderWebResources",
+                                "puzzle-piece.gif",
+                                UrlMode.ABSOLUTE)),
+                    StreamsActivityProvider.ICON_LINK_REL,
+                    none(String.class))
+            .alternateLinkUri(fakeUri)
+            .renderer(renderer)
+            .applicationType(applicationProperties.getDisplayName()), i18nResolver);
+    return streamsEntry;
+}
 ```
 
-  
 Here are some examples of the renderer implementation that show where method results end up in the gadget.
 
 ``` java
@@ -248,314 +243,3 @@ The sample plugin adds entries from the UPM (Universal Plugin Manager) audit log
 Additionally, if you specify filters in your implementation of `StreamsFilterOptionProvider`, you can have your own provider-specific Activity Streams filters. The sample plugin includes filters for various kinds of plugin activity.
 
 ![](/server/framework/atlassian-sdk/images/activity-filters.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -17,8 +17,8 @@ title: Servlet Context Listener plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -28,10 +28,6 @@ title: Servlet Context Listener plugin module
 </tr>
 </tbody>
 </table>
-
- 
-
- 
 
 ## Purpose of this Module Type
 
@@ -45,8 +41,8 @@ The root element for the Servlet Context Listener plugin module is **`servlet-co
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,11 +69,10 @@ The root element for the Servlet Context Listener plugin module is **`servlet-co
 <tr class="even">
 <td><p>key</p></td>
 <td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<pre><code>&lt;component-import 
+  key=&quot;appProps&quot; 
+  interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
- 
 <p>I.e. the identifier of the context listener.</p></td>
 </tr>
 <tr class="odd">
@@ -98,7 +93,7 @@ The root element for the Servlet Context Listener plugin module is **`servlet-co
 
 #### Elements
 
--   description - The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. I.e. the description of the listener.
+-   **description** - The description of the plugin module. The 'key' attribute can be specified to declare a localisation key for the value instead of text in the element body. I.e. the description of the listener.
 
 ## Example
 
@@ -131,195 +126,3 @@ Some information to be aware of when developing or configuring a Servlet Context
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

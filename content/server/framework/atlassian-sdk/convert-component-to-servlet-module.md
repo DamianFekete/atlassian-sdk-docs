@@ -18,8 +18,6 @@ title: Convert component to servlet module
 
 In this tutorial, you'll build an interactive dialogue with your plugin. When you generated the plugin skeleton, the Atlassian SDK automatically created a class called `MyPluginComponent`. However, to better fit your interactive plugin, you'll change your Java code to replace the component with a servlet module. 
 
- 
-
 ## Learn a bit about about component modules
 
 Component modules define specific Java components. The plugin system then injects these modules into your plugin for you, using the Spring framework of the Atlassian container. A component module is part of a page, while a servlet is an entire server-side page. This makes a servlet more suitable for your interactive plugin.
@@ -171,244 +169,22 @@ You've created a skeleton for your add-on and configured a servlet in Eclipse. N
     ```
 
 4.  Copy the URL and paste it into your browser.   
-    The URL will resemble **<a href="http://localhost:5990/refapp/plugins/servlet" class="external-link">http://localhost:5990/refapp</a>.**  
-    **  
-    **
+    The URL will resemble **<a href="http://localhost:5990/refapp/plugins/servlet" class="external-link">localhost:5990/refapp</a>.**  
+   
 5.  Click **Login** from the upper right-hand corner.  
       
 6.  Log in with the username `admin` and the password `admin`.  
       
-7.  Navigate to the `servlet` at **<a href="http://localhost:5990/refapp/plugins/servlet/test" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/test</a>.**  
+7.  Navigate to the `servlet` at **<a href="http://localhost:5990/refapp/plugins/servlet/test" class="uri external-link">localhost:5990/refapp/plugins/servlet/test</a>.**  
     The servlet loads. Your screen should display the following message:  
     ![](/server/framework/atlassian-sdk/images/2.6.jpeg)
 
-    {{% note %}}
+{{% note %}}
 
-    If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
+If you don't see the message, ensure you ran `atlas-mvn eclipse:eclipse` to update your project. If the problem persists, restart the RefApp from terminal with the command `CTRL+D, atlas-clean,` and then `atlas-run`.
 
-    {{% /note %}}
+{{% /note %}}
 
 ## Next Steps
 
 Now that your plugin skeleton is built and your servlet configured, [run the plugin in JIRA.](/server/framework/atlassian-sdk/run-your-plugin-in-the-container)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

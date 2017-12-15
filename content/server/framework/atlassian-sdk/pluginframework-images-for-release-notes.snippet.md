@@ -225,38 +225,3 @@ Upload file
 File description
 
 <a href="/pages/downloadallattachments.action?pageId=852105" class="download-all-link" title="Download all the latest versions of attachments on this page as single zip file.">Download All</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

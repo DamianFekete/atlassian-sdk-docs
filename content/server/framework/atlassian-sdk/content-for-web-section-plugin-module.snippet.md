@@ -294,36 +294,3 @@ Here is an example `atlassian-plugin.xml` file containing a single web section, 
 ```
 
 NOTE: In versions before JIRA 3.7, this class is called `com.atlassian.jira.plugin.web.conditions.UserIsAdminCondition`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

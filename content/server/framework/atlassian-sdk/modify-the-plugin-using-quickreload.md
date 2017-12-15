@@ -18,8 +18,6 @@ title: Modify the plugin using QuickReload
 
 So far you've discovered that you can [create a plugin](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project) for JIRA and you can [make changes to that plugin](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/modify-the-plugin), however starting and stopping JIRA can take several minutes each time.  QuickReload significantly reduces your plugin development iteration time by watching output directories for P2 JAR files and then uploads them into the running host application.  
 
- 
-
 ## Step 1. Check QuickReload is enabled in your pom
 
 1.  Open the `pom.xml` in your favourite text editor.
@@ -41,9 +39,7 @@ So far you've discovered that you can [create a plugin](https://developer.atlass
                     <enableFastdev>false</enableFastdev>
                     ...
     ```
-
     Confirm that `<enableQuickReload>` is set to **true** and `<enableFastdev>` is set to **false**.  If not, update the pom to match the example above and then save your changes. 
-
 3.  Open a **Command Prompt** window, and navigate to your` myPlugin` directory.  
 4.  Enter the `atlas-run` command and wait for JIRA to start up.
 5.  Login to JIRA and confirm that you can see the** myItem** menu which does not have a drop down menu when clicked.
@@ -87,12 +83,12 @@ So far you've discovered that you can [create a plugin](https://developer.atlass
     [INFO] [talledLocalContainer]     Quick Reload Finished (1727 ms) - 'myPlugin-1.0.0-SNAPSHOT.jar'
     ```
 
-6.  Reload <a href="http://localhost:2990/jira" class="uri external-link">http://localhost:2990/jira</a> in your browser window, and you'll see that your menu is now showing the changes you just made:  
+6.  Reload <a href="http://localhost:2990/jira" class="uri external-link">localhost:2990/jira</a> in your browser window, and you'll see that your menu is now showing the changes you just made:  
     <img src="/server/framework/atlassian-sdk/images/myplugin---atlassian-developer-site-menu-item.png" title="Atlassian Developers Site menu item in JIRA 7.2.2" alt="Atlassian Developers Site menu item in JIRA 7.2.2" width="680" height="178" />
 
 ## Need Help?
 
- The source code for this tutorial is available on Bitbucket at <a href="https://bitbucket.org/serverecosystem/myplugin" class="uri external-link">https://bitbucket.org/serverecosystem/myplugin</a>
+ The source code for this tutorial is available on Bitbucket at <a href="https://bitbucket.org/serverecosystem/myplugin" class="uri external-link">bitbucket.org/serverecosystem/myplugin</a>
 
 Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/atlassian-sdk/getting-started-tutorial-faq)
 
@@ -120,212 +116,3 @@ The following resources will allow you to learn more about some of the tasks we 
 -   [Working with the POM](/server/framework/atlassian-sdk/working-with-the-pom)
 -   [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
 -   [Writing and Running Plugin Tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

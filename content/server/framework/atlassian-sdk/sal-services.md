@@ -19,7 +19,7 @@ Below is a list of the services provided by the Atlassian [Shared Access Layer](
 
 ## Service Descriptions and Examples
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api`
 
 #### `ApplicationProperties`
 
@@ -44,7 +44,7 @@ return applicationProperties.getBaseUrl();
 }
 ```
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.auth`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.auth`
 
 #### `AuthenticationController`
 
@@ -62,25 +62,25 @@ Marker interface for classes that can authenticate requests.
 
 Provides the URI to redirect users to so that they can log in before they can authorise consumer requests to access their data.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.component`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.component`
 
 #### `ComponentLocator`
 
 Gives access to the application's component container instances.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.executor`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.executor`
 
 #### `ThreadLocalDelegateExecutorFactory`
 
 Factory to create Executor instances that delegate to a specific Executor and ensure the executed code runs in the same thread local context.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.license`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.license`
 
 #### `LicenseHandler`
 
 Handles setting and retrieving the application's license.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.lifecycle`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.lifecycle`
 
 #### `LifecycleAware`
 
@@ -90,7 +90,7 @@ Marks a class that wants to execute code on certain application-level lifecycle 
 
 Interface to be used to trigger lifecycle events. Handles lifecycle events by calling LifecycleAware methods on registered beans.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.message`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.message`
 
 #### `I18nResolver`
 
@@ -108,7 +108,7 @@ Encapsulates a message before it has been resolved via an I18N resolver.
 
 A collection of messages that have not been resolved.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.net`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.net`
 
 #### `Request`
 
@@ -165,13 +165,13 @@ Exception thrown by `Request#execute(ResponseHandler)` and `Request#handle(Respo
 
 Callback interface used by `Request#execute(ResponseHandler)` method. Implementation of this interface performs actual handling of the response.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.net.auth`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.net.auth`
 
 #### `Authenticator`
 
 Marker interface for an authenticator.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.pluginsettings`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.pluginsettings`
 
 #### `PluginSettings`
 
@@ -182,26 +182,26 @@ Example -- Saving and retrieving custom settings per project:
 ``` java
 public class CustomProjectSettings
 {
-private final PluginSettingsFactory pluginSettingsFactory;
-private final String projectKey;
+    private final PluginSettingsFactory pluginSettingsFactory;
+    private final String projectKey;
 
-public CustomProjectSettings(final PluginSettingsFactory pluginSettingsFactory, final String projectKey)
-{
-this.pluginSettingsFactory = pluginSettingsFactory;
-this.projectKey = projectKey;
-}
+    public CustomProjectSettings(final PluginSettingsFactory pluginSettingsFactory, final String projectKey)
+    {
+    this.pluginSettingsFactory = pluginSettingsFactory;
+    this.projectKey = projectKey;
+    }
 
-public void setValue(final String key, final String value)
-{
-final PluginSettings settings = pluginSettingsFactory.createSettingsForKey(projectKey);
-settings.put(key, value);
-}
+    public void setValue(final String key, final String value)
+    {
+    final PluginSettings settings = pluginSettingsFactory.createSettingsForKey(projectKey);
+    settings.put(key, value);
+    }
 
-public Object getValue(final String key)
-{
-final PluginSettings settings = pluginSettingsFactory.createSettingsForKey(projectKey);
-return settings.get(key);
-}
+    public Object getValue(final String key)
+    {
+    final PluginSettings settings = pluginSettingsFactory.createSettingsForKey(projectKey);
+    return settings.get(key);
+    }
 }
 ```
 
@@ -209,13 +209,13 @@ return settings.get(key);
 
 One feature provided by SAL is storage of plugin settings, for global and project-specific settings. You will create a `PluginSettings` object via a `PluginSettingsFactory`, which uses the <a href="http://en.wikipedia.org/wiki/Abstract_factory_pattern" class="external-link">abstract factory pattern</a>. Refer to the developer blog post on <a href="http://blogs.atlassian.com/developer/2009/01/post_1.html" class="external-link">Storing plugin settings with the abstract factory pattern</a>.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.project`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.project`
 
 #### `ProjectManager`
 
 Provides a list of projects. A project may represent different things depending on the application. For example, in Confluence it is a space, in Bamboo it is a build plan, and in JIRA it is a project.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.scheduling`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.scheduling`
 
 #### `PluginJob`
 
@@ -225,7 +225,7 @@ A job to be executed by the PluginScheduler.
 
 Schedules plugin jobs programmatically.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search`
 
 #### `ResourceType`
 
@@ -243,13 +243,13 @@ Executes search queries. Allows for simple string based searches in an applicati
 
 Provides searchresults for a query.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search.parameter`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search.parameter`
 
 #### `SearchParameter`
 
 Allows you to specify additional properties for a search as string value pairs. For example this could specify a `fixforversion=3.12` in JIRA, or `application=crucible` in FishEye.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search.query`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.search.query`
 
 #### `SearchQuery`
 
@@ -259,7 +259,7 @@ Utility to help with creating a query string.
 
 Parses a search query.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.transaction`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.transaction`
 
 #### `TransactionCallback`
 
@@ -267,14 +267,14 @@ A simple callback that needs to be provided with an action to run in the `doInTr
 
 #### `TransactionTemplate`
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.timezone`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.timezone`
 
 #### `TimeZoneManager`
 
 Available since SAL 2.6.  
 Provides timezone information about the users and about the application.
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.upgrade`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.upgrade`
 
 #### `PluginUpgradeManager`
 
@@ -282,7 +282,7 @@ Provides a plugin upgrade framework that will recognise `PluginUpgradeTask` task
 
 #### `PluginUpgradeTask`
 
-### ![](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.user`
+### ![Package](/server/framework/atlassian-sdk/images/package2.gif) `com.atlassian.sal.api.user`
 
 #### `UserManager`
 
@@ -298,1472 +298,242 @@ The matrix below shows the services available to each version of the Atlassian a
 -   YES shows that the SAL service is available to the relevant version of the application.
 -   NO means that the service is not available to the relevant version of the application.
 
-![](/server/framework/atlassian-sdk/images/package2.gif) **com.atlassian.sal.api**
+![Package](/server/framework/atlassian-sdk/images/package2.gif) **com.atlassian.sal.api**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>ApplicationProperties</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+|SAL Service           |ApplicationProperties|
+|----------------------|---------------------|
+|JIRA 3.13             |YES                  |
+|(JIRA 4.0)            |YES                  |
+|Confluence            |YES                  |
+|FishEye/Crucible 1.6.5|YES                  |
+|FishEye/Crucible 2.0  |YES                  |
+|Crowd 2.0             |YES                  |
+|Bamboo 2.3            |YES                  |
+|RefImpl               |YES                  |
 
-**  
-**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.auth**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.auth**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>AuthenticationController</strong></p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>AuthenticationListener</strong></p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>NO<br />
- </p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-</tr>
-<tr class="odd">
-<td><p>Authenticator </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LoginUriProvider</strong></p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-</tr>
-</tbody>
-</table>
-
+|SAL Service           |ApplicationController, ApplicationListener, LoginUriProvider|Authenticator|
+|----------------------|------------------------------------------------------------|-------------|
+|JIRA 3.13             |NO                                                          |             |
+|(JIRA 4.0)            |NO                                                          |             |
+|Confluence            |YES                                                         |             |
+|FishEye/Crucible 1.6.5|NO                                                          |             |
+|FishEye/Crucible 2.0  |NO                                                          |             |
+|Crowd 2.0             |NO                                                          |             |
+|Bamboo 2.3            |YES                                                         |             |
+|RefImpl               |NO                                                          |             |
  
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.component**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.component**
+|SAL Service           |ComponentLocator|
+|----------------------|----------------|
+|JIRA 3.13             |YES             |
+|(JIRA 4.0)            |YES             |                  
+|Confluence            |YES             |                  
+|FishEye/Crucible 1.6.5|YES             |                  
+|FishEye/Crucible 2.0  |YES             |                  
+|Crowd 2.0             |YES             |
+|Bamboo 2.3            |YES             |
+|RefImpl               |YES             |
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>ComponentLocator</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.executor**
 
- 
+|SAL Service           |ThreadLocalDelegateExecutorFactory|
+|----------------------|----------------|
+|JIRA 3.13             |YES             |
+|(JIRA 4.0)            |YES             |                  
+|Confluence            |YES             |                  
+|FishEye/Crucible 1.6.5|YES             |                  
+|FishEye/Crucible 2.0  |YES             |                  
+|Crowd 2.0             |NO              |
+|Bamboo 2.3            |YES             |
+|RefImpl               |YES             |
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.executor**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.license**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>ThreadLocalDelegateExecutorFactory</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+|SAL Service           |LicenseHandler  |
+|----------------------|----------------|
+|JIRA 3.13             |YES             |
+|(JIRA 4.0)            |YES             |                  
+|Confluence            |YES             |                  
+|FishEye/Crucible 1.6.5|YES             |                  
+|FishEye/Crucible 2.0  |YES             |                  
+|Crowd 2.0             |YES             |
+|Bamboo 2.3            |NO              |
+|RefImpl               |YES             |
 
- 
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.lifecycle**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.license**
+|SAL Service           |LifecycleManager|LifecycleAware|
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>LicenseHandler</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+**![Package](/server/framework/atlassian-sdk/images/package2.gif)com.atlassian.sal.api.message**
 
- 
-
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.lifecycle**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>LifecycleAware</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LifecycleManager</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
-**![](/server/framework/atlassian-sdk/images/package2.gif)com.atlassian.sal.api.message**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>I18nResolver</strong></p></td>
-<td><p>YES</p></td>
-<td><p>?</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>LocaleResolver</strong></p></td>
-<td><p>YES</p></td>
-<td><p>?</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="odd">
-<td><p>Message</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>MessageCollection</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-
- 
+|SAL Service           |I18nResolver, LocaleResolver|Message, MessageCollection|
+|----------------------|------------------------------------------------------------|-------------|
+|JIRA 3.13             |YES                                                          |             |
+|(JIRA 4.0)            |?                                                          |             |
+|Confluence            |YES                                                         |             |
+|FishEye/Crucible 1.6.5|YES                                                          |             |
+|FishEye/Crucible 2.0  |YES                                                          |             |
+|Crowd 2.0             |YES                                                          |             |
+|Bamboo 2.3            |YES                                                         |             |
+|RefImpl               |YES                                                          |             |
 
 **<a href="http://com.atlassian.sal.api.net/" class="external-link"><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net</a>**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Request</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RequestFactory</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>?</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="odd">
-<td><p>Response</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>ResponseException</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>ResponseHandler</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-
+|SAL Service           |RequestFactory|Request, Response, ResponseException, ResponseHandler|
+|----------------------|--------------|-----------------------------------------------------|
+|JIRA 3.13             |YES           |                                                     |
+|(JIRA 4.0)            |YES           |                                                     |
+|Confluence            |YES           |                                                     |
+|FishEye/Crucible 1.6.5|YES           |                                                     |
+|FishEye/Crucible 2.0  |YES           |                                                     |
+|Crowd 2.0             |YES           |                                                     |
+|Bamboo 2.3            |?             |                                                     |
+|RefImpl               |YES           |                                                     |
  
 
 **<a href="http://com.atlassian.sal.api.net/" class="external-link"><img src="/server/framework/atlassian-sdk/images/package2.gif" /> com.atlassian.sal.api.net</a>.auth**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Authenticator</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-
+|SAL Service           |Authenticator|
+|----------------------|-------------|
+|JIRA 3.13             |             |             
+|(JIRA 4.0)            |             |      
+|Confluence            |             |          
+|FishEye/Crucible 1.6.5|             |          
+|FishEye/Crucible 2.0  |             |           
+|Crowd 2.0             |             |            
+|Bamboo 2.3            |             |           
+|RefImpl               |             |            
  
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.pluginsettings**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.pluginsettings**
+|SAL Service           |PluginSettingsFactory|PluginSettings|
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>PluginSettings</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>PluginSettingsFactory</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.project**
 
- 
+|SAL Service           |ProjectManager       |
+|----------------------|---------------------|
+|JIRA 3.13             |YES                  |
+|(JIRA 4.0)            |YES                  |
+|Confluence            |YES                  |
+|FishEye/Crucible 1.6.5|YES                  |
+|FishEye/Crucible 2.0  |YES                  |
+|Crowd 2.0             |YES                  |
+|Bamboo 2.3            |YES                  |
+|RefImpl               |YES                  |
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.project**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.scheduling**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>ProjectManager</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+|SAL Service           |PluginScheduler |PluginJob    |
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
-**  
-**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.scheduling**
+|SAL Service           |SearchProvider|ResourceType, SearchMatch, SearchResults             |
+|----------------------|--------------|-----------------------------------------------------|
+|JIRA 3.13             |YES           |                                                     |
+|(JIRA 4.0)            |YES           |                                                     |
+|Confluence            |YES           |                                                     |
+|FishEye/Crucible 1.6.5|YES           |                                                     |
+|FishEye/Crucible 2.0  |YES           |                                                     |
+|Crowd 2.0             |YES           |                                                     |
+|Bamboo 2.3            |NO            |                                                     |
+|RefImpl               |YES           |                                                     |
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>PluginJob</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>PluginScheduler</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.parameter**
 
- 
+|SAL Service           |SearchParameter|
+|----------------------|-------------|
+|JIRA 3.13             |             |             
+|(JIRA 4.0)            |             |      
+|Confluence            |             |          
+|FishEye/Crucible 1.6.5|             |          
+|FishEye/Crucible 2.0  |             |           
+|Crowd 2.0             |             |            
+|Bamboo 2.3            |             |           
+|RefImpl               |             |
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.query**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>ResourceType</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>SearchMatch</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>SearchProvider</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="even">
-<td><p>SearchResults</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
+|SAL Service           |SearchQueryParser|SearchQuery |
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |NO              |             |
+|RefImpl               |YES             |             |
 
- 
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.transaction**
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.parameter**
+|SAL Service           |TransactionTemplate|TransactionCallback|
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>SearchParameter</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
+**![Package](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.upgrade**
 
- 
+|SAL Service           |PluginUpgradeManager|PluginUpgradeTask|
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.search.query**
+**![Package](/server/framework/atlassian-sdk/images/package2.gif)com.atlassian.sal.api.user**
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>SearchQuery</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>SearchQueryParser</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>NO</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.transaction**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>TransactionCallback</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p><strong>TransactionTemplate </strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
-**![](/server/framework/atlassian-sdk/images/package2.gif) com.atlassian.sal.api.upgrade**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>PluginUpgradeManager</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="even">
-<td><p>PluginUpgradeTask</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-
- 
-
-![](/server/framework/atlassian-sdk/images/package2.gif)**com.atlassian.sal.api.user**
-
-<table style="width:100%;">
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>SAL Service</p></th>
-<th><p>JIRA<br />
-3.13</p></th>
-<th><p>(JIRA<br />
-4.0)</p></th>
-<th><p>Confluence<br />
-3.0</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-1.6.5</p></th>
-<th><p>FishEye/<br />
-Crucible<br />
-2.0</p></th>
-<th><p>Crowd<br />
-2.0</p></th>
-<th><p>Bamboo<br />
-2.3</p></th>
-<th><p>RefImpl</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>UserManager</strong></p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-<td><p>YES</p></td>
-</tr>
-<tr class="even">
-<td><p>UserResolutionException</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td> </td>
-</tr>
-</tbody>
-</table>
+|SAL Service           |UserManager|UserResolutionException|
+|----------------------|----------------|-------------|
+|JIRA 3.13             |YES             |             |
+|(JIRA 4.0)            |YES             |             |
+|Confluence            |YES             |             |
+|FishEye/Crucible 1.6.5|YES             |             |
+|FishEye/Crucible 2.0  |YES             |             |
+|Crowd 2.0             |YES             |             |
+|Bamboo 2.3            |YES             |             |
+|RefImpl               |YES             |             |
 
 ##### RELATED TOPICS
 
 <a href="http://docs.atlassian.com/sal-api/" class="external-link">Javadoc</a>  
 [About SAL Development](/server/framework/atlassian-sdk/about-sal-development)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

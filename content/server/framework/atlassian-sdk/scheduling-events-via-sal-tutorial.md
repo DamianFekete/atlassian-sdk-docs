@@ -49,7 +49,7 @@ We encourage you to work through this tutorial. If you want to skip ahead or che
 $ git clone https://atlassian_tutorial@bitbucket.org/atlassian_tutorial/jira-scheduled-events.git
 ```
 
-Alternatively, you can download the source using the **Downloads** page here: <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events" class="uri external-link">https://bitbucket.org/atlassian_tutorial/jira-scheduled-events</a>
+Alternatively, you can download the source using the **Downloads** page here: <a href="https://bitbucket.org/atlassian_tutorial/jira-scheduled-events" class="uri external-link">bitbucket.org/atlassian_tutorial/jira-scheduled-events</a>
 
 ## Required Knowledge
 
@@ -145,21 +145,21 @@ $
 In this tutorial we are using both SAL and the open source Java Twitter library <a href="http://twitter4j.org" class="external-link">twitter4j</a>. Add both to the `pom.xml` file:
 
 ``` xml
-    <dependencies>
-...
-        <dependency>
-            <groupId>net.homeip.yusuke</groupId>
-            <artifactId>twitter4j</artifactId>
-            <version>2.0.10</version>
-        </dependency>
-        <dependency>
-            <groupId>com.atlassian.sal</groupId>
-            <artifactId>sal-api</artifactId>
-            <version>2.0.0</version>
-            <scope>provided</scope>
-        </dependency>
-...
-    </dependencies>
+<dependencies>
+    ...
+    <dependency>
+        <groupId>net.homeip.yusuke</groupId>
+        <artifactId>twitter4j</artifactId>
+        <version>2.0.10</version>
+    </dependency>
+    <dependency>
+        <groupId>com.atlassian.sal</groupId>
+        <artifactId>sal-api</artifactId>
+        <version>2.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+    ...
+</dependencies>
 ```
 
 ## Step 3. Import the SAL scheduler component to the Plugin Descriptor
@@ -167,10 +167,10 @@ In this tutorial we are using both SAL and the open source Java Twitter library 
 For the plugin framework to be able to inject the SAL `PluginScheduler`, we need to import the component explicitly in `atlassian-plugin.xml`, so add the following element:
 
 ``` xml
-    <component-import key="pluginScheduler">
-        <description>SAL Scheduler</description>
-        <interface>com.atlassian.sal.api.scheduling.PluginScheduler</interface>
-    </component-import>
+<component-import key="pluginScheduler">
+    <description>SAL Scheduler</description>
+    <interface>com.atlassian.sal.api.scheduling.PluginScheduler</interface>
+</component-import>
 ```
 
 ## Step 4. Write the Background Task
@@ -325,8 +325,6 @@ Notice the explicit declaration of the `com.atlassian.sal.api.lifecycle.Lifecycl
   
 At this point your should have your scheduled event working, complete with Twitter search!  
 Start JIRA, connect your debugger and place a breakpoint in your component's constructor, its `reschedule()` method and your job's `execute()` method and watch it go.
-
- 
 
 {{% note %}}
 
@@ -554,292 +552,3 @@ $ mvn jira:run
 <img src="/server/framework/atlassian-sdk/images/screen2.png" width="300" height="156" />
 
 <img src="/server/framework/atlassian-sdk/images/screen3.png" width="300" height="181" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

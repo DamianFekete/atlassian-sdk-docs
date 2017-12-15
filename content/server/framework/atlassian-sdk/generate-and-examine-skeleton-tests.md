@@ -24,8 +24,8 @@ You can and should test plugins using the same types of tests as you would for o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -87,8 +87,8 @@ Do the following to generate the plugin skeleton and its tests resources:
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 25%" />
+    <col style="width: 75%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -137,12 +137,10 @@ Do the following to generate the plugin skeleton and its tests resources:
 
 The `atlas-create-jira-plugin` command creates test directories and skeleton test files.   Most `atlas-create-application-plugin` commands create the following directories:
 
- 
-
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 40%" />
+<col style="width: 60%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -247,205 +245,3 @@ The `jira-tests` artifact contains the JIRA Unit tests.  The `jira-func-tests`,
 ## Next Step
 
 So far, you've learned about the generated structure created for you when you run an `atlas-create-application-plugin` command.  This structure includes test directories, files, and dependencies. This is code that Atlassian generates for all plugin developers automatically.  In the next section, you [write a simple unit test, execute the test in your plugin, and review the results](/server/framework/atlassian-sdk/create-and-run-unit-tests) of the test.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

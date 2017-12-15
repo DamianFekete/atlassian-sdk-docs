@@ -38,8 +38,6 @@ Finally, since your tests are running in the product, you can test your plugins 
 
 The Atlassian Wired Test Framework includes some enhancements that causes difference in how you use JUnit annotation inside of Atlassian Wired Tests. The following table lists these differences.
 
- 
-
 -   **Standard JUnit Test**: Requires a single zero-argument, public constructor.
 -   **Atlassian Wired Test**: Can use constructor for dependency injection.  
       
@@ -48,8 +46,6 @@ The Atlassian Wired Test Framework includes some enhancements that causes differ
       
 -   **Standard JUnit Test**: `@BeforeClass` and `@AfterClass` must annotate a `public static void` method.
 -   **Atlassian Wired Test**: `@BeforeClass` and `@AfterClass `must ***not*** annotate a static method. These methods ***should*** annotate a `public void` method.
-
- 
 
 The `@Before` and `@After` annotations remain the same both in standard and wired tests; they annotate `public void` methods.
 
@@ -65,7 +61,7 @@ If you have followed along through this tutorial, you should already have the co
     <dependencies>
     ....
 
-       <!-- WIRED TEST RUNNER DEPENDENCIES -->
+      <!-- WIRED TEST RUNNER DEPENDENCIES -->
       <dependency>
         <groupId>com.atlassian.plugins</groupId>
         <artifactId>atlassian-plugins-osgi-testrunner</artifactId>
@@ -183,7 +179,6 @@ Now, you are ready to run the host application and view your tests in the Plugin
 9.  Press **Rerun all 3 test classes** to run your tests and display their results:  
     <img src="/server/framework/atlassian-sdk/images/test-run.png" width="700" />   
       
-
 ## Step 4. Make a Change to Your Running Test Suite
 
 Like any other Atlassian plugin, you can use the FastDev feature with your test plugin.  Try this now:
@@ -211,204 +206,3 @@ Like any other Atlassian plugin, you can use the FastDev feature with your test 
 This page taught you how to code using the Atlassian Wired Test Framework.  Tests that use this framework are plugins that use Spring dependency injection to run inside an Atlassian host application.  When you use the framework, you have access to the Plugin Test Console.  This console allows you to run test and view their results right in the application.  When your underlying test code changes, the system recognizes the change and launches FastDev to rebuild your tests.
 
 At this point, all you really need is some test data. In the next section, you learn [how to seed your host application with test data](/server/framework/atlassian-sdk/create-test-data-and-a-test-fixture).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

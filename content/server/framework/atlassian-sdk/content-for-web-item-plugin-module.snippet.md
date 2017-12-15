@@ -175,8 +175,6 @@ The tables summarises the elements. The sections below contain further informati
 
 **\*label and link elements are required.**
 
- 
-
 #### Label Elements
 
 Label elements may contain optional parameters, as shown below:
@@ -191,13 +189,9 @@ Label elements may contain optional parameters, as shown below:
 -   Parameter names must start with `param` and will be mapped in *alphabetical order* to the substitutions in the format string. I.e. param0 is {0}, param1 is {1}, param2 is {2}, etc.
 -   Parameter values are rendered using Velocity, allowing you to include dynamic content.
 
- 
-
 #### Tooltip Elements
 
 Tooltip elements have the same attributes and parameters as the label elements. See [above](#label-elements).
-
- 
 
 #### Link Elements
 
@@ -216,8 +210,6 @@ The body of the link element is its URL. The URL is rendered with Velocity, so y
 <link linkId="view-attachments-link">/pages/viewpageattachments.action?pageId=$page.id</link>
 ```
 
- 
-
 #### Icon Elements
 
 Icon elements have a `height` and a `width` attribute. The location of the icon is specified within a [link](#link-elements) element:
@@ -227,8 +219,6 @@ Icon elements have a `height` and a `width` attribute. The location of the icon 
     <link>/images/icons/print.gif</link>
 </icon>
 ```
-
- 
 
 #### Param Elements
 
@@ -397,51 +387,3 @@ Here is an example `atlassian-plugin.xml` file containing how to add your link 
     </web-item>
 </atlassian-plugin>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

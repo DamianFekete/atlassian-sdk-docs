@@ -18,8 +18,8 @@ title: Creating an admin configuration form
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -71,7 +71,7 @@ We encourage you to work through this tutorial. If you want to skip ahead or che
 git clone git@bitbucket.org:serverecosystem/xproduct-admin-ui-plugin.git
 ```
 
-Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/serverecosystem/xproduct-admin-ui-plugin" class="uri external-link">https://bitbucket.org/serverecosystem/xproduct-admin-ui-plugin</a>.
+Alternatively, you can download the source using the **get source** option here: <a href="https://bitbucket.org/serverecosystem/xproduct-admin-ui-plugin" class="uri external-link">bitbucket.org/serverecosystem/xproduct-admin-ui-plugin</a>.
 
 {{% note %}}
 
@@ -96,8 +96,8 @@ In this step, you use an `atlas-` command to generate stub code for your plugin.
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 40%" />
+    <col style="width: 60%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -217,7 +217,7 @@ This triggers the RefApp startup process. When finished, you should see output s
 
 Notice the URL for the RefApp: you can substitute your hostname for `atlas-laptop`, or simply use the URL:
 
-<a href="http://localhost:5990/refapp/" class="uri external-link">http://localhost:5990/refapp/</a>
+<a href="http://localhost:5990/refapp/" class="uri external-link">localhost:5990/refapp/</a>
 
 Open the RefApp in a browser and have a look around, although there isn't much to see yet.  
 
@@ -353,7 +353,6 @@ In `AdminServlet.java`, add the following import statement to the existing ones:
 import com.atlassian.templaterenderer.TemplateRenderer;
 ```
 
-  
 We need to instantiate the renderer object in the constructor and call it in the `doGet` method. Add the `renderer` variable declaration to the existing ones and replace the entire `AdminServlet` constructor and `doGet` method with the following:
 
 ``` java
@@ -463,7 +462,7 @@ Create a Velocity template file named `admin.vm` in the `src/main/resources`�
 
 With that done, let's test the login redirect logic we've added. Start the RefApp by running the `atlas-run` command again and go to:
 
-<a href="http://localhost:5990/refapp/plugins/servlet/xproduct/admin" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/xproduct/admin</a>
+<a href="http://localhost:5990/refapp/plugins/servlet/xproduct/admin" class="uri external-link">localhost:5990/refapp/plugins/servlet/xproduct/admin</a>
 
 A login prompt should appear. Log in using the credentials admin/admin. Once logged in, you should see the HTML in `admin.vm` rendered on the webpage.
 
@@ -961,7 +960,7 @@ That's it! We're done! Let's run it!
 
 Start your RefApp application again by entering the `atlas-run` command, or use a command below to try the application in another product. After the application starts, navigate to the plugin page by appending the plugin path to the base application URL. For example, for JIRA the path would be:
 
-<a href="http://localhost:2990/jira/plugins/servlet/xproduct/admin" class="uri external-link">http://localhost:2990/jira/plugins/servlet/xproduct/admin</a>
+<a href="http://localhost:2990/jira/plugins/servlet/xproduct/admin" class="uri external-link">localhost:2990/jira/plugins/servlet/xproduct/admin</a>
 
 The startup commands are:
 
@@ -1001,289 +1000,4 @@ Have a chocolate!
 
 <a href="http://docs.atlassian.com/atlassian-plugins-webresource/2.1.5/atlassian-plugins-webresource/apidocs/com/atlassian/plugin/webresource/WebResourceManager.html" class="external-link">WebResourceManager</a>
 
-<a href="/pages/createpage.action?spaceKey=AUI&amp;title=Forms" class="createlink">AUI class attributes</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<a href="/server/framework/atlassian-sdk/creating-an-admin-configuration-form/" class="createlink">AUI class attributes</a>

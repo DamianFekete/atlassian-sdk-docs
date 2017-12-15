@@ -17,14 +17,14 @@ title: Component Import plugin module
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><p>Available:</p></td>
 <td><p>Atlassian Plugin Framework 2.0 and later.<br />
-<em>Note</em>: The Component Import plugin module described below is available only for OSGi-based plugins using version 2 of the Atlassian Plugin Framework.</p></td>
+<em>Note:</em> The Component Import plugin module described below is available only for OSGi-based plugins using version 2 of the Atlassian Plugin Framework.</p></td>
 </tr>
 </tbody>
 </table>
@@ -41,8 +41,8 @@ The root element for the Component Import plugin module is `component-import`. I
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,12 +58,11 @@ The root element for the Component Import plugin module is `component-import`. I
 </tr>
 <tr class="even">
 <td>key</td>
-<td><p>The unique identifier of the plugin module. You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
-<p> </p>
-<pre><code>&lt;component-import key=&quot;appProps&quot; interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
-<p> </p>
+<td><p>The unique identifier of the plugin module.</p>
+<p>You refer to this key to use the resource from other contexts in your plugin, such as from the plugin Java code or JavaScript resources.</p>
+<pre><code>&lt;component-import key=&quot;appProps&quot; 
+interface=&quot;com.atlassian.sal.api.ApplicationProperties&quot;/&gt;</code></pre>
 <p>In the example, <code>appProps</code> is the key for this particular module declaration, for <code>component-import</code>, in this case.</p>
- 
 <p>That is, the identifier of the component to import.</p></td>
 </tr>
 <tr class="odd">
@@ -134,199 +133,3 @@ Some information to be aware of when developing or configuring a Component Impor
 ##### RELATED TOPICS
 
 [Plugin Modules](/server/framework/atlassian-sdk/plugin-modules)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
