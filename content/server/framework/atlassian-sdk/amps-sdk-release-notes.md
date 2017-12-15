@@ -41,6 +41,7 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 
 ### AMPS 
 
+-   [AMPS 6.3.12](/server/framework/atlassian-sdk/amps-6-3-12)
 -   [AMPS 6.3.11](/server/framework/atlassian-sdk/amps-6-3-11)
 -   [AMPS 6.3.10](/server/framework/atlassian-sdk/amps-6-3-10)
 -   [AMPS 6.3.7](/server/framework/atlassian-sdk/amps-6-3-7)
