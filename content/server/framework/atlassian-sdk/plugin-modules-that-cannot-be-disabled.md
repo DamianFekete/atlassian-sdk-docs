@@ -17,8 +17,8 @@ title: Plugin modules that cannot be disabled
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -27,8 +27,6 @@ title: Plugin modules that cannot be disabled
 </tr>
 </tbody>
 </table>
-
- 
 
 Plugin modules marked with the `@CannotDisable` annotation cannot be disabled dynamically unless the entire plugin is disabled. The `@CannotDisable` annotation is inherited, so any custom `ModuleDescriptor` that subclasses `ModuleDescriptor` types annotated with `@CannotDisable` also cannot be disabled. In [Atlassian Plugin Framework 2.5](https://developer.atlassian.com/pages/viewpage.action?pageId=852001) and later, [component](/server/framework/atlassian-sdk/component-plugin-module) and [component import](/server/framework/atlassian-sdk/component-import-plugin-module) modules and their subclasses cannot be disabled.
 

@@ -18,8 +18,8 @@ title: Developing a REST service plugin
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -36,8 +36,6 @@ title: Developing a REST service plugin
 </tr>
 </tbody>
 </table>
-
- 
 
 ## About this tutorial
 
@@ -61,7 +59,7 @@ git clone git@bitbucket.org:serverecosystem/message.git
 
 Alternatively, you can download the source using the **get source** option here:
 
-<a href="https://bitbucket.org/serverecosystem/message" class="uri external-link">https://bitbucket.org/serverecosystem/message</a>
+<a href="https://bitbucket.org/serverecosystem/message" class="uri external-link">bitbucket.org/serverecosystem/message</a>
 
 ## Step 1. Create the plugin project
 
@@ -78,8 +76,8 @@ In this step, you use an `atlas-` command to create your plugin project. The `at
 
     <table>
     <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
+    <col style="width: 40%" />
+    <col style="width: 60%" />
     </colgroup>
     <tbody>
     <tr class="odd">
@@ -137,8 +135,6 @@ Navigate to the following directory: 
 <project_home>/src/main/java/com/atlassian/plugins/tutorial/rest/
 ```
 
- 
-
 This directory contains two source files that implement the REST services: 
 
 -   `MyRestResource.java` 
@@ -150,8 +146,8 @@ Also notice the annotations. These are <a href="https://jaxb.java.net/nonav/jaxb
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -304,8 +300,8 @@ Notice we've added a few more annotations: 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 70%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -348,8 +344,6 @@ On the other hand, if your input is something that might be changed with your da
 
 {{% /tip %}}
 
- 
-
 ## Step 6. Adjust the test code
 
 When we used the SDK to add the REST module to our project, the SDK helpfully added some tests for the code it generated. However, if we run `atlas-run` the same way we did before, we'll get a test build failure due to modifications we made to the source code. The method under test now expects a parameter.
@@ -369,8 +363,6 @@ We'll leave the full explanation of testing matters to [another tutorial](https:
     ``` java
      Response response = resource.getMessage("Hello World");
     ```
-
-      
 
 ## Step 7. Try it again, this time testing with the REST API Browser
 
@@ -394,7 +386,6 @@ Let's try the plugin again but this time let's use the REST API Browser (RAB), a
 8.  Enter a key value for either of the resources and click **Execute**. The key value can be any string you like, such as "greeting".  
     The results appear below the resource.  
     <img src="/server/framework/atlassian-sdk/images/screen-shot-2016-12-14-at-11.29.02-am.png" height="400" />  
-      
 
 9.  Experiment by trying the other resource as well. Notice that if you click execute without a parameter, you'll get our default response, "Hello World."
 
@@ -420,299 +411,3 @@ For general information on using REST for Atlassian plugin development, see:
 -   [About the Atlassian RefApp](/server/framework/atlassian-sdk/about-the-atlassian-refapp)
 -   [Atlassian REST API Design Guidelines version 1](/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1)
 -   [REST Plugin Module](/server/framework/atlassian-sdk/rest-plugin-module)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

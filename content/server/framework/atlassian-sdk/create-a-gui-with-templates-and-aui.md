@@ -18,8 +18,6 @@ title: Create a GUI with templates and AUI
 
 You've added SAL modules and built the foundation for an interactive plugin by creating a servlet component. Now, you'll add a GUI for your users to input data. You can use resources Atlassian provides in the Atlassian User Interface (AUI). This section of the tutorial will walk you through creating and managing Velocity templates, adding CSS, and viewing your plugin in its GUI form. This section includes the following instructions: 
 
- 
-
 ## Introduction to AUI (Atlassian User Interface)
 
 AUI is a library of resources you can use to make your plugin visually integrated with Atlassian products. The AUI library includes CSS, JavaScript, and other templates. Using resources from this library ensures your plugin interface is compliant with Atlassian Design Guidelines (ADG). 
@@ -151,10 +149,9 @@ Up until this point, your servlet has been displaying HTML from your `MyPluginS
 
 2.  Save the changes and close the file.
 3.  Use `atlas-mvn package` to reload your plugin.
-4.  Return to** <a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">http://localhost:2990/jira/plugins/servlet/test</a>.**
+4.  Return to** <a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">localhost:2990/jira/plugins/servlet/test</a>.**
 5.  Your servlet reloads, now with fields from your admin.vm:   
       
-
 ## Step 4. Add a decorator and CSS
 
 You have a GUI, but it's not much to look at. Now you can add some visual appeal to your plugin using Atlassian User Interface (AUI) resources and some CSS.
@@ -190,8 +187,7 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
     ```
 
 3.  Save the file.   
-    Leave the file open for future changes.**  
-    **
+    Leave the file open for future changes.
 4.  Use QuickReload to update your changes.  
     The page loads and now uses an AUI decorator. 
 5.  Return to your admin.vm file. 
@@ -223,228 +219,8 @@ You have a GUI, but it's not much to look at. Now you can add some visual appeal
     </html>
     ```
 
-7.  Reload the plugin and return once again to your servlet at **<a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">http://localhost:2990/jira/plugins/servlet/test</a>**.
+7.  Reload the plugin and return once again to your servlet at **<a href="http://localhost:2990/jira/plugins/servlet/test" class="uri external-link">localhost:2990/jira/plugins/servlet/test</a>**.
 
 ## Next steps
 
 Your add-on looks great! Now you'll [add a `POST` method so it can store and retrieve user data](https://developer.atlassian.com/display/DOCS/Store+and+retrieve+plugin+data).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -16,33 +16,3 @@ title: Declaring a Dependency on Another Plugin
 # Declaring a Dependency on Another Plugin
 
 Content required. Perhaps some of it is already present on page [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework) and should be moved from there to here.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

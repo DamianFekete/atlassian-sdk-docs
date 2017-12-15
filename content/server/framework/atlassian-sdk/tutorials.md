@@ -19,173 +19,57 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 
 ## JIRA Tutorials
 
--   Page:
-
-    [Automation Rule Components](https://developer.atlassian.com/display/JIRADEV/Automation+Rule+Components)
-
--   Page:
-
-    [Creating a Custom Release Notes Template Containing Release Comments](https://developer.atlassian.com/display/JIRADEV/Creating+a+Custom+Release+Notes+Template+Containing+Release+Comments)
-
--   Page:
-
-    [Editor Registry Documentation](https://developer.atlassian.com/display/JIRADEV/Editor+Registry+Documentation)
-
--   Page:
-
-    [Tutorial - Adding a board configuration page](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+board+configuration+page)
-
--   Page:
-
-    [Tutorial - Adding a Detail View Tab](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+Detail+View+Tab)
-
--   Page:
-
-    [Tutorial - Adding a dropdown to an agile board](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+dropdown+to+an+agile+board)
-
--   Page:
-
-    [Tutorial - Adding content to the JIRA View Issue page](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
-
--   Page:
-
-    [Tutorial - Creating a custom field type](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+custom+field+type)
-
--   Page:
-
-    [Tutorial - Creating a JIRA report](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
-
--   Page:
-
-    [Tutorial - Creating a project template](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+project+template)
-
--   Page:
-
-    [Tutorial - Creating workflow extensions](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+workflow+extensions)
-
--   Page:
-
-    [Tutorial - Custom fields in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Custom+fields+in+JIRA)
-
--   Page:
-
-    [Tutorial - Custom message (mail) handler for JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
-
--   Page:
-
-    [Tutorial - Customizing Rich Text Editor in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Customizing+Rich+Text+Editor+in+JIRA)
-
--   Page:
-
-    [Tutorial - Customizing the TinyMCE within Rich Text Editor in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Customizing+the+TinyMCE+within+Rich+Text+Editor+in+JIRA)
+-   [Automation Rule Components](https://developer.atlassian.com/display/JIRADEV/Automation+Rule+Components)
+-   [Creating a Custom Release Notes Template Containing Release Comments](https://developer.atlassian.com/display/JIRADEV/Creating+a+Custom+Release+Notes+Template+Containing+Release+Comments)
+-   [Editor Registry Documentation](https://developer.atlassian.com/display/JIRADEV/Editor+Registry+Documentation)
+-   [Tutorial - Adding a board configuration page](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+board+configuration+page)
+-   [Tutorial - Adding a Detail View Tab](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+Detail+View+Tab)
+-   [Tutorial - Adding a dropdown to an agile board](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+a+dropdown+to+an+agile+board)
+-   [Tutorial - Adding content to the JIRA View Issue page](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Adding+content+to+the+JIRA+View+Issue+page)
+-   [Tutorial - Creating a custom field type](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+custom+field+type)
+-   [Tutorial - Creating a JIRA report](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+JIRA+report)
+-   [Tutorial - Creating a project template](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+a+project+template)
+-   [Tutorial - Creating workflow extensions](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Creating+workflow+extensions)
+-   [Tutorial - Custom fields in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Custom+fields+in+JIRA)
+-   [Tutorial - Custom message (mail) handler for JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Custom+message+%28mail%29+handler+for+JIRA)
+-   [Tutorial - Customizing Rich Text Editor in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Customizing+Rich+Text+Editor+in+JIRA)
+-   [Tutorial - Customizing the TinyMCE within Rich Text Editor in JIRA](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Customizing+the+TinyMCE+within+Rich+Text+Editor+in+JIRA)
 
 ## Confluence Tutorials
 
 **Beginner**
 
--   Page:
-
-    [Confluence Blueprints](https://developer.atlassian.com/display/CONFDEV/Confluence+Blueprints)
-
--   Page:
-
-    [Write a simple Confluence Space Blueprint](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
-
--   Page:
-
-    [Adding Confluence Keyboard Shortcuts](https://developer.atlassian.com/display/CONFDEV/Adding+Confluence+Keyboard+Shortcuts)
-
--   Page:
-
-    [Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/create-a-confluence-hello-world-macro)
-
--   Page:
-
-    [Write a simple Confluence Blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
-
--   Page:
-
-    [Writing a Confluence Theme](https://developer.atlassian.com/display/CONFDEV/Writing+a+Confluence+Theme)
-
--   Page:
-
-    [Extending Autoconvert](https://developer.atlassian.com/display/CONFDEV/Extending+Autoconvert)
+-   [Confluence Blueprints](https://developer.atlassian.com/display/CONFDEV/Confluence+Blueprints)
+-   [Write a simple Confluence Space Blueprint](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Space+Blueprint)
+-   [Adding Confluence Keyboard Shortcuts](https://developer.atlassian.com/display/CONFDEV/Adding+Confluence+Keyboard+Shortcuts)
+-   [Create a Confluence 'Hello World' Macro](/server/framework/atlassian-sdk/create-a-confluence-hello-world-macro)
+-   [Write a simple Confluence Blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+a+simple+Confluence+Blueprint+plugin)
+-   [Writing a Confluence Theme](https://developer.atlassian.com/display/CONFDEV/Writing+a+Confluence+Theme)
+-   [Extending Autoconvert](https://developer.atlassian.com/display/CONFDEV/Extending+Autoconvert)
 
 #### Intermediate
 
--   Page:
-
-    [Extending the Highlight Actions Panel](https://developer.atlassian.com/display/CONFDEV/Extending+the+Highlight+Actions+Panel)
-
--   Page:
-
-    [Adding new Confluence to HipChat notifications](https://developer.atlassian.com/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
-
--   Page:
-
-    [Adding items to the Info Banner](https://developer.atlassian.com/display/CONFDEV/Adding+items+to+the+Info+Banner)
-
--   Page:
-
-    [Extending the Confluence Insert Link Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
-
--   Page:
-
-    [Extending the Image Properties Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Image+Properties+Dialog)
-
--   Page:
-
-    [Write an intermediate blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
-
--   Page:
-
-    [Writing a Macro Using JSON](https://developer.atlassian.com/display/CONFDEV/Writing+a+Macro+Using+JSON)
-
--   Page:
-
-    [Posting Notifications in Confluence](https://developer.atlassian.com/display/CONFDEV/Posting+Notifications+in+Confluence)
-
--   Page:
-
-    [Searching Using the V2 Search API](https://developer.atlassian.com/display/CONFDEV/Searching+Using+the+V2+Search+API)
-
--   Page:
-
-    [Adding a Custom Action to Confluence](https://developer.atlassian.com/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
-
--   Page:
-
-    [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
-
--   Page:
-
-    [Writing a Blueprint - Intermediate](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Intermediate)
+-   [Extending the Highlight Actions Panel](https://developer.atlassian.com/display/CONFDEV/Extending+the+Highlight+Actions+Panel)
+-   [Adding new Confluence to HipChat notifications](https://developer.atlassian.com/display/CONFDEV/Adding+new+Confluence+to+HipChat+notifications)
+-   [Adding items to the Info Banner](https://developer.atlassian.com/display/CONFDEV/Adding+items+to+the+Info+Banner)
+-   [Extending the Confluence Insert Link Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Confluence+Insert+Link+Dialog)
+-   [Extending the Image Properties Dialog](https://developer.atlassian.com/display/CONFDEV/Extending+the+Image+Properties+Dialog)
+-   [Write an intermediate blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+intermediate+blueprint+plugin)
+-   [Writing a Macro Using JSON](https://developer.atlassian.com/display/CONFDEV/Writing+a+Macro+Using+JSON)
+-   [Posting Notifications in Confluence](https://developer.atlassian.com/display/CONFDEV/Posting+Notifications+in+Confluence)
+-   [Searching Using the V2 Search API](https://developer.atlassian.com/display/CONFDEV/Searching+Using+the+V2+Search+API)
+-   [Adding a Custom Action to Confluence](https://developer.atlassian.com/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
+-   [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
+-   [Writing a Blueprint - Intermediate](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Intermediate)
 
 #### Advanced
 
--   Page:
-
-    [Write an advanced blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+advanced+blueprint+plugin)
-
--   Page:
-
-    [Extending the V2 search API](https://developer.atlassian.com/display/CONFDEV/Extending+the+V2+search+API)
-
--   Page:
-
-    [Adding a field to CQL](https://developer.atlassian.com/display/CONFDEV/Adding+a+field+to+CQL)
-
--   Page:
-
-    [Defining a Pluggable Service in a Confluence Plugin](https://developer.atlassian.com/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
-
--   Page:
-
-    [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
-
--   Page:
-
-    [Writing a Blueprint - Advanced](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Advanced)
+-   [Write an advanced blueprint plugin](https://developer.atlassian.com/display/CONFDEV/Write+an+advanced+blueprint+plugin)
+-   [Extending the V2 search API](https://developer.atlassian.com/display/CONFDEV/Extending+the+V2+search+API)
+-   [Adding a field to CQL](https://developer.atlassian.com/display/CONFDEV/Adding+a+field+to+CQL)
+-   [Defining a Pluggable Service in a Confluence Plugin](https://developer.atlassian.com/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
+-   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
+-   [Writing a Blueprint - Advanced](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Advanced)
 
 ## FishEye/Crucible Tutorials
 
@@ -224,57 +108,24 @@ Tutorials classified by the level of skill assumed:
 
 #### Beginner
 
--   Page:
-
-    [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](https://developer.atlassian.com/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
-
--   Page:
-
-    [FishEye Event Listener Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
-
--   Page:
-
-    [Using Logging From Your FishEye Plugin](https://developer.atlassian.com/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
+-   [Plugin Gadget Tutorial - Using the FishEye REST API to Write a Gadget to Monitor Recent Changes](https://developer.atlassian.com/display/FECRUDEV/Plugin+Gadget+Tutorial+-+Using+the+FishEye+REST+API+to+Write+a+Gadget+to+Monitor+Recent+Changes)
+-   [FishEye Event Listener Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Event+Listener+Plugin+Module+Tutorial)
+-   [Using Logging From Your FishEye Plugin](https://developer.atlassian.com/display/FECRUDEV/Using+Logging+From+Your+FishEye+Plugin)
 
 #### Intermediate
 
--   Page:
-
-    [FishEye Twitter Integration Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
-
--   Page:
-
-    [Crucible Workflow Conditions Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
-
--   Page:
-
-    [Crucible Gadget Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Gadget+Tutorial)
-
--   Page:
-
-    [Rendering a Velocity Template from Your FishEye Servlet](https://developer.atlassian.com/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
+-   [FishEye Twitter Integration Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Twitter+Integration+Plugin+Tutorial)
+-   [Crucible Workflow Conditions Plugin Module Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Workflow+Conditions+Plugin+Module+Tutorial)
+-   [Crucible Gadget Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+Gadget+Tutorial)
+-   [Rendering a Velocity Template from Your FishEye Servlet](https://developer.atlassian.com/display/FECRUDEV/Rendering+a+Velocity+Template+from+Your+FishEye+Servlet)
 
 #### Advanced
 
--   Page:
-
-    [FishEye Smart Commit Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
-
--   Page:
-
-    [FishEye Gutter Renderer Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
-
--   Page:
-
-    [REST Service Plugin Module Tutorial for FishEye](https://developer.atlassian.com/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
-
--   Page:
-
-    [Storing Plugin Settings for FishEye](https://developer.atlassian.com/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
-
--   Page:
-
-    [Crucible SCM Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
+-   [FishEye Smart Commit Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Smart+Commit+Tutorial)
+-   [FishEye Gutter Renderer Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/FishEye+Gutter+Renderer+Plugin+Tutorial)
+-   [REST Service Plugin Module Tutorial for FishEye](https://developer.atlassian.com/display/FECRUDEV/REST+Service+Plugin+Module+Tutorial+for+FishEye)
+-   [Storing Plugin Settings for FishEye](https://developer.atlassian.com/display/FECRUDEV/Storing+Plugin+Settings+for+FishEye)
+-   [Crucible SCM Plugin Tutorial](https://developer.atlassian.com/display/FECRUDEV/Crucible+SCM+Plugin+Tutorial)
 
 ### Related Tutorials
 
@@ -314,49 +165,22 @@ Tutorials classified by the level of skill assumed:
 
 #### Beginner
 
--   Page:
-
-    [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
-
--   Page:
-
-    [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
+-   [Adding Activities to a Third Party feed with the Java API](/server/framework/atlassian-sdk/adding-activities-to-a-third-party-feed-with-the-java-api)
+-   [Making Pluggable Inline Actions for Activity Streams](/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams)
 
 #### Intermediate
 
--   Page:
-
-    [Making your own Activity Streams Provider](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider)
-
--   Page:
-
-    [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
-
--   Page:
-
-    [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
-
--   Page:
-
-    [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
-
--   Page:
-
-    [Writing JIRA event listeners with the atlassian-event library](/display/JIRASERVER/Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+-   [Making your own Activity Streams Provider](/server/framework/atlassian-sdk/making-your-own-activity-streams-provider)
+-   [Tutorial - Writing JIRA event listeners with the atlassian-event library](https://developer.atlassian.com/display/JIRADEV/Tutorial+-+Writing+JIRA+event+listeners+with+the+atlassian-event+library)
+-   [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
+-   [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
+-   [Writing JIRA event listeners with the atlassian-event library](/display/JIRASERVER/Writing+JIRA+event+listeners+with+the+atlassian-event+library)
 
 #### Advanced
 
--   Page:
-
-    [Scheduling Events via SAL Tutorial](/server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial)
-
--   Page:
-
-    [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
-
--   Page:
-
-    [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)
+-   [Scheduling Events via SAL Tutorial](/server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial)
+-   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
+-   [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)
 
 ### External Tutorials
 
@@ -366,371 +190,3 @@ Tutorials classified by the level of skill assumed:
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_development_tutorial_episode_v.html" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_vi.html" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
 -   <a href="http://blogs.atlassian.com/developer/2011/03/plugin_architecture_episode_i.html" class="external-link">Plugin Architecture, Episode I (The Phantom Mess)</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

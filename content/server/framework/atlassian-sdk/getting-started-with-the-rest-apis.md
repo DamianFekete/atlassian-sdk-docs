@@ -22,11 +22,3 @@ Redirection Notice
 This page will redirect to [REST API Development](/server/framework/atlassian-sdk/rest-api-development) in about 2 seconds.
 
 {{% /note %}}
-
-
-
-
-
-
-
-

@@ -18,8 +18,6 @@ title: Create a plugin skeleton
 
 This section covers creating a plugin skeleton and launching it in the Atlassian Reference Application (RefApp). RefApp is a lightweight web application built for the sole purpose of developing plugins that work in any Atlassian application. If your plugin works in RefApp, you can run it in any other Atlassian application. 
 
- 
-
 ## Get introduced to RefApp
 
 We use RefApp intentionally in this tutorial. RefApp is a tool uniquely suited to plugin development: No Atlassian application is identical, but the RefApp provides the shared framework between all Atlassian applications. This means that you can develop your plugin without accidentally relying on dependencies or features specific to one application, or encountering an application-specific bug later on. Developing a plugin with RefApp eliminates guesswork about the functionality of your project. You can rest assured that since all Atlassian applications share at least the framework present in RefApp, your plugin will work as expected.  
@@ -82,8 +80,6 @@ Here, you'll create the foundation for your plugin project in the form of a plug
     $ cd adminUI/
     ```
 
-      
-
 7.  Remove the test directories.
 
     ``` bash
@@ -128,19 +124,13 @@ When you generated the skeleton for your plugin, you specified a RefApp plugin s
 
 4.  Copy the URL and paste it into your browser.   
       
-5.  The URL will resemble **<a href="http://localhost:5990/refapp/plugins/servlet" class="external-link">http://localhost:5990/refapp</a>.**  
-    **  
-    **
+5.  The URL will resemble **<a href="http://localhost:5990/refapp/plugins/servlet" class="external-link">localhost:5990/refapp</a>.**  
 6.  Click **Login** from the upper right-hand corner.  
-     
 7.  Log in with the username `admin` and the password `admin`.  
-     
 8.  Click **Login**.
 9.  Click **A.D. Ministrator (Sysadmin)**.  
        
     Under the **General**, **Application Links**, and **Developer Toolbox** you'll see the core components shared by all Atlassian applications.
-
-  
 
 Optional: Import your project into Eclipse IDE
 
@@ -190,222 +180,3 @@ Start from a new tab in your terminal:
 ## Next Steps
 
 Now that your plugin skeleton is built and imported into Eclipse, [you'll construct a servlet](https://developer.atlassian.com/display/DOCS/Convert+component+to+servlet+module).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -173,8 +173,6 @@ For example, requesting this resource will insert a `<link>` in the HTML header,
 </web-resource>
 ```
 
- 
-
 **Name & Value: **ieonly \| true 
 
 **Description: ** 
@@ -236,76 +234,3 @@ The `conditionalComment` parameter also works for JavaScript resources. 
 **Name &** **Value (Example):** title \| (Your title) 
 
 **Description:** The value given here will form the title attribute of the CSS `<link>` tag.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -16,28 +16,3 @@ title: Atlascamp 2011 - Five Strategies to Accelerate Plugin Development
 # Atlascamp 2011 - Five Strategies to Accelerate Plugin Development
 
 [![Get Adobe Flash player](https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif)](https://get.adobe.com/flashplayer/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

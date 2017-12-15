@@ -65,20 +65,3 @@ The screenshot below shows the REST API Browser running in JIRA 5.0. In this exa
 <a href="/pages/createpage.action?spaceKey=RAB&amp;title=Overview+of+the+Atlassian+REST+API+Browser" class="createlink">Overview of the Atlassian REST API Browser</a>  
 [Running the REST API Browser in the Atlassian Plugin SDK](https://developer.atlassian.com/display/RAB/Running+the+REST+API+Browser+in+the+Atlassian+Plugin+SDK)  
 [Documenting your APIs with the Atlassian REST API Browser](https://developer.atlassian.com/display/RAB/Documenting+your+APIs+with+the+Atlassian+REST+API+Browser)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

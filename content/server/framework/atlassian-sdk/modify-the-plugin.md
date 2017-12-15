@@ -18,8 +18,6 @@ title: Modify the plugin
 
 In the [previous step](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/create-a-helloworld-plugin-project), you created a skeleton for a JIRA plugin. In this part of the tutorial, you'll modify your plugin to add a new link in the JIRA menu.  To do this you'll need to create a [Web Section Plugin Module](/server/framework/atlassian-sdk/web-section-plugin-module) and a [Web Item Plugin Module](/server/framework/atlassian-sdk/web-item-plugin-module) using the Atlassian SDK.
 
- 
-
 ## Step 1. Update the organization details that appear on the Plugin
 
 1.  You should still be in the myPlugin directory after shutting down JIRA. 
@@ -45,7 +43,7 @@ In the [previous step](https://developer.atlassian.com/docs/getting-started/set-
 5.  Save and close the file.
 6.  Return to the **command prompt **window, and enter atlas-run and wait for JIRA to start back up.
 7.  Login if prompted
-8.  Open the **Manage add-ons** page in your browser using the path: <a href="http://localhost:2990/jira/plugins/servlet/upm" class="uri external-link">http://localhost:2990/jira/plugins/servlet/upm</a>
+8.  Open the **Manage add-ons** page in your browser using the path: <a href="http://localhost:2990/jira/plugins/servlet/upm" class="uri external-link">localhost:2990/jira/plugins/servlet/upm</a>
 9.  Expand the **myPlugin** plugin to see your changes.
 10. When you're finished, shutdown JIRA gracefully using **Ctrl+D**. 
 
@@ -172,220 +170,8 @@ Starting and stopping JIRA can take several minutes each time.  QuickReload sig
 
 ## Additional Resources
 
-The source code for this tutorial is available on Bitbucket at <a href="https://bitbucket.org/serverecosystem/myplugin" class="uri external-link">https://bitbucket.org/serverecosystem/myplugin</a>
+The source code for this tutorial is available on Bitbucket at <a href="https://bitbucket.org/serverecosystem/myplugin" class="uri external-link">bitbucket.org/serverecosystem/myplugin</a>
 
 Alternatively, check out the [Getting Started Tutorial FAQ](/server/framework/atlassian-sdk/getting-started-tutorial-faq)
 
- 
-
 Still need help? Request support at <a href="https://ecosystem.atlassian.net/servicedesk/customer/portal/14" class="external-link">Developer Technical Support Portal</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

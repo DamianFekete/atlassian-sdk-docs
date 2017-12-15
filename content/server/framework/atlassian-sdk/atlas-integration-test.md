@@ -16,9 +16,7 @@ title: atlas-integration-test
 ---
 # atlas-integration-test
 
-This page describes the shell script `atlas-integration-test`, part of the <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818349" class="createlink">Atlassian Plugin SDK</a>.
-
- 
+This page describes the shell script `atlas-integration-test`, part of the <a href="/server/framework/atlassian-sdk/atlas-integration-test/" class="createlink">Atlassian Plugin SDK</a>.
 
 ## Basic Usage
 
@@ -37,8 +35,8 @@ Interpreted parameters:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,7 +61,7 @@ Interpreted parameters:
 </tr>
 <tr class="odd">
 <td><p>--http-port</p></td>
-<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818349" class="createlink">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p>
+<td><p>HTTP port for the servlet container. The defaults are as described in the <a href="/server/framework/atlassian-sdk/atlas-integration-test/" class="createlink">SDK overview</a>. You may need to change this if you already have a process listed for the default port, such as when you want to bring up two instances of Confluence.</p>
 <p><strong>Shortened: -p</strong></p></td>
 </tr>
 <tr class="even">
@@ -155,241 +153,5 @@ atlas-integration-test --product confluence
 
 ##### RELATED TOPICS
 
-<a href="/pages/createpage.action?spaceKey=DOCS&amp;title=Atlassian+Plugin+SDK+Documentation&amp;linkCreation=true&amp;fromPageId=2818349" class="createlink">Atlassian Plugin SDK Documentation</a>  
+<a href="/server/framework/atlassian-sdk/atlas-integration-test/" class="createlink">Atlassian Plugin SDK Documentation</a>  
 [Plugin Testing Resources and Discussion](https://developer.atlassian.com/pages/viewpage.action?pageId=2818627)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

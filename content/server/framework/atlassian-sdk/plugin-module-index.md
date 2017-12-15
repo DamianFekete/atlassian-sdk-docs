@@ -15,8 +15,6 @@ title: Plugin module Index
 ---
 # Plugin module Index
 
- 
-
 ## What this is
 
 This page lists the plugin modules for Atlassian applications. The idea is for the plugin developer to quickly identify the plugin module they need and give them an outline of what to expect and what they can change.
@@ -35,10 +33,10 @@ These modules are provided by the plugin framework and operate identically in al
 
 **Code sharing**
 
-The [DEVNET:Component](#devnet-component) and [DEVNET:Component Import](#component-import) module types are for modularizing and sharing code within a plugin and between plugins:
+The [DEVNET:Component](#component) and [DEVNET: Component Import](#component-import) module types are for modularizing and sharing code within a plugin and between plugins:
 
-#### [Component](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Component+Plugin+Module)
-
+#### Component
+##### [Component plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Component+Plugin+Module)
 Declares that a class in the plugin is available for dependency injection within that plugin, and optionally, available for dependency injection in other plugins in the application.
 
 **Frequently used attributes:**
@@ -77,8 +75,8 @@ Declares that a class in the plugin is available for dependency injection within
 
 ------------------------------------------------------------------------
 
-#### [Component Import](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Component+Import+Plugin+Module) 
-
+#### Component Import
+##### [Component import plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Component+Import+Plugin+Module) 
 Requests that some implementation of a specific interface, exported either by another plugin using a [DEVNET:Component](#devnet-component) declaration or by the host application, be made available for dependency injection into this plugin.
 
 **Frequently used attributes:**
@@ -102,15 +100,10 @@ Requests that some implementation of a specific interface, exported either by an
 
 ------------------------------------------------------------------------
 
-**  
-**
+### JEE container integration
 
-**  
-**
-
-**JEE container integration**
-
-#### [Servlet Context Listener](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Context+Listener+Plugin+Module) 
+#### Servlet Context Listener
+##### [Servlet Context Listener plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Context+Listener+Plugin+Module) 
 
 Deploys the specified class as a <a href="http://download.oracle.com/javaee/6/api/javax/servlet/ServletContextListener.html" class="external-link">Java EE servlet context listener</a>.
 
@@ -131,7 +124,8 @@ Deploys the specified class as a <a href="http://download.oracle.com/javaee/6/ap
 
 ------------------------------------------------------------------------
 
-#### [Servlet Context Parameter](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Context+Parameter+Plugin+Module) 
+#### Servlet Context Parameter
+##### [Servlet Context Parameter plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Context+Parameter+Plugin+Module) 
 
 Sets the specified name and value as a parameter in the <a href="http://download.oracle.com/javaee/6/api/javax/servlet/ServletContext.html" class="external-link">Java EE servlet context</a>.
 
@@ -154,7 +148,8 @@ Sets the specified name and value as a parameter in the <a href="http://download
 
 ------------------------------------------------------------------------
 
-#### [Servlet Filter](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Filter+Plugin+Module) 
+##### Servlet Filter
+#### [Servlet Filter plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Filter+Plugin+Module) 
 
 Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/servlet/Filter.html" class="external-link">Java EE servlet filter</a> in the product.
 
@@ -180,7 +175,8 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
 
 ------------------------------------------------------------------------
 
-#### [Servlet](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Plugin+Module) 
+#### Servlet
+##### [Servlet plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Servlet+Plugin+Module) 
 
 Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/servlet/Servlet.html" class="external-link">Java EE servlet</a> in the product.
 
@@ -206,15 +202,10 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
 
 ------------------------------------------------------------------------
 
-**  
-**
+###User interface
 
-**  
-**
-
-**User interface**
-
-#### [Web Item](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module) 
+#### Web Item plugin module
+##### [Web Item](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module) 
 
 Defines a new link in an application menu.
 
@@ -242,7 +233,8 @@ Defines a new link in an application menu.
 
 ------------------------------------------------------------------------
 
-#### [Web Section](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Section+Plugin+Module) 
+#### Web Section
+##### [Web Section plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Section+Plugin+Module) 
 
 Defines a new section in an application menu.
 
@@ -270,7 +262,8 @@ Defines a new section in an application menu.
 
 ------------------------------------------------------------------------
 
-#### [Web Panel](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Plugin+Module) 
+#### Web Panel
+##### [Web Panel plugin module](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Plugin+Module) 
 
 Defines a web panel - a set of HTML content that can be inserted verbatim into a page.
 
@@ -296,7 +289,8 @@ Defines a web panel - a set of HTML content that can be inserted verbatim into a
 
 ------------------------------------------------------------------------
 
-#### [Web Panel Renderer](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Renderer+Plugin+Module) 
+#### Web Panel Renderer
+##### [Web Panel Renderer module type](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Panel+Renderer+Plugin+Module) 
 
 Defines a custom rendering engine for a `<web-panel>`.
 
@@ -315,7 +309,8 @@ Defines a custom rendering engine for a `<web-panel>`.
 
 ------------------------------------------------------------------------
 
-#### [Web Resource](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Plugin+Module)
+#### Web Resource
+##### [Web Resource module type](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Plugin+Module)
 
 Defines downloadable resources (files) for a plugin, such as CSS or JavaScript files.
 
@@ -336,7 +331,8 @@ Defines downloadable resources (files) for a plugin, such as CSS or JavaScript f
 
 ------------------------------------------------------------------------
 
-#### [Web Resource Transformer](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module) 
+#### Web Resource Transformer
+##### [Web Resource Transformer module type](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Resource+Transformer+Plugin+Module) 
 
 Defines transformers which allow changing web resources before being served to the browser.
 
@@ -355,15 +351,9 @@ Defines transformers which allow changing web resources before being served to t
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Other types
 
-**  
-**
-
-**Other types**
-
-#### <a href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&amp;title=REST+Plugin+Module" class="createlink">REST</a> 
+#### <a id="rest" href="/pages/createpage.action?spaceKey=PLUGINFRAMEWORK&title=REST+Plugin+Module" class="createlink">REST</a> 
 
 Exposes data and services as REST resources.
 
@@ -386,7 +376,8 @@ Exposes data and services as REST resources.
 
 ------------------------------------------------------------------------
 
-#### [Gadget](https://developer.atlassian.com/display/GADGETS) 
+#### Gadget
+##### [Gadgets](https://developer.atlassian.com/display/GADGETS) 
 
 Defines an <a href="http://confluence.atlassian.com/display/GADGETS" class="external-link">Atlassian gadget</a> provided by this plugin.
 
@@ -411,13 +402,14 @@ These modules are unique to the product they originate in.
 
 **Adding custom remote APIs**
 
-#### [SOAP](https://developer.atlassian.com/display/JIRADEV/RPC+Endpoint+Plugin+Module) 
+#### SOAP
+##### [SOAP plugin module](https://developer.atlassian.com/display/JIRADEV/RPC+Endpoint+Plugin+Module) 
 
 {{% warning %}}
 
 JIRA's SOAP and XML-RPC remote APIs will be deprecated in JIRA 6.0.
 
-[Read the announcement for more information.](https://developer.atlassian.com/display/JIRADEV/SOAP+and+XML-RPC+API+Deprecation+Notice)
+[Read the announcement for more information](https://developer.atlassian.com/display/JIRADEV/SOAP+and+XML-RPC+API+Deprecation+Notice).
 
 {{% /warning %}}
 
@@ -448,13 +440,14 @@ Adds custom SOAP services to JIRA in addition to the [builtin SOAP services](htt
 
 ------------------------------------------------------------------------
 
-#### [XML-RPC](https://developer.atlassian.com/display/JIRADEV/RPC+Endpoint+Plugin+Module) 
+#### XML-RPC
+##### [XML-RPC plugin module](https://developer.atlassian.com/display/JIRADEV/RPC+Endpoint+Plugin+Module) 
 
 {{% warning %}}
 
 JIRA's SOAP and XML-RPC remote APIs will be deprecated in JIRA 6.0.
 
-[Read the announcement for more information.](https://developer.atlassian.com/display/JIRADEV/SOAP+and+XML-RPC+API+Deprecation+Notice)
+[Read the announcement for more information](https://developer.atlassian.com/display/JIRADEV/SOAP+and+XML-RPC+API+Deprecation+Notice).
 
 {{% /warning %}}
 
@@ -483,7 +476,8 @@ Adds custom XML-RPC services to JIRA in addition to the [builtin XML-RPC service
 
 ### Adding operations to tabs, views or screens
 
-#### [Project tab panel](https://developer.atlassian.com/display/JIRADEV/Project+Tab+Panel+Plugin+Module) 
+#### Project tab panel
+##### [Project tab panel plugin module](https://developer.atlassian.com/display/JIRADEV/Project+Tab+Panel+Plugin+Module) 
 
 Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Projects</a> page. 
 
@@ -517,13 +511,14 @@ Adds new tabs to the <a href="#browse-projects" class="unresolved">Browse Projec
 
 ------------------------------------------------------------------------
 
-#### [Component tab panel](https://developer.atlassian.com/display/JIRADEV/Component+Tab+Panel+Plugin+Module) 
+#### Component tab panel
+#### [Component tab panel plugin module](https://developer.atlassian.com/display/JIRADEV/Component+Tab+Panel+Plugin+Module) 
 
 Adds new tabs to the <a href="#browse-component" class="unresolved">Browse Component</a> page. 
 
 **Frequently used attributes:**
 
--   {{class: The class implementing the component tab panel.
+-   `class`: The class implementing the component tab panel.
 
 **Frequently used elements:**
 
@@ -556,7 +551,8 @@ Adds new tabs to the <a href="#browse-component" class="unresolved">Browse Compo
 
 ------------------------------------------------------------------------
 
-#### [Version tab panel](https://developer.atlassian.com/display/JIRADEV/Version+Tab+Panel+Plugin+Module) 
+#### Version tab panel
+##### [Version tab panel plugin module](https://developer.atlassian.com/display/JIRADEV/Version+Tab+Panel+Plugin+Module) 
 
 Adds new tabs to the <a href="#browse-version" class="unresolved">Browse Version</a> page. 
 
@@ -591,13 +587,14 @@ Adds new tabs to the <a href="#browse-version" class="unresolved">Browse Version
 
 ------------------------------------------------------------------------
 
-#### [Issue tab panel](https://developer.atlassian.com/display/JIRADEV/Issue+Tab+Panel+Plugin+Module) 
+#### Issue tab panel
+##### [Issue tab panel plugin module](https://developer.atlassian.com/display/JIRADEV/Issue+Tab+Panel+Plugin+Module) 
 
 Adds new tabs to the <a href="#view-issue" class="unresolved">View Issue</a> panel. 
 
 **Frequently used attributes:**
 
--   {{class}: The class implementing the issue tab panel.
+-   `class`: The class implementing the issue tab panel.
 
 **Frequently used elements:**
 
@@ -621,7 +618,8 @@ Adds new tabs to the <a href="#view-issue" class="unresolved">View Issue</a> pan
 
 ------------------------------------------------------------------------
 
-#### [Search request view](https://developer.atlassian.com/display/JIRADEV/Search+Request+View+Plugin+Module) 
+#### Search request view
+##### [Search request view plugin module](https://developer.atlassian.com/display/JIRADEV/Search+Request+View+Plugin+Module) 
 
 Allows display of search results in the <a href="#issue-navigator" class="unresolved">issue navigator</a> in custom formats (such as XML or MS Excel format).
 
@@ -656,15 +654,10 @@ Allows display of search results in the <a href="#issue-navigator" class="unreso
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Custom workflow operations
 
-**  
-**
-
-**Custom workflow operations**
-
-#### [Workflow conditions](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Conditions) 
+#### Workflow conditions+Modules#WorkflowPluginModules-Conditions) 
+#### [Workflow conditions plugin module](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Conditions) 
 
 Checks whether a user can perform a <a href="#workflow-transition" class="unresolved">workflow transition</a>.
 
@@ -694,7 +687,8 @@ Checks whether a user can perform a <a href="#workflow-transition" class="unreso
 
 ------------------------------------------------------------------------
 
-#### [Workflow validators](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Validators) 
+#### Workflow validators
+#### [Workflow validators plugin module](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Validators) 
 
 Checks that the data supplied to a workflow transition is valid.
 
@@ -728,7 +722,8 @@ Checks that the data supplied to a workflow transition is valid.
 
 ------------------------------------------------------------------------
 
-#### [Workflow functions](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Functions) 
+#### Workflow functions
+##### [Workflow functions plugin module](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Functions) 
 
 Performs actions after a workflow transition has executed.
 
@@ -764,15 +759,10 @@ Performs actions after a workflow transition has executed.
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Custom fields**
 
-**  
-**
-
-**Custom fields**
-
-#### [Custom field types](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module) 
+#### Custom field types
+#### [Custom field types plugin module](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module) 
 
 Defines a <a href="#custom-field" class="unresolved">custom field</a> and its type.
 
@@ -806,7 +796,8 @@ class="com.atlassian.jira.issue.customfields.impl.UserCFType">
 
 ------------------------------------------------------------------------
 
-#### [Custom field searchers](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module) 
+#### Custom field searchers
+##### [Custom field searchers plugin module](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module) 
 
 Defines a search method for indexing a custom field.
 
@@ -837,15 +828,10 @@ class="com.atlassian.jira.issue.customfields.searchers.UserPickerSearcher">
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Other types
 
-**  
-**
-
-**Other types**
-
-#### [Reports](https://developer.atlassian.com/display/JIRADEV/Report+Plugin+Module) 
+#### Reports
+##### [Reports plugin module](https://developer.atlassian.com/display/JIRADEV/Report+Plugin+Module) 
 
 Defines a <a href="#report" class="unresolved">report</a> in JIRA.
 
@@ -889,7 +875,8 @@ Defines a <a href="#report" class="unresolved">report</a> in JIRA.
 
 ------------------------------------------------------------------------
 
-#### [Custom actions](https://developer.atlassian.com/display/JIRADEV/Webwork+plugin+module) 
+#### Custom actions
+##### [Custom actions plugin module](https://developer.atlassian.com/display/JIRADEV/Webwork+plugin+module) 
 
 Defines custom WebWork actions (functionality that can be triggered by visiting a URL) or overrides an existing JIRA action.
 
@@ -917,7 +904,8 @@ Defines custom WebWork actions (functionality that can be triggered by visiting 
 
 ------------------------------------------------------------------------
 
-#### [JQL functions](https://developer.atlassian.com/display/JIRADEV/JQL+Function+Plugin+Module) 
+#### JQL functions
+##### [JQL functions plugin module](https://developer.atlassian.com/display/JIRADEV/JQL+Function+Plugin+Module) 
 
 Defines new functions for use in the <a href="#jira-query-language-jql" class="unresolved">JIRA Query Language (JQL)</a>.
 
@@ -950,7 +938,8 @@ Defines new functions for use in the <a href="#jira-query-language-jql" class="u
 
 **Custom remote APIs**
 
-#### [SOAP](https://developer.atlassian.com/display/CONFDEV/RPC+Module) 
+#### SOAP
+##### [SOAP plugins](https://developer.atlassian.com/display/CONFDEV/RPC+Module) 
 
 Adds custom SOAP services to Confluence in addition to the [builtin SOAP services](https://developer.atlassian.com/display/CONFDEV/Confluence+XML-RPC+and+SOAP+APIs).
 
@@ -980,7 +969,8 @@ Adds custom SOAP services to Confluence in addition to the [builtin SOAP service
 
 ------------------------------------------------------------------------
 
-#### [XML-RPC](https://developer.atlassian.com/display/CONFDEV/RPC+Module) 
+#### XML-RPC
+##### [XML-RPC module](https://developer.atlassian.com/display/CONFDEV/RPC+Module) 
 
 Adds custom XML-RPC services to Confluence in addition to the [builtin XML-RPC service](https://developer.atlassian.com/display/CONFDEV/Confluence+XML-RPC+and+SOAP+APIs).
 
@@ -1005,15 +995,10 @@ Adds custom XML-RPC services to Confluence in addition to the [builtin XML-RPC s
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Custom markup
 
-**  
-**
-
-**Custom markup**
-
-#### [User macros](https://developer.atlassian.com/display/CONFDEV/User+Macro+Module) 
+#### User macros
+##### [User macros module](https://developer.atlassian.com/display/CONFDEV/User+Macro+Module) 
 
 Defines simple <a href="#user-macros" class="unresolved">user macros</a> as plugin modules without requiring any new Java code. 
 
@@ -1035,7 +1020,8 @@ Defines simple <a href="#user-macros" class="unresolved">user macros</a> as plug
 
 ------------------------------------------------------------------------
 
-#### [Custom macros](https://developer.atlassian.com/display/CONFDEV/Macro+Module) 
+#### Custom macros
+##### [Macro Module](https://developer.atlassian.com/display/CONFDEV/Macro+Module) 
 
 Defines a <a href="#macro" class="unresolved">macro</a> -- a piece of code that can be invoked from inside a page. Usually this code is replaced in the rendered page by its output.
 
@@ -1059,7 +1045,8 @@ Defines a <a href="#macro" class="unresolved">macro</a> -- a piece of code that 
 
 ------------------------------------------------------------------------
 
-#### [Code formatting](https://developer.atlassian.com/display/CONFDEV/Code+Formatting+Module) 
+#### Code formatting
+##### [Code formatting module](https://developer.atlassian.com/display/CONFDEV/Code+Formatting+Module) 
 
 Adds support for new languages to the <a href="#builtin-code-macro" class="unresolved">builtin code macro</a>.
 
@@ -1081,15 +1068,10 @@ Adds support for new languages to the <a href="#builtin-code-macro" class="unres
 
 ------------------------------------------------------------------------
 
-**  
-**
+###System tasks
 
-**  
-**
-
-**System tasks**
-
-#### [Job](https://developer.atlassian.com/display/CONFDEV/Job+Module) 
+#### Job
+##### [Job module](https://developer.atlassian.com/display/CONFDEV/Job+Module) 
 
 Adds repeatable tasks to Confluence which can be scheduled by <a href="#triggers" class="unresolved">triggers</a>.
 
@@ -1109,7 +1091,8 @@ Adds repeatable tasks to Confluence which can be scheduled by <a href="#triggers
 
 ------------------------------------------------------------------------
 
-#### [Lifecycle](https://developer.atlassian.com/display/CONFDEV/Lifecycle+Module) 
+#### Lifecycle
+##### [Lifecycle module](https://developer.atlassian.com/display/CONFDEV/Lifecycle+Module) 
 
 Adds tasks to be run on Confluence startup and shutdown.
 
@@ -1132,7 +1115,8 @@ Adds tasks to be run on Confluence startup and shutdown.
 
 ------------------------------------------------------------------------
 
-#### [Triggers](https://developer.atlassian.com/display/CONFDEV/Trigger+Module) 
+#### [Triggers
+##### [Trigger module](https://developer.atlassian.com/display/CONFDEV/Trigger+Module) 
 
 Schedules [DEVNET:jobs](#job) to run.
 
@@ -1157,15 +1141,10 @@ Schedules [DEVNET:jobs](#job) to run.
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Look and feel
 
-**  
-**
-
-**Look and feel**
-
-#### [Decorators](https://developer.atlassian.com/display/CONFDEV/Decorator+Module) 
+#### Decorators
+##### [Decorator module](https://developer.atlassian.com/display/CONFDEV/Decorator+Module) 
 
 Allows the user to add Sitemesh Velocity <a href="#decorators" class="unresolved">decorators</a> around Confluence pages.
 
@@ -1192,7 +1171,8 @@ Allows the user to add Sitemesh Velocity <a href="#decorators" class="unresolved
 
 ------------------------------------------------------------------------
 
-#### [Language](https://developer.atlassian.com/display/CONFDEV/Language+Module) 
+#### Language
+#### [Language module](https://developer.atlassian.com/display/CONFDEV/Language+Module) 
 
 Defines new languages for the Confluence UI.
 
@@ -1227,7 +1207,8 @@ Defines new languages for the Confluence UI.
 
 ------------------------------------------------------------------------
 
-#### [Theme](https://developer.atlassian.com/display/CONFDEV/Theme+Module) 
+#### Theme
+#### [Theme module](https://developer.atlassian.com/display/CONFDEV/Theme+Module) 
 
 Defines a new theme (of stylesheets and images) for Confluence.
 
@@ -1266,7 +1247,8 @@ Defines a new theme (of stylesheets and images) for Confluence.
 
 ------------------------------------------------------------------------
 
-#### [Keyboard shortcuts](https://developer.atlassian.com/display/CONFDEV/Keyboard+Shortcut+Module) 
+#### Keyboard shortcuts
+#### [Keyboard shortcuts module](https://developer.atlassian.com/display/CONFDEV/Keyboard+Shortcut+Module) 
 
 Defines a <a href="#keyboard-shortcut" class="unresolved">keyboard shortcut</a> within Confluence.
 
@@ -1296,15 +1278,10 @@ Defines a <a href="#keyboard-shortcut" class="unresolved">keyboard shortcut</a> 
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Custom actions
 
-**  
-**
-
-**Custom actions**
-
-#### [XWork/WebWork](https://developer.atlassian.com/display/CONFDEV/XWork-WebWork+Module) 
+#### XWork/WebWork
+##### [XWork/WebWork module](https://developer.atlassian.com/display/CONFDEV/XWork-WebWork+Module) 
 
 Defines new XWork/WebWork actions, adding URL-addressable functionality to Confluence.
 
@@ -1336,15 +1313,10 @@ The body of the `<xwork>` element contains XWork action markup. An example is be
 
 ------------------------------------------------------------------------
 
-**  
-**
+###Other types
 
-**  
-**
-
-**Other types**
-
-#### [Search index extractor](https://developer.atlassian.com/display/CONFDEV/Extractor+Module) 
+#### Search index extractor
+##### [Extractor module](https://developer.atlassian.com/display/CONFDEV/Extractor+Module) 
 
 Defines an extractor for adding information to the Confluence search index.
 
@@ -1368,7 +1340,8 @@ Defines an extractor for adding information to the Confluence search index.
 
 ------------------------------------------------------------------------
 
-#### [Path converters](https://developer.atlassian.com/display/CONFDEV/Path+Converter+Module) 
+#### Path converters
+##### [Path converter module](https://developer.atlassian.com/display/CONFDEV/Path+Converter+Module) 
 
 Defines path converters which provide custom path mapping in a plugin.
 
@@ -1389,7 +1362,8 @@ Defines path converters which provide custom path mapping in a plugin.
 
 ------------------------------------------------------------------------
 
-#### [Velocity context](https://developer.atlassian.com/display/CONFDEV/Velocity+Context+Module) 
+#### Velocity context
+#### [Velocity context module](https://developer.atlassian.com/display/CONFDEV/Velocity+Context+Module) 
 
 Defines new components to be added to the [Confluence Velocity context](https://developer.atlassian.com/display/CONFDEV/Confluence+Objects+Accessible+From+Velocity).
 
@@ -1408,196 +1382,3 @@ Defines new components to be added to the [Confluence Velocity context](https://
   context-key="myVelocityHelper"
   class="com.example.myplugin.helpers.MyVelocityHelper" />
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

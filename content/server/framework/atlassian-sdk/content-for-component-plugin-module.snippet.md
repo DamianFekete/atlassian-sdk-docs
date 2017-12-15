@@ -32,8 +32,8 @@ The root element for the Component plugin module is `component`. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,8 +105,8 @@ The root element for the Component plugin module is `component`. It allows the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -176,53 +176,3 @@ Some information to be aware of when developing or configuring a Component plugi
 -   If the `public` attribute is set to 'true', the component will be turned into an OSGi service under the covers, using Spring Dynamic Modules to manage its lifecycle.
 -   This module type in non-OSGi (version 1) plugins supported the StateAware interface in some products to allow a component to react to when it is enabled or disabled. To achieve the same effect, you can use the two Spring lifecycle interfaces: <a href="http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/beans/factory/InitializingBean.html" class="external-link">InitializingBean</a> and <a href="http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/beans/factory/DisposableBean.html" class="external-link">DisposableBean</a>. The init() and destroy() methods on these interfaces will be called when the module is enabled or disabled, exactly like StateAware. Making this change to a component in an existing plugin will be backwards compatible in all but JIRA. That is, a component module in a legacy plugin which implements InitializingBean will have its init() method called when it is enabled, exactly the same as such a component in an OSGi plugin.
 -   Components for non-OSGi (version 1) plugins behave very differently to components for OSGi plugins. For version 1 plugins, components are loaded into the application's object container, be it PicoContainer for JIRA or Spring for all other products that support components. For OSGi plugins, components are turned into beans for the Spring bean factory for that specific plugin. This provides more separation for plugins, but means you cannot do things like override JIRA components in OSGi plugins, as you can for static plugins.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

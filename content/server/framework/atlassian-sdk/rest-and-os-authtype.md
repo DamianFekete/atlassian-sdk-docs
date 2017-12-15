@@ -37,8 +37,8 @@ You can trigger this behaviour by adding the **os\_authType** query parameter in
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,18 +61,3 @@ You can trigger this behaviour by adding the **os\_authType** query parameter in
 </tr>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -66,16 +66,23 @@ Confluence 6.1</td>
 <td> </td>
 <td> </td>
 <td> </td>
-<td><p><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.6.x+platform+release+notes" class="external-link">JIRA 7.6 platform<br />
-</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.5.x+platform+release+notes" class="external-link">JIRA 7.5 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
-</a><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.4.x+platform+release+notes" class="external-link">JIRA 7.4 platform</a><a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link"><br />
-</a></p></td>
+<td><p><a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.6.x+platform+release+notes" class="external-link">JIRA 7.6 platform</a>
+<br />
+<a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.5.x+platform+release+notes" class="external-link">JIRA 7.5 platform</a>
+<br />
+<a href="https://confluence.atlassian.com/display/AdminJIRA/JIRA+7.4.x+platform+release+notes" class="external-link">JIRA 7.4 platform</a>
+<br />
+<a href="https://confluence.atlassian.com/display/AdminJIRAServer074/Administering+JIRA+Server+7.4+applications" class="external-link">Administering JIRA Server 7.4</a>
+<br />
+</p></td>
 <td><p><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.5+release+notes" class="external-link">Bitbucket Server 5.5</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.4+release+notes" class="external-link"><br />
 Bitbucket Server 5.4</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.3+release+notes" class="external-link"><br />
 Bitbucket Server 5.</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.2+release+notes" class="external-link">3<br />
-Bitbucket Server 5.2<br />
-</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.1+release+notes" class="external-link">Bitbucket Server 5.1<br />
-</a><a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.0+release+notes" class="external-link">Bitbucket Server 5.0</a></p></td>
+Bitbucket Server 5.2</a>
+<br />
+<a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.1+release+notes" class="external-link">Bitbucket Server 5.1</a>
+<br />
+<a href="https://confluence.atlassian.com/display/BitbucketServer/Bitbucket+Server+5.0+release+notes" class="external-link">Bitbucket Server 5.0</a></p></td>
 </tr>
 <tr class="odd">
 <td>SAL 3.0.7</td>
@@ -108,8 +115,9 @@ Bitbucket Server 4.6</a></td>
 </tr>
 <tr class="odd">
 <td>SAL 3.0.5</td>
-<td><p><a href="https://confluence.atlassian.com/display/BAMBOO/Bamboo+5.11+Release+Notes" class="external-link">Bamboo 5.11<br />
-</a><a href="https://confluence.atlassian.com/display/BAMBOO0512/Bamboo+5.12+Release+Notes" class="external-link">Bamboo 5.12</a> </p></td>
+<td><p><a href="https://confluence.atlassian.com/display/BAMBOO/Bamboo+5.11+Release+Notes" class="external-link">Bamboo 5.11</a>
+<br />
+<a href="https://confluence.atlassian.com/display/BAMBOO0512/Bamboo+5.12+Release+Notes" class="external-link">Bamboo 5.12</a> </p></td>
 <td><a href="https://confluence.atlassian.com/display/DOC/Confluence+5.9+Release+Notes" class="external-link">Confluence 5.9</a></td>
 <td> </td>
 <td><a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible+4.1+release+notes" class="external-link">Crucible 4.1</a><a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible+4.0+release+notes" class="external-link"><br />
@@ -129,8 +137,9 @@ Bitbucket Server 4.2</a></td>
 <td> </td>
 <td> </td>
 <td> </td>
-<td><p><a href="https://confluence.atlassian.com/jiracore/jira-core-7-1-x-release-notes-802161668.html" class="external-link">JIRA 7.1<br />
-</a><a href="https://confluence.atlassian.com/jiracore/jira-core-7-0-x-release-notes-781386735.html" class="external-link">JIRA 7.0</a></p></td>
+<td><p><a href="https://confluence.atlassian.com/jiracore/jira-core-7-1-x-release-notes-802161668.html" class="external-link">JIRA 7.1</a>
+<br />
+<a href="https://confluence.atlassian.com/jiracore/jira-core-7-0-x-release-notes-781386735.html" class="external-link">JIRA 7.0</a></p></td>
 <td> </td>
 </tr>
 <tr class="odd">
@@ -197,8 +206,9 @@ Bamboo 5.1</a></p></td>
 Crucible 3.9</a><a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.8%20Release%20Notes" class="external-link"><br />
 Crucible 3.8</a><br />
 <a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.7%20Release%20Notes" class="external-link">Crucible 3.7</a> <a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.6%20Release%20Notes" class="external-link"><br />
-Crucible 3.6</a> <a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.6%20Release%20Notes" class="external-link"><br />
-</a><a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.5%20Release%20Notes" class="external-link">Crucible 3.5</a> <a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.2%20Release%20Notes" class="external-link"><br />
+Crucible 3.6</a>
+<br />
+<a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.5%20Release%20Notes" class="external-link">Crucible 3.5</a> <a href="https://confluence.atlassian.com/display/CRUCIBLE/Crucible%203.2%20Release%20Notes" class="external-link"><br />
 Crucible 3.2</a></td>
 <td><a href="https://confluence.atlassian.com/display/FISHEYE/FishEye%203.10%20Release%20Notes" class="external-link">FishEye 3.10</a><a href="https://confluence.atlassian.com/display/FISHEYE/FishEye%203.9%20Release%20Notes" class="external-link"><br />
 FishEye 3.9</a><a href="https://confluence.atlassian.com/display/FISHEYE/FishEye%203.8%20Release%20Notes" class="external-link"><br />
@@ -312,431 +322,3 @@ INFO: SAL is bundled with all application versions as shown in the above table. 
 ##### RELATED TOPICS
 
 [SAL Documentation Home](https://developer.atlassian.com/display/SAL/Shared+Access+Layer+Documentation)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

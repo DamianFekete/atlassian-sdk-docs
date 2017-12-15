@@ -82,8 +82,8 @@ You can specify one or more `<product>` children in  `<products>` element. A &
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,11 +110,11 @@ You can specify one or more `<product>` children in  `<products>` element. A &
 <td>Unique identifier for this product definition.</td>
 </tr>
 <tr class="odd">
-<td><pre><code>productVersion</code></pre></td>
+<td><code>productVersion</code></td>
 <td>Version of the product to use.</td>
 </tr>
 <tr class="even">
-<td><pre><code>productDataVersion</code></pre></td>
+<td><code>productDataVersion</code></td>
 <td>Version of test data to use.</td>
 </tr>
 </tbody>
@@ -124,8 +124,8 @@ You can specify one or more `<testGroup>` children in  `<testGroups>` elemen
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -160,8 +160,6 @@ You can specify one or more `<testGroup>` children in  `<testGroups>` elemen
 </table>
 
 Through this configuration you can specify which tests to include in your integration tests and which products to run them against.   You can even configure the build to run multiple versions of the host application or more than one host application.  For example, you can run Confluence and JIRA together with your plugin tests. Or, you could run JIRA 5.0 and JIRA 4.0.  
-
- 
 
 ``` xml
 <configuration>
@@ -225,8 +223,8 @@ During each test execution, the build system sets the following system propertie
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -402,208 +400,3 @@ While still in Eclipse and do the following to define a `<testGroup>` for your i
 ## Next Steps
 
 In this page and the previous, you learned how to build, configure, and run tests.  All the testing is run from the command line, this can make the development process time consuming and awkward. In the next section, you learn how [to use wired test together with the test console](/server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console) to test your code and speed up development.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

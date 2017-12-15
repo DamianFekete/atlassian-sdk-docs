@@ -30,8 +30,6 @@ These design guidelines focus on the implementation details for REST modules. An
 
 {{% /note %}}
 
- 
-
 ## Background to Atlassian REST APIs
 
 Atlassian is currently working towards creating standardised REST APIs across all of our applications. Some of our applications already provide REST APIs, and some applications are providing new REST APIs or updating their existing APIs in an upcoming release. (Date of writing this paragraph: April 2009.)
@@ -59,8 +57,6 @@ We strongly recommend that someone who is familiar with these guidelines should 
 
 {{% /note %}}
 
- 
-
 ###### Examples used in the Guidelines
 
 The examples used in these guidelines assume that we have a REST API supplied by an Atlassian plugin called the 'Unified Plugin Manager' plugin, 'UPM' or 'upm'. (This is a real plugin that is currently under development.) The UPM allows you to discover and manage the plugins installed on an Atlassian application.
@@ -75,8 +71,8 @@ Given a list of `foo` entities, the following URI scheme provides access to the 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,7 +87,7 @@ Given a list of `foo` entities, the following URI scheme provides access to the 
 <p><strong>Method:</strong> GET.</p></td>
 </tr>
 <tr class="even">
-<td><p><code>/foo/{key</code>}</p></td>
+<td><p><code>/foo/{key}</code></p></td>
 <td><p>This returns the full content of the <code>foo</code> identified by the given <code>key</code>.</p>
 <p><strong>Method:</strong> GET.</p></td>
 </tr>
@@ -130,8 +126,8 @@ Below is a list of standard query parameters. These names are reserved in our RE
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -163,8 +159,8 @@ By default, REST APIs must support multiple content types.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -192,16 +188,14 @@ By default, REST APIs must support multiple content types.
 </tbody>
 </table>
 
- 
-
 #### Hypertext Linking within an Entity
 
 Entities can have links to each other. This is represented by the `<link>` tag. The `<link>` tag supports the following attributes:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -252,13 +246,9 @@ The following plugin entity has a `<link>` tag with a `rel` attribute identifyin
 </plugin>
 ```
 
- 
-
 #### Entity ID
 
 Every addressable entity should have a `<link>` tag with the attribute `rel="self"` pointing to its own URI. See the section on linking [above](#hypertext-linking-within-an-entity).
-
- 
 
 #### Version Control for Entities
 
@@ -278,8 +268,8 @@ Collections of entities should define the following attributes:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -315,8 +305,6 @@ In the response below, the `<modules>` entity has a `size` attribute indicating 
 </plugin>
 ```
 
- 
-
 #### Title Expansion for Entities
 
 In order to be minimise network traffic and simplify some APIs from the client perspective, we recommend that APIs provide title expansion. This works by using the `expand` query parameter and setting its value to the last path element of the entity's schema.
@@ -332,7 +320,7 @@ Expandable entities should be declared by parent entities in the form of an `exp
 For our example, let's take a plugin resource within the 'upm' REST API.
 
 Use this URI to access the plugin resource without specifying title expansion:  
-<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key</a>
+<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key</a>
 
 The response will contain:
 
@@ -347,7 +335,7 @@ The response will contain:
 ###### Example 2. Expanding the `info` Element
 
 Use the following URI to expand the `info` element in our plugin resource:  
-<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info</a>.
+<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info</a>.
 
 Now the response will contain:
 
@@ -365,7 +353,7 @@ Now the response will contain:
 ###### Example 3. Expanding the Collection of Modules
 
 Use this URI to expand the module collection in our plugin resource:  
-<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules</a>
+<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules</a>
 
 The response will contain:
 
@@ -386,12 +374,10 @@ The response will contain:
 
 Note that the above URI does not expand each individual module.
 
- 
-
 ###### Example 4: Using the Dot Notation to Expand Entities within another Entity
 
 Use the following URI to expand the modules inside the collection within our plugin resource:  
-<a href="http://hostport" class="external-link">http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module</a>
+<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module</a>
 
 The response will contain:
 
@@ -422,8 +408,6 @@ You can also set indices to expand a given set of items in the collection. The i
 -   `modules[1:3]` will expand modules ranging from index 1 to 3 (included). Note that `[:3]` and `[3:]` notations also work and the range goes respectively from the beginning of the collection and to the end of the collection.
 -   `modules[-1]` will expand the last module. Other negative index values also work and indices are counted from the end of the collection.
 
- 
-
 ## Version Control for APIs
 
 APIs must be subject to version control. The version number of an API appears in its URI. For example, use this URI structure to request version 1 of the 'upm' API:
@@ -439,9 +423,9 @@ When an API has multiple versions, we recommend:
 
 For example, if versions 1 and 2 of the 'upm' API are available, the following two URIs would point to the same resources:
 
--   <a href="http://hostport" class="external-link">http://host:port/context/rest/upm/latest/</a>
+-   <a href="http://hostport" class="external-link">host:port/context/rest/upm/latest/</a>
 
--   <a href="http://hostport" class="external-link">http://host:port/context/rest/upm/2/</a>
+-   <a href="http://hostport" class="external-link">host:port/context/rest/upm/2/</a>
 
 ### When to Change the Version
 
@@ -560,23 +544,15 @@ public class XsrfCheck
 }
 ```
 
- 
-
 The following diagram shows when XSRF protection is enforced on a request to a rest resource in atlassian-rest 3.0.0 and later versions. 
 
 <img src="/server/framework/atlassian-sdk/images/39373982.png" class="gliffy-macro-image" />
 
 Also in atlassian-rest 3.0.0 a value of "nocheck" for the X-Atlassian-Token XSRF header has been deprecated and will result in a warning when used appearing in the logs. Since, rest 2.9.1 a value of **"no-check"**, is accepted in addition to the old "nocheck" rest value for the X-Atlassian-Token header ( <a href="https://ecosystem.atlassian.net/browse/REST-263?src=confmacro" class="jira-issue-key"><img src="https://ecosystem.atlassian.net/secure/viewavatar?size=xsmall&amp;avatarId=15303&amp;avatarType=issuetype" class="icon" />REST-263</a> - REST-164 Implemented checking the X-Atlassian-Token header with the wrong value Resolved ).
 
- 
-
 #### Using the jQuery ajaxSetup or ajaxPrefilter function to add the XSRF header to jQuery ajax requests
 
- 
-
 By using jQuery's <a href="https://api.jquery.com/jquery.ajaxsetup/" class="external-link">ajaxSetup</a> or the <a href="https://api.jquery.com/jquery.ajaxprefilter/" class="external-link">ajaxPrefilter</a>  function it is possible to make all <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Same_origin_policy_for_JavaScript" class="external-link">same origin </a>jQuery ajax requests contain the CSRF X-Atlassian-Token header. This is incredibly useful as it means that existing jQuery ajax usages should not need to be modified.
-
- 
 
 For example bamboo uses the ajaxPrefilter function like so:
 
@@ -593,8 +569,6 @@ AJS.$.ajaxPrefilter(
         });
 
 ```
-
- 
 
 Here is an example using <span class="underline">ajaxSetup</span> instead of ajaxPrefilter:
 
@@ -613,15 +587,13 @@ $.ajaxSetup({
 });
 ```
 
- 
-
 ##### CORS
 
 If <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" class="external-link">CORS</a> is configured in a product such that it permits setting the content-type or the X-Atlassian-Token header then XSRF protection can be bypassed by CORS allowed origins. This is intentional and supported by design.
 
 ## Caching
 
-REST APIs SHOULD support conditional GET requests. This will allow the client to cache resource representations. For conditional GET requests to work, the client MUST send the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19" class="external-link">ETag</a> value when requesting resources using the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.26" class="external-link">If-None-Match</a> request header. The ETag is the one provided by a previous request to that same URI. See the section on version control for entities [below](#version-control-for-entities).
+REST APIs SHOULD support conditional GET requests. This will allow the client to cache resource representations. For conditional GET requests to work, the client MUST send the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19" class="external-link">ETag</a> value when requesting resources using the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.26" class="external-link">If-None-Match</a> request header. The ETag is the one provided by a previous request to that same URI. See the section on version control for entities [below](#appendix-a-response-codes).
 
 Server implementations should acknowledge the `If-None-Match` header and check whether the response should be a `304` (Not Modified). See the section on response codes [below](#appendix-a-response-codes).
 
@@ -629,7 +601,7 @@ Server implementations should acknowledge the `If-None-Match` header and check w
 
 PUT or DELETE API requests SHOULD provide an <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.24" class="external-link">If-Match</a> header, and SHOULD react meaningfully to `412` (Precondition Failed) responses. See the section on response codes [below](#appendix-a-response-codes).
 
-The ETag is the one provided by a previous GET request to that same URI. See the section on version control for entities [below](#version-control-for-entities).
+The ETag is the one provided by a previous GET request to that same URI. See the section on version control for entities [below](#appendix-a-response-codes).
 
 ## Not Yet Covered in these Guidelines
 
@@ -641,16 +613,14 @@ Some items worth discussing in the guidelines are currently out of scope:
 -   OpenSearch
 -   Internationalisation (i18n)
 
- 
-
 ## Appendix A: Response Codes
 
 This list shows the common HTTP response codes and some brief guidelines on how to use them. For the complete list of HTTP response codes, please refer to <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html#sec6.1.1" class="external-link">section 6 of RFC 2616</a>.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -666,7 +636,7 @@ This list shows the common HTTP response codes and some brief guidelines on how 
 <p><strong>Notes:</strong></p>
 <ul>
 <li>GET request returns a representation of the requested entity,</li>
-<li>The body of other requests will be a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of other requests will be a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -679,7 +649,7 @@ This list shows the common HTTP response codes and some brief guidelines on how 
 <li>This cannot happen on GET or DELETE requests.</li>
 <li>This will happen on POST and may happen on PUT requests.</li>
 <li>The response should set the <code>Location</code> header to the URI for the created resource.</li>
-<li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul>
 </div></td>
 </tr>
@@ -691,7 +661,7 @@ For example, the request may have scheduled a job on the server.</p>
 <p><strong>Notes:</strong></p>
 <ul>
 <li>The response should set the <code>Location</code> header with the URI to the resource representing the pending action.</li>
-<li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -706,7 +676,7 @@ For example, the request may have scheduled a job on the server.</p>
 <div>
 <ul>
 <li>The response should set the <code>Location</code> header to the URI of the new location of the resource.</li>
-<li>The body of the response is a Status entity as described in the Status_ section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status_ section of this document <a href="#status">below</a>.</li>
 </ul>
 </div></td>
 </tr>
@@ -727,7 +697,7 @@ The client's <em>cached</em> representation is still valid.</p>
 <p><strong>Notes:</strong></p>
 <div>
 <ul>
-<li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul>
 </div></td>
 </tr>
@@ -738,7 +708,7 @@ The client's <em>cached</em> representation is still valid.</p>
 <p><strong>Notes:</strong></p>
 <div>
 <ul>
-<li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul>
 </div></td>
 </tr>
@@ -749,7 +719,7 @@ The client's <em>cached</em> representation is still valid.</p>
 <p><strong>Notes:</strong></p>
 <div>
 <ul>
-<li>The body of the response is a Status entity as described in the Status section of this document <a href="#below">below</a>.</li>
+<li>The body of the response is a Status entity as described in the Status section of this document <a href="#status">below</a>.</li>
 </ul>
 </div></td>
 </tr>
@@ -799,8 +769,8 @@ Any request which produces a status code with no body will have a body formatted
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -837,300 +807,3 @@ Any request which produces a status code with no body will have a body formatted
 [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)  
 [REST Plugin Module](https://developer.atlassian.com/display/REST/REST+Plugin+Module)  
 [Basics of Exposing REST APIs via Plugins](/server/framework/atlassian-sdk/basics-of-exposing-rest-apis-via-plugins.snippet)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

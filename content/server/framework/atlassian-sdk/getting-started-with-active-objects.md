@@ -18,8 +18,8 @@ title: Getting started with Active Objects
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 70%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -36,8 +36,6 @@ title: Getting started with Active Objects
 </tr>
 </tbody>
 </table>
-
- 
 
 ### Plugin source
 
@@ -65,17 +63,18 @@ Creating the plugin, once the SDK is installed is as simple as running **`atlas-
 
 We're going to use the following values for this guide:
 
--   `groupId:`**` com.atlassian.tutorial.ao.todo`**
+-   roupId: `com.atlassian.tutorial.ao.todo`
 -   artifactId: **ao-tutorial**
 -   version: **1.0.0-SNAPSHOT**
--   package: **com.atlassian.tutorial.ao.todo  
-    **
+-   package: **com.atlassian.tutorial.ao.todo**
 
 Note: You may need to use a different folder to the downloaded source to avoid conflict.
 
-{{% /note %}}{{% note %}}
+{{% /note %}}
 
-The following instructions should apply to using Active Objects across Atlassian products, whether in JIRA, Confluence, Bamboo or the Refapp. There are some minor differences between the products, however. For example, the name of the plugin referenced in your `pom.xml` will differ, as it follows the pattern `maven-product-plugin`. See [Getting Started](/server/framework/atlassian-sdk/index) for common information on developing Atlassian plugins and using the SDK, or a particular product development space--like [JIRA developer documentation](https://developer.atlassian.com/display/JIRADEV), or [Confluence Cloud](https://developer.atlassian.com/display/CONFCLOUD) or [Server](https://developer.atlassian.com/display/CONFDEV)--for product-specific information, if necessary.
+{{% note %}}
+
+The following instructions should apply to using Active Objects across Atlassian products, whether in JIRA, Confluence, Bamboo or the Refapp. There are some minor differences between the products, however. For example, the name of the plugin referenced in your `pom.xml` will differ, as it follows the pattern `maven-product-plugin`. See [Getting Started](/server/framework/atlassian-sdk/index) for common information on developing Atlassian plugins and using the SDK, or a particular product development space -- like [JIRA developer documentation](https://developer.atlassian.com/display/JIRADEV), or [Confluence Cloud](https://developer.atlassian.com/display/CONFCLOUD) or [Server](https://developer.atlassian.com/display/CONFDEV) -- for product-specific information, if necessary.
 
 {{% /note %}}
 
@@ -129,15 +128,13 @@ Stage 1
 We've now completed **stage 1** of this guide. Here is how to make sure that everything is working as expected:
 
 -   Launch `atlas-run` from the command line, and you should see the following message:
-
     ``` text
     [INFO] refapp started successfully and available at http://localhost:5990/refapp
     [INFO] Type CTRL-C to exit
     ```
-
     Don't use `CTRL-C` to kill this instance! We will use `atlas-mvn package` to recompile our plugin and QuickReload will reload it for us, alleviating the need to restart refapp every time we make a change.
 
--   Go to the following URL <a href="http://localhost:5990/refapp/plugins/servlet/upm" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/upm</a> (if asked to log in, use admin/admin) and check that all the expected plugins are installed and enabled:
+-   Go to the following URL <a href="http://localhost:5990/refapp/plugins/servlet/upm" class="uri external-link">localhost:5990/refapp/plugins/servlet/upm</a> (if asked to log in, use admin/admin) and check that all the expected plugins are installed and enabled:
     -   ActiveObjects Plugin - OSGi Bundle
     -   Your plugin, which should appear under *groupId*.*artifactId*
 
@@ -251,7 +248,7 @@ At this stage I've removed the test classes and resources as we'll worry about t
 Let's check that this servlet acutally works:
 
 -   Run `atlas-mvn package` from the command line,
--   Access the servlet at <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/todo/list</a>
+-   Access the servlet at <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">localhost:5990/refapp/plugins/servlet/todo/list</a>
 
 It should read *Todo servlet, doGet* on the screen!
 
@@ -351,7 +348,7 @@ Stage 2
 
 We've now completed **stage 2** of this guide.
 
--   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
+-   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
     -   List Todo items,
     -   and Create new Todo items.
 
@@ -521,7 +518,7 @@ Stage 3
 
 We've now completed **stage 3** of this guide.
 
--   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">http://localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
+-   Run `atlas-mvn package` from the command line and you should be able to access the URL <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">localhost:5990/refapp/plugins/servlet/todo/list</a>, there you will be able to:
     -   List Todo items,
     -   and Create new Todo items.
 
@@ -938,322 +935,3 @@ You'll notice that there are other stages to the source code. This is because [
 -   <a href="http://java.net/projects/activeobjects" class="external-link">Active Objects on java.net</a>
 -   [Active Objects Plugin Module](/server/framework/atlassian-sdk/active-objects-plugin-module)
 -   [Active Objects FAQ](/server/framework/atlassian-sdk/active-objects-faq)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

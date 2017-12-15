@@ -18,8 +18,8 @@ title: Making pluggable inline actions for Activity Streams
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -31,15 +31,11 @@ Confluence 4.0 and later.</p></td>
 </tbody>
 </table>
 
- 
-
 Activity streams are great. They funnel lots of information into an easily accessible view to allow users an easy way to keep up with the latest activities. They are even better if they allow the users to act on the items they see, right there on the stream itself.
 
 As a plugin developer, you can use the Atlassian Activity Streams 4 API to add your own inline actions whenever you please. The API is entirely in JavaScript.
 
 The instructions below show you how to write your own pluggable action for Atlassian Activity Streams.
-
- 
 
 {{% note %}}
 
@@ -209,13 +205,9 @@ Now register your `i18n.properties` file with your plugin.
 
 ``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
-
     ...
-
     <resource type="i18n" name="bamboo-actions-i18n" location="com.atlassian.streams.bamboo.inline-actions.i18n"/>
-
     ...
-
 </atlassian-plugin>
 ```
 
@@ -223,9 +215,7 @@ To make the internationalized properties available to your JavaScript, you'll wa
 
 ``` xml
 <atlassian-plugin key="com.atlassian.streams.bamboo.inlineactions" name="Bamboo Streams Inline Actions Plugin" pluginsVersion="2">
-
     ...
-
     <streams-action-handlers key="actionHandlers">
         <transformation extension="i18n.js">
             <transformer key="action-i18n-transformer" />
@@ -234,9 +224,7 @@ To make the internationalized properties available to your JavaScript, you'll wa
         <resource type="download" name="streams.bamboo.action.i18n.js" location="/js/inline-actions/streams.bamboo.action.i18n.js"/>
         <resource type="download" name="build-trigger.js" location="/js/inline-actions/build-trigger.js"/>
     </streams-action-handlers>
-
     ...
-
 </atlassian-plugin>
 ```
 
@@ -244,13 +232,10 @@ Now we're ready to use the i18n properties in your JavaScript. Activity Streams 
 
 ``` javascript
 function buildTriggerBuildLink(feedItem) {
-
         ...
-
         var link = AJS.$('<a href="#" class="activity-item-build-trigger-link"></a>')
                 .text(ActivityStreams.i18n.get('streams.bamboo.action.trigger.title'))
                 .bind('click', {feedItem: feedItem}, addBuildToQueue);
-
         ...
     }
 ```
@@ -266,7 +251,7 @@ This method takes the following parameters:
 
 -   **activityItem**: the `activity-item` `<div>` used by your action handler
 -   **message**: a textual message to display in the status message
--   **type**: type of message to display (any of the "classes" supported by <a href="/pages/createpage.action?spaceKey=AUI&amp;title=Messages" class="createlink">AUI Messages</a>).
+-   **type**: type of message to display (any of the "classes" supported by <a href="/server/framework/atlassian-sdk/making-pluggable-inline-actions-for-activity-streams" class="createlink">AUI Messages</a>).
 -   **additionalEvents**: an optional callback function to invoke upon the status message fading out.
 
 Atlassian Gadgets have some built-in ajax error handling, so if you're issuing an ajax request and using `statusMessage()`, you'll want to disable the global error handling by setting `global` to `false` in the jQuery ajax method.
@@ -561,315 +546,3 @@ And our final `atlassian-plugin.xml` is:
 
 </atlassian-plugin>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

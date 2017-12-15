@@ -25,7 +25,7 @@ XML Schema is a W3C-recommended XML dialect for declaring and validating the str
 
 The schema for the plugin descriptor document is available at: <a href="https://bitbucket.org/atlassian/atlassian-xsd/" class="external-link"></a>
 
-<a href="https://bitbucket.org/atlassian/atlassian-xsd/" class="uri external-link">https://bitbucket.org/atlassian/atlassian-xsd/</a>
+<a href="https://bitbucket.org/atlassian/atlassian-xsd/" class="uri external-link">bitbucket.org/atlassian/atlassian-xsd/</a>
 
 ## Features
 
@@ -118,10 +118,3 @@ Schemas enforce an order on elements that doesn't always correspond to `atlassia
 ## Reporting problems
 
 We've made every reasonable effort to ensure that the schemas work properly. If you do find something you can't explain and that should work properly, please email developer-relations@atlassian.com.
-
-
-
-
-
-
-
