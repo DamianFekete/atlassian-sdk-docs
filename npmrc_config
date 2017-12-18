@@ -1,2 +1,5 @@
-@atlassian:registry=https://npm-private-proxy.atlassian.io/ # note how the URL here is different!  It's the proxy one!
-//npm-private-proxy.atlassian.io/:_authToken=${NPM_TOKEN}
+@atlassian:registry=https://packages.atlassian.com/api/npm/atlassian-npm/
+//packages.atlassian.com/api/npm/atlassian-npm/:_password=${NPM_PASSWORD}
+//packages.atlassian.com/api/npm/atlassian-npm/:username=jfurler
+//packages.atlassian.com/api/npm/atlassian-npm/:email=jfurler@atlassian.com
+//packages.atlassian.com/api/npm/atlassian-npm/:always-auth=true
