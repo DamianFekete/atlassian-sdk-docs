@@ -1,104 +1,104 @@
 redirects:
-- {confluence_id: 852033, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852033'}
-- {confluence_id: 5242947, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242947'}
-- {confluence_id: 852036, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852036'}
-- {confluence_id: 2818472, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818472'}
-- {confluence_id: 852047, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852047'}
-- {confluence_id: 852144, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852144'}
-- {confluence_id: 18252416, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=18252416'}
-- {confluence_id: 8946290, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8946290'}
-- {confluence_id: 2818473, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818473'}
-- {confluence_id: 852080, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852080'}
-- {confluence_id: 2818467, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818467'}
-- {confluence_id: 852055, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852055'}
-- {confluence_id: 852064, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852064'}
-- {confluence_id: 851997, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=851997'}
-- {confluence_id: 852093, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852093'}
-- {confluence_id: 852063, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852063'}
-- {confluence_id: 851985, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=851985'}
-- {confluence_id: 852011, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852011'}
-- {confluence_id: 852006, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852006'}
-- {confluence_id: 852072, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852072'}
-- {confluence_id: 852071, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852071'}
-- {confluence_id: 852070, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852070'}
-- {confluence_id: 852069, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852069'}
-- {confluence_id: 852140, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852140'}
-- {confluence_id: 852066, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852066'}
-- {confluence_id: 852015, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852015'}
-- {confluence_id: 852108, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852108'}
-- {confluence_id: 852065, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852065'}
-- {confluence_id: 851998, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=851998'}
-- {confluence_id: 852114, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852114'}
-- {confluence_id: 852079, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852079'}
-- {confluence_id: 23691392, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=23691392'}
-- {confluence_id: 8946215, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8946215'}
-- {confluence_id: 852058, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852058'}
-- {confluence_id: 852013, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852013'}
-- {confluence_id: 852052, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852052'}
-- {confluence_id: 852061, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852061'}
-- {confluence_id: 852062, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852062'}
-- {confluence_id: 852054, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852054'}
-- {confluence_id: 852067, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852067'}
-- {confluence_id: 852057, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852057'}
-- {confluence_id: 852051, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852051'}
-- {confluence_id: 852053, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852053'}
-- {confluence_id: 852059, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852059'}
-- {confluence_id: 852060, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852060'}
-- {confluence_id: 6291467, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6291467'}
-- {confluence_id: 8945826, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8945826'}
-- {confluence_id: 8946253, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8946253'}
-- {confluence_id: 2818463, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818463'}
-- {confluence_id: 5242881, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242881'}
-- {confluence_id: 7372858, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=7372858'}
-- {confluence_id: 5668913, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5668913'}
-- {confluence_id: 2818468, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818468'}
-- {confluence_id: 852103, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852103'}
-- {confluence_id: 13632950, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=13632950'}
-- {confluence_id: 5669830, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5669830'}
-- {confluence_id: 5669180, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5669180'}
-- {confluence_id: 2818464, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818464'}
-- {confluence_id: 852032, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852032'}
-- {confluence_id: 2818460, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818460'}
-- {confluence_id: 852104, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852104'}
-- {confluence_id: 851990, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=851990'}
-- {confluence_id: 2818469, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818469'}
-- {confluence_id: 2818137, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818137'}
-- {confluence_id: 2818466, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818466'}
-- {confluence_id: 2818470, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818470'}
-- {confluence_id: 2818459, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818459'}
-- {confluence_id: 11306016, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=11306016'}
-- {confluence_id: 852105, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852105'}
-- {confluence_id: 852042, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852042'}
-- {confluence_id: 7897096, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=7897096'}
-- {confluence_id: 5670021, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670021'}
-- {confluence_id: 5670074, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670074'}
-- {confluence_id: 5670051, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670051'}
-- {confluence_id: 5670070, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670070'}
-- {confluence_id: 5670040, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670040'}
-- {confluence_id: 5670060, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670060'}
-- {confluence_id: 5670025, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670025'}
-- {confluence_id: 5670079, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670079'}
-- {confluence_id: 5670066, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670066'}
-- {confluence_id: 5669863, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5669863'}
-- {confluence_id: 8947331, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8947331'}
-- {confluence_id: 8947342, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8947342'}
-- {confluence_id: 18251866, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=18251866'}
-- {confluence_id: 4915211, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915211'}
-- {confluence_id: 5242884, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242884'}
-- {confluence_id: 2818471, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818471'}
-- {confluence_id: 11305049, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=11305049'}
-- {confluence_id: 11305037, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=11305037'}
-- {confluence_id: 11305043, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=11305043'}
-- {confluence_id: 5668905, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5668905'}
-- {confluence_id: 852129, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852129'}
-- {confluence_id: 852030, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852030'}
-- {confluence_id: 2818465, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818465'}
-- {confluence_id: 4915208, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915208'}
-- {confluence_id: 5242943, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242943'}
-- {confluence_id: 16974132, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=16974132'}
+- {confluence_id: 852033, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852033'}
+- {confluence_id: 5242947, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242947'}
+- {confluence_id: 852036, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852036'}
+- {confluence_id: 2818472, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818472'}
+- {confluence_id: 852047, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852047'}
+- {confluence_id: 852144, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852144'}
+- {confluence_id: 18252416, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=18252416'}
+- {confluence_id: 8946290, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8946290'}
+- {confluence_id: 2818473, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818473'}
+- {confluence_id: 852080, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852080'}
+- {confluence_id: 2818467, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818467'}
+- {confluence_id: 852055, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852055'}
+- {confluence_id: 852064, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852064'}
+- {confluence_id: 851997, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=851997'}
+- {confluence_id: 852093, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852093'}
+- {confluence_id: 852063, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852063'}
+- {confluence_id: 851985, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=851985'}
+- {confluence_id: 852011, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852011'}
+- {confluence_id: 852006, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852006'}
+- {confluence_id: 852072, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852072'}
+- {confluence_id: 852071, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852071'}
+- {confluence_id: 852070, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852070'}
+- {confluence_id: 852069, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852069'}
+- {confluence_id: 852140, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852140'}
+- {confluence_id: 852066, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852066'}
+- {confluence_id: 852015, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852015'}
+- {confluence_id: 852108, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852108'}
+- {confluence_id: 852065, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852065'}
+- {confluence_id: 851998, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=851998'}
+- {confluence_id: 852114, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852114'}
+- {confluence_id: 852079, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852079'}
+- {confluence_id: 23691392, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=23691392'}
+- {confluence_id: 8946215, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8946215'}
+- {confluence_id: 852058, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852058'}
+- {confluence_id: 852013, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852013'}
+- {confluence_id: 852052, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852052'}
+- {confluence_id: 852061, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852061'}
+- {confluence_id: 852062, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852062'}
+- {confluence_id: 852054, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852054'}
+- {confluence_id: 852067, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852067'}
+- {confluence_id: 852057, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852057'}
+- {confluence_id: 852051, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852051'}
+- {confluence_id: 852053, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852053'}
+- {confluence_id: 852059, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852059'}
+- {confluence_id: 852060, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852060'}
+- {confluence_id: 6291467, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6291467'}
+- {confluence_id: 8945826, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8945826'}
+- {confluence_id: 8946253, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8946253'}
+- {confluence_id: 2818463, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818463'}
+- {confluence_id: 5242881, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242881'}
+- {confluence_id: 7372858, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=7372858'}
+- {confluence_id: 5668913, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5668913'}
+- {confluence_id: 2818468, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818468'}
+- {confluence_id: 852103, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852103'}
+- {confluence_id: 13632950, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=13632950'}
+- {confluence_id: 5669830, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5669830'}
+- {confluence_id: 5669180, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5669180'}
+- {confluence_id: 2818464, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818464'}
+- {confluence_id: 852032, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852032'}
+- {confluence_id: 2818460, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818460'}
+- {confluence_id: 852104, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852104'}
+- {confluence_id: 851990, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=851990'}
+- {confluence_id: 2818469, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818469'}
+- {confluence_id: 2818137, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818137'}
+- {confluence_id: 2818466, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818466'}
+- {confluence_id: 2818470, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818470'}
+- {confluence_id: 2818459, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818459'}
+- {confluence_id: 11306016, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=11306016'}
+- {confluence_id: 852105, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852105'}
+- {confluence_id: 852042, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852042'}
+- {confluence_id: 7897096, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=7897096'}
+- {confluence_id: 5670021, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670021'}
+- {confluence_id: 5670074, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670074'}
+- {confluence_id: 5670051, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670051'}
+- {confluence_id: 5670070, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670070'}
+- {confluence_id: 5670040, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670040'}
+- {confluence_id: 5670060, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670060'}
+- {confluence_id: 5670025, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670025'}
+- {confluence_id: 5670079, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670079'}
+- {confluence_id: 5670066, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670066'}
+- {confluence_id: 5669863, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5669863'}
+- {confluence_id: 8947331, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8947331'}
+- {confluence_id: 8947342, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8947342'}
+- {confluence_id: 18251866, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=18251866'}
+- {confluence_id: 4915211, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915211'}
+- {confluence_id: 5242884, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242884'}
+- {confluence_id: 2818471, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818471'}
+- {confluence_id: 11305049, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=11305049'}
+- {confluence_id: 11305037, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=11305037'}
+- {confluence_id: 11305043, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=11305043'}
+- {confluence_id: 5668905, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5668905'}
+- {confluence_id: 852129, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852129'}
+- {confluence_id: 852030, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852030'}
+- {confluence_id: 2818465, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818465'}
+- {confluence_id: 4915208, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915208'}
+- {confluence_id: 5242943, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242943'}
+- {confluence_id: 16974132, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=16974132'}
 - {confluence_id: 16974627, new: /server/framework/atlassian-sdk/about-amps-build-options,
     old: /docs/developer-tools/working-with-the-sdk/about-amps-build-options}
-- {confluence_id: 2818372, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818372'}
+- {confluence_id: 2818372, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818372'}
 - {confluence_id: 5242930, new: /server/framework/atlassian-sdk/about-sal-development,
     old: /docs/atlassian-platform-common-components/shared-access-layer/about-sal-development}
 - {confluence_id: 2818632, new: /server/framework/atlassian-sdk/about-the-atlassian-refapp,
@@ -229,30 +229,30 @@ redirects:
 - {confluence_id: 2818360, new: /server/framework/atlassian-sdk/atlas-unit-test, old: /docs/developer-tools/working-with-the-sdk/command-reference/atlas-unit-test}
 - {confluence_id: 13633056, new: /server/framework/atlassian-sdk/atlas-update, old: /docs/developer-tools/working-with-the-sdk/command-reference/atlas-update}
 - {confluence_id: 2818345, new: /server/framework/atlassian-sdk/atlas-version, old: /docs/developer-tools/working-with-the-sdk/command-reference/atlas-version}
-- {confluence_id: 6849673, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849673'}
-- {confluence_id: 6849881, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849881'}
-- {confluence_id: 6849684, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849684'}
-- {confluence_id: 6849653, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849653'}
-- {confluence_id: 6848534, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6848534'}
-- {confluence_id: 6291923, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6291923'}
-- {confluence_id: 6849808, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849808'}
-- {confluence_id: 6848683, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6848683'}
-- {confluence_id: 8945752, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8945752'}
-- {confluence_id: 6848540, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6848540'}
-- {confluence_id: 6849601, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849601'}
-- {confluence_id: 6849623, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849623'}
-- {confluence_id: 6849644, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849644'}
-- {confluence_id: 6849670, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6849670'}
+- {confluence_id: 6849673, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849673'}
+- {confluence_id: 6849881, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849881'}
+- {confluence_id: 6849684, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849684'}
+- {confluence_id: 6849653, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849653'}
+- {confluence_id: 6848534, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6848534'}
+- {confluence_id: 6291923, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6291923'}
+- {confluence_id: 6849808, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849808'}
+- {confluence_id: 6848683, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6848683'}
+- {confluence_id: 8945752, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8945752'}
+- {confluence_id: 6848540, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6848540'}
+- {confluence_id: 6849601, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849601'}
+- {confluence_id: 6849623, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849623'}
+- {confluence_id: 6849644, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849644'}
+- {confluence_id: 6849670, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6849670'}
 - {confluence_id: 2818386, new: /server/framework/atlassian-sdk/atlassian-javadoc,
     old: /docs/getting-started/atlassian-javadoc}
 - {confluence_id: 2818631, new: /server/framework/atlassian-sdk/atlassian-platform-common-components,
     old: /docs/atlassian-platform-common-components}
-- {confluence_id: 2818678, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818678'}
+- {confluence_id: 2818678, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818678'}
 - {confluence_id: 2818649, new: /server/framework/atlassian-sdk/atlassian-plugin-sdk-faq,
     old: /docs/faq/atlassian-plugin-sdk-faq}
 - {confluence_id: 2818650, new: /server/framework/atlassian-sdk/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path,
     old: /docs/faq/atlassian-plugin-sdk-faq/atlassian-plugin-sdk-ignores-customisations-for-port-or-context-path}
-- {confluence_id: 7372808, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=7372808'}
+- {confluence_id: 7372808, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=7372808'}
 - {confluence_id: 4915226, new: /server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1,
     old: /docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1}
 - {confluence_id: 5669100, new: /server/framework/atlassian-sdk/atlassian-template-renderer,
@@ -269,7 +269,7 @@ redirects:
     old: /docs/developer-tools/automatic-plugin-reinstallation-with-quickreload}
 - {confluence_id: 13631708, new: /server/framework/atlassian-sdk/basic-plugin-tutorial,
     old: /docs/common-coding-tasks/creating-an-admin-configuration-form/basic-plugin-tutorial}
-- {confluence_id: 4915229, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915229'}
+- {confluence_id: 4915229, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915229'}
 - {confluence_id: 2818633, new: /server/framework/atlassian-sdk/beancreationexception-from-spring-framework,
     old: /docs/faq/troubleshooting/beancreationexception-from-spring-framework}
 - {confluence_id: 852031, new: /server/framework/atlassian-sdk/behind-the-scenes-in-the-plugin-framework,
@@ -277,8 +277,8 @@ redirects:
 - {confluence_id: 2818374, new: /server/framework/atlassian-sdk/best-practices, old: /docs/advanced-topics/best-practices}
 - {confluence_id: 8946892, new: /server/framework/atlassian-sdk/best-practices-for-developing-with-active-objects,
     old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/best-practices-for-developing-with-active-objects}
-- {confluence_id: 2818398, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818398'}
-- {confluence_id: 8947336, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8947336'}
+- {confluence_id: 2818398, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818398'}
+- {confluence_id: 8947336, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8947336'}
 - {confluence_id: 852005, new: /server/framework/atlassian-sdk/bundle, old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/bundle-glossary-entry}
 - {confluence_id: 852121, new: /server/framework/atlassian-sdk/bundleexception, old: /docs/faq/troubleshooting/bundleexception}
 - {confluence_id: 851974, new: /server/framework/atlassian-sdk/bundleexception-with-no-bundle-constraint-specified,
@@ -319,14 +319,14 @@ redirects:
     old: /docs/getting-started/configuring-the-plugin-descriptor}
 - {confluence_id: 5669161, new: /server/framework/atlassian-sdk/configuring-your-project,
     old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project}
-- {confluence_id: 18252503, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=18252503'}
+- {confluence_id: 18252503, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=18252503'}
 - {confluence_id: 852027, new: /server/framework/atlassian-sdk/consuming-an-activity-streams-feed,
     old: /docs/atlassian-platform-common-components/activity-streams/consuming-an-activity-streams-feed}
 - {confluence_id: 16352154, new: /server/framework/atlassian-sdk/control-access-with-sal,
     old: /docs/getting-started/learn-the-development-platform-by-example/control-access-with-sal}
 - {confluence_id: 21463904, new: /server/framework/atlassian-sdk/convert-component-to-servlet-module,
     old: /docs/getting-started/learn-the-development-platform-by-example/convert-component-to-servlet-module}
-- {confluence_id: 2818400, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818400'}
+- {confluence_id: 2818400, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818400'}
 - {confluence_id: 852046, new: /server/framework/atlassian-sdk/converting-from-version-1-to-version-2-osgi-plugins,
     old: /docs/advanced-topics/converting-from-version-1-to-version-2-osgi-plugins}
 - {confluence_id: 44044634, new: /server/framework/atlassian-sdk/create-a-confluence-hello-world-macro,
@@ -357,12 +357,12 @@ redirects:
     old: /docs/advanced-topics/creating-plugin-module-instances}
 - {confluence_id: 852128, new: /server/framework/atlassian-sdk/cross-product-plugin,
     old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/cross-product-plugin-glossary-entry}
-- {confluence_id: 8946211, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8946211'}
-- {confluence_id: 852126, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852126'}
-- {confluence_id: 852125, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852125'}
+- {confluence_id: 8946211, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8946211'}
+- {confluence_id: 852126, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852126'}
+- {confluence_id: 852125, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852125'}
 - {confluence_id: 16974213, new: /server/framework/atlassian-sdk/declaring-jndi-datasources-in-amps,
     old: /docs/developer-tools/declaring-jndi-datasources-in-amps}
-- {confluence_id: 852122, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852122'}
+- {confluence_id: 852122, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852122'}
 - {confluence_id: 5669149, new: /server/framework/atlassian-sdk/deleting-entities,
     old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/deleting-entities}
 - {confluence_id: 852094, new: /server/framework/atlassian-sdk/dependency-issues-during-plugin-initialisation,
@@ -371,7 +371,7 @@ redirects:
     old: /docs/faq/advanced-plugin-development-faq/deployment-stalled-due-to-spaces-in-directory-path}
 - {confluence_id: 2818636, new: /server/framework/atlassian-sdk/detecting-the-presence-or-absence-of-classes-in-different-osgi-bundles,
     old: /docs/faq/advanced-plugin-development-faq/detecting-the-presence-or-absence-of-classes-in-different-osgi-bundles}
-- {confluence_id: 2818311, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818311'}
+- {confluence_id: 2818311, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818311'}
 - {confluence_id: 18252579, new: /server/framework/atlassian-sdk/developer-tools,
     old: /docs/developer-tools}
 - {confluence_id: 2818694, new: /server/framework/atlassian-sdk/developing-a-rest-service-plugin,
@@ -384,7 +384,7 @@ redirects:
     old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects}
 - {confluence_id: 18252617, new: /server/framework/atlassian-sdk/development-cycle,
     old: /docs/common-coding-tasks/development-cycle}
-- {confluence_id: 852099, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852099'}
+- {confluence_id: 852099, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852099'}
 - {confluence_id: 852131, new: /server/framework/atlassian-sdk/differences-between-spring-and-pico,
     old: /docs/faq/plugin-framework-faq/differences-between-spring-and-pico}
 - {confluence_id: 852009, new: /server/framework/atlassian-sdk/differences-between-version-1-plugins-and-version-2-plugins,
@@ -405,10 +405,10 @@ redirects:
     old: /docs/faq/atlassian-plugin-sdk-faq/errors-when-creating-an-archetype}
 - {confluence_id: 2818108, new: /server/framework/atlassian-sdk/example-extensions,
     old: /docs/advanced-topics/speakeasy/example-extensions}
-- {confluence_id: 2818713, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818713'}
+- {confluence_id: 2818713, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818713'}
 - {confluence_id: 10421987, new: /server/framework/atlassian-sdk/explore-the-installed-sdk-and-the-atlas-commands,
     old: /docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/explore-the-installed-sdk-and-the-atlas-commands}
-- {confluence_id: 852124, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852124'}
+- {confluence_id: 852124, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852124'}
 - {confluence_id: 852023, new: /server/framework/atlassian-sdk/exposing-host-components-via-spring,
     old: /docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/exposing-host-components-via-spring}
 - {confluence_id: 2818151, new: /server/framework/atlassian-sdk/extending-the-speakeasy-plugin,
@@ -433,7 +433,7 @@ redirects:
     old: /docs/faq/getting-started-tutorial-faq}
 - {confluence_id: 5669135, new: /server/framework/atlassian-sdk/getting-started-with-active-objects,
     old: /docs/atlassian-platform-common-components/active-objects/getting-started-with-active-objects}
-- {confluence_id: 2818681, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818681'}
+- {confluence_id: 2818681, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818681'}
 - {confluence_id: 18252730, new: /server/framework/atlassian-sdk/getting-started-with-the-rest-apis,
     old: /docs/getting-started-with-the-rest-apis}
 - {confluence_id: 852147, new: /server/framework/atlassian-sdk/going-from-plugin-to-osgi-bundle,
@@ -442,16 +442,16 @@ redirects:
     old: /docs/atlassian-platform-common-components/active-objects/handling-ao-upgrade-tasks}
 - {confluence_id: 2818648, new: /server/framework/atlassian-sdk/how-can-i-change-the-version-of-java-my-plugin-uses,
     old: /docs/faq/atlassian-plugin-sdk-faq/how-can-i-change-the-version-of-java-my-plugin-uses}
-- {confluence_id: 2818715, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818715'}
-- {confluence_id: 2818358, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818358'}
+- {confluence_id: 2818715, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818715'}
+- {confluence_id: 2818358, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818358'}
 - {confluence_id: 8947254, new: /server/framework/atlassian-sdk/how-to-speed-up-plugin-startup,
     old: /docs/faq/advanced-plugin-development-faq/how-to-speed-up-plugin-startup}
 - {confluence_id: 8946978, new: /server/framework/atlassian-sdk/how-to-upgrade-ao-to-0-18-x-in-jira-5,
     old: /docs/atlassian-platform-common-components/active-objects/ao-0-18-x-upgrade-guide/how-to-upgrade-ao-to-0-18-x-in-jira-5}
-- {confluence_id: 4915216, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915216'}
+- {confluence_id: 4915216, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915216'}
 - {confluence_id: 2818364, new: /server/framework/atlassian-sdk/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli,
     old: /docs/faq/writing-your-first-plugin-faq/if-you-change-pom-xml-you-may-need-to-restart-the-atlas-cli}
-- {confluence_id: 18252233, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=18252233'}
+- {confluence_id: 18252233, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=18252233'}
 - {confluence_id: 11305014, new: /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system,
     old: /docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/install-the-atlassian-sdk-on-a-linux-or-mac-system}
 - {confluence_id: 10421945, new: /server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-windows-system,
@@ -488,7 +488,7 @@ redirects:
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-is-unable-to-download-the-artifact-from-any-repository}
 - {confluence_id: 2818368, new: /server/framework/atlassian-sdk/maven-parsing-error-unrecognised-html-tag,
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-parsing-error-unrecognised-html-tag}
-- {confluence_id: 2818714, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818714'}
+- {confluence_id: 2818714, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818714'}
 - {confluence_id: 2818367, new: /server/framework/atlassian-sdk/maven-runs-out-of-memory,
     old: /docs/faq/atlassian-plugin-sdk-faq/maven-runs-out-of-memory}
 - {confluence_id: 2818357, new: /server/framework/atlassian-sdk/maven-warning-pom-for-x-is-invalid,
@@ -503,7 +503,7 @@ redirects:
     old: /docs/faq/plugin-framework-faq/my-public-component-just-disappeared}
 - {confluence_id: 2818395, new: /server/framework/atlassian-sdk/noclassdeffounderror,
     old: /docs/faq/troubleshooting/noclassdeffounderror}
-- {confluence_id: 2818711, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818711'}
+- {confluence_id: 2818711, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818711'}
 - {confluence_id: 5669153, new: /server/framework/atlassian-sdk/onetomany-relationship,
     old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/the-active-objects-library/onetomany-relationship}
 - {confluence_id: 5669151, new: /server/framework/atlassian-sdk/onetoone-relationship,
@@ -514,11 +514,11 @@ redirects:
     old: /docs/atlassian-platform-common-components/plugin-framework/osgi-spring-and-the-plugin-framework}
 - {confluence_id: 2818640, new: /server/framework/atlassian-sdk/packaging-and-releasing-your-plugin,
     old: /docs/common-coding-tasks/development-cycle/packaging-and-releasing-your-plugin}
-- {confluence_id: 852098, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852098'}
+- {confluence_id: 852098, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852098'}
 - {confluence_id: 851969, new: /server/framework/atlassian-sdk/plugin, old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/plugin-glossary-entry}
 - {confluence_id: 2818613, new: /server/framework/atlassian-sdk/plugin-descriptor-xml-schema,
     old: /docs/getting-started/configuring-the-plugin-descriptor/plugin-descriptor-xml-schema}
-- {confluence_id: 852028, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=852028'}
+- {confluence_id: 852028, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=852028'}
 - {confluence_id: 851970, new: /server/framework/atlassian-sdk/plugin-development-platform-2-10-release-notes,
     old: /docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-10-release-notes}
 - {confluence_id: 852078, new: /server/framework/atlassian-sdk/plugin-development-platform-2-11-release-notes,
@@ -533,7 +533,7 @@ redirects:
     old: /docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-8-release-notes/plugin-development-platform-2-8-upgrade-guide}
 - {confluence_id: 852143, new: /server/framework/atlassian-sdk/plugin-development-platform-2-9-release-notes,
     old: /docs/atlassian-platform-common-components/about-the-platform/plugin-development-platform-2-9-release-notes}
-- {confluence_id: 7372850, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=7372850'}
+- {confluence_id: 7372850, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=7372850'}
 - {confluence_id: 852107, new: /server/framework/atlassian-sdk/plugin-framework, old: /docs/atlassian-platform-common-components/plugin-framework}
 - {confluence_id: 852039, new: /server/framework/atlassian-sdk/plugin-framework-faq,
     old: /docs/faq/plugin-framework-faq}
@@ -541,7 +541,7 @@ redirects:
     old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary}
 - {confluence_id: 852041, new: /server/framework/atlassian-sdk/plugin-framework-version-matrix,
     old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-version-matrix}
-- {confluence_id: 2818638, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818638'}
+- {confluence_id: 2818638, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818638'}
 - {confluence_id: 2818387, new: /server/framework/atlassian-sdk/plugin-module-index,
     old: /docs/getting-started/plugin-modules/plugin-module-index}
 - {confluence_id: 852136, new: /server/framework/atlassian-sdk/plugin-modules, old: /docs/getting-started/plugin-modules}
@@ -556,7 +556,7 @@ redirects:
     old: /docs/faq/advanced-plugin-development-faq/plugins-that-cannot-be-reloaded-with-fastdev-or-pi}
 - {confluence_id: 10421452, new: /server/framework/atlassian-sdk/pluralising-internationalisation-strings,
     old: /docs/common-coding-tasks/internationalising-your-plugin/pluralising-internationalisation-strings}
-- {confluence_id: 5670157, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5670157'}
+- {confluence_id: 5670157, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5670157'}
 - {confluence_id: 8947251, new: /server/framework/atlassian-sdk/preventing-memory-leaks-on-upgrades,
     old: /docs/faq/advanced-plugin-development-faq/preventing-memory-leaks-on-upgrades}
 - {confluence_id: 45523672, new: /server/framework/atlassian-sdk/product-fails-to-start-within-timeout-period,
@@ -565,16 +565,16 @@ redirects:
     old: /docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/put-the-final-polish-on-the-project-in-eclipse}
 - {confluence_id: 851992, new: /server/framework/atlassian-sdk/quick-start-guide-to-embedding,
     old: /docs/atlassian-platform-common-components/plugin-framework/embedding-the-plugin-framework/quick-start-guide-to-embedding}
-- {confluence_id: 4915214, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915214'}
-- {confluence_id: 4915209, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915209'}
-- {confluence_id: 4915215, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915215'}
+- {confluence_id: 4915214, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915214'}
+- {confluence_id: 4915209, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915209'}
+- {confluence_id: 4915215, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915215'}
 - {confluence_id: 4915201, new: /server/framework/atlassian-sdk/rest-and-os-authtype,
     old: /docs/atlassian-platform-common-components/rest-api-development/rest-and-os_authtype}
 - {confluence_id: 4915223, new: /server/framework/atlassian-sdk/rest-api-development,
     old: /docs/atlassian-platform-common-components/rest-api-development}
 - {confluence_id: 4915206, new: /server/framework/atlassian-sdk/rest-api-plugin-version-matrix,
     old: /docs/atlassian-platform-common-components/rest-api-development/rest-api-plugin-version-matrix}
-- {confluence_id: 4915224, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=4915224'}
+- {confluence_id: 4915224, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=4915224'}
 - {confluence_id: 4915220, new: /server/framework/atlassian-sdk/rest-plugin-2-1-release-notes,
     old: /docs/atlassian-platform-common-components/rest-api-development/rest-plugin-release-notes/rest-plugin-2-1-release-notes}
 - {confluence_id: 4915210, new: /server/framework/atlassian-sdk/rest-plugin-2-2-release-notes,
@@ -585,21 +585,21 @@ redirects:
     old: /docs/atlassian-platform-common-components/rest-api-development/rest-plugin-module}
 - {confluence_id: 4915203, new: /server/framework/atlassian-sdk/rest-plugin-release-notes,
     old: /docs/atlassian-platform-common-components/rest-api-development/rest-plugin-release-notes}
-- {confluence_id: 6291717, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=6291717'}
+- {confluence_id: 6291717, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=6291717'}
 - {confluence_id: 15335909, new: /server/framework/atlassian-sdk/run-wired-tests-with-the-plugin-test-console,
     old: /docs/getting-started/writing-and-running-plugin-tests/run-wired-tests-with-the-plugin-test-console}
 - {confluence_id: 16352147, new: /server/framework/atlassian-sdk/run-your-plugin-in-the-container,
     old: /docs/getting-started/learn-the-development-platform-by-example/run-your-plugin-in-the-container}
 - {confluence_id: 852007, new: /server/framework/atlassian-sdk/running-on-websphere-6-1,
     old: /docs/faq/plugin-framework-faq/running-on-websphere-6-1}
-- {confluence_id: 8945924, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=8945924'}
+- {confluence_id: 8945924, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=8945924'}
 - {confluence_id: 35721084, new: /server/framework/atlassian-sdk/sal-3-0-upgrade-guide,
     old: /docs/atlassian-platform-common-components/shared-access-layer/sal-upgrade-guides/sal-3-0-upgrade-guide}
 - {confluence_id: 5242906, new: /server/framework/atlassian-sdk/sal-code-samples,
     old: /docs/atlassian-platform-common-components/shared-access-layer/sal-code-samples}
-- {confluence_id: 5242900, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242900'}
-- {confluence_id: 5242955, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242955'}
-- {confluence_id: 5242956, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=5242956'}
+- {confluence_id: 5242900, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242900'}
+- {confluence_id: 5242955, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242955'}
+- {confluence_id: 5242956, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=5242956'}
 - {confluence_id: 5242921, new: /server/framework/atlassian-sdk/sal-services, old: /docs/atlassian-platform-common-components/shared-access-layer/sal-services}
 - {confluence_id: 35721082, new: /server/framework/atlassian-sdk/sal-upgrade-guides,
     old: /docs/atlassian-platform-common-components/shared-access-layer/sal-upgrade-guides}
@@ -609,7 +609,7 @@ redirects:
     old: /docs/faq/troubleshooting/saxparsercontextprovider}
 - {confluence_id: 2818727, new: /server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial,
     old: /docs/atlassian-platform-common-components/shared-access-layer/scheduling-events-via-sal-tutorial}
-- {confluence_id: 2818318, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818318'}
+- {confluence_id: 2818318, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818318'}
 - {confluence_id: 851977, new: /server/framework/atlassian-sdk/service, old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/service-glossary-entry}
 - {confluence_id: 851982, new: /server/framework/atlassian-sdk/service-registry, old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/service-registry-glossary-entry}
 - {confluence_id: 852123, new: /server/framework/atlassian-sdk/servlet-context-listener-plugin-module,
@@ -633,7 +633,7 @@ redirects:
     old: /docs/atlassian-platform-common-components/shared-access-layer}
 - {confluence_id: 852115, new: /server/framework/atlassian-sdk/simple-plugin, old: /docs/atlassian-platform-common-components/plugin-framework/plugin-framework-glossary/simple-plugin-glossary-entry}
 - {confluence_id: 5669113, new: /server/framework/atlassian-sdk/speakeasy, old: /docs/advanced-topics/speakeasy}
-- {confluence_id: 2818680, new: /server/framework/atlassian-sdk, old: '/pages/viewpage.action?pageId=2818680'}
+- {confluence_id: 2818680, new: /server/framework/atlassian-sdk/, old: '/pages/viewpage.action?pageId=2818680'}
 - {confluence_id: 15336054, new: /server/framework/atlassian-sdk/staff-readme-for-foundation-test-documentation,
     old: /docs/getting-started/writing-and-running-plugin-tests/staff-readme-for-foundation-test-docs}
 - {confluence_id: 2818619, new: /server/framework/atlassian-sdk/start-a-host-application-with-a-plugin-installed,
@@ -712,3 +712,28 @@ redirects:
     old: /docs/getting-started/writing-and-running-plugin-tests}
 - {confluence_id: 2818654, new: /server/framework/atlassian-sdk/writing-your-first-plugin-faq,
     old: /docs/faq/writing-your-first-plugin-faq}
+- {confluence_id: 2818705, new: /server/framework/atlassian-sdk/, old: /docs/advanced-topics/working-with-maven/atlassian-maven-repositories}
+- {confluence_id: 2818376, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/build-failure-manifest-validation-errors}
+- {confluence_id: 2818652, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/cannot-log-in-to-confluence-using-admin-account}
+- {confluence_id: 2818375, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/choosing-a-logging-framework}
+- {confluence_id: 2818366, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/choosing-a-package-name}
+- {confluence_id: 2818644, new: /server/framework/atlassian-sdk/, old: /docs/advanced-topics/working-with-maven/colour-coding-your-maven-output}
+- {confluence_id: 5669169, new: /server/framework/atlassian-sdk/, old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project/configuring-your-project-to-work-with-bamboo}
+- {confluence_id: 5669167, new: /server/framework/atlassian-sdk/, old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project/configuring-your-project-to-work-with-confluence}
+- {confluence_id: 5669171, new: /server/framework/atlassian-sdk/, old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project/configuring-your-project-to-work-with-fisheye-or-crucible}
+- {confluence_id: 5669165, new: /server/framework/atlassian-sdk/, old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project/configuring-your-project-to-work-with-jira}
+- {confluence_id: 5669163, new: /server/framework/atlassian-sdk/, old: /docs/atlassian-platform-common-components/active-objects/developing-your-plugin-with-active-objects/configuring-the-plugin/configuring-your-project/configuring-your-project-to-work-with-the-refapp}
+- {confluence_id: 18252744, new: /server/framework/atlassian-sdk/, old: /docs/advanced-topics/working-with-maven/developing-plugins-with-maven-3}
+- {confluence_id: 2818365, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/eclipse-maven-plugin-build-error}
+- {confluence_id: 43648393, new: /server/framework/atlassian-sdk/, old: /docs/faq/getting-started-tutorial-faq/how-do-i-check-if-oracle-java-se-development-kit-8-jdk-is-installed}
+- {confluence_id: 43648418, new: /server/framework/atlassian-sdk/, old: /docs/faq/getting-started-tutorial-faq/i-get-a-build-failure-error-with-please-verify-you-invoked-maven-from-the-correct-directory}
+- {confluence_id: 43648401, new: /server/framework/atlassian-sdk/, old: /docs/faq/getting-started-tutorial-faq/i-get-a-build-failure-error-with-unsupported-major-minor-version-52-0}
+- {confluence_id: 2818363, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/instant-loading-of-plugin-resources}
+- {confluence_id: 2818655, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/overriding-the-application-s-webapp-when-developing-your-plugin}
+- {confluence_id: 2818373, new: /server/framework/atlassian-sdk/, old: /docs/reloading-a-plugin-after-changes}
+- {confluence_id: 2818657, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/specifying-a-particular-version-of-the-host-application}
+- {confluence_id: 2818377, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/tips-for-functional-tests-with-selenium}
+- {confluence_id: 2818721, new: /server/framework/atlassian-sdk/, old: /docs/advanced-topics/working-with-maven/using-the-amps-maven-plugin-directly}
+- {confluence_id: 2818656, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/using-the-atlassian-plugin-sdk-with-a-source-code-license}
+- {confluence_id: 2818658, new: /server/framework/atlassian-sdk/, old: /docs/faq/writing-your-first-plugin-faq/using-your-own-log4j-configuration-for-your-plugin}
+- {confluence_id: 2818643, new: /server/framework/atlassian-sdk/, old: /docs/advanced-topics/working-with-maven/verifying-your-maven-settings}
