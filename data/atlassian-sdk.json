@@ -10,40 +10,28 @@
             "name": "intro",
             "items": [
               {
-                "title": "Adding resources to your project",
-                "url": "/server/framework/atlassian-sdk/adding-resources-to-your-project"
+                "title": "Set up the Atlassian Plugin SDK and build a project",
+                "url": "/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project"
               },
               {
-                "title": "Atlassian JavaDoc",
-                "url": "/server/framework/atlassian-sdk/atlassian-javadoc"
+                "title": "Adding resources to your project",
+                "url": "/server/framework/atlassian-sdk/adding-resources-to-your-project"
               },
               {
                 "title": "Configuring the plugin descriptor",
                 "url": "/server/framework/atlassian-sdk/configuring-the-plugin-descriptor"
               },
               {
-                "title": "Downloads",
-                "url": "/server/framework/atlassian-sdk/downloads"
-              },
-              {
-                "title": "Set up the Eclipse IDE for Linux",
-                "url": "/server/framework/atlassian-sdk/set-up-the-eclipse-ide-for-linux"
-              },
-              {
-                "title": "Set up the Eclipse IDE for Windows",
-                "url": "/server/framework/atlassian-sdk/set-up-the-eclipse-ide-for-windows"
-              },
-              {
-                "title": "Tutorials",
-                "url": "/server/framework/atlassian-sdk/tutorials"
-              },
-              {
-                "title": "Writing and running plugin tests",
-                "url": "/server/framework/atlassian-sdk/writing-and-running-plugin-tests"
-              },
-              {
                 "title": "atlassian-plugin.xml element reference",
                 "url": "/server/framework/atlassian-sdk/atlassian-plugin-xml-element-reference"
+              },
+              {
+                "title": "Frequently used commands",
+                "url":  "/server/framework/atlassian-sdk/frequently-used-commands"
+              },
+              {
+                "title": "Atlassian JavaDoc",
+                "url": "/server/framework/atlassian-sdk/atlassian-javadoc"
               }
             ],
             "title": "Introduction and basics",
@@ -67,6 +55,14 @@
                 "id": "tutorialsAndGuides",
                 "title": "Tutorials and guides",
                 "url": "/server/framework/atlassian-sdk/tutorials_and_guides"
+              },
+              {
+                "title": "Tutorials",
+                "url": "/server/framework/atlassian-sdk/tutorials"
+              },
+              {
+                "title": "Writing and running plugin tests",
+                "url": "/server/framework/atlassian-sdk/writing-and-running-plugin-tests"
               },
               {
                 "groupItems": [
@@ -114,18 +110,6 @@
                 "url": "/server/framework/atlassian-sdk/amps-sdk-release-notes"
               },
               {
-                "title": "Activity Streams version matrix",
-                "url": "/server/framework/atlassian-sdk/activity-streams-version-matrix"
-              },
-              {
-                "title": "Plugin Framework version matrix",
-                "url": "/server/framework/atlassian-sdk/plugin-framework-version-matrix"
-              },
-              {
-                "title": "REST API plugin version matrix",
-                "url": "/server/framework/atlassian-sdk/rest-api-plugin-version-matrix"
-              },
-              {
                 "groupItems": [
                   {
                     "title": "REST plugin 2.1 release notes",
@@ -154,24 +138,12 @@
               {
                 "groupItems": [
                   {
-                    "title": "Advanced plugin development FAQ",
-                    "url": "/server/framework/atlassian-sdk/advanced-plugin-development-faq"
-                  },
-                  {
-                    "title": "Atlassian Plugin SDK FAQ",
-                    "url": "/server/framework/atlassian-sdk/atlassian-plugin-sdk-faq"
-                  },
-                  {
                     "title": "Getting started tutorial FAQ",
                     "url": "/server/framework/atlassian-sdk/getting-started-tutorial-faq"
                   },
                   {
                     "title": "Plugin Framework FAQ",
                     "url": "/server/framework/atlassian-sdk/plugin-framework-faq"
-                  },
-                  {
-                    "title": "Troubleshooting",
-                    "url": "/server/framework/atlassian-sdk/troubleshooting"
                   },
                   {
                     "title": "Writing your first plugin FAQ",
@@ -181,6 +153,10 @@
                 "isGroup": true,
                 "title": "FAQ",
                 "url": "/server/framework/atlassian-sdk/faq"
+              },
+              {
+                "title": "Troubleshooting",
+                "url": "/server/framework/atlassian-sdk/troubleshooting"
               }
             ],
             "title": "FAQ and troubleshooting",
