@@ -13,7 +13,7 @@ product: atlassian-sdk
 subcategory: updates
 title: AMPS SDK 6.x and up release notes
 ---
-# AMPS SDK 6.x and up release notes
+# Atlassian Plugin SDK 6.x and up release notes
 
 ### Atlassian Plugin SDK
 
@@ -24,19 +24,3 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-windows/server/versionhistory" class="external-link">Atlassian Plugin SDK (Windows)</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm/server/versionhistory" class="external-link">Atlassian Plugin SDK (RPM)</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-tgz/server/versionhistory" class="external-link">Atlassian Plugin SDK (TGZ)</a>
-
-### AMPS 
-
--   [AMPS 6.3.11](/server/framework/atlassian-sdk/amps-6-3-11)
--   [AMPS 6.3.10](/server/framework/atlassian-sdk/amps-6-3-10)
--   [AMPS 6.3.7](/server/framework/atlassian-sdk/amps-6-3-7)
--   [AMPS 6.3.6](/server/framework/atlassian-sdk/amps-6-3-6)
--   [AMPS 6.3.5](/server/framework/atlassian-sdk/amps-6-3-5)
--   [AMPS 6.3.4](/server/framework/atlassian-sdk/amps-6-3-4)
--   [AMPS 6.3.3](/server/framework/atlassian-sdk/amps-6-3-3)
--   [AMPS 6.3.2](/server/framework/atlassian-sdk/amps-6-3-2)
--   [AMPS 6.3.1](/server/framework/atlassian-sdk/amps-6-3-1)
--   [AMPS 6.3.0](/server/framework/atlassian-sdk/amps-6-3-0)
--   [AMPS 6.2.11](/server/framework/atlassian-sdk/amps-6-2-11)
--   [AMPS 6.2.10](/server/framework/atlassian-sdk/amps-6-2-10)
-

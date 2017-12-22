@@ -97,6 +97,10 @@
               {
                 "groupItems": [
                   {
+                    "title": "AMPS 6.3.13",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-13"
+                  },
+                  {
                     "title": "AMPS 6.3.12",
                     "url": "/server/framework/atlassian-sdk/amps-6-3-12"
                   },

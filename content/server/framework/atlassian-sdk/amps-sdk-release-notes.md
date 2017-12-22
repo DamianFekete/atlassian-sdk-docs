@@ -39,8 +39,9 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm/server/versionhistory" class="external-link">Atlassian Plugin SDK (RPM)</a>
 -   <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-tgz/server/versionhistory" class="external-link">Atlassian Plugin SDK (TGZ)</a>
 
-### AMPS 
+### AMPS Release Notes
 
+-   [AMPS 6.3.13](/server/framework/atlassian-sdk/amps-6-3-13)
 -   [AMPS 6.3.12](/server/framework/atlassian-sdk/amps-6-3-12)
 -   [AMPS 6.3.11](/server/framework/atlassian-sdk/amps-6-3-11)
 -   [AMPS 6.3.10](/server/framework/atlassian-sdk/amps-6-3-10)
@@ -59,7 +60,6 @@ Atlassian SDK Release Notes for the latest versions can now be found at <a href
 
 ### For older versions
 
--   [AMPS SDK 6.x and up release notes](/server/framework/atlassian-sdk/amps-sdk-6-x-and-up-release-notes)
 -   [AMPS SDK 5.0.4 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-4-release-notes)
 -   [AMPS SDK 5.0.3 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-3-release-notes)
 -   [AMPS SDK 5.0.2 Release Notes](/server/framework/atlassian-sdk/amps-sdk-5-0-2-release-notes)
