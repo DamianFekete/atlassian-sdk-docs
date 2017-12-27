@@ -106,6 +106,7 @@ Once you have done the initial `atlas-create-APPLICATION-plugin` and `atlas-run`
 
 {{% note %}}
 
+
 1.  Make your changes in your IDE.
 2.  Open a command window and go to the plugin's root folder (where the `pom.xml` is located).
 3.  Run `atlas-cli` to start the CLI.

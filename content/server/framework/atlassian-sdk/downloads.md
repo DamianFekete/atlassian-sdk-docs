@@ -19,6 +19,7 @@ title: Downloads
 
 Additional Requirements
 
+
 -   All installations require **version 1.8.x of the JDK**. Please ensure this is installed first.
 -   The Atlassian Plugin SDK *does not support OpenJDK*.
 

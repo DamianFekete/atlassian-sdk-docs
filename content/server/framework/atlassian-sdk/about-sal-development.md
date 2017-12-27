@@ -17,8 +17,6 @@ title: About SAL development
 
 The developer documentation is for people who want to use SAL when developing plugins for the Atlassian applications.
 
- 
-
 ## About the Shared Access Layer (SAL)
 
 The Shared Access Layer, or SAL for short, provides a consistent, cohesive API to common plugin tasks, regardless of the Atlassian application into which your plugin is deployed. SAL is most useful for cross-application plugin development. If you are developing your plugin for a single application only, you can simply use the application's own API. If your plugin will run in two applications or more, you will find SAL's services useful. These common services include, but are not limited to:

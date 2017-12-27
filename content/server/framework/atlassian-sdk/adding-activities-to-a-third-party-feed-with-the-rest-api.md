@@ -30,8 +30,6 @@ JIRA 5.0 and later.</p></td>
 </tbody>
 </table>
 
- 
-
 We've added a new feature to Activity Streams that allows anyone to add activities to an Atlassian application's feed via a simple REST api. Activities added via this api can be associated with projects, users, and other targets such as JIRA issues, Confluence spaces, and Bamboo builds. For example, an activity associated with a JIRA issue will appear in the Activity tab on the View Issue page.
 
 We'll walk through the feature, starting with the simplest possible example.

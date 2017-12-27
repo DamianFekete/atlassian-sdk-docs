@@ -22,8 +22,8 @@ The goal of the Active Objects plugin is to provide a **plugin data storage comp
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 30%" />
+<col style="width: 70%" />
 </colgroup>
 <tbody>
 <tr class="odd">

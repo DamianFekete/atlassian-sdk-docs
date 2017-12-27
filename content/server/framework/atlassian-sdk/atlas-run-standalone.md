@@ -40,7 +40,7 @@ Interpreted parameters:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Full Parameter</p>
+<th><p>Full Parameter</p></th>
 <p> </p></th>
 <th><p>Description</p></th>
 </tr>
@@ -240,7 +240,7 @@ The table below shows the applications currently supported by the Atlassian Plug
 </tbody>
 </table>
 
-***Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).*
+**Caveat for <a href="http://www.atlassian.com/software/jira" class="external-link">JIRA</a>:** Plugins developed for versions of JIRA before 4.0 are supported, but using the SDK with versions of JIRA earlier than 4.0 is not. For developing plugins for JIRA 3.13 and earlier, take a look at the [JIRA Documentation Archives](https://developer.atlassian.com/display/ARCHIVES/JIRA+Documentation+Archives).
 
 ## Limitations
 

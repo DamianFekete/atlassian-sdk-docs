@@ -30,8 +30,6 @@ JIRA 5.0 and later.</p></td>
 </tbody>
 </table>
 
- 
-
 ## Overview
 
 Activity Streams 5.0 includes a new, lightweight API that allows plugins to add activities to the Activity Stream. This API doesn't give you as much power as [building a full-fledged Activity Provider](https://developer.atlassian.com/display/STREAMS/Making+your+own+Activity+Streams+Provider), but it's extremely easy to use.

@@ -59,7 +59,7 @@ Atlassian AMPS 5.1.7 and above supports a new element: `applications.`` `This 
 For each application that should be installed, you must define an `application` element that has the following two child elements:
 
 -   `applicationKey` -- identifies the application to be installed
--   `version -- `defines the version of the application to be installed
+-   `version` -- defines the version of the application to be installed
 
 If more than one application is defined, the product will run with all defined applications installed. Applications are installed into the product's home directory, so changing application versions or removing an application from the applications list may require you to run `mvn clean`.
 

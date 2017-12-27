@@ -16,8 +16,6 @@ title: Adding a configuration UI for your plugin
 ---
 # Adding a configuration UI for your plugin
 
- 
-
 ## Purpose of the Configuration UI
 
 A plugin can present configurable settings to Atlassian instance administrators. This is useful where your plugin requires configuration or user-specific settings to work.

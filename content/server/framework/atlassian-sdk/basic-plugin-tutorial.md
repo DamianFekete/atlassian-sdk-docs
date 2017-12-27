@@ -50,9 +50,9 @@ When you are done, all these components will be packaged in a single JAR file.
 
 To complete this tutorial, you must already understand the basics of Java development: classes, interfaces, methods, how to use the compiler, and so on. You should also understand:
 
--   -   Java classes encapsulating the plugin logic
-    -   Resources for display of the plugin UI
-    -   Plugin descriptor to enable the plugin module in Atlassian applications
+-   Java classes encapsulating the plugin logic
+-   Resources for display of the plugin UI
+-   Plugin descriptor to enable the plugin module in Atlassian applications
 
 All these components will be contained within a single JAR file. Each component is further discussed in the examples below.
 
