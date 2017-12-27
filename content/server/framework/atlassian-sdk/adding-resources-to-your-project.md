@@ -15,8 +15,6 @@ title: Adding resources to your project
 ---
 # Adding resources to your project
 
- 
-
 ## Purpose of a Resource
 
 A 'resource' is a non-Java file that a plugin may need in order to operate. Examples of possible resources might be:
@@ -55,8 +53,8 @@ A resource has a name, a type and a location. The resource definition maps an ar
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,8 +159,7 @@ These are the common name/value pairs supported by the `<param>` element.
 
 **Name & Value:** media \| print
 
-**Description: ** 
-
+**Description**: 
 Declare the media type for CSS resources. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
 For example, requesting this resource will insert a `<link>` in the HTML header, with a media value of 'print': 
 
@@ -175,13 +172,9 @@ For example, requesting this resource will insert a `<link>` in the HTML header,
 </web-resource>
 ```
 
- 
+**Name & Value**: ieonly \| true 
 
-**Name & Value: **ieonly \| true 
-
-**Description: ** 
-
-Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
+**Description**:  Specify that the resource should be wrapped in an <a href="http://www.quirksmode.org/css/condcom.html" class="external-link">Internet Explorer conditional comment</a>. This is supported by [Web Resource plugin modules](https://developer.atlassian.com/display/DOCS/Web+Resource+Plugin+Module).  
 For example, the web resource declaration below says that the resource should be wrapped in an Internet Explorer conditional comment, which means it will only be used by Internet Explorer. This is useful for IE-specific styling to work around browser bugs. 
 
 ``` xml
@@ -206,7 +199,7 @@ The `ieonly` parameter also works for JavaScript resources. 
 
 ------------------------------------------------------------------------
 
-**Name & Value: **conditionalComment \| lt IE 9 
+**Name & Value**: conditionalComment \| lt IE 9 
 
 **Description:**  
 

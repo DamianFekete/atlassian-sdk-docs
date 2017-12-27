@@ -202,7 +202,7 @@ Deploys the specified <a href="http://download.oracle.com/javaee/6/api/javax/ser
 
 ------------------------------------------------------------------------
 
-###User interface
+### User interface
 
 #### Web Item plugin module
 ##### [Web Item](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Web+Item+Plugin+Module) 
@@ -351,7 +351,7 @@ Defines transformers which allow changing web resources before being served to t
 
 ------------------------------------------------------------------------
 
-###Other types
+### Other types
 
 #### <a id="rest" href="/server/framework/atlassian-sdk/rest-plugin-module/" class="createlink">REST</a> 
 
@@ -654,7 +654,7 @@ Allows display of search results in the <a href="#issue-navigator" class="unreso
 
 ------------------------------------------------------------------------
 
-###Custom workflow operations
+### Custom workflow operations
 
 #### Workflow conditions+Modules#WorkflowPluginModules-Conditions) 
 #### [Workflow conditions plugin module](https://developer.atlassian.com/display/JIRADEV/Workflow+Plugin+Modules#WorkflowPluginModules-Conditions) 
@@ -759,7 +759,7 @@ Performs actions after a workflow transition has executed.
 
 ------------------------------------------------------------------------
 
-###Custom fields**
+### Custom fields
 
 #### Custom field types
 #### [Custom field types plugin module](https://developer.atlassian.com/display/JIRADEV/Custom+field+plugin+module) 
@@ -828,7 +828,7 @@ class="com.atlassian.jira.issue.customfields.searchers.UserPickerSearcher">
 
 ------------------------------------------------------------------------
 
-###Other types
+### Other types
 
 #### Reports
 ##### [Reports plugin module](https://developer.atlassian.com/display/JIRADEV/Report+Plugin+Module) 
@@ -995,7 +995,7 @@ Adds custom XML-RPC services to Confluence in addition to the [builtin XML-RPC s
 
 ------------------------------------------------------------------------
 
-###Custom markup
+### Custom markup
 
 #### User macros
 ##### [User macros module](https://developer.atlassian.com/display/CONFDEV/User+Macro+Module) 
@@ -1068,7 +1068,7 @@ Adds support for new languages to the <a href="#builtin-code-macro" class="unres
 
 ------------------------------------------------------------------------
 
-###System tasks
+### System tasks
 
 #### Job
 ##### [Job module](https://developer.atlassian.com/display/CONFDEV/Job+Module) 
@@ -1141,7 +1141,7 @@ Schedules [DEVNET:jobs](#job) to run.
 
 ------------------------------------------------------------------------
 
-###Look and feel
+### Look and feel
 
 #### Decorators
 ##### [Decorator module](https://developer.atlassian.com/display/CONFDEV/Decorator+Module) 
@@ -1278,7 +1278,7 @@ Defines a <a href="#keyboard-shortcut" class="unresolved">keyboard shortcut</a> 
 
 ------------------------------------------------------------------------
 
-###Custom actions
+### Custom actions
 
 #### XWork/WebWork
 ##### [XWork/WebWork module](https://developer.atlassian.com/display/CONFDEV/XWork-WebWork+Module) 
@@ -1313,7 +1313,7 @@ The body of the `<xwork>` element contains XWork action markup. An example is be
 
 ------------------------------------------------------------------------
 
-###Other types
+### Other types
 
 #### Search index extractor
 ##### [Extractor module](https://developer.atlassian.com/display/CONFDEV/Extractor+Module) 

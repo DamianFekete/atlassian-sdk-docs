@@ -18,8 +18,8 @@ title: Consuming an Activity Streams feed
 
 <table>
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <tbody>
 <tr class="odd">

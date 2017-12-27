@@ -29,8 +29,6 @@ title: Adding data providers to your plugin
 </tbody>
 </table>
 
- 
-
 ## Overview
 
 Data providers are used to expose chunks of JSON data to your client-side JavaScript code.

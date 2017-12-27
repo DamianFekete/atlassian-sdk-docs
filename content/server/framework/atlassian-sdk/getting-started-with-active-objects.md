@@ -247,6 +247,7 @@ At this stage I've removed the test classes and resources as we'll worry about t
 
 Let's check that this servlet acutally works:
 
+
 -   Run `atlas-mvn package` from the command line,
 -   Access the servlet at <a href="http://localhost:5990/refapp/plugins/servlet/todo/list" class="uri external-link">localhost:5990/refapp/plugins/servlet/todo/list</a>
 

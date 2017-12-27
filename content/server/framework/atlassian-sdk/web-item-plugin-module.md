@@ -211,7 +211,6 @@ The body of the link element is its URL. The URL is rendered with Velocity, so y
 ``` xml
 <link linkId="view-attachments-link">/pages/viewpageattachments.action?pageId=$page.id</link>
 ```
- 
 #### Icon Elements
 
 Icon elements have a `height` and a `width` attribute. The location of the icon is specified within a [link](#link-elements) element:

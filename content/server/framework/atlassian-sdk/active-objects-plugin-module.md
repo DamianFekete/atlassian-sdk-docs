@@ -30,8 +30,8 @@ The root element for the Active Objects plugin module is `ao`. It allows the fol
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,8 +72,8 @@ INFO: Sometimes, in other contexts, you may need to uniquely identify a module. 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 80%" />
 </colgroup>
 <thead>
 <tr class="header">

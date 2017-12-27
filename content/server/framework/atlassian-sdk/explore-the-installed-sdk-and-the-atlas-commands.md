@@ -216,7 +216,7 @@ When you run a standalone instance, you can make changes in the instance. The sy
 6.  Gracefully shutdown JIRA by pressing CTRL-Z (Windows) or CTRL-D (Linux).
 7.  Browse to the default JIRA URL (<a href="http://myhost.local:2990/jira" class="uri external-link">myhost.local:2990/jira</a> or <a href="http://localhost:2990/jira" class="uri external-link">localhost:2990/jira</a>) with your browser.
 
-         Your browser should inform you that it could not get a connection to the server.
+Your browser should inform you that it could not get a connection to the server.
 
 8.  Return to the command line (DOS prompt for Windows users).
 9.  Make sure you are in the `atlastutorial` directory.

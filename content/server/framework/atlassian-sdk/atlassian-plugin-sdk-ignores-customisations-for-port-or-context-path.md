@@ -15,10 +15,10 @@ title: Atlassian Plugin SDK ignores customisations for port or context path
 ---
 # Atlassian Plugin SDK ignores customisations for port or context path
 
-# Problem
+## Problem
 
 Passing `context-path` or `http-port` parameters to `atlas-run` or `atlas-debug` doesn't change the base URL of the application instance.
 
-# Solution
+## Solution
 
 Make sure to run `atlas-clean` every time you change the runtime parameters through the SDK scripts; the scripts will cache previous installations and settings, which must be manually cleared.

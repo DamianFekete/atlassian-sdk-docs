@@ -18,8 +18,6 @@ title: atlas-clean
 
 This page describes the shell script `atlas-clean`, part of the [Atlassian Plugin SDK](/server/framework/atlassian-sdk/working-with-the-sdk).
 
- 
-
 ## Basic Usage
 
 `atlas-clean [options]` - Removes files from the project directory, that were generated during the build. (Runs `mvn clean`.) Passes all parameters straight through to Maven.

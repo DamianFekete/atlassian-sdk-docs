@@ -148,9 +148,9 @@ To set up the Atlassian repositories,
     sudo apt-get install atlassian-plugin-sdk
     ```
 
-    Note: You can use the same  `apt`  tools to upgrade the SDK to a new version when an update becomes available.
+    Note: You can use the same `apt` tools to upgrade the SDK to a new version when an update becomes available.
 
-    The first command makes sure that you have     `apt-transport-https`  package installed to make     `apt`  be able to access https repositories.
+    The first command makes sure that you have     `apt-transport-https`  package installed to make `apt` be able to access https repositories.
 
 4.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 

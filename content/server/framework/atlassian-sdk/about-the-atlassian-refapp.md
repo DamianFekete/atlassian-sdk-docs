@@ -18,8 +18,6 @@ title: About the Atlassian RefApp
 
 The Atlassian Reference Application, or reference implementation, is known as the 'RefApp'. It is a model implementation of the Atlassian Plugin Framework 2. It takes the form of a simple web application, which implements the plugin framework and does not do much more than that.
 
- 
-
 ## Purpose and Scope of the RefApp
 
 The RefApp is useful to developers who want to develop cross-product plugins. A cross-product plugin is one that works with more than one Atlassian application. It is probably not of interest to developers wanting to write plugins for a specific Atlassian application.

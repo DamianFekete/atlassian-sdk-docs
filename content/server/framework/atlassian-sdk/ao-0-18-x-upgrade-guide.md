@@ -20,6 +20,7 @@ title: AO 0.18.x upgrade guide
 
 Important information you should know
 
+
 -   Active Objects 0.18.4 is the first AO version in this series that you should use. Previous versions had bugs that cause problems.
 -   You can upgrade AO in JIRA 5 RC2 to do your testing. See [How to upgrade AO to 0.18.x in JIRA 5](/server/framework/atlassian-sdk/how-to-upgrade-ao-to-0-18-x-in-jira-5) (including Activity Streams upgrade).  
     AO 0.18.x is included in JIRA 5 RC3+ and the upgrade is longer be necessary.
