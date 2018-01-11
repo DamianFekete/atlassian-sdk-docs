@@ -45,7 +45,16 @@ The matrix below shows the applications which include and support the Shared Acc
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr class="even">
+<td>SAL 3.1.2</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-7-release-notes-939918798.html" class="external-link">Bitbucket Server 5.7</a></td>
+</tr><tr class="odd">
 <td>SAL 3.1.1</td>
 <td> </td>
 <td> </td>
