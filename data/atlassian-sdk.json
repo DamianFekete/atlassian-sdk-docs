@@ -97,7 +97,7 @@
               {
                 "groupItems": [
                   {
-                    "title": "AMPS 6.3.13",
+                    "title": "AMPS Latest",
                     "url": "/server/framework/atlassian-sdk/amps-6-3-13"
                   },
                   {
@@ -107,6 +107,42 @@
                   {
                     "title": "AMPS 6.3.11",
                     "url": "/server/framework/atlassian-sdk/amps-6-3-11"
+                  },
+                  {
+                    "title": "AMPS 6.3.10",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-10"
+                  },
+                  {
+                    "title": "AMPS 6.3.7",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-7"
+                  },
+                  {
+                    "title": "AMPS 6.3.6",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-6"
+                  },
+                  {
+                    "title": "AMPS 6.3.5",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-5"
+                  },
+                  {
+                    "title": "AMPS 6.3.4",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-4"
+                  },
+                  {
+                    "title": "AMPS 6.3.3",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-3"
+                  },
+                  {
+                    "title": "AMPS 6.3.2",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-2"
+                  },
+                  {
+                    "title": "AMPS 6.3.1",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-1"
+                  },
+                  {
+                    "title": "AMPS 6.3.0",
+                    "url": "/server/framework/atlassian-sdk/amps-6-3-0"
                   }
                 ],
                 "isGroup": true,
