@@ -131,56 +131,39 @@ To set up the Atlassian repositories,
 1.  Open a **terminal** window and enter the following:
 
     ``` bash
-    sudo sh -c 'echo "deb https://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/sources.list'
+    curl https://packages.atlassian.com/list/atlassian-sdk-deb/deb-archive/atlassian-plugin-sdk_X.X.X_all.deb -O
+    
     ```
 
-2.  After the prompt returns, add the public key:
+2.  After the prompt returns and the SDK installer has downloaded, use dkpg to unpack and install the SDK:
 
     ``` bash
-    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys B07804338C015B73
+    sudo dpkg -i /path/to/atlassian-plugin-sdk_X.X.X_all.deb
     ```
 
-3.  Once you have set up the Atlassian repositories, enter the following to install the SDK:
-
-    ``` bash
-    sudo apt-get install apt-transport-https
-    sudo apt-get update
-    sudo apt-get install atlassian-plugin-sdk
-    ```
-
-    Note: You can use the same `apt` tools to upgrade the SDK to a new version when an update becomes available.
-
-    The first command makes sure that you have     `apt-transport-https`  package installed to make `apt` be able to access https repositories.
-
-4.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+3.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### Red Hat Enterprise Linux, CentOS, Fedora (RPM)
 
-{{% note %}}
 
-The instructions below use `dnf` to install the SDK. If you are on an older version you might not have `dnf` and should use `yum` instead.
-
-{{% /note %}}
-
-All you should have to do to download the latest version of the SDK is:
+1. All you should have to do to download the latest version of the SDK is [replace X.X.X with the version number]:
 
 ``` bash
-sudo dnf install atlassian-plugin-sdk
+curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-X.X.X.noarch.rpm -O
 ```
 
-If this does not work, try downloading and installing manually:
+2. Use the RPM Package Manager (rpm) to unpack and install the SDK:
 
-1.  <a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-rpm/version/42380" class="external-link">Download the Atlassian Plugin SDK - RPM</a>
+``` bash
+sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
+```
+{{% /note %}}
+If you have a previous version of the SDK installed, first uninstall it with:
+``` bash
+sudo rpm -e atlassian-plugin-sdk
+```
 
-2.  Then, open a Terminal window and start the installation:
-
-    ``` bash
-    sudo dnf localinstall <PATH_TO_DOWNLOADED_FILE>
-    ```
-
-    remember that you will need to modify your path in the above example, it should be something like ~/Downloads/atlassian-plugin-sdk-6.2.9.noarch.rpm
-
-As always[, Next: Verify that you have set up the SDK correctly.](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+3. As always[, Next: Verify that you have set up the SDK correctly.](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### .tgz File
 
