@@ -67,7 +67,9 @@ The matrix below shows the applications which include and support the Shared Acc
 <tr class="even">
 <td>SAL 3.1.0</td>
 <td> </td>
-<td>Confluence 6.5<br />
+<td>Confluence 6.7<br />
+Confluence 6.6<br />
+Confluence 6.5<br />
 Confluence 6.4<br />
 Confluence 6.3<br />
 Confluence 6.2<br />
