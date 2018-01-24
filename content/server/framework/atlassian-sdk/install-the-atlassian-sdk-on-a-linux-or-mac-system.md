@@ -53,7 +53,7 @@ To set your `PATH` and `JAVA_HOME` variables:
     host:~ test$ vi ~/.bash_profile
     ```
 
-2.  Add the following lines at the end of the file:
+1.  Add the following lines at the end of the file:
 
     ``` bash
     JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0.0_91.jdk/Contents/Home
@@ -69,14 +69,14 @@ For Mac OS X this is usually `/Library/Java/JavaVirtualMachines/1.8.x.jdk`. On L
 
     {{% /note %}}
 
-3.  Save and close the file.
-4.  Enter the following at the command line to pick up your changes:
+1.  Save and close the file.
+1.  Enter the following at the command line to pick up your changes:
 
     ``` bash
     host:~ test$ source ~/.bash_profile
     ```
 
-5.  Verify you are now seeing the correct result when you enter the command `javac -version` in **terminal**
+1.  Verify you are now seeing the correct result when you enter the command `javac -version` in **terminal**
 
     ``` bash
     host:~ test$ javac -version
@@ -102,9 +102,9 @@ By downloading and/or using this SDK you agree to the <span class="underline">[
 PKG File
 
 1.  <a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-mac" class="external-link">Download the PKG file</a>.
-2.  Double click the PKG file to launch the installer.
-3.  Follow the prompts to complete the installation.
-4.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  Double click the PKG file to launch the installer.
+1.  Follow the prompts to complete the installation.
+1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### Homebrew
 
@@ -114,13 +114,13 @@ PKG File
     brew tap atlassian/tap
     ```
 
-2.  Then install the SDK via the atlassian/tap using the command:
+1.  Then install the SDK via the atlassian/tap using the command:
 
     ``` bash
     brew install atlassian/tap/atlassian-plugin-sdk
     ```
 
-3.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### Debian, Ubuntu Linux
 
@@ -128,56 +128,55 @@ On a Debian based Linux like Ubuntu, you can install the Atlassian Plugin SDK us
 
 To set up the Atlassian repositories,
 
-1.  Open a **terminal** window and enter the following:
+1.  Open a **terminal** window and enter the following (replacing X.X.X with the SDK version number you are going to use):
 
     ``` bash
     curl https://packages.atlassian.com/list/atlassian-sdk-deb/deb-archive/atlassian-plugin-sdk_X.X.X_all.deb -O
     
     ```
 
-2.  After the prompt returns and the SDK installer has downloaded, use dkpg to unpack and install the SDK:
+1.  After the prompt returns and the SDK installer has downloaded, use dkpg to unpack and install the SDK:
 
     ``` bash
     sudo dpkg -i /path/to/atlassian-plugin-sdk_X.X.X_all.deb
     ```
 
-3.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### Red Hat Enterprise Linux, CentOS, Fedora (RPM)
 
+1.  To download the latest version of the SDK (replace X.X.X with the version number):
+    
+    ``` bash
+    curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-X.X.X.noarch.rpm -O
+    ```
+1.  Use the RPM Package Manager (rpm) to unpack and install the SDK:
 
-1. All you should have to do to download the latest version of the SDK is [replace X.X.X with the version number]:
+    ``` bash
+    sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
+    ```
+    
+1.  As always,[Verify that you have set up the SDK correctly.](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
-``` bash
-curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-X.X.X.noarch.rpm -O
-```
-
-2. Use the RPM Package Manager (rpm) to unpack and install the SDK:
-
-``` bash
-sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
-```
-{{% /note %}}
+{{% note %}}
 If you have a previous version of the SDK installed, first uninstall it with:
 ``` bash
 sudo rpm -e atlassian-plugin-sdk
 ```
-
-3. As always[, Next: Verify that you have set up the SDK correctly.](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
-
+{{% /note %}}
 ### .tgz File
 
 To install the latest version of SDK, do the following:
 
 1.  <a href="https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-tgz" class="external-link">Download a TGZ (GZipped tar file) of the SDK</a>
-2.  Locate the downloaded SDK file. 
-3.  Extract the file to your local directory.
+1.  Locate the downloaded SDK file. 
+1.  Extract the file to your local directory.
 
     ``` bash
     sudo tar -xvzf atlassian-plugin-sdk-4.0.tar.gz -C /opt
     ```
 
-4.  Rename the extracted folder to  `atlassian-plugin-sdk` .
+1.  Rename the extracted folder to  `atlassian-plugin-sdk` .
 
     ``` bash
     sudo mv /opt/atlassian-plugin-sdk-4.0 /opt/atlassian-plugin-sdk 
@@ -185,7 +184,7 @@ To install the latest version of SDK, do the following:
 
     If you are comfortable working with symbolic links, you can set up a symbolic link instead of renaming the directory.
 
-5.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ## Step 3: Verify that you have set up the SDK correctly
 
