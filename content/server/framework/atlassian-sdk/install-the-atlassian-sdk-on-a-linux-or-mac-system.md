@@ -124,9 +124,9 @@ PKG File
 
 ### Debian, Ubuntu Linux
 
-On a Debian based Linux like Ubuntu, you can install the Atlassian Plugin SDK using `apt-get` or `aptitude`, but first you have to set up the Atlassian repositories. You only need to do this once and it requires `sudo` privileges.
+On a Debian based Linux like Ubuntu, you first need to download the package, then unpack and install it via `dpkg` (requires `sudo`). You can download it using the URL and a web request service like wget or curl.
 
-To set up the Atlassian repositories,
+To download the package,
 
 1.  Open a **terminal** window and enter the following (replacing X.X.X with the SDK version number you are going to use):
 
@@ -135,7 +135,7 @@ To set up the Atlassian repositories,
     
     ```
 
-1.  After the prompt returns and the SDK installer has downloaded, use dkpg to unpack and install the SDK:
+1.  After the prompt returns and the SDK installer has downloaded, use `dkpg` to unpack and install the SDK:
 
     ``` bash
     sudo dpkg -i /path/to/atlassian-plugin-sdk_X.X.X_all.deb
@@ -145,12 +145,14 @@ To set up the Atlassian repositories,
 
 ### Red Hat Enterprise Linux, CentOS, Fedora (RPM)
 
+Similarly, on Red Hat based Linux distributions, download and install the package, using RPM Package Manager (`rpm`).
+
 1.  To download the latest version of the SDK (replace X.X.X with the version number):
     
     ``` bash
     curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-X.X.X.noarch.rpm -O
     ```
-1.  Use the RPM Package Manager (rpm) to unpack and install the SDK:
+1.  Use the RPM Package Manager (`rpm`) to unpack and install the SDK:
 
     ``` bash
     sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
