@@ -835,7 +835,7 @@ Add the following function to the end of the file `xproduct-admin-ui-plugin.js.
 ``` javascript
 function updateConfig() {
   AJS.$.ajax({
-    url: baseUrl + "/rest/xproduct-admin/1.0/",
+    url: AJS.contextPath() + "/rest/xproduct-admin/1.0/",
     type: "PUT",
     contentType: "application/json",
     data: '{ "name": "' + AJS.$("#name").attr("value") + '", "time": ' +  AJS.$("#time").attr("value") + ' }',
