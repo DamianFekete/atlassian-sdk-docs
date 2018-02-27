@@ -58,7 +58,7 @@ By default, the system runs all the tests defined in your project's `it` packa
                         <product>
                             <id>jira</id>
                             <instanceId>jiraExpected</instanceId>
-                            <productVersion>${jira.version}</productVersion>
+                            <version>${jira.version}</version>
                             <productDataVersion>${jira.version}</productDataVersion>
                         </product>
                     </products>
