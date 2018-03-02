@@ -133,4 +133,41 @@ In general, our sample POM uses standard Maven object model syntax, as described
     -   com.atlassian.maven.plugins
     -   maven-compiler-plugin    
     The plugins offer numerous configuration options you can use to control the build environment for your project. For details on the configuration options, see [Using the AMPS Maven Plugin Directly](/server/framework/atlassian-sdk/using-the-amps-maven-plugin-directly-2818721.html).
+-   `httpPort` is the port that the plugin or product will listen to, if you would like to set the port in the POM please do so using the properties (set out below). Warning: If you set the `<httpPort>` in the `<configuration>` section, then you won't be able to dynamically set your own port using the `-p` (or `-http-port`) option when you use `atlas-run` later. Instead, you should set it using the `<httpPort.value>` in the <properties> section as follows:
+
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    ...
+    <dependencies>
+        ...
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.atlassian.maven.plugins</groupId>
+                <artifactId>maven-confluence-plugin</artifactId>
+                <version>${amps.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <productVersion>${confluence.version}</productVersion>
+                    <productDataVersion>${confluence.data.version}</productDataVersion>
+                    <allowGoogleTracking>false</allowGoogleTracking>
+                    <httpPort>${httpPort.value}</httpPort>
+                </configuration>
+            </plugin>
+            ...
+            ...
+    <properties>
+        <httpPort.value>2000</httpPort.value>
+        <confluence.version>4.3</confluence.version>
+        <confluence.data.version>4.3</confluence.data.version>
+        <amps.version>4.1</amps.version>
+    </properties>
+</project>
+```
 -   `properties` specifies the target host application and version and the version of the SDK used to generate the project. These determine the environment that the SDK starts up when you enter the atlas-run command in the project home directory. They do not affect the final artifact of the project, the JAR file that can be installed to the host application.
