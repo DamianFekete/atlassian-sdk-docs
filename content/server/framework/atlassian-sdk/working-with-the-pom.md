@@ -133,7 +133,7 @@ In general, our sample POM uses standard Maven object model syntax, as described
     -   com.atlassian.maven.plugins
     -   maven-compiler-plugin    
     The plugins offer numerous configuration options you can use to control the build environment for your project. For details on the configuration options, see [Using the AMPS Maven Plugin Directly](/server/framework/atlassian-sdk/using-the-amps-maven-plugin-directly-2818721.html).
--   `httpPort` is the port that the plugin or product will listen to, if you would like to set the port in the POM please do so using the properties (set out below). Warning: If you set `<httpPort>` as a hardcoded value in the `<configuration>` you will be unable to dynamically input your own port using the -p (--http-port) option. It should look like the following:
+-   `httpPort` is the port that the plugin or product will listen to, if you would like to set the port in the POM please do so using the properties (set out below). Warning: If you set the `<httpPort>` in the `<configuration>` section, then you won't be able to dynamically set your own port using the `-p` (or `-http-port`) option when you use `atlas-run` later. Instead, you should set it using the `<httpPort.value>` in the <properties> section as follows:
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
