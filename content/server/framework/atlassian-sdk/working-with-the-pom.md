@@ -133,8 +133,8 @@ In general, our sample POM uses standard Maven object model syntax, as described
     -   com.atlassian.maven.plugins
     -   maven-compiler-plugin    
     The plugins offer numerous configuration options you can use to control the build environment for your project. For details on the configuration options, see [Using the AMPS Maven Plugin Directly](/server/framework/atlassian-sdk/using-the-amps-maven-plugin-directly-2818721.html).
--   `httpPort` is the port that the plugin or product will listen to, if you would like to set the port in the POM please do so using the properties (set out below). Warning: If you set `<httpPort>` as a hardcoded value in the `<configuration>` you will be unable to dynamically input your own port using the -p (--http-port) option. I.e.
-```
+-   `httpPort` is the port that the plugin or product will listen to, if you would like to set the port in the POM please do so using the properties (set out below). Warning: If you set `<httpPort>` as a hardcoded value in the `<configuration>` you will be unable to dynamically input your own port using the -p (--http-port) option. It should look like the following:
+
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -142,48 +142,9 @@ In general, our sample POM uses standard Maven object model syntax, as described
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example.plugins.tutorial.confluence</groupId>
-    <artifactId>HelloWorld</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <organization>
-        <name>Example Company</name>
-        <url>http://www.example.com/</url>
-    </organization>
-    <name>HelloWorld</name>
-    <description>This is the com.example.plugins.tutorial.confluence:HelloWorld plugin for Atlassian Confluence.</description>
-    <packaging>atlassian-plugin</packaging>
+    ...
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.atlassian.confluence</groupId>
-            <artifactId>confluence</artifactId>
-            <version>${confluence.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <!-- WIRED TEST RUNNER DEPENDENCIES -->
-        <dependency>
-            <groupId>com.atlassian.plugins</groupId>
-            <artifactId>atlassian-plugins-osgi-testrunner</artifactId>
-            <version>${plugin.testrunner.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>jsr311-api</artifactId>
-            <version>1.1.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.2.2-atlassian-1</version>
-        </dependency>
+        ...
     </dependencies>
     <build>
         <plugins>
@@ -199,15 +160,8 @@ In general, our sample POM uses standard Maven object model syntax, as described
                     <httpPort>${httpPort.value}</httpPort>
                 </configuration>
             </plugin>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+            ...
+            ...
     <properties>
         <httpPort.value>2000</httpPort.value>
         <confluence.version>4.3</confluence.version>
