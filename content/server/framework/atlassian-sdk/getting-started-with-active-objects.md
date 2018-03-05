@@ -63,7 +63,7 @@ Creating the plugin, once the SDK is installed is as simple as running **`atlas-
 
 We're going to use the following values for this guide:
 
--   roupId: `com.atlassian.tutorial.ao.todo`
+-   groupId: `com.atlassian.tutorial.ao.todo`
 -   artifactId: **ao-tutorial**
 -   version: **1.0.0-SNAPSHOT**
 -   package: **com.atlassian.tutorial.ao.todo**
