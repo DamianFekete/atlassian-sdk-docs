@@ -62,5 +62,5 @@ populate correctly the top navigation and left navigation around the document.
 
 For information on the front matter required in your pages, please visit:
 
-    http://developer.atlassian.com/dac/markdown-metadata/
+http://developer.atlassian.com/dac/markdown-metadata/
 
