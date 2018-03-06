@@ -184,8 +184,6 @@ Tutorials classified by the level of skill assumed:
 
 ### External Tutorials
 
--   <a href="https://www.adaptavist.com/display/~jmort/2010/11/15/Writing+Cross+Product+Plugins" class="external-link">Writing Cross Product Plugins</a> - from Jonathan Mort and our friends at Adaptavist
--   <a href="http://www.customware.net/repository/display/ATLASSIAN/Writing+an+Atlassian+Gadget" class="external-link">Writing an Atlassian Gadget</a> - from Bo Wang and our friends at Customware
 -   <a href="https://www.atlassian.com/blog/archives/plugin_architecture_episode_iv" class="external-link">Plugin Architecture, Episode IV (&quot;A New Hope&quot;)</a>: introduction to the plugin software stack, including Maven, plugin and module descriptors, etc.
 -   <a href="https://www.atlassian.com/blog/archives/plugin_architecture_episode_v_the_3_tiered_architecture_strikes_back" class="external-link">Plugin Architecture, Episode V (&quot;The 3-Tiered Architecture Strikes Back&quot;)</a>: introduction to the REST module type and several important SAL services.
 -   <a href="https://www.atlassian.com/blog/archives/plugin_architecture_episode_vi" class="external-link">Plugin Architecture, Episode VI (Return of the jQuery)</a>
