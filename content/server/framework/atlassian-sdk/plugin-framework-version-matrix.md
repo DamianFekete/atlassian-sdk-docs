@@ -265,7 +265,8 @@ Confluence 6.3<br />
 Confluence 6.4<br />
 Confluence 6.5<br />
 Confluence 6.6<br />
-Confluence 6.7
+Confluence 6.7<br />
+Confluence 6.8
 </p></td>
 <td> </td>
 <td> </td>
