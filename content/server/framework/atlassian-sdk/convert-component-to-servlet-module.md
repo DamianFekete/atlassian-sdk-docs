@@ -18,7 +18,7 @@ title: Convert component to servlet module
 
 In this tutorial, you'll build an interactive dialogue with your plugin. When you generated the plugin skeleton, the Atlassian SDK automatically created a class called `MyPluginComponent`. However, to better fit your interactive plugin, you'll change your Java code to replace the component with a servlet module. 
 
-## Learn a bit about about component modules
+## Learn a bit about component modules
 
 Component modules define specific Java components. The plugin system then injects these modules into your plugin for you, using the Spring framework of the Atlassian container. A component module is part of a page, while a servlet is an entire server-side page. This makes a servlet more suitable for your interactive plugin.
 
