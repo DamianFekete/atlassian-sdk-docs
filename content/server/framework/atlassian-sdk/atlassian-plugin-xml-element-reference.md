@@ -224,6 +224,8 @@ A common example of a `param` element the URL for your plugin's configuration sc
 
 ### The `bundle-instructions` element
 
+**This element should not be used when using Spring Scanner transformerless plugins as it will be ignored. The preferred way to set OSGi instructions is the [`<instructions>` element in the `pom..xml`](https://developer.atlassian.com/server/framework/atlassian-sdk/managing-dependencies/#specifying-manifest-instructions).
+
 This element allows you to declare plugin dependencies and shorten your export package lists by specifying OSGi bundle instructions directly in the plugin XML. The list is used to generate the OSGi manifest. If you do not specify bundle instructions in the plugin descriptor or, alternatively, in the POM, the SDK generates one for you. 
 
 The element's parent element is `plugin-info`.
