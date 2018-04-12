@@ -53,7 +53,7 @@ Now that you've added additional APIs to your project you'll update the `import
     import java.net.URI;
     import com.atlassian.sal.api.auth.LoginUriProvider;
     import com.atlassian.sal.api.user.UserManager;
-
+    import com.atlassian.sal.api.user.UserProfile;
     import com.atlassian.plugin.spring.scanner.annotation.component.Scanned;
     import com.atlassian.plugin.spring.scanner.annotation.imports.ComponentImport;
     import javax.inject.Inject;
@@ -77,8 +77,16 @@ Now that you've added additional APIs to your project you'll update the `import
         @Override
         public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
         {
-            String username = userManager.getRemoteUsername(request);
-            if (username == null || !userManager.isSystemAdmin(username))
+            //*** These methods are deprecated ***
+            //String username = userManager.getRemoteUsername(request);
+            //if (username == null || !userManager.isSystemAdmin(username))
+            
+            //*** These methods should return the desired result ***
+            UserProfile user = userManager.getRemoteUser(request);
+    	    Boolean isUserAdmin = userManager.isSystemAdmin(user.getUserKey());
+            String username = user.getUsername() ;
+            
+            if (username == null || !isUserAdmin)
             {
                 redirectToLogin(request, response);
                 return;
