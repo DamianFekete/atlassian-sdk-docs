@@ -61,12 +61,25 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
     sudo sh -c 'echo "deb https://packages.atlassian.com/atlassian-sdk-deb stable contrib" >>/etc/apt/sources.list'
     ```
 
-4.  Then, run the install:
+1.  Download the public key using `curl` or `wget`:
+
+    ``` bash
+    wget https://packages.atlassian.com/api/gpg/key/public    
+    ```
+    
+1.  Add the public key to `apt` to verify the package signatures automatically:
+
+    ``` bash
+    apt-key add public   
+    ```
+
+1.  Then, run the install:
 
     ``` bash
     sudo apt-get update
     sudo apt-get install atlassian-plugin-sdk
     ```
+    
 
 ### RPM / RHEL / CentOS / Fedora (Yum)
 
