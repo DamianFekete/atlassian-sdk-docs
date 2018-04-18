@@ -114,7 +114,7 @@ PKG File
     brew tap atlassian/tap
     ```
 
-1.  Then install the SDK via the atlassian/tap using the command:
+1.  Then install the SDK using the atlassian/tap command:
 
     ``` bash
     brew install atlassian/tap/atlassian-plugin-sdk
@@ -124,33 +124,31 @@ PKG File
 
 ### Debian, Ubuntu Linux
 
-On a Debian based Linux like Ubuntu, you first need to download the package, then unpack and install it via `dpkg` (requires `sudo`). You can download it using the URL and a web request service like wget or curl.
 
-To download the package,
+On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-get` or `aptitude`:
 
-1.  Open a **terminal** window and enter the following (replacing X.X.X with the SDK version number you are going to use):
-
-    ``` bash
-    curl https://packages.atlassian.com/list/atlassian-sdk-deb/deb-archive/atlassian-plugin-sdk_X.X.X_all.deb -O
-    
-    ```
-
-1.  After the prompt returns and the SDK installer has downloaded, use `dkpg` to unpack and install the SDK:
+1.  First, set up the Atlassian SDK repositories:
 
     ``` bash
-    sudo dpkg -i /path/to/atlassian-plugin-sdk_X.X.X_all.deb
+    sudo sh -c 'echo "deb https://packages.atlassian.com/atlassian-sdk-deb stable contrib" >>/etc/apt/sources.list'
     ```
 
-1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  Then, run the install:
+
+    ``` bash
+    sudo apt-get update
+    sudo apt-get install atlassian-plugin-sdk
+    ```
+1.  [Next: Verify that you have set up the SDK correctly](https://developer.atlassian.com/server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system/#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 ### Red Hat Enterprise Linux, CentOS, Fedora (RPM)
 
 Similarly, on Red Hat based Linux distributions, download and install the package, using RPM Package Manager (`rpm`).
 
-1.  To download the latest version of the SDK (replace X.X.X with the version number):
+1.  To download the latest version of the SDK (replace *x.x.x* with the version number):
     
     ``` bash
-    curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-X.X.X.noarch.rpm -O
+    curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-x.x.x.noarch.rpm -O
     ```
 1.  Use the RPM Package Manager (`rpm`) to unpack and install the SDK:
 
@@ -158,7 +156,7 @@ Similarly, on Red Hat based Linux distributions, download and install the packag
     sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
     ```
     
-1.  As always,[Verify that you have set up the SDK correctly.](https://developer.atlassian.com/display/DOCS/Install+the+Atlassian+SDK+on+a+Linux+or+Mac+system#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
+1.  As always,[Verify that you have set up the SDK correctly.](https://developer.atlassian.com/server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system/#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
 {{% note %}}
 If you have a previous version of the SDK installed, first uninstall it with:
