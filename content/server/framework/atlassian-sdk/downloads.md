@@ -43,7 +43,7 @@ If you're installing the Atlassian SDK for the first time, you may want to follo
 
 ### Installing from Package Managers
 
-If you prefer you can use a suitable package manager for your OS to install the Atlassian SDK. 
+If you prefer you can use a suitable package manager for your operating system to install the Atlassian SDK. 
 
 {{% note %}}
 
@@ -55,32 +55,31 @@ If you previously installed the SDK using `tar.gz` and added the SDK folder to
 
 On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-get` or `aptitude`:
 
-1.  First, set up the Atlassian repositories:
+1.  First, set up the Atlassian SDK repositories:
 
     ``` bash
-    sudo sh -c 'echo "deb http://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/sources.list'
+    sudo sh -c 'echo "deb https://packages.atlassian.com/atlassian-sdk-deb stable contrib" >>/etc/apt/sources.list'
     ```
 
-2.  Add the public key:
+1.  Download the public key using `curl` or `wget`:
 
     ``` bash
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B07804338C015B73
+    wget https://packages.atlassian.com/api/gpg/key/public    
     ```
-
-3.  sudo apt-key fingerprint should include
+    
+1.  Add the public key to `apt` to verify the package signatures automatically:
 
     ``` bash
-    pub   2048R/8C015B73 2012-08-20
-          Key fingerprint = 9465 19BB 719D 2C48 5D99  EC27 B078 0433 8C01 5B73
-    uid                  Atlassian Package Signer <devrel@atlassian.com>
+    apt-key add public   
     ```
 
-4.  And lastly, run the install:
+1.  Then, run the install:
 
     ``` bash
     sudo apt-get update
     sudo apt-get install atlassian-plugin-sdk
     ```
+    
 
 ### RPM / RHEL / CentOS / Fedora (Yum)
 
@@ -150,7 +149,7 @@ If you need to install an earlier version of the SDK for any reason, you can do 
 The Atlassian Marketplace contains only relatively recent version of the Atlassian Plugin SDK. If you need an older version than what is available on the Marketplace, you can get it from the <a href="https://maven.atlassian.com/index.html#nexus-search;quick%7Eatlassian-plugin-sdk" class="external-link">Atlassian Maven repository</a>.
 
     {{% /note %}}
-3.  Once you have the package for the version you want, install it using the method appropriate for your OS. For example, for Debian / Ubuntu Linux, use:
+3.  Once you have the package for the version you want, install it using the method appropriate for your operating system. For example, for Debian / Ubuntu Linux, use:
 
     ``` bash
     sudo dpkg -i package_name
