@@ -341,8 +341,7 @@
       },
       {
         "name": "help",
-        "subcategories": [],
-        "title": "Get help",
+        "title": "Resources",
         "url": "/server/framework/atlassian-sdk/get-help"
       }
     ],
