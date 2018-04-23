@@ -6,7 +6,7 @@ category: reference
 confluence_id: 852139
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=852139
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=852139
-date: '2017-12-08'
+date: '2018-04-23'
 legacy_title: Template Context Item Plugin Module
 platform: server
 product: atlassian-sdk
@@ -31,40 +31,12 @@ The root element for the Template Context Items plugin module is `template-conte
 
 #### Attributes
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 80%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name*</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>context-key</p></td>
-<td><p>The key with which the context item is referenced from templates, e.g. <code>$i18n</code> in the example below.</p></td>
-</tr>
-<tr class="even">
-<td><p>component-ref </p></td>
-<td><p>A reference to a component in the plugin's application context.</p>
-<p>To reference OSGi services or host components, import the component using <code>component-import</code>.</p>
-<p>The component will be looked up on each use, so prototype spring beans will be newly instantiated each time.</p></td>
-</tr>
-<tr class="odd">
-<td><p>class</p></td>
-<td><p>The class that should be instantiated and put into the context. This will be a singleton.</p>
-<p><strong>Note:</strong> either this or <code>component-ref</code>, but not both, is required.</p></td>
-</tr>
-<tr class="even">
-<td><p>global</p></td>
-<td><p>True if the context item should be available to contexts for all plugins.</p>
-<p><strong>Default:</strong> false.</p></td>
-</tr>
-</tbody>
-</table>
+|Name*|Description|
+|--- |--- |
+|context-key|The key with which the context item is referenced from templates, e.g. $i18n in the example below.|
+|component-ref|A reference to a component in the plugin's application context. To reference OSGi services or host components, import the component using component-import. The component will be looked up on each use, so prototype spring beans will be newly instantiated each time.|
+|class|The class that should be instantiated and put into the context. This will be a singleton. Note: either this or component-ref, but not both, is required.|
+|global|True if the context item should be available to contexts for all plugins. Default: false.|
 
 **\*context-key attribute is required.**
 
