@@ -342,7 +342,7 @@
       {
         "name": "help",
         "title": "Resources",
-        "url": "/server/framework/atlassian-sdk/get-help"
+        "url": "/server/framework/atlassian-sdk/get-help/"
       }
     ],
     "title": "Atlassian SDK",
