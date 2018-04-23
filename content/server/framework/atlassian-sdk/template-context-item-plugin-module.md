@@ -48,7 +48,7 @@ The root element for the Template Context Items plugin module is `template-conte
 <td><p>The key with which the context item is referenced from templates, e.g. <code>$i18n</code> in the example below.</p></td>
 </tr>
 <tr class="even">
-<td><p>component-refÂ </p></td>
+<td><p>component-ref </p></td>
 <td><p>A reference to a component in the plugin's application context.</p>
 <p>To reference OSGi services or host components, import the component using <code>component-import</code>.</p>
 <p>The component will be looked up on each use, so prototype spring beans will be newly instantiated each time.</p></td>
@@ -149,4 +149,4 @@ In `MyService` you would then have a corresponding method that would call the `c
 
 ##### RELATED TOPICS
 
-[Plugin Module Types](https://developer.atlassian.com/display/PLUGINFRAMEWORK/Plugin+Module+Types)
+ - [Plugin Module Types](/server/framework/atlassian-sdk/plugin-modules/)
