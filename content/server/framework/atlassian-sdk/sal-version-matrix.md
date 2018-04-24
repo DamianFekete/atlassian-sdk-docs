@@ -336,9 +336,10 @@ FishEye 3.2</a></td>
 </tbody>
 </table>
 
-INFO: There is also a detailed list of [services available per application](https://developer.atlassian.com/display/DOCS/SAL+Services).
+Notes:
 
-INFO: SAL is bundled with all application versions as shown in the above table. You do not need to install SAL into any application.
+- There is also a detailed list of [services available per application](https://developer.atlassian.com/display/DOCS/SAL+Services).
+- SAL is bundled with all application versions as shown in the above table. You do not need to install SAL into any application.
 
 ##### RELATED TOPICS
 
