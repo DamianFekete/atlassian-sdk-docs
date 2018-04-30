@@ -17,7 +17,7 @@ title: Getting started
 
 Welcome to the Atlassian Developer Documentation. Using the Atlassian plugin software developer kit (SDK), you can create add-ons to extend Atlassian server applications like JIRA, Confluence, Bitbucket Server, and Bamboo.
 
-We also offer a number of infrastructure [tools](/server/framework/atlassian-sdk/developer-tools) to help you create, market and sell your plugins. For example, thousands of customers visit the <a href="http://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a> and the <a href="https://confluence.atlassian.com/display/UPM/Universal+Plugin+Manager+Documentation" class="external-link">Atlassian Marketplace in-product</a> every day, to find plugins they may want to install.
+We also offer a number of infrastructure [tools](/server/framework/atlassian-sdk/developer-tools) to help you create, market and sell your plugins. For example, thousands of customers visit the <a href="https://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a> and the <a href="https://confluence.atlassian.com/display/UPM/Universal+Plugin+Manager+Documentation" class="external-link">Atlassian Marketplace in-product</a> every day, to find plugins they may want to install.
 
 If you meant to write an app for an Atlassian Cloud product then please see the following guides instead:
 
@@ -29,7 +29,7 @@ If you meant to write an app for an Atlassian Cloud product then please see the 
 
 **Atlassian Developer Terms last updated 04 Dec 2015**
 
-By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](https://developer.atlassian.com/display/MARKET/Atlassian+Developer+Terms)</span>
+By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](https://developer.atlassian.com/platform/marketplace/atlassian-developer-terms/)</span>
 
 {{% /note %}}
 
