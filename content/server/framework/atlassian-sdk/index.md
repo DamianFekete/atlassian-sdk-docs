@@ -35,18 +35,9 @@ By downloading and/or using this SDK you agree to the <span class="underline">[
 
 {{% /note %}}
 
-## Quickstart
+## Getting started with the Atlassian Plugin SDK
 
-[Download and install the Atlassian SDK](/server/framework/atlassian-sdk/downloads/)
-
-Already have the SDK?
-
-[Set up the Atlassian SDK and build a project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project/)
-
-------------------------------------------------------------------------
-
-## Get started with the Atlassian Plugin SDK
-
+-   [Download the SDK](/server/framework/atlassian-sdk/downloads/)
 -   [Install the SDK and create a project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 -   [Writing and running plugin tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)  
 -   [Frequently used SDK commands](/server/framework/atlassian-sdk/frequently-used-commands)
