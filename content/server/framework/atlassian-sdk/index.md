@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 5668881
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=5668881
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=5668881
-date: '2017-12-08'
+date: '2018-05-01'
 legacy_title: Getting Started
 platform: server
 product: atlassian-sdk
@@ -15,67 +15,54 @@ title: Getting started
 ---
 # Getting started
 
-Welcome to the Atlassian Developer Documentation. Using the Atlassian plugin software developer kit (SDK), you can create add-ons to extend Atlassian server applications like JIRA, Confluence, Bitbucket Server, and Bamboo.
+Welcome to the Atlassian Developer Documentation. Using the Atlassian plugin software developer kit (SDK), you can create apps to extend Atlassian server applications like Jira Software, Jira Service Desk, Confluence, Bitbucket Server, and Bamboo.
 
-We also offer a number of infrastructure [tools](/server/framework/atlassian-sdk/developer-tools) to help you create, market and sell your plugins. For example, thousands of customers visit the <a href="http://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a> and the <a href="https://confluence.atlassian.com/display/UPM/Universal+Plugin+Manager+Documentation" class="external-link">Atlassian Marketplace in-product</a> every day, to find plugins they may want to install.
+We also offer a number of infrastructure [tools](/server/framework/atlassian-sdk/developer-tools) to help you create, market and sell your apps. For example, thousands of customers visit the <a href="https://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a> and the <a href="https://confluence.atlassian.com/display/UPM/Universal+Plugin+Manager+Documentation" class="external-link">Atlassian Marketplace in-product</a> every day, to find apps they may want to install.
 
 If you meant to write an app for an Atlassian Cloud product then please see the following guides instead:
 
--   [JIRA Cloud](https://developer.atlassian.com/cloud/jira/platform/getting-started/)
--   [JIRA Service Desk Cloud](https://developer.atlassian.com/cloud/jira/service-desk/getting-started/)
--   [Confluence Cloud](https://developer.atlassian.com/cloud/confluence/getting-started/)
+-   [Jira Software Cloud](/cloud/jira/software/getting-started/)
+-   [Jira Service Desk Cloud](/cloud/jira/service-desk/getting-started/)
+-   [Confluence Cloud](/cloud/confluence/getting-started/)
+-   [Bitbucket Cloud](/cloud/bitbucket/getting-started/)
+-   [Stride](/cloud/stride/getting-started/)
 
 {{% note %}}
 
 **Atlassian Developer Terms last updated 04 Dec 2015**
 
-By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](https://developer.atlassian.com/display/MARKET/Atlassian+Developer+Terms)</span>
+By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](/platform/marketplace/atlassian-developer-terms/)</span>
 
 {{% /note %}}
 
-## Quickstart
+## Getting started with the Atlassian Plugin SDK
 
-<a href="#install-the-latest-version" class="sdk-installer">››› Install the latest version ‹‹‹</a>  
-<a href="https://developer.atlassian.com/display/DOCS/Downloads" class="sdk-download-link">Downloads for other systems...</a>
-
-Already have the SDK?
-
-<a href="https://developer.atlassian.com/display/DOCS/Set+up+the+Atlassian+Plugin+SDK+and+Build+a+Project" class="external-link">Set up the Atlassian SDK and build a project</a>
-
-#### Building for Atlassian Cloud?
-
-You'll [use the Atlassian Connect framework](https://developer.atlassian.com/static/connect/docs/guides/introduction.html) to build for instances hosted in the cloud on Atlassian's servers. You'll still need to install the SDK for your local development.  
-
-------------------------------------------------------------------------
-
-### Get started with the Atlassian Plugin SDK
-
+-   [Download the SDK](/server/framework/atlassian-sdk/downloads/)
 -   [Install the SDK and create a project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 -   [Writing and running plugin tests](/server/framework/atlassian-sdk/writing-and-running-plugin-tests)  
 -   [Frequently used SDK commands](/server/framework/atlassian-sdk/frequently-used-commands)
 -   [Writing your first plugin FAQ](/server/framework/atlassian-sdk/writing-your-first-plugin-faq)
 
-### Tutorials
+## Tutorials
 
 -   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
 -   [Getting Started with Active Objects](/server/framework/atlassian-sdk/getting-started-with-active-objects)
 -   [Developing a REST Service Plugin](/server/framework/atlassian-sdk/developing-a-rest-service-plugin)
 -   [Scheduling Events via SAL Tutorial](/server/framework/atlassian-sdk/scheduling-events-via-sal-tutorial)  
 
-### Learn about the common application platform
+## Learn about the common application platform
 
--   [Platform architecture (Atlassian Platform Common Components)](https://developer.atlassian.com/display/DOCS/Atlassian+Platform+Common+Components)
--   <a href="https://developer-staging.atlassian.com/display/DOCS/Atlassian+Platform+Common+Components" class="external-link">S</a>[hared Access Layer (SAL) Documentation](https://developer.atlassian.com/display/DOCS/REST+API+Developer+Documentation)
--   [OSGi, Spring and the Plugin Framework](https://developer.atlassian.com/display/DOCS/OSGi%2C+Spring+and+the+Plugin+Framework)
+-   [Platform architecture (Atlassian Platform Common Components)](/server/framework/atlassian-sdk/atlassian-platform-common-components/)
+-   [Shared Access Layer (SAL) documentation](/server/framework/atlassian-sdk/shared-access-layer/)
+-   [OSGi, Spring and the Plugin Framework](/server/framework/atlassian-sdk/osgi-spring-and-the-plugin-framework/)
 -   [Atlassian JavaDoc](https://developer.atlassian.com/static/)  
 
-### Common development tasks and popular pages 
+## Common development tasks and popular pages 
 
 -   [Storing plugin settings](/server/framework/atlassian-sdk/storing-plugin-settings)
 -   [Internationalising your plugin](/server/framework/atlassian-sdk/internationalising-your-plugin)
 -   [Using Standard Page Decorators](/server/framework/atlassian-sdk/using-standard-page-decorators)
 -   [Adding WebSudo Support to your Plugin](/server/framework/atlassian-sdk/adding-websudo-support-to-your-plugin)
--   [REST API Developer Documentation](https://developer.atlassian.com/display/DOCS/REST+API+Developer+Documentation)
--   [Atlassian Maven Repositories](https://developer.atlassian.com/display/DOCS/Atlassian+Maven+Repositories)
+-   [REST API Developer Documentation](/server/framework/atlassian-sdk/rest-api-development/)
+-   [Atlassian Maven Repositories](/server/framework/atlassian-sdk/working-with-maven/)
 
-For previous versions of the documentation, see the [developer documentation archives](https://developer.atlassian.com/display/ARCHIVES).
