@@ -25,7 +25,7 @@ Using Atlassian's plugin development tools, developers can create plugins (add-o
 These are the major components in the Atlassian Plugin Development Platform:
 
 -   **Shared Access Layer (SAL).** The API for accessing common services, regardless of the underlying Atlassian application interfaces. [More...](https://developer.atlassian.com/display/DOCS/Shared+Access+Layer)
--   **Atlassian User Interface (AUI).** A set of reusable, cross-browser tested JavaScript and CSS UI components. [More...](https://developer.atlassian.com/display/AUI)
+-   **Atlassian User Interface (AUI).** A set of reusable, cross-browser tested JavaScript and CSS UI components. [More...](https://docs.atlassian.com/aui/)
 -   **Atlassian Template Renderer (ATR).** API for rendering your textual content. [More...](https://developer.atlassian.com/display/DOCS/Atlassian+Template+Renderer)
 -   **Atlassian Event.** A library that allows plugins to send and consume internal messages. See the <a href="http://docs.atlassian.com/atlassian-event/" class="external-link">Javadoc</a>.
 -   **Activity Streams.** API for sending and consuming activity streams. [More...](https://developer.atlassian.com/display/DOCS/Activity+Streams)
