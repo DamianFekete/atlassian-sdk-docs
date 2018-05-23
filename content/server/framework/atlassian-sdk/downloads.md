@@ -6,7 +6,7 @@ category: devguide
 confluence_id: 13633001
 dac_edit_link: https://developer.atlassian.com/pages/editpage.action?cjm=wozere&pageId=13633001
 dac_view_link: https://developer.atlassian.com/pages/viewpage.action?cjm=wozere&pageId=13633001
-date: '2017-12-08'
+date: '2018-05-23'
 legacy_title: Downloads
 platform: server
 product: atlassian-sdk
@@ -15,33 +15,44 @@ title: Downloads
 ---
 # Downloads
 
+## Before you begin
+
 {{% note %}}
 
-Additional Requirements
-
-
--   All installations require **version 1.8.x of the JDK**. Please ensure this is installed first.
--   The Atlassian Plugin SDK *does not support OpenJDK*.
+Last updated 04 Dec 2015
+By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](Atlassian-Developer-Terms_37879876.html)</span>
 
 {{% /note %}}
 
-## Use an installer
+To install the Atlassian Plugin SDK, you'll also need the following:
 
-We recommend that you use one of our installers to get the Atlassian SDK onto your local development system. 
+- Java SE Development Kit (JDK) 8 
+- Your JAVA_HOME variable set
 
-Just check your pre-requisites on [Windows](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/set-up-the-sdk-prerequisites-on-a-windows-system) or [Linux / Mac OS X](https://developer.atlassian.com/docs/getting-started/set-up-the-atlassian-plugin-sdk-and-build-a-project/set-up-the-sdk-prerequisites-for-linux-or-mac), then download and run the installer appropriate for your operating system:  
+{{% note %}}
+
+**A note on OpenJDK**
+
+The Atlassian Plugin SDK *does not support OpenJDK*, please ensure you have the Oracle Java SE Development Kit installed and your JAVA_HOME variable referencing the Oracle JDK installation of Java.
+
+{{% /note %}}
+
 
 ## First time users
 
-If you're installing the Atlassian SDK for the first time, you may want to follow the more detailed instructions. 
+If you're installing the Atlassian SDK for the first time, you can find detailed instructions for setting your JAVA_HOME, downloading and installing the Atlassian Plugin SDK and creating your first project. 
 
 › [Set up the Atlassian SDK and Build a Project](/server/framework/atlassian-sdk/set-up-the-atlassian-plugin-sdk-and-build-a-project)
 
-------------------------------------------------------------------------
+## Download the installer
 
-## Other options
+For Windows and macOS users, you can download the latest version of the installer via Atlassian Marketplace:
 
-### Installing from Package Managers
+- [Atlassian Marketplace: Atlassian Plugin SDK - Windows](https://marketplace.atlassian.com/apps/1210950/atlassian-plugin-sdk-windows?hosting=server&tab=overview)
+- [Atlassian Marketplace: Atlassian Plugin SDK - Mac OS X](https://marketplace.atlassian.com/apps/1210951/atlassian-plugin-sdk-mac-os-x?hosting=server&tab=overview)
+
+
+## Installing from Package Managers
 
 If you prefer you can use a suitable package manager for your operating system to install the Atlassian SDK. 
 
@@ -82,6 +93,12 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
     
 
 ### RPM / RHEL / CentOS / Fedora (Yum)
+
+{{% note %}}
+
+Currently the instructions below for installing via Yum will not work, please see [ATLASSDK-25](https://ecosystem.atlassian.net/browse/ATLASSDK-25) for updates and workaround.
+
+{{% /note %}}
 
 To install on systems that use the Yum package manager:
 
@@ -131,7 +148,14 @@ brew upgrade atlassian/tap/atlassian-plugin-sdk
 
 ### Installing an earlier version of the SDK
 
-If you need to install an earlier version of the SDK for any reason, you can do that by downloading the version you want from <a href="https://marketplace.atlassian.com" class="external-link">Atlassian Marketplace</a>.  
+If you need to install an earlier version of the SDK for any reason, you will find it on the [Atlassian Marketplace](https://marketplace.atlassian.com/).  
+
+{{% note %}}
+
+The Atlassian Marketplace contains versions of the Atlassian Plugin SDK after 4.0. 
+If you need an older version than what is available on the Marketplace, you can get it from the [Atlassian Public Maven repository](https://packages.atlassian.com/maven-public/com/atlassian/amps/atlassian-plugin-sdk/).
+
+{{% /note %}}
 
 1.  Remove an existing install, if necessary, using the method appropriate for your operating system. For example, for Debian / Ubuntu Linux, enter the command:
 
@@ -140,15 +164,12 @@ If you need to install an earlier version of the SDK for any reason, you can do 
     ```
 
 2.  Download the version you want from the Atlassian Marketplace:
-    -   Debian / Ubuntu Linux: <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-deb/versions" class="uri external-link">marketplace.atlassian.com/plugins/atlassian-plugin-sdk-deb/versions</a>
-    -   Microsoft Windows: <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-windows/versions" class="uri external-link">marketplace.atlassian.com/plugins/atlassian-plugin-sdk-windows/versions</a>
-    -   Linux RPM: <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm/versions" class="uri external-link">marketplace.atlassian.com/plugins/atlassian-plugin-sdk-rpm/versions</a>
-    -   Mac OS X: <a href="https://marketplace.atlassian.com/plugins/atlassian-plugin-sdk-mac/versions" class="uri external-link">marketplace.atlassian.com/plugins/atlassian-plugin-sdk-mac/versions</a>
+    -   [Atlassian Plugin SDK - Debian/Ubuntu](https://marketplace.atlassian.com/apps/1210992/atlassian-plugin-sdk-deb/version-history)
+    -   [Atlassian Plugin SDK - Windows](https://marketplace.atlassian.com/apps/1210950/atlassian-plugin-sdk-windows/version-history)
+    -   [Atlassian Plugin SDK - Linux RPM](https://marketplace.atlassian.com/apps/1210991/atlassian-plugin-sdk-rpm/version-history) 
+    -   [Atlassian Plugin SDK - MacOS](https://marketplace.atlassian.com/apps/1210951/atlassian-plugin-sdk-mac-os-x/version-history)
+    -   [Atlassian Plugin SDK - TGZ](https://marketplace.atlassian.com/apps/1210993/atlassian-plugin-sdk-tgz/version-history)
 
-    {{% note %}}
-The Atlassian Marketplace contains only relatively recent version of the Atlassian Plugin SDK. If you need an older version than what is available on the Marketplace, you can get it from the <a href="https://maven.atlassian.com/index.html#nexus-search;quick%7Eatlassian-plugin-sdk" class="external-link">Atlassian Maven repository</a>.
-
-    {{% /note %}}
 3.  Once you have the package for the version you want, install it using the method appropriate for your operating system. For example, for Debian / Ubuntu Linux, use:
 
     ``` bash
