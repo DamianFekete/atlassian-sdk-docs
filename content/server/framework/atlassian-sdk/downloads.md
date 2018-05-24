@@ -94,22 +94,25 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
 
 ### RPM / RHEL / CentOS / Fedora (Yum)
 
-{{% note %}}
-
-Currently the instructions below for installing via Yum will not work, please see [ATLASSDK-25](https://ecosystem.atlassian.net/browse/ATLASSDK-25) for updates and workaround.
-
-{{% /note %}}
-
 To install on systems that use the Yum package manager:
 
-1.  Download the repo files to your /etc/yum.repos.d/ folder:
+1.  Create the repo file in your /etc/yum.repos.d/ folder:
 
     ``` bash
-    cd /etc/yum.repos.d/
-    sudo wget https://sdkrepo.atlassian.com/atlassian-sdk-stable.repo
+    sudo vi /etc/yum.repos.d/artifactory.repo
     ```
 
-2.  Install the SDK:
+1. Configure the repository details:
+
+    ```
+    [Artifactory]
+    name=Artifactory
+    baseurl=https://packages.atlassian.com//atlassian-sdk-rpm/
+    enabled=1
+    gpgcheck=0
+    ```
+
+1.  Install the SDK:
 
     ``` bash
     sudo yum clean all

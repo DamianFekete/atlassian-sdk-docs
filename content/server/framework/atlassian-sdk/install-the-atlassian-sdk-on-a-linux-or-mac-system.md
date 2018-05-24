@@ -156,27 +156,34 @@ On a Debian-based Linux system like Ubuntu, you can install the SDK using `apt-
 
 ### Red Hat Enterprise Linux, CentOS, Fedora (RPM)
 
-Similarly, on Red Hat based Linux distributions, download and install the package, using RPM Package Manager (`rpm`).
+To install on systems that use the Yum package manager:
 
-1.  To download the latest version of the SDK (replace *x.x.x* with the version number):
-    
+1.  Create the repo file in your /etc/yum.repos.d/ folder:
+
     ``` bash
-    curl https://packages.atlassian.com/atlassian-sdk-rpm/rpm-stable/atlassian-plugin-sdk-x.x.x.noarch.rpm -O
+    sudo vi /etc/yum.repos.d/artifactory.repo
     ```
-1.  Use the RPM Package Manager (`rpm`) to unpack and install the SDK:
+
+1. Configure the repository details:
+
+    ```
+    [Artifactory]
+    name=Artifactory
+    baseurl=https://packages.atlassian.com//atlassian-sdk-rpm/
+    enabled=1
+    gpgcheck=0
+    ```
+
+1.  Install the SDK:
 
     ``` bash
-    sudo rpm -i /path/to/atlassian-plugin-sdk-X.X.X.noarch.rpm
+    sudo yum clean all
+    sudo yum updateinfo metadata
+    sudo yum install atlassian-plugin-sdk
     ```
     
 1.  As always,[Verify that you have set up the SDK correctly.](https://developer.atlassian.com/server/framework/atlassian-sdk/install-the-atlassian-sdk-on-a-linux-or-mac-system/#InstalltheAtlassianSDKonaLinuxorMacsystem-step3Step3:VerifythatyouhavesetuptheSDKcorrectly)
 
-{{% note %}}
-If you have a previous version of the SDK installed, first uninstall it with:
-``` bash
-sudo rpm -e atlassian-plugin-sdk
-```
-{{% /note %}}
 ### .tgz File
 
 To install the latest version of SDK, do the following:
