@@ -169,7 +169,7 @@ To install on systems that use the Yum package manager:
     ```
     [Artifactory]
     name=Artifactory
-    baseurl=https://packages.atlassian.com//atlassian-sdk-rpm/
+    baseurl=https://packages.atlassian.com/atlassian-sdk-rpm/
     enabled=1
     gpgcheck=0
     ```
