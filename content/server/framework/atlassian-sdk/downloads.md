@@ -20,7 +20,7 @@ title: Downloads
 {{% note %}}
 
 Last updated 04 Dec 2015
-By downloading and/or using this SDK you agree to the <span class="underline">[Atlassian Developer Terms](Atlassian-Developer-Terms_37879876.html)</span>
+By downloading and/or using this SDK you agree to the [Atlassian Developer Terms](https://developer.atlassian.com/platform/marketplace/atlassian-developer-terms/)
 
 {{% /note %}}
 
