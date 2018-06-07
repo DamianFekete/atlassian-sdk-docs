@@ -30,7 +30,7 @@ Specifies whether web resources in your plugin (eg. JavaScript) are automaticall
 
 ### containerId
 
-Specifies the <a href="https://codehaus-cargo.github.io/cargo/Home.html" class="external-link">Cargo</a> container that should be used when starting and hosting the product. The default value is `tomcat6x` (for Tomcat 6.0.20).
+Specifies the <a href="https://codehaus-cargo.github.io/cargo/Home.html" class="external-link">Cargo</a> container that should be used when starting and hosting the product. 
 
 {{% note %}}
 
