@@ -32,9 +32,9 @@ These design guidelines focus on the implementation details for REST modules. An
 
 ## Background to Atlassian REST APIs
 
-Atlassian is currently working towards creating standardised REST APIs across all of our applications. Some of our applications already provide REST APIs, and some applications are providing new REST APIs or updating their existing APIs in an upcoming release. (Date of writing this paragraph: April 2009.)
+Atlassian has been working towards creating standardised REST APIs across all of our applications. Some of our applications already provide REST APIs, and some applications are providing new REST APIs or updating their existing APIs in an upcoming release.
 
-Each application (Confluence, JIRA, Crowd, etc) will provide its own REST APIs, exposing the application-specific functionality. The goal is for these application-specific APIs to share common design standards, as described on this page.
+Each application (Confluence, Jira, Crowd, etc) will provide its own REST APIs, exposing the application-specific functionality. The goal is for these application-specific APIs to share common design standards, as described on this page.
 
 For details of each application's APIs, please refer to the development hub in the documentation for the application concerned.
 
@@ -311,7 +311,7 @@ In order to be minimise network traffic and simplify some APIs from the client p
 
 The `expand` query parameter allows a comma-separated list of identifiers to expand. For example, the value `modules,info` requests the expansion of entities for which the `expand` identifier is `modules` and `info`.
 
-You can use the dot notation to specify expansion of entities within another entity. For example `modules.module` would expand the plugin entity (because its `expand` identifier is `modules`) and the module entities within the plugin. See example 4 [below](#example-4-using-the-dot-notation-to-expand-entities-within-another-entity).
+You can use the dot notation to specify expansion of entities within another entity. For example `modules.module` would expand the plugin entity (because its `expand` identifier is `modules`) and the module entities within the plugin. See [example 4 below](#example-4-using-the-dot-notation-to-expand-entities-within-another-entity).
 
 Expandable entities should be declared by parent entities in the form of an `expand` attribute. In example 1, the plugin entity declares `modules` and `info` as being expandable. The attribute should not be confused with the query parameter which specifies which entities *are* expanded.
 
@@ -320,7 +320,7 @@ Expandable entities should be declared by parent entities in the form of an `exp
 For our example, let's take a plugin resource within the 'upm' REST API.
 
 Use this URI to access the plugin resource without specifying title expansion:  
-<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key</a>
+```http://host:port/context/rest/upm/1/plugin/a-plugin-key```
 
 The response will contain:
 
@@ -335,7 +335,7 @@ The response will contain:
 ###### Example 2. Expanding the `info` Element
 
 Use the following URI to expand the `info` element in our plugin resource:  
-<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info</a>.
+```http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=info```
 
 Now the response will contain:
 
@@ -353,7 +353,7 @@ Now the response will contain:
 ###### Example 3. Expanding the Collection of Modules
 
 Use this URI to expand the module collection in our plugin resource:  
-<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules</a>
+```http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules```
 
 The response will contain:
 
@@ -377,7 +377,7 @@ Note that the above URI does not expand each individual module.
 ###### Example 4: Using the Dot Notation to Expand Entities within another Entity
 
 Use the following URI to expand the modules inside the collection within our plugin resource:  
-<a href="http://hostport" class="external-link">host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module</a>
+```http://host:port/context/rest/upm/1/plugin/a-plugin-key?expand=modules.module```
 
 The response will contain:
 
@@ -423,9 +423,8 @@ When an API has multiple versions, we recommend:
 
 For example, if versions 1 and 2 of the 'upm' API are available, the following two URIs would point to the same resources:
 
--   <a href="http://hostport" class="external-link">host:port/context/rest/upm/latest/</a>
-
--   <a href="http://hostport" class="external-link">host:port/context/rest/upm/2/</a>
+-   ```host:port/context/rest/upm/latest/```
+-   ```http:host:port/context/rest/upm/2/```
 
 ### When to Change the Version
 
@@ -464,36 +463,38 @@ Atlassian uses the XSRF acronym for <a href="https://en.wikipedia.org/wiki/Cro
 
 To protect against <a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" class="external-link">XSRF</a> attacks:
 
-1.  Ensure that GET requests are idempotent
-2.  For rest api classes or methods that **will** **not** be used in normal browser 'form' posts
-    1.  annotate them with **@Consumes({MediaType.APPLICATION\_XML, MediaType.APPLICATION\_JSON})**
-
-        ``` java
-        Class example:
-        @Path("/a")
-        @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-        public class RestHelloWorldService { ... }
-
-         
-        Method example:
-        public class RestAnotherService { 
-        ...
-            @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-            @POST
-            @Path("/b")
-            public Response getUncompletedUsers() { ... }
-        }
-        ```
-
-        This protects against XSRF attacks as browser cross-domain simple requests cannot have a content type of MediaType.APPLICATION\_XML or MediaType.APPLICATION\_JSON. See <a href="http://www.w3.org/TR/cors/#terminology" class="uri external-link">http://www.w3.org/TR/cors/#terminology</a> for further information on "simple requests". It is also noting that because of issues in the implementation of the <a href="https://w3c.github.io/beacon/" class="external-link">beacon API</a> in Chrome, atlassian-rest performs <a href="https://confluence.atlassian.com/kb/cross-site-request-forgery-csrf-protection-changes-in-atlassian-rest-779294918.html" class="external-link">origin XSRF checks</a> on requests in some cases to prevent content-types that should not be allowed to be sent cross-domain without <a href="https://github.com/w3c/beacon/pull/23" class="external-link">CORS permitting them</a>.
-
-    2.  For atlassian-rest versions prior to 3.0.0  
-        1.  annotate them with @[com.atlassian.plugins.rest.common.security.RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html). The atlassian-rest-refimpl-plugin has an <a href="https://bitbucket.org/atlassian/atlassian-rest/src/6130a9bc1766379e9a7dee1c96d78b9e45f627f8/atlassian-rest-refimpl-plugin/src/main/java/com/atlassian/plugins/rest/xsrf/XsrfCheck.java?at=master" class="external-link">example of using this annotation</a>.  
-    3.  In atlassian-rest version 3.0.0 and later mutative resources such as `POST` are automatically XSRF protected.
-
+1. Ensure that GET requests are idempotent.
+1. For REST API classes or methods that **will not** be used in normal browser 'form' posts: 
+    1. Annotate them with `@Consumes({MediaType.APPLICATION\_XML, MediaType.APPLICATION\_JSON})` as per the below example: 
+ ```java
+ // Class Example
+ @Path("/a")
+ @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+ public class RestHelloWorldService { ... }
+ 
+ // Method Example 
+ public class RestAnotherService { 
+ ...
+     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+     @POST
+     @Path("/b")
+     public Response getUncompletedUsers() { ... }
+ }
+ ```
+ 
+    This protects against XSRF attacks as browser cross-domain simple requests cannot have a content type of `MediaType.APPLICATION\_XML` or `MediaType.APPLICATION\_JSON`. See <a href="http://www.w3.org/TR/cors/#terminology" class="uri external-link">http://www.w3.org/TR/cors/#terminology</a> for further information on simple requests.
+     
+    {{% note %}}
+    Because of issues in the implementation of the <a href="https://w3c.github.io/beacon/" class="external-link">beacon API</a> in Chrome, atlassian-rest performs <a href="https://confluence.atlassian.com/kb/cross-site-request-forgery-csrf-protection-changes-in-atlassian-rest-779294918.html" class="external-link">origin XSRF checks</a> on requests in some cases to prevent content-types that should not be allowed to be sent cross-domain without <a href="https://github.com/w3c/beacon/pull/23" class="external-link">CORS permitting them</a>.
+    {{% /note %}}
+    1. In **atlassian-rest version 3.0.0** and later mutative resources such as `POST` are automatically XSRF protected.
+    {{% warning title="atlassian-rest versions prior to 3.0.0" %}}
+    For atlassian-rest versions prior to 3.0.0, annotate them with [RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html): `@com.atlassian.plugins.rest.common.security.RequiresXsrfCheck`. 
+    The atlassian-rest-refimpl-plugin has an <a href="https://bitbucket.org/atlassian/atlassian-rest/src/6130a9bc1766379e9a7dee1c96d78b9e45f627f8/atlassian-rest-refimpl-plugin/src/main/java/com/atlassian/plugins/rest/xsrf/XsrfCheck.java?at=master" class="external-link">example of using this annotation</a>.  
+    {{% /warning %}}
 3.  For rest api classes or methods that **will** be used from normal browser 'form' posts
-    1.  As of atlassian-rest 2.8.0-m9 the [com.atlassian.plugins.rest.common.security.RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html)  annotation can be used to perform xsrf token validation on rest form submissions. This xsrf token   
-        validation implementation uses the [SAL](https://developer.atlassian.com/display/DOCS/Shared+Access+Layer) provided [XsrfTokenValidator](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenValidator.html) and  [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interfaces. A plugin which uses this annotation to provide xsrf token validation on a rest method will need to ensure that in all corresponding forms there is a hidden xsrf token parameter with a xsrf token value obtained from the [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interface. For example, the exampleXsrfTokenProtectedMethod method annotated with the [RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html) annotation in the following class
+    -  As of atlassian-rest 2.8.0-m9 the [com.atlassian.plugins.rest.common.security.RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html)  annotation can be used to perform XSRF token validation on rest form submissions. This XSRF token   
+        validation implementation uses the [SAL](https://developer.atlassian.com/display/DOCS/Shared+Access+Layer) provided [XsrfTokenValidator](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenValidator.html) and  [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interfaces. A plugin which uses this annotation to provide XSRF token validation on a rest method will need to ensure that in all corresponding forms there is a hidden XSRF token parameter with a XSRF token value obtained from the [XsrfTokenAccessor](https://developer.atlassian.com/static/javadoc/sal/2.6/reference/com/atlassian/sal/api/xsrf/XsrfTokenAccessor.html) interface. For example, the exampleXsrfTokenProtectedMethod method annotated with the [RequiresXsrfCheck](https://developer.atlassian.com/static/javadoc/rest/2.5/reference/com/atlassian/plugins/rest/common/security/RequiresXsrfCheck.html) annotation in the following class
 
         ``` java
         @Path("/exampleXsrfTokenProtectedMethod")
