@@ -22,12 +22,8 @@ This document provides guidelines to Atlassian developers who are designing REST
 -   If you are developing a plugin that exposes a REST API, you can follow these guidelines to ensure consistency between your plugin and the host application's APIs.
 -   We invite and welcome feedback on these design principles.
 
-{{% note %}}
-
-REST API Principle Policy
-
+{{% note title="REST API Principle Policy" %}}
 These design guidelines focus on the implementation details for REST modules. Any implementations must also follow the [Atlassian REST API policy](https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy) which define the principles behind Atlassian's REST APIs.
-
 {{% /note %}}
 
 ## Background to Atlassian REST APIs
