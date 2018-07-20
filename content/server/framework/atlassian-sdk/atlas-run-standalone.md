@@ -132,6 +132,13 @@ Interpreted parameters:
 <td><p>--product</p></td>
 <td><p>The application to launch.</p></td>
 </tr>
+<tr class="even">
+<td><p>--maven-plugin-version</p>
+<p> </p></td>
+<td><p>Specify the Maven AMPS plugin version to use. </p> 
+<p>A full list of versions can be found at <a href="server/framework/atlassian-sdk/amps-sdk-release-notes/">AMPS SDK release notes</a>.</p>
+<p><strong>Shortened: -u</strong></p></td>
+</tr>
 </tbody>
 </table>
 
