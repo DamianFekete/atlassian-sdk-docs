@@ -63,7 +63,14 @@
               {
                 "title": "Writing and running plugin tests",
                 "url": "/server/framework/atlassian-sdk/writing-and-running-plugin-tests"
-              },
+              }
+            ],
+            "title": "Learning",
+            "expandAlways": false
+          },
+          {
+            "name": "buildingBlocks",
+            "items": [
               {
                 "groupItems": [
                   {
@@ -86,9 +93,20 @@
                 "isGroup": true,
                 "title": "Shared Access Layer",
                 "url": "/server/framework/atlassian-sdk/shared-access-layer"
+              },
+              {
+                "groupItems": [
+                  {
+                    "title": "Command Reference",
+                    "url": "/server/framework/atlassian-sdk/command-reference"
+                  }
+                ],
+                "isGroup": true,
+                "title": "Working with the SDK",
+                "url": "/server/framework/atlassian-sdk/working-with-the-sdk"
               }
             ],
-            "title": "Learning",
+            "title": "Building Blocks",
             "expandAlways": false
           },
           {

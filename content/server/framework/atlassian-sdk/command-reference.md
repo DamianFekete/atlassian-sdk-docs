@@ -16,13 +16,56 @@ title: Command reference
 ---
 # Command reference
 
--   [atlas-clean](/server/framework/atlassian-sdk/atlas-clean) -- atlas-clean \[options\] - Removes files from the project directory, that were generated during the build. (Runs mvn clean.) Passes all parameters straight through to Maven.
--   [atlas-cli](/server/framework/atlassian-sdk/atlas-cli) -- atlas-cli \[options\] - Starts up a command line interface to your plugin running in the host application. After you change the plugin code, enter pi at the CLI prompt to install the updated plugin in the Atlassian application. (Runs mvn amps:cli.) Interpreted parameters: http-port, context-path, server, cli-port.
--   [atlas-clover](/server/framework/atlassian-sdk/atlas-clover) -- atlas-clover \[options\] - Runs unit and integration tests, generating a code coverage report with Clover http://atlassian.com/clover. Passes all parameters straight through to Maven. Report is available in target/site/clover/index.html.
--   [atlas-compile](/server/framework/atlassian-sdk/atlas-compile) -- atlas-compile \[options\] - Compiles the sources of your project. (Runs mvn compile.) Passes all parameters straight through to Maven.
--   [atlas-create-bamboo-plugin](/server/framework/atlassian-sdk/atlas-create-bamboo-plugin) -- atlas-create-bamboo-plugin \[options\] - Creates an example of a Bamboo plugin, which you can adapt to suit your own plugin's needs. (Runs mvn bamboo:create.) Interpreted parameters: artifact-id, group-id, version, package, non-interactive.
--   [atlas-create-bamboo-plugin-module](/server/framework/atlassian-sdk/atlas-create-bamboo-plugin-module) -- atlas-create-bamboo-plugin-module \[options\] - Prompts you for plugin module type and related details, then creates an example of a Bamboo plugin module that you can adapt to suit your own plugin's needs. (Runs mvn bamboo:create-plugin-module.) Passes all parameters straight through to Maven.
--   [atlas-create-confluence-plugin](/server/framework/atlassian-sdk/atlas-create-confluence-plugin) -- atlas-create-confluence-plugin \[options\] - Creates an example of a Confluence plugin, which you can adapt to suit your own plugin's needs. (Runs mvn confluence:create.) Interpreted parameters: artifact-id, group-id, version, package, non-interactive.
+<table>
+    <thead>
+        <tr>
+            <th>Command</th>
+            <th>Example</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-clean">atlas-clean</a></td>
+            <td>-- atlas-clean \[options\] </td>
+            <td>Removes files from the project directory, that were generated during the build. (Runs mvn clean.) Passes all parameters straight through to Maven.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-cli">atlas-cli</a><td>
+             <td>-- atlas-cli \[options\]</td>
+             <td>Starts up a command line interface to your plugin running in the host application. After you change the plugin code, enter pi at the CLI prompt to install the updated plugin in the Atlassian application. (Runs mvn amps:cli.) Interpreted parameters: http-port, context-path, server, cli-port.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-clover">atlas-clover</a></td>
+             <td>-- atlas-clover \[options\]</td>
+             <td>Runs unit and integration tests, generating a code coverage report with Clover http://atlassian.com/clover. Passes all parameters straight through to Maven. Report is available in target/site/clover/index.html.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-compile">atlas-compile</a></td>
+             <td>-- atlas-compile \[options\]</td>
+             <td>Compiles the sources of your project. (Runs mvn compile.) Passes all parameters straight through to Maven.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-create-bamboo-plugin">atlas-create-bamboo-plugin</a></td>
+            <td>-- atlas-create-bamboo-plugin \[options\]</td>
+            <td>Creates an example of a Bamboo plugin, which you can adapt to suit your own plugin's needs. (Runs mvn bamboo:create.) Interpreted parameters: artifact-id, group-id, version, package, non-interactive.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-create-bamboo-plugin-module">atlas-create-bamboo-plugin-module</a></td>
+             <td>-- atlas-create-bamboo-plugin-module \[options\]</td> 
+             <td>Prompts you for plugin module type and related details, then creates an example of a Bamboo plugin module that you can adapt to suit your own plugin's needs. (Runs mvn bamboo:create-plugin-module.) Passes all parameters straight through to Maven.</td>
+        </tr>
+        <tr>
+            <td><a href="/server/framework/atlassian-sdk/atlas-create-confluence-plugin">atlas-create-confluence-plugin</a></td>
+            <td>-- atlas-create-confluence-plugin \[options\]</td>
+            <td>Creates an example of a Confluence plugin, which you can adapt to suit your own plugin's needs. (Runs mvn confluence:create.) Interpreted parameters: artifact-id, group-id, version, package, non-interactive.</td>
+        </tr>
+    </tbody>
+</table>
+   
+   
+
+
 -   [atlas-create-confluence-plugin-module](/server/framework/atlassian-sdk/atlas-create-confluence-plugin-module) -- atlas-create-confluence-plugin-module \[options\] - Prompts you for plugin module type and related details, then creates an example of a Confluence plugin module that you can adapt to suit your own plugin's needs. (Runs mvn confluence:create-plugin-module.) Passes all parameters straight through to Maven. 
 -   [atlas-create-crowd-plugin](/server/framework/atlassian-sdk/atlas-create-crowd-plugin) -- atlas-create-crowd-plugin \[options\] - Creates an example of a Crowd plugin, which you can adapt to suit your own plugin's needs. (Runs mvn crowd:create.) Interpreted parameters: artifact-id, group-id, version, package, non-interactive.
 -   [atlas-create-crowd-plugin-module](/server/framework/atlassian-sdk/atlas-create-crowd-plugin-module) -- atlas-create-crowd-plugin-module \[options\] - Prompts you for plugin module type and related details, then creates an example of a Crowd plugin module that you can adapt to suit your own plugin's needs. (Runs mvn crowd:create-plugin-module.) Passes all parameters straight through to Maven.
