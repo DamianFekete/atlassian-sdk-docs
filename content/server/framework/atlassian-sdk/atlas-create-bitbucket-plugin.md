@@ -87,7 +87,7 @@ For example:
 
 ``` bash
 atlas-create-bitbucket-plugin -?
-atlas-create-jira-bitbucket -help
+atlas-create-bitbucket-plugin -help
 ```
 
 ## Examples
