@@ -27,6 +27,7 @@ Please find a list of resources that you may find relevant to the talk below:
 - [Codehaus Cargo](https://codehaus-cargo.github.io/cargo/Home.html) 
 
 ### Tomcat
+- [tomcat.apache.org](http://tomcat.apache.org/)
 
 ### QuickReload
 - [Automatic plugin re installation with QuickReload](https://developer.atlassian.com/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-quickreload/)
