@@ -22,11 +22,13 @@ Please find a list of resources that you may find relevant to the talk below:
 - [The apache-maven project](https://maven.apache.org/index.html)
 - [Working with maven](https://developer.atlassian.com/server/framework/atlassian-sdk/working-with-maven/)
 - [atlassian-public maven repository](https://packages.atlassian.com/maven/repository/public)
+- [Maven Java Plugin Development Guide: Your first Mojo](https://maven.apache.org/guides/plugin/guide-java-plugin-development.html#)
 
 ### Cargo 
 - [Codehaus Cargo](https://codehaus-cargo.github.io/cargo/Home.html) 
 
 ### Tomcat
+- [tomcat.apache.org](http://tomcat.apache.org/)
 
 ### QuickReload
 - [Automatic plugin re installation with QuickReload](https://developer.atlassian.com/server/framework/atlassian-sdk/automatic-plugin-reinstallation-with-quickreload/)
