@@ -60,7 +60,7 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 -   [Searching Using the V2 Search API](https://developer.atlassian.com/display/CONFDEV/Searching+Using+the+V2+Search+API)
 -   [Adding a Custom Action to Confluence](https://developer.atlassian.com/display/CONFDEV/Adding+a+Custom+Action+to+Confluence)
 -   [Unit Testing Plugins](https://developer.atlassian.com/display/CONFDEV/Unit+Testing+Plugins)
--   [Writing a Blueprint - Intermediate](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Intermediate)
+-   [Writing a Blueprint - Intermediate](/server/confluence/writing-a-blueprint-intermediate/)
 
 #### Advanced
 
@@ -69,7 +69,7 @@ After you've gotten acquainted with the [getting started](/server/framework/atla
 -   [Adding a field to CQL](https://developer.atlassian.com/display/CONFDEV/Adding+a+field+to+CQL)
 -   [Defining a Pluggable Service in a Confluence Plugin](https://developer.atlassian.com/display/CONFDEV/Defining+a+Pluggable+Service+in+a+Confluence+Plugin)
 -   [Creating an Admin Configuration Form](/server/framework/atlassian-sdk/creating-an-admin-configuration-form)
--   [Writing a Blueprint - Advanced](https://developer.atlassian.com/display/CONFDEV/Writing+a+Blueprint+-+Advanced)
+-   [Writing a Blueprint - Advanced](/server/confluence/writing-a-blueprint-advanced/)
 
 ## FishEye/Crucible Tutorials
 
