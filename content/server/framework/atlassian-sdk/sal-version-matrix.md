@@ -53,7 +53,8 @@ The matrix below shows the applications which include and support the Shared Acc
 <td> </td>
 <td> </td>
 <td> </td>
-<td><a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-13-release-notes-953131455.html" class="external-link">Bitbucket Server 5.13</a> <br>
+<td><a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-14-release-notes-956720375.html" class="external-link">Bitbucket Server 5.14</a> <br>
+<a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-13-release-notes-953131455.html" class="external-link">Bitbucket Server 5.13</a> <br>
 <a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-12-release-notes-952058612.html" class="external-link">Bitbucket Server 5.12</a> <br>
 <a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-11-release-notes-950274914.html" class="external-link">Bitbucket Server 5.11</a> <br>
 <a href="https://confluence.atlassian.com/bitbucketserver/bitbucket-server-5-10-release-notes-948214779.html" class="external-link">Bitbucket Server 5.10</a> <br>
